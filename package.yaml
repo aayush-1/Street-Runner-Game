@@ -1,0 +1,59 @@
+name: street-runner
+version: '0.0.0'
+github: jxv/street-runner
+license: BSD3
+category: Game
+synopsis: man running on street avoiding obstacles
+description: man running on street avoiding obstacles
+maintainer: aayush
+copyright: 2018 aayush
+data-files:
+- resource/street.json
+- resource/street.png
+extra-source-files:
+- package.yaml
+- README.md
+- stack.yaml
+ghc-options: -Wall
+default-extensions:
+- DuplicateRecordFields
+- FlexibleContexts
+- FlexibleInstances
+- GeneralizedNewtypeDeriving
+- LambdaCase
+- NamedFieldPuns
+- ScopedTypeVariables
+- OverloadedStrings
+library:
+  dependencies:
+    - base >=4.7 && <5
+    - aeson
+    - animate
+    - bytestring
+    - containers
+    - key-state
+    - linear
+    - lens
+    - mtl
+    - safe
+    - safe-exceptions
+    - sdl2
+    - sdl2-image
+    - sdl2-mixer
+    - sdl2-ttf
+    - StateVar
+    - text
+    - text-conversions
+    - random
+  source-dirs: src
+executables:
+  street-runner:
+    dependencies:
+    - base >=4.7 && <5
+    - street-runner
+    ghc-options:
+    - -rtsopts
+    - -threaded
+    - -with-rtsopts=-N
+    main: Main.hs
+    source-dirs: src
