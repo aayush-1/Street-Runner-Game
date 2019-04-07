@@ -8,13 +8,13 @@ cabal-version: 1.12
 
 name:           street-ruuner
 version:        0.0.0
-synopsis:       A Skinner box, running platformer with a dinosaur
-description:    A Skinner box, running platformer with a dinosaur
+synopsis:       
+description:    
 category:       Game
-homepage:       https://github.com/jxv/dino-rush#readme
-bug-reports:    https://github.com/jxv/dino-rush/issues
-maintainer:     Joe Vargas
-copyright:      2018 Joe Vargas
+homepage:       
+bug-reports:    
+maintainer:     
+copyright:      2019 
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -23,12 +23,11 @@ extra-source-files:
     README.md
     stack.yaml
 data-files:
-    resource/dino.json
-    resource/dino.png
+
 
 source-repository head
   type: git
-  location: https://github.com/jxv/dino-rush
+  location: 
 
 library
   exposed-modules:
