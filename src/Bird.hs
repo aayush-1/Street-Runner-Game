@@ -1,4 +1,4 @@
-module StreetRunner.Bird where
+module Bird where
 
 import Data.Text (Text)
 import qualified Animate
