@@ -1,4 +1,4 @@
-module StreetRunner.Frame where
+module Frame where
 
 frameDeltaSeconds :: Fractional a => a
 frameDeltaSeconds = 0.016667
