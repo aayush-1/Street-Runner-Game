@@ -1,6 +1,6 @@
 module StreetRun.Engine.Frame where
 
-frameDeltaSeconds :: Fractional a => a --time it takes to chaneg the frames 
+frameDeltaSeconds :: Fractional a => a --time it takes to change the frames 
 frameDeltaSeconds = 0.016667
 
 frameDeltaMilliseconds :: Int
