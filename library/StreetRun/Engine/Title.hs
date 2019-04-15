@@ -5,7 +5,7 @@ import qualified Animate
 import Control.Lens
 
 import StreetRun.Engine.Types
-import StreetRun.Engine.Dino
+import StreetRun.Engine.Runner
 import StreetRun.Engine.Mountain
 import StreetRun.Engine.River
 
