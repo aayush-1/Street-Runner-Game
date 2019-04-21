@@ -1,4 +1,4 @@
-module StreetRunner.Engine.Grass where
+module StreetRun.Engine.Grass where
 
 import Data.Text (Text)
 import qualified Animate
@@ -8,8 +8,8 @@ data GrassKey
   deriving (Show, Eq, Ord, Bounded, Enum)
 
 instance Animate.KeyName GrassKey where
-  keyName = mountainKey'keyName
+  keyName = grassKey'keyName
 
-mountainKey'keyName :: GrassKey -> Text
-mountainKey'keyName = \case
+grassKey'keyName :: GrassKey -> Text
+grassKey'keyName = \case
   GrassKey'Idle -> "Idle"
