@@ -1,11 +1,11 @@
 {-# LANGUAGE TemplateHaskell #-}
-module StreetRunner.Engine.Common where
+module StreetRun.Engine.Common where
 
 import Control.Lens
 
-import StreetRunner.Engine.Types
-import StreetRunner.Engine.Quake
-import StreetRunner.Engine.Sfx
+import StreetRun.Engine.Types
+import StreetRun.Engine.Quake
+import StreetRun.Engine.Sfx
 
 data CommonVars = CommonVars
   { cvHiscore :: Score
