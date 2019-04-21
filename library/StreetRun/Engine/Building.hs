@@ -8,8 +8,8 @@ data BuildingKey
   deriving (Show, Eq, Ord, Bounded, Enum)
 
 instance Animate.KeyName BuildingKey where
-  keyName = BuildingKey'keyName
+  keyName = buildingKey'keyName
 
-BuildingKey'keyName :: BuildingKey -> Text
-BuildingKey'keyName = \case
+buildingKey'keyName :: BuildingKey -> Text
+buildingKey'keyName = \case
   BuildingKey'Idle -> "Idle"
