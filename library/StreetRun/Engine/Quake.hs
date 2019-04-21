@@ -1,8 +1,8 @@
-module StreetRunner.Engine.Quake where
+module StreetRun.Engine.Quake where
 
-import StreetRunner.Engine.Types
-import StreetRunner.Engine.Frame
-import StreetRunner.Engine.Step
+import StreetRun.Engine.Types
+import StreetRun.Engine.Frame
+import StreetRun.Engine.Step
 
 data Quake
   = Quake'Progress Percent
