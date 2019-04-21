@@ -16,8 +16,8 @@ data PlayVars = PlayVars
   , pvSpeed :: Percent
   , pvSeconds :: Seconds
   , pvZoom :: Float
-  , pvShowStreet :: Bool
-  , pvStreetPos :: Animate.Position StreetKey Seconds
+  , pvShowRunner :: Bool
+  , pvRunnerPos :: Animate.Position RunnerKey Seconds
   , pvBuildingPos :: Animate.Position BuildingKey Seconds
   , pvGrassPos :: Animate.Position GrassKey Seconds
   , pvRunnerState :: RunnerState
@@ -37,7 +37,7 @@ initPlayVars upcomingObstacles = PlayVars
   , pvStocks = 3
   , pvSeconds = 0
   , pvSpeed = 1
-  , pvShowStreet = True
+  , pvShowRunner = True
   , pvZoom = 1
   , pvRunnerState = RunnerState RunnerAction'Move Nothing Nothing Nothing
   , pvRunnerPos = Animate.initPosition RunnerKey'Move
