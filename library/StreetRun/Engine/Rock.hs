@@ -1,4 +1,4 @@
-module StreetRunner.Engine.Rock where
+module StreetRun.Engine.Rock where
 
 import qualified Animate
 import Data.Text (Text)
