@@ -1,4 +1,4 @@
-module StreetRunner.Engine.Sfx where
+module StreetRun.Engine.Sfx where
 
 data Sfx          --data types for special effects for different tasks by the runner
   = Sfx'Jump
