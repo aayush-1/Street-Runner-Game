@@ -1,14 +1,14 @@
 {-# LANGUAGE TemplateHaskell #-}
-module StreetRunner.Engine.Play where
+module StreetRun.Engine.Play where
 
 import qualified Animate
 import Control.Lens
 
-import StreetRunner.Engine.Street
-import StreetRunner.Engine.Building
-import StreetRunner.Engine.Grass
-import StreetRunner.Engine.Obstacle
-import StreetRunner.Engine.Types
+import StreetRun.Engine.Street
+import StreetRun.Engine.Building
+import StreetRun.Engine.Grass
+import StreetRun.Engine.Obstacle
+import StreetRun.Engine.Types
 
 data PlayVars = PlayVars
   { pvScore :: Score
@@ -20,7 +20,7 @@ data PlayVars = PlayVars
   , pvStreetPos :: Animate.Position StreetKey Seconds
   , pvBuildingPos :: Animate.Position BuildingKey Seconds
   , pvGrassPos :: Animate.Position GrassKey Seconds
-  , pvStreetState :: StreetState
+  , pvRunnerState :: RunnerState
   , pvBuildingScroll :: Distance
   , pvBackStreetScroll :: Distance
   , pvStreetScroll :: Distance
@@ -39,8 +39,8 @@ initPlayVars upcomingObstacles = PlayVars
   , pvSpeed = 1
   , pvShowStreet = True
   , pvZoom = 1
-  , pvStreetState = StreetState StreetAction'Move Nothing Nothing Nothing
-  , pvStreetPos = Animate.initPosition StreetKey'Move
+  , pvRunnerState = RunnerState RunnerAction'Move Nothing Nothing Nothing
+  , pvRunnerPos = Animate.initPosition RunnerKey'Move
   , pvBuildingPos = Animate.initPosition BuildingKey'Idle
   , pvGrassPos = Animate.initPosition GrassKey'Idle
   , pvBuildingScroll = 0
