@@ -1,4 +1,4 @@
-module StreetRunner.Engine.Step where
+module StreetRun.Engine.Step where
 
 data Step a
   = Step'Change a a -- | Prev, Next
