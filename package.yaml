@@ -6,10 +6,10 @@ category: Game
 synopsis: man running on street avoiding obstacles
 description: man running on street avoiding obstacles
 maintainer: aayush
-copyright: 2018 aayush
+copyright: 2019 aayush
 data-files:
-- resource/street.json
-- resource/street.png
+- resource/runner.json
+- resource/run.png
 extra-source-files:
 - package.yaml
 - README.md
@@ -45,7 +45,7 @@ library:
     - text
     - text-conversions
     - random
-  source-dirs: src
+  source-dirs: library
 executables:
   street-runner:
     dependencies:
@@ -56,4 +56,4 @@ executables:
     - -threaded
     - -with-rtsopts=-N
     main: Main.hs
-    source-dirs: src
+    source-dirs: executable
