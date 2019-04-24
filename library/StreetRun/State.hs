@@ -1,16 +1,16 @@
 {-# LANGUAGE TemplateHaskell #-}
-module StreetRunner.State where
+module StreetRun.State where
 
 import Control.Lens
 
-import StreetRunner.Engine.Common
-import StreetRunner.Engine.Scene
-import StreetRunner.Engine.Input
-import StreetRunner.Engine.Camera
-import StreetRunner.Engine.Obstacle
-import StreetRunner.Engine.Play
-import StreetRunner.Engine.GameOver
-import StreetRunner.Engine.Title
+import StreetRun.Engine.Common
+import StreetRun.Engine.Scene
+import StreetRun.Engine.Input
+import StreetRun.Engine.Camera
+import StreetRun.Engine.Obstacle
+import StreetRun.Engine.Play
+import StreetRun.Engine.GameOver
+import StreetRun.Engine.Title
 
 data Vars = Vars 
   { vCommon :: CommonVars
