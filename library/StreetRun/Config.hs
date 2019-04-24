@@ -1,11 +1,11 @@
-module StreetRunner.Config
+module StreetRun.Config
   ( Config(..)
   , Resources(..)
   ) where
 
 import qualified SDL
 
-import StreetRunner.Resource
+import StreetRun.Resource
 
 data Config = Config
   { cWindow :: SDL.Window
