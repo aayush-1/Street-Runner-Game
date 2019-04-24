@@ -11,8 +11,8 @@ version:        0.0.0
 synopsis:       man running on street avoiding obstacles
 description:    man running on street avoiding obstacles
 category:       Game
-homepage:       https://github.com/jxv/street-runner#readme
-bug-reports:    https://github.com/jxv/street-runner/issues
+homepage:       https://github.com/haskell-10/street-runner#readme
+bug-reports:    https://github.com/haskell-10/street-runner/issues
 maintainer:     aayush
 copyright:      2019 aayush
 license:        BSD3
@@ -28,7 +28,7 @@ data-files:
 
 source-repository head
   type: git
-  location: https://github.com/jxv/street-runner
+  location: https://github.com/haskell-10/street-runner
 
 library
   exposed-modules:

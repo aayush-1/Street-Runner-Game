@@ -1,6 +1,6 @@
 name: street-runner
 version: '0.0.0'
-github: jxv/street-runner
+github: haskell-10/street-runner
 license: BSD3
 category: Game
 synopsis: man running on street avoiding obstacles
