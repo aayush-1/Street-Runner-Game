@@ -12,3 +12,4 @@ data Input = Input
 
 initInput :: Input
 initInput = Input initKeyState initKeyState initKeyState initKeyState False
+--initKeyState keep ksStatus and count

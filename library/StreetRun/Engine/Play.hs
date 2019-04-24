@@ -4,7 +4,7 @@ module StreetRun.Engine.Play where
 import qualified Animate
 import Control.Lens
 
-import StreetRun.Engine.Street
+import StreetRun.Engine.Runner
 import StreetRun.Engine.Building
 import StreetRun.Engine.Grass
 import StreetRun.Engine.Obstacle

@@ -6,7 +6,7 @@ import Control.Lens
 
 import StreetRun.Engine.Types
 import StreetRun.Engine.Runner
-import StreetRun.Engine.Buiding
+import StreetRun.Engine.Building
 import StreetRun.Engine.Grass
 
 data TitleVars = TitleVars
