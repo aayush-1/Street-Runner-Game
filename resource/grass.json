@@ -1,0 +1,10 @@
+{
+  "image": "resource/grass.png",
+  "alpha": [255,0,255],
+  "clips": [
+    [1,  1, 320, 121] 
+  ],
+  "animations": {
+    "Idle": [ [0,0.6] ]
+  }
+}
