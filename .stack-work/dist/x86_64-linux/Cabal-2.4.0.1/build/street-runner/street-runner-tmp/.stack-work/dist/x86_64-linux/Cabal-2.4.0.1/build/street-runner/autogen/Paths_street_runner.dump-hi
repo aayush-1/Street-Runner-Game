@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 21:24:18.942515469 UTC
+2019-04-25 21:36:05.761998035 UTC
 
 interface main:Paths_street_runner 8064
-  interface hash: 11df4233934bfbfdf9806124581df3b8
-  ABI hash: fb3e9ac1d210d5014e680932724c644c
+  interface hash: 3b0303e1e8fe7ba6bfb7626de1b48051
+  ABI hash: f9c2fceda28f11257eef27f24006e92e
   export-list hash: b23797dbdbbc341a37ea05bb911818f2
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 81d120db6fa45b8754617b0c7832fb3f
@@ -63,14 +63,14 @@ e8ed6ab39ea97e9f0a98563c0b0cd3aa
 a6fcc6a6233f70e9ed68173a421f7f5a
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("main"#) -}
-7b8ccc22df32937b50ef0f8c5c15b5fe
+fab3a520599dd0113ecda69a07e9d839
   getBinDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_street_runner.getBinDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-261ad5d70ab4a03dc57110ec92e50bc1
+cbcbc92a82688dae8c9ea5fdb6bfc8ac
   getBinDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -82,7 +82,7 @@ a6fcc6a6233f70e9ed68173a421f7f5a
                    Paths_street_runner.getBinDir5
                    Paths_street_runner.getBinDir2
                    eta) -}
-c9386f910d859058bac60839c735f3b1
+d7b7ffdb449b58a7e98a27394967cba6
   getBinDir2 ::
     GHC.Exception.Type.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -107,14 +107,14 @@ c9386f910d859058bac60839c735f3b1
                         wild
                         eta
                    GHC.Types.True -> (# eta, Paths_street_runner.getBinDir3 #) } }) -}
-04ee4d25b4b244c4eeba585856bff5da
+1d6376e6b2686be8362fb67e8050a969
   getBinDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_street_runner.getBinDir4) -}
-a217060f1a370a05f8f5d35e2721ab1d
+41e2d8c06d91cb97e1fad646379b4a78
   getBinDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("/media/aakash/Workspace/pdfs/working (copy)/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/bin"#) -}
+     Unfolding: ("/home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/bin"#) -}
 43e04999e54b4ed9f324fa351573aafc
   getBinDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
@@ -147,14 +147,14 @@ a217060f1a370a05f8f5d35e2721ab1d
 804be8c5ca5fc9d421abca96667249fc
   getBinDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("street_runner_bindir"#) -}
-511106b937da79973209ff79b69d52f7
+6913f3cab016de38d4809748f0f758da
   getDataDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_street_runner.getDataDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-ad714378bd5a90c3a09ac823fe8a6708
+06b7c66172895969e4e92d3a4c730e70
   getDataDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -166,7 +166,7 @@ ad714378bd5a90c3a09ac823fe8a6708
                    Paths_street_runner.getDataDir5
                    Paths_street_runner.getDataDir2
                    eta) -}
-79027e13c54d414b23e29021056eee45
+c8600836e9db3efb1e43459a7329fb32
   getDataDir2 ::
     GHC.Exception.Type.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -192,14 +192,14 @@ ad714378bd5a90c3a09ac823fe8a6708
                         eta
                    GHC.Types.True
                    -> (# eta, Paths_street_runner.getDataDir3 #) } }) -}
-cc8f812a5765d2a6448fa0ae1eba1f1b
+230d80da1aaba4a60fec07842b875fc4
   getDataDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_street_runner.getDataDir4) -}
-f1d3818646e991a01cc3af01ddc5f3da
+47ea88fa0c6f0de159fe8d4ca5163e90
   getDataDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("/media/aakash/Workspace/pdfs/working (copy)/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/share/x86_64-linux-ghc-8.6.4/street-runner-0.0.0"#) -}
+     Unfolding: ("/home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/share/x86_64-linux-ghc-8.6.4/street-runner-0.0.0"#) -}
 c55b4a4e89472571658917225d8314f3
   getDataDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
@@ -232,7 +232,7 @@ c55b4a4e89472571658917225d8314f3
 3a95b1df6e044cbab03d89a993dde855
   getDataDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("street_runner_datadir"#) -}
-e4239dd66bfa7a93a4afdef3ab7c3232
+0712bb7d4b8a3ae68e1f169aa197c20b
   getDataFileName :: GHC.IO.FilePath -> GHC.Types.IO GHC.IO.FilePath
   {- Arity: 2, Strictness: <L,U><S,U>,
      Unfolding: InlineRule (0, True, True)
@@ -240,7 +240,7 @@ e4239dd66bfa7a93a4afdef3ab7c3232
                   `cast`
                 (<GHC.IO.FilePath>_R
                  ->_R Sym (GHC.Types.N:IO[0] <GHC.IO.FilePath>_R)) -}
-cef8695794c02d2262bfad9d00e6afbc
+343f8cf32f7c1cc94fe8f41790f5decb
   getDataFileName1 ::
     GHC.IO.FilePath
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -264,14 +264,14 @@ cef8695794c02d2262bfad9d00e6afbc
 f3e8af948e836bc27c50a07dd552955a
   getDataFileName2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("/"#) -}
-fcda680168776c50a1e3baa30636c0ce
+b6413db75228dcbb5a5ae870c9e220db
   getDynLibDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_street_runner.getDynLibDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-de95ac179a58b39675c714e5f14bf972
+d9a529a5d8ed2c900170874e4179b63a
   getDynLibDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -283,7 +283,7 @@ de95ac179a58b39675c714e5f14bf972
                    Paths_street_runner.getDynLibDir5
                    Paths_street_runner.getDynLibDir2
                    eta) -}
-c7c7b5bab2fd3f45deaaa7dd0de7f079
+533e1e9fd99e41707d9380ee99b61eec
   getDynLibDir2 ::
     GHC.Exception.Type.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -309,14 +309,14 @@ c7c7b5bab2fd3f45deaaa7dd0de7f079
                         eta
                    GHC.Types.True
                    -> (# eta, Paths_street_runner.getDynLibDir3 #) } }) -}
-f2ceff39d4c70eb9c5f86f492d6422c8
+c48f99bbac22614126d1d04a5edc5660
   getDynLibDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_street_runner.getDynLibDir4) -}
-8f3d9f097763294055236b130e7f6c3a
+cdea6ac8b3795c4d3a616f56150c5455
   getDynLibDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("/media/aakash/Workspace/pdfs/working (copy)/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/lib/x86_64-linux-ghc-8.6.4"#) -}
+     Unfolding: ("/home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/lib/x86_64-linux-ghc-8.6.4"#) -}
 10583c30a1256e8354a0fe24a9224161
   getDynLibDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
@@ -351,14 +351,14 @@ f2ceff39d4c70eb9c5f86f492d6422c8
 ba9a3cbd6379d8f3e30a82b50ca59672
   getDynLibDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("street_runner_dynlibdir"#) -}
-d61c3ed895a8c0097795c7111cb1cfa7
+a75bfa6db8a958394af3574a9542e765
   getLibDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_street_runner.getLibDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-9c83ee53c5bda9d8d5774d384e272ba3
+1ed9158e5532092c81359af6fbd18de4
   getLibDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -370,7 +370,7 @@ d61c3ed895a8c0097795c7111cb1cfa7
                    Paths_street_runner.getLibDir5
                    Paths_street_runner.getLibDir2
                    eta) -}
-6416336f4b1528a693bea2efcc9ba942
+467773c809deac4c9c6a7472b2fc2ccc
   getLibDir2 ::
     GHC.Exception.Type.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -395,14 +395,14 @@ d61c3ed895a8c0097795c7111cb1cfa7
                         wild
                         eta
                    GHC.Types.True -> (# eta, Paths_street_runner.getLibDir3 #) } }) -}
-cf1693666a98cb15c8528307d4ff9cf5
+03c64e42023bc05581c755fe3f0a1e7c
   getLibDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_street_runner.getLibDir4) -}
-6833988c8ea6daf78a0a423101b35c30
+7429980bb81a65a674a82286f66244a5
   getLibDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("/media/aakash/Workspace/pdfs/working (copy)/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/lib/x86_64-linux-ghc-8.6.4/street-runner-0.0.0-IRHS6dLHshlHGWQD6b0861-street-runner"#) -}
+     Unfolding: ("/home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/lib/x86_64-linux-ghc-8.6.4/street-runner-0.0.0-IRHS6dLHshlHGWQD6b0861-street-runner"#) -}
 00c2912942b4de14bae757c02d312a6b
   getLibDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
@@ -435,14 +435,14 @@ ac58965d2c3bfede71d9b10df9881693
 dfc7440366abb140fa25c0eb759961b1
   getLibDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("street_runner_libdir"#) -}
-4cc7f2f905af294f18117e09970e5060
+42e6a3586efe02ff1d8cad24053ef64c
   getLibexecDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_street_runner.getLibexecDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-e86597f5dbb297313ecc0ea6812da02a
+2d02c9487b9af8e27918b83922c6c6ae
   getLibexecDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -454,7 +454,7 @@ e86597f5dbb297313ecc0ea6812da02a
                    Paths_street_runner.getLibexecDir5
                    Paths_street_runner.getLibexecDir2
                    eta) -}
-842870f34f272e85b00cc25528333800
+560dc75297cadff8f582f8bbff8e5de9
   getLibexecDir2 ::
     GHC.Exception.Type.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -480,14 +480,14 @@ e86597f5dbb297313ecc0ea6812da02a
                         eta
                    GHC.Types.True
                    -> (# eta, Paths_street_runner.getLibexecDir3 #) } }) -}
-124c08b1244e98091adc376fa9309c28
+df8e6ad98223d91f270b2d43ec3c17ab
   getLibexecDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_street_runner.getLibexecDir4) -}
-2bb7ecb1de858b67ea7baf904562e439
+95fa1c8fa964ac202814056fd93cd9dd
   getLibexecDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("/media/aakash/Workspace/pdfs/working (copy)/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/libexec/x86_64-linux-ghc-8.6.4/street-runner-0.0.0"#) -}
+     Unfolding: ("/home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/libexec/x86_64-linux-ghc-8.6.4/street-runner-0.0.0"#) -}
 94ecf6a212011b2c568862d6034bbfb0
   getLibexecDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
@@ -522,14 +522,14 @@ e86597f5dbb297313ecc0ea6812da02a
 ad9bf0bd126bad882e315c90e2e5a1b1
   getLibexecDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("street_runner_libexecdir"#) -}
-1b7860b16110d181c6032664409b22c2
+b34aae2cb95b252fcbb52c30e0bca49e
   getSysconfDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_street_runner.getSysconfDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-6eca11e0c336292f41d3eb3881c19393
+31ea89b5004d03069969faab68433f91
   getSysconfDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -541,7 +541,7 @@ ad9bf0bd126bad882e315c90e2e5a1b1
                    Paths_street_runner.getSysconfDir5
                    Paths_street_runner.getSysconfDir2
                    eta) -}
-75fcf502d26995bb398089b8436fc742
+e3bdc1b7b4b2dcc510ab2ddba4643fed
   getSysconfDir2 ::
     GHC.Exception.Type.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -567,14 +567,14 @@ ad9bf0bd126bad882e315c90e2e5a1b1
                         eta
                    GHC.Types.True
                    -> (# eta, Paths_street_runner.getSysconfDir3 #) } }) -}
-689eb85ec89a253816483d7bb7a2c11b
+ebaaa22c08eae75816959a6f644c6db9
   getSysconfDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_street_runner.getSysconfDir4) -}
-366f76af554800a78a20bef7a04b0468
+58f0f4182dc71746b60868ea6379a519
   getSysconfDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("/media/aakash/Workspace/pdfs/working (copy)/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/etc"#) -}
+     Unfolding: ("/home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/etc"#) -}
 459414f8aace12f448691dd6b72059fe
   getSysconfDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
