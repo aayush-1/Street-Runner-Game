@@ -10,9 +10,7 @@ import Control.Monad.Reader
 import StreetRun.Config
 import StreetRun.Types
 import StreetRun.Runner
-import StreetRun.Lava
-import StreetRun.Rock
-import StreetRun.Bird
+import StreetRun.Snag
 import StreetRun.Font
 import StreetRun.Font_functions
 import StreetRun.Building

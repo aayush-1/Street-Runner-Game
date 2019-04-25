@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/media/aakash/Workspace/pdfs/working (copy)/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/bin"
-libdir     = "/media/aakash/Workspace/pdfs/working (copy)/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/lib/x86_64-linux-ghc-8.6.4/street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"
-dynlibdir  = "/media/aakash/Workspace/pdfs/working (copy)/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/lib/x86_64-linux-ghc-8.6.4"
-datadir    = "/media/aakash/Workspace/pdfs/working (copy)/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/share/x86_64-linux-ghc-8.6.4/street-runner-0.0.0"
-libexecdir = "/media/aakash/Workspace/pdfs/working (copy)/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/libexec/x86_64-linux-ghc-8.6.4/street-runner-0.0.0"
-sysconfdir = "/media/aakash/Workspace/pdfs/working (copy)/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/etc"
+bindir     = "/home/aayush/haskell-10/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/bin"
+libdir     = "/home/aayush/haskell-10/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/lib/x86_64-linux-ghc-8.6.4/street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"
+dynlibdir  = "/home/aayush/haskell-10/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/lib/x86_64-linux-ghc-8.6.4"
+datadir    = "/home/aayush/haskell-10/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/share/x86_64-linux-ghc-8.6.4/street-runner-0.0.0"
+libexecdir = "/home/aayush/haskell-10/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/libexec/x86_64-linux-ghc-8.6.4/street-runner-0.0.0"
+sysconfdir = "/home/aayush/haskell-10/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "street_runner_bindir") (\_ -> return bindir)
