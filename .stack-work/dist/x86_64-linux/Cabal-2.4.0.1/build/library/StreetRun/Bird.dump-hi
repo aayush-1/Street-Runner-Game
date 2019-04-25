@@ -1,0 +1,511 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 21:19:30.071002189 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Bird 8064
+  interface hash: 6baaea6df92b02a2f5c1378281c08d82
+  ABI hash: 3cf13148e55af0931381c11db6542b7c
+  export-list hash: ee6c352eaf84b1881abb2bf85408eed5
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: cd6997935d09daa6a687cb8eb0447281
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Bird.birdKey'keyName
+  StreetRun.Bird.BirdKey{StreetRun.Bird.BirdKey'Idle}
+module dependencies:
+package dependencies: aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0
+                      attoparsec-0.13.2.2 base-4.12.0.0 base-compat-0.10.5 binary-0.8.6.0
+                      bytestring-0.10.8.2 conduit-1.3.1.1 containers-0.6.0.1
+                      deepseq-1.4.4.0 dlist-0.8.0.6 exceptions-0.10.1 ghc-boot-th-8.6.4
+                      ghc-prim-0.5.3 hashable-1.2.7.0 integer-gmp-1.0.2.0
+                      integer-logarithms-1.0.2.2 libyaml-0.1.1.0 mtl-2.2.2
+                      primitive-0.6.4.0 random-1.1 resourcet-1.2.2 scientific-0.3.6.2
+                      stm-2.5.0.0 tagged-0.8.6 template-haskell-2.14.0.0 text-1.2.3.1
+                      time-1.8.0.2 time-locale-compat-0.1.1.5 transformers-0.5.6.2
+                      unliftio-core-0.1.2.0 unordered-containers-0.2.9.0 uuid-types-1.0.3
+                      vector-0.12.0.2 yaml-0.11.0.0
+orphans: stm-2.5.0.0:Control.Monad.STM
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.2:Data.Vector.Unboxed
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: aeson-1.4.2.0:Data.Aeson.Types.Internal
+                         animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Enum 87204abed08db8735fc0be5ab48689aa
+import  -/  base-4.12.0.0:GHC.Err ea5e313ef4146b40b5d8b27aa168e736
+import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
+import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
+import  -/  text-1.2.3.1:Data.Text 1e51a010d8f8a6fa41d8ea82d69faf13
+import  -/  text-1.2.3.1:Data.Text.Internal 537e168590e8068f673f691833f78483
+8aefce4181bcff63b7e928ac9c664706
+  $fBoundedBirdKey :: GHC.Enum.Bounded StreetRun.Bird.BirdKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Bird.BirdKey
+                  StreetRun.Bird.BirdKey'Idle
+                  StreetRun.Bird.BirdKey'Idle -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey :: GHC.Enum.Enum StreetRun.Bird.BirdKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Bird.BirdKey
+                  StreetRun.Bird.$fEnumBirdKey_$csucc
+                  StreetRun.Bird.$fEnumBirdKey_$cpred
+                  StreetRun.Bird.$fEnumBirdKey_$ctoEnum
+                  StreetRun.Bird.$fEnumBirdKey_$cfromEnum
+                  StreetRun.Bird.$fEnumBirdKey_$cenumFrom
+                  StreetRun.Bird.$fEnumBirdKey_$cenumFromThen
+                  StreetRun.Bird.$fEnumBirdKey_$cenumFromTo
+                  StreetRun.Bird.$fEnumBirdKey_$cenumFromThenTo -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey1 :: [StreetRun.Bird.BirdKey]
+  {- Unfolding: (StreetRun.Bird.$fEnumBirdKey_go_up 0#) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey2 :: [StreetRun.Bird.BirdKey]
+  {- Unfolding: (StreetRun.Bird.$fEnumBirdKey_go 0#) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey3 :: [StreetRun.Bird.BirdKey]
+  {- Unfolding: (StreetRun.Bird.$fEnumBirdKey_go1 0#) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey4 :: StreetRun.Bird.BirdKey
+  {- Strictness: x -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey5 :: StreetRun.Bird.BirdKey
+  {- Strictness: x -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey_$cenumFrom ::
+    StreetRun.Bird.BirdKey -> [StreetRun.Bird.BirdKey]
+  {- Arity: 1, Strictness: <S,1*H>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: StreetRun.Bird.BirdKey) ->
+                 case w of w1 { StreetRun.Bird.BirdKey'Idle ->
+                 StreetRun.Bird.$fEnumBirdKey3 }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey_$cenumFromThen ::
+    StreetRun.Bird.BirdKey
+    -> StreetRun.Bird.BirdKey -> [StreetRun.Bird.BirdKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Bird.BirdKey) (w1 :: StreetRun.Bird.BirdKey) ->
+                 case w of w2 { StreetRun.Bird.BirdKey'Idle ->
+                 case w1 of w3 { StreetRun.Bird.BirdKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Bird.BirdKey
+                   StreetRun.Bird.BirdKey'Idle
+                   (letrec {
+                      go_up1 :: GHC.Prim.Int# -> [StreetRun.Bird.BirdKey]
+                        {- Arity: 1, Strictness: <S,U> -}
+                      = \ (x :: GHC.Prim.Int#) ->
+                        case GHC.Prim.># x 0# of lwild1 {
+                          DEFAULT
+                          -> GHC.Types.:
+                               @ StreetRun.Bird.BirdKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Bird.BirdKey x)
+                               (go_up1 x)
+                          1#
+                          -> GHC.Types.:
+                               @ StreetRun.Bird.BirdKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Bird.BirdKey x)
+                               (GHC.Types.[] @ StreetRun.Bird.BirdKey) }
+                    } in
+                    go_up1 0#) } }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey_$cenumFromThenTo ::
+    StreetRun.Bird.BirdKey
+    -> StreetRun.Bird.BirdKey
+    -> StreetRun.Bird.BirdKey
+    -> [StreetRun.Bird.BirdKey]
+  {- Arity: 3, Strictness: <S,1*H><S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: StreetRun.Bird.BirdKey)
+                   (w1 :: StreetRun.Bird.BirdKey)
+                   (w2 :: StreetRun.Bird.BirdKey) ->
+                 case w of w3 { StreetRun.Bird.BirdKey'Idle ->
+                 case w1 of w4 { StreetRun.Bird.BirdKey'Idle ->
+                 case w2 of w5 { StreetRun.Bird.BirdKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Bird.BirdKey
+                   StreetRun.Bird.BirdKey'Idle
+                   StreetRun.Bird.$fEnumBirdKey1 } } }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey_$cenumFromTo ::
+    StreetRun.Bird.BirdKey
+    -> StreetRun.Bird.BirdKey -> [StreetRun.Bird.BirdKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Bird.BirdKey) (w1 :: StreetRun.Bird.BirdKey) ->
+                 case w of w2 { StreetRun.Bird.BirdKey'Idle ->
+                 case w1 of w3 { StreetRun.Bird.BirdKey'Idle ->
+                 StreetRun.Bird.$fEnumBirdKey2 } }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey_$cfromEnum :: StreetRun.Bird.BirdKey -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*H>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Bird.BirdKey) ->
+                 case a of wild { StreetRun.Bird.BirdKey'Idle ->
+                 GHC.Types.I# 0# }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey_$cpred ::
+    StreetRun.Bird.BirdKey -> StreetRun.Bird.BirdKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Bird.BirdKey) ->
+                 case a of wild { StreetRun.Bird.BirdKey'Idle ->
+                 StreetRun.Bird.$fEnumBirdKey4 }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey_$csucc ::
+    StreetRun.Bird.BirdKey -> StreetRun.Bird.BirdKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Bird.BirdKey) ->
+                 case a of wild { StreetRun.Bird.BirdKey'Idle ->
+                 StreetRun.Bird.$fEnumBirdKey5 }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey_$ctoEnum :: GHC.Types.Int -> StreetRun.Bird.BirdKey
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 StreetRun.Bird.$w$ctoEnum ww1 }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey_go :: GHC.Prim.Int# -> [StreetRun.Bird.BirdKey]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey_go1 :: GHC.Prim.Int# -> [StreetRun.Bird.BirdKey]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEnumBirdKey_go_up :: GHC.Prim.Int# -> [StreetRun.Bird.BirdKey]
+  {- Arity: 1, Strictness: <S,U>m2 -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEqBirdKey :: GHC.Classes.Eq StreetRun.Bird.BirdKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Bird.BirdKey
+                  StreetRun.Bird.$fEqBirdKey_$c==
+                  StreetRun.Bird.$fEqBirdKey_$c/= -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEqBirdKey_$c/= ::
+    StreetRun.Bird.BirdKey -> StreetRun.Bird.BirdKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Bird.BirdKey) (y :: StreetRun.Bird.BirdKey) ->
+                 case x of wild { StreetRun.Bird.BirdKey'Idle ->
+                 case y of wild1 { StreetRun.Bird.BirdKey'Idle ->
+                 GHC.Types.False } }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fEqBirdKey_$c== ::
+    StreetRun.Bird.BirdKey -> StreetRun.Bird.BirdKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Bird.BirdKey)
+                   (ds1 :: StreetRun.Bird.BirdKey) ->
+                 case ds of wild { StreetRun.Bird.BirdKey'Idle ->
+                 case ds1 of wild1 { StreetRun.Bird.BirdKey'Idle ->
+                 GHC.Types.True } }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fKeyNameBirdKey :: Animate.KeyName StreetRun.Bird.BirdKey
+  DFunId
+  {- Arity: 1, Strictness: <S,1*H>, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                StreetRun.Bird.birdKey'keyName
+                  `cast`
+                (Sym (Animate.N:KeyName[0] <StreetRun.Bird.BirdKey>_N)) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fOrdBirdKey :: GHC.Classes.Ord StreetRun.Bird.BirdKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Bird.BirdKey
+                  StreetRun.Bird.$fEqBirdKey
+                  StreetRun.Bird.$fOrdBirdKey_$ccompare
+                  StreetRun.Bird.$fOrdBirdKey_$c<
+                  StreetRun.Bird.$fOrdBirdKey_$c<=
+                  StreetRun.Bird.$fOrdBirdKey_$c>
+                  StreetRun.Bird.$fEqBirdKey_$c==
+                  StreetRun.Bird.$fOrdBirdKey_$cmax
+                  StreetRun.Bird.$fOrdBirdKey_$cmax -}
+8aefce4181bcff63b7e928ac9c664706
+  $fOrdBirdKey_$c< ::
+    StreetRun.Bird.BirdKey -> StreetRun.Bird.BirdKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Bird.BirdKey) (b :: StreetRun.Bird.BirdKey) ->
+                 case a of wild { StreetRun.Bird.BirdKey'Idle ->
+                 case b of wild1 { StreetRun.Bird.BirdKey'Idle ->
+                 GHC.Types.False } }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fOrdBirdKey_$c<= ::
+    StreetRun.Bird.BirdKey -> StreetRun.Bird.BirdKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Bird.BirdKey) (b :: StreetRun.Bird.BirdKey) ->
+                 case b of wild { StreetRun.Bird.BirdKey'Idle ->
+                 case a of wild1 { StreetRun.Bird.BirdKey'Idle ->
+                 GHC.Types.True } }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fOrdBirdKey_$c> ::
+    StreetRun.Bird.BirdKey -> StreetRun.Bird.BirdKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Bird.BirdKey) (b :: StreetRun.Bird.BirdKey) ->
+                 case b of wild { StreetRun.Bird.BirdKey'Idle ->
+                 case a of wild1 { StreetRun.Bird.BirdKey'Idle ->
+                 GHC.Types.False } }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fOrdBirdKey_$ccompare ::
+    StreetRun.Bird.BirdKey
+    -> StreetRun.Bird.BirdKey -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Bird.BirdKey) (b :: StreetRun.Bird.BirdKey) ->
+                 case a of wild { StreetRun.Bird.BirdKey'Idle ->
+                 case b of wild1 { StreetRun.Bird.BirdKey'Idle ->
+                 GHC.Types.EQ } }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fOrdBirdKey_$cmax ::
+    StreetRun.Bird.BirdKey
+    -> StreetRun.Bird.BirdKey -> StreetRun.Bird.BirdKey
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U()><S,1*H>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: StreetRun.Bird.BirdKey) (y :: StreetRun.Bird.BirdKey) ->
+                 case y of wild { StreetRun.Bird.BirdKey'Idle -> x }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fShowBirdKey :: GHC.Show.Show StreetRun.Bird.BirdKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Bird.BirdKey
+                  StreetRun.Bird.$fShowBirdKey_$cshowsPrec
+                  StreetRun.Bird.$fShowBirdKey_$cshow
+                  StreetRun.Bird.$fShowBirdKey_$cshowList -}
+8aefce4181bcff63b7e928ac9c664706
+  $fShowBirdKey1 :: StreetRun.Bird.BirdKey -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*H><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Bird.BirdKey) (eta :: GHC.Base.String) ->
+                 case ds of wild { StreetRun.Bird.BirdKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Bird.$fShowBirdKey2)
+                   eta }) -}
+6737a4f201607b3b15a405167f089b5c
+  $fShowBirdKey2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Bird.$fShowBirdKey3) -}
+fe96b4741c1f8db2bb0ed4ff512549b2
+  $fShowBirdKey3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("BirdKey'Idle"#) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fShowBirdKey_$cshow :: StreetRun.Bird.BirdKey -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Bird.BirdKey) ->
+                 case x of wild { StreetRun.Bird.BirdKey'Idle ->
+                 StreetRun.Bird.$fShowBirdKey2 }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fShowBirdKey_$cshowList ::
+    [StreetRun.Bird.BirdKey] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Bird.BirdKey]) (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Bird.BirdKey
+                   StreetRun.Bird.$fShowBirdKey1
+                   ls
+                   s) -}
+8aefce4181bcff63b7e928ac9c664706
+  $fShowBirdKey_$cshowsPrec ::
+    GHC.Types.Int -> StreetRun.Bird.BirdKey -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*H><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: GHC.Types.Int)
+                   (ds1 :: StreetRun.Bird.BirdKey)
+                   (eta :: GHC.Base.String) ->
+                 case ds1 of wild { StreetRun.Bird.BirdKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Bird.$fShowBirdKey2)
+                   eta }) -}
+aa1fdd07a7eeea3cdf461374b8932775
+  $tc'BirdKey'Idle :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   16868264311176075132##
+                   17266048782286599128##
+                   StreetRun.Bird.$trModule
+                   StreetRun.Bird.$tc'BirdKey'Idle2
+                   0#
+                   StreetRun.Bird.$tc'BirdKey'Idle1) -}
+e13a99b81a1f1227593659269470afab
+  $tc'BirdKey'Idle1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+187cba792548f45d5ecb42d8609f29a4
+  $tc'BirdKey'Idle2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Bird.$tc'BirdKey'Idle3) -}
+1670d55c4762d8bf9426a90bb47fb403
+  $tc'BirdKey'Idle3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'BirdKey'Idle"#) -}
+7c8f39283d96deef04a0860c12a10d30
+  $tcBirdKey :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   9203784315211147528##
+                   10816847820594096492##
+                   StreetRun.Bird.$trModule
+                   StreetRun.Bird.$tcBirdKey1
+                   0#
+                   GHC.Types.krep$*) -}
+84e92f9e9956137ce20ade5e5b726cf2
+  $tcBirdKey1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Bird.$tcBirdKey2) -}
+62e8af219a688ed0d2d24dc6215afb7a
+  $tcBirdKey2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("BirdKey"#) -}
+82d0aac293fce9278e8a8320336a3786
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Bird.$trModule3
+                   StreetRun.Bird.$trModule1) -}
+2569fcb516f876c3b3d43c4699c778a7
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Bird.$trModule2) -}
+7f02e2f26180a294350e7fa1fee13104
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Bird"#) -}
+2a9eda87698fc1bec5b59dbeaac5beb7
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Bird.$trModule4) -}
+6a68217a148c97b838265cc8f29e11f9
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+8aefce4181bcff63b7e928ac9c664706
+  $w$ctoEnum :: GHC.Prim.Int# -> StreetRun.Bird.BirdKey
+  {- Arity: 1, Strictness: <S,U>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.>=# ww 0# of lwild {
+                   DEFAULT -> StreetRun.Bird.$wlvl ww
+                   1#
+                   -> case GHC.Prim.<=# ww 0# of lwild1 {
+                        DEFAULT -> StreetRun.Bird.$wlvl ww
+                        1# -> GHC.Prim.tagToEnum# @ StreetRun.Bird.BirdKey ww } }) -}
+8aefce4181bcff63b7e928ac9c664706
+  $wlvl :: GHC.Prim.Int# -> StreetRun.Bird.BirdKey
+  {- Arity: 1, Strictness: <B,U>x, Inline: [2] -}
+8aefce4181bcff63b7e928ac9c664706
+  data BirdKey = BirdKey'Idle
+8aefce4181bcff63b7e928ac9c664706
+  birdKey'keyName ::
+    StreetRun.Bird.BirdKey -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Bird.BirdKey) ->
+                 case ds of wild { StreetRun.Bird.BirdKey'Idle ->
+                 StreetRun.Bird.birdKey'keyName1 }) -}
+0549f1956f5a95135d83bfce7a4f3bba
+  birdKey'keyName1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   StreetRun.Bird.birdKey'keyName2) -}
+39d1259e0ae637d723f63f915dc0f6ce
+  birdKey'keyName2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Idle"#) -}
+instance GHC.Enum.Bounded [StreetRun.Bird.BirdKey]
+  = StreetRun.Bird.$fBoundedBirdKey
+instance GHC.Enum.Enum [StreetRun.Bird.BirdKey]
+  = StreetRun.Bird.$fEnumBirdKey
+instance GHC.Classes.Eq [StreetRun.Bird.BirdKey]
+  = StreetRun.Bird.$fEqBirdKey
+instance Animate.KeyName [StreetRun.Bird.BirdKey]
+  = StreetRun.Bird.$fKeyNameBirdKey
+instance GHC.Classes.Ord [StreetRun.Bird.BirdKey]
+  = StreetRun.Bird.$fOrdBirdKey
+instance GHC.Show.Show [StreetRun.Bird.BirdKey]
+  = StreetRun.Bird.$fShowBirdKey
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

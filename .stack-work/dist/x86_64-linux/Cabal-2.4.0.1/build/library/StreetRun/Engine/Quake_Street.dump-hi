@@ -1,0 +1,198 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 16:57:38.392959571 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Engine.Quake_Street 8064
+  interface hash: a1d08ca00b02edf3ad67f4479a000430
+  ABI hash: ad14db3310a9d98636eddb15cd1449d7
+  export-list hash: 72c80df0b9ab6be3e85e86540aa17f35
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 23bfc2de71c0e795adcc3e64d97ecb08
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Engine.Quake_Street.applyQuakeToStreet
+module dependencies: StreetRun.Engine.Frame StreetRun.Engine.Quake
+                     StreetRun.Engine.Step StreetRun.Engine.Types
+package dependencies: aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0
+                      attoparsec-0.13.2.2 base-4.12.0.0 base-compat-0.10.5 binary-0.8.6.0
+                      bytestring-0.10.8.2 conduit-1.3.1.1 containers-0.6.0.1
+                      deepseq-1.4.4.0 dlist-0.8.0.6 exceptions-0.10.1 ghc-boot-th-8.6.4
+                      ghc-prim-0.5.3 hashable-1.2.7.0 integer-gmp-1.0.2.0
+                      integer-logarithms-1.0.2.2 libyaml-0.1.1.0 mtl-2.2.2
+                      primitive-0.6.4.0 random-1.1 resourcet-1.2.2 scientific-0.3.6.2
+                      stm-2.5.0.0 tagged-0.8.6 template-haskell-2.14.0.0 text-1.2.3.1
+                      time-1.8.0.2 time-locale-compat-0.1.1.5 transformers-0.5.6.2
+                      unliftio-core-0.1.2.0 unordered-containers-0.2.9.0 uuid-types-1.0.3
+                      vector-0.12.0.2 yaml-0.11.0.0
+orphans: stm-2.5.0.0:Control.Monad.STM
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.2:Data.Vector.Unboxed
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: aeson-1.4.2.0:Data.Aeson.Types.Internal
+                         animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  StreetRun.Engine.Frame 973c95b7bcec2fc48e1076e11ca1bf2d
+  exports: 2dfbfe0610e766c48ad204766a6f2079
+import  -/  StreetRun.Engine.Quake e802944d3e9b3bb39e50dfd6016ff286
+  exports: 48113b9e723404cd26e72e91f3419860
+  Quake 5c2104ccda55020462215de10bda60d8
+  applyQuake baea71d89443deab966a249ca86208cd
+import  -/  StreetRun.Engine.Step f0a76cdedf79aa392987b0eab7ac5a30
+  exports: 906f32750bdb93a941a3267931b38cf3
+import  -/  StreetRun.Engine.Types 6986db6c9f4d1e9fc0edc9e119b1c392
+  exports: c934b5ae3d6a2dfd0319fd3b47efce61
+335c681ddeae6afe83e7584af519cb8f
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Engine.Quake_Street.$trModule3
+                   StreetRun.Engine.Quake_Street.$trModule1) -}
+d315cf278a3b921890290e20950fddf2
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Quake_Street.$trModule2) -}
+dbced72157c61ad0eef750ce5d290966
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Engine.Quake_Street"#) -}
+2532e357f4e2ff13f08b6cf38c7e514d
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Quake_Street.$trModule4) -}
+1a821641cd8af64adf2af1a2e5914c5e
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+051f559625fe097b1a6941982da65df2
+  $wapplyQuakeToStreet ::
+    StreetRun.Engine.Quake.Quake
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> (# GHC.Types.Int, GHC.Types.Int #)
+  {- Arity: 3, Strictness: <L,1*U><L,1*U(U)><L,1*U(U)>, Inline: [2],
+     Unfolding: (\ (w :: StreetRun.Engine.Quake.Quake)
+                   (ww :: GHC.Types.Int)
+                   (ww1 :: GHC.Types.Int) ->
+                 let {
+                   ds :: (GHC.Types.Int, GHC.Types.Int)
+                   = case w of wild {
+                       StreetRun.Engine.Quake.Quake'Progress p
+                       -> (case p `cast`
+                                (StreetRun.Engine.Types.N:Percent[0]) of wild1 { GHC.Types.F# x ->
+                           case GHC.Float.$w$cproperFraction1
+                                  @ GHC.Types.Int
+                                  GHC.Real.$fIntegralInt
+                                  (GHC.Prim.timesFloat#
+                                     (GHC.Prim.cosFloat#
+                                        (GHC.Prim.timesFloat#
+                                           (GHC.Prim.timesFloat#
+                                              (GHC.Prim.timesFloat# x 4.0#)
+                                              3.1415927#)
+                                           4.0#))
+                                     4.0#) of ww3 { (#,#) ww4 ww5 ->
+                           ww4 } },
+                           case p `cast`
+                                (StreetRun.Engine.Types.N:Percent[0]) of wild1 { GHC.Types.F# x ->
+                           case GHC.Float.$w$cproperFraction1
+                                  @ GHC.Types.Int
+                                  GHC.Real.$fIntegralInt
+                                  (GHC.Prim.timesFloat#
+                                     (GHC.Prim.sinFloat#
+                                        (GHC.Prim.timesFloat#
+                                           (GHC.Prim.timesFloat#
+                                              (GHC.Prim.plusFloat# x x)
+                                              3.1415927#)
+                                           4.0#))
+                                     4.0#) of ww3 { (#,#) ww4 ww5 ->
+                           ww4 } })
+                       StreetRun.Engine.Quake.Quake'Dormant ipv
+                       -> StreetRun.Engine.Quake_Street.applyQuakeToStreet1 }
+                 } in
+                 (# case ww of wild { GHC.Types.I# x ->
+                    case ds of wild1 { (,) x' y' ->
+                    case x' of wild2 { GHC.Types.I# y ->
+                    GHC.Types.I# (GHC.Prim.+# x y) } } },
+                    case ww1 of wild { GHC.Types.I# x ->
+                    case ds of wild1 { (,) x' y' ->
+                    case y' of wild2 { GHC.Types.I# y ->
+                    GHC.Types.I# (GHC.Prim.+# x y) } } } #)) -}
+b145fb9fee309b1c12bae0c141547652
+  applyQuakeToStreet ::
+    StreetRun.Engine.Quake.Quake
+    -> (GHC.Types.Int, GHC.Types.Int) -> (GHC.Types.Int, GHC.Types.Int)
+  {- Arity: 2, Strictness: <L,1*U><S,1*U(1*U(U),1*U(U))>m,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Engine.Quake.Quake)
+                   (w1 :: (GHC.Types.Int, GHC.Types.Int)) ->
+                 case w1 of ww { (,) ww1 ww2 ->
+                 case StreetRun.Engine.Quake_Street.$wapplyQuakeToStreet
+                        w
+                        ww1
+                        ww2 of ww3 { (#,#) ww4 ww5 ->
+                 (ww4, ww5) } }) -}
+684264e4e009e28f704d5a89205398e5
+  applyQuakeToStreet1 :: (GHC.Types.Int, GHC.Types.Int)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: ((StreetRun.Engine.Quake.applyQuake1,
+                  StreetRun.Engine.Quake.applyQuake1)) -}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

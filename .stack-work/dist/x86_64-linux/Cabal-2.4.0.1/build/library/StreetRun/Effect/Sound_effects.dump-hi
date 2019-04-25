@@ -1,0 +1,378 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 19:30:23.255592402 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Effect.Sound_effects 8064
+  interface hash: df0b738fd54d46777b9d03508abc0842
+  ABI hash: fac8c565458462f07f7e336009574055
+  export-list hash: cc137021a2189b47735583e8823a8958
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 9e4fb1f04cc4eff0e23b2f9f31508f0f
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Effect.Sound_effects.addSfxs'
+  StreetRun.Effect.Sound_effects.clearSfx'
+  StreetRun.Effect.Sound_effects.playSfx'
+  StreetRun.Effect.Sound_effects.AudioSfx{StreetRun.Effect.Sound_effects.addSfxs StreetRun.Effect.Sound_effects.clearSfx StreetRun.Effect.Sound_effects.playSfx}
+module dependencies: StreetRun.Config StreetRun.Effect.Audio
+                     StreetRun.Engine.Bird StreetRun.Engine.Building
+                     StreetRun.Engine.Camera StreetRun.Engine.Common
+                     StreetRun.Engine.Font StreetRun.Engine.Font_functions
+                     StreetRun.Engine.Frame StreetRun.Engine.Grass
+                     StreetRun.Engine.Input StreetRun.Engine.Lava
+                     StreetRun.Engine.Obstacle StreetRun.Engine.Physics
+                     StreetRun.Engine.Quake StreetRun.Engine.Quake_BackStreet
+                     StreetRun.Engine.Quake_Building StreetRun.Engine.Quake_Grass
+                     StreetRun.Engine.Quake_Street StreetRun.Engine.Rock
+                     StreetRun.Engine.Runner StreetRun.Engine.Sfx StreetRun.Engine.Step
+                     StreetRun.Engine.Types StreetRun.Resource
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
+                      base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
+                      base16-bytestring-0.1.1.6 base64-bytestring-1.0.0.2
+                      bifunctors-5.5.3 binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2
+                      call-stack-0.1.0 cereal-0.5.8.0 comonad-5.0.4 conduit-1.3.1.1
+                      containers-0.6.0.1 contravariant-1.5 data-default-class-0.1.2.0
+                      deepseq-1.4.4.0 distributive-0.6 dlist-0.8.0.6 errors-2.3.0
+                      exceptions-0.10.1 free-5.1 ghc-boot-th-8.6.4 ghc-prim-0.5.3
+                      hashable-1.2.7.0 integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2
+                      kan-extensions-5.2 key-state-0.2.0 lens-4.17 libyaml-0.1.1.0
+                      lifted-base-0.2.3.12 linear-1.20.8 monad-control-1.0.2.3 mtl-2.2.2
+                      pretty-1.1.3.6 primitive-0.6.4.0 profunctors-5.3 random-1.1
+                      reflection-2.1.4 resourcet-1.2.2 safe-0.3.17
+                      safe-exceptions-0.1.7.0 scientific-0.3.6.2 sdl2-2.4.1.0
+                      sdl2-image-2.0.0 sdl2-mixer-1.1.0 sdl2-ttf-2.0.2
+                      semigroupoids-5.3.2 stm-2.5.0.0 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 text-conversions-0.3.0
+                      th-abstraction-0.2.11.0 time-1.8.0.2 time-locale-compat-0.1.1.5
+                      transformers-0.5.6.2 transformers-base-0.4.5.2
+                      transformers-compat-0.6.2 unliftio-core-0.1.2.0
+                      unordered-containers-0.2.9.0 uuid-types-1.0.3 vector-0.12.0.2
+                      yaml-0.11.0.0
+orphans: time-1.8.0.2:Data.Time.Clock.TAI
+         reflection-2.1.4:Data.Reflection linear-1.20.8:Linear.Instances
+         stm-2.5.0.0:Control.Monad.STM
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.2:Data.Vector.Unboxed
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.4.2.0:Data.Aeson.Types.Internal animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.Affine linear-1.20.8:Linear.Plucker
+                         linear-1.20.8:Linear.Quaternion linear-1.20.8:Linear.V
+                         linear-1.20.8:Linear.V0 linear-1.20.8:Linear.V1
+                         linear-1.20.8:Linear.V2 linear-1.20.8:Linear.V3
+                         linear-1.20.8:Linear.V4
+                         monad-control-1.0.2.3:Control.Monad.Trans.Control
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         sdl2-2.4.1.0:SDL.Audio sdl2-2.4.1.0:SDL.Event
+                         sdl2-2.4.1.0:SDL.Exception sdl2-2.4.1.0:SDL.Hint
+                         sdl2-2.4.1.0:SDL.Init sdl2-2.4.1.0:SDL.Input.GameController
+                         sdl2-2.4.1.0:SDL.Input.Joystick sdl2-2.4.1.0:SDL.Input.Keyboard
+                         sdl2-2.4.1.0:SDL.Input.Keyboard.Codes sdl2-2.4.1.0:SDL.Input.Mouse
+                         sdl2-2.4.1.0:SDL.Internal.Types sdl2-2.4.1.0:SDL.Power
+                         sdl2-2.4.1.0:SDL.Time sdl2-2.4.1.0:SDL.Video
+                         sdl2-2.4.1.0:SDL.Video.OpenGL sdl2-2.4.1.0:SDL.Video.Renderer
+                         sdl2-image-2.0.0:SDL.Image sdl2-ttf-2.0.2:SDL.Font
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  base-4.12.0.0:Data.Foldable 5f70351366640f007be66681d2212df8
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  lens-4.17:Control.Lens 531af2b540e6d8d8ce856b6f46207d94
+import  -/  lens-4.17:Control.Lens.Getter 79a8b254c85ab59ff7c11b644140539d
+import  -/  lens-4.17:Control.Lens.Setter 54f8dcf2fae78610733fc46eb59386aa
+import  -/  mtl-2.2.2:Control.Monad.State 753def63fe8e937dc636f11e5230745a
+import  -/  mtl-2.2.2:Control.Monad.State.Class 94cc1438f3f9a3259fb0a2c56d3d0303
+import  -/  StreetRun.Effect.Audio 7fab74bc7bba679ea52fa3228353cfa8
+  exports: 662974ef429a0efd65663fc283a11890
+  Audio d89daa653fc2686ddebe3c4bfa066d96
+  playBirdSfx fc3a19c1ead3ff3239fca18b23a01317
+  playDuckSfx 02bea080c75005fb6d5df95db5e91391
+  playHurtSfx 80dd1d13eee7494ceb3bb2b2ebb4f48c
+  playJumpSfx e8c23d22230af06c09fafcf5f747529c
+  playLavaSfx 7b6ba1a972511049bebcc2d48e8601df
+  playPointSfx 8c223cfdc5a80279030dc6c407c9bd5c
+  playQuakeSfx 573d6cde67b9bff5ba56cccd93e73f4e
+  playRecoverSfx c293517d9cbb8458ba3970c761fe50b4
+  playRockSfx a32d75c2f27afb28f73ceea99d4b8050
+  playStockSfx bbb3da50413ac31f5062a37a4a95abf1
+import  -/  StreetRun.Engine.Common 4d0d5abc96d404a54bf9e869f10eaeb3
+  exports: 6ba732522c41dfd1680709da05125599
+  $sel:cvSfx:CommonVars 841ce81843d4fcb757b67c9bc64ffd54
+  CommonVars c039c0c0c34dc22a1cff0c9fb364dc45
+  HasCommonVars 1902e2cee2c9cb85ed965064ea16c14d
+  commonVars 809c91e27c35e5c3e67ae94dcece15b4
+import  -/  StreetRun.Engine.Sfx ce61680ab49e73d6adcab419b58e46a3
+  exports: 9ed9b05206d8147ec52e3e5ef3b1f124
+  Sfx 53b3c2df485e5327a1364b2ffc7c3703
+  Sfx'Bird 69883efae73d95dda2165e2dc67c0431
+  Sfx'Duck 523756ffc390ed3d412368cffe30b59e
+  Sfx'Hurt 0c2a979d0fce91a04396e828dc687b63
+  Sfx'Jump 5f9e2513a9fd5b82001b2faa9a266138
+  Sfx'Lava 78693c8bab3674b982f6bc4168fc92d0
+  Sfx'Point 744be9ec4e006f028d26665d498ae533
+  Sfx'Quake cc60b7cfa9d6c1f08724d613c8bf156a
+  Sfx'Recover ace6633056c4d29a0dec9a7b6079116f
+  Sfx'Rock 969e701c33e9f5080fb2ac46bcdfa8c3
+  Sfx'Stock c8f3f39e50ba074bf5cdce71a71ad183
+74dc475d8d51c818ccef4876c8cd0f2c
+  $tc'C:AudioSfx :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   8992470006989364766##
+                   17295277925555115787##
+                   StreetRun.Effect.Sound_effects.$trModule
+                   StreetRun.Effect.Sound_effects.$tc'C:AudioSfx2
+                   1#
+                   StreetRun.Effect.Sound_effects.$tc'C:AudioSfx1) -}
+a10b70319f4d56cf8f2be0de6537d8e9
+  $tc'C:AudioSfx1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+86d317e89570daa5e95f82fb73f48525
+  $tc'C:AudioSfx2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Effect.Sound_effects.$tc'C:AudioSfx3) -}
+36d3da7cd07a4c8f91a3d4fb68d4533f
+  $tc'C:AudioSfx3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'C:AudioSfx"#) -}
+6df3dd629f66ef1b39667385e9ec68aa
+  $tcAudioSfx :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   1195531759937361578##
+                   458607656432919846##
+                   StreetRun.Effect.Sound_effects.$trModule
+                   StreetRun.Effect.Sound_effects.$tcAudioSfx2
+                   0#
+                   StreetRun.Effect.Sound_effects.$tcAudioSfx1) -}
+68adcb40903a00be3ee4dbb60f4f8e0e
+  $tcAudioSfx1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+ccc922587ba00d77484b8b66c8b33a21
+  $tcAudioSfx2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Effect.Sound_effects.$tcAudioSfx3) -}
+15e2b62a9ef8976d108a96dbd768a42b
+  $tcAudioSfx3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("AudioSfx"#) -}
+7d6c0823f63d95136c6695550c1dfe2c
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Effect.Sound_effects.$trModule3
+                   StreetRun.Effect.Sound_effects.$trModule1) -}
+8e2b7deda049510e26bf31b099a4f650
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Effect.Sound_effects.$trModule2) -}
+c65ba875a9b973268ab6b832a5852e70
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Effect.Sound_effects"#) -}
+3b4a1405ea737731688ce187def90093
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Effect.Sound_effects.$trModule4) -}
+0425bcd0daa0a0eb196452f63edfde09
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+151943770af388bbae65fbf5e134f774
+  $waddSfxs' ::
+    StreetRun.Engine.Common.HasCommonVars s =>
+    (forall a. (s -> (a, s)) -> m a)
+    -> [StreetRun.Engine.Sfx.Sfx] -> m ()
+  {- Arity: 3, Strictness: <L,1*C1(C1(C(U)))><C(S),1*C1(U)><L,U>,
+     Inline: [2],
+     Unfolding: (\ @ s
+                   @ m :: * -> *
+                   (w :: StreetRun.Engine.Common.HasCommonVars s)
+                   (ww :: forall a. (s -> (a, s)) -> m a)
+                   (w1 :: [StreetRun.Engine.Sfx.Sfx]) ->
+                 let {
+                   f :: s -> Data.Functor.Identity.Identity s
+                   = w `cast` (StreetRun.Engine.Common.N:HasCommonVars[0] <s>_N)
+                       @ Data.Functor.Identity.Identity
+                       Data.Functor.Identity.$fFunctorIdentity
+                       (\ (cv :: StreetRun.Engine.Common.CommonVars) ->
+                        case cv of wild { StreetRun.Engine.Common.CommonVars ds ds1 ds2 ->
+                        StreetRun.Engine.Common.CommonVars
+                          ds
+                          ds1
+                          (GHC.Base.++ @ StreetRun.Engine.Sfx.Sfx w1 ds2) })
+                         `cast`
+                       (<StreetRun.Engine.Common.CommonVars>_R
+                        ->_R Sym (Data.Functor.Identity.N:Identity[0]
+                                      <StreetRun.Engine.Common.CommonVars>_R))
+                 } in
+                 ww
+                   @ ()
+                   (\ (s1 :: s) ->
+                    (GHC.Tuple.(),
+                     (f s1) `cast` (Data.Functor.Identity.N:Identity[0] <s>_R)))) -}
+a4a83e1b5cc92a7631f8349dfd0a2971
+  $wclearSfx' ::
+    StreetRun.Engine.Common.HasCommonVars s =>
+    (forall a. (s -> (a, s)) -> m a) -> m ()
+  {- Arity: 2, Strictness: <L,1*C1(C1(C(U)))><C(S),1*C1(U)>,
+     Inline: [2],
+     Unfolding: (\ @ s
+                   @ m :: * -> *
+                   (w :: StreetRun.Engine.Common.HasCommonVars s)
+                   (ww :: forall a. (s -> (a, s)) -> m a) ->
+                 let {
+                   f :: s -> Data.Functor.Identity.Identity s
+                   = w `cast` (StreetRun.Engine.Common.N:HasCommonVars[0] <s>_N)
+                       @ Data.Functor.Identity.Identity
+                       Data.Functor.Identity.$fFunctorIdentity
+                       StreetRun.Effect.Sound_effects.clearSfx'1
+                         `cast`
+                       (<StreetRun.Engine.Common.CommonVars>_R
+                        ->_R Sym (Data.Functor.Identity.N:Identity[0]
+                                      <StreetRun.Engine.Common.CommonVars>_R))
+                 } in
+                 ww
+                   @ ()
+                   (\ (s1 :: s) ->
+                    (GHC.Tuple.(),
+                     (f s1) `cast` (Data.Functor.Identity.N:Identity[0] <s>_R)))) -}
+98cd82e1a7329f1c24bf3fb0a9293a37
+  class GHC.Base.Monad m => AudioSfx (m :: * -> *) where
+    clearSfx :: m ()
+    addSfxs :: [StreetRun.Engine.Sfx.Sfx] -> m ()
+    playSfx :: m ()
+    {-# MINIMAL clearSfx, addSfxs, playSfx #-}
+913cf71a8de41539f0125a8a9d0d2fb4
+  addSfxs' ::
+    (StreetRun.Engine.Common.HasCommonVars s,
+     Control.Monad.State.Class.MonadState s m) =>
+    [StreetRun.Engine.Sfx.Sfx] -> m ()
+  {- Arity: 3,
+     Strictness: <L,1*C1(C1(C(U)))><S(LLLC(S)),1*U(A,A,A,1*C1(U))><L,U>,
+     Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ s
+                   @ m :: * -> *
+                   (w :: StreetRun.Engine.Common.HasCommonVars s)
+                   (w1 :: Control.Monad.State.Class.MonadState s m)
+                   (w2 :: [StreetRun.Engine.Sfx.Sfx]) ->
+                 case w1 of ww { Control.Monad.State.Class.C:MonadState ww1 ww2 ww3 ww4 ->
+                 StreetRun.Effect.Sound_effects.$waddSfxs' @ s @ m w ww4 w2 }) -}
+fd4075aa5726de87d7f68ab428f5a8fe
+  clearSfx' ::
+    (StreetRun.Engine.Common.HasCommonVars s,
+     Control.Monad.State.Class.MonadState s m) =>
+    m ()
+  {- Arity: 2,
+     Strictness: <L,1*C1(C1(C(U)))><S(LLLC(S)),1*U(A,A,A,1*C1(U))>,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ @ s
+                   @ m :: * -> *
+                   (w :: StreetRun.Engine.Common.HasCommonVars s)
+                   (w1 :: Control.Monad.State.Class.MonadState s m) ->
+                 case w1 of ww { Control.Monad.State.Class.C:MonadState ww1 ww2 ww3 ww4 ->
+                 StreetRun.Effect.Sound_effects.$wclearSfx' @ s @ m w ww4 }) -}
+63ee52b17e631796a99b26eed473866b
+  clearSfx'1 ::
+    StreetRun.Engine.Common.CommonVars
+    -> StreetRun.Engine.Common.CommonVars
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (cv :: StreetRun.Engine.Common.CommonVars) ->
+                 case cv of wild { StreetRun.Engine.Common.CommonVars ds ds1 ds2 ->
+                 StreetRun.Engine.Common.CommonVars
+                   ds
+                   ds1
+                   (GHC.Types.[] @ StreetRun.Engine.Sfx.Sfx) }) -}
+89a067e38b913386cc619ddc9725ca86
+  playSfx' ::
+    (StreetRun.Effect.Audio.Audio m,
+     StreetRun.Engine.Common.HasCommonVars s,
+     Control.Monad.State.Class.MonadState s m) =>
+    m ()
+  {- Arity: 3,
+     Strictness: <S(S(LC(C(S))LLL)LLLLLLLLLLLLLLL),U(1*U(A,1*C1(C1(U)),C(C1(U)),1*C1(U),A),A,A,1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U,A,1*U,1*U,A,A)><L,1*C1(C1(C(U)))><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)> -}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

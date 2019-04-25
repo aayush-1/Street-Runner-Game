@@ -1,0 +1,881 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 19:20:43.117457271 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Engine.Font 8064
+  interface hash: 2c6ad7f26bf54f803ff945c60e8924bc
+  ABI hash: 0988ff1eb2a606d3c46214792ded3aaf
+  export-list hash: 0b4012bf7b7ba2d231fb49e61d3ee2dc
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 23bfc2de71c0e795adcc3e64d97ecb08
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Engine.Font.Number{StreetRun.Engine.Font.Number'0 StreetRun.Engine.Font.Number'1 StreetRun.Engine.Font.Number'2 StreetRun.Engine.Font.Number'3 StreetRun.Engine.Font.Number'4 StreetRun.Engine.Font.Number'5 StreetRun.Engine.Font.Number'6 StreetRun.Engine.Font.Number'7 StreetRun.Engine.Font.Number'8 StreetRun.Engine.Font.Number'9}
+module dependencies:
+package dependencies: base-4.12.0.0 ghc-prim-0.5.3
+                      integer-gmp-1.0.2.0
+orphans: base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: base-4.12.0.0:Control.Applicative
+                         base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity base-4.12.0.0:Data.Monoid
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:GHC.Generics
+                         base-4.12.0.0:GHC.IO.Exception
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Enum 87204abed08db8735fc0be5ab48689aa
+import  -/  base-4.12.0.0:GHC.Err ea5e313ef4146b40b5d8b27aa168e736
+import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
+import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+d41861736794e85a8535c51926e9bce4
+  $fBoundedNumber :: GHC.Enum.Bounded StreetRun.Engine.Font.Number
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Font.Number
+                  StreetRun.Engine.Font.Number'0
+                  StreetRun.Engine.Font.Number'9 -}
+d41861736794e85a8535c51926e9bce4
+  $fEnumNumber :: GHC.Enum.Enum StreetRun.Engine.Font.Number
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Font.Number
+                  StreetRun.Engine.Font.$fEnumNumber_$csucc
+                  StreetRun.Engine.Font.$fEnumNumber_$cpred
+                  StreetRun.Engine.Font.$fEnumNumber_$ctoEnum
+                  StreetRun.Engine.Font.$fEnumNumber_$cfromEnum
+                  StreetRun.Engine.Font.$fEnumNumber_$cenumFrom
+                  StreetRun.Engine.Font.$fEnumNumber_$cenumFromThen
+                  StreetRun.Engine.Font.$fEnumNumber_$cenumFromTo
+                  StreetRun.Engine.Font.$fEnumNumber_$cenumFromThenTo -}
+d41861736794e85a8535c51926e9bce4
+  $fEnumNumber1 :: StreetRun.Engine.Font.Number
+  {- Strictness: x -}
+d41861736794e85a8535c51926e9bce4
+  $fEnumNumber2 :: StreetRun.Engine.Font.Number
+  {- Strictness: x -}
+d41861736794e85a8535c51926e9bce4
+  $fEnumNumber_$cenumFrom ::
+    StreetRun.Engine.Font.Number -> [StreetRun.Engine.Font.Number]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,U>,
+     Unfolding: (\ (a :: StreetRun.Engine.Font.Number) ->
+                 case GHC.Prim.dataToTag#
+                        @ StreetRun.Engine.Font.Number
+                        a of a# { DEFAULT ->
+                 case GHC.Prim.># a# 9# of lwild {
+                   DEFAULT -> StreetRun.Engine.Font.$fEnumNumber_go a#
+                   1# -> GHC.Types.[] @ StreetRun.Engine.Font.Number } }) -}
+d41861736794e85a8535c51926e9bce4
+  $fEnumNumber_$cenumFromThen ::
+    StreetRun.Engine.Font.Number
+    -> StreetRun.Engine.Font.Number -> [StreetRun.Engine.Font.Number]
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,U><S,U>,
+     Unfolding: (\ (a :: StreetRun.Engine.Font.Number)
+                   (b :: StreetRun.Engine.Font.Number) ->
+                 case GHC.Prim.dataToTag#
+                        @ StreetRun.Engine.Font.Number
+                        a of a# { DEFAULT ->
+                 case GHC.Prim.dataToTag#
+                        @ StreetRun.Engine.Font.Number
+                        b of b# { DEFAULT ->
+                 case GHC.Prim.># a# b# of lwild {
+                   DEFAULT
+                   -> case GHC.Prim.>=# b# a# of lwild1 {
+                        DEFAULT
+                        -> case GHC.Prim.># 9# b# of lwild2 {
+                             DEFAULT
+                             -> GHC.Types.:
+                                  @ StreetRun.Engine.Font.Number
+                                  (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number a#)
+                                  (let {
+                                     delta :: GHC.Prim.Int# = GHC.Prim.-# b# a#
+                                   } in
+                                   let {
+                                     y' :: GHC.Prim.Int# = GHC.Prim.-# 9# delta
+                                   } in
+                                   letrec {
+                                     go_dn :: GHC.Prim.Int# -> [StreetRun.Engine.Font.Number]
+                                       {- Arity: 1, Strictness: <S,U> -}
+                                     = \ (x :: GHC.Prim.Int#) ->
+                                       case GHC.Prim.<# x y' of lwild3 {
+                                         DEFAULT
+                                         -> GHC.Types.:
+                                              @ StreetRun.Engine.Font.Number
+                                              (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number x)
+                                              (go_dn (GHC.Prim.+# x delta))
+                                         1#
+                                         -> GHC.Types.:
+                                              @ StreetRun.Engine.Font.Number
+                                              (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number x)
+                                              (GHC.Types.[] @ StreetRun.Engine.Font.Number) }
+                                   } in
+                                   go_dn b#)
+                             1#
+                             -> case GHC.Prim.># 9# a# of lwild3 {
+                                  DEFAULT
+                                  -> GHC.Types.:
+                                       @ StreetRun.Engine.Font.Number
+                                       (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number a#)
+                                       (GHC.Types.[] @ StreetRun.Engine.Font.Number)
+                                  1# -> GHC.Types.[] @ StreetRun.Engine.Font.Number } }
+                        1#
+                        -> case GHC.Prim.<# 9# b# of lwild2 {
+                             DEFAULT
+                             -> GHC.Types.:
+                                  @ StreetRun.Engine.Font.Number
+                                  (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number a#)
+                                  (let {
+                                     delta :: GHC.Prim.Int# = GHC.Prim.-# b# a#
+                                   } in
+                                   let {
+                                     y' :: GHC.Prim.Int# = GHC.Prim.-# 9# delta
+                                   } in
+                                   letrec {
+                                     go_up :: GHC.Prim.Int# -> [StreetRun.Engine.Font.Number]
+                                       {- Arity: 1, Strictness: <S,U> -}
+                                     = \ (x :: GHC.Prim.Int#) ->
+                                       case GHC.Prim.># x y' of lwild3 {
+                                         DEFAULT
+                                         -> GHC.Types.:
+                                              @ StreetRun.Engine.Font.Number
+                                              (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number x)
+                                              (go_up (GHC.Prim.+# x delta))
+                                         1#
+                                         -> GHC.Types.:
+                                              @ StreetRun.Engine.Font.Number
+                                              (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number x)
+                                              (GHC.Types.[] @ StreetRun.Engine.Font.Number) }
+                                   } in
+                                   go_up b#)
+                             1#
+                             -> case GHC.Prim.<# 9# a# of lwild3 {
+                                  DEFAULT
+                                  -> GHC.Types.:
+                                       @ StreetRun.Engine.Font.Number
+                                       (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number a#)
+                                       (GHC.Types.[] @ StreetRun.Engine.Font.Number)
+                                  1# -> GHC.Types.[] @ StreetRun.Engine.Font.Number } } }
+                   1#
+                   -> case GHC.Prim.>=# b# a# of lwild1 {
+                        DEFAULT
+                        -> case GHC.Prim.># 0# b# of lwild2 {
+                             DEFAULT
+                             -> GHC.Types.:
+                                  @ StreetRun.Engine.Font.Number
+                                  (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number a#)
+                                  (let {
+                                     delta :: GHC.Prim.Int# = GHC.Prim.-# b# a#
+                                   } in
+                                   let {
+                                     y' :: GHC.Prim.Int# = GHC.Prim.-# 0# delta
+                                   } in
+                                   letrec {
+                                     go_dn :: GHC.Prim.Int# -> [StreetRun.Engine.Font.Number]
+                                       {- Arity: 1, Strictness: <S,U> -}
+                                     = \ (x :: GHC.Prim.Int#) ->
+                                       case GHC.Prim.<# x y' of lwild3 {
+                                         DEFAULT
+                                         -> GHC.Types.:
+                                              @ StreetRun.Engine.Font.Number
+                                              (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number x)
+                                              (go_dn (GHC.Prim.+# x delta))
+                                         1#
+                                         -> GHC.Types.:
+                                              @ StreetRun.Engine.Font.Number
+                                              (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number x)
+                                              (GHC.Types.[] @ StreetRun.Engine.Font.Number) }
+                                   } in
+                                   go_dn b#)
+                             1#
+                             -> case GHC.Prim.># 0# a# of lwild3 {
+                                  DEFAULT
+                                  -> GHC.Types.:
+                                       @ StreetRun.Engine.Font.Number
+                                       (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number a#)
+                                       (GHC.Types.[] @ StreetRun.Engine.Font.Number)
+                                  1# -> GHC.Types.[] @ StreetRun.Engine.Font.Number } }
+                        1#
+                        -> case GHC.Prim.<# 0# b# of lwild2 {
+                             DEFAULT
+                             -> GHC.Types.:
+                                  @ StreetRun.Engine.Font.Number
+                                  (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number a#)
+                                  (let {
+                                     delta :: GHC.Prim.Int# = GHC.Prim.-# b# a#
+                                   } in
+                                   let {
+                                     y' :: GHC.Prim.Int# = GHC.Prim.-# 0# delta
+                                   } in
+                                   letrec {
+                                     go_up :: GHC.Prim.Int# -> [StreetRun.Engine.Font.Number]
+                                       {- Arity: 1, Strictness: <S,U> -}
+                                     = \ (x :: GHC.Prim.Int#) ->
+                                       case GHC.Prim.># x y' of lwild3 {
+                                         DEFAULT
+                                         -> GHC.Types.:
+                                              @ StreetRun.Engine.Font.Number
+                                              (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number x)
+                                              (go_up (GHC.Prim.+# x delta))
+                                         1#
+                                         -> GHC.Types.:
+                                              @ StreetRun.Engine.Font.Number
+                                              (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number x)
+                                              (GHC.Types.[] @ StreetRun.Engine.Font.Number) }
+                                   } in
+                                   go_up b#)
+                             1#
+                             -> case GHC.Prim.<# 0# a# of lwild3 {
+                                  DEFAULT
+                                  -> GHC.Types.:
+                                       @ StreetRun.Engine.Font.Number
+                                       (GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number a#)
+                                       (GHC.Types.[] @ StreetRun.Engine.Font.Number)
+                                  1# -> GHC.Types.[] @ StreetRun.Engine.Font.Number } } } } } }) -}
+d41861736794e85a8535c51926e9bce4
+  $fEnumNumber_$cenumFromThenTo ::
+    StreetRun.Engine.Font.Number
+    -> StreetRun.Engine.Font.Number
+    -> StreetRun.Engine.Font.Number
+    -> [StreetRun.Engine.Font.Number]
+  {- Arity: 3, Strictness: <S,U><S,U><S,U> -}
+d41861736794e85a8535c51926e9bce4
+  $fEnumNumber_$cenumFromTo ::
+    StreetRun.Engine.Font.Number
+    -> StreetRun.Engine.Font.Number -> [StreetRun.Engine.Font.Number]
+  {- Arity: 2, Strictness: <S,U><S,U>,
+     Unfolding: (\ (x :: StreetRun.Engine.Font.Number)
+                   (y :: StreetRun.Engine.Font.Number) ->
+                 case GHC.Prim.dataToTag#
+                        @ StreetRun.Engine.Font.Number
+                        x of a# { DEFAULT ->
+                 case GHC.Prim.dataToTag#
+                        @ StreetRun.Engine.Font.Number
+                        y of a#1 { DEFAULT ->
+                 case GHC.Prim.># a# a#1 of lwild {
+                   DEFAULT
+                   -> letrec {
+                        go :: GHC.Prim.Int# -> [StreetRun.Engine.Font.Number]
+                          {- Arity: 1, Strictness: <L,U> -}
+                        = \ (x1 :: GHC.Prim.Int#) ->
+                          GHC.Types.:
+                            @ StreetRun.Engine.Font.Number
+                            (case GHC.Prim.>=# x1 0# of lwild1 {
+                               DEFAULT -> StreetRun.Engine.Font.$wlvl x1
+                               1#
+                               -> case GHC.Prim.<=# x1 9# of lwild2 {
+                                    DEFAULT -> StreetRun.Engine.Font.$wlvl x1
+                                    1# -> GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number x1 } })
+                            (case GHC.Prim.==# x1 a#1 of lwild1 {
+                               DEFAULT -> go (GHC.Prim.+# x1 1#)
+                               1# -> GHC.Types.[] @ StreetRun.Engine.Font.Number })
+                      } in
+                      go a#
+                   1# -> GHC.Types.[] @ StreetRun.Engine.Font.Number } } }) -}
+d41861736794e85a8535c51926e9bce4
+  $fEnumNumber_$cfromEnum ::
+    StreetRun.Engine.Font.Number -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Engine.Font.Number) ->
+                 case GHC.Prim.dataToTag#
+                        @ StreetRun.Engine.Font.Number
+                        a of a# { DEFAULT ->
+                 GHC.Types.I# a# }) -}
+d41861736794e85a8535c51926e9bce4
+  $fEnumNumber_$cpred ::
+    StreetRun.Engine.Font.Number -> StreetRun.Engine.Font.Number
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Engine.Font.Number) ->
+                 case a of lwild {
+                   DEFAULT
+                   -> case GHC.Prim.dataToTag#
+                             @ StreetRun.Engine.Font.Number
+                             lwild of a# { DEFAULT ->
+                      GHC.Prim.tagToEnum#
+                        @ StreetRun.Engine.Font.Number
+                        (GHC.Prim.+# a# -1#) }
+                   StreetRun.Engine.Font.Number'0
+                   -> StreetRun.Engine.Font.$fEnumNumber1 }) -}
+d41861736794e85a8535c51926e9bce4
+  $fEnumNumber_$csucc ::
+    StreetRun.Engine.Font.Number -> StreetRun.Engine.Font.Number
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Engine.Font.Number) ->
+                 case a of lwild {
+                   DEFAULT
+                   -> case GHC.Prim.dataToTag#
+                             @ StreetRun.Engine.Font.Number
+                             lwild of a# { DEFAULT ->
+                      GHC.Prim.tagToEnum#
+                        @ StreetRun.Engine.Font.Number
+                        (GHC.Prim.+# a# 1#) }
+                   StreetRun.Engine.Font.Number'9
+                   -> StreetRun.Engine.Font.$fEnumNumber2 }) -}
+d41861736794e85a8535c51926e9bce4
+  $fEnumNumber_$ctoEnum ::
+    GHC.Types.Int -> StreetRun.Engine.Font.Number
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 StreetRun.Engine.Font.$w$ctoEnum ww1 }) -}
+d41861736794e85a8535c51926e9bce4
+  $fEnumNumber_go :: GHC.Prim.Int# -> [StreetRun.Engine.Font.Number]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
+d41861736794e85a8535c51926e9bce4
+  $fEqNumber :: GHC.Classes.Eq StreetRun.Engine.Font.Number
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Font.Number
+                  StreetRun.Engine.Font.$fEqNumber_$c==
+                  StreetRun.Engine.Font.$fEqNumber_$c/= -}
+d41861736794e85a8535c51926e9bce4
+  $fEqNumber_$c/= ::
+    StreetRun.Engine.Font.Number
+    -> StreetRun.Engine.Font.Number -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Engine.Font.Number)
+                   (y :: StreetRun.Engine.Font.Number) ->
+                 case x of wild {
+                   StreetRun.Engine.Font.Number'0
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Font.Number'0 -> GHC.Types.False }
+                   StreetRun.Engine.Font.Number'1
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Font.Number'1 -> GHC.Types.False }
+                   StreetRun.Engine.Font.Number'2
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Font.Number'2 -> GHC.Types.False }
+                   StreetRun.Engine.Font.Number'3
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Font.Number'3 -> GHC.Types.False }
+                   StreetRun.Engine.Font.Number'4
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Font.Number'4 -> GHC.Types.False }
+                   StreetRun.Engine.Font.Number'5
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Font.Number'5 -> GHC.Types.False }
+                   StreetRun.Engine.Font.Number'6
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Font.Number'6 -> GHC.Types.False }
+                   StreetRun.Engine.Font.Number'7
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Font.Number'7 -> GHC.Types.False }
+                   StreetRun.Engine.Font.Number'8
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Font.Number'8 -> GHC.Types.False }
+                   StreetRun.Engine.Font.Number'9
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Font.Number'9 -> GHC.Types.False } }) -}
+d41861736794e85a8535c51926e9bce4
+  $fEqNumber_$c== ::
+    StreetRun.Engine.Font.Number
+    -> StreetRun.Engine.Font.Number -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (ds :: StreetRun.Engine.Font.Number)
+                   (ds1 :: StreetRun.Engine.Font.Number) ->
+                 case ds of wild {
+                   StreetRun.Engine.Font.Number'0
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Font.Number'0 -> GHC.Types.True }
+                   StreetRun.Engine.Font.Number'1
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Font.Number'1 -> GHC.Types.True }
+                   StreetRun.Engine.Font.Number'2
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Font.Number'2 -> GHC.Types.True }
+                   StreetRun.Engine.Font.Number'3
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Font.Number'3 -> GHC.Types.True }
+                   StreetRun.Engine.Font.Number'4
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Font.Number'4 -> GHC.Types.True }
+                   StreetRun.Engine.Font.Number'5
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Font.Number'5 -> GHC.Types.True }
+                   StreetRun.Engine.Font.Number'6
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Font.Number'6 -> GHC.Types.True }
+                   StreetRun.Engine.Font.Number'7
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Font.Number'7 -> GHC.Types.True }
+                   StreetRun.Engine.Font.Number'8
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Font.Number'8 -> GHC.Types.True }
+                   StreetRun.Engine.Font.Number'9
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Font.Number'9 -> GHC.Types.True } }) -}
+d41861736794e85a8535c51926e9bce4
+  $fShowNumber :: GHC.Show.Show StreetRun.Engine.Font.Number
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Font.Number
+                  StreetRun.Engine.Font.$fShowNumber_$cshowsPrec
+                  StreetRun.Engine.Font.$fShowNumber_$cshow
+                  StreetRun.Engine.Font.$fShowNumber_$cshowList -}
+781bda4d79385828917e6991db6ae297
+  $fShowNumber1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Font.$fShowNumber2) -}
+f79d6f4997f0cb5156342e499053a298
+  $fShowNumber10 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Number'5"#) -}
+abf38e6bcc118a17f8ae1aa5c622f7e1
+  $fShowNumber11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Font.$fShowNumber12) -}
+a88826cc81dac11b7c37ed0e5b5b5b66
+  $fShowNumber12 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Number'4"#) -}
+029eec1e0e426fde245fd5bb0b0879c7
+  $fShowNumber13 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Font.$fShowNumber14) -}
+2189ed9c94d557f0b834d387562dea7a
+  $fShowNumber14 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Number'3"#) -}
+dede24463891c7f67ff3abb58be404ec
+  $fShowNumber15 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Font.$fShowNumber16) -}
+15e08879c17ac39f9fb5f6ee60a4bc5c
+  $fShowNumber16 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Number'2"#) -}
+4f43075612a55c182890aceae3b4725e
+  $fShowNumber17 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Font.$fShowNumber18) -}
+0c635e686d643aaa510906928882e462
+  $fShowNumber18 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Number'1"#) -}
+19435965336278ab363318347545619c
+  $fShowNumber19 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Font.$fShowNumber20) -}
+28f2afcc5b705ce48605aaff37a8a517
+  $fShowNumber2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Number'9"#) -}
+48d6647027475306468112ef5fec64c5
+  $fShowNumber20 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Number'0"#) -}
+28943857f0e36f8855b25a477554ff1e
+  $fShowNumber3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Font.$fShowNumber4) -}
+d86a15f36f05becebb0ce888adba712f
+  $fShowNumber4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Number'8"#) -}
+12d9afa152025c96da9719f74dfec025
+  $fShowNumber5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Font.$fShowNumber6) -}
+161fb39d0431ac386e73fbefc7007db7
+  $fShowNumber6 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Number'7"#) -}
+2da29b5203e9395cf9f4bbf342f1fa95
+  $fShowNumber7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Font.$fShowNumber8) -}
+a07ff65014e68389b8b551c24fc49b9b
+  $fShowNumber8 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Number'6"#) -}
+785cff8333cba6cb8fc29c236d4f8ecc
+  $fShowNumber9 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Font.$fShowNumber10) -}
+d41861736794e85a8535c51926e9bce4
+  $fShowNumber_$cshow ::
+    StreetRun.Engine.Font.Number -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (x :: StreetRun.Engine.Font.Number) ->
+                 case x of wild {
+                   StreetRun.Engine.Font.Number'0
+                   -> StreetRun.Engine.Font.$fShowNumber19
+                   StreetRun.Engine.Font.Number'1
+                   -> StreetRun.Engine.Font.$fShowNumber17
+                   StreetRun.Engine.Font.Number'2
+                   -> StreetRun.Engine.Font.$fShowNumber15
+                   StreetRun.Engine.Font.Number'3
+                   -> StreetRun.Engine.Font.$fShowNumber13
+                   StreetRun.Engine.Font.Number'4
+                   -> StreetRun.Engine.Font.$fShowNumber11
+                   StreetRun.Engine.Font.Number'5
+                   -> StreetRun.Engine.Font.$fShowNumber9
+                   StreetRun.Engine.Font.Number'6
+                   -> StreetRun.Engine.Font.$fShowNumber7
+                   StreetRun.Engine.Font.Number'7
+                   -> StreetRun.Engine.Font.$fShowNumber5
+                   StreetRun.Engine.Font.Number'8
+                   -> StreetRun.Engine.Font.$fShowNumber3
+                   StreetRun.Engine.Font.Number'9
+                   -> StreetRun.Engine.Font.$fShowNumber1 }) -}
+d41861736794e85a8535c51926e9bce4
+  $fShowNumber_$cshowList ::
+    [StreetRun.Engine.Font.Number] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Engine.Font.Number]) (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Engine.Font.Number
+                   StreetRun.Engine.Font.$w$cshowsPrec
+                   ls
+                   s) -}
+d41861736794e85a8535c51926e9bce4
+  $fShowNumber_$cshowsPrec ::
+    GHC.Types.Int -> StreetRun.Engine.Font.Number -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>, Inline: [2],
+     Unfolding: InlineRule (3, True, True)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: StreetRun.Engine.Font.Number)
+                   (w2 :: GHC.Base.String) ->
+                 StreetRun.Engine.Font.$w$cshowsPrec w1 w2) -}
+b6b16eacfcf426e28c357f137343930f
+  $tc'Number'0 :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   17153360453612317062##
+                   17571418300236084738##
+                   StreetRun.Engine.Font.$trModule
+                   StreetRun.Engine.Font.$tc'Number'12
+                   0#
+                   StreetRun.Engine.Font.$tc'Number'11) -}
+c7c5754b872e5611b9656eef0b68eed7
+  $tc'Number'1 :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   5227412706994094569##
+                   7719112812596776769##
+                   StreetRun.Engine.Font.$trModule
+                   StreetRun.Engine.Font.$tc'Number'14
+                   0#
+                   StreetRun.Engine.Font.$tc'Number'11) -}
+d98fe41633fed6f48307524e5a61d6e0
+  $tc'Number'11 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+ca4f9efb9a6373b99afff25cfa5fb6f3
+  $tc'Number'12 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Font.$tc'Number'13) -}
+25b7a3b3acf1fe111e7489fb1d143f8b
+  $tc'Number'13 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Number'0"#) -}
+727ee0e321fca19f6afc507cee5b86f0
+  $tc'Number'14 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Font.$tc'Number'15) -}
+3accf07ced16e03e98bfc9cd9fd7b9d0
+  $tc'Number'15 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Number'1"#) -}
+308daf3fa318f2b98d51dea8302a275f
+  $tc'Number'16 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Font.$tc'Number'17) -}
+487ba312fe67a886ee279e46df739c17
+  $tc'Number'17 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Number'2"#) -}
+64793ff3dbb5bcba6936c4993d48ff15
+  $tc'Number'18 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Font.$tc'Number'19) -}
+6dce70389c416a8458d8725bda62b587
+  $tc'Number'19 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Number'3"#) -}
+c05a61516a5e728267347bdb5bfb505a
+  $tc'Number'2 :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7806315560528022741##
+                   4192638801739186509##
+                   StreetRun.Engine.Font.$trModule
+                   StreetRun.Engine.Font.$tc'Number'16
+                   0#
+                   StreetRun.Engine.Font.$tc'Number'11) -}
+6bf30f061b82a03f94a7e932ed0b88fd
+  $tc'Number'20 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Font.$tc'Number'21) -}
+d0f8b8110d621068ffb1fb05f39a2eff
+  $tc'Number'21 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Number'4"#) -}
+b004b91fd0a18fbbd2bc081f24228126
+  $tc'Number'22 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Font.$tc'Number'23) -}
+8a207546a6b4ea5489ce8a1cf340ae3b
+  $tc'Number'23 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Number'5"#) -}
+a207c2b97e6ab1751f0e60dfcd1c7c63
+  $tc'Number'24 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Font.$tc'Number'25) -}
+e9fb19d4d5ae42e3d7ad48ae5c24aa5b
+  $tc'Number'25 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Number'6"#) -}
+ac2b188bea33f56e91fa371a81e01f03
+  $tc'Number'26 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Font.$tc'Number'27) -}
+5fa5ba92d7a7bebbd81c5328f96918cd
+  $tc'Number'27 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Number'7"#) -}
+3f3b298c03537c1b9788381f9cf10a84
+  $tc'Number'28 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Font.$tc'Number'29) -}
+b4c9bb2611704815c35774e4c1ea83cf
+  $tc'Number'29 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Number'8"#) -}
+b13e96bd3005192a84a459e2c7727536
+  $tc'Number'3 :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   6070163255044126719##
+                   17123293579161100156##
+                   StreetRun.Engine.Font.$trModule
+                   StreetRun.Engine.Font.$tc'Number'18
+                   0#
+                   StreetRun.Engine.Font.$tc'Number'11) -}
+9c60a52007f8013a1e885f802cc8ef75
+  $tc'Number'30 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Font.$tc'Number'31) -}
+aadf070ebc7e6cf344b527dad031fffc
+  $tc'Number'31 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Number'9"#) -}
+d069232cc03d62fec8fa3d298f62c488
+  $tc'Number'4 :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   9262367677909324434##
+                   6122032422085312261##
+                   StreetRun.Engine.Font.$trModule
+                   StreetRun.Engine.Font.$tc'Number'20
+                   0#
+                   StreetRun.Engine.Font.$tc'Number'11) -}
+45c92bf58693842cf4afdc47f14f10f1
+  $tc'Number'5 :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4529600575960296456##
+                   5454686462888433812##
+                   StreetRun.Engine.Font.$trModule
+                   StreetRun.Engine.Font.$tc'Number'22
+                   0#
+                   StreetRun.Engine.Font.$tc'Number'11) -}
+643d534dc65ceaf60602cdf607ac80ec
+  $tc'Number'6 :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7005169476438397610##
+                   15632046505800141391##
+                   StreetRun.Engine.Font.$trModule
+                   StreetRun.Engine.Font.$tc'Number'24
+                   0#
+                   StreetRun.Engine.Font.$tc'Number'11) -}
+eb30a6c33166d93c65a3040dc70ed282
+  $tc'Number'7 :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   14369069258601662669##
+                   16082410189626751153##
+                   StreetRun.Engine.Font.$trModule
+                   StreetRun.Engine.Font.$tc'Number'26
+                   0#
+                   StreetRun.Engine.Font.$tc'Number'11) -}
+61538dd185e03c085ff524c113e3b29f
+  $tc'Number'8 :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   16450404696629855149##
+                   16808728959465528356##
+                   StreetRun.Engine.Font.$trModule
+                   StreetRun.Engine.Font.$tc'Number'28
+                   0#
+                   StreetRun.Engine.Font.$tc'Number'11) -}
+59971be97551a2224149bd5893f7682c
+  $tc'Number'9 :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   16517332250674666846##
+                   18226477007324802182##
+                   StreetRun.Engine.Font.$trModule
+                   StreetRun.Engine.Font.$tc'Number'30
+                   0#
+                   StreetRun.Engine.Font.$tc'Number'11) -}
+b53d4c47af037d50e0a3e770e27a2445
+  $tcNumber :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7362464972347680530##
+                   15837502293730999916##
+                   StreetRun.Engine.Font.$trModule
+                   StreetRun.Engine.Font.$tcNumber1
+                   0#
+                   GHC.Types.krep$*) -}
+046fe0455d0c29176cc04dcbb862bf86
+  $tcNumber1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Engine.Font.$tcNumber2) -}
+43e5ed68ef115c08b805cc59670cffd0
+  $tcNumber2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Number"#) -}
+3cc22ce5656decf66c75f5f6f24efb6e
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Engine.Font.$trModule3
+                   StreetRun.Engine.Font.$trModule1) -}
+bc35b470ca1022430502ee6b5f7c27cb
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Engine.Font.$trModule2) -}
+31e0f9b8585d8216a7d15bddec9b2060
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Engine.Font"#) -}
+b3efd3930ef339d2492f661945d3e35f
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Engine.Font.$trModule4) -}
+d177313384aec1402ce3aa6821b5afbb
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+d41861736794e85a8535c51926e9bce4
+  $w$cshowsPrec ::
+    StreetRun.Engine.Font.Number -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>, Inline: [2],
+     Unfolding: (\ (w :: StreetRun.Engine.Font.Number)
+                   (w1 :: GHC.Base.String) ->
+                 case w of wild {
+                   StreetRun.Engine.Font.Number'0
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Font.$fShowNumber19
+                        w1
+                   StreetRun.Engine.Font.Number'1
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Font.$fShowNumber17
+                        w1
+                   StreetRun.Engine.Font.Number'2
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Font.$fShowNumber15
+                        w1
+                   StreetRun.Engine.Font.Number'3
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Font.$fShowNumber13
+                        w1
+                   StreetRun.Engine.Font.Number'4
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Font.$fShowNumber11
+                        w1
+                   StreetRun.Engine.Font.Number'5
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Font.$fShowNumber9
+                        w1
+                   StreetRun.Engine.Font.Number'6
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Font.$fShowNumber7
+                        w1
+                   StreetRun.Engine.Font.Number'7
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Font.$fShowNumber5
+                        w1
+                   StreetRun.Engine.Font.Number'8
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Font.$fShowNumber3
+                        w1
+                   StreetRun.Engine.Font.Number'9
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Font.$fShowNumber1
+                        w1 }) -}
+d41861736794e85a8535c51926e9bce4
+  $w$ctoEnum :: GHC.Prim.Int# -> StreetRun.Engine.Font.Number
+  {- Arity: 1, Strictness: <S,U>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.>=# ww 0# of lwild {
+                   DEFAULT -> StreetRun.Engine.Font.$wlvl ww
+                   1#
+                   -> case GHC.Prim.<=# ww 9# of lwild1 {
+                        DEFAULT -> StreetRun.Engine.Font.$wlvl ww
+                        1# -> GHC.Prim.tagToEnum# @ StreetRun.Engine.Font.Number ww } }) -}
+d41861736794e85a8535c51926e9bce4
+  $wlvl :: GHC.Prim.Int# -> StreetRun.Engine.Font.Number
+  {- Arity: 1, Strictness: <B,U>x, Inline: [2] -}
+d41861736794e85a8535c51926e9bce4
+  data Number
+    = Number'0
+    | Number'1
+    | Number'2
+    | Number'3
+    | Number'4
+    | Number'5
+    | Number'6
+    | Number'7
+    | Number'8
+    | Number'9
+instance GHC.Enum.Bounded [StreetRun.Engine.Font.Number]
+  = StreetRun.Engine.Font.$fBoundedNumber
+instance GHC.Enum.Enum [StreetRun.Engine.Font.Number]
+  = StreetRun.Engine.Font.$fEnumNumber
+instance GHC.Classes.Eq [StreetRun.Engine.Font.Number]
+  = StreetRun.Engine.Font.$fEqNumber
+instance GHC.Show.Show [StreetRun.Engine.Font.Number]
+  = StreetRun.Engine.Font.$fShowNumber
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

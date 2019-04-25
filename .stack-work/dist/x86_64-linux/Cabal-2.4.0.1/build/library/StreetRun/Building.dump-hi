@@ -1,0 +1,540 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 21:19:30.187909677 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Building 8064
+  interface hash: 71b56aa01a1e95fe3c0cf0c8d631a83d
+  ABI hash: 42741741089f416e974b395c6e99f3ac
+  export-list hash: e5c968e6516978e8c77f45ce37d36a4e
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: cd6997935d09daa6a687cb8eb0447281
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Building.buildingKey'keyName
+  StreetRun.Building.BuildingKey{StreetRun.Building.BuildingKey'Idle}
+module dependencies:
+package dependencies: aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0
+                      attoparsec-0.13.2.2 base-4.12.0.0 base-compat-0.10.5 binary-0.8.6.0
+                      bytestring-0.10.8.2 conduit-1.3.1.1 containers-0.6.0.1
+                      deepseq-1.4.4.0 dlist-0.8.0.6 exceptions-0.10.1 ghc-boot-th-8.6.4
+                      ghc-prim-0.5.3 hashable-1.2.7.0 integer-gmp-1.0.2.0
+                      integer-logarithms-1.0.2.2 libyaml-0.1.1.0 mtl-2.2.2
+                      primitive-0.6.4.0 random-1.1 resourcet-1.2.2 scientific-0.3.6.2
+                      stm-2.5.0.0 tagged-0.8.6 template-haskell-2.14.0.0 text-1.2.3.1
+                      time-1.8.0.2 time-locale-compat-0.1.1.5 transformers-0.5.6.2
+                      unliftio-core-0.1.2.0 unordered-containers-0.2.9.0 uuid-types-1.0.3
+                      vector-0.12.0.2 yaml-0.11.0.0
+orphans: stm-2.5.0.0:Control.Monad.STM
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.2:Data.Vector.Unboxed
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: aeson-1.4.2.0:Data.Aeson.Types.Internal
+                         animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Enum 87204abed08db8735fc0be5ab48689aa
+import  -/  base-4.12.0.0:GHC.Err ea5e313ef4146b40b5d8b27aa168e736
+import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
+import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
+import  -/  text-1.2.3.1:Data.Text 1e51a010d8f8a6fa41d8ea82d69faf13
+import  -/  text-1.2.3.1:Data.Text.Internal 537e168590e8068f673f691833f78483
+b6c203de20b714108c843bd679cea181
+  $fBoundedBuildingKey ::
+    GHC.Enum.Bounded StreetRun.Building.BuildingKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Building.BuildingKey
+                  StreetRun.Building.BuildingKey'Idle
+                  StreetRun.Building.BuildingKey'Idle -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey :: GHC.Enum.Enum StreetRun.Building.BuildingKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Building.BuildingKey
+                  StreetRun.Building.$fEnumBuildingKey_$csucc
+                  StreetRun.Building.$fEnumBuildingKey_$cpred
+                  StreetRun.Building.$fEnumBuildingKey_$ctoEnum
+                  StreetRun.Building.$fEnumBuildingKey_$cfromEnum
+                  StreetRun.Building.$fEnumBuildingKey_$cenumFrom
+                  StreetRun.Building.$fEnumBuildingKey_$cenumFromThen
+                  StreetRun.Building.$fEnumBuildingKey_$cenumFromTo
+                  StreetRun.Building.$fEnumBuildingKey_$cenumFromThenTo -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey1 :: [StreetRun.Building.BuildingKey]
+  {- Unfolding: (StreetRun.Building.$fEnumBuildingKey_go_up 0#) -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey2 :: [StreetRun.Building.BuildingKey]
+  {- Unfolding: (StreetRun.Building.$fEnumBuildingKey_go 0#) -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey3 :: [StreetRun.Building.BuildingKey]
+  {- Unfolding: (StreetRun.Building.$fEnumBuildingKey_go1 0#) -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey4 :: StreetRun.Building.BuildingKey
+  {- Strictness: x -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey5 :: StreetRun.Building.BuildingKey
+  {- Strictness: x -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey_$cenumFrom ::
+    StreetRun.Building.BuildingKey -> [StreetRun.Building.BuildingKey]
+  {- Arity: 1, Strictness: <S,1*H>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: StreetRun.Building.BuildingKey) ->
+                 case w of w1 { StreetRun.Building.BuildingKey'Idle ->
+                 StreetRun.Building.$fEnumBuildingKey3 }) -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey_$cenumFromThen ::
+    StreetRun.Building.BuildingKey
+    -> StreetRun.Building.BuildingKey
+    -> [StreetRun.Building.BuildingKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Building.BuildingKey)
+                   (w1 :: StreetRun.Building.BuildingKey) ->
+                 case w of w2 { StreetRun.Building.BuildingKey'Idle ->
+                 case w1 of w3 { StreetRun.Building.BuildingKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Building.BuildingKey
+                   StreetRun.Building.BuildingKey'Idle
+                   (letrec {
+                      go_up1 :: GHC.Prim.Int# -> [StreetRun.Building.BuildingKey]
+                        {- Arity: 1, Strictness: <S,U> -}
+                      = \ (x :: GHC.Prim.Int#) ->
+                        case GHC.Prim.># x 0# of lwild1 {
+                          DEFAULT
+                          -> GHC.Types.:
+                               @ StreetRun.Building.BuildingKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Building.BuildingKey x)
+                               (go_up1 x)
+                          1#
+                          -> GHC.Types.:
+                               @ StreetRun.Building.BuildingKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Building.BuildingKey x)
+                               (GHC.Types.[] @ StreetRun.Building.BuildingKey) }
+                    } in
+                    go_up1 0#) } }) -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey_$cenumFromThenTo ::
+    StreetRun.Building.BuildingKey
+    -> StreetRun.Building.BuildingKey
+    -> StreetRun.Building.BuildingKey
+    -> [StreetRun.Building.BuildingKey]
+  {- Arity: 3, Strictness: <S,1*H><S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: StreetRun.Building.BuildingKey)
+                   (w1 :: StreetRun.Building.BuildingKey)
+                   (w2 :: StreetRun.Building.BuildingKey) ->
+                 case w of w3 { StreetRun.Building.BuildingKey'Idle ->
+                 case w1 of w4 { StreetRun.Building.BuildingKey'Idle ->
+                 case w2 of w5 { StreetRun.Building.BuildingKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Building.BuildingKey
+                   StreetRun.Building.BuildingKey'Idle
+                   StreetRun.Building.$fEnumBuildingKey1 } } }) -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey_$cenumFromTo ::
+    StreetRun.Building.BuildingKey
+    -> StreetRun.Building.BuildingKey
+    -> [StreetRun.Building.BuildingKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Building.BuildingKey)
+                   (w1 :: StreetRun.Building.BuildingKey) ->
+                 case w of w2 { StreetRun.Building.BuildingKey'Idle ->
+                 case w1 of w3 { StreetRun.Building.BuildingKey'Idle ->
+                 StreetRun.Building.$fEnumBuildingKey2 } }) -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey_$cfromEnum ::
+    StreetRun.Building.BuildingKey -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*H>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Building.BuildingKey) ->
+                 case a of wild { StreetRun.Building.BuildingKey'Idle ->
+                 GHC.Types.I# 0# }) -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey_$cpred ::
+    StreetRun.Building.BuildingKey -> StreetRun.Building.BuildingKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Building.BuildingKey) ->
+                 case a of wild { StreetRun.Building.BuildingKey'Idle ->
+                 StreetRun.Building.$fEnumBuildingKey4 }) -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey_$csucc ::
+    StreetRun.Building.BuildingKey -> StreetRun.Building.BuildingKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Building.BuildingKey) ->
+                 case a of wild { StreetRun.Building.BuildingKey'Idle ->
+                 StreetRun.Building.$fEnumBuildingKey5 }) -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey_$ctoEnum ::
+    GHC.Types.Int -> StreetRun.Building.BuildingKey
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 StreetRun.Building.$w$ctoEnum ww1 }) -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey_go ::
+    GHC.Prim.Int# -> [StreetRun.Building.BuildingKey]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey_go1 ::
+    GHC.Prim.Int# -> [StreetRun.Building.BuildingKey]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
+b6c203de20b714108c843bd679cea181
+  $fEnumBuildingKey_go_up ::
+    GHC.Prim.Int# -> [StreetRun.Building.BuildingKey]
+  {- Arity: 1, Strictness: <S,U>m2 -}
+b6c203de20b714108c843bd679cea181
+  $fEqBuildingKey :: GHC.Classes.Eq StreetRun.Building.BuildingKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Building.BuildingKey
+                  StreetRun.Building.$fEqBuildingKey_$c==
+                  StreetRun.Building.$fEqBuildingKey_$c/= -}
+b6c203de20b714108c843bd679cea181
+  $fEqBuildingKey_$c/= ::
+    StreetRun.Building.BuildingKey
+    -> StreetRun.Building.BuildingKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Building.BuildingKey)
+                   (y :: StreetRun.Building.BuildingKey) ->
+                 case x of wild { StreetRun.Building.BuildingKey'Idle ->
+                 case y of wild1 { StreetRun.Building.BuildingKey'Idle ->
+                 GHC.Types.False } }) -}
+b6c203de20b714108c843bd679cea181
+  $fEqBuildingKey_$c== ::
+    StreetRun.Building.BuildingKey
+    -> StreetRun.Building.BuildingKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Building.BuildingKey)
+                   (ds1 :: StreetRun.Building.BuildingKey) ->
+                 case ds of wild { StreetRun.Building.BuildingKey'Idle ->
+                 case ds1 of wild1 { StreetRun.Building.BuildingKey'Idle ->
+                 GHC.Types.True } }) -}
+b6c203de20b714108c843bd679cea181
+  $fKeyNameBuildingKey ::
+    Animate.KeyName StreetRun.Building.BuildingKey
+  DFunId
+  {- Arity: 1, Strictness: <S,1*H>, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                StreetRun.Building.buildingKey'keyName
+                  `cast`
+                (Sym (Animate.N:KeyName[0] <StreetRun.Building.BuildingKey>_N)) -}
+b6c203de20b714108c843bd679cea181
+  $fOrdBuildingKey :: GHC.Classes.Ord StreetRun.Building.BuildingKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Building.BuildingKey
+                  StreetRun.Building.$fEqBuildingKey
+                  StreetRun.Building.$fOrdBuildingKey_$ccompare
+                  StreetRun.Building.$fOrdBuildingKey_$c<
+                  StreetRun.Building.$fOrdBuildingKey_$c<=
+                  StreetRun.Building.$fOrdBuildingKey_$c>
+                  StreetRun.Building.$fEqBuildingKey_$c==
+                  StreetRun.Building.$fOrdBuildingKey_$cmax
+                  StreetRun.Building.$fOrdBuildingKey_$cmax -}
+b6c203de20b714108c843bd679cea181
+  $fOrdBuildingKey_$c< ::
+    StreetRun.Building.BuildingKey
+    -> StreetRun.Building.BuildingKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Building.BuildingKey)
+                   (b :: StreetRun.Building.BuildingKey) ->
+                 case a of wild { StreetRun.Building.BuildingKey'Idle ->
+                 case b of wild1 { StreetRun.Building.BuildingKey'Idle ->
+                 GHC.Types.False } }) -}
+b6c203de20b714108c843bd679cea181
+  $fOrdBuildingKey_$c<= ::
+    StreetRun.Building.BuildingKey
+    -> StreetRun.Building.BuildingKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Building.BuildingKey)
+                   (b :: StreetRun.Building.BuildingKey) ->
+                 case b of wild { StreetRun.Building.BuildingKey'Idle ->
+                 case a of wild1 { StreetRun.Building.BuildingKey'Idle ->
+                 GHC.Types.True } }) -}
+b6c203de20b714108c843bd679cea181
+  $fOrdBuildingKey_$c> ::
+    StreetRun.Building.BuildingKey
+    -> StreetRun.Building.BuildingKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Building.BuildingKey)
+                   (b :: StreetRun.Building.BuildingKey) ->
+                 case b of wild { StreetRun.Building.BuildingKey'Idle ->
+                 case a of wild1 { StreetRun.Building.BuildingKey'Idle ->
+                 GHC.Types.False } }) -}
+b6c203de20b714108c843bd679cea181
+  $fOrdBuildingKey_$ccompare ::
+    StreetRun.Building.BuildingKey
+    -> StreetRun.Building.BuildingKey -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Building.BuildingKey)
+                   (b :: StreetRun.Building.BuildingKey) ->
+                 case a of wild { StreetRun.Building.BuildingKey'Idle ->
+                 case b of wild1 { StreetRun.Building.BuildingKey'Idle ->
+                 GHC.Types.EQ } }) -}
+b6c203de20b714108c843bd679cea181
+  $fOrdBuildingKey_$cmax ::
+    StreetRun.Building.BuildingKey
+    -> StreetRun.Building.BuildingKey -> StreetRun.Building.BuildingKey
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U()><S,1*H>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: StreetRun.Building.BuildingKey)
+                   (y :: StreetRun.Building.BuildingKey) ->
+                 case y of wild { StreetRun.Building.BuildingKey'Idle -> x }) -}
+b6c203de20b714108c843bd679cea181
+  $fShowBuildingKey :: GHC.Show.Show StreetRun.Building.BuildingKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Building.BuildingKey
+                  StreetRun.Building.$fShowBuildingKey_$cshowsPrec
+                  StreetRun.Building.$fShowBuildingKey_$cshow
+                  StreetRun.Building.$fShowBuildingKey_$cshowList -}
+b6c203de20b714108c843bd679cea181
+  $fShowBuildingKey1 ::
+    StreetRun.Building.BuildingKey -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*H><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Building.BuildingKey)
+                   (eta :: GHC.Base.String) ->
+                 case ds of wild { StreetRun.Building.BuildingKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Building.$fShowBuildingKey2)
+                   eta }) -}
+4124ffae511d86139c731480e3e5f248
+  $fShowBuildingKey2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Building.$fShowBuildingKey3) -}
+eb9ce6934bb6c7d1d0ddcf6044d0bf6e
+  $fShowBuildingKey3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("BuildingKey'Idle"#) -}
+b6c203de20b714108c843bd679cea181
+  $fShowBuildingKey_$cshow ::
+    StreetRun.Building.BuildingKey -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Building.BuildingKey) ->
+                 case x of wild { StreetRun.Building.BuildingKey'Idle ->
+                 StreetRun.Building.$fShowBuildingKey2 }) -}
+b6c203de20b714108c843bd679cea181
+  $fShowBuildingKey_$cshowList ::
+    [StreetRun.Building.BuildingKey] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Building.BuildingKey])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Building.BuildingKey
+                   StreetRun.Building.$fShowBuildingKey1
+                   ls
+                   s) -}
+b6c203de20b714108c843bd679cea181
+  $fShowBuildingKey_$cshowsPrec ::
+    GHC.Types.Int -> StreetRun.Building.BuildingKey -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*H><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: GHC.Types.Int)
+                   (ds1 :: StreetRun.Building.BuildingKey)
+                   (eta :: GHC.Base.String) ->
+                 case ds1 of wild { StreetRun.Building.BuildingKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Building.$fShowBuildingKey2)
+                   eta }) -}
+f722e0580a51123e2a07c9f95a67d38e
+  $tc'BuildingKey'Idle :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   6113645777312855138##
+                   17936959806034371311##
+                   StreetRun.Building.$trModule
+                   StreetRun.Building.$tc'BuildingKey'Idle2
+                   0#
+                   StreetRun.Building.$tc'BuildingKey'Idle1) -}
+b7fdbf04f159cdbf34969f5e3188dd45
+  $tc'BuildingKey'Idle1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+1c7946e4a8540a3c53e12aefeaafda21
+  $tc'BuildingKey'Idle2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Building.$tc'BuildingKey'Idle3) -}
+f7321cb61c22f7d53e897fa86486803f
+  $tc'BuildingKey'Idle3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'BuildingKey'Idle"#) -}
+0fd176d6c338a64eea1cb84aa7768835
+  $tcBuildingKey :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   13320509618306277297##
+                   10608990899748511424##
+                   StreetRun.Building.$trModule
+                   StreetRun.Building.$tcBuildingKey1
+                   0#
+                   GHC.Types.krep$*) -}
+29be5e6978203e66299157e6721b643e
+  $tcBuildingKey1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Building.$tcBuildingKey2) -}
+9db283a1e35c1abdf0bde4f293284e06
+  $tcBuildingKey2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("BuildingKey"#) -}
+86792af76074e12e404f5525cc873786
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Building.$trModule3
+                   StreetRun.Building.$trModule1) -}
+ce8479a8ae14bad37e458a3b37ff89e2
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Building.$trModule2) -}
+c1ac03aa96679da71c402422e6075cb2
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Building"#) -}
+72ee910e399688799aa287fbd4e35b8b
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Building.$trModule4) -}
+6d941b54480955407c52a82a71d56f1b
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+b6c203de20b714108c843bd679cea181
+  $w$ctoEnum :: GHC.Prim.Int# -> StreetRun.Building.BuildingKey
+  {- Arity: 1, Strictness: <S,U>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.>=# ww 0# of lwild {
+                   DEFAULT -> StreetRun.Building.$wlvl ww
+                   1#
+                   -> case GHC.Prim.<=# ww 0# of lwild1 {
+                        DEFAULT -> StreetRun.Building.$wlvl ww
+                        1#
+                        -> GHC.Prim.tagToEnum# @ StreetRun.Building.BuildingKey ww } }) -}
+b6c203de20b714108c843bd679cea181
+  $wlvl :: GHC.Prim.Int# -> StreetRun.Building.BuildingKey
+  {- Arity: 1, Strictness: <B,U>x, Inline: [2] -}
+b6c203de20b714108c843bd679cea181
+  data BuildingKey = BuildingKey'Idle
+b6c203de20b714108c843bd679cea181
+  buildingKey'keyName ::
+    StreetRun.Building.BuildingKey -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Building.BuildingKey) ->
+                 case ds of wild { StreetRun.Building.BuildingKey'Idle ->
+                 StreetRun.Building.buildingKey'keyName1 }) -}
+b17cafa4382039c8ebdb2d30a49f18b0
+  buildingKey'keyName1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   StreetRun.Building.buildingKey'keyName2) -}
+c2cf69fb39dcac1d9a7326c7516237e7
+  buildingKey'keyName2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Idle"#) -}
+instance GHC.Enum.Bounded [StreetRun.Building.BuildingKey]
+  = StreetRun.Building.$fBoundedBuildingKey
+instance GHC.Enum.Enum [StreetRun.Building.BuildingKey]
+  = StreetRun.Building.$fEnumBuildingKey
+instance GHC.Classes.Eq [StreetRun.Building.BuildingKey]
+  = StreetRun.Building.$fEqBuildingKey
+instance Animate.KeyName [StreetRun.Building.BuildingKey]
+  = StreetRun.Building.$fKeyNameBuildingKey
+instance GHC.Classes.Ord [StreetRun.Building.BuildingKey]
+  = StreetRun.Building.$fOrdBuildingKey
+instance GHC.Show.Show [StreetRun.Building.BuildingKey]
+  = StreetRun.Building.$fShowBuildingKey
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

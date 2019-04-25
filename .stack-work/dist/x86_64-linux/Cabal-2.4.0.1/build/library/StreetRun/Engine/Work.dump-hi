@@ -1,0 +1,557 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 19:02:31.055056575 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Engine.Work 8064
+  interface hash: ac1042a921aed84b696aec078a7165d7
+  ABI hash: 2093cc6ef87d0747d31187ee7f4f6e98
+  export-list hash: 6477792e7e6fbcfa456b9e9fd542c55e
+  orphan hash: 9dd06e890308e637115054cbe5267057
+  flag hash: 402412713a6dba2e75ee0b452641298b
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Engine.Work.PlayVars{StreetRun.Engine.Work.PlayVars pvBackStreetScroll pvBuildingPos pvBuildingScroll pvGrassPos pvGrassScroll pvObstacles pvRunnerPos pvRunnerState pvScore pvSeconds pvShowRunner pvSpeed pvStocks pvStreetScroll pvUpcomingObstacles pvZoom}
+module dependencies: StreetRun.Engine.Bird
+                     StreetRun.Engine.Building StreetRun.Engine.Camera
+                     StreetRun.Engine.Frame StreetRun.Engine.Grass
+                     StreetRun.Engine.Hurdle StreetRun.Engine.Hurdle_1
+                     StreetRun.Engine.Input StreetRun.Engine.Lava
+                     StreetRun.Engine.Physics StreetRun.Engine.Rock
+                     StreetRun.Engine.Runner StreetRun.Engine.Runner_func_1
+                     StreetRun.Engine.Runner_func_2 StreetRun.Engine.Step
+                     StreetRun.Engine.Types
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
+                      base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
+                      bifunctors-5.5.3 binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2
+                      call-stack-0.1.0 cereal-0.5.8.0 comonad-5.0.4 conduit-1.3.1.1
+                      containers-0.6.0.1 contravariant-1.5 deepseq-1.4.4.0
+                      distributive-0.6 dlist-0.8.0.6 exceptions-0.10.1 free-5.1
+                      ghc-boot-th-8.6.4 ghc-prim-0.5.3 hashable-1.2.7.0
+                      integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2 kan-extensions-5.2
+                      key-state-0.2.0 lens-4.17 libyaml-0.1.1.0 linear-1.20.8 mtl-2.2.2
+                      pretty-1.1.3.6 primitive-0.6.4.0 profunctors-5.3 random-1.1
+                      reflection-2.1.4 resourcet-1.2.2 safe-0.3.17 scientific-0.3.6.2
+                      semigroupoids-5.3.2 stm-2.5.0.0 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 th-abstraction-0.2.11.0
+                      time-1.8.0.2 time-locale-compat-0.1.1.5 transformers-0.5.6.2
+                      transformers-base-0.4.5.2 transformers-compat-0.6.2
+                      unliftio-core-0.1.2.0 unordered-containers-0.2.9.0 uuid-types-1.0.3
+                      vector-0.12.0.2 yaml-0.11.0.0
+orphans: time-1.8.0.2:Data.Time.Clock.TAI
+         reflection-2.1.4:Data.Reflection linear-1.20.8:Linear.Instances
+         stm-2.5.0.0:Control.Monad.STM
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.2:Data.Vector.Unboxed
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.4.2.0:Data.Aeson.Types.Internal animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.Plucker linear-1.20.8:Linear.Quaternion
+                         linear-1.20.8:Linear.V linear-1.20.8:Linear.V0
+                         linear-1.20.8:Linear.V1 linear-1.20.8:Linear.V2
+                         linear-1.20.8:Linear.V3 linear-1.20.8:Linear.V4
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  lens-4.17:Control.Lens 531af2b540e6d8d8ce856b6f46207d94
+import  -/  StreetRun.Engine.Building 401c240dc76b2ac537785d52b863f952
+  exports: cb80da8b5c84663056aff10870c070a8
+  BuildingKey 2bbfdc6cf1a0a33cc1749edfa5776375
+import  -/  StreetRun.Engine.Grass 0690fbd2f8a253d4e72fcca563506522
+  exports: 9609ba03635d68e1d29fc784e69668f9
+  GrassKey 94278f68dabd4147c29b3e2763d908e1
+import  -/  StreetRun.Engine.Hurdle 689b972d4e85183a54d17152c35d6caa
+  exports: 6f36a0da9da2341b94122a10d2fdf78c
+  ObstacleState 6d3ea8eeee6e7afcab21f0d20b4635b9
+  ObstacleTag 63829d315f2a2d8d879f1d803686748f
+import  -/  StreetRun.Engine.Hurdle_1 5ea3a1a4734e7121c42d6618c17322cc
+  exports: acd92b1d86ee6cc7a8f78e2746322600
+import  -/  StreetRun.Engine.Runner 92f0fc10c09bba0933086b352f065d17
+  exports: c5bcac04dca39a47a3b45c58ae03f34c
+  RunnerKey f5b919cb557b82fc77185acb78bdb7da
+  RunnerState 8a2df4904a878996e6c672adcdcc81e9
+import  -/  StreetRun.Engine.Runner_func_1 8253e5a6ca260c245e7a2ffa72783b38
+  exports: c4c8b4707d5e6c4bd4834daafe273870
+import  -/  StreetRun.Engine.Runner_func_2 249d756e9edd6a8a7c3b52202950e572
+  exports: 995c383ee3232fec9b0d29c45d6d2caa
+import  -/  StreetRun.Engine.Types 6986db6c9f4d1e9fc0edc9e119b1c392
+  exports: c934b5ae3d6a2dfd0319fd3b47efce61
+  Distance 1d27617e6b1a52e1b2997bf23482db86
+  Percent 34f2154fa29bed1ea1f6b21bbba55be5
+  Score 2c1d435e70ce6141686e8dcd599abffc
+  Seconds 970124013cb076e3574e853bf4f93243
+  Stocks f8f5782a215e042486160b28bbaa9e60
+5b4fac9be0886cf543d7b7325b581ca8
+  $fEqPlayVars :: GHC.Classes.Eq StreetRun.Engine.Work.PlayVars
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Work.PlayVars
+                  StreetRun.Engine.Work.$fEqPlayVars_$c==
+                  StreetRun.Engine.Work.$fEqPlayVars_$c/= -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $fEqPlayVars_$c/= ::
+    StreetRun.Engine.Work.PlayVars
+    -> StreetRun.Engine.Work.PlayVars -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(S)LLLLLLLLLLLLLLL),1*U(1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U,1*U(1*U,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(1*U,1*U,1*U,1*U),1*U(U),1*U(U),1*U(U),1*U(U),1*U,1*U)><S(S(S)LLLLLLLLLLLLLLL),1*U(1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U,1*U(1*U,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(1*U,1*U,1*U,1*U),1*U(U),1*U(U),1*U(U),1*U(U),1*U,1*U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Engine.Work.PlayVars)
+                   (y :: StreetRun.Engine.Work.PlayVars) ->
+                 case StreetRun.Engine.Work.$fEqPlayVars_$c== x y of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $fEqPlayVars_$c== ::
+    StreetRun.Engine.Work.PlayVars
+    -> StreetRun.Engine.Work.PlayVars -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(S)LLLLLLLLLLLLLLL),1*U(1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U,1*U(1*U,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(1*U,1*U,1*U,1*U),1*U(U),1*U(U),1*U(U),1*U(U),1*U,1*U)><S(S(S)LLLLLLLLLLLLLLL),1*U(1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U,1*U(1*U,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(1*U,1*U,1*U,1*U),1*U(U),1*U(U),1*U(U),1*U(U),1*U,1*U)> -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $fShowPlayVars :: GHC.Show.Show StreetRun.Engine.Work.PlayVars
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Work.PlayVars
+                  StreetRun.Engine.Work.$fShowPlayVars_$cshowsPrec
+                  StreetRun.Engine.Work.$fShowPlayVars_$cshow
+                  StreetRun.Engine.Work.$fShowPlayVars_$cshowList -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $fShowPlayVars1 :: StreetRun.Engine.Work.PlayVars -> GHC.Show.ShowS
+  {- Arity: 1,
+     Unfolding: (StreetRun.Engine.Work.$fShowPlayVars_$cshowsPrec
+                   StreetRun.Engine.Work.$fShowPlayVars2) -}
+02267c2a8e3bfbe3818780fbc8f984af
+  $fShowPlayVars2 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $fShowPlayVars_$cshow ::
+    StreetRun.Engine.Work.PlayVars -> GHC.Base.String
+  {- Arity: 1,
+     Strictness: <S,1*U(U(U),U(U),1*U(U),1*U(U),1*U(U),U,1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,1*U,1*U,1*U),1*U(U),1*U(U),1*U(U),1*U(U),U,U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Engine.Work.PlayVars) ->
+                 StreetRun.Engine.Work.$fShowPlayVars_$cshowsPrec
+                   StreetRun.Engine.Work.$fShowPlayVars2
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $fShowPlayVars_$cshowList ::
+    [StreetRun.Engine.Work.PlayVars] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Engine.Work.PlayVars])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Engine.Work.PlayVars
+                   StreetRun.Engine.Work.$fShowPlayVars1
+                   ls
+                   s) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $fShowPlayVars_$cshowsPrec ::
+    GHC.Types.Int -> StreetRun.Engine.Work.PlayVars -> GHC.Show.ShowS
+  {- Arity: 2,
+     Strictness: <S(S),1*U(U)><S,1*U(U(U),U(U),1*U(U),1*U(U),1*U(U),U,1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,1*U,1*U,1*U),1*U(U),1*U(U),1*U(U),1*U(U),U,U)> -}
+486da138e500409ebcda42251d599b6a
+  $s$fEq(,) ::
+    GHC.Classes.Eq (GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ (GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)
+                  (GHC.Classes.$fEq(,)_$c==
+                     @ GHC.Types.Int
+                     @ StreetRun.Engine.Hurdle.ObstacleTag
+                     GHC.Classes.$fEqInt
+                     StreetRun.Engine.Hurdle.$fEqObstacleTag)
+                  StreetRun.Engine.Work.$s$fEq(,)_$s$fEq(,)_$c/= -}
+f1cb47df6745844af352a90f1a53187e
+  $s$fEq(,)_$s$fEq(,)_$c/= ::
+    (GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)
+    -> (GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(S)L),1*U(1*U(U),1*U)><S(S(S)L),1*U(1*U(U),1*U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: (GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag))
+                   (y :: (GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)) ->
+                 case x of wild { (,) a1 a2 ->
+                 case y of wild1 { (,) b1 b2 ->
+                 case GHC.Classes.eqInt a1 b1 of wild2 {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True
+                   -> case a2 of wild4 {
+                        StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                        -> case b2 of wild5 {
+                             DEFAULT -> GHC.Types.True
+                             StreetRun.Engine.Hurdle.ObstacleTag'Lava -> GHC.Types.False }
+                        StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                        -> case b2 of wild5 {
+                             DEFAULT -> GHC.Types.True
+                             StreetRun.Engine.Hurdle.ObstacleTag'Rock -> GHC.Types.False }
+                        StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                        -> case b2 of wild5 {
+                             DEFAULT -> GHC.Types.True
+                             StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                             -> GHC.Types.False } } } } }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvBackStreetScroll:PlayVars ::
+    StreetRun.Engine.Work.PlayVars -> StreetRun.Engine.Types.Distance
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLSLLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds12 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvBuildingPos:PlayVars ::
+    StreetRun.Engine.Work.PlayVars
+    -> Animate.Position
+         StreetRun.Engine.Building.BuildingKey
+         StreetRun.Engine.Types.Seconds
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLSLLLLLLLL),1*U(A,A,A,A,A,A,A,1*U(U,U,U,U),A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds8 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvBuildingScroll:PlayVars ::
+    StreetRun.Engine.Work.PlayVars -> StreetRun.Engine.Types.Distance
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLSLLLLL),1*U(A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds11 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvGrassPos:PlayVars ::
+    StreetRun.Engine.Work.PlayVars
+    -> Animate.Position
+         StreetRun.Engine.Grass.GrassKey StreetRun.Engine.Types.Seconds
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLSLLLLLLL),1*U(A,A,A,A,A,A,A,A,1*U(U,U,U,U),A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds9 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvGrassScroll:PlayVars ::
+    StreetRun.Engine.Work.PlayVars -> StreetRun.Engine.Types.Distance
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLSLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds14 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvObstacles:PlayVars ::
+    StreetRun.Engine.Work.PlayVars
+    -> [StreetRun.Engine.Hurdle.ObstacleState]
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLSL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds15 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvRunnerPos:PlayVars ::
+    StreetRun.Engine.Work.PlayVars
+    -> Animate.Position
+         StreetRun.Engine.Runner.RunnerKey StreetRun.Engine.Types.Seconds
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLSLLLLLLLLL),1*U(A,A,A,A,A,A,1*U(U,U,U,U),A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds7 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvRunnerState:PlayVars ::
+    StreetRun.Engine.Work.PlayVars
+    -> StreetRun.Engine.Runner.RunnerState
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLSLLLLLL),1*U(A,A,A,A,A,A,A,A,A,1*U(U,U,U,U),A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds10 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvScore:PlayVars ::
+    StreetRun.Engine.Work.PlayVars -> StreetRun.Engine.Types.Score
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SLLLLLLLLLLLLLLL),1*U(1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds1 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvSeconds:PlayVars ::
+    StreetRun.Engine.Work.PlayVars -> StreetRun.Engine.Types.Seconds
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLSLLLLLLLLLLLL),1*U(A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds4 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvShowRunner:PlayVars ::
+    StreetRun.Engine.Work.PlayVars -> GHC.Types.Bool
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLSLLLLLLLLLL),1*U(A,A,A,A,A,1*U,A,A,A,A,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds6 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvSpeed:PlayVars ::
+    StreetRun.Engine.Work.PlayVars -> StreetRun.Engine.Types.Percent
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLSLLLLLLLLLLLLL),1*U(A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds3 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvStocks:PlayVars ::
+    StreetRun.Engine.Work.PlayVars -> StreetRun.Engine.Types.Stocks
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LSLLLLLLLLLLLLLL),1*U(A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds2 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvStreetScroll:PlayVars ::
+    StreetRun.Engine.Work.PlayVars -> StreetRun.Engine.Types.Distance
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLSLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds13 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvUpcomingObstacles:PlayVars ::
+    StreetRun.Engine.Work.PlayVars
+    -> [(GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)]
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLLS),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds16 }) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  $sel:pvZoom:PlayVars ::
+    StreetRun.Engine.Work.PlayVars -> GHC.Types.Float
+  RecSel Left StreetRun.Engine.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLSLLLLLLLLLLL),1*U(A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Work.PlayVars) ->
+                 case ds of wild { StreetRun.Engine.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                 ds5 }) -}
+d8a7076d6703ea9f007a58ce95ece5f6
+  $tc'PlayVars :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   14535818120162748356##
+                   2978022357638347941##
+                   StreetRun.Engine.Work.$trModule
+                   StreetRun.Engine.Work.$tc'PlayVars2
+                   0#
+                   StreetRun.Engine.Work.$tc'PlayVars1) -}
+a4e95bfc856083561bee46ed7312ab23
+  $tc'PlayVars1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+dc6086ca0eac740a4240749b1e2dcb93
+  $tc'PlayVars2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Work.$tc'PlayVars3) -}
+dbe4943f06d364e5216c1e8fcae9f4f5
+  $tc'PlayVars3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'PlayVars"#) -}
+be7b8ac87686d6221dd62bb61faad107
+  $tcPlayVars :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   15019372404816879483##
+                   4239055134190900493##
+                   StreetRun.Engine.Work.$trModule
+                   StreetRun.Engine.Work.$tcPlayVars1
+                   0#
+                   GHC.Types.krep$*) -}
+cea069434028ebd9f0f44d8b527ce1d5
+  $tcPlayVars1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Work.$tcPlayVars2) -}
+6d6231db843aade080ef5d555dda21c3
+  $tcPlayVars2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("PlayVars"#) -}
+13c824cf1b888b056c87525c7a5c6bc4
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Engine.Work.$trModule3
+                   StreetRun.Engine.Work.$trModule1) -}
+0af989a53fcf0c8a07d534e60f25ad08
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Engine.Work.$trModule2) -}
+d1be1724326e2b375084fa5d35ba86dd
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Engine.Work"#) -}
+0bb70155677f76db17d586dbe3df909c
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Engine.Work.$trModule4) -}
+918d69e717c6468798cd33c8bca07cb1
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+5b4fac9be0886cf543d7b7325b581ca8
+  data PlayVars
+    = PlayVars {pvScore :: StreetRun.Engine.Types.Score,
+                pvStocks :: StreetRun.Engine.Types.Stocks,
+                pvSpeed :: StreetRun.Engine.Types.Percent,
+                pvSeconds :: StreetRun.Engine.Types.Seconds,
+                pvZoom :: GHC.Types.Float,
+                pvShowRunner :: GHC.Types.Bool,
+                pvRunnerPos :: Animate.Position
+                                 StreetRun.Engine.Runner.RunnerKey StreetRun.Engine.Types.Seconds,
+                pvBuildingPos :: Animate.Position
+                                   StreetRun.Engine.Building.BuildingKey
+                                   StreetRun.Engine.Types.Seconds,
+                pvGrassPos :: Animate.Position
+                                StreetRun.Engine.Grass.GrassKey StreetRun.Engine.Types.Seconds,
+                pvRunnerState :: StreetRun.Engine.Runner.RunnerState,
+                pvBuildingScroll :: StreetRun.Engine.Types.Distance,
+                pvBackStreetScroll :: StreetRun.Engine.Types.Distance,
+                pvStreetScroll :: StreetRun.Engine.Types.Distance,
+                pvGrassScroll :: StreetRun.Engine.Types.Distance,
+                pvObstacles :: [StreetRun.Engine.Hurdle.ObstacleState],
+                pvUpcomingObstacles :: [(GHC.Types.Int,
+                                         StreetRun.Engine.Hurdle.ObstacleTag)]}
+instance GHC.Classes.Eq [StreetRun.Engine.Work.PlayVars]
+  = StreetRun.Engine.Work.$fEqPlayVars
+instance GHC.Show.Show [StreetRun.Engine.Work.PlayVars]
+  = StreetRun.Engine.Work.$fShowPlayVars
+"SPEC/StreetRun.Engine.Work $fEq(,) @ Int @ ObstacleTag" [orphan] forall (v1 :: GHC.Classes.Eq
+                                                                                  StreetRun.Engine.Hurdle.ObstacleTag)
+                                                                         (v :: GHC.Classes.Eq
+                                                                                 GHC.Types.Int)
+  GHC.Classes.$fEq(,) @ GHC.Types.Int
+                      @ StreetRun.Engine.Hurdle.ObstacleTag
+                      v
+                      v1
+  = StreetRun.Engine.Work.$s$fEq(,)
+"SPEC/StreetRun.Engine.Work $fEq(,)_$c/= @ Int @ ObstacleTag" [orphan] forall ($dEq1 :: GHC.Classes.Eq
+                                                                                          StreetRun.Engine.Hurdle.ObstacleTag)
+                                                                              ($dEq :: GHC.Classes.Eq
+                                                                                         GHC.Types.Int)
+  GHC.Classes.$fEq(,)_$c/= @ GHC.Types.Int
+                           @ StreetRun.Engine.Hurdle.ObstacleTag
+                           $dEq
+                           $dEq1
+  = StreetRun.Engine.Work.$s$fEq(,)_$s$fEq(,)_$c/=
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

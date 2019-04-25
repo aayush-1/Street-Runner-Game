@@ -1,0 +1,499 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 16:33:28.838155011 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Engine.Title 8064
+  interface hash: 9aa8cb6d024528f37b2e5b5a1424ac92
+  ABI hash: 6fff13b260aef243b9a7da3b8c6fd255
+  export-list hash: f579be10e269e0edc62f31c20e248faa
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 402412713a6dba2e75ee0b452641298b
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  StreetRun.Engine.Title.initTitleVars
+  StreetRun.Engine.Title.titleShowPressEscape
+  StreetRun.Engine.Title.titleShowPressSpace
+  StreetRun.Engine.Title.HasTitleVars{StreetRun.Engine.Title.titleVars}
+  StreetRun.Engine.Title.TitleVars{StreetRun.Engine.Title.TitleVars tvBuildingPos tvFlashing tvGrassPos tvRunnerPos}
+module dependencies: StreetRun.Engine.Bird
+                     StreetRun.Engine.Building StreetRun.Engine.Camera
+                     StreetRun.Engine.Frame StreetRun.Engine.Grass
+                     StreetRun.Engine.Input StreetRun.Engine.Lava
+                     StreetRun.Engine.Obstacle StreetRun.Engine.Physics
+                     StreetRun.Engine.Rock StreetRun.Engine.Runner StreetRun.Engine.Step
+                     StreetRun.Engine.Types
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
+                      base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
+                      bifunctors-5.5.3 binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2
+                      call-stack-0.1.0 cereal-0.5.8.0 comonad-5.0.4 conduit-1.3.1.1
+                      containers-0.6.0.1 contravariant-1.5 deepseq-1.4.4.0
+                      distributive-0.6 dlist-0.8.0.6 exceptions-0.10.1 free-5.1
+                      ghc-boot-th-8.6.4 ghc-prim-0.5.3 hashable-1.2.7.0
+                      integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2 kan-extensions-5.2
+                      key-state-0.2.0 lens-4.17 libyaml-0.1.1.0 linear-1.20.8 mtl-2.2.2
+                      pretty-1.1.3.6 primitive-0.6.4.0 profunctors-5.3 random-1.1
+                      reflection-2.1.4 resourcet-1.2.2 safe-0.3.17 scientific-0.3.6.2
+                      semigroupoids-5.3.2 stm-2.5.0.0 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 th-abstraction-0.2.11.0
+                      time-1.8.0.2 time-locale-compat-0.1.1.5 transformers-0.5.6.2
+                      transformers-base-0.4.5.2 transformers-compat-0.6.2
+                      unliftio-core-0.1.2.0 unordered-containers-0.2.9.0 uuid-types-1.0.3
+                      vector-0.12.0.2 yaml-0.11.0.0
+orphans: time-1.8.0.2:Data.Time.Clock.TAI
+         reflection-2.1.4:Data.Reflection linear-1.20.8:Linear.Instances
+         stm-2.5.0.0:Control.Monad.STM
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.2:Data.Vector.Unboxed
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.4.2.0:Data.Aeson.Types.Internal animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.Plucker linear-1.20.8:Linear.Quaternion
+                         linear-1.20.8:Linear.V linear-1.20.8:Linear.V0
+                         linear-1.20.8:Linear.V1 linear-1.20.8:Linear.V2
+                         linear-1.20.8:Linear.V3 linear-1.20.8:Linear.V4
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Float ccb68fbeaab348f60d11c8132d51af5d
+import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  lens-4.17:Control.Lens 531af2b540e6d8d8ce856b6f46207d94
+import  -/  lens-4.17:Control.Lens.TH c8ee903ac0437128dcf8373c689fbce1
+import  -/  lens-4.17:Control.Lens.Type a26601a0a02238b01fa664e92db6501f
+import  -/  StreetRun.Engine.Building 401c240dc76b2ac537785d52b863f952
+  exports: cb80da8b5c84663056aff10870c070a8
+  BuildingKey 2bbfdc6cf1a0a33cc1749edfa5776375
+  BuildingKey'Idle de95467401ef445df76665e4c87fbc53
+import  -/  StreetRun.Engine.Grass 0690fbd2f8a253d4e72fcca563506522
+  exports: 9609ba03635d68e1d29fc784e69668f9
+  GrassKey 94278f68dabd4147c29b3e2763d908e1
+  GrassKey'Idle 03af9c6688aa89c8371b90f02de8546a
+import  -/  StreetRun.Engine.Runner 358c28beabda859155849266167d3726
+  exports: 08e3da8afa6fb960b6b42eb8a1094aec
+  RunnerKey f5b919cb557b82fc77185acb78bdb7da
+  RunnerKey'Idle 3826d87e83941d61ee3a39c795f3e12f
+import  -/  StreetRun.Engine.Types 6986db6c9f4d1e9fc0edc9e119b1c392
+  exports: c934b5ae3d6a2dfd0319fd3b47efce61
+  Seconds 970124013cb076e3574e853bf4f93243
+dc319737137d0a07864f3c759196fcd3
+  $fEqTitleVars :: GHC.Classes.Eq StreetRun.Engine.Title.TitleVars
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Title.TitleVars
+                  StreetRun.Engine.Title.$fEqTitleVars_$c==
+                  StreetRun.Engine.Title.$fEqTitleVars_$c/= -}
+dc319737137d0a07864f3c759196fcd3
+  $fEqTitleVars_$c/= ::
+    StreetRun.Engine.Title.TitleVars
+    -> StreetRun.Engine.Title.TitleVars -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SLLL)LLL),1*U(1*U(1*U,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(U))><S(S(SLLL)LLL),1*U(1*U(1*U,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(U))>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Engine.Title.TitleVars)
+                   (y :: StreetRun.Engine.Title.TitleVars) ->
+                 case StreetRun.Engine.Title.$fEqTitleVars_$c== x y of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+dc319737137d0a07864f3c759196fcd3
+  $fEqTitleVars_$c== ::
+    StreetRun.Engine.Title.TitleVars
+    -> StreetRun.Engine.Title.TitleVars -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SLLL)LLL),1*U(1*U(1*U,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(U))><S(S(SLLL)LLL),1*U(1*U(1*U,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(U))> -}
+213e6c8376adc481564f3a96030cf0fc
+  $fHasTitleVarsTitleVars ::
+    StreetRun.Engine.Title.HasTitleVars
+      StreetRun.Engine.Title.TitleVars
+  DFunId
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A>, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                StreetRun.Engine.Title.$fHasTitleVarsTitleVars_$ctitleVars
+                  `cast`
+                (Sym (StreetRun.Engine.Title.N:HasTitleVars[0]
+                          <StreetRun.Engine.Title.TitleVars>_N)) -}
+71073ff2373d96b471f556710d173cc9
+  $fHasTitleVarsTitleVars_$ctitleVars ::
+    Control.Lens.Type.Lens'
+      StreetRun.Engine.Title.TitleVars StreetRun.Engine.Title.TitleVars
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ f :: * -> * ($dFunctor :: GHC.Base.Functor f) ->
+                 GHC.Base.id
+                   @ (StreetRun.Engine.Title.TitleVars
+                      -> f StreetRun.Engine.Title.TitleVars)) -}
+dc319737137d0a07864f3c759196fcd3
+  $fShowTitleVars :: GHC.Show.Show StreetRun.Engine.Title.TitleVars
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Title.TitleVars
+                  StreetRun.Engine.Title.$fShowTitleVars_$cshowsPrec
+                  StreetRun.Engine.Title.$fShowTitleVars_$cshow
+                  StreetRun.Engine.Title.$fShowTitleVars_$cshowList -}
+dc319737137d0a07864f3c759196fcd3
+  $fShowTitleVars1 ::
+    StreetRun.Engine.Title.TitleVars -> GHC.Show.ShowS
+  {- Arity: 1,
+     Strictness: <S,1*U(1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U))>,
+     Unfolding: (\ (w :: StreetRun.Engine.Title.TitleVars) ->
+                 case w of ww { StreetRun.Engine.Title.TitleVars ww1 ww2 ww3 ww4 ->
+                 StreetRun.Engine.Title.$w$cshowsPrec 0# ww1 ww2 ww3 ww4 }) -}
+73d496a49b910f1198fe770cc4bb8b50
+  $fShowTitleVars2 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+dc319737137d0a07864f3c759196fcd3
+  $fShowTitleVars_$cshow ::
+    StreetRun.Engine.Title.TitleVars -> GHC.Base.String
+  {- Arity: 1,
+     Strictness: <S,1*U(1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Engine.Title.TitleVars) ->
+                 StreetRun.Engine.Title.$fShowTitleVars_$cshowsPrec
+                   StreetRun.Engine.Title.$fShowTitleVars2
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+dc319737137d0a07864f3c759196fcd3
+  $fShowTitleVars_$cshowList ::
+    [StreetRun.Engine.Title.TitleVars] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Engine.Title.TitleVars])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Engine.Title.TitleVars
+                   StreetRun.Engine.Title.$fShowTitleVars1
+                   ls
+                   s) -}
+dc319737137d0a07864f3c759196fcd3
+  $fShowTitleVars_$cshowsPrec ::
+    GHC.Types.Int -> StreetRun.Engine.Title.TitleVars -> GHC.Show.ShowS
+  {- Arity: 2,
+     Strictness: <S(S),1*U(U)><S,1*U(1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U))>,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Types.Int) (w1 :: StreetRun.Engine.Title.TitleVars) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { StreetRun.Engine.Title.TitleVars ww3 ww4 ww5 ww6 ->
+                 StreetRun.Engine.Title.$w$cshowsPrec ww1 ww3 ww4 ww5 ww6 } }) -}
+dc319737137d0a07864f3c759196fcd3
+  $sel:tvBuildingPos:TitleVars ::
+    StreetRun.Engine.Title.TitleVars
+    -> Animate.Position
+         StreetRun.Engine.Building.BuildingKey
+         StreetRun.Engine.Types.Seconds
+  RecSel Left StreetRun.Engine.Title.TitleVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LSLL),1*U(A,1*U(U,U,U,U),A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Title.TitleVars) ->
+                 case ds of wild { StreetRun.Engine.Title.TitleVars ds1 ds2 ds3 ds4 ->
+                 ds2 }) -}
+dc319737137d0a07864f3c759196fcd3
+  $sel:tvFlashing:TitleVars ::
+    StreetRun.Engine.Title.TitleVars -> GHC.Types.Float
+  RecSel Left StreetRun.Engine.Title.TitleVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLS),1*U(A,A,A,1*U(U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Title.TitleVars) ->
+                 case ds of wild { StreetRun.Engine.Title.TitleVars ds1 ds2 ds3 ds4 ->
+                 ds4 }) -}
+dc319737137d0a07864f3c759196fcd3
+  $sel:tvGrassPos:TitleVars ::
+    StreetRun.Engine.Title.TitleVars
+    -> Animate.Position
+         StreetRun.Engine.Grass.GrassKey StreetRun.Engine.Types.Seconds
+  RecSel Left StreetRun.Engine.Title.TitleVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLSL),1*U(A,A,1*U(U,U,U,U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Title.TitleVars) ->
+                 case ds of wild { StreetRun.Engine.Title.TitleVars ds1 ds2 ds3 ds4 ->
+                 ds3 }) -}
+dc319737137d0a07864f3c759196fcd3
+  $sel:tvRunnerPos:TitleVars ::
+    StreetRun.Engine.Title.TitleVars
+    -> Animate.Position
+         StreetRun.Engine.Runner.RunnerKey StreetRun.Engine.Types.Seconds
+  RecSel Left StreetRun.Engine.Title.TitleVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SLLL),1*U(1*U(U,U,U,U),A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Title.TitleVars) ->
+                 case ds of wild { StreetRun.Engine.Title.TitleVars ds1 ds2 ds3 ds4 ->
+                 ds1 }) -}
+fb573174cf67363121abe8c1f697c12e
+  $tc'TitleVars :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   2831122515251516964##
+                   3103946258692655949##
+                   StreetRun.Engine.Title.$trModule
+                   StreetRun.Engine.Title.$tc'TitleVars2
+                   0#
+                   StreetRun.Engine.Title.$tc'TitleVars1) -}
+6fe10f08d85448b647d876ec403d4696
+  $tc'TitleVars1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+b03c04697384d42852a51dc0ee1339d9
+  $tc'TitleVars2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Title.$tc'TitleVars3) -}
+5ecbaed27868fd77b0afb54eecf9d61e
+  $tc'TitleVars3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'TitleVars"#) -}
+f34afee3177a613e3196312d1c0777fb
+  $tcHasTitleVars :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12473111529895506452##
+                   18266133924864979807##
+                   StreetRun.Engine.Title.$trModule
+                   StreetRun.Engine.Title.$tcHasTitleVars2
+                   0#
+                   StreetRun.Engine.Title.$tcHasTitleVars1) -}
+176c15361b2453c09c95cafd51363e76
+  $tcHasTitleVars1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+11eb8eb3ad22bd527f7cd9f17cfa5f5f
+  $tcHasTitleVars2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Title.$tcHasTitleVars3) -}
+be30c6c3f064d38a013e193a16debc0e
+  $tcHasTitleVars3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("HasTitleVars"#) -}
+9f69966c202161a4e860d2f1ecf87c2a
+  $tcTitleVars :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12896168708336816622##
+                   13194860667960467925##
+                   StreetRun.Engine.Title.$trModule
+                   StreetRun.Engine.Title.$tcTitleVars1
+                   0#
+                   GHC.Types.krep$*) -}
+38a030468fa53c58b609582e85db9e70
+  $tcTitleVars1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Title.$tcTitleVars2) -}
+476bbf79ba59d9b930e402fb733d60a8
+  $tcTitleVars2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("TitleVars"#) -}
+7c888cbdc7cfb29951e870cd1488bfdb
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Engine.Title.$trModule3
+                   StreetRun.Engine.Title.$trModule1) -}
+9097d780d4a131d4acac198cc84c417d
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Engine.Title.$trModule2) -}
+f6af45d9f713a4ad2eaebfe582a43f44
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Engine.Title"#) -}
+8e72247629ac8d77136537e944dbc029
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Engine.Title.$trModule4) -}
+359a503680e50abbba47eb194398b822
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+263ee42e48c8b2fb642621c770b3ddbc
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> Animate.Position
+         StreetRun.Engine.Runner.RunnerKey StreetRun.Engine.Types.Seconds
+    -> Animate.Position
+         StreetRun.Engine.Building.BuildingKey
+         StreetRun.Engine.Types.Seconds
+    -> Animate.Position
+         StreetRun.Engine.Grass.GrassKey StreetRun.Engine.Types.Seconds
+    -> GHC.Types.Float
+    -> GHC.Show.ShowS
+  {- Arity: 5,
+     Strictness: <S,U><L,1*U(U,U(U),U,U)><L,1*U(U,U(U),U,U)><L,1*U(U,U(U),U,U)><L,1*U(U)>,
+     Inline: [2] -}
+213e6c8376adc481564f3a96030cf0fc
+  class HasTitleVars c where
+    titleVars :: Control.Lens.Type.Lens'
+                   c StreetRun.Engine.Title.TitleVars
+    {-# MINIMAL titleVars #-}
+dc319737137d0a07864f3c759196fcd3
+  data TitleVars
+    = TitleVars {tvRunnerPos :: Animate.Position
+                                  StreetRun.Engine.Runner.RunnerKey StreetRun.Engine.Types.Seconds,
+                 tvBuildingPos :: Animate.Position
+                                    StreetRun.Engine.Building.BuildingKey
+                                    StreetRun.Engine.Types.Seconds,
+                 tvGrassPos :: Animate.Position
+                                 StreetRun.Engine.Grass.GrassKey StreetRun.Engine.Types.Seconds,
+                 tvFlashing :: GHC.Types.Float}
+298885d96c2a670e4f61a6c816d788fb
+  initTitleVars :: StreetRun.Engine.Title.TitleVars
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (StreetRun.Engine.Title.TitleVars
+                   StreetRun.Engine.Title.initTitleVars4
+                   StreetRun.Engine.Title.initTitleVars3
+                   StreetRun.Engine.Title.initTitleVars2
+                   StreetRun.Engine.Title.initTitleVars1) -}
+038a07735e2263d2f5b8fa27850c5685
+  initTitleVars1 :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 0.0#) -}
+83ea7cdb23e07b1dbbc70e5cffdcab1e
+  initTitleVars2 ::
+    Animate.Position
+      StreetRun.Engine.Grass.GrassKey StreetRun.Engine.Types.Seconds
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Animate.Position
+                   @ StreetRun.Engine.Grass.GrassKey
+                   @ StreetRun.Engine.Types.Seconds
+                   StreetRun.Engine.Grass.GrassKey'Idle
+                   Animate.$fShowAnimations1
+                   StreetRun.Engine.Title.initTitleVars1
+                     `cast`
+                   (Sym (StreetRun.Engine.Types.N:Seconds[0]))
+                   Animate.Loop'Always) -}
+ac5605a203a14877aecb0e2a2e508bd7
+  initTitleVars3 ::
+    Animate.Position
+      StreetRun.Engine.Building.BuildingKey
+      StreetRun.Engine.Types.Seconds
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Animate.Position
+                   @ StreetRun.Engine.Building.BuildingKey
+                   @ StreetRun.Engine.Types.Seconds
+                   StreetRun.Engine.Building.BuildingKey'Idle
+                   Animate.$fShowAnimations1
+                   StreetRun.Engine.Title.initTitleVars1
+                     `cast`
+                   (Sym (StreetRun.Engine.Types.N:Seconds[0]))
+                   Animate.Loop'Always) -}
+7a4f21ae4de63a6b13fa2c096a922b67
+  initTitleVars4 ::
+    Animate.Position
+      StreetRun.Engine.Runner.RunnerKey StreetRun.Engine.Types.Seconds
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Animate.Position
+                   @ StreetRun.Engine.Runner.RunnerKey
+                   @ StreetRun.Engine.Types.Seconds
+                   StreetRun.Engine.Runner.RunnerKey'Idle
+                   Animate.$fShowAnimations1
+                   StreetRun.Engine.Title.initTitleVars1
+                     `cast`
+                   (Sym (StreetRun.Engine.Types.N:Seconds[0]))
+                   Animate.Loop'Always) -}
+462eb9a486ce68712ed6dcc481a332f5
+  titleShowPressEscape :: GHC.Types.Float -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (p :: GHC.Types.Float) ->
+                 case p of wild { GHC.Types.F# x ->
+                 GHC.Prim.tagToEnum#
+                   @ GHC.Types.Bool
+                   (GHC.Prim.ltFloat# (GHC.Prim.sinFloat# x) -0.5#) }) -}
+e3f4ad39011df72095c9a45ae2509d87
+  titleShowPressSpace :: GHC.Types.Float -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: GHC.Types.Float) ->
+                 case x of wild { GHC.Types.F# x1 ->
+                 GHC.Prim.tagToEnum#
+                   @ GHC.Types.Bool
+                   (GHC.Prim.gtFloat# (GHC.Prim.sinFloat# x1) 0.5#) }) -}
+instance GHC.Classes.Eq [StreetRun.Engine.Title.TitleVars]
+  = StreetRun.Engine.Title.$fEqTitleVars
+instance StreetRun.Engine.Title.HasTitleVars [StreetRun.Engine.Title.TitleVars]
+  = StreetRun.Engine.Title.$fHasTitleVarsTitleVars
+instance GHC.Show.Show [StreetRun.Engine.Title.TitleVars]
+  = StreetRun.Engine.Title.$fShowTitleVars
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

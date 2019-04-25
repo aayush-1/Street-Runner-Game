@@ -1,0 +1,311 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 16:33:25.368171746 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Engine.Step 8064
+  interface hash: 33a735613e6096077673a51eee31f006
+  ABI hash: f0a76cdedf79aa392987b0eab7ac5a30
+  export-list hash: 906f32750bdb93a941a3267931b38cf3
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 23bfc2de71c0e795adcc3e64d97ecb08
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Engine.Step.smash
+  StreetRun.Engine.Step.Step{StreetRun.Engine.Step.Step'Change StreetRun.Engine.Step.Step'Sustain}
+module dependencies:
+package dependencies: base-4.12.0.0 ghc-prim-0.5.3
+                      integer-gmp-1.0.2.0
+orphans: base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: base-4.12.0.0:Control.Applicative
+                         base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity base-4.12.0.0:Data.Monoid
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:GHC.Generics
+                         base-4.12.0.0:GHC.IO.Exception
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+0560860f64fae75cc55f99aeeaca40f9
+  $fEqStep ::
+    GHC.Classes.Eq a => GHC.Classes.Eq (StreetRun.Engine.Step.Step a)
+  DFunId
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U(C(C1(U)),A)>m,
+     Inline: CONLIKE,
+     Unfolding: DFun: @ a (v :: GHC.Classes.Eq a).
+                  @ (StreetRun.Engine.Step.Step a)
+                  (StreetRun.Engine.Step.$fEqStep_$c== @ a v)
+                  (StreetRun.Engine.Step.$fEqStep_$c/= @ a v) -}
+0560860f64fae75cc55f99aeeaca40f9
+  $fEqStep_$c/= ::
+    GHC.Classes.Eq a =>
+    StreetRun.Engine.Step.Step a
+    -> StreetRun.Engine.Step.Step a -> GHC.Types.Bool
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,U(C(C1(U)),A)><S,1*U><S,1*U>, Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ a
+                   ($dEq :: GHC.Classes.Eq a)
+                   (x :: StreetRun.Engine.Step.Step a)
+                   (y :: StreetRun.Engine.Step.Step a) ->
+                 case StreetRun.Engine.Step.$fEqStep_$c== @ a $dEq x y of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+0560860f64fae75cc55f99aeeaca40f9
+  $fEqStep_$c== ::
+    GHC.Classes.Eq a =>
+    StreetRun.Engine.Step.Step a
+    -> StreetRun.Engine.Step.Step a -> GHC.Types.Bool
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,U(C(C1(U)),A)><S,1*U><S,1*U>,
+     Unfolding: (\ @ a
+                   ($dEq :: GHC.Classes.Eq a)
+                   (ds :: StreetRun.Engine.Step.Step a)
+                   (ds1 :: StreetRun.Engine.Step.Step a) ->
+                 case ds of wild {
+                   StreetRun.Engine.Step.Step'Change a1 a2
+                   -> case ds1 of wild1 {
+                        StreetRun.Engine.Step.Step'Change b1 b2
+                        -> case GHC.Classes.== @ a $dEq a1 b1 of wild2 {
+                             GHC.Types.False -> GHC.Types.False
+                             GHC.Types.True -> GHC.Classes.== @ a $dEq a2 b2 }
+                        StreetRun.Engine.Step.Step'Sustain ipv -> GHC.Types.False }
+                   StreetRun.Engine.Step.Step'Sustain a1
+                   -> case ds1 of wild1 {
+                        StreetRun.Engine.Step.Step'Change ipv ipv1 -> GHC.Types.False
+                        StreetRun.Engine.Step.Step'Sustain b1
+                        -> GHC.Classes.== @ a $dEq a1 b1 } }) -}
+0560860f64fae75cc55f99aeeaca40f9
+  $fShowStep ::
+    GHC.Show.Show a => GHC.Show.Show (StreetRun.Engine.Step.Step a)
+  DFunId
+  {- Arity: 1, Strictness: <L,U(C(C1(C(U))),A,A)>m, Inline: CONLIKE,
+     Unfolding: DFun: @ a (v :: GHC.Show.Show a).
+                  @ (StreetRun.Engine.Step.Step a)
+                  (StreetRun.Engine.Step.$fShowStep_$cshowsPrec @ a v)
+                  (StreetRun.Engine.Step.$fShowStep_$cshow @ a v)
+                  (StreetRun.Engine.Step.$fShowStep_$cshowList @ a v) -}
+e0e65933c8441300eb92eb3e7f59b440
+  $fShowStep1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+2c4176aa1972c83f3fe10c0f92410149
+  $fShowStep2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Step.$fShowStep3) -}
+eb223ab96bdeea1ba47165940c04f163
+  $fShowStep3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Step'Sustain "#) -}
+74acea4b5fb0d8096bbffc674eb41b38
+  $fShowStep4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Step'Change "#) -}
+13d33579f19e3f99db5dc3fbdf5233cf
+  $fShowStep5 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 11#) -}
+0560860f64fae75cc55f99aeeaca40f9
+  $fShowStep_$cshow ::
+    GHC.Show.Show a => StreetRun.Engine.Step.Step a -> GHC.Base.String
+  {- Arity: 2, Strictness: <L,U(C(C1(C(U))),A,A)><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a
+                   ($dShow :: GHC.Show.Show a)
+                   (x :: StreetRun.Engine.Step.Step a) ->
+                 StreetRun.Engine.Step.$fShowStep_$cshowsPrec
+                   @ a
+                   $dShow
+                   StreetRun.Engine.Step.$fShowStep1
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+0560860f64fae75cc55f99aeeaca40f9
+  $fShowStep_$cshowList ::
+    GHC.Show.Show a => [StreetRun.Engine.Step.Step a] -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,U(C(C1(C(U))),A,A)><S,1*U><L,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a
+                   ($dShow :: GHC.Show.Show a)
+                   (ls :: [StreetRun.Engine.Step.Step a])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ (StreetRun.Engine.Step.Step a)
+                   (StreetRun.Engine.Step.$fShowStep_$cshowsPrec
+                      @ a
+                      $dShow
+                      StreetRun.Engine.Step.$fShowStep1)
+                   ls
+                   s) -}
+0560860f64fae75cc55f99aeeaca40f9
+  $fShowStep_$cshowsPrec ::
+    GHC.Show.Show a =>
+    GHC.Types.Int -> StreetRun.Engine.Step.Step a -> GHC.Show.ShowS
+  {- Arity: 3,
+     Strictness: <L,U(C(C1(C(U))),A,A)><S(S),1*U(U)><S,1*U>,
+     Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a
+                   (w :: GHC.Show.Show a)
+                   (w1 :: GHC.Types.Int)
+                   (w2 :: StreetRun.Engine.Step.Step a) ->
+                 case w1 of ww { GHC.Types.I# ww1 ->
+                 StreetRun.Engine.Step.$w$cshowsPrec @ a w ww1 w2 }) -}
+5d2a51651e40889df45bb6e8668316cb
+  $tc'Step'Change :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   18237546405763076004##
+                   1224098134417775706##
+                   StreetRun.Engine.Step.$trModule
+                   StreetRun.Engine.Step.$tc'Step'Change2
+                   1#
+                   StreetRun.Engine.Step.$tc'Step'Change1) -}
+9147ffff98ef444ca672ecb1579910b3
+  $tc'Step'Change1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+e534ae32103d5c0d97d83008a49d528c
+  $tc'Step'Change2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Step.$tc'Step'Change3) -}
+f952ff42002a623f18594043b9a3f838
+  $tc'Step'Change3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Step'Change"#) -}
+cac252c247f727cd392219d0487acb4d
+  $tc'Step'Sustain :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   10518759105762325000##
+                   6072470444143705577##
+                   StreetRun.Engine.Step.$trModule
+                   StreetRun.Engine.Step.$tc'Step'Sustain2
+                   1#
+                   StreetRun.Engine.Step.$tc'Step'Sustain1) -}
+e23eb7d517c3c6b11aa793f0e8188596
+  $tc'Step'Sustain1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+0d7581056f581b3a3a0594a6e2e9724d
+  $tc'Step'Sustain2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Step.$tc'Step'Sustain3) -}
+606373932f975724ba1a30b88e79e8d5
+  $tc'Step'Sustain3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Step'Sustain"#) -}
+b38d6e57aeefad80e4b68d86dbec39f5
+  $tcStep :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7786562137177552584##
+                   16126351002952774718##
+                   StreetRun.Engine.Step.$trModule
+                   StreetRun.Engine.Step.$tcStep1
+                   0#
+                   GHC.Types.krep$*Arr*) -}
+dcb8c0565fddf6a24d1a9b14b1051a77
+  $tcStep1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Engine.Step.$tcStep2) -}
+88da860376bcceb2e83eddcda111c3f1
+  $tcStep2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Step"#) -}
+2e16a0c7784b774f4f45af93cc060754
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Engine.Step.$trModule3
+                   StreetRun.Engine.Step.$trModule1) -}
+8869fb8e19059a86912bcf04f15ecb1d
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Engine.Step.$trModule2) -}
+8bd93a3200cad8dc5852e2d2be08aca8
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Engine.Step"#) -}
+fde9ea45305eab28257b66e135dda82b
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Engine.Step.$trModule4) -}
+bfde577ef23538a92ede2448d4df4207
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+0560860f64fae75cc55f99aeeaca40f9
+  $w$cshowsPrec ::
+    GHC.Show.Show a =>
+    GHC.Prim.Int# -> StreetRun.Engine.Step.Step a -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,U(C(C1(C(U))),A,A)><S,U><S,1*U>,
+     Inline: [2],
+     Unfolding: (\ @ a
+                   (w :: GHC.Show.Show a)
+                   (ww :: GHC.Prim.Int#)
+                   (w1 :: StreetRun.Engine.Step.Step a) ->
+                 case w1 of wild {
+                   StreetRun.Engine.Step.Step'Change b1 b2
+                   -> let {
+                        f :: GHC.Base.String -> GHC.Base.String
+                        = GHC.Show.showsPrec @ a w StreetRun.Engine.Step.$fShowStep5 b1
+                      } in
+                      let {
+                        g :: GHC.Base.String -> GHC.Base.String
+                        = GHC.Show.showsPrec @ a w StreetRun.Engine.Step.$fShowStep5 b2
+                      } in
+                      case GHC.Prim.>=# ww 11# of lwild {
+                        DEFAULT
+                        -> \ (x :: GHC.Base.String) ->
+                           GHC.CString.unpackAppendCString#
+                             StreetRun.Engine.Step.$fShowStep4
+                             (f (GHC.Types.: @ GHC.Types.Char GHC.Show.showSpace1 (g x)))
+                        1#
+                        -> \ (x :: GHC.Base.String) ->
+                           GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.$fShow(,)4
+                             (GHC.CString.unpackAppendCString#
+                                StreetRun.Engine.Step.$fShowStep4
+                                (f (GHC.Types.:
+                                      @ GHC.Types.Char
+                                      GHC.Show.showSpace1
+                                      (g (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)2 x))))) }
+                   StreetRun.Engine.Step.Step'Sustain b1
+                   -> let {
+                        g :: GHC.Base.String -> GHC.Base.String
+                        = GHC.Show.showsPrec @ a w StreetRun.Engine.Step.$fShowStep5 b1
+                      } in
+                      case GHC.Prim.>=# ww 11# of lwild {
+                        DEFAULT
+                        -> \ (x :: GHC.Base.String) ->
+                           GHC.Base.++
+                             @ GHC.Types.Char
+                             StreetRun.Engine.Step.$fShowStep2
+                             (g x)
+                        1#
+                        -> \ (x :: GHC.Base.String) ->
+                           GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.$fShow(,)4
+                             (GHC.Base.++
+                                @ GHC.Types.Char
+                                StreetRun.Engine.Step.$fShowStep2
+                                (g (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)2 x))) } }) -}
+0560860f64fae75cc55f99aeeaca40f9
+  data Step a = Step'Change a a | Step'Sustain a
+9de4c9b6b0f72ec60748a2d19bd34d7f
+  smash :: StreetRun.Engine.Step.Step a -> a
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a (ds :: StreetRun.Engine.Step.Step a) ->
+                 case ds of wild {
+                   StreetRun.Engine.Step.Step'Change ds1 a1 -> a1
+                   StreetRun.Engine.Step.Step'Sustain a1 -> a1 }) -}
+instance GHC.Classes.Eq [StreetRun.Engine.Step.Step]
+  = StreetRun.Engine.Step.$fEqStep
+instance GHC.Show.Show [StreetRun.Engine.Step.Step]
+  = StreetRun.Engine.Step.$fShowStep
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

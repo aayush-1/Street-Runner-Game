@@ -1,0 +1,704 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 16:42:39.926929513 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Effect.Audio 8064
+  interface hash: 30db4cc227fc3a31965a324d0948dcce
+  ABI hash: 7fab74bc7bba679ea52fa3228353cfa8
+  export-list hash: 662974ef429a0efd65663fc283a11890
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 9e4fb1f04cc4eff0e23b2f9f31508f0f
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Effect.Audio.lowerGameMusic'
+  StreetRun.Effect.Audio.playBirdSfx'
+  StreetRun.Effect.Audio.playChunk
+  StreetRun.Effect.Audio.playDeathSfx'
+  StreetRun.Effect.Audio.playDuckSfx'
+  StreetRun.Effect.Audio.playGameMusic'
+  StreetRun.Effect.Audio.playHurtSfx'
+  StreetRun.Effect.Audio.playJumpSfx'
+  StreetRun.Effect.Audio.playLavaSfx'
+  StreetRun.Effect.Audio.playPointSfx'
+  StreetRun.Effect.Audio.playQuakeSfx'
+  StreetRun.Effect.Audio.playRecoverSfx'
+  StreetRun.Effect.Audio.playRockSfx'
+  StreetRun.Effect.Audio.playStockSfx'
+  StreetRun.Effect.Audio.raiseGameMusic'
+  StreetRun.Effect.Audio.stopGameMusic'
+  StreetRun.Effect.Audio.Audio{StreetRun.Effect.Audio.lowerGameMusic StreetRun.Effect.Audio.playBirdSfx StreetRun.Effect.Audio.playDeathSfx StreetRun.Effect.Audio.playDuckSfx StreetRun.Effect.Audio.playGameMusic StreetRun.Effect.Audio.playHurtSfx StreetRun.Effect.Audio.playJumpSfx StreetRun.Effect.Audio.playLavaSfx StreetRun.Effect.Audio.playPointSfx StreetRun.Effect.Audio.playQuakeSfx StreetRun.Effect.Audio.playRecoverSfx StreetRun.Effect.Audio.playRockSfx StreetRun.Effect.Audio.playStockSfx StreetRun.Effect.Audio.raiseGameMusic StreetRun.Effect.Audio.stopGameMusic}
+module dependencies: StreetRun.Config StreetRun.Engine.Bird
+                     StreetRun.Engine.Building StreetRun.Engine.Camera
+                     StreetRun.Engine.Font StreetRun.Engine.Font_functions
+                     StreetRun.Engine.Frame StreetRun.Engine.Grass
+                     StreetRun.Engine.Input StreetRun.Engine.Lava
+                     StreetRun.Engine.Obstacle StreetRun.Engine.Physics
+                     StreetRun.Engine.Rock StreetRun.Engine.Runner StreetRun.Engine.Step
+                     StreetRun.Engine.Types StreetRun.Resource
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
+                      base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
+                      base16-bytestring-0.1.1.6 base64-bytestring-1.0.0.2
+                      bifunctors-5.5.3 binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2
+                      call-stack-0.1.0 cereal-0.5.8.0 comonad-5.0.4 conduit-1.3.1.1
+                      containers-0.6.0.1 contravariant-1.5 data-default-class-0.1.2.0
+                      deepseq-1.4.4.0 distributive-0.6 dlist-0.8.0.6 errors-2.3.0
+                      exceptions-0.10.1 free-5.1 ghc-boot-th-8.6.4 ghc-prim-0.5.3
+                      hashable-1.2.7.0 integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2
+                      kan-extensions-5.2 key-state-0.2.0 lens-4.17 libyaml-0.1.1.0
+                      lifted-base-0.2.3.12 linear-1.20.8 monad-control-1.0.2.3 mtl-2.2.2
+                      pretty-1.1.3.6 primitive-0.6.4.0 profunctors-5.3 random-1.1
+                      reflection-2.1.4 resourcet-1.2.2 safe-0.3.17
+                      safe-exceptions-0.1.7.0 scientific-0.3.6.2 sdl2-2.4.1.0
+                      sdl2-image-2.0.0 sdl2-mixer-1.1.0 sdl2-ttf-2.0.2
+                      semigroupoids-5.3.2 stm-2.5.0.0 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 text-conversions-0.3.0
+                      th-abstraction-0.2.11.0 time-1.8.0.2 time-locale-compat-0.1.1.5
+                      transformers-0.5.6.2 transformers-base-0.4.5.2
+                      transformers-compat-0.6.2 unliftio-core-0.1.2.0
+                      unordered-containers-0.2.9.0 uuid-types-1.0.3 vector-0.12.0.2
+                      yaml-0.11.0.0
+orphans: time-1.8.0.2:Data.Time.Clock.TAI
+         reflection-2.1.4:Data.Reflection linear-1.20.8:Linear.Instances
+         stm-2.5.0.0:Control.Monad.STM
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.2:Data.Vector.Unboxed
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.4.2.0:Data.Aeson.Types.Internal animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.Affine linear-1.20.8:Linear.Plucker
+                         linear-1.20.8:Linear.Quaternion linear-1.20.8:Linear.V
+                         linear-1.20.8:Linear.V0 linear-1.20.8:Linear.V1
+                         linear-1.20.8:Linear.V2 linear-1.20.8:Linear.V3
+                         linear-1.20.8:Linear.V4
+                         monad-control-1.0.2.3:Control.Monad.Trans.Control
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         sdl2-2.4.1.0:SDL.Audio sdl2-2.4.1.0:SDL.Event
+                         sdl2-2.4.1.0:SDL.Exception sdl2-2.4.1.0:SDL.Hint
+                         sdl2-2.4.1.0:SDL.Init sdl2-2.4.1.0:SDL.Input.GameController
+                         sdl2-2.4.1.0:SDL.Input.Joystick sdl2-2.4.1.0:SDL.Input.Keyboard
+                         sdl2-2.4.1.0:SDL.Input.Keyboard.Codes sdl2-2.4.1.0:SDL.Input.Mouse
+                         sdl2-2.4.1.0:SDL.Internal.Types sdl2-2.4.1.0:SDL.Power
+                         sdl2-2.4.1.0:SDL.Time sdl2-2.4.1.0:SDL.Video
+                         sdl2-2.4.1.0:SDL.Video.OpenGL sdl2-2.4.1.0:SDL.Video.Renderer
+                         sdl2-image-2.0.0:SDL.Image sdl2-ttf-2.0.2:SDL.Font
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  base-4.12.0.0:Control.Monad.IO.Class e96805f9d79f75be66a0d44eb83064c1
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  exceptions-0.10.1:Control.Monad.Catch d963cd0a953cb33941cbb2c475dcbadb
+import  -/  mtl-2.2.2:Control.Monad.Reader d5c3a33f1c95bb71f4ae02f87a7048ff
+import  -/  mtl-2.2.2:Control.Monad.Reader.Class 56d676c7504f5007ee5b66906716abcc
+import  -/  safe-exceptions-0.1.7.0:Control.Exception.Safe 17ab706d389356fc1b759977e8d17a1a
+import  -/  sdl2-2.4.1.0:SDL.Exception 5c32227f82a1360d86c7d3790a8a205d
+import  -/  sdl2-mixer-1.1.0:SDL.Mixer ab60a8550598269def875bc1a7207b35
+import  -/  StreetRun.Config 5f6735077e5a1bb57e0d68657dfbe066
+  exports: 718448995096e5a0315e80eb460349b2
+  $sel:cResources:Config 97493c78c70274b9df7082b531336038
+  Config 97493c78c70274b9df7082b531336038
+import  -/  StreetRun.Resource 4e9044955f523ac8386509f1e44004f2
+  $sel:rBirdSfx:Resources a35432b5269bb4da755d2ac1b7a0e301
+  $sel:rDeathSfx:Resources a35432b5269bb4da755d2ac1b7a0e301
+  $sel:rDuckSfx:Resources a35432b5269bb4da755d2ac1b7a0e301
+  $sel:rGameMusic:Resources a35432b5269bb4da755d2ac1b7a0e301
+  $sel:rHurtSfx:Resources a35432b5269bb4da755d2ac1b7a0e301
+  $sel:rJumpSfx:Resources a35432b5269bb4da755d2ac1b7a0e301
+  $sel:rLavaSfx:Resources a35432b5269bb4da755d2ac1b7a0e301
+  $sel:rPointSfx:Resources a35432b5269bb4da755d2ac1b7a0e301
+  $sel:rQuakeSfx:Resources a35432b5269bb4da755d2ac1b7a0e301
+  $sel:rRecoverSfx:Resources a35432b5269bb4da755d2ac1b7a0e301
+  $sel:rRockSfx:Resources a35432b5269bb4da755d2ac1b7a0e301
+  $sel:rStockSfx:Resources a35432b5269bb4da755d2ac1b7a0e301
+  Resources a35432b5269bb4da755d2ac1b7a0e301
+4d45ec459e41ef7808266430b504d379
+  $tc'C:Audio :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   6296653219196907521##
+                   15514701093401945495##
+                   StreetRun.Effect.Audio.$trModule
+                   StreetRun.Effect.Audio.$tc'C:Audio2
+                   1#
+                   StreetRun.Effect.Audio.$tc'C:Audio1) -}
+9cc7f6e7cc6b4b57bf241e2ba097c95f
+  $tc'C:Audio1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+0898577d8bf3a5e32fbe77ac11564831
+  $tc'C:Audio2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Effect.Audio.$tc'C:Audio3) -}
+f8e4583d4c4cee8518aeb6356fac1647
+  $tc'C:Audio3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'C:Audio"#) -}
+fd1218431c124d81eee8ffff8a0f45b3
+  $tcAudio :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4895674421874261094##
+                   9682800757351173852##
+                   StreetRun.Effect.Audio.$trModule
+                   StreetRun.Effect.Audio.$tcAudio2
+                   0#
+                   StreetRun.Effect.Audio.$tcAudio1) -}
+c9af6168310ac753dd3aeba587e2e796
+  $tcAudio1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+5293f219453a9b50a8fb2fd99d458864
+  $tcAudio2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Effect.Audio.$tcAudio3) -}
+517f401da112b0e42f3d449c5aef0daa
+  $tcAudio3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Audio"#) -}
+fbdd848653a326dae026aaf025a06168
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Effect.Audio.$trModule3
+                   StreetRun.Effect.Audio.$trModule1) -}
+abcd0c4d8439b414da06df3649d99cb9
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Effect.Audio.$trModule2) -}
+2f12ff6130f85234368819d9f586566b
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Effect.Audio"#) -}
+04d90c2497d2463ed6a4d9679ce21c80
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Effect.Audio.$trModule4) -}
+b124b9709899d071123b646099e9aa8a
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+d262c9a8b9e39c9334cc761cf81b23c7
+  $wplayChunk ::
+    (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.IO.Class.MonadIO m,
+     Control.Monad.Catch.MonadThrow m) =>
+    (forall e a.
+     GHC.Exception.Type.Exception e =>
+     m a -> (e -> m a) -> m a)
+    -> (StreetRun.Resource.Resources -> SDL.Mixer.Chunk) -> m ()
+  {- Arity: 5,
+     Strictness: <L,U(1*U(A,1*C1(C1(U)),A,1*C1(U),A),A,A,1*C1(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,U(A,C(C1(U)))><C(C(C(S))),1*C1(C1(C1(U)))><L,C(U)>,
+     Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   (w :: Control.Monad.Reader.Class.MonadReader
+                           StreetRun.Config.Config m)
+                   (w1 :: Control.Monad.IO.Class.MonadIO m)
+                   (ww :: Control.Monad.Catch.MonadThrow m)
+                   (ww1 :: forall e a.
+                           GHC.Exception.Type.Exception e =>
+                           m a -> (e -> m a) -> m a)
+                   (w2 :: StreetRun.Resource.Resources -> SDL.Mixer.Chunk) ->
+                 let {
+                   $dMonad :: GHC.Base.Monad m
+                   = Control.Monad.Reader.Class.$p1MonadReader
+                       @ StreetRun.Config.Config
+                       @ m
+                       w
+                 } in
+                 let {
+                   lvl :: m () = GHC.Base.return @ m $dMonad @ () GHC.Tuple.()
+                 } in
+                 ww1
+                   @ SDL.Exception.SDLException
+                   @ ()
+                   SDL.Exception.$fExceptionSDLException
+                   (GHC.Base.>>=
+                      @ m
+                      $dMonad
+                      @ SDL.Mixer.Chunk
+                      @ ()
+                      (Control.Monad.Reader.Class.reader
+                         @ StreetRun.Config.Config
+                         @ m
+                         w
+                         @ SDL.Mixer.Chunk
+                         (\ (x :: StreetRun.Config.Config) ->
+                          w2 (StreetRun.Config.$sel:cResources:Config x)))
+                      (SDL.Mixer.play @ m w1))
+                   (\ (e1 :: SDL.Exception.SDLException) ->
+                    case SDL.Exception.$fExceptionSDLException_$ctoException
+                           e1 of wild { GHC.Exception.Type.SomeException e2 $dException1 e3 ->
+                    case Data.Typeable.Internal.sameTypeRep
+                           @ *
+                           @ *
+                           @ e2
+                           @ GHC.IO.Exception.SomeAsyncException
+                           (GHC.Exception.Type.$p1Exception @ e2 $dException1)
+                             `cast`
+                           (Data.Typeable.Internal.N:Typeable[0] <*>_N <e2>_N)
+                           GHC.IO.Exception.$fExceptionAllocationLimitExceeded6 of wild1 {
+                      GHC.Types.False -> lvl
+                      GHC.Types.True
+                      -> case e3
+                                `cast`
+                              (UnsafeCo representational e2 GHC.IO.Exception.SomeAsyncException) of wild2 { GHC.IO.Exception.SomeAsyncException e4 $dException ds ->
+                         Control.Monad.Catch.throwM
+                           @ m
+                           ww
+                           @ SDL.Exception.SDLException
+                           @ ()
+                           SDL.Exception.$fExceptionSDLException
+                           e1 } } })) -}
+c07de636f96384dc289f698f4547730b
+  $wplayGameMusic' ::
+    (forall a b. m a -> (a -> m b) -> m b)
+    -> (forall a. (StreetRun.Config.Config -> a) -> m a)
+    -> Control.Monad.IO.Class.MonadIO m => m ()
+  {- Arity: 3,
+     Strictness: <C(C(S)),1*C1(C1(U))><L,1*C1(U)><L,U(U(A,C(C1(U)),C(C1(U)),C(U),A),C(U))>,
+     Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   (ww :: forall a b. m a -> (a -> m b) -> m b)
+                   (ww1 :: forall a. (StreetRun.Config.Config -> a) -> m a)
+                   (w :: Control.Monad.IO.Class.MonadIO m) ->
+                 ww
+                   @ SDL.Mixer.Music
+                   @ ()
+                   (ww1 @ SDL.Mixer.Music StreetRun.Effect.Audio.playGameMusic'1)
+                   (\ (w2 :: SDL.Mixer.Music) ->
+                    case w of ww2 { Control.Monad.IO.Class.C:MonadIO ww3 ww4 ->
+                    case ww3 of ww5 { GHC.Base.C:Monad ww6 ww7 ww8 ww9 ww10 ->
+                    SDL.Mixer.$wplayMusic
+                      @ m
+                      ww7
+                      ww8
+                      ww9
+                      ww4
+                      SDL.Mixer.$bForever1
+                        `cast`
+                      (Sym (Foreign.C.Types.N:CInt[0]) ; Sym (SDL.Mixer.N:Times[0]))
+                      w2 } })) -}
+d89daa653fc2686ddebe3c4bfa066d96
+  class GHC.Base.Monad m => Audio (m :: * -> *) where
+    playGameMusic :: m ()
+    stopGameMusic :: m ()
+    playJumpSfx :: m ()
+    playDuckSfx :: m ()
+    playPointSfx :: m ()
+    playBirdSfx :: m ()
+    playHurtSfx :: m ()
+    playLavaSfx :: m ()
+    playRockSfx :: m ()
+    playQuakeSfx :: m ()
+    playDeathSfx :: m ()
+    playRecoverSfx :: m ()
+    playStockSfx :: m ()
+    lowerGameMusic :: m ()
+    raiseGameMusic :: m ()
+    {-# MINIMAL playGameMusic, stopGameMusic, playJumpSfx, playDuckSfx,
+                playPointSfx, playBirdSfx, playHurtSfx, playLavaSfx, playRockSfx,
+                playQuakeSfx, playDeathSfx, playRecoverSfx, playStockSfx,
+                lowerGameMusic, raiseGameMusic #-}
+6f9c8ace7c3c9f2eff6d5d35c0b0b0c0
+  lowerGameMusic' :: Control.Monad.IO.Class.MonadIO m => m ()
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(S(S(S(LC(C(S)))LLLLL)LLLL)L),1*U(1*U(1*U(1*U(A,1*C1(C1(U))),A,A,A,A,A),A,A,A,A),1*C1(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ m :: * -> * ($dMonadIO :: Control.Monad.IO.Class.MonadIO m) ->
+                 case $dMonadIO of ww { Control.Monad.IO.Class.C:MonadIO ww1 ww2 ->
+                 case ww1 of ww3 { GHC.Base.C:Monad ww4 ww5 ww6 ww7 ww8 ->
+                 case ww4 of ww9 { GHC.Base.C:Applicative ww10 ww11 ww12 ww13 ww14 ww15 ->
+                 case ww10 of ww16 { GHC.Base.C:Functor ww17 ww18 ->
+                 SDL.Mixer.$wsetMusicVolume
+                   @ m
+                   ww18
+                   ww2
+                   StreetRun.Effect.Audio.lowerGameMusic'1 } } } }) -}
+cfcba580ace38866764af82b19781cbe
+  lowerGameMusic'1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 16#) -}
+af5778dab9aa4ce914bc7a216d8c6803
+  playBirdSfx' ::
+    (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
+     Control.Monad.Catch.MonadCatch m) =>
+    m ()
+  {- Arity: 4,
+     Strictness: <L,U(U(A,C(C1(U)),A,C(U),A),A,A,C(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,A><S(LC(C(C(S)))),1*U(U(A,C(C1(U))),1*C1(C1(C1(U))))>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   ($dMonadReader :: Control.Monad.Reader.Class.MonadReader
+                                       StreetRun.Config.Config m)
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   ($dMonadThrow :: Control.Monad.Catch.MonadThrow m)
+                   ($dMonadCatch :: Control.Monad.Catch.MonadCatch m) ->
+                 StreetRun.Effect.Audio.playChunk
+                   @ m
+                   $dMonadReader
+                   $dMonadIO
+                   (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
+                   $dMonadCatch
+                   StreetRun.Resource.$sel:rBirdSfx:Resources) -}
+81ba9b53a035ecf99f7b6540e3118614
+  playChunk ::
+    (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
+     Control.Monad.Catch.MonadCatch m) =>
+    (StreetRun.Resource.Resources -> SDL.Mixer.Chunk) -> m ()
+  {- Arity: 5,
+     Strictness: <L,U(U(A,C(C1(U)),A,C(U),A),A,A,C(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,A><S(LC(C(C(S)))),1*U(U(A,C(C1(U))),1*C1(C1(C1(U))))><L,C(U)>,
+     Inline: [2],
+     Unfolding: InlineRule (5, True, False)
+                (\ @ m :: * -> *
+                   (w :: Control.Monad.Reader.Class.MonadReader
+                           StreetRun.Config.Config m)
+                   (w1 :: Control.Monad.IO.Class.MonadIO m)
+                   (w2 :: Control.Monad.Catch.MonadThrow m)
+                   (w3 :: Control.Monad.Catch.MonadCatch m)
+                   (w4 :: StreetRun.Resource.Resources -> SDL.Mixer.Chunk) ->
+                 case w3 of ww { Control.Monad.Catch.C:MonadCatch ww1 ww2 ->
+                 StreetRun.Effect.Audio.$wplayChunk @ m w w1 ww1 ww2 w4 }) -}
+4b033e17602e0c87fa4d895e92916c6c
+  playDeathSfx' ::
+    (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
+     Control.Monad.Catch.MonadCatch m) =>
+    m ()
+  {- Arity: 4,
+     Strictness: <L,U(U(A,C(C1(U)),A,C(U),A),A,A,C(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,A><S(LC(C(C(S)))),1*U(U(A,C(C1(U))),1*C1(C1(C1(U))))>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   ($dMonadReader :: Control.Monad.Reader.Class.MonadReader
+                                       StreetRun.Config.Config m)
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   ($dMonadThrow :: Control.Monad.Catch.MonadThrow m)
+                   ($dMonadCatch :: Control.Monad.Catch.MonadCatch m) ->
+                 StreetRun.Effect.Audio.playChunk
+                   @ m
+                   $dMonadReader
+                   $dMonadIO
+                   (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
+                   $dMonadCatch
+                   StreetRun.Resource.$sel:rDeathSfx:Resources) -}
+141063faea213315ccb7604a47bff778
+  playDuckSfx' ::
+    (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
+     Control.Monad.Catch.MonadCatch m) =>
+    m ()
+  {- Arity: 4,
+     Strictness: <L,U(U(A,C(C1(U)),A,C(U),A),A,A,C(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,A><S(LC(C(C(S)))),1*U(U(A,C(C1(U))),1*C1(C1(C1(U))))>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   ($dMonadReader :: Control.Monad.Reader.Class.MonadReader
+                                       StreetRun.Config.Config m)
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   ($dMonadThrow :: Control.Monad.Catch.MonadThrow m)
+                   ($dMonadCatch :: Control.Monad.Catch.MonadCatch m) ->
+                 StreetRun.Effect.Audio.playChunk
+                   @ m
+                   $dMonadReader
+                   $dMonadIO
+                   (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
+                   $dMonadCatch
+                   StreetRun.Resource.$sel:rDuckSfx:Resources) -}
+5bf4a2a346b61bfaa6c741359c2f93c6
+  playGameMusic' ::
+    (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.IO.Class.MonadIO m) =>
+    m ()
+  {- Arity: 2,
+     Strictness: <S(S(LC(C(S))LLL)LLL),1*U(1*U(A,1*C1(C1(U)),A,A,A),A,A,1*C1(U))><L,U(U(A,C(C1(U)),C(C1(U)),C(U),A),C(U))>,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ @ m :: * -> *
+                   (w :: Control.Monad.Reader.Class.MonadReader
+                           StreetRun.Config.Config m)
+                   (w1 :: Control.Monad.IO.Class.MonadIO m) ->
+                 case w of ww { Control.Monad.Reader.Class.C:MonadReader ww1 ww2 ww3 ww4 ->
+                 case ww1 of ww5 { GHC.Base.C:Monad ww6 ww7 ww8 ww9 ww10 ->
+                 StreetRun.Effect.Audio.$wplayGameMusic' @ m ww7 ww4 w1 } }) -}
+822b6fbb1239ae8f051cf198a59a73ad
+  playGameMusic'1 :: StreetRun.Config.Config -> SDL.Mixer.Music
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLS(LLLLLLLLSLLLLLLLLLLLLLLLLLLL)),1*U(A,A,1*U(A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Config.Config) ->
+                 case x of wild { StreetRun.Config.Config ds1 ds2 ds3 ->
+                 case ds3 of wild1 { StreetRun.Resource.Resources ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ds29 ds30 ds31 ->
+                 ds12 } }) -}
+5ba8bbb331c56c43145e0f34f9e557b2
+  playHurtSfx' ::
+    (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
+     Control.Monad.Catch.MonadCatch m) =>
+    m ()
+  {- Arity: 4,
+     Strictness: <L,U(U(A,C(C1(U)),A,C(U),A),A,A,C(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,A><S(LC(C(C(S)))),1*U(U(A,C(C1(U))),1*C1(C1(C1(U))))>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   ($dMonadReader :: Control.Monad.Reader.Class.MonadReader
+                                       StreetRun.Config.Config m)
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   ($dMonadThrow :: Control.Monad.Catch.MonadThrow m)
+                   ($dMonadCatch :: Control.Monad.Catch.MonadCatch m) ->
+                 StreetRun.Effect.Audio.playChunk
+                   @ m
+                   $dMonadReader
+                   $dMonadIO
+                   (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
+                   $dMonadCatch
+                   StreetRun.Resource.$sel:rHurtSfx:Resources) -}
+405d050769e2bba7c1063d908d66fd58
+  playJumpSfx' ::
+    (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
+     Control.Monad.Catch.MonadCatch m) =>
+    m ()
+  {- Arity: 4,
+     Strictness: <L,U(U(A,C(C1(U)),A,C(U),A),A,A,C(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,A><S(LC(C(C(S)))),1*U(U(A,C(C1(U))),1*C1(C1(C1(U))))>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   ($dMonadReader :: Control.Monad.Reader.Class.MonadReader
+                                       StreetRun.Config.Config m)
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   ($dMonadThrow :: Control.Monad.Catch.MonadThrow m)
+                   ($dMonadCatch :: Control.Monad.Catch.MonadCatch m) ->
+                 StreetRun.Effect.Audio.playChunk
+                   @ m
+                   $dMonadReader
+                   $dMonadIO
+                   (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
+                   $dMonadCatch
+                   StreetRun.Resource.$sel:rJumpSfx:Resources) -}
+ac7b8e3c9598dcb060517d2346459541
+  playLavaSfx' ::
+    (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
+     Control.Monad.Catch.MonadCatch m) =>
+    m ()
+  {- Arity: 4,
+     Strictness: <L,U(U(A,C(C1(U)),A,C(U),A),A,A,C(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,A><S(LC(C(C(S)))),1*U(U(A,C(C1(U))),1*C1(C1(C1(U))))>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   ($dMonadReader :: Control.Monad.Reader.Class.MonadReader
+                                       StreetRun.Config.Config m)
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   ($dMonadThrow :: Control.Monad.Catch.MonadThrow m)
+                   ($dMonadCatch :: Control.Monad.Catch.MonadCatch m) ->
+                 StreetRun.Effect.Audio.playChunk
+                   @ m
+                   $dMonadReader
+                   $dMonadIO
+                   (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
+                   $dMonadCatch
+                   StreetRun.Resource.$sel:rLavaSfx:Resources) -}
+6f87b7d6abfc5c39ba2f05312b4ee6d2
+  playPointSfx' ::
+    (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
+     Control.Monad.Catch.MonadCatch m) =>
+    m ()
+  {- Arity: 4,
+     Strictness: <L,U(U(A,C(C1(U)),A,C(U),A),A,A,C(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,A><S(LC(C(C(S)))),1*U(U(A,C(C1(U))),1*C1(C1(C1(U))))>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   ($dMonadReader :: Control.Monad.Reader.Class.MonadReader
+                                       StreetRun.Config.Config m)
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   ($dMonadThrow :: Control.Monad.Catch.MonadThrow m)
+                   ($dMonadCatch :: Control.Monad.Catch.MonadCatch m) ->
+                 StreetRun.Effect.Audio.playChunk
+                   @ m
+                   $dMonadReader
+                   $dMonadIO
+                   (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
+                   $dMonadCatch
+                   StreetRun.Resource.$sel:rPointSfx:Resources) -}
+ac20f1a81e24e364d69a8cdea23d4604
+  playQuakeSfx' ::
+    (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
+     Control.Monad.Catch.MonadCatch m) =>
+    m ()
+  {- Arity: 4,
+     Strictness: <L,U(U(A,C(C1(U)),A,C(U),A),A,A,C(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,A><S(LC(C(C(S)))),1*U(U(A,C(C1(U))),1*C1(C1(C1(U))))>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   ($dMonadReader :: Control.Monad.Reader.Class.MonadReader
+                                       StreetRun.Config.Config m)
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   ($dMonadThrow :: Control.Monad.Catch.MonadThrow m)
+                   ($dMonadCatch :: Control.Monad.Catch.MonadCatch m) ->
+                 StreetRun.Effect.Audio.playChunk
+                   @ m
+                   $dMonadReader
+                   $dMonadIO
+                   (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
+                   $dMonadCatch
+                   StreetRun.Resource.$sel:rQuakeSfx:Resources) -}
+51ff55027306e4e4761b7d7d8950976e
+  playRecoverSfx' ::
+    (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
+     Control.Monad.Catch.MonadCatch m) =>
+    m ()
+  {- Arity: 4,
+     Strictness: <L,U(U(A,C(C1(U)),A,C(U),A),A,A,C(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,A><S(LC(C(C(S)))),1*U(U(A,C(C1(U))),1*C1(C1(C1(U))))>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   ($dMonadReader :: Control.Monad.Reader.Class.MonadReader
+                                       StreetRun.Config.Config m)
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   ($dMonadThrow :: Control.Monad.Catch.MonadThrow m)
+                   ($dMonadCatch :: Control.Monad.Catch.MonadCatch m) ->
+                 StreetRun.Effect.Audio.playChunk
+                   @ m
+                   $dMonadReader
+                   $dMonadIO
+                   (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
+                   $dMonadCatch
+                   StreetRun.Resource.$sel:rRecoverSfx:Resources) -}
+a85e128a2ad6af1ad4de0ee2242b855d
+  playRockSfx' ::
+    (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
+     Control.Monad.Catch.MonadCatch m) =>
+    m ()
+  {- Arity: 4,
+     Strictness: <L,U(U(A,C(C1(U)),A,C(U),A),A,A,C(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,A><S(LC(C(C(S)))),1*U(U(A,C(C1(U))),1*C1(C1(C1(U))))>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   ($dMonadReader :: Control.Monad.Reader.Class.MonadReader
+                                       StreetRun.Config.Config m)
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   ($dMonadThrow :: Control.Monad.Catch.MonadThrow m)
+                   ($dMonadCatch :: Control.Monad.Catch.MonadCatch m) ->
+                 StreetRun.Effect.Audio.playChunk
+                   @ m
+                   $dMonadReader
+                   $dMonadIO
+                   (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
+                   $dMonadCatch
+                   StreetRun.Resource.$sel:rRockSfx:Resources) -}
+33bc1e6700e7d008e7969be6d05c0b2a
+  playStockSfx' ::
+    (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
+     Control.Monad.Catch.MonadCatch m) =>
+    m ()
+  {- Arity: 4,
+     Strictness: <L,U(U(A,C(C1(U)),A,C(U),A),A,A,C(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,A><S(LC(C(C(S)))),1*U(U(A,C(C1(U))),1*C1(C1(C1(U))))>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   ($dMonadReader :: Control.Monad.Reader.Class.MonadReader
+                                       StreetRun.Config.Config m)
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   ($dMonadThrow :: Control.Monad.Catch.MonadThrow m)
+                   ($dMonadCatch :: Control.Monad.Catch.MonadCatch m) ->
+                 StreetRun.Effect.Audio.playChunk
+                   @ m
+                   $dMonadReader
+                   $dMonadIO
+                   (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
+                   $dMonadCatch
+                   StreetRun.Resource.$sel:rStockSfx:Resources) -}
+ba23e4c413dd7378cc01aa1f16b5a9cf
+  raiseGameMusic' :: Control.Monad.IO.Class.MonadIO m => m ()
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(S(S(S(LC(C(S)))LLLLL)LLLL)L),1*U(1*U(1*U(1*U(A,1*C1(C1(U))),A,A,A,A,A),A,A,A,A),1*C1(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ m :: * -> * ($dMonadIO :: Control.Monad.IO.Class.MonadIO m) ->
+                 case $dMonadIO of ww { Control.Monad.IO.Class.C:MonadIO ww1 ww2 ->
+                 case ww1 of ww3 { GHC.Base.C:Monad ww4 ww5 ww6 ww7 ww8 ->
+                 case ww4 of ww9 { GHC.Base.C:Applicative ww10 ww11 ww12 ww13 ww14 ww15 ->
+                 case ww10 of ww16 { GHC.Base.C:Functor ww17 ww18 ->
+                 SDL.Mixer.$wsetMusicVolume
+                   @ m
+                   ww18
+                   ww2
+                   StreetRun.Effect.Audio.raiseGameMusic'1 } } } }) -}
+fd43d2f0d06ce847e4f8b6fe429bc74e
+  raiseGameMusic'1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 128#) -}
+c501f1b14fe5a8f87e15019cedac2d38
+  stopGameMusic' :: Control.Monad.IO.Class.MonadIO m => m ()
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(S(S(S(LC(C(S)))LLLLL)LLLL)L),1*U(1*U(1*U(1*U(A,1*C1(C1(U))),A,A,A,A,A),A,A,A,A),1*C1(U))>,
+     Unfolding: InlineRule (0, True, True) SDL.Mixer.haltMusic -}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

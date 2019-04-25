@@ -1,0 +1,2055 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 19:02:29.177569948 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Engine.Hurdle 8064
+  interface hash: 3abaf89f2e19c57ab9237e20a36abd2e
+  ABI hash: 689b972d4e85183a54d17152c35d6caa
+  export-list hash: 6f36a0da9da2341b94122a10d2fdf78c
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 23bfc2de71c0e795adcc3e64d97ecb08
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Engine.Hurdle.birdY
+  StreetRun.Engine.Hurdle.lavaY
+  StreetRun.Engine.Hurdle.obstacleAabb
+  StreetRun.Engine.Hurdle.randomRBoundedEnum
+  StreetRun.Engine.Hurdle.rockY
+  StreetRun.Engine.Hurdle.stepObstacles
+  StreetRun.Engine.Hurdle.streamOfObstacles
+  StreetRun.Engine.Hurdle.ObstacleInfo{StreetRun.Engine.Hurdle.ObstacleInfo'Bird StreetRun.Engine.Hurdle.ObstacleInfo'Lava StreetRun.Engine.Hurdle.ObstacleInfo'Rock}
+  StreetRun.Engine.Hurdle.ObstacleState{StreetRun.Engine.Hurdle.ObstacleState osDistance osInfo}
+  StreetRun.Engine.Hurdle.ObstacleTag{StreetRun.Engine.Hurdle.ObstacleTag'Bird StreetRun.Engine.Hurdle.ObstacleTag'Lava StreetRun.Engine.Hurdle.ObstacleTag'Rock}
+module dependencies: StreetRun.Engine.Bird StreetRun.Engine.Lava
+                     StreetRun.Engine.Physics StreetRun.Engine.Rock
+                     StreetRun.Engine.Types
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
+                      base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
+                      bifunctors-5.5.3 binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2
+                      call-stack-0.1.0 cereal-0.5.8.0 comonad-5.0.4 conduit-1.3.1.1
+                      containers-0.6.0.1 contravariant-1.5 deepseq-1.4.4.0
+                      distributive-0.6 dlist-0.8.0.6 exceptions-0.10.1 free-5.1
+                      ghc-boot-th-8.6.4 ghc-prim-0.5.3 hashable-1.2.7.0
+                      integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2 kan-extensions-5.2
+                      lens-4.17 libyaml-0.1.1.0 linear-1.20.8 mtl-2.2.2 pretty-1.1.3.6
+                      primitive-0.6.4.0 profunctors-5.3 random-1.1 reflection-2.1.4
+                      resourcet-1.2.2 scientific-0.3.6.2 semigroupoids-5.3.2 stm-2.5.0.0
+                      tagged-0.8.6 template-haskell-2.14.0.0 text-1.2.3.1
+                      th-abstraction-0.2.11.0 time-1.8.0.2 time-locale-compat-0.1.1.5
+                      transformers-0.5.6.2 transformers-base-0.4.5.2
+                      transformers-compat-0.6.2 unliftio-core-0.1.2.0
+                      unordered-containers-0.2.9.0 uuid-types-1.0.3 vector-0.12.0.2
+                      yaml-0.11.0.0
+orphans: attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         time-1.8.0.2:Data.Time.Clock.TAI
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         reflection-2.1.4:Data.Reflection
+         vector-0.12.0.2:Data.Vector.Unboxed stm-2.5.0.0:Control.Monad.STM
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show linear-1.20.8:Linear.Instances
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.4.2.0:Data.Aeson.Types.Internal animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.Plucker linear-1.20.8:Linear.Quaternion
+                         linear-1.20.8:Linear.V linear-1.20.8:Linear.V0
+                         linear-1.20.8:Linear.V1 linear-1.20.8:Linear.V2
+                         linear-1.20.8:Linear.V3 linear-1.20.8:Linear.V4
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Enum 87204abed08db8735fc0be5ab48689aa
+import  -/  base-4.12.0.0:GHC.Err ea5e313ef4146b40b5d8b27aa168e736
+import  -/  base-4.12.0.0:GHC.List 4014a3c8a3b7c31c8325f6bcf1feea4a
+import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
+import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
+import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
+import  -/  linear-1.20.8:Linear c66c613217f57f0236b62caf498b629a
+import  -/  linear-1.20.8:Linear.V2 4a7e4c0c9247ec5477069840e3acbf22
+import  -/  random-1.1:System.Random a2913fef910fa7846b8be540f8dcdaf5
+import  -/  StreetRun.Engine.Bird 0bf40510f04513db7870a0eb83c839ab
+  exports: 6e60076273bcfd5477b3f0cf8d1fb4b8
+  BirdKey 6a9f4bb688ed79cdcb6a0a9ff040ea9c
+import  -/  StreetRun.Engine.Lava f12a1755c46bbf2df272aa84c51b192b
+  exports: f674034831bb56a1796bab0274d25cf8
+  LavaKey f25b5b950fa3119282ec4bccb43f6de6
+import  -/  StreetRun.Engine.Physics 52ab0c4d5302ce013ba13455ebad6494
+  exports: 354224f4972beeb3405c52a8946cdd1d
+  Aabb 83e83c93911fa2299ed073ce28a8b5f0
+  Aabb c8f90d7fb30835562641e7da9d0bca37
+import  -/  StreetRun.Engine.Rock c3a73de49be33c068fbd58b6e1005240
+  exports: 09a82b06dd827cf2307a7779ea2b3f72
+  RockKey 1650d41f6fdcaf3574b8f2ff1544e6e1
+import  -/  StreetRun.Engine.Types 6986db6c9f4d1e9fc0edc9e119b1c392
+  exports: c934b5ae3d6a2dfd0319fd3b47efce61
+  Distance 1d27617e6b1a52e1b2997bf23482db86
+  Seconds 970124013cb076e3574e853bf4f93243
+63829d315f2a2d8d879f1d803686748f
+  $fBoundedObstacleTag ::
+    GHC.Enum.Bounded StreetRun.Engine.Hurdle.ObstacleTag
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Hurdle.ObstacleTag
+                  StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                  StreetRun.Engine.Hurdle.ObstacleTag'Bird -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag ::
+    GHC.Enum.Enum StreetRun.Engine.Hurdle.ObstacleTag
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Hurdle.ObstacleTag
+                  StreetRun.Engine.Hurdle.$fEnumObstacleTag_$csucc
+                  StreetRun.Engine.Hurdle.$fEnumObstacleTag_$cpred
+                  StreetRun.Engine.Hurdle.$fEnumObstacleTag_$ctoEnum
+                  StreetRun.Engine.Hurdle.$fEnumObstacleTag_$cfromEnum
+                  StreetRun.Engine.Hurdle.$fEnumObstacleTag_$cenumFrom
+                  StreetRun.Engine.Hurdle.$fEnumObstacleTag_$cenumFromThen
+                  StreetRun.Engine.Hurdle.$fEnumObstacleTag_$cenumFromTo
+                  StreetRun.Engine.Hurdle.$fEnumObstacleTag_$cenumFromThenTo -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag1 :: [StreetRun.Engine.Hurdle.ObstacleTag]
+  {- Unfolding: (StreetRun.Engine.Hurdle.$fEnumObstacleTag_go3 2#) -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag2 :: [StreetRun.Engine.Hurdle.ObstacleTag]
+  {- Unfolding: (StreetRun.Engine.Hurdle.$fEnumObstacleTag_go3 1#) -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag3 :: [StreetRun.Engine.Hurdle.ObstacleTag]
+  {- Unfolding: (StreetRun.Engine.Hurdle.$fEnumObstacleTag_go3 0#) -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag4 :: StreetRun.Engine.Hurdle.ObstacleTag
+  {- Strictness: x -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag5 :: StreetRun.Engine.Hurdle.ObstacleTag
+  {- Strictness: x -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag_$cenumFrom ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> [StreetRun.Engine.Hurdle.ObstacleTag]
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (a :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 case a of wild {
+                   StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                   -> StreetRun.Engine.Hurdle.$fEnumObstacleTag3
+                   StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                   -> StreetRun.Engine.Hurdle.$fEnumObstacleTag2
+                   StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                   -> StreetRun.Engine.Hurdle.$fEnumObstacleTag1 }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag_$cenumFromThen ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag
+    -> [StreetRun.Engine.Hurdle.ObstacleTag]
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U> -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag_$cenumFromThenTo ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag
+    -> [StreetRun.Engine.Hurdle.ObstacleTag]
+  {- Arity: 3, Strictness: <S,1*U><S,1*U><S,1*U> -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag_$cenumFromTo ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag
+    -> [StreetRun.Engine.Hurdle.ObstacleTag]
+  {- Arity: 2, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (x :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (y :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 let {
+                   $j :: GHC.Prim.Int# -> [StreetRun.Engine.Hurdle.ObstacleTag]
+                     <join 1> {- Arity: 1, Strictness: <S,U> -}
+                   = \ (x1 :: GHC.Prim.Int#)[OneShot] ->
+                     case y of wild {
+                       StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                       -> case GHC.Prim.># x1 0# of lwild {
+                            DEFAULT -> StreetRun.Engine.Hurdle.$fEnumObstacleTag_go2 x1
+                            1# -> GHC.Types.[] @ StreetRun.Engine.Hurdle.ObstacleTag }
+                       StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                       -> case GHC.Prim.># x1 1# of lwild {
+                            DEFAULT -> StreetRun.Engine.Hurdle.$fEnumObstacleTag_go1 x1
+                            1# -> GHC.Types.[] @ StreetRun.Engine.Hurdle.ObstacleTag }
+                       StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                       -> case GHC.Prim.># x1 2# of lwild {
+                            DEFAULT -> StreetRun.Engine.Hurdle.$fEnumObstacleTag_go x1
+                            1# -> GHC.Types.[] @ StreetRun.Engine.Hurdle.ObstacleTag } }
+                 } in
+                 case x of wild {
+                   StreetRun.Engine.Hurdle.ObstacleTag'Lava -> $j 0#
+                   StreetRun.Engine.Hurdle.ObstacleTag'Rock -> $j 1#
+                   StreetRun.Engine.Hurdle.ObstacleTag'Bird -> $j 2# }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag_$cfromEnum ::
+    StreetRun.Engine.Hurdle.ObstacleTag -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 case a of wild {
+                   StreetRun.Engine.Hurdle.ObstacleTag'Lava -> GHC.Types.I# 0#
+                   StreetRun.Engine.Hurdle.ObstacleTag'Rock -> GHC.Types.I# 1#
+                   StreetRun.Engine.Hurdle.ObstacleTag'Bird -> GHC.Types.I# 2# }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag_$cpred ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 case a of wild {
+                   StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                   -> StreetRun.Engine.Hurdle.$fEnumObstacleTag4
+                   StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                   -> StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                   StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                   -> StreetRun.Engine.Hurdle.ObstacleTag'Rock }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag_$csucc ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 case a of wild {
+                   StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                   -> StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                   StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                   -> StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                   StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                   -> StreetRun.Engine.Hurdle.$fEnumObstacleTag5 }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag_$ctoEnum ::
+    GHC.Types.Int -> StreetRun.Engine.Hurdle.ObstacleTag
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 StreetRun.Engine.Hurdle.$w$ctoEnum ww1 }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag_go ::
+    GHC.Prim.Int# -> [StreetRun.Engine.Hurdle.ObstacleTag]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag_go1 ::
+    GHC.Prim.Int# -> [StreetRun.Engine.Hurdle.ObstacleTag]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag_go2 ::
+    GHC.Prim.Int# -> [StreetRun.Engine.Hurdle.ObstacleTag]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+63829d315f2a2d8d879f1d803686748f
+  $fEnumObstacleTag_go3 ::
+    GHC.Prim.Int# -> [StreetRun.Engine.Hurdle.ObstacleTag]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
+fc95377b23dd853272b0e9cd5b6fad48
+  $fEqObstacleInfo ::
+    GHC.Classes.Eq StreetRun.Engine.Hurdle.ObstacleInfo
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Hurdle.ObstacleInfo
+                  StreetRun.Engine.Hurdle.$fEqObstacleInfo_$c==
+                  StreetRun.Engine.Hurdle.$fEqObstacleInfo_$c/= -}
+fc95377b23dd853272b0e9cd5b6fad48
+  $fEqObstacleInfo_$c/= ::
+    StreetRun.Engine.Hurdle.ObstacleInfo
+    -> StreetRun.Engine.Hurdle.ObstacleInfo -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Engine.Hurdle.ObstacleInfo)
+                   (y :: StreetRun.Engine.Hurdle.ObstacleInfo) ->
+                 case StreetRun.Engine.Hurdle.$fEqObstacleInfo_$c== x y of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+fc95377b23dd853272b0e9cd5b6fad48
+  $fEqObstacleInfo_$c== ::
+    StreetRun.Engine.Hurdle.ObstacleInfo
+    -> StreetRun.Engine.Hurdle.ObstacleInfo -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (ds :: StreetRun.Engine.Hurdle.ObstacleInfo)
+                   (ds1 :: StreetRun.Engine.Hurdle.ObstacleInfo) ->
+                 case ds of wild {
+                   StreetRun.Engine.Hurdle.ObstacleInfo'Lava a1
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Hurdle.ObstacleInfo'Lava b1
+                        -> case a1 of ww3 { Animate.Position ww4 ww5 ww6 ww7 ->
+                           case b1 of ww8 { Animate.Position ww9 ww10 ww11 ww12 ->
+                           case ww4 of wild2 { StreetRun.Engine.Lava.LavaKey'Idle ->
+                           case ww9 of wild3 { StreetRun.Engine.Lava.LavaKey'Idle ->
+                           case ww5 of wild4 { GHC.Types.I# x ->
+                           case ww10 of wild5 { GHC.Types.I# y ->
+                           case GHC.Prim.==# x y of lwild {
+                             DEFAULT -> GHC.Types.False
+                             1#
+                             -> case ww6
+                                       `cast`
+                                     (StreetRun.Engine.Types.N:Seconds[0]) of wild6 { GHC.Types.F# x1 ->
+                                case ww11
+                                       `cast`
+                                     (StreetRun.Engine.Types.N:Seconds[0]) of wild7 { GHC.Types.F# y1 ->
+                                case GHC.Prim.eqFloat# x1 y1 of lwild1 {
+                                  DEFAULT -> GHC.Types.False
+                                  1# -> Animate.$fEqLoop_$c== ww7 ww12 } } } } } } } } } } }
+                   StreetRun.Engine.Hurdle.ObstacleInfo'Rock a1
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Hurdle.ObstacleInfo'Rock b1
+                        -> case a1 of ww3 { Animate.Position ww4 ww5 ww6 ww7 ->
+                           case b1 of ww8 { Animate.Position ww9 ww10 ww11 ww12 ->
+                           case ww4 of wild2 { StreetRun.Engine.Rock.RockKey'Idle ->
+                           case ww9 of wild3 { StreetRun.Engine.Rock.RockKey'Idle ->
+                           case ww5 of wild4 { GHC.Types.I# x ->
+                           case ww10 of wild5 { GHC.Types.I# y ->
+                           case GHC.Prim.==# x y of lwild {
+                             DEFAULT -> GHC.Types.False
+                             1#
+                             -> case ww6
+                                       `cast`
+                                     (StreetRun.Engine.Types.N:Seconds[0]) of wild6 { GHC.Types.F# x1 ->
+                                case ww11
+                                       `cast`
+                                     (StreetRun.Engine.Types.N:Seconds[0]) of wild7 { GHC.Types.F# y1 ->
+                                case GHC.Prim.eqFloat# x1 y1 of lwild1 {
+                                  DEFAULT -> GHC.Types.False
+                                  1# -> Animate.$fEqLoop_$c== ww7 ww12 } } } } } } } } } } }
+                   StreetRun.Engine.Hurdle.ObstacleInfo'Bird a1
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Hurdle.ObstacleInfo'Bird b1
+                        -> case a1 of ww3 { Animate.Position ww4 ww5 ww6 ww7 ->
+                           case b1 of ww8 { Animate.Position ww9 ww10 ww11 ww12 ->
+                           case ww4 of wild2 { StreetRun.Engine.Bird.BirdKey'Idle ->
+                           case ww9 of wild3 { StreetRun.Engine.Bird.BirdKey'Idle ->
+                           case ww5 of wild4 { GHC.Types.I# x ->
+                           case ww10 of wild5 { GHC.Types.I# y ->
+                           case GHC.Prim.==# x y of lwild {
+                             DEFAULT -> GHC.Types.False
+                             1#
+                             -> case ww6
+                                       `cast`
+                                     (StreetRun.Engine.Types.N:Seconds[0]) of wild6 { GHC.Types.F# x1 ->
+                                case ww11
+                                       `cast`
+                                     (StreetRun.Engine.Types.N:Seconds[0]) of wild7 { GHC.Types.F# y1 ->
+                                case GHC.Prim.eqFloat# x1 y1 of lwild1 {
+                                  DEFAULT -> GHC.Types.False
+                                  1# -> Animate.$fEqLoop_$c== ww7 ww12 } } } } } } } } } } } }) -}
+6d3ea8eeee6e7afcab21f0d20b4635b9
+  $fEqObstacleState ::
+    GHC.Classes.Eq StreetRun.Engine.Hurdle.ObstacleState
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Hurdle.ObstacleState
+                  StreetRun.Engine.Hurdle.$fEqObstacleState_$c==
+                  StreetRun.Engine.Hurdle.$fEqObstacleState_$c/= -}
+6d3ea8eeee6e7afcab21f0d20b4635b9
+  $fEqObstacleState_$c/= ::
+    StreetRun.Engine.Hurdle.ObstacleState
+    -> StreetRun.Engine.Hurdle.ObstacleState -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SL),1*U(1*U,1*U(U))><S(SL),1*U(1*U,1*U(U))>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Engine.Hurdle.ObstacleState)
+                   (y :: StreetRun.Engine.Hurdle.ObstacleState) ->
+                 case x of wild { StreetRun.Engine.Hurdle.ObstacleState a1 a2 ->
+                 case y of wild1 { StreetRun.Engine.Hurdle.ObstacleState b1 b2 ->
+                 case StreetRun.Engine.Hurdle.$fEqObstacleInfo_$c== a1 b1 of wild2 {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True
+                   -> case GHC.Classes.eqFloat
+                             a2 `cast` (StreetRun.Engine.Types.N:Distance[0])
+                             b2 `cast` (StreetRun.Engine.Types.N:Distance[0]) of wild3 {
+                        GHC.Types.False -> GHC.Types.True
+                        GHC.Types.True -> GHC.Types.False } } } }) -}
+6d3ea8eeee6e7afcab21f0d20b4635b9
+  $fEqObstacleState_$c== ::
+    StreetRun.Engine.Hurdle.ObstacleState
+    -> StreetRun.Engine.Hurdle.ObstacleState -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SL),1*U(1*U,1*U(U))><S(SL),1*U(1*U,1*U(U))>,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Engine.Hurdle.ObstacleState)
+                   (w1 :: StreetRun.Engine.Hurdle.ObstacleState) ->
+                 case w of ww { StreetRun.Engine.Hurdle.ObstacleState ww1 ww2 ->
+                 case w1 of ww3 { StreetRun.Engine.Hurdle.ObstacleState ww4 ww5 ->
+                 StreetRun.Engine.Hurdle.$w$c== ww1 ww2 ww4 ww5 } }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fEqObstacleTag ::
+    GHC.Classes.Eq StreetRun.Engine.Hurdle.ObstacleTag
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Hurdle.ObstacleTag
+                  StreetRun.Engine.Hurdle.$fEqObstacleTag_$c==
+                  StreetRun.Engine.Hurdle.$fEqObstacleTag_$c/= -}
+63829d315f2a2d8d879f1d803686748f
+  $fEqObstacleTag_$c/= ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (y :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 case x of wild {
+                   StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Hurdle.ObstacleTag'Lava -> GHC.Types.False }
+                   StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Hurdle.ObstacleTag'Rock -> GHC.Types.False }
+                   StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Hurdle.ObstacleTag'Bird -> GHC.Types.False } }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fEqObstacleTag_$c== ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (ds1 :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 case ds of wild {
+                   StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Hurdle.ObstacleTag'Lava -> GHC.Types.True }
+                   StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Hurdle.ObstacleTag'Rock -> GHC.Types.True }
+                   StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Hurdle.ObstacleTag'Bird -> GHC.Types.True } }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fOrdObstacleTag ::
+    GHC.Classes.Ord StreetRun.Engine.Hurdle.ObstacleTag
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Hurdle.ObstacleTag
+                  StreetRun.Engine.Hurdle.$fEqObstacleTag
+                  StreetRun.Engine.Hurdle.$fOrdObstacleTag_$ccompare
+                  StreetRun.Engine.Hurdle.$fOrdObstacleTag_$c<
+                  StreetRun.Engine.Hurdle.$fOrdObstacleTag_$c<=
+                  StreetRun.Engine.Hurdle.$fOrdObstacleTag_$c>
+                  StreetRun.Engine.Hurdle.$fOrdObstacleTag_$c>=
+                  StreetRun.Engine.Hurdle.$fOrdObstacleTag_$cmax
+                  StreetRun.Engine.Hurdle.$fOrdObstacleTag_$cmin -}
+63829d315f2a2d8d879f1d803686748f
+  $fOrdObstacleTag_$c< ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (b :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 case a of wild {
+                   StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                   -> case b of wild1 {
+                        StreetRun.Engine.Hurdle.ObstacleTag'Lava -> GHC.Types.False
+                        StreetRun.Engine.Hurdle.ObstacleTag'Rock -> GHC.Types.True
+                        StreetRun.Engine.Hurdle.ObstacleTag'Bird -> GHC.Types.True }
+                   StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Hurdle.ObstacleTag'Bird -> GHC.Types.True }
+                   StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                   -> case b of wild1 { DEFAULT -> GHC.Types.False } }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fOrdObstacleTag_$c<= ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (a :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (b :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 let {
+                   $j :: GHC.Prim.Int# -> GHC.Types.Bool
+                     <join 1> {- Arity: 1, Strictness: <S,U> -}
+                   = \ (a# :: GHC.Prim.Int#)[OneShot] ->
+                     case a of wild {
+                       StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                       -> case GHC.Prim.<# a# 0# of lwild {
+                            DEFAULT -> GHC.Types.True 1# -> GHC.Types.False }
+                       StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                       -> case GHC.Prim.<# a# 1# of lwild {
+                            DEFAULT -> GHC.Types.True 1# -> GHC.Types.False }
+                       StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                       -> case GHC.Prim.<# a# 2# of lwild {
+                            DEFAULT -> GHC.Types.True 1# -> GHC.Types.False } }
+                 } in
+                 case b of wild {
+                   StreetRun.Engine.Hurdle.ObstacleTag'Lava -> $j 0#
+                   StreetRun.Engine.Hurdle.ObstacleTag'Rock -> $j 1#
+                   StreetRun.Engine.Hurdle.ObstacleTag'Bird -> $j 2# }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fOrdObstacleTag_$c> ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, True)
+                (\ (a :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (b :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 StreetRun.Engine.Hurdle.$fOrdObstacleTag_$c< b a) -}
+63829d315f2a2d8d879f1d803686748f
+  $fOrdObstacleTag_$c>= ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (a :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (b :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 let {
+                   $j :: GHC.Prim.Int# -> GHC.Types.Bool
+                     <join 1> {- Arity: 1, Strictness: <S,U> -}
+                   = \ (a# :: GHC.Prim.Int#)[OneShot] ->
+                     case b of wild {
+                       StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                       -> case GHC.Prim.<# a# 0# of lwild {
+                            DEFAULT -> GHC.Types.True 1# -> GHC.Types.False }
+                       StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                       -> case GHC.Prim.<# a# 1# of lwild {
+                            DEFAULT -> GHC.Types.True 1# -> GHC.Types.False }
+                       StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                       -> case GHC.Prim.<# a# 2# of lwild {
+                            DEFAULT -> GHC.Types.True 1# -> GHC.Types.False } }
+                 } in
+                 case a of wild {
+                   StreetRun.Engine.Hurdle.ObstacleTag'Lava -> $j 0#
+                   StreetRun.Engine.Hurdle.ObstacleTag'Rock -> $j 1#
+                   StreetRun.Engine.Hurdle.ObstacleTag'Bird -> $j 2# }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fOrdObstacleTag_$ccompare ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (a :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (b :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 case a of wild {
+                   StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                   -> case b of wild1 {
+                        StreetRun.Engine.Hurdle.ObstacleTag'Lava -> GHC.Types.EQ
+                        StreetRun.Engine.Hurdle.ObstacleTag'Rock -> GHC.Types.LT
+                        StreetRun.Engine.Hurdle.ObstacleTag'Bird -> GHC.Types.LT }
+                   StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                   -> case b of wild1 {
+                        StreetRun.Engine.Hurdle.ObstacleTag'Lava -> GHC.Types.GT
+                        StreetRun.Engine.Hurdle.ObstacleTag'Rock -> GHC.Types.EQ
+                        StreetRun.Engine.Hurdle.ObstacleTag'Bird -> GHC.Types.LT }
+                   StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.GT
+                        StreetRun.Engine.Hurdle.ObstacleTag'Bird -> GHC.Types.EQ } }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fOrdObstacleTag_$cmax ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,U><S,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (y :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 case StreetRun.Engine.Hurdle.$fOrdObstacleTag_$c<= x y of wild {
+                   GHC.Types.False -> x GHC.Types.True -> y }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fOrdObstacleTag_$cmin ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,U><S,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (y :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 case StreetRun.Engine.Hurdle.$fOrdObstacleTag_$c<= x y of wild {
+                   GHC.Types.False -> y GHC.Types.True -> x }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fRandomObstacleTag ::
+    System.Random.Random StreetRun.Engine.Hurdle.ObstacleTag
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Hurdle.ObstacleTag
+                  StreetRun.Engine.Hurdle.$fRandomObstacleTag_$crandomR
+                  StreetRun.Engine.Hurdle.$fRandomObstacleTag_$crandom
+                  StreetRun.Engine.Hurdle.$fRandomObstacleTag_$crandomRs
+                  StreetRun.Engine.Hurdle.$fRandomObstacleTag_$crandoms
+                  StreetRun.Engine.Hurdle.$fRandomObstacleTag6
+                    `cast`
+                  (<(StreetRun.Engine.Hurdle.ObstacleTag,
+                     StreetRun.Engine.Hurdle.ObstacleTag)>_R
+                   ->_R Sym (GHC.Types.N:IO[0]
+                                 <StreetRun.Engine.Hurdle.ObstacleTag>_R))
+                  StreetRun.Engine.Hurdle.$fRandomObstacleTag1
+                    `cast`
+                  (Sym (GHC.Types.N:IO[0]
+                            <StreetRun.Engine.Hurdle.ObstacleTag>_R)) -}
+63829d315f2a2d8d879f1d803686748f
+  $fRandomObstacleTag1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          StreetRun.Engine.Hurdle.ObstacleTag #)
+  {- Arity: 1, Strictness: <S,U>m,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case System.Random.theStdGen
+                        `cast`
+                      (GHC.IORef.N:IORef[0] <System.Random.StdGen>_N) of wild { GHC.STRef.STRef r# ->
+                 case GHC.Prim.atomicModifyMutVar#
+                        @ GHC.Prim.RealWorld
+                        @ System.Random.StdGen
+                        @ (System.Random.StdGen, StreetRun.Engine.Hurdle.ObstacleTag)
+                        @ StreetRun.Engine.Hurdle.ObstacleTag
+                        r#
+                        StreetRun.Engine.Hurdle.$fRandomObstacleTag2
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of b1 { DEFAULT -> ds1 } } }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fRandomObstacleTag2 ::
+    System.Random.StdGen
+    -> (System.Random.StdGen, StreetRun.Engine.Hurdle.ObstacleTag)
+  {- Arity: 1, Strictness: <L,U>m,
+     Unfolding: (\ (a1 :: System.Random.StdGen) ->
+                 case System.Random.$wrandomIvalInteger
+                        @ System.Random.StdGen
+                        @ GHC.Types.Int
+                        System.Random.$fRandomGenStdGen
+                        GHC.Num.$fNumInt
+                        StreetRun.Engine.Hurdle.$fRandomObstacleTag5
+                        StreetRun.Engine.Hurdle.$fRandomObstacleTag4
+                        a1 of ww2 { (#,#) ww3 ww4 ->
+                 case ww4 of a'1 { System.Random.StdGen ipv ipv1 ->
+                 (a'1,
+                  case ww3 of wild1 { GHC.Types.I# x ->
+                  case GHC.Classes.modInt# x 3# of ww1 { DEFAULT ->
+                  GHC.List.$w!!
+                    @ StreetRun.Engine.Hurdle.ObstacleTag
+                    StreetRun.Engine.Hurdle.$fRandomObstacleTag3
+                    ww1 } }) } }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fRandomObstacleTag3 :: [StreetRun.Engine.Hurdle.ObstacleTag]
+  {- Unfolding: (case StreetRun.Engine.Hurdle.$wgo
+                        0# of ww { (#,#) ww1 ww2 ->
+                 GHC.Types.: @ StreetRun.Engine.Hurdle.ObstacleTag ww1 ww2 }) -}
+0438e9dc1c42531d7091e9289d8a8e69
+  $fRandomObstacleTag4 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (2) -}
+cc7190b28b3b1c20ffdcd75a6a633ace
+  $fRandomObstacleTag5 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (0) -}
+63829d315f2a2d8d879f1d803686748f
+  $fRandomObstacleTag6 ::
+    (StreetRun.Engine.Hurdle.ObstacleTag,
+     StreetRun.Engine.Hurdle.ObstacleTag)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          StreetRun.Engine.Hurdle.ObstacleTag #)
+  {- Arity: 2, Strictness: <L,U(U,U)><S,U>m,
+     Unfolding: (\ (range :: (StreetRun.Engine.Hurdle.ObstacleTag,
+                              StreetRun.Engine.Hurdle.ObstacleTag))
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case System.Random.theStdGen
+                        `cast`
+                      (GHC.IORef.N:IORef[0] <System.Random.StdGen>_N) of wild { GHC.STRef.STRef r# ->
+                 case GHC.Prim.atomicModifyMutVar#
+                        @ GHC.Prim.RealWorld
+                        @ System.Random.StdGen
+                        @ (System.Random.StdGen, StreetRun.Engine.Hurdle.ObstacleTag)
+                        @ StreetRun.Engine.Hurdle.ObstacleTag
+                        r#
+                        (\ (a1 :: System.Random.StdGen) ->
+                         case range of ww { (,) ww1 ww2 ->
+                         case StreetRun.Engine.Hurdle.$w$s$crandomR
+                                ww1
+                                ww2
+                                a1 of ww3 { (#,#) ww4 ww5 ->
+                         case ww5 of a'1 { System.Random.StdGen ipv ipv1 ->
+                         (a'1, ww4) } } })
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of b1 { DEFAULT -> ds1 } } }) -}
+81077f0d1cc29f37000afac4d8467df2
+  $fRandomObstacleTag7 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (1) -}
+63829d315f2a2d8d879f1d803686748f
+  $fRandomObstacleTag8 ::
+    (StreetRun.Engine.Hurdle.ObstacleTag,
+     StreetRun.Engine.Hurdle.ObstacleTag)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: ((StreetRun.Engine.Hurdle.ObstacleTag'Lava,
+                  StreetRun.Engine.Hurdle.ObstacleTag'Bird)) -}
+63829d315f2a2d8d879f1d803686748f
+  $fRandomObstacleTag_$crandom ::
+    System.Random.RandomGen g =>
+    g -> (StreetRun.Engine.Hurdle.ObstacleTag, g)
+  {- Arity: 2,
+     Strictness: <L,U(C(U(1*U(U),U)),C(U(U(U),1*U(U))),A)><L,U>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ g ($dRandomGen :: System.Random.RandomGen g) (g1 :: g) ->
+                 StreetRun.Engine.Hurdle.$fRandomObstacleTag_$crandomR
+                   @ g
+                   $dRandomGen
+                   StreetRun.Engine.Hurdle.$fRandomObstacleTag8
+                   g1) -}
+63829d315f2a2d8d879f1d803686748f
+  $fRandomObstacleTag_$crandomR ::
+    System.Random.RandomGen g =>
+    (StreetRun.Engine.Hurdle.ObstacleTag,
+     StreetRun.Engine.Hurdle.ObstacleTag)
+    -> g -> (StreetRun.Engine.Hurdle.ObstacleTag, g)
+  {- Arity: 3,
+     Strictness: <L,U(C(U(1*U(U),U)),C(U(U(U),1*U(U))),A)><S,1*U(1*U,1*U)><L,U>m,
+     Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ g
+                   (w :: System.Random.RandomGen g)
+                   (w1 :: (StreetRun.Engine.Hurdle.ObstacleTag,
+                           StreetRun.Engine.Hurdle.ObstacleTag))
+                   (w2 :: g) ->
+                 case w1 of ww { (,) ww1 ww2 ->
+                 case StreetRun.Engine.Hurdle.$w$crandomR
+                        @ g
+                        w
+                        ww1
+                        ww2
+                        w2 of ww3 { (#,#) ww4 ww5 ->
+                 (ww4, ww5) } }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fRandomObstacleTag_$crandomRs ::
+    System.Random.RandomGen g =>
+    (StreetRun.Engine.Hurdle.ObstacleTag,
+     StreetRun.Engine.Hurdle.ObstacleTag)
+    -> g -> [StreetRun.Engine.Hurdle.ObstacleTag]
+  {- Arity: 3,
+     Strictness: <L,U(C(U(1*U(U),U)),C(U(U(U),1*U(U))),A)><S,U(U,U)><L,U>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ g
+                   ($dRandomGen :: System.Random.RandomGen g)
+                   (ival :: (StreetRun.Engine.Hurdle.ObstacleTag,
+                             StreetRun.Engine.Hurdle.ObstacleTag))
+                   (g1 :: g) ->
+                 GHC.Base.build
+                   @ StreetRun.Engine.Hurdle.ObstacleTag
+                   (\ @ b1
+                      (cons :: StreetRun.Engine.Hurdle.ObstacleTag -> b1 -> b1)[OneShot]
+                      (_nil :: b1)[OneShot] ->
+                    letrec {
+                      go :: g -> b1 {- Arity: 1 -}
+                      = \ (g2 :: g) ->
+                        case StreetRun.Engine.Hurdle.$fRandomObstacleTag_$crandomR
+                               @ g
+                               $dRandomGen
+                               ival
+                               g2 of wild { (,) x g' ->
+                        case x of x1 { DEFAULT -> cons x1 (go g') } }
+                    } in
+                    go g1)) -}
+63829d315f2a2d8d879f1d803686748f
+  $fRandomObstacleTag_$crandoms ::
+    System.Random.RandomGen g =>
+    g -> [StreetRun.Engine.Hurdle.ObstacleTag]
+  {- Arity: 2,
+     Strictness: <L,U(C(U(1*U(U),U)),C(U(U(U),1*U(U))),A)><L,U>,
+     Inline: (sat-args=1),
+     Unfolding: InlineRule (1, False, False)
+                (\ @ g ($dRandomGen :: System.Random.RandomGen g) (g1 :: g) ->
+                 GHC.Base.build
+                   @ StreetRun.Engine.Hurdle.ObstacleTag
+                   (\ @ b1
+                      (cons :: StreetRun.Engine.Hurdle.ObstacleTag -> b1 -> b1)[OneShot]
+                      (_nil :: b1)[OneShot] ->
+                    letrec {
+                      go :: g -> b1 {- Arity: 1 -}
+                      = \ (g2 :: g) ->
+                        case StreetRun.Engine.Hurdle.$fRandomObstacleTag_$crandomR
+                               @ g
+                               $dRandomGen
+                               StreetRun.Engine.Hurdle.$fRandomObstacleTag8
+                               g2 of wild { (,) x g' ->
+                        case x of x1 { DEFAULT -> cons x1 (go g') } }
+                    } in
+                    go g1)) -}
+fc95377b23dd853272b0e9cd5b6fad48
+  $fShowObstacleInfo ::
+    GHC.Show.Show StreetRun.Engine.Hurdle.ObstacleInfo
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Hurdle.ObstacleInfo
+                  StreetRun.Engine.Hurdle.$fShowObstacleInfo_$cshowsPrec
+                  StreetRun.Engine.Hurdle.$fShowObstacleInfo_$cshow
+                  StreetRun.Engine.Hurdle.$fShowObstacleInfo_$cshowList -}
+fc95377b23dd853272b0e9cd5b6fad48
+  $fShowObstacleInfo1 ::
+    StreetRun.Engine.Hurdle.ObstacleInfo -> GHC.Show.ShowS
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (w :: StreetRun.Engine.Hurdle.ObstacleInfo) ->
+                 StreetRun.Engine.Hurdle.$w$cshowsPrec 0# w) -}
+3ec7647017a08a5c313815827257d897
+  $fShowObstacleInfo2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Hurdle.$fShowObstacleInfo3) -}
+3aea5741c18f68929cfc021870b3d7d9
+  $fShowObstacleInfo3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ObstacleInfo'Bird "#) -}
+421b9eaec39d75563e0594e46d1156d8
+  $fShowObstacleInfo4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Hurdle.$fShowObstacleInfo5) -}
+296651ff5636580dddc23dad52de3f0b
+  $fShowObstacleInfo5 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ObstacleInfo'Rock "#) -}
+89afdb81a776c52d1c1fde707e49b293
+  $fShowObstacleInfo6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Hurdle.$fShowObstacleInfo7) -}
+ba3e053937fccf6c3ba4825773c1c5af
+  $fShowObstacleInfo7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ObstacleInfo'Lava "#) -}
+397c28a66ac2d659b0b662616eb73237
+  $fShowObstacleInfo8 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+fc95377b23dd853272b0e9cd5b6fad48
+  $fShowObstacleInfo_$cshow ::
+    StreetRun.Engine.Hurdle.ObstacleInfo -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Engine.Hurdle.ObstacleInfo) ->
+                 StreetRun.Engine.Hurdle.$fShowObstacleInfo_$cshowsPrec
+                   StreetRun.Engine.Hurdle.$fShowObstacleInfo8
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+fc95377b23dd853272b0e9cd5b6fad48
+  $fShowObstacleInfo_$cshowList ::
+    [StreetRun.Engine.Hurdle.ObstacleInfo] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Engine.Hurdle.ObstacleInfo])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Engine.Hurdle.ObstacleInfo
+                   StreetRun.Engine.Hurdle.$fShowObstacleInfo1
+                   ls
+                   s) -}
+fc95377b23dd853272b0e9cd5b6fad48
+  $fShowObstacleInfo_$cshowsPrec ::
+    GHC.Types.Int
+    -> StreetRun.Engine.Hurdle.ObstacleInfo -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S(S),1*U(U)><S,1*U>, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: StreetRun.Engine.Hurdle.ObstacleInfo) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 StreetRun.Engine.Hurdle.$w$cshowsPrec ww1 w1 }) -}
+6d3ea8eeee6e7afcab21f0d20b4635b9
+  $fShowObstacleState ::
+    GHC.Show.Show StreetRun.Engine.Hurdle.ObstacleState
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Hurdle.ObstacleState
+                  StreetRun.Engine.Hurdle.$fShowObstacleState_$cshowsPrec
+                  StreetRun.Engine.Hurdle.$fShowObstacleState_$cshow
+                  StreetRun.Engine.Hurdle.$fShowObstacleState_$cshowList -}
+6d3ea8eeee6e7afcab21f0d20b4635b9
+  $fShowObstacleState1 ::
+    StreetRun.Engine.Hurdle.ObstacleState -> GHC.Show.ShowS
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U(U))>,
+     Unfolding: (\ (w :: StreetRun.Engine.Hurdle.ObstacleState) ->
+                 case w of ww { StreetRun.Engine.Hurdle.ObstacleState ww1 ww2 ->
+                 StreetRun.Engine.Hurdle.$w$cshowsPrec1 0# ww1 ww2 }) -}
+2954f1b04ac24d9adcf432a6b09dc673
+  $fShowObstacleState2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("}"#) -}
+2b75f61a8eee55f376f0d51cae65c811
+  $fShowObstacleState3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("osDistance = "#) -}
+d5459964d6d76c861bdfda8fe2e79f41
+  $fShowObstacleState4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("osInfo = "#) -}
+a0ebfd05541b30c3bc848d7a2bd70b23
+  $fShowObstacleState5 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ObstacleState {"#) -}
+9c6da9086d7c8876a4bf2ae3db946762
+  $fShowObstacleState6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Hurdle.$fShowObstacleState2) -}
+6d3ea8eeee6e7afcab21f0d20b4635b9
+  $fShowObstacleState_$cshow ::
+    StreetRun.Engine.Hurdle.ObstacleState -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U(U))>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: StreetRun.Engine.Hurdle.ObstacleState) ->
+                 case w of ww { StreetRun.Engine.Hurdle.ObstacleState ww1 ww2 ->
+                 StreetRun.Engine.Hurdle.$w$cshow ww1 ww2 }) -}
+6d3ea8eeee6e7afcab21f0d20b4635b9
+  $fShowObstacleState_$cshowList ::
+    [StreetRun.Engine.Hurdle.ObstacleState] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Engine.Hurdle.ObstacleState])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Engine.Hurdle.ObstacleState
+                   StreetRun.Engine.Hurdle.$fShowObstacleState1
+                   ls
+                   s) -}
+6d3ea8eeee6e7afcab21f0d20b4635b9
+  $fShowObstacleState_$cshowsPrec ::
+    GHC.Types.Int
+    -> StreetRun.Engine.Hurdle.ObstacleState -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U(U))>,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: StreetRun.Engine.Hurdle.ObstacleState) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { StreetRun.Engine.Hurdle.ObstacleState ww3 ww4 ->
+                 StreetRun.Engine.Hurdle.$w$cshowsPrec1 ww1 ww3 ww4 } }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fShowObstacleTag ::
+    GHC.Show.Show StreetRun.Engine.Hurdle.ObstacleTag
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Hurdle.ObstacleTag
+                  StreetRun.Engine.Hurdle.$fShowObstacleTag_$cshowsPrec
+                  StreetRun.Engine.Hurdle.$fShowObstacleTag_$cshow
+                  StreetRun.Engine.Hurdle.$fShowObstacleTag_$cshowList -}
+0cef08e30770e420b28e05e59c38455a
+  $fShowObstacleTag1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Hurdle.$fShowObstacleTag2) -}
+d389854b8de916d58cd24147f647a393
+  $fShowObstacleTag2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ObstacleTag'Bird"#) -}
+d162778176307fc6151c65e45b0f45b8
+  $fShowObstacleTag3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Hurdle.$fShowObstacleTag4) -}
+dd2a58d1c545ea5d0dd0d090d5325fc1
+  $fShowObstacleTag4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ObstacleTag'Rock"#) -}
+0ca734023b176d757e9f5a01fa21820c
+  $fShowObstacleTag5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Hurdle.$fShowObstacleTag6) -}
+1d50eef144e2987ddd8f08a5b944473a
+  $fShowObstacleTag6 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ObstacleTag'Lava"#) -}
+63829d315f2a2d8d879f1d803686748f
+  $fShowObstacleTag_$cshow ::
+    StreetRun.Engine.Hurdle.ObstacleTag -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Engine.Hurdle.ObstacleTag) ->
+                 case x of wild {
+                   StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                   -> StreetRun.Engine.Hurdle.$fShowObstacleTag5
+                   StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                   -> StreetRun.Engine.Hurdle.$fShowObstacleTag3
+                   StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                   -> StreetRun.Engine.Hurdle.$fShowObstacleTag1 }) -}
+63829d315f2a2d8d879f1d803686748f
+  $fShowObstacleTag_$cshowList ::
+    [StreetRun.Engine.Hurdle.ObstacleTag] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Engine.Hurdle.ObstacleTag])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Engine.Hurdle.ObstacleTag
+                   StreetRun.Engine.Hurdle.$w$cshowsPrec2
+                   ls
+                   s) -}
+63829d315f2a2d8d879f1d803686748f
+  $fShowObstacleTag_$cshowsPrec ::
+    GHC.Types.Int
+    -> StreetRun.Engine.Hurdle.ObstacleTag -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>, Inline: [2],
+     Unfolding: InlineRule (3, True, True)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (w2 :: GHC.Base.String) ->
+                 StreetRun.Engine.Hurdle.$w$cshowsPrec2 w1 w2) -}
+6d3ea8eeee6e7afcab21f0d20b4635b9
+  $sel:osDistance:ObstacleState ::
+    StreetRun.Engine.Hurdle.ObstacleState
+    -> StreetRun.Engine.Types.Distance
+  RecSel Left StreetRun.Engine.Hurdle.ObstacleState
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U(U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Hurdle.ObstacleState) ->
+                 case ds of wild { StreetRun.Engine.Hurdle.ObstacleState ds1 ds2 ->
+                 ds2 }) -}
+6d3ea8eeee6e7afcab21f0d20b4635b9
+  $sel:osInfo:ObstacleState ::
+    StreetRun.Engine.Hurdle.ObstacleState
+    -> StreetRun.Engine.Hurdle.ObstacleInfo
+  RecSel Left StreetRun.Engine.Hurdle.ObstacleState
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Hurdle.ObstacleState) ->
+                 case ds of wild { StreetRun.Engine.Hurdle.ObstacleState ds1 ds2 ->
+                 ds1 }) -}
+aafc893cb4a6e61b3f5eac1c41f537c9
+  $tc'ObstacleInfo'Bird :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   1301410540248689678##
+                   18129125234688297387##
+                   StreetRun.Engine.Hurdle.$trModule
+                   StreetRun.Engine.Hurdle.$tc'ObstacleInfo'Bird2
+                   0#
+                   StreetRun.Engine.Hurdle.$tc'ObstacleInfo'Bird1) -}
+fb98da43e806aec843f2d582dfaa6a45
+  $tc'ObstacleInfo'Bird1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+d292e0b7cc71f088fff2a8bfb32eca57
+  $tc'ObstacleInfo'Bird2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Hurdle.$tc'ObstacleInfo'Bird3) -}
+0f6334654b90394b8a7d16803bd278be
+  $tc'ObstacleInfo'Bird3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'ObstacleInfo'Bird"#) -}
+bc1ace57effe4d73b3820a35bc02fa8a
+  $tc'ObstacleInfo'Lava :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   13215301775117472231##
+                   16414268823437898164##
+                   StreetRun.Engine.Hurdle.$trModule
+                   StreetRun.Engine.Hurdle.$tc'ObstacleInfo'Lava2
+                   0#
+                   StreetRun.Engine.Hurdle.$tc'ObstacleInfo'Lava1) -}
+e8c3d9bb32bb5c8e9ec7f3ea3cf26bba
+  $tc'ObstacleInfo'Lava1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+569fd77d8938defb1db97515626b58b0
+  $tc'ObstacleInfo'Lava2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Hurdle.$tc'ObstacleInfo'Lava3) -}
+a70226401705cf05a36a7a5f122506a7
+  $tc'ObstacleInfo'Lava3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'ObstacleInfo'Lava"#) -}
+b7a5a95d716fe506da53efc17b33ae04
+  $tc'ObstacleInfo'Rock :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   17355067116945610968##
+                   11051908769786882484##
+                   StreetRun.Engine.Hurdle.$trModule
+                   StreetRun.Engine.Hurdle.$tc'ObstacleInfo'Rock2
+                   0#
+                   StreetRun.Engine.Hurdle.$tc'ObstacleInfo'Rock1) -}
+91dd9a600569c3dbe39fd57133f65f36
+  $tc'ObstacleInfo'Rock1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+5e9097271e6786c9518ce3f746abdf45
+  $tc'ObstacleInfo'Rock2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Hurdle.$tc'ObstacleInfo'Rock3) -}
+42d438358838dafe8b408eb09625095b
+  $tc'ObstacleInfo'Rock3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'ObstacleInfo'Rock"#) -}
+7786ad492f3c677f9c52d6d35bf122d8
+  $tc'ObstacleState :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4267902436599954225##
+                   888414387640475188##
+                   StreetRun.Engine.Hurdle.$trModule
+                   StreetRun.Engine.Hurdle.$tc'ObstacleState2
+                   0#
+                   StreetRun.Engine.Hurdle.$tc'ObstacleState1) -}
+fe9a2b368dd3d93336ab311bfe887ea9
+  $tc'ObstacleState1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+9e78cdd71e749ab16d1a94d7aadd9576
+  $tc'ObstacleState2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Hurdle.$tc'ObstacleState3) -}
+e29289db2c656e33381af66d0ad8870a
+  $tc'ObstacleState3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'ObstacleState"#) -}
+cdfa195ade132fc2c53c48e91131cf0d
+  $tc'ObstacleTag'Bird :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   10902423076040746864##
+                   10083584894700262169##
+                   StreetRun.Engine.Hurdle.$trModule
+                   StreetRun.Engine.Hurdle.$tc'ObstacleTag'Bird2
+                   0#
+                   StreetRun.Engine.Hurdle.$tc'ObstacleTag'Bird1) -}
+46fbfa40d1b5325ecc5b23fbef3b2a4c
+  $tc'ObstacleTag'Bird1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+0e839f7c58bed9303fea3060d7b3057f
+  $tc'ObstacleTag'Bird2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Hurdle.$tc'ObstacleTag'Bird3) -}
+c7e9c25d642de4fed88dbc6e127465e9
+  $tc'ObstacleTag'Bird3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'ObstacleTag'Bird"#) -}
+164613274d71361cc126dd37a6575bf0
+  $tc'ObstacleTag'Lava :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   14784826570438065039##
+                   17069480083348180133##
+                   StreetRun.Engine.Hurdle.$trModule
+                   StreetRun.Engine.Hurdle.$tc'ObstacleTag'Lava1
+                   0#
+                   StreetRun.Engine.Hurdle.$tc'ObstacleTag'Bird1) -}
+dad0f463d20a6d841b76dfcc4bc06a35
+  $tc'ObstacleTag'Lava1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Hurdle.$tc'ObstacleTag'Lava2) -}
+b89e735e8abeed0e76fde2219b11e3c3
+  $tc'ObstacleTag'Lava2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'ObstacleTag'Lava"#) -}
+cb57dd27dc665b005aafb5bad97986e2
+  $tc'ObstacleTag'Rock :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   11396310800901935263##
+                   8772550639758293828##
+                   StreetRun.Engine.Hurdle.$trModule
+                   StreetRun.Engine.Hurdle.$tc'ObstacleTag'Rock1
+                   0#
+                   StreetRun.Engine.Hurdle.$tc'ObstacleTag'Bird1) -}
+7d8f89ac804ebec6f54d7c8903870057
+  $tc'ObstacleTag'Rock1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Hurdle.$tc'ObstacleTag'Rock2) -}
+a62bb501c42d438aa4d921a7ae095748
+  $tc'ObstacleTag'Rock2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'ObstacleTag'Rock"#) -}
+c9bee0fc7b7b8326ed0e3e4c2b96892a
+  $tcObstacleInfo :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4106953047149587715##
+                   5111301951805405702##
+                   StreetRun.Engine.Hurdle.$trModule
+                   StreetRun.Engine.Hurdle.$tcObstacleInfo1
+                   0#
+                   GHC.Types.krep$*) -}
+d6a81927c49d23f0f732ea625ce531b0
+  $tcObstacleInfo1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Hurdle.$tcObstacleInfo2) -}
+85b4efd146d4c8919f5ae19b96ec720f
+  $tcObstacleInfo2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ObstacleInfo"#) -}
+17790b22004b82cbb785c55410d8102f
+  $tcObstacleState :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   17908100350836073038##
+                   9677153227708360328##
+                   StreetRun.Engine.Hurdle.$trModule
+                   StreetRun.Engine.Hurdle.$tcObstacleState1
+                   0#
+                   GHC.Types.krep$*) -}
+7da61752e58a5ac0a1a93064bf6963a1
+  $tcObstacleState1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Hurdle.$tcObstacleState2) -}
+3b7464904c638035baf3c7ff6c7882ba
+  $tcObstacleState2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ObstacleState"#) -}
+3e7478a034b6955fe9866dcd15d45336
+  $tcObstacleTag :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   1232112066681277220##
+                   17948739803376792084##
+                   StreetRun.Engine.Hurdle.$trModule
+                   StreetRun.Engine.Hurdle.$tcObstacleTag1
+                   0#
+                   GHC.Types.krep$*) -}
+f20b33e4258a1b67699936f5f3cebcda
+  $tcObstacleTag1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Hurdle.$tcObstacleTag2) -}
+6a3b019bda8c5d61e650a9de4af65c75
+  $tcObstacleTag2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ObstacleTag"#) -}
+7dd877555834392eb6217bc0043f8741
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Engine.Hurdle.$trModule3
+                   StreetRun.Engine.Hurdle.$trModule1) -}
+e5462d25e88cbee01847a6316e2babe1
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Hurdle.$trModule2) -}
+ad8012b9e5fde2daf3242396a218ce94
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Engine.Hurdle"#) -}
+55cd189657da53a45390954b60b6692a
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Hurdle.$trModule4) -}
+686b0348bd7abe7e6f1bf6175aaccade
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+efb7a65a186b45be661d8504d42b4ba6
+  $w$c== ::
+    StreetRun.Engine.Hurdle.ObstacleInfo
+    -> StreetRun.Engine.Types.Distance
+    -> StreetRun.Engine.Hurdle.ObstacleInfo
+    -> StreetRun.Engine.Types.Distance
+    -> GHC.Types.Bool
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <S,1*U><L,1*U(U)><S,1*U><L,1*U(U)>, Inline: [2],
+     Unfolding: (\ (ww :: StreetRun.Engine.Hurdle.ObstacleInfo)
+                   (ww1 :: StreetRun.Engine.Types.Distance)
+                   (ww2 :: StreetRun.Engine.Hurdle.ObstacleInfo)
+                   (ww3 :: StreetRun.Engine.Types.Distance) ->
+                 case StreetRun.Engine.Hurdle.$fEqObstacleInfo_$c== ww ww2 of wild {
+                   GHC.Types.False -> GHC.Types.False
+                   GHC.Types.True
+                   -> GHC.Classes.eqFloat
+                        ww1 `cast` (StreetRun.Engine.Types.N:Distance[0])
+                        ww3 `cast` (StreetRun.Engine.Types.N:Distance[0]) }) -}
+63829d315f2a2d8d879f1d803686748f
+  $w$crandomR ::
+    System.Random.RandomGen g =>
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag
+    -> g
+    -> (# StreetRun.Engine.Hurdle.ObstacleTag, g #)
+  {- Arity: 4,
+     Strictness: <L,U(C(U(1*U(U),U)),C(U(U(U),1*U(U))),A)><L,1*U><L,1*U><L,U>,
+     Inline: [2],
+     Unfolding: (\ @ g
+                   (w :: System.Random.RandomGen g)
+                   (ww :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (ww1 :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (w1 :: g) ->
+                 let {
+                   ds :: (GHC.Types.Int, g)
+                   = let {
+                       $j :: GHC.Integer.Type.Integer -> (GHC.Types.Int, g)
+                         <join 1> {- Arity: 1, Strictness: <S,U>m -}
+                       = \ (karg :: GHC.Integer.Type.Integer)[OneShot] ->
+                         case ww of wild {
+                           StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                           -> case System.Random.$wrandomIvalInteger
+                                     @ g
+                                     @ GHC.Types.Int
+                                     w
+                                     GHC.Num.$fNumInt
+                                     StreetRun.Engine.Hurdle.$fRandomObstacleTag5
+                                     karg
+                                     w1 of ww2 { (#,#) ww3 ww4 ->
+                              (ww3, ww4) }
+                           StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                           -> case System.Random.$wrandomIvalInteger
+                                     @ g
+                                     @ GHC.Types.Int
+                                     w
+                                     GHC.Num.$fNumInt
+                                     StreetRun.Engine.Hurdle.$fRandomObstacleTag7
+                                     karg
+                                     w1 of ww2 { (#,#) ww3 ww4 ->
+                              (ww3, ww4) }
+                           StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                           -> case System.Random.$wrandomIvalInteger
+                                     @ g
+                                     @ GHC.Types.Int
+                                     w
+                                     GHC.Num.$fNumInt
+                                     StreetRun.Engine.Hurdle.$fRandomObstacleTag4
+                                     karg
+                                     w1 of ww2 { (#,#) ww3 ww4 ->
+                              (ww3, ww4) } }
+                     } in
+                     case ww1 of wild {
+                       StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                       -> $j StreetRun.Engine.Hurdle.$fRandomObstacleTag5
+                       StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                       -> $j StreetRun.Engine.Hurdle.$fRandomObstacleTag7
+                       StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                       -> $j StreetRun.Engine.Hurdle.$fRandomObstacleTag4 }
+                 } in
+                 (# case ds of wild { (,) index g' ->
+                    case index of wild1 { GHC.Types.I# x ->
+                    case GHC.Classes.modInt# x 3# of ww2 { DEFAULT ->
+                    GHC.List.$w!!
+                      @ StreetRun.Engine.Hurdle.ObstacleTag
+                      StreetRun.Engine.Hurdle.$fRandomObstacleTag3
+                      ww2 } } },
+                    case ds of wild { (,) index g' -> g' } #)) -}
+0ae34e9a8a9b35de4eb313444ce1b1f7
+  $w$cshow ::
+    StreetRun.Engine.Hurdle.ObstacleInfo
+    -> StreetRun.Engine.Types.Distance -> GHC.Base.String
+  {- Arity: 2, Strictness: <L,1*U><L,1*U(U)>, Inline: [2],
+     Unfolding: (\ (ww :: StreetRun.Engine.Hurdle.ObstacleInfo)
+                   (ww1 :: StreetRun.Engine.Types.Distance) ->
+                 GHC.CString.unpackAppendCString#
+                   StreetRun.Engine.Hurdle.$fShowObstacleState5
+                   (GHC.CString.unpackAppendCString#
+                      StreetRun.Engine.Hurdle.$fShowObstacleState4
+                      (StreetRun.Engine.Hurdle.$w$cshowsPrec
+                         0#
+                         ww
+                         (GHC.Base.++
+                            @ GHC.Types.Char
+                            GHC.Show.showCommaSpace1
+                            (GHC.CString.unpackAppendCString#
+                               StreetRun.Engine.Hurdle.$fShowObstacleState3
+                               (GHC.Base.++
+                                  @ GHC.Types.Char
+                                  StreetRun.Engine.Types.$fShowDistance2
+                                  (case ww1
+                                          `cast`
+                                        (StreetRun.Engine.Types.N:Distance[0]) of ww2 { GHC.Types.F# ww3 ->
+                                   GHC.Float.$w$sshowSignedFloat1
+                                     GHC.Float.$fShowFloat2
+                                     StreetRun.Engine.Types.$fShowDistance4
+                                     ww3
+                                     StreetRun.Engine.Hurdle.$fShowObstacleState6 }))))))) -}
+fc95377b23dd853272b0e9cd5b6fad48
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> StreetRun.Engine.Hurdle.ObstacleInfo -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,U><S,1*U>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (w :: StreetRun.Engine.Hurdle.ObstacleInfo) ->
+                 case w of wild {
+                   StreetRun.Engine.Hurdle.ObstacleInfo'Lava b1
+                   -> let {
+                        g :: GHC.Base.String -> GHC.Base.String
+                        = case b1 of ww2 { Animate.Position ww3 ww4 ww5 ww6 ->
+                          Animate.$w$cshowsPrec2
+                            @ StreetRun.Engine.Lava.LavaKey
+                            @ StreetRun.Engine.Types.Seconds
+                            StreetRun.Engine.Lava.$fShowLavaKey
+                            StreetRun.Engine.Types.$fShowSeconds
+                            11#
+                            ww3
+                            ww4
+                            ww5
+                            ww6 }
+                      } in
+                      case GHC.Prim.>=# ww 11# of lwild {
+                        DEFAULT
+                        -> \ (x :: GHC.Base.String) ->
+                           GHC.Base.++
+                             @ GHC.Types.Char
+                             StreetRun.Engine.Hurdle.$fShowObstacleInfo6
+                             (g x)
+                        1#
+                        -> \ (x :: GHC.Base.String) ->
+                           GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.$fShow(,)4
+                             (GHC.Base.++
+                                @ GHC.Types.Char
+                                StreetRun.Engine.Hurdle.$fShowObstacleInfo6
+                                (g (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)2 x))) }
+                   StreetRun.Engine.Hurdle.ObstacleInfo'Rock b1
+                   -> let {
+                        g :: GHC.Base.String -> GHC.Base.String
+                        = case b1 of ww2 { Animate.Position ww3 ww4 ww5 ww6 ->
+                          Animate.$w$cshowsPrec2
+                            @ StreetRun.Engine.Rock.RockKey
+                            @ StreetRun.Engine.Types.Seconds
+                            StreetRun.Engine.Rock.$fShowRockKey
+                            StreetRun.Engine.Types.$fShowSeconds
+                            11#
+                            ww3
+                            ww4
+                            ww5
+                            ww6 }
+                      } in
+                      case GHC.Prim.>=# ww 11# of lwild {
+                        DEFAULT
+                        -> \ (x :: GHC.Base.String) ->
+                           GHC.Base.++
+                             @ GHC.Types.Char
+                             StreetRun.Engine.Hurdle.$fShowObstacleInfo4
+                             (g x)
+                        1#
+                        -> \ (x :: GHC.Base.String) ->
+                           GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.$fShow(,)4
+                             (GHC.Base.++
+                                @ GHC.Types.Char
+                                StreetRun.Engine.Hurdle.$fShowObstacleInfo4
+                                (g (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)2 x))) }
+                   StreetRun.Engine.Hurdle.ObstacleInfo'Bird b1
+                   -> let {
+                        g :: GHC.Base.String -> GHC.Base.String
+                        = case b1 of ww2 { Animate.Position ww3 ww4 ww5 ww6 ->
+                          Animate.$w$cshowsPrec2
+                            @ StreetRun.Engine.Bird.BirdKey
+                            @ StreetRun.Engine.Types.Seconds
+                            StreetRun.Engine.Bird.$fShowBirdKey
+                            StreetRun.Engine.Types.$fShowSeconds
+                            11#
+                            ww3
+                            ww4
+                            ww5
+                            ww6 }
+                      } in
+                      case GHC.Prim.>=# ww 11# of lwild {
+                        DEFAULT
+                        -> \ (x :: GHC.Base.String) ->
+                           GHC.Base.++
+                             @ GHC.Types.Char
+                             StreetRun.Engine.Hurdle.$fShowObstacleInfo2
+                             (g x)
+                        1#
+                        -> \ (x :: GHC.Base.String) ->
+                           GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.$fShow(,)4
+                             (GHC.Base.++
+                                @ GHC.Types.Char
+                                StreetRun.Engine.Hurdle.$fShowObstacleInfo2
+                                (g (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)2 x))) } }) -}
+8e94e98339c0a6c83d5077578770efdf
+  $w$cshowsPrec1 ::
+    GHC.Prim.Int#
+    -> StreetRun.Engine.Hurdle.ObstacleInfo
+    -> StreetRun.Engine.Types.Distance
+    -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S,U><L,1*U><L,1*U(U)>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: StreetRun.Engine.Hurdle.ObstacleInfo)
+                   (ww2 :: StreetRun.Engine.Types.Distance) ->
+                 let {
+                   f :: GHC.Base.String -> GHC.Base.String
+                   = StreetRun.Engine.Hurdle.$w$cshowsPrec 0# ww1
+                 } in
+                 let {
+                   f1 :: GHC.Base.String -> GHC.Base.String
+                   = StreetRun.Engine.Types.$w$cshowsPrec 0# ww2
+                 } in
+                 case GHC.Prim.>=# ww 11# of lwild {
+                   DEFAULT
+                   -> \ (x :: GHC.Base.String) ->
+                      GHC.CString.unpackAppendCString#
+                        StreetRun.Engine.Hurdle.$fShowObstacleState5
+                        (GHC.CString.unpackAppendCString#
+                           StreetRun.Engine.Hurdle.$fShowObstacleState4
+                           (f (GHC.Base.++
+                                 @ GHC.Types.Char
+                                 GHC.Show.showCommaSpace1
+                                 (GHC.CString.unpackAppendCString#
+                                    StreetRun.Engine.Hurdle.$fShowObstacleState3
+                                    (f1
+                                       (GHC.CString.unpackAppendCString#
+                                          StreetRun.Engine.Hurdle.$fShowObstacleState2
+                                          x))))))
+                   1#
+                   -> \ (x :: GHC.Base.String) ->
+                      GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.$fShow(,)4
+                        (GHC.CString.unpackAppendCString#
+                           StreetRun.Engine.Hurdle.$fShowObstacleState5
+                           (GHC.CString.unpackAppendCString#
+                              StreetRun.Engine.Hurdle.$fShowObstacleState4
+                              (f (GHC.Base.++
+                                    @ GHC.Types.Char
+                                    GHC.Show.showCommaSpace1
+                                    (GHC.CString.unpackAppendCString#
+                                       StreetRun.Engine.Hurdle.$fShowObstacleState3
+                                       (f1
+                                          (GHC.CString.unpackAppendCString#
+                                             StreetRun.Engine.Hurdle.$fShowObstacleState2
+                                             (GHC.Types.:
+                                                @ GHC.Types.Char
+                                                GHC.Show.$fShow(,)2
+                                                x)))))))) }) -}
+63829d315f2a2d8d879f1d803686748f
+  $w$cshowsPrec2 ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>, Inline: [2],
+     Unfolding: (\ (w :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (w1 :: GHC.Base.String) ->
+                 case w of wild {
+                   StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Hurdle.$fShowObstacleTag5
+                        w1
+                   StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Hurdle.$fShowObstacleTag3
+                        w1
+                   StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Hurdle.$fShowObstacleTag1
+                        w1 }) -}
+63829d315f2a2d8d879f1d803686748f
+  $w$ctoEnum :: GHC.Prim.Int# -> StreetRun.Engine.Hurdle.ObstacleTag
+  {- Arity: 1, Strictness: <S,U>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.>=# ww 0# of lwild {
+                   DEFAULT -> StreetRun.Engine.Hurdle.$wlvl ww
+                   1#
+                   -> case GHC.Prim.<=# ww 2# of lwild1 {
+                        DEFAULT -> StreetRun.Engine.Hurdle.$wlvl ww
+                        1#
+                        -> GHC.Prim.tagToEnum#
+                             @ StreetRun.Engine.Hurdle.ObstacleTag
+                             ww } }) -}
+63829d315f2a2d8d879f1d803686748f
+  $w$s$crandomR ::
+    StreetRun.Engine.Hurdle.ObstacleTag
+    -> StreetRun.Engine.Hurdle.ObstacleTag
+    -> System.Random.StdGen
+    -> (# StreetRun.Engine.Hurdle.ObstacleTag, System.Random.StdGen #)
+  {- Arity: 3, Strictness: <L,1*U><L,1*U><L,U>, Inline: [2],
+     Unfolding: (\ (ww :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (ww1 :: StreetRun.Engine.Hurdle.ObstacleTag)
+                   (w :: System.Random.StdGen) ->
+                 let {
+                   ds :: (GHC.Types.Int, System.Random.StdGen)
+                   = let {
+                       $j :: GHC.Integer.Type.Integer
+                             -> (GHC.Types.Int, System.Random.StdGen)
+                         <join 1> {- Arity: 1, Strictness: <S,U>m -}
+                       = \ (karg :: GHC.Integer.Type.Integer)[OneShot] ->
+                         case ww of wild {
+                           StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                           -> case System.Random.$wrandomIvalInteger
+                                     @ System.Random.StdGen
+                                     @ GHC.Types.Int
+                                     System.Random.$fRandomGenStdGen
+                                     GHC.Num.$fNumInt
+                                     StreetRun.Engine.Hurdle.$fRandomObstacleTag5
+                                     karg
+                                     w of ww2 { (#,#) ww3 ww4 ->
+                              (ww3, ww4) }
+                           StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                           -> case System.Random.$wrandomIvalInteger
+                                     @ System.Random.StdGen
+                                     @ GHC.Types.Int
+                                     System.Random.$fRandomGenStdGen
+                                     GHC.Num.$fNumInt
+                                     StreetRun.Engine.Hurdle.$fRandomObstacleTag7
+                                     karg
+                                     w of ww2 { (#,#) ww3 ww4 ->
+                              (ww3, ww4) }
+                           StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                           -> case System.Random.$wrandomIvalInteger
+                                     @ System.Random.StdGen
+                                     @ GHC.Types.Int
+                                     System.Random.$fRandomGenStdGen
+                                     GHC.Num.$fNumInt
+                                     StreetRun.Engine.Hurdle.$fRandomObstacleTag4
+                                     karg
+                                     w of ww2 { (#,#) ww3 ww4 ->
+                              (ww3, ww4) } }
+                     } in
+                     case ww1 of wild {
+                       StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                       -> $j StreetRun.Engine.Hurdle.$fRandomObstacleTag5
+                       StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                       -> $j StreetRun.Engine.Hurdle.$fRandomObstacleTag7
+                       StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                       -> $j StreetRun.Engine.Hurdle.$fRandomObstacleTag4 }
+                 } in
+                 (# case ds of wild { (,) index g' ->
+                    case index of wild1 { GHC.Types.I# x ->
+                    case GHC.Classes.modInt# x 3# of ww2 { DEFAULT ->
+                    GHC.List.$w!!
+                      @ StreetRun.Engine.Hurdle.ObstacleTag
+                      StreetRun.Engine.Hurdle.$fRandomObstacleTag3
+                      ww2 } } },
+                    case ds of wild { (,) index g' -> g' } #)) -}
+ab006100ae81c7c7c88a8b0d9c4b99de
+  $wbirdY :: (a -> a -> a) -> (GHC.Integer.Type.Integer -> a) -> a
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U))><L,C(U)>, Inline: [2],
+     Unfolding: (\ @ a
+                   (ww :: a -> a -> a)
+                   (ww1 :: GHC.Integer.Type.Integer -> a) ->
+                 ww
+                   (ww1 StreetRun.Engine.Hurdle.birdY2)
+                   (ww1 StreetRun.Engine.Hurdle.birdY1)) -}
+63829d315f2a2d8d879f1d803686748f
+  $wgo ::
+    GHC.Prim.Int#
+    -> (# StreetRun.Engine.Hurdle.ObstacleTag,
+          [StreetRun.Engine.Hurdle.ObstacleTag] #)
+  {- Arity: 1, Strictness: <L,U>, Inline: [2] -}
+7634cc714cf6f0164ef4870c6e31b488
+  $wlavaY :: (a -> a -> a) -> (GHC.Integer.Type.Integer -> a) -> a
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U))><L,C(U)>, Inline: [2],
+     Unfolding: (\ @ a
+                   (ww :: a -> a -> a)
+                   (ww1 :: GHC.Integer.Type.Integer -> a) ->
+                 ww
+                   (ww1 StreetRun.Engine.Hurdle.birdY2)
+                   (ww1 StreetRun.Engine.Hurdle.lavaY1)) -}
+63829d315f2a2d8d879f1d803686748f
+  $wlvl :: GHC.Prim.Int# -> StreetRun.Engine.Hurdle.ObstacleTag
+  {- Arity: 1, Strictness: <B,U>x, Inline: [2] -}
+15df97a0f39e6add8079b7349c760de0
+  $wobstacleAabb ::
+    StreetRun.Engine.Hurdle.ObstacleInfo
+    -> StreetRun.Engine.Types.Distance
+    -> (# Linear.V2.V2 GHC.Types.Float, Linear.V2.V2 GHC.Types.Float #)
+  {- Arity: 2, Strictness: <S,1*U><L,1*U(U)>, Inline: [2],
+     Unfolding: (\ (ww :: StreetRun.Engine.Hurdle.ObstacleInfo)
+                   (ww1 :: StreetRun.Engine.Types.Distance) ->
+                 let {
+                   dist :: GHC.Types.Float
+                   = case ww1
+                            `cast`
+                          (StreetRun.Engine.Types.N:Distance[0]) of ww2 { GHC.Types.F# ww3 ->
+                     case GHC.Float.$w$ctoRational1 ww3 of ww4 { (#,#) ww5 ww6 ->
+                     GHC.Float.rationalToFloat ww5 ww6 } }
+                 } in
+                 case ww of wild {
+                   StreetRun.Engine.Hurdle.ObstacleInfo'Lava ds
+                   -> (# case dist of dt { GHC.Types.F# ipv ->
+                         Linear.V2.V2
+                           @ GHC.Types.Float
+                           dt
+                           StreetRun.Engine.Hurdle.lavaY_$slavaY },
+                         case dist of wild1 { GHC.Types.F# y ->
+                         Linear.V2.V2
+                           @ GHC.Types.Float
+                           (GHC.Types.F# (GHC.Prim.plusFloat# 32.0# y))
+                           StreetRun.Engine.Hurdle.obstacleAabb3 } #)
+                   StreetRun.Engine.Hurdle.ObstacleInfo'Rock ds
+                   -> (# case dist of dt { GHC.Types.F# ipv ->
+                         Linear.V2.V2
+                           @ GHC.Types.Float
+                           dt
+                           StreetRun.Engine.Hurdle.obstacleAabb_$srockY },
+                         case dist of wild1 { GHC.Types.F# y ->
+                         Linear.V2.V2
+                           @ GHC.Types.Float
+                           (GHC.Types.F# (GHC.Prim.plusFloat# 32.0# y))
+                           StreetRun.Engine.Hurdle.obstacleAabb2 } #)
+                   StreetRun.Engine.Hurdle.ObstacleInfo'Bird ds
+                   -> (# case dist of dt { GHC.Types.F# ipv ->
+                         Linear.V2.V2
+                           @ GHC.Types.Float
+                           dt
+                           StreetRun.Engine.Hurdle.birdY_$sbirdY },
+                         case dist of wild1 { GHC.Types.F# y ->
+                         Linear.V2.V2
+                           @ GHC.Types.Float
+                           (GHC.Types.F# (GHC.Prim.plusFloat# 32.0# y))
+                           StreetRun.Engine.Hurdle.obstacleAabb1 } #) }) -}
+c363ede1c660c8a8a3f90f06129672a3
+  $wrandomRBoundedEnum ::
+    (GHC.Enum.Bounded a, GHC.Enum.Enum a, System.Random.RandomGen g) =>
+    a -> a -> g -> (# a, g #)
+  {- Arity: 6,
+     Strictness: <L,U(1*U,1*U)><L,U(A,A,A,C(U(U)),A,A,1*C1(C1(U)),A)><L,U(C(U(1*U(U),U)),C(U(U(U),1*U(U))),A)><L,U><L,U><L,U>,
+     Inline: [2],
+     Unfolding: (\ @ a
+                   @ g
+                   (w :: GHC.Enum.Bounded a)
+                   (w1 :: GHC.Enum.Enum a)
+                   (w2 :: System.Random.RandomGen g)
+                   (ww :: a)
+                   (ww1 :: a)
+                   (w3 :: g) ->
+                 let {
+                   ds :: (GHC.Types.Int, g)
+                   = case GHC.Enum.fromEnum @ a w1 ww of wild { GHC.Types.I# i ->
+                     case GHC.Enum.fromEnum @ a w1 ww1 of wild1 { GHC.Types.I# i1 ->
+                     case System.Random.$wrandomIvalInteger
+                            @ g
+                            @ GHC.Types.Int
+                            w2
+                            GHC.Num.$fNumInt
+                            (GHC.Integer.Type.smallInteger i)
+                            (GHC.Integer.Type.smallInteger i1)
+                            w3 of ww2 { (#,#) ww3 ww4 ->
+                     (ww3, ww4) } } }
+                 } in
+                 (# let {
+                      lastEnum :: a = GHC.Enum.maxBound @ a w
+                    } in
+                    case GHC.Enum.fromEnum @ a w1 lastEnum of wild { GHC.Types.I# x ->
+                    case x of lwild {
+                      DEFAULT
+                      -> case ds of wild1 { (,) index g' ->
+                         case index of wild2 { GHC.Types.I# x1 ->
+                         case GHC.Classes.modInt#
+                                x1
+                                (GHC.Prim.+# lwild 1#) of ww2 { DEFAULT ->
+                         GHC.List.$w!!
+                           @ a
+                           (GHC.Enum.enumFromTo @ a w1 (GHC.Enum.minBound @ a w) lastEnum)
+                           ww2 } } }
+                      -2#
+                      -> GHC.List.$w!!
+                           @ a
+                           (GHC.Enum.enumFromTo @ a w1 (GHC.Enum.minBound @ a w) lastEnum)
+                           0#
+                      -1# -> case GHC.Real.divZeroError ret_ty a of {} } },
+                    case ds of wild { (,) index g' -> g' } #)) -}
+a3eb072dff42466a18863e1423d36b61
+  $wrockY ::
+    (a -> a -> a)
+    -> (a -> a -> a) -> (GHC.Integer.Type.Integer -> a) -> a
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U))><L,1*C1(C1(U))><L,C(U)>,
+     Inline: [2],
+     Unfolding: (\ @ a
+                   (ww :: a -> a -> a)
+                   (ww1 :: a -> a -> a)
+                   (ww2 :: GHC.Integer.Type.Integer -> a) ->
+                 ww
+                   (ww1
+                      (ww2 StreetRun.Engine.Hurdle.birdY2)
+                      (ww2 StreetRun.Engine.Hurdle.rockY1))
+                   (ww2 StreetRun.Engine.Hurdle.$fRandomObstacleTag4)) -}
+fc95377b23dd853272b0e9cd5b6fad48
+  data ObstacleInfo
+    = ObstacleInfo'Lava (Animate.Position
+                           StreetRun.Engine.Lava.LavaKey StreetRun.Engine.Types.Seconds)
+    | ObstacleInfo'Rock (Animate.Position
+                           StreetRun.Engine.Rock.RockKey StreetRun.Engine.Types.Seconds)
+    | ObstacleInfo'Bird (Animate.Position
+                           StreetRun.Engine.Bird.BirdKey StreetRun.Engine.Types.Seconds)
+6d3ea8eeee6e7afcab21f0d20b4635b9
+  data ObstacleState
+    = ObstacleState {osInfo :: StreetRun.Engine.Hurdle.ObstacleInfo,
+                     osDistance :: StreetRun.Engine.Types.Distance}
+63829d315f2a2d8d879f1d803686748f
+  data ObstacleTag
+    = ObstacleTag'Lava | ObstacleTag'Rock | ObstacleTag'Bird
+fcff1f829c617029e128983cf39317d8
+  birdY :: GHC.Num.Num a => a
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLC(C(S))LLLL),1*U(A,A,1*C1(C1(U)),A,A,A,C(U))>,
+     Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a (w :: GHC.Num.Num a) ->
+                 case w of ww { GHC.Num.C:Num ww1 ww2 ww3 ww4 ww5 ww6 ww7 ->
+                 StreetRun.Engine.Hurdle.$wbirdY @ a ww3 ww7 }) -}
+4284be3b1762ed4da140513a41c0e1af
+  birdY1 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (22) -}
+fa5cd628c1b516d62d65e1a5f4a9b982
+  birdY2 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (16) -}
+ca6502f755546b6cee94e6714d21bbfc
+  birdY_$sbirdY :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 352.0#) -}
+6e01178dd4c361ae833f1b8581b443a6
+  lavaY :: GHC.Num.Num a => a
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLC(C(S))LLLL),1*U(A,A,1*C1(C1(U)),A,A,A,C(U))>,
+     Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a (w :: GHC.Num.Num a) ->
+                 case w of ww { GHC.Num.C:Num ww1 ww2 ww3 ww4 ww5 ww6 ww7 ->
+                 StreetRun.Engine.Hurdle.$wlavaY @ a ww3 ww7 }) -}
+bce05feda24d021c1057a3db3392f1c8
+  lavaY1 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (28) -}
+fee62faef5a3752c43c57144572d869e
+  lavaY_$slavaY :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 448.0#) -}
+9db022723b64bc005ae18e1980de8a54
+  obstacleAabb ::
+    StreetRun.Engine.Hurdle.ObstacleState
+    -> StreetRun.Engine.Physics.Aabb
+  {- Arity: 1, Strictness: <S(SL),1*U(1*U,1*U(U))>m, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: StreetRun.Engine.Hurdle.ObstacleState) ->
+                 case w of ww { StreetRun.Engine.Hurdle.ObstacleState ww1 ww2 ->
+                 case StreetRun.Engine.Hurdle.$wobstacleAabb
+                        ww1
+                        ww2 of ww3 { (#,#) ww4 ww5 ->
+                 StreetRun.Engine.Physics.Aabb ww4 ww5 } }) -}
+29dae29c1f0a65ac8997292faaf1a0c0
+  obstacleAabb1 :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 384.0#) -}
+1130eb1b673d21ea0c8e60e18a667266
+  obstacleAabb2 :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 450.0#) -}
+89822632b97c05a8d148651ffa0da7c1
+  obstacleAabb3 :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 480.0#) -}
+42e3120318705dde3df8c89472367244
+  obstacleAabb_$srockY :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 418.0#) -}
+7ba74b41255f1c39ef5171872397cad4
+  randomRBoundedEnum ::
+    (GHC.Enum.Bounded a, GHC.Enum.Enum a, System.Random.RandomGen g) =>
+    (a, a) -> g -> (a, g)
+  {- Arity: 5,
+     Strictness: <L,U(U,U)><L,U(A,A,A,C(U(U)),A,A,C(C1(U)),A)><L,U(C(U(1*U(U),U)),C(U(U(U),1*U(U))),A)><S,1*U(U,U)><L,U>m,
+     Inline: [2],
+     Unfolding: InlineRule (5, True, False)
+                (\ @ a
+                   @ g
+                   (w :: GHC.Enum.Bounded a)
+                   (w1 :: GHC.Enum.Enum a)
+                   (w2 :: System.Random.RandomGen g)
+                   (w3 :: (a, a))
+                   (w4 :: g) ->
+                 case w3 of ww { (,) ww1 ww2 ->
+                 case StreetRun.Engine.Hurdle.$wrandomRBoundedEnum
+                        @ a
+                        @ g
+                        w
+                        w1
+                        w2
+                        ww1
+                        ww2
+                        w4 of ww3 { (#,#) ww4 ww5 ->
+                 (ww4, ww5) } }) -}
+2e5d84bf82895940cceac70e6954a248
+  rockY :: GHC.Num.Num a => a
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(C(C(S))LLLLLL),1*U(1*C1(C1(U)),A,1*C1(C1(U)),A,A,A,C(U))>,
+     Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a (w :: GHC.Num.Num a) ->
+                 case w of ww { GHC.Num.C:Num ww1 ww2 ww3 ww4 ww5 ww6 ww7 ->
+                 StreetRun.Engine.Hurdle.$wrockY @ a ww1 ww3 ww7 }) -}
+5c10a4c2ccd91cecbdd0671d1857d9f5
+  rockY1 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (26) -}
+3bf7a612ab89e663ddff3dc7553d9129
+  stepObstacles ::
+    StreetRun.Engine.Types.Distance
+    -> [StreetRun.Engine.Hurdle.ObstacleState]
+    -> [StreetRun.Engine.Hurdle.ObstacleState]
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,U(U)><S,1*U>,
+     Unfolding: (\ (delta :: StreetRun.Engine.Types.Distance)
+                   (eta :: [StreetRun.Engine.Hurdle.ObstacleState]) ->
+                 GHC.Base.map
+                   @ StreetRun.Engine.Hurdle.ObstacleState
+                   @ StreetRun.Engine.Hurdle.ObstacleState
+                   (\ (o :: StreetRun.Engine.Hurdle.ObstacleState) ->
+                    case o of wild { StreetRun.Engine.Hurdle.ObstacleState ds ds1 ->
+                    StreetRun.Engine.Hurdle.ObstacleState
+                      ds
+                      (case ds1
+                              `cast`
+                            (StreetRun.Engine.Types.N:Distance[0]) of wild1 { GHC.Types.F# x ->
+                       case ds of wild2 {
+                         DEFAULT
+                         -> case delta
+                                   `cast`
+                                 (StreetRun.Engine.Types.N:Distance[0]) of wild3 { GHC.Types.F# y ->
+                            (GHC.Types.F# (GHC.Prim.minusFloat# x y))
+                              `cast`
+                            (Sym (StreetRun.Engine.Types.N:Distance[0])) }
+                         StreetRun.Engine.Hurdle.ObstacleInfo'Bird ds2
+                         -> case delta
+                                   `cast`
+                                 (StreetRun.Engine.Types.N:Distance[0]) of wild3 { GHC.Types.F# x1 ->
+                            (GHC.Types.F#
+                               (GHC.Prim.minusFloat# x (GHC.Prim.plusFloat# x1 4.0#)))
+                              `cast`
+                            (Sym (StreetRun.Engine.Types.N:Distance[0])) } } }) })
+                   eta) -}
+4b73281678fa887a98821ecef8fbf2e4
+  streamOfObstacles ::
+    System.Random.RandomGen g =>
+    g -> [(GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)]
+  {- Arity: 2,
+     Strictness: <L,U(C(U(1*U(U),U)),C(U(U(U),1*U(U))),A)><L,U>,
+     Unfolding: (\ @ g
+                   ($dRandomGen :: System.Random.RandomGen g)
+                   (g1 :: g) ->
+                 letrec {
+                   go :: g
+                         -> [StreetRun.Engine.Hurdle.ObstacleTag]
+                         -> [(GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)]
+                     {- Arity: 2, Strictness: <L,U><S,1*U> -}
+                   = \ (g2 :: g) (eta :: [StreetRun.Engine.Hurdle.ObstacleTag]) ->
+                     case System.Random.$wrandomIvalInteger
+                            @ g
+                            @ GHC.Types.Int
+                            $dRandomGen
+                            GHC.Num.$fNumInt
+                            System.Random.$fRandomCIntMax4
+                            System.Random.$fRandomCIntMax3
+                            g2 of ww3 { (#,#) ww4 ww5 ->
+                     case ww4 of x1 { GHC.Types.I# ipv ->
+                     case eta of wild {
+                       []
+                       -> GHC.Types.[]
+                            @ (GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)
+                       : y ys
+                       -> GHC.Types.:
+                            @ (GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)
+                            (case GHC.Classes.modInt# ipv 18# of ww2 { DEFAULT ->
+                             GHC.Types.I# (GHC.Prim.+# ww2 3#) },
+                             y)
+                            (go ww5 ys) } } }
+                 } in
+                 letrec {
+                   go1 :: g -> [StreetRun.Engine.Hurdle.ObstacleTag]
+                     {- Arity: 1, Strictness: <L,U> -}
+                   = \ (g2 :: g) ->
+                     case System.Random.$wrandomIvalInteger
+                            @ g
+                            @ GHC.Types.Int
+                            $dRandomGen
+                            GHC.Num.$fNumInt
+                            StreetRun.Engine.Hurdle.$fRandomObstacleTag5
+                            StreetRun.Engine.Hurdle.$fRandomObstacleTag4
+                            g2 of ww2 { (#,#) ww3 ww4 ->
+                     case ww3 of wild1 { GHC.Types.I# x ->
+                     case GHC.Classes.modInt# x 3# of ww1 { DEFAULT ->
+                     case GHC.List.$w!!
+                            @ StreetRun.Engine.Hurdle.ObstacleTag
+                            StreetRun.Engine.Hurdle.$fRandomObstacleTag3
+                            ww1 of x1 { DEFAULT ->
+                     GHC.Types.:
+                       @ StreetRun.Engine.Hurdle.ObstacleTag
+                       x1
+                       (go1 ww4) } } } }
+                 } in
+                 go g1 (go1 g1)) -}
+instance GHC.Enum.Bounded [StreetRun.Engine.Hurdle.ObstacleTag]
+  = StreetRun.Engine.Hurdle.$fBoundedObstacleTag
+instance GHC.Enum.Enum [StreetRun.Engine.Hurdle.ObstacleTag]
+  = StreetRun.Engine.Hurdle.$fEnumObstacleTag
+instance GHC.Classes.Eq [StreetRun.Engine.Hurdle.ObstacleInfo]
+  = StreetRun.Engine.Hurdle.$fEqObstacleInfo
+instance GHC.Classes.Eq [StreetRun.Engine.Hurdle.ObstacleState]
+  = StreetRun.Engine.Hurdle.$fEqObstacleState
+instance GHC.Classes.Eq [StreetRun.Engine.Hurdle.ObstacleTag]
+  = StreetRun.Engine.Hurdle.$fEqObstacleTag
+instance GHC.Classes.Ord [StreetRun.Engine.Hurdle.ObstacleTag]
+  = StreetRun.Engine.Hurdle.$fOrdObstacleTag
+instance System.Random.Random [StreetRun.Engine.Hurdle.ObstacleTag]
+  = StreetRun.Engine.Hurdle.$fRandomObstacleTag
+instance GHC.Show.Show [StreetRun.Engine.Hurdle.ObstacleInfo]
+  = StreetRun.Engine.Hurdle.$fShowObstacleInfo
+instance GHC.Show.Show [StreetRun.Engine.Hurdle.ObstacleState]
+  = StreetRun.Engine.Hurdle.$fShowObstacleState
+instance GHC.Show.Show [StreetRun.Engine.Hurdle.ObstacleTag]
+  = StreetRun.Engine.Hurdle.$fShowObstacleTag
+"SPEC birdY @ Float" forall ($dNum :: GHC.Num.Num GHC.Types.Float)
+  StreetRun.Engine.Hurdle.birdY @ GHC.Types.Float $dNum
+  = StreetRun.Engine.Hurdle.birdY_$sbirdY
+"SPEC lavaY @ Float" forall ($dNum :: GHC.Num.Num GHC.Types.Float)
+  StreetRun.Engine.Hurdle.lavaY @ GHC.Types.Float $dNum
+  = StreetRun.Engine.Hurdle.lavaY_$slavaY
+"SPEC rockY @ Float" forall ($dNum :: GHC.Num.Num GHC.Types.Float)
+  StreetRun.Engine.Hurdle.rockY @ GHC.Types.Float $dNum
+  = StreetRun.Engine.Hurdle.obstacleAabb_$srockY
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

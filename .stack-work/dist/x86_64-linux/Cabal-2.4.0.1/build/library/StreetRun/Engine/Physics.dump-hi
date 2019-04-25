@@ -1,0 +1,238 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 16:33:25.070105766 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Engine.Physics 8064
+  interface hash: 18c940c28af60f2a84af47ca39d82f67
+  ABI hash: 52ab0c4d5302ce013ba13455ebad6494
+  export-list hash: 354224f4972beeb3405c52a8946cdd1d
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 23bfc2de71c0e795adcc3e64d97ecb08
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Engine.Physics.arenaWidth
+  StreetRun.Engine.Physics.collisionIntersect
+  StreetRun.Engine.Physics.Aabb{StreetRun.Engine.Physics.Aabb aMax aMin}
+module dependencies:
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      array-0.5.3.0 base-4.12.0.0 base-orphans-0.8.1 bifunctors-5.5.3
+                      binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2 call-stack-0.1.0
+                      cereal-0.5.8.0 comonad-5.0.4 containers-0.6.0.1 contravariant-1.5
+                      deepseq-1.4.4.0 distributive-0.6 exceptions-0.10.1 free-5.1
+                      ghc-boot-th-8.6.4 ghc-prim-0.5.3 hashable-1.2.7.0
+                      integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2 kan-extensions-5.2
+                      lens-4.17 linear-1.20.8 mtl-2.2.2 pretty-1.1.3.6 primitive-0.6.4.0
+                      profunctors-5.3 reflection-2.1.4 scientific-0.3.6.2
+                      semigroupoids-5.3.2 stm-2.5.0.0 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 th-abstraction-0.2.11.0
+                      time-1.8.0.2 transformers-0.5.6.2 transformers-base-0.4.5.2
+                      transformers-compat-0.6.2 unordered-containers-0.2.9.0
+                      vector-0.12.0.2
+orphans: time-1.8.0.2:Data.Time.Clock.TAI
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         reflection-2.1.4:Data.Reflection
+         vector-0.12.0.2:Data.Vector.Unboxed stm-2.5.0.0:Control.Monad.STM
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show linear-1.20.8:Linear.Instances
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.V linear-1.20.8:Linear.V1
+                         linear-1.20.8:Linear.V2
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  linear-1.20.8:Linear.V2 4a7e4c0c9247ec5477069840e3acbf22
+c8f90d7fb30835562641e7da9d0bca37
+  $sel:aMax:Aabb ::
+    StreetRun.Engine.Physics.Aabb -> Linear.V2.V2 GHC.Types.Float
+  RecSel Left StreetRun.Engine.Physics.Aabb
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U(U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Physics.Aabb) ->
+                 case ds of wild { StreetRun.Engine.Physics.Aabb ds1 ds2 ->
+                 ds2 }) -}
+c8f90d7fb30835562641e7da9d0bca37
+  $sel:aMin:Aabb ::
+    StreetRun.Engine.Physics.Aabb -> Linear.V2.V2 GHC.Types.Float
+  RecSel Left StreetRun.Engine.Physics.Aabb
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U(U,U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Physics.Aabb) ->
+                 case ds of wild { StreetRun.Engine.Physics.Aabb ds1 ds2 ->
+                 ds1 }) -}
+cbe4202d26c4a1f3a1cc9a855c12dd5c
+  $tc'Aabb :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   8910080458114497768##
+                   14652270872971194239##
+                   StreetRun.Engine.Physics.$trModule
+                   StreetRun.Engine.Physics.$tc'Aabb2
+                   0#
+                   StreetRun.Engine.Physics.$tc'Aabb1) -}
+e9ed131fd8db3a32c8520f071819b559
+  $tc'Aabb1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+58feca12eee0c6c19d0fc3618d411fe6
+  $tc'Aabb2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Physics.$tc'Aabb3) -}
+fb050185691eb9f96836769688349132
+  $tc'Aabb3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Aabb"#) -}
+26f01e9328640e5e134a711ec3a61e79
+  $tcAabb :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   253928731522427032##
+                   345072479268056331##
+                   StreetRun.Engine.Physics.$trModule
+                   StreetRun.Engine.Physics.$tcAabb1
+                   0#
+                   GHC.Types.krep$*) -}
+8b7f9e5336ca2b6ad379c30f260bfaf9
+  $tcAabb1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Engine.Physics.$tcAabb2) -}
+3a35c21d6bab9ab480647190f8fbb360
+  $tcAabb2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Aabb"#) -}
+2f21824398d11642505cf76729ae316e
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Engine.Physics.$trModule3
+                   StreetRun.Engine.Physics.$trModule1) -}
+adea764ba57807b89a604751101cfddb
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Physics.$trModule2) -}
+af002b25ccc8a16171c6e238f70f1c69
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Engine.Physics"#) -}
+8209293899f6400ca0c24c506fabd92f
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Physics.$trModule4) -}
+f99abe284642e438414ea7048e89e062
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+c8f90d7fb30835562641e7da9d0bca37
+  data Aabb
+    = Aabb {aMin :: Linear.V2.V2 GHC.Types.Float,
+            aMax :: Linear.V2.V2 GHC.Types.Float}
+b565ef67ffba404e6a984ef4c3c9de98
+  arenaWidth :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.F# 1280.0#) -}
+b325de42c7dc5b8a8b6711bef9278518
+  collisionIntersect ::
+    StreetRun.Engine.Physics.Aabb
+    -> StreetRun.Engine.Physics.Aabb -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SS)S(S(S)S)),1*U(1*U(U(U),U(U)),1*U(U(U),U(U)))><S(S(S(S)S)S(SS)),1*U(1*U(U(U),U(U)),1*U(U(U),U(U)))>,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Engine.Physics.Aabb)
+                   (w1 :: StreetRun.Engine.Physics.Aabb) ->
+                 case w of ww { StreetRun.Engine.Physics.Aabb ww1 ww2 ->
+                 case ww1 of ww3 { Linear.V2.V2 ww4 ww5 ->
+                 case ww4 of ww6 { GHC.Types.F# ww7 ->
+                 case ww5 of ww8 { GHC.Types.F# ww9 ->
+                 case ww2 of ww10 { Linear.V2.V2 ww11 ww12 ->
+                 case ww11 of ww13 { GHC.Types.F# ww14 ->
+                 case ww12 of ww15 { GHC.Types.F# ww16 ->
+                 case w1 of ww17 { StreetRun.Engine.Physics.Aabb ww18 ww19 ->
+                 case ww18 of ww20 { Linear.V2.V2 ww21 ww22 ->
+                 case ww21 of ww23 { GHC.Types.F# ww24 ->
+                 case ww22 of ww25 { GHC.Types.F# ww26 ->
+                 case ww19 of ww27 { Linear.V2.V2 ww28 ww29 ->
+                 case ww28 of ww30 { GHC.Types.F# ww31 ->
+                 case ww29 of ww32 { GHC.Types.F# ww33 ->
+                 case GHC.Prim.geFloat# ww14 ww24 of lwild {
+                   DEFAULT -> GHC.Types.False
+                   1#
+                   -> case GHC.Prim.leFloat# ww7 ww31 of lwild1 {
+                        DEFAULT -> GHC.Types.False
+                        1#
+                        -> case GHC.Prim.geFloat# ww16 ww26 of lwild2 {
+                             DEFAULT -> GHC.Types.False
+                             1#
+                             -> GHC.Prim.tagToEnum#
+                                  @ GHC.Types.Bool
+                                  (GHC.Prim.leFloat# ww9 ww33) } } } } } } } } } } } } } } } } }) -}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

@@ -1,0 +1,405 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 19:42:27.461454782 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Engine.Scene_change 8064
+  interface hash: be9bbd3bd4e829bb8a7b4bb3b5993e5c
+  ABI hash: 253b9956c7accfa8a990d6cdb327d6b3
+  export-list hash: aedaa299d75de35ec2c4a63e693a56cd
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 23bfc2de71c0e795adcc3e64d97ecb08
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Engine.Scene_change.Scene{StreetRun.Engine.Scene_change.Scene'Death StreetRun.Engine.Scene_change.Scene'GameOver StreetRun.Engine.Scene_change.Scene'Pause StreetRun.Engine.Scene_change.Scene'Play StreetRun.Engine.Scene_change.Scene'Quit StreetRun.Engine.Scene_change.Scene'Title}
+module dependencies:
+package dependencies: base-4.12.0.0 ghc-prim-0.5.3
+                      integer-gmp-1.0.2.0
+orphans: base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: base-4.12.0.0:Control.Applicative
+                         base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity base-4.12.0.0:Data.Monoid
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:GHC.Generics
+                         base-4.12.0.0:GHC.IO.Exception
+import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+f28019a253a6d4b4f190271f65610535
+  $fEqScene :: GHC.Classes.Eq StreetRun.Engine.Scene_change.Scene
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Scene_change.Scene
+                  StreetRun.Engine.Scene_change.$fEqScene_$c==
+                  StreetRun.Engine.Scene_change.$fEqScene_$c/= -}
+f28019a253a6d4b4f190271f65610535
+  $fEqScene_$c/= ::
+    StreetRun.Engine.Scene_change.Scene
+    -> StreetRun.Engine.Scene_change.Scene -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Engine.Scene_change.Scene)
+                   (y :: StreetRun.Engine.Scene_change.Scene) ->
+                 case x of wild {
+                   StreetRun.Engine.Scene_change.Scene'Title
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Scene_change.Scene'Title -> GHC.Types.False }
+                   StreetRun.Engine.Scene_change.Scene'Play
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Scene_change.Scene'Play -> GHC.Types.False }
+                   StreetRun.Engine.Scene_change.Scene'Pause
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Scene_change.Scene'Pause -> GHC.Types.False }
+                   StreetRun.Engine.Scene_change.Scene'Death
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Scene_change.Scene'Death -> GHC.Types.False }
+                   StreetRun.Engine.Scene_change.Scene'GameOver
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Scene_change.Scene'GameOver -> GHC.Types.False }
+                   StreetRun.Engine.Scene_change.Scene'Quit
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Engine.Scene_change.Scene'Quit -> GHC.Types.False } }) -}
+f28019a253a6d4b4f190271f65610535
+  $fEqScene_$c== ::
+    StreetRun.Engine.Scene_change.Scene
+    -> StreetRun.Engine.Scene_change.Scene -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (ds :: StreetRun.Engine.Scene_change.Scene)
+                   (ds1 :: StreetRun.Engine.Scene_change.Scene) ->
+                 case ds of wild {
+                   StreetRun.Engine.Scene_change.Scene'Title
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Scene_change.Scene'Title -> GHC.Types.True }
+                   StreetRun.Engine.Scene_change.Scene'Play
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Scene_change.Scene'Play -> GHC.Types.True }
+                   StreetRun.Engine.Scene_change.Scene'Pause
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Scene_change.Scene'Pause -> GHC.Types.True }
+                   StreetRun.Engine.Scene_change.Scene'Death
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Scene_change.Scene'Death -> GHC.Types.True }
+                   StreetRun.Engine.Scene_change.Scene'GameOver
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Scene_change.Scene'GameOver -> GHC.Types.True }
+                   StreetRun.Engine.Scene_change.Scene'Quit
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Engine.Scene_change.Scene'Quit -> GHC.Types.True } }) -}
+f28019a253a6d4b4f190271f65610535
+  $fShowScene :: GHC.Show.Show StreetRun.Engine.Scene_change.Scene
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Scene_change.Scene
+                  StreetRun.Engine.Scene_change.$fShowScene_$cshowsPrec
+                  StreetRun.Engine.Scene_change.$fShowScene_$cshow
+                  StreetRun.Engine.Scene_change.$fShowScene_$cshowList -}
+52443e5e964fdc72512c866bb4903d14
+  $fShowScene1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Scene_change.$fShowScene2) -}
+7ac04c91cfecec38ce6f2fb345cf8640
+  $fShowScene10 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Scene'Play"#) -}
+1d0755049b221b5b70124c483e428c9c
+  $fShowScene11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Scene_change.$fShowScene12) -}
+b4fdad0294352e98971fe543cf95e930
+  $fShowScene12 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Scene'Title"#) -}
+3a945cfa767c5d47fc411968e34c4d50
+  $fShowScene2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Scene'Quit"#) -}
+2ae51c23a1d27e84d94c3b01303544a7
+  $fShowScene3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Scene_change.$fShowScene4) -}
+37be618fcecb84bd10519e528224df26
+  $fShowScene4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Scene'GameOver"#) -}
+cc71a92027c9110adf8f4b768252213b
+  $fShowScene5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Scene_change.$fShowScene6) -}
+cf2cc6d5d6cea79ec94a3996b5377f6e
+  $fShowScene6 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Scene'Death"#) -}
+ff603d2fde23ae3d3ff0499b9dd5b213
+  $fShowScene7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Scene_change.$fShowScene8) -}
+2f852ef3e6445787a0f0b77f99d547ca
+  $fShowScene8 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Scene'Pause"#) -}
+0066427618fab9d01f0ebc37214b715e
+  $fShowScene9 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Scene_change.$fShowScene10) -}
+f28019a253a6d4b4f190271f65610535
+  $fShowScene_$cshow ::
+    StreetRun.Engine.Scene_change.Scene -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Engine.Scene_change.Scene) ->
+                 case x of wild {
+                   StreetRun.Engine.Scene_change.Scene'Title
+                   -> StreetRun.Engine.Scene_change.$fShowScene11
+                   StreetRun.Engine.Scene_change.Scene'Play
+                   -> StreetRun.Engine.Scene_change.$fShowScene9
+                   StreetRun.Engine.Scene_change.Scene'Pause
+                   -> StreetRun.Engine.Scene_change.$fShowScene7
+                   StreetRun.Engine.Scene_change.Scene'Death
+                   -> StreetRun.Engine.Scene_change.$fShowScene5
+                   StreetRun.Engine.Scene_change.Scene'GameOver
+                   -> StreetRun.Engine.Scene_change.$fShowScene3
+                   StreetRun.Engine.Scene_change.Scene'Quit
+                   -> StreetRun.Engine.Scene_change.$fShowScene1 }) -}
+f28019a253a6d4b4f190271f65610535
+  $fShowScene_$cshowList ::
+    [StreetRun.Engine.Scene_change.Scene] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Engine.Scene_change.Scene])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Engine.Scene_change.Scene
+                   StreetRun.Engine.Scene_change.$w$cshowsPrec
+                   ls
+                   s) -}
+f28019a253a6d4b4f190271f65610535
+  $fShowScene_$cshowsPrec ::
+    GHC.Types.Int
+    -> StreetRun.Engine.Scene_change.Scene -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>, Inline: [2],
+     Unfolding: InlineRule (3, True, True)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: StreetRun.Engine.Scene_change.Scene)
+                   (w2 :: GHC.Base.String) ->
+                 StreetRun.Engine.Scene_change.$w$cshowsPrec w1 w2) -}
+cbb49746b7aa9d4df19c0e330249b5d2
+  $tc'Scene'Death :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   9457691160291722503##
+                   8230225487424243815##
+                   StreetRun.Engine.Scene_change.$trModule
+                   StreetRun.Engine.Scene_change.$tc'Scene'Death2
+                   0#
+                   StreetRun.Engine.Scene_change.$tc'Scene'Death1) -}
+e53059ac8b15953d676d6ae80adab90a
+  $tc'Scene'Death1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+0195a595b571841d845fde2f58726b57
+  $tc'Scene'Death2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Scene_change.$tc'Scene'Death3) -}
+7c4984b8da785b9772dc9c4e840b58b7
+  $tc'Scene'Death3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Scene'Death"#) -}
+addc662cb1f4b5069e6ee498f1905b48
+  $tc'Scene'GameOver :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   1390510846165097751##
+                   1675837241677548088##
+                   StreetRun.Engine.Scene_change.$trModule
+                   StreetRun.Engine.Scene_change.$tc'Scene'GameOver1
+                   0#
+                   StreetRun.Engine.Scene_change.$tc'Scene'Death1) -}
+4ceb10df825016bd4d9ce2ccc65e1db2
+  $tc'Scene'GameOver1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Scene_change.$tc'Scene'GameOver2) -}
+8c026de0f90a7512e9237f1c75e42c1a
+  $tc'Scene'GameOver2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Scene'GameOver"#) -}
+5405af4d5722a62db8a91b86b0a4d902
+  $tc'Scene'Pause :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   9702841559868028424##
+                   12690690497488079892##
+                   StreetRun.Engine.Scene_change.$trModule
+                   StreetRun.Engine.Scene_change.$tc'Scene'Pause1
+                   0#
+                   StreetRun.Engine.Scene_change.$tc'Scene'Death1) -}
+b675921a2a14dfd18976b15a6c7cfcec
+  $tc'Scene'Pause1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Scene_change.$tc'Scene'Pause2) -}
+9145b6f37d36c7445e7fa82a7d9080a2
+  $tc'Scene'Pause2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Scene'Pause"#) -}
+36cfc7037d60f787794ba54bcaf03433
+  $tc'Scene'Play :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   1269947665935009922##
+                   13305108005696295642##
+                   StreetRun.Engine.Scene_change.$trModule
+                   StreetRun.Engine.Scene_change.$tc'Scene'Play1
+                   0#
+                   StreetRun.Engine.Scene_change.$tc'Scene'Death1) -}
+661ac1c8c73b297913ea4f86b35b4007
+  $tc'Scene'Play1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Scene_change.$tc'Scene'Play2) -}
+d2ca1885ec0e503038daab5c89ae2f4d
+  $tc'Scene'Play2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Scene'Play"#) -}
+a48b0ebc10adc6c79c86afef2cac98cf
+  $tc'Scene'Quit :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4602131420308123472##
+                   18042506176845421769##
+                   StreetRun.Engine.Scene_change.$trModule
+                   StreetRun.Engine.Scene_change.$tc'Scene'Quit1
+                   0#
+                   StreetRun.Engine.Scene_change.$tc'Scene'Death1) -}
+d99f69037d358bb704d37e4d6ab045d6
+  $tc'Scene'Quit1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Scene_change.$tc'Scene'Quit2) -}
+0cff9908651b94039469afe6a54d0a09
+  $tc'Scene'Quit2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Scene'Quit"#) -}
+f5736c0b3872848167808d30f9267ec2
+  $tc'Scene'Title :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12937706498391625140##
+                   430609875506588820##
+                   StreetRun.Engine.Scene_change.$trModule
+                   StreetRun.Engine.Scene_change.$tc'Scene'Title1
+                   0#
+                   StreetRun.Engine.Scene_change.$tc'Scene'Death1) -}
+b259fc1727395792177bdb48f225aa89
+  $tc'Scene'Title1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Scene_change.$tc'Scene'Title2) -}
+dd691f3c5357451209df8f99081e5cd0
+  $tc'Scene'Title2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Scene'Title"#) -}
+e3eb4d4a45017084b0d51b117d85e8ec
+  $tcScene :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   5657729756059634673##
+                   16356532042069890093##
+                   StreetRun.Engine.Scene_change.$trModule
+                   StreetRun.Engine.Scene_change.$tcScene1
+                   0#
+                   GHC.Types.krep$*) -}
+26433ef63c438b8d167c06705ee600e0
+  $tcScene1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Scene_change.$tcScene2) -}
+441e130108778e9eb0605bbdf85cc69d
+  $tcScene2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Scene"#) -}
+efad80212fbdb890a28f9b6d11a94383
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Engine.Scene_change.$trModule3
+                   StreetRun.Engine.Scene_change.$trModule1) -}
+29a6b6f08758a7cdf637fab315ace951
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Scene_change.$trModule2) -}
+785c327a684d396f7a192f429b854701
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Engine.Scene_change"#) -}
+19f0f4c7851c972f3671280a7146ce5c
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Scene_change.$trModule4) -}
+7f63c94414e4896bb0fdc88196def884
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+f28019a253a6d4b4f190271f65610535
+  $w$cshowsPrec ::
+    StreetRun.Engine.Scene_change.Scene
+    -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>, Inline: [2],
+     Unfolding: (\ (w :: StreetRun.Engine.Scene_change.Scene)
+                   (w1 :: GHC.Base.String) ->
+                 case w of wild {
+                   StreetRun.Engine.Scene_change.Scene'Title
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Scene_change.$fShowScene11
+                        w1
+                   StreetRun.Engine.Scene_change.Scene'Play
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Scene_change.$fShowScene9
+                        w1
+                   StreetRun.Engine.Scene_change.Scene'Pause
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Scene_change.$fShowScene7
+                        w1
+                   StreetRun.Engine.Scene_change.Scene'Death
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Scene_change.$fShowScene5
+                        w1
+                   StreetRun.Engine.Scene_change.Scene'GameOver
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Scene_change.$fShowScene3
+                        w1
+                   StreetRun.Engine.Scene_change.Scene'Quit
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Engine.Scene_change.$fShowScene1
+                        w1 }) -}
+f28019a253a6d4b4f190271f65610535
+  data Scene
+    = Scene'Title
+    | Scene'Play
+    | Scene'Pause
+    | Scene'Death
+    | Scene'GameOver
+    | Scene'Quit
+instance GHC.Classes.Eq [StreetRun.Engine.Scene_change.Scene]
+  = StreetRun.Engine.Scene_change.$fEqScene
+instance GHC.Show.Show [StreetRun.Engine.Scene_change.Scene]
+  = StreetRun.Engine.Scene_change.$fShowScene
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

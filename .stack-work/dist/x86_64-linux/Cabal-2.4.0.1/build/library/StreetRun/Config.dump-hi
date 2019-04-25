@@ -1,0 +1,271 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 21:20:53.538394583 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Config 8064
+  interface hash: 54ba295f9570d014344ecae85f1c2315
+  ABI hash: 60f4894aac9f57df5b7576e3046ab641
+  export-list hash: 718448995096e5a0315e80eb460349b2
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: cd6997935d09daa6a687cb8eb0447281
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Config.Config{StreetRun.Config.Config cRenderer cResources cWindow}
+  StreetRun.Resource.Resources{StreetRun.Resource.Resources rBackStreetSprites rBirdSfx rBirdSprites rBuildingSprites rControlsSprite rDeathSfx rDuckSfx rEscapeSprite rGameMusic rGameOverSprite rGrassSprites rHiscoreSprite rHurtSfx rJumpSfx rLavaSfx rLavaSprites rNumberSprites rPauseSprite rPointSfx rQuakeSfx rRecoverSfx rRockSfx rRockSprites rRunnerSprites rSpaceSprite rStockSfx rStreetSprites rTitleSprite}
+module dependencies: StreetRun.Bird StreetRun.Building
+                     StreetRun.Camera StreetRun.Font StreetRun.Font_functions
+                     StreetRun.Frame StreetRun.Grass StreetRun.Hurdle StreetRun.Hurdle_1
+                     StreetRun.Input StreetRun.Lava StreetRun.Physics StreetRun.Resource
+                     StreetRun.Rock StreetRun.Runner StreetRun.Runner_func_1
+                     StreetRun.Runner_func_2 StreetRun.Step StreetRun.Types
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
+                      base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
+                      base16-bytestring-0.1.1.6 base64-bytestring-1.0.0.2
+                      bifunctors-5.5.3 binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2
+                      call-stack-0.1.0 cereal-0.5.8.0 comonad-5.0.4 conduit-1.3.1.1
+                      containers-0.6.0.1 contravariant-1.5 data-default-class-0.1.2.0
+                      deepseq-1.4.4.0 distributive-0.6 dlist-0.8.0.6 errors-2.3.0
+                      exceptions-0.10.1 free-5.1 ghc-boot-th-8.6.4 ghc-prim-0.5.3
+                      hashable-1.2.7.0 integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2
+                      kan-extensions-5.2 key-state-0.2.0 lens-4.17 libyaml-0.1.1.0
+                      lifted-base-0.2.3.12 linear-1.20.8 monad-control-1.0.2.3 mtl-2.2.2
+                      pretty-1.1.3.6 primitive-0.6.4.0 profunctors-5.3 random-1.1
+                      reflection-2.1.4 resourcet-1.2.2 safe-0.3.17 scientific-0.3.6.2
+                      sdl2-2.4.1.0 sdl2-image-2.0.0 sdl2-mixer-1.1.0 sdl2-ttf-2.0.2
+                      semigroupoids-5.3.2 stm-2.5.0.0 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 text-conversions-0.3.0
+                      th-abstraction-0.2.11.0 time-1.8.0.2 time-locale-compat-0.1.1.5
+                      transformers-0.5.6.2 transformers-base-0.4.5.2
+                      transformers-compat-0.6.2 unliftio-core-0.1.2.0
+                      unordered-containers-0.2.9.0 uuid-types-1.0.3 vector-0.12.0.2
+                      yaml-0.11.0.0
+orphans: time-1.8.0.2:Data.Time.Clock.TAI
+         reflection-2.1.4:Data.Reflection linear-1.20.8:Linear.Instances
+         stm-2.5.0.0:Control.Monad.STM
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.2:Data.Vector.Unboxed
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.4.2.0:Data.Aeson.Types.Internal animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.Affine linear-1.20.8:Linear.Plucker
+                         linear-1.20.8:Linear.Quaternion linear-1.20.8:Linear.V
+                         linear-1.20.8:Linear.V0 linear-1.20.8:Linear.V1
+                         linear-1.20.8:Linear.V2 linear-1.20.8:Linear.V3
+                         linear-1.20.8:Linear.V4
+                         monad-control-1.0.2.3:Control.Monad.Trans.Control
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         sdl2-2.4.1.0:SDL.Audio sdl2-2.4.1.0:SDL.Event
+                         sdl2-2.4.1.0:SDL.Exception sdl2-2.4.1.0:SDL.Hint
+                         sdl2-2.4.1.0:SDL.Init sdl2-2.4.1.0:SDL.Input.GameController
+                         sdl2-2.4.1.0:SDL.Input.Joystick sdl2-2.4.1.0:SDL.Input.Keyboard
+                         sdl2-2.4.1.0:SDL.Input.Keyboard.Codes sdl2-2.4.1.0:SDL.Input.Mouse
+                         sdl2-2.4.1.0:SDL.Internal.Types sdl2-2.4.1.0:SDL.Power
+                         sdl2-2.4.1.0:SDL.Time sdl2-2.4.1.0:SDL.Video
+                         sdl2-2.4.1.0:SDL.Video.OpenGL sdl2-2.4.1.0:SDL.Video.Renderer
+                         sdl2-image-2.0.0:SDL.Image sdl2-ttf-2.0.2:SDL.Font
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
+import  -/  sdl2-2.4.1.0:SDL.Internal.Types e9c1ec4176424e757d8731678bde7206
+import  -/  StreetRun.Resource baa5b58b7a4574ac801d34a53c28a52c
+  exports: 0ee985979bdcee8e3441b0d8e82a6966
+  $sel:rBackStreetSprites:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rBirdSfx:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rBirdSprites:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rBuildingSprites:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rControlsSprite:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rDeathSfx:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rDuckSfx:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rEscapeSprite:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rGameMusic:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rGameOverSprite:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rGrassSprites:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rHiscoreSprite:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rHurtSfx:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rJumpSfx:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rLavaSfx:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rLavaSprites:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rNumberSprites:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rPauseSprite:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rPointSfx:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rQuakeSfx:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rRecoverSfx:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rRockSfx:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rRockSprites:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rRunnerSprites:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rSpaceSprite:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rStockSfx:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rStreetSprites:Resources e70f43db0f4c11c3ff847eff6d053c18
+  $sel:rTitleSprite:Resources e70f43db0f4c11c3ff847eff6d053c18
+  Resources 20e38ccfadf38b1506d0a985069bc8c4
+  Resources e70f43db0f4c11c3ff847eff6d053c18
+139eddff87131b021ae687ff62a22969
+  $sel:cRenderer:Config ::
+    StreetRun.Config.Config -> SDL.Internal.Types.Renderer
+  RecSel Left StreetRun.Config.Config
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,1*U(U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Config.Config) ->
+                 case ds of wild { StreetRun.Config.Config ds1 ds2 ds3 -> ds2 }) -}
+139eddff87131b021ae687ff62a22969
+  $sel:cResources:Config ::
+    StreetRun.Config.Config -> StreetRun.Resource.Resources
+  RecSel Left StreetRun.Config.Config
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLS),1*U(A,A,1*U(U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Config.Config) ->
+                 case ds of wild { StreetRun.Config.Config ds1 ds2 ds3 -> ds3 }) -}
+139eddff87131b021ae687ff62a22969
+  $sel:cWindow:Config ::
+    StreetRun.Config.Config -> SDL.Internal.Types.Window
+  RecSel Left StreetRun.Config.Config
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(1*U(U),A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Config.Config) ->
+                 case ds of wild { StreetRun.Config.Config ds1 ds2 ds3 -> ds1 }) -}
+35dd67629f5e1f8af89df417f686f7b0
+  $tc'Config :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   1411175098546924692##
+                   1010629582584820074##
+                   StreetRun.Config.$trModule
+                   StreetRun.Config.$tc'Config2
+                   0#
+                   StreetRun.Config.$tc'Config1) -}
+2930796268a6bcd37a6b98159dd92fa3
+  $tc'Config1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+e0bc9e8e1c0774fbc1b7329212eb273c
+  $tc'Config2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Config.$tc'Config3) -}
+a2462308a07a41c1772f73c45bd2a86c
+  $tc'Config3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Config"#) -}
+651cd9cff94bbaff1b14a3080dbe4bb2
+  $tcConfig :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4873744181681798939##
+                   4993955100276629194##
+                   StreetRun.Config.$trModule
+                   StreetRun.Config.$tcConfig1
+                   0#
+                   GHC.Types.krep$*) -}
+72faf9a7a2d48da674da54f5de9b4fa7
+  $tcConfig1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Config.$tcConfig2) -}
+442837f7e23d979b3324f59576183188
+  $tcConfig2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Config"#) -}
+c7a4966f27e13d969d914ae1d60b6065
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Config.$trModule3
+                   StreetRun.Config.$trModule1) -}
+5444f85af1625590eb822b880d5c962c
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Config.$trModule2) -}
+531012ccdbd54869f3072abfabc5efa5
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Config"#) -}
+9167daf3a507a9837f03ab6b39b383fb
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Config.$trModule4) -}
+7a4acff5432c69822de5c3535ddf69cd
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+139eddff87131b021ae687ff62a22969
+  data Config
+    = Config {cWindow :: SDL.Internal.Types.Window,
+              cRenderer :: SDL.Internal.Types.Renderer,
+              cResources :: StreetRun.Resource.Resources}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

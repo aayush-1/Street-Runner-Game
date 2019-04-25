@@ -1,0 +1,300 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 16:33:31.150043596 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Wrapper.SDLInput 8064
+  interface hash: 2379ab39064f61e013aea32c6de1c075
+  ABI hash: 0e149efae51d93fc0489a22c11cde5f3
+  export-list hash: d629e6b2297fc4e1bcc10637208076a2
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 5ec949b6ed2cf30b29d10ae599876e52
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Wrapper.SDLInput.keycodePressed
+  StreetRun.Wrapper.SDLInput.keycodeReleased
+  StreetRun.Wrapper.SDLInput.pollEventPayloads'
+  StreetRun.Wrapper.SDLInput.SDLInput{StreetRun.Wrapper.SDLInput.pollEventPayloads}
+module dependencies:
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      array-0.5.3.0 base-4.12.0.0 base-orphans-0.8.1 bifunctors-5.5.3
+                      binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2 call-stack-0.1.0
+                      cereal-0.5.8.0 comonad-5.0.4 containers-0.6.0.1 contravariant-1.5
+                      deepseq-1.4.4.0 distributive-0.6 exceptions-0.10.1 free-5.1
+                      ghc-boot-th-8.6.4 ghc-prim-0.5.3 hashable-1.2.7.0
+                      integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2 kan-extensions-5.2
+                      lens-4.17 linear-1.20.8 mtl-2.2.2 pretty-1.1.3.6 primitive-0.6.4.0
+                      profunctors-5.3 reflection-2.1.4 scientific-0.3.6.2 sdl2-2.4.1.0
+                      semigroupoids-5.3.2 stm-2.5.0.0 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 th-abstraction-0.2.11.0
+                      time-1.8.0.2 transformers-0.5.6.2 transformers-base-0.4.5.2
+                      transformers-compat-0.6.2 unordered-containers-0.2.9.0
+                      vector-0.12.0.2
+orphans: time-1.8.0.2:Data.Time.Clock.TAI
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         reflection-2.1.4:Data.Reflection
+         vector-0.12.0.2:Data.Vector.Unboxed
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         linear-1.20.8:Linear.Instances text-1.2.3.1:Data.Text
+         binary-0.8.6.0:Data.Binary.Generic text-1.2.3.1:Data.Text.Show
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         stm-2.5.0.0:Control.Monad.STM
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.Affine linear-1.20.8:Linear.Plucker
+                         linear-1.20.8:Linear.Quaternion linear-1.20.8:Linear.V
+                         linear-1.20.8:Linear.V0 linear-1.20.8:Linear.V1
+                         linear-1.20.8:Linear.V2 linear-1.20.8:Linear.V3
+                         linear-1.20.8:Linear.V4
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep sdl2-2.4.1.0:SDL.Audio
+                         sdl2-2.4.1.0:SDL.Event sdl2-2.4.1.0:SDL.Exception
+                         sdl2-2.4.1.0:SDL.Hint sdl2-2.4.1.0:SDL.Init
+                         sdl2-2.4.1.0:SDL.Input.GameController
+                         sdl2-2.4.1.0:SDL.Input.Joystick sdl2-2.4.1.0:SDL.Input.Keyboard
+                         sdl2-2.4.1.0:SDL.Input.Keyboard.Codes sdl2-2.4.1.0:SDL.Input.Mouse
+                         sdl2-2.4.1.0:SDL.Internal.Types sdl2-2.4.1.0:SDL.Power
+                         sdl2-2.4.1.0:SDL.Time sdl2-2.4.1.0:SDL.Video
+                         sdl2-2.4.1.0:SDL.Video.OpenGL sdl2-2.4.1.0:SDL.Video.Renderer
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  base-4.12.0.0:Control.Monad.IO.Class e96805f9d79f75be66a0d44eb83064c1
+import  -/  base-4.12.0.0:Data.Functor 069b2025a03e32fd228e74a86a58a075
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
+import  -/  sdl2-2.4.1.0:SDL.Event bdfb9ed9abd68e5e54327e8929789d20
+import  -/  sdl2-2.4.1.0:SDL.Input.Keyboard 591251d71dc0f73c073e92456df69137
+import  -/  sdl2-2.4.1.0:SDL.Input.Keyboard.Codes 958ec6e4cb0fa119a48dab2683056293
+336fd536f8ac3a68588c73e443a434e1
+  $tc'C:SDLInput :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   6647663454584887350##
+                   9214713018084576349##
+                   StreetRun.Wrapper.SDLInput.$trModule
+                   StreetRun.Wrapper.SDLInput.$tc'C:SDLInput2
+                   1#
+                   StreetRun.Wrapper.SDLInput.$tc'C:SDLInput1) -}
+02f185885f05e3e1088f42976aae5d95
+  $tc'C:SDLInput1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+e79e8bd0c4460e9353a5deb32866015e
+  $tc'C:SDLInput2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Wrapper.SDLInput.$tc'C:SDLInput3) -}
+df61453d7d137ed1296a3d3e2531fc07
+  $tc'C:SDLInput3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'C:SDLInput"#) -}
+88e504ed6387bc39cf364f7ae2669f88
+  $tcSDLInput :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   14646301725157565271##
+                   3798069950331903103##
+                   StreetRun.Wrapper.SDLInput.$trModule
+                   StreetRun.Wrapper.SDLInput.$tcSDLInput2
+                   0#
+                   StreetRun.Wrapper.SDLInput.$tcSDLInput1) -}
+8974167cca39e86af3bc1788a1c69cfe
+  $tcSDLInput1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+87a7463f9dbfb1e7f37727d098fa6ca6
+  $tcSDLInput2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Wrapper.SDLInput.$tcSDLInput3) -}
+fd18f6a0bf3cf93458b75a97b645b4b9
+  $tcSDLInput3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("SDLInput"#) -}
+3fea210b390778359e9f75185f741650
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Wrapper.SDLInput.$trModule3
+                   StreetRun.Wrapper.SDLInput.$trModule1) -}
+c878ec16af23f87141c4b88f7727c592
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Wrapper.SDLInput.$trModule2) -}
+de754ad790b4c7c4e285866922e05a64
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Wrapper.SDLInput"#) -}
+c4984a214c1b2702e5b07db86950e42a
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Wrapper.SDLInput.$trModule4) -}
+eebb268fbe22f737ef1c325ea4ebf028
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+82ffcd4990efefa4505dd896f4004ed7
+  class GHC.Base.Monad m => SDLInput (m :: * -> *) where
+    pollEventPayloads :: m [SDL.Event.EventPayload]
+    {-# MINIMAL pollEventPayloads #-}
+4d614476262d2040903d1993341ff15b
+  keycodePressed ::
+    SDL.Input.Keyboard.Codes.Keycode
+    -> SDL.Event.EventPayload -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><S,1*U>,
+     Unfolding: (\ (keycode :: SDL.Input.Keyboard.Codes.Keycode)
+                   (event :: SDL.Event.EventPayload) ->
+                 case event of wild {
+                   DEFAULT -> GHC.Types.False
+                   SDL.Event.KeyboardEvent ds
+                   -> case ds of wild1 { SDL.Event.KeyboardEventData ds1 ds2 ds3 ds4 ->
+                      case ds4 of wild2 { SDL.Input.Keyboard.Keysym ds5 ds6 ds7 ->
+                      case ds6
+                             `cast`
+                           (SDL.Input.Keyboard.Codes.N:Keycode[0]) of wild3 { GHC.Int.I32# x ->
+                      case keycode
+                             `cast`
+                           (SDL.Input.Keyboard.Codes.N:Keycode[0]) of wild4 { GHC.Int.I32# y ->
+                      case GHC.Prim.==# x y of lwild {
+                        DEFAULT -> GHC.Types.False
+                        1#
+                        -> case ds2 of wild5 {
+                             SDL.Event.Released -> GHC.Types.False
+                             SDL.Event.Pressed
+                             -> case ds3 of wild6 {
+                                  GHC.Types.False -> GHC.Types.True
+                                  GHC.Types.True -> GHC.Types.False } } } } } } } }) -}
+176f01020e91ba4c249f65a72dba2075
+  keycodeReleased ::
+    SDL.Input.Keyboard.Codes.Keycode
+    -> SDL.Event.EventPayload -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><S,1*U>,
+     Unfolding: (\ (keycode :: SDL.Input.Keyboard.Codes.Keycode)
+                   (event :: SDL.Event.EventPayload) ->
+                 case event of wild {
+                   DEFAULT -> GHC.Types.False
+                   SDL.Event.KeyboardEvent ds
+                   -> case ds of wild1 { SDL.Event.KeyboardEventData ds1 ds2 ds3 ds4 ->
+                      case ds4 of wild2 { SDL.Input.Keyboard.Keysym ds5 ds6 ds7 ->
+                      case ds6
+                             `cast`
+                           (SDL.Input.Keyboard.Codes.N:Keycode[0]) of wild3 { GHC.Int.I32# x ->
+                      case keycode
+                             `cast`
+                           (SDL.Input.Keyboard.Codes.N:Keycode[0]) of wild4 { GHC.Int.I32# y ->
+                      case GHC.Prim.==# x y of lwild {
+                        DEFAULT -> GHC.Types.False
+                        1#
+                        -> case ds2 of wild5 {
+                             SDL.Event.Released
+                             -> case ds3 of wild6 {
+                                  GHC.Types.False -> GHC.Types.True
+                                  GHC.Types.True -> GHC.Types.False }
+                             SDL.Event.Pressed -> GHC.Types.False } } } } } } }) -}
+07dcbf1efda7846b0c3b72d9e1539432
+  pollEventPayloads' ::
+    Control.Monad.IO.Class.MonadIO m => m [SDL.Event.EventPayload]
+  {- Arity: 1, Strictness: <S(LC(S)),1*U(A,1*C1(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ m :: * -> * ($dMonadIO :: Control.Monad.IO.Class.MonadIO m) ->
+                 Control.Monad.IO.Class.liftIO
+                   @ m
+                   $dMonadIO
+                   @ [SDL.Event.EventPayload]
+                   StreetRun.Wrapper.SDLInput.pollEventPayloads'1
+                     `cast`
+                   (Sym (GHC.Types.N:IO[0] <[SDL.Event.EventPayload]>_R))) -}
+b9f6630806f7543e661fb60c7b62cabb
+  pollEventPayloads'1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          [SDL.Event.EventPayload] #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (SDL.Event.$wpollEvents
+                         @ GHC.Types.IO
+                         GHC.Base.$fApplicativeIO
+                         GHC.Base.$fMonadIO1
+                           `cast`
+                         (forall (a :: <*>_N) (b :: <*>_N).
+                          <GHC.Types.IO a>_R
+                          ->_R <a -> GHC.Types.IO b>_R
+                          ->_R Sym (GHC.Types.N:IO[0] <b>_R))
+                         GHC.Base.$fApplicativeIO4
+                           `cast`
+                         (forall (a :: <*>_N). <a>_R ->_R Sym (GHC.Types.N:IO[0] <a>_R))
+                         (\ @ a -> GHC.Base.id @ (GHC.Types.IO a)))
+                        `cast`
+                      (GHC.Types.N:IO[0] <[SDL.Event.Event]>_R)
+                        s of ds { (#,#) ipv ipv1 ->
+                 (# ipv,
+                    GHC.Base.map
+                      @ SDL.Event.Event
+                      @ SDL.Event.EventPayload
+                      SDL.Event.eventPayload
+                      ipv1 #) }) -}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

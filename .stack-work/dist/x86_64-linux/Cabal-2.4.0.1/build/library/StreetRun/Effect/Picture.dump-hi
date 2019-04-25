@@ -1,0 +1,613 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 19:42:28.200396819 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Effect.Picture 8064
+  interface hash: bc96d9e5736e9d00b09dba6e1bb9e709
+  ABI hash: 37f92f682c1a92fcd7c7fcca83b0e1ce
+  export-list hash: 325a52fa897941b0bb8ce7d33861c5c1
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 9e4fb1f04cc4eff0e23b2f9f31508f0f
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Effect.Picture.adjustCamera'
+  StreetRun.Effect.Picture.disableZoom'
+  StreetRun.Effect.Picture.enableZoom'
+  StreetRun.Effect.Picture.moveCamera
+  StreetRun.Effect.Picture.CameraControl{StreetRun.Effect.Picture.adjustCamera StreetRun.Effect.Picture.disableZoom StreetRun.Effect.Picture.enableZoom}
+module dependencies: StreetRun.Config StreetRun.Engine.Bird
+                     StreetRun.Engine.Building StreetRun.Engine.Camera
+                     StreetRun.Engine.Common StreetRun.Engine.Font
+                     StreetRun.Engine.Font_functions StreetRun.Engine.Frame
+                     StreetRun.Engine.Grass StreetRun.Engine.Hurdle
+                     StreetRun.Engine.Hurdle_1 StreetRun.Engine.Input
+                     StreetRun.Engine.Lava StreetRun.Engine.Obstacle
+                     StreetRun.Engine.Out StreetRun.Engine.Out_func
+                     StreetRun.Engine.Physics StreetRun.Engine.Quake
+                     StreetRun.Engine.Quake_BackStreet StreetRun.Engine.Quake_Building
+                     StreetRun.Engine.Quake_Grass StreetRun.Engine.Quake_Street
+                     StreetRun.Engine.Rock StreetRun.Engine.Runner
+                     StreetRun.Engine.Runner_func_1 StreetRun.Engine.Runner_func_2
+                     StreetRun.Engine.Scene_change StreetRun.Engine.Sfx
+                     StreetRun.Engine.Step StreetRun.Engine.Tag
+                     StreetRun.Engine.Tag_func StreetRun.Engine.Types
+                     StreetRun.Engine.Work StreetRun.Engine.Work_func StreetRun.Resource
+                     StreetRun.State
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
+                      base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
+                      base16-bytestring-0.1.1.6 base64-bytestring-1.0.0.2
+                      bifunctors-5.5.3 binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2
+                      call-stack-0.1.0 cereal-0.5.8.0 comonad-5.0.4 conduit-1.3.1.1
+                      containers-0.6.0.1 contravariant-1.5 data-default-class-0.1.2.0
+                      deepseq-1.4.4.0 distributive-0.6 dlist-0.8.0.6 errors-2.3.0
+                      exceptions-0.10.1 free-5.1 ghc-boot-th-8.6.4 ghc-prim-0.5.3
+                      hashable-1.2.7.0 integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2
+                      kan-extensions-5.2 key-state-0.2.0 lens-4.17 libyaml-0.1.1.0
+                      lifted-base-0.2.3.12 linear-1.20.8 monad-control-1.0.2.3 mtl-2.2.2
+                      pretty-1.1.3.6 primitive-0.6.4.0 profunctors-5.3 random-1.1
+                      reflection-2.1.4 resourcet-1.2.2 safe-0.3.17 scientific-0.3.6.2
+                      sdl2-2.4.1.0 sdl2-image-2.0.0 sdl2-mixer-1.1.0 sdl2-ttf-2.0.2
+                      semigroupoids-5.3.2 stm-2.5.0.0 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 text-conversions-0.3.0
+                      th-abstraction-0.2.11.0 time-1.8.0.2 time-locale-compat-0.1.1.5
+                      transformers-0.5.6.2 transformers-base-0.4.5.2
+                      transformers-compat-0.6.2 unliftio-core-0.1.2.0
+                      unordered-containers-0.2.9.0 uuid-types-1.0.3 vector-0.12.0.2
+                      yaml-0.11.0.0
+orphans: attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         time-1.8.0.2:Data.Time.Clock.TAI
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         reflection-2.1.4:Data.Reflection
+         vector-0.12.0.2:Data.Vector.Unboxed stm-2.5.0.0:Control.Monad.STM
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         linear-1.20.8:Linear.Instances base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.4.2.0:Data.Aeson.Types.Internal animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.Affine linear-1.20.8:Linear.Plucker
+                         linear-1.20.8:Linear.Quaternion linear-1.20.8:Linear.V
+                         linear-1.20.8:Linear.V0 linear-1.20.8:Linear.V1
+                         linear-1.20.8:Linear.V2 linear-1.20.8:Linear.V3
+                         linear-1.20.8:Linear.V4
+                         monad-control-1.0.2.3:Control.Monad.Trans.Control
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         sdl2-2.4.1.0:SDL.Audio sdl2-2.4.1.0:SDL.Event
+                         sdl2-2.4.1.0:SDL.Exception sdl2-2.4.1.0:SDL.Hint
+                         sdl2-2.4.1.0:SDL.Init sdl2-2.4.1.0:SDL.Input.GameController
+                         sdl2-2.4.1.0:SDL.Input.Joystick sdl2-2.4.1.0:SDL.Input.Keyboard
+                         sdl2-2.4.1.0:SDL.Input.Keyboard.Codes sdl2-2.4.1.0:SDL.Input.Mouse
+                         sdl2-2.4.1.0:SDL.Internal.Types sdl2-2.4.1.0:SDL.Power
+                         sdl2-2.4.1.0:SDL.Time sdl2-2.4.1.0:SDL.Video
+                         sdl2-2.4.1.0:SDL.Video.OpenGL sdl2-2.4.1.0:SDL.Video.Renderer
+                         sdl2-image-2.0.0:SDL.Image sdl2-ttf-2.0.2:SDL.Font
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  StateVar-1.1.1.1:Data.StateVar 3356bd62ad24ee9ca28de7ecf3cb79ab
+import  -/  base-4.12.0.0:Control.Monad.IO.Class e96805f9d79f75be66a0d44eb83064c1
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  linear-1.20.8:Linear.Affine ad49a7802911561cdceabb09a106eb0a
+import  -/  linear-1.20.8:Linear.V2 4a7e4c0c9247ec5477069840e3acbf22
+import  -/  mtl-2.2.2:Control.Monad.Reader d5c3a33f1c95bb71f4ae02f87a7048ff
+import  -/  mtl-2.2.2:Control.Monad.Reader.Class 56d676c7504f5007ee5b66906716abcc
+import  -/  mtl-2.2.2:Control.Monad.State 753def63fe8e937dc636f11e5230745a
+import  -/  mtl-2.2.2:Control.Monad.State.Class 94cc1438f3f9a3259fb0a2c56d3d0303
+import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
+import  -/  sdl2-2.4.1.0:SDL.Internal.Types e9c1ec4176424e757d8731678bde7206
+import  -/  sdl2-2.4.1.0:SDL.Vect cd47fc30aef16e8f55c1351dafae292d
+import  -/  sdl2-2.4.1.0:SDL.Video.Renderer fde5d4735decffc12f192a8489c7afbb
+import  -/  StreetRun.Config 5f6735077e5a1bb57e0d68657dfbe066
+  exports: 718448995096e5a0315e80eb460349b2
+  $sel:cRenderer:Config 97493c78c70274b9df7082b531336038
+  Config 97493c78c70274b9df7082b531336038
+import  -/  StreetRun.Engine.Camera 0d08afdec3750fbbdc0418b2617fd227
+  exports: 28c5883198ebf4b0d178869e108162bb
+  $sel:camOrigin:Camera 4f63a9bbddf37d0a20d1e195cda71c6b
+  $sel:camZoom:Camera 4f63a9bbddf37d0a20d1e195cda71c6b
+  Camera 74f4b4b65cd24e1dcdb097d6c3f393f1
+  Camera 4f63a9bbddf37d0a20d1e195cda71c6b
+  initCamera 59370289ba608e51d1dac60840bb3314
+  moveOrigin ca4b2c25695b16f8c0a8b2ead7d78df7
+  screenV2 b8fc4fc69ec9adbc263d3b6c78264214
+import  -/  StreetRun.State 943f7498a4592840dc9f73f10ec000a6
+  exports: 9215ef2a775e8ad7562f6edbfe13ac1f
+  $sel:vCamera:Vars 6cc5637d2d542e3ce4d3368951653f7c
+  Vars 6cc5637d2d542e3ce4d3368951653f7c
+b78ff7cad66cbf06d26d2f7fc41ab5d9
+  $tc'C:CameraControl :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   6938090964586544290##
+                   3520798581748761146##
+                   StreetRun.Effect.Picture.$trModule
+                   StreetRun.Effect.Picture.$tc'C:CameraControl2
+                   1#
+                   StreetRun.Effect.Picture.$tc'C:CameraControl1) -}
+7a890d76c7869944a69fcc3915cff964
+  $tc'C:CameraControl1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+c2fcbd84a403cd4e435d11c75a1cd22c
+  $tc'C:CameraControl2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Effect.Picture.$tc'C:CameraControl3) -}
+8ba191f856a07fc8c168977df983d7b0
+  $tc'C:CameraControl3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'C:CameraControl"#) -}
+eff0bb983935e2006b545b6546d272e7
+  $tcCameraControl :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7728536145600728609##
+                   3931358045345260039##
+                   StreetRun.Effect.Picture.$trModule
+                   StreetRun.Effect.Picture.$tcCameraControl2
+                   0#
+                   StreetRun.Effect.Picture.$tcCameraControl1) -}
+53bec35b7cc6dc8ed204811fe198fc22
+  $tcCameraControl1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+99e8349387d341403a2e8a438b50d99d
+  $tcCameraControl2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Effect.Picture.$tcCameraControl3) -}
+a718dcb6bf5d68606c14395a645416bd
+  $tcCameraControl3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("CameraControl"#) -}
+1442661d7fa4f9af46a6af1b4a6e9b92
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Effect.Picture.$trModule3
+                   StreetRun.Effect.Picture.$trModule1) -}
+6d4c228802d130fe652752d2fadb0879
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Effect.Picture.$trModule2) -}
+461d19d5bd3550de829fbb56411ecf15
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Effect.Picture"#) -}
+66c3fcccc94f86a34dfab1131613c50f
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Effect.Picture.$trModule4) -}
+91ae09ba7d439a0d9334700f4be268cc
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+7ea21559fd1489668a5ca0a46abe04ec
+  $wadjustCamera' ::
+    (forall a b. m a -> (a -> m b) -> m b)
+    -> (forall a b. m a -> m b -> m b)
+    -> (forall a. GHC.Types.IO a -> m a)
+    -> (Control.Monad.Reader.Class.MonadReader
+          StreetRun.Config.Config m,
+        Control.Monad.State.Class.MonadState StreetRun.State.Vars m) =>
+       StreetRun.Engine.Camera.Camera -> m ()
+  {- Arity: 6,
+     Strictness: <L,1*C1(C1(U))><C(C(S)),C(C1(U))><L,C(U)><L,1*U(A,A,A,1*C1(U))><L,1*U(A,A,A,1*C1(U))><L,U(U(U(U),U(U)),U(U,U))>,
+     Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   (ww :: forall a b. m a -> (a -> m b) -> m b)
+                   (ww1 :: forall a b. m a -> m b -> m b)
+                   (ww2 :: forall a. GHC.Types.IO a -> m a)
+                   (w :: Control.Monad.Reader.Class.MonadReader
+                           StreetRun.Config.Config m)
+                   (w1 :: Control.Monad.State.Class.MonadState StreetRun.State.Vars m)
+                   (w2 :: StreetRun.Engine.Camera.Camera) ->
+                 ww1
+                   @ ()
+                   @ ()
+                   (Control.Monad.State.Class.state
+                      @ StreetRun.State.Vars
+                      @ m
+                      w1
+                      @ ()
+                      (\ (s1 :: StreetRun.State.Vars) ->
+                       (GHC.Tuple.(),
+                        case s1 of wild { StreetRun.State.Vars ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
+                        StreetRun.State.Vars ds ds1 ds2 ds3 ds4 ds5 ds6 w2 })))
+                   (ww
+                      @ SDL.Internal.Types.Renderer
+                      @ ()
+                      (Control.Monad.Reader.Class.reader
+                         @ StreetRun.Config.Config
+                         @ m
+                         w
+                         @ SDL.Internal.Types.Renderer
+                         StreetRun.Config.$sel:cRenderer:Config)
+                      (\ (renderer :: SDL.Internal.Types.Renderer) ->
+                       case w2 of ww3 { StreetRun.Engine.Camera.Camera ww4 ww5 ->
+                       StreetRun.Effect.Picture.$wmoveCamera
+                         @ m
+                         ww1
+                         ww2
+                         renderer
+                         ww4
+                         ww5 }))) -}
+82f36d82135b9a8b0c6be7bc06e9c518
+  $wdisableZoom' ::
+    (forall a b. m a -> (a -> m b) -> m b)
+    -> (forall a b. m a -> m b -> m b)
+    -> (forall a. GHC.Types.IO a -> m a)
+    -> Control.Monad.Reader.Class.MonadReader
+         StreetRun.Config.Config m =>
+       m ()
+  {- Arity: 4,
+     Strictness: <C(C(S)),1*C1(C1(U))><L,C(C1(U))><L,C(U)><L,1*U(A,A,A,1*C1(U))>,
+     Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   (ww :: forall a b. m a -> (a -> m b) -> m b)
+                   (ww1 :: forall a b. m a -> m b -> m b)
+                   (ww2 :: forall a. GHC.Types.IO a -> m a)
+                   (w :: Control.Monad.Reader.Class.MonadReader
+                           StreetRun.Config.Config m) ->
+                 ww
+                   @ SDL.Internal.Types.Renderer
+                   @ ()
+                   (Control.Monad.Reader.Class.reader
+                      @ StreetRun.Config.Config
+                      @ m
+                      w
+                      @ SDL.Internal.Types.Renderer
+                      StreetRun.Config.$sel:cRenderer:Config)
+                   (\ (renderer :: SDL.Internal.Types.Renderer) ->
+                    StreetRun.Effect.Picture.$wmoveCamera
+                      @ m
+                      ww1
+                      ww2
+                      renderer
+                      StreetRun.Engine.Camera.initCamera3
+                      StreetRun.Engine.Camera.initCamera1)) -}
+c41c8f1dc3c9d085d4dec550e3190231
+  $wenableZoom' ::
+    (forall a b. m a -> (a -> m b) -> m b)
+    -> (forall a b. m a -> m b -> m b)
+    -> (forall a. GHC.Types.IO a -> m a)
+    -> (Control.Monad.Reader.Class.MonadReader
+          StreetRun.Config.Config m,
+        Control.Monad.State.Class.MonadState StreetRun.State.Vars m) =>
+       m ()
+  {- Arity: 5,
+     Strictness: <C(C(S)),C(C1(U))><L,C(C1(U))><L,C(U)><L,1*U(A,A,A,1*C1(U))><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)>,
+     Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   (ww :: forall a b. m a -> (a -> m b) -> m b)
+                   (ww1 :: forall a b. m a -> m b -> m b)
+                   (ww2 :: forall a. GHC.Types.IO a -> m a)
+                   (w :: Control.Monad.Reader.Class.MonadReader
+                           StreetRun.Config.Config m)
+                   (w1 :: Control.Monad.State.Class.MonadState
+                            StreetRun.State.Vars m) ->
+                 let {
+                   lvl :: m StreetRun.Engine.Camera.Camera
+                   = case w1 of ww3 { Control.Monad.State.Class.C:MonadState ww4 ww5 ww6 ww7 ->
+                     case ww4 of ww8 { GHC.Base.C:Monad ww9 ww10 ww11 ww12 ww13 ->
+                     ww10
+                       @ StreetRun.State.Vars
+                       @ StreetRun.Engine.Camera.Camera
+                       ww5
+                       (\ (s1 :: StreetRun.State.Vars) ->
+                        ww12
+                          @ StreetRun.Engine.Camera.Camera
+                          (StreetRun.State.$sel:vCamera:Vars s1)) } }
+                 } in
+                 ww
+                   @ SDL.Internal.Types.Renderer
+                   @ ()
+                   (Control.Monad.Reader.Class.reader
+                      @ StreetRun.Config.Config
+                      @ m
+                      w
+                      @ SDL.Internal.Types.Renderer
+                      StreetRun.Config.$sel:cRenderer:Config)
+                   (\ (renderer :: SDL.Internal.Types.Renderer) ->
+                    ww
+                      @ StreetRun.Engine.Camera.Camera
+                      @ ()
+                      lvl
+                      (\ (cam :: StreetRun.Engine.Camera.Camera) ->
+                       case cam of ww3 { StreetRun.Engine.Camera.Camera ww4 ww5 ->
+                       StreetRun.Effect.Picture.$wmoveCamera
+                         @ m
+                         ww1
+                         ww2
+                         renderer
+                         ww4
+                         ww5 }))) -}
+ab76869994ecd545602a4ac1c7a343ed
+  $wmoveCamera ::
+    (forall a b. m a -> m b -> m b)
+    -> (forall a. GHC.Types.IO a -> m a)
+    -> SDL.Internal.Types.Renderer
+    -> Linear.V2.V2 GHC.Types.Float
+    -> Linear.V2.V2 GHC.Types.Float
+    -> m ()
+  {- Arity: 5,
+     Strictness: <C(C(S)),C(C1(U))><L,C(U)><L,U(U)><L,1*U(U(U),U(U))><L,1*U(U,U)>,
+     Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   (ww :: forall a b. m a -> m b -> m b)
+                   (ww1 :: forall a. GHC.Types.IO a -> m a)
+                   (w :: SDL.Internal.Types.Renderer)
+                   (ww2 :: Linear.V2.V2 GHC.Types.Float)
+                   (ww3 :: Linear.V2.V2 GHC.Types.Float) ->
+                 ww
+                   @ ()
+                   @ ()
+                   (case SDL.Video.Renderer.$wrendererScale
+                           w of ww4 { (#,#) ww5 ww6 ->
+                    ww1
+                      @ ()
+                      (ww6
+                         (case ww3 of wild { Linear.V2.V2 a1 b1 ->
+                          Linear.V2.V2
+                            @ Foreign.C.Types.CFloat
+                            a1 `cast` (Sym (Foreign.C.Types.N:CFloat[0]))
+                            b1 `cast` (Sym (Foreign.C.Types.N:CFloat[0])) })) })
+                   (ww
+                      @ ()
+                      @ ()
+                      (case SDL.Video.Renderer.$wrendererViewport
+                              w of ww4 { (#,#) ww5 ww6 ->
+                       ww1
+                         @ ()
+                         (ww6
+                            (GHC.Maybe.Just
+                               @ (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+                               (SDL.Video.Renderer.Rectangle
+                                  @ Foreign.C.Types.CInt
+                                  (case ww2 of wild { Linear.V2.V2 x y ->
+                                   case x of wild1 { GHC.Types.F# y1 ->
+                                   case y of wild2 { GHC.Types.F# y2 ->
+                                   case GHC.Float.$w$cproperFraction1
+                                          @ Foreign.C.Types.CInt
+                                          Foreign.C.Types.$fIntegralCInt
+                                          (GHC.Prim.minusFloat# 640.0# y1) of ww7 { (#,#) ww8 ww9 ->
+                                   case ww8
+                                          `cast`
+                                        (Foreign.C.Types.N:CInt[0]) of nt { GHC.Int.I32# ipv ->
+                                   case GHC.Float.$w$cproperFraction1
+                                          @ Foreign.C.Types.CInt
+                                          Foreign.C.Types.$fIntegralCInt
+                                          (GHC.Prim.minusFloat#
+                                             640.0#
+                                             y2) of ww10 { (#,#) ww11 ww12 ->
+                                   case ww11
+                                          `cast`
+                                        (Foreign.C.Types.N:CInt[0]) of nt1 { GHC.Int.I32# ipv1 ->
+                                   (Linear.V2.V2
+                                      @ Foreign.C.Types.CInt
+                                      nt `cast` (Sym (Foreign.C.Types.N:CInt[0]))
+                                      nt1 `cast` (Sym (Foreign.C.Types.N:CInt[0])))
+                                     `cast`
+                                   (Sym (Linear.Affine.N:Point[0]
+                                             <Linear.V2.V2>_R) <Foreign.C.Types.CInt>_N) } } } } } } })
+                                  StreetRun.Effect.Picture.adjustCamera'_dim))) })
+                      (case SDL.Video.Renderer.$wrendererClipRect
+                              w of ww4 { (#,#) ww5 ww6 ->
+                       ww1 @ () (ww6 StreetRun.Effect.Picture.adjustCamera'1) }))) -}
+caddcb79db93a69450b9671fbfb1ee07
+  class GHC.Base.Monad m => CameraControl (m :: * -> *) where
+    adjustCamera :: StreetRun.Engine.Camera.Camera -> m ()
+    disableZoom :: m ()
+    enableZoom :: m ()
+    {-# MINIMAL adjustCamera, disableZoom, enableZoom #-}
+2a41396eff7e90a2c0f13fb2a3103b6c
+  adjustCamera' ::
+    (Control.Monad.IO.Class.MonadIO m,
+     Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.State.Class.MonadState StreetRun.State.Vars m) =>
+    StreetRun.Engine.Camera.Camera -> m ()
+  {- Arity: 4,
+     Strictness: <S(S(LLC(C(S))LL)L),1*U(1*U(A,1*C1(C1(U)),C(C1(U)),A,A),C(U))><L,1*U(A,A,A,1*C1(U))><L,1*U(A,A,A,1*C1(U))><L,U(U(U(U),U(U)),U(U,U))>,
+     Inline: [2],
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   (w :: Control.Monad.IO.Class.MonadIO m)
+                   (w1 :: Control.Monad.Reader.Class.MonadReader
+                            StreetRun.Config.Config m)
+                   (w2 :: Control.Monad.State.Class.MonadState StreetRun.State.Vars m)
+                   (w3 :: StreetRun.Engine.Camera.Camera) ->
+                 case w of ww { Control.Monad.IO.Class.C:MonadIO ww1 ww2 ->
+                 case ww1 of ww3 { GHC.Base.C:Monad ww4 ww5 ww6 ww7 ww8 ->
+                 StreetRun.Effect.Picture.$wadjustCamera'
+                   @ m
+                   ww5
+                   ww6
+                   ww2
+                   w1
+                   w2
+                   w3 } }) -}
+20c10d3b88a5563d6d8fce69bf86d2d7
+  adjustCamera'1 ::
+    GHC.Maybe.Maybe (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+  {- Strictness: m2,
+     Unfolding: (GHC.Maybe.Just
+                   @ (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+                   StreetRun.Effect.Picture.adjustCamera'2) -}
+680612f5d66474d9261fc1abcddd2882
+  adjustCamera'2 :: SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt
+  {- Strictness: m,
+     Unfolding: (SDL.Video.Renderer.Rectangle
+                   @ Foreign.C.Types.CInt
+                   StreetRun.Effect.Picture.adjustCamera'3
+                     `cast`
+                   (Sym (Linear.Affine.N:Point[0]
+                             <Linear.V2.V2>_R) <Foreign.C.Types.CInt>_N)
+                   StreetRun.Effect.Picture.adjustCamera'_dim) -}
+ff639fb688f5c8963d807c4645e5da6b
+  adjustCamera'3 :: Linear.V2.V2 Foreign.C.Types.CInt
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Linear.V2.V2
+                   @ Foreign.C.Types.CInt
+                   StreetRun.Effect.Picture.adjustCamera'4
+                     `cast`
+                   (Sym (Foreign.C.Types.N:CInt[0]))
+                   StreetRun.Effect.Picture.adjustCamera'4
+                     `cast`
+                   (Sym (Foreign.C.Types.N:CInt[0]))) -}
+050854f99627b2993ade569ae9ed59bc
+  adjustCamera'4 :: GHC.Int.Int32
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Int.I32# 0#) -}
+f964585e5468d70dfc185cdea9652885
+  adjustCamera'_dim :: Linear.V2.V2 Foreign.C.Types.CInt
+  {- Unfolding: (case GHC.Float.$w$cproperFraction1
+                        @ Foreign.C.Types.CInt
+                        Foreign.C.Types.$fIntegralCInt
+                        1280.0# of ww2 { (#,#) ww3 ww4 ->
+                 case ww3
+                        `cast`
+                      (Foreign.C.Types.N:CInt[0]) of nt { GHC.Int.I32# ipv ->
+                 Linear.V2.V2
+                   @ Foreign.C.Types.CInt
+                   nt `cast` (Sym (Foreign.C.Types.N:CInt[0]))
+                   (GHC.Int.I32# ipv) `cast` (Sym (Foreign.C.Types.N:CInt[0])) } }) -}
+26d88a66899ae72b01951cb52540311f
+  disableZoom' ::
+    (Control.Monad.IO.Class.MonadIO m,
+     Control.Monad.Reader.Class.MonadReader
+       StreetRun.Config.Config m) =>
+    m ()
+  {- Arity: 2,
+     Strictness: <S(S(LC(C(S))LLL)L),1*U(1*U(A,1*C1(C1(U)),C(C1(U)),A,A),C(U))><L,1*U(A,A,A,1*C1(U))>,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ @ m :: * -> *
+                   (w :: Control.Monad.IO.Class.MonadIO m)
+                   (w1 :: Control.Monad.Reader.Class.MonadReader
+                            StreetRun.Config.Config m) ->
+                 case w of ww { Control.Monad.IO.Class.C:MonadIO ww1 ww2 ->
+                 case ww1 of ww3 { GHC.Base.C:Monad ww4 ww5 ww6 ww7 ww8 ->
+                 StreetRun.Effect.Picture.$wdisableZoom' @ m ww5 ww6 ww2 w1 } }) -}
+fb4002bc16a6a469df1b85fe447f27ed
+  enableZoom' ::
+    (Control.Monad.IO.Class.MonadIO m,
+     Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
+     Control.Monad.State.Class.MonadState StreetRun.State.Vars m) =>
+    m ()
+  {- Arity: 3,
+     Strictness: <S(S(LC(C(S))LLL)L),1*U(1*U(A,C(C1(U)),C(C1(U)),A,A),C(U))><L,1*U(A,A,A,1*C1(U))><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)>,
+     Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ m :: * -> *
+                   (w :: Control.Monad.IO.Class.MonadIO m)
+                   (w1 :: Control.Monad.Reader.Class.MonadReader
+                            StreetRun.Config.Config m)
+                   (w2 :: Control.Monad.State.Class.MonadState
+                            StreetRun.State.Vars m) ->
+                 case w of ww { Control.Monad.IO.Class.C:MonadIO ww1 ww2 ->
+                 case ww1 of ww3 { GHC.Base.C:Monad ww4 ww5 ww6 ww7 ww8 ->
+                 StreetRun.Effect.Picture.$wenableZoom'
+                   @ m
+                   ww5
+                   ww6
+                   ww2
+                   w1
+                   w2 } }) -}
+f00b708090e89068e75e2a67976efd51
+  moveCamera ::
+    Control.Monad.IO.Class.MonadIO m =>
+    SDL.Internal.Types.Renderer
+    -> StreetRun.Engine.Camera.Camera -> m ()
+  {- Arity: 3,
+     Strictness: <S(S(LLC(C(S))LL)L),1*U(1*U(A,A,C(C1(U)),A,A),C(U))><L,U(U)><S,1*U(1*U(U(U),U(U)),1*U(U,U))>,
+     Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ m :: * -> *
+                   (w :: Control.Monad.IO.Class.MonadIO m)
+                   (w1 :: SDL.Internal.Types.Renderer)
+                   (w2 :: StreetRun.Engine.Camera.Camera) ->
+                 case w of ww { Control.Monad.IO.Class.C:MonadIO ww1 ww2 ->
+                 case ww1 of ww3 { GHC.Base.C:Monad ww4 ww5 ww6 ww7 ww8 ->
+                 case w2 of ww9 { StreetRun.Engine.Camera.Camera ww10 ww11 ->
+                 StreetRun.Effect.Picture.$wmoveCamera
+                   @ m
+                   ww6
+                   ww2
+                   w1
+                   ww10
+                   ww11 } } }) -}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

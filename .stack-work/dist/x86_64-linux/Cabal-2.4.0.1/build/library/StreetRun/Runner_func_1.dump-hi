@@ -1,0 +1,928 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 21:20:51.866131811 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Runner_func_1 8064
+  interface hash: ba2dc5661db27fd2345f264bb80336f3
+  ABI hash: ecc488ef1c2226e946880fe6b01c6046
+  export-list hash: 3aace68dd54e293b9e7cb9629aa29f15
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: cd6997935d09daa6a687cb8eb0447281
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Runner_func_1.addStocks
+  StreetRun.Runner_func_1.applyHurt
+  StreetRun.Runner_func_1.nextStocks
+  StreetRun.Runner_func_1.showRunner
+  StreetRun.Runner_func_1.stepRunnerAction
+  StreetRun.Runner_func_1.stepRunnerPosition
+  StreetRun.Runner_func_1.stepRunnerState
+  StreetRun.Runner_func_1.stepSpeed
+  StreetRun.Runner_func_1.stepZoom
+module dependencies: StreetRun.Bird StreetRun.Camera
+                     StreetRun.Frame StreetRun.Hurdle StreetRun.Hurdle_1 StreetRun.Input
+                     StreetRun.Lava StreetRun.Physics StreetRun.Rock StreetRun.Runner
+                     StreetRun.Runner_func_2 StreetRun.Step StreetRun.Types
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
+                      base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
+                      bifunctors-5.5.3 binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2
+                      call-stack-0.1.0 cereal-0.5.8.0 comonad-5.0.4 conduit-1.3.1.1
+                      containers-0.6.0.1 contravariant-1.5 deepseq-1.4.4.0
+                      distributive-0.6 dlist-0.8.0.6 exceptions-0.10.1 free-5.1
+                      ghc-boot-th-8.6.4 ghc-prim-0.5.3 hashable-1.2.7.0
+                      integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2 kan-extensions-5.2
+                      key-state-0.2.0 lens-4.17 libyaml-0.1.1.0 linear-1.20.8 mtl-2.2.2
+                      pretty-1.1.3.6 primitive-0.6.4.0 profunctors-5.3 random-1.1
+                      reflection-2.1.4 resourcet-1.2.2 safe-0.3.17 scientific-0.3.6.2
+                      semigroupoids-5.3.2 stm-2.5.0.0 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 th-abstraction-0.2.11.0
+                      time-1.8.0.2 time-locale-compat-0.1.1.5 transformers-0.5.6.2
+                      transformers-base-0.4.5.2 transformers-compat-0.6.2
+                      unliftio-core-0.1.2.0 unordered-containers-0.2.9.0 uuid-types-1.0.3
+                      vector-0.12.0.2 yaml-0.11.0.0
+orphans: attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         time-1.8.0.2:Data.Time.Clock.TAI
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         reflection-2.1.4:Data.Reflection
+         vector-0.12.0.2:Data.Vector.Unboxed stm-2.5.0.0:Control.Monad.STM
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show linear-1.20.8:Linear.Instances
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.4.2.0:Data.Aeson.Types.Internal animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.Plucker linear-1.20.8:Linear.Quaternion
+                         linear-1.20.8:Linear.V linear-1.20.8:Linear.V0
+                         linear-1.20.8:Linear.V1 linear-1.20.8:Linear.V2
+                         linear-1.20.8:Linear.V3 linear-1.20.8:Linear.V4
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  base-4.12.0.0:Data.Foldable 5f70351366640f007be66681d2212df8
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Float ccb68fbeaab348f60d11c8132d51af5d
+import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
+import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  key-state-0.2.0:KeyState f505d200ccd373546afa68666240df7e
+import  -/  linear-1.20.8:Linear c66c613217f57f0236b62caf498b629a
+import  -/  safe-0.3.17:Safe 436789855584374f8b9a2b8b149b8684
+import  -/  StreetRun.Camera 63926371f9a3875764572c53b7b589e9
+  exports: 0bdcb1ea14c3bd8392b27cba46d7b4fa
+import  -/  StreetRun.Frame bcb622c9bc5c55d3184ab58affcc1b5b
+  exports: 061806fa76aa4b4d9f3c174ee83d7084
+  frameDeltaSeconds f3a7e06e5c0381d3a81fcee62fef3367
+import  -/  StreetRun.Hurdle b11c90f9af17a715ea9b78dfc8982c49
+  exports: 5d1d0f5747b642287dbb935bf038e6f0
+import  -/  StreetRun.Hurdle_1 8b644ff0f5a3186f6f44ed3d41acf8dd
+  exports: d905238960a6001c32ab0ea30381a713
+import  -/  StreetRun.Input dc1e62404449c4ef4f763046555938b3
+  exports: d5c6fc579c43e57e8ccb72f493e3d8f8
+  $sel:iDown:Input debdce52acaa37df87e66131243c6c87
+  $sel:iUp:Input debdce52acaa37df87e66131243c6c87
+  Input debdce52acaa37df87e66131243c6c87
+import  -/  StreetRun.Physics bcf598c857c36dd82527ead0c17a7064
+  exports: 12b72d4e6f732b1793039514751aff72
+import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
+  exports: 07dc0a302095db6221f41ecc2db9aec7
+  $sel:dsAction:RunnerState ba3a4953300a8a7970962fa07fd443a5
+  $sel:dsHeight:RunnerState ba3a4953300a8a7970962fa07fd443a5
+  $sel:dsHurt:RunnerState ba3a4953300a8a7970962fa07fd443a5
+  $sel:dsRecover:RunnerState ba3a4953300a8a7970962fa07fd443a5
+  RunnerAction b40b32426d0e9605bd1b5196a5b093c8
+  RunnerAction'Duck 71aa68e34d9d20fa5719cc8e63885d5e
+  RunnerAction'Hurt 52b6e367c3afaaddeec6cf55bb8a1b8e
+  RunnerAction'Jump de799746cc760820e4640404bbfde537
+  RunnerAction'Move f2f0659a96d320885e09e32bf7484607
+  RunnerKey c9d847714c135c3fbba17148989067a8
+  RunnerKey'Hurt a55fd3785c76d857e35e54ed380ede5f
+  RunnerKey'Kick 385cf197088539d3629639fe93b2987b
+  RunnerKey'Move 0c11f73f5616f93a390433bb2e122fd2
+  RunnerKey'Sneak c7074d5d9fbca38644c828c00c54a55e
+  RunnerState b79719effa9b9e197810f35ddd3ddf39
+  RunnerState ba3a4953300a8a7970962fa07fd443a5
+import  -/  StreetRun.Runner_func_2 f8a14e2b7b30d725c8ce0939a4c26918
+  exports: fc83ba710a96fc8b5794a82f528d2b01
+import  -/  StreetRun.Step da8e238f737bd9817c61db5c1982dc0f
+  exports: 4def855fa00facc907450d29f9f75fae
+  Step df088ef4f637b8a0cda346c30c5ea086
+  Step'Change e827a7efadc8349d47d90b3f4757231a
+  Step'Sustain 19776ad9b68ce99fbd90ff77dc74711c
+  smash 9b143f8d06c805775836741a712abedc
+import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
+  exports: 687926be2250d898b68652280e784933
+  Animations 4b41587a259aae6b6ac40ba923e843f7
+  Percent 9bc35ebe469aab1ad3d8edfd9fd30da6
+  Score 14dcab1a7c2f10e1cc53b42f2e1d95fd
+  Seconds 3096dba0a5a57c02592e934b662fbeb3
+  Stocks 7e087ffbec1cc0f28357111020b2535d
+  clamp 4428598fac4688a3e97e01b2030e4732
+import  -/  text-1.2.3.1:Data.Text 1e51a010d8f8a6fa41d8ea82d69faf13
+02ac6123a6525c90c475ef3d7894907b
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Runner_func_1.$trModule3
+                   StreetRun.Runner_func_1.$trModule1) -}
+b234d41b97df97b36e3babe5f5087971
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Runner_func_1.$trModule2) -}
+9a635d2efe1e09527ade3a5225884fb8
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Runner_func_1"#) -}
+c61626844f9140cf1b08f0ae52392adb
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Runner_func_1.$trModule4) -}
+a0614a354428bc7ed44024b79062830b
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+31130a4259aba1b99f3ebfa6a3ee0cb4
+  $waddStocks :: GHC.Prim.Int# -> GHC.Prim.Int# -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,U><S,U>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) (ww1 :: GHC.Prim.Int#) ->
+                 let {
+                   $j :: GHC.Types.Bool <join 0>
+                   = let {
+                       $j1 :: GHC.Types.Bool <join 0>
+                       = let {
+                           $j2 :: GHC.Types.Bool <join 0>
+                           = let {
+                               $j3 :: GHC.Types.Bool <join 0>
+                               = let {
+                                   $j4 :: GHC.Types.Bool <join 0>
+                                   = let {
+                                       $j5 :: GHC.Types.Bool <join 0>
+                                       = let {
+                                           $j6 :: GHC.Types.Bool <join 0>
+                                           = case GHC.Prim.>=# ww1 100# of lwild {
+                                               DEFAULT -> GHC.Types.False
+                                               1#
+                                               -> case GHC.Classes.modInt#
+                                                         ww
+                                                         50# of ww2 { DEFAULT ->
+                                                  case GHC.Classes.modInt#
+                                                         ww1
+                                                         50# of ww3 { DEFAULT ->
+                                                  GHC.Prim.tagToEnum#
+                                                    @ GHC.Types.Bool
+                                                    (GHC.Prim.># ww2 ww3) } } }
+                                         } in
+                                         case GHC.Prim.<# ww 75# of lwild {
+                                           DEFAULT -> $j6
+                                           1#
+                                           -> case GHC.Prim.>=# ww1 75# of lwild1 {
+                                                DEFAULT -> $j6 1# -> GHC.Types.True } }
+                                     } in
+                                     case GHC.Prim.<# ww 50# of lwild {
+                                       DEFAULT -> $j5
+                                       1#
+                                       -> case GHC.Prim.>=# ww1 50# of lwild1 {
+                                            DEFAULT -> $j5 1# -> GHC.Types.True } }
+                                 } in
+                                 case GHC.Prim.<# ww 35# of lwild {
+                                   DEFAULT -> $j4
+                                   1#
+                                   -> case GHC.Prim.>=# ww1 35# of lwild1 {
+                                        DEFAULT -> $j4 1# -> GHC.Types.True } }
+                             } in
+                             case GHC.Prim.<# ww 20# of lwild {
+                               DEFAULT -> $j3
+                               1#
+                               -> case GHC.Prim.>=# ww1 20# of lwild1 {
+                                    DEFAULT -> $j3 1# -> GHC.Types.True } }
+                         } in
+                         case GHC.Prim.<# ww 10# of lwild {
+                           DEFAULT -> $j2
+                           1#
+                           -> case GHC.Prim.>=# ww1 10# of lwild1 {
+                                DEFAULT -> $j2 1# -> GHC.Types.True } }
+                     } in
+                     case GHC.Prim.<# ww 5# of lwild {
+                       DEFAULT -> $j1
+                       1#
+                       -> case GHC.Prim.>=# ww1 5# of lwild1 {
+                            DEFAULT -> $j1 1# -> GHC.Types.True } }
+                 } in
+                 case GHC.Prim.<# ww 1# of lwild {
+                   DEFAULT -> $j
+                   1#
+                   -> case GHC.Prim.>=# ww1 1# of lwild1 {
+                        DEFAULT -> $j 1# -> GHC.Types.True } }) -}
+7798b937d83fbddede7798d4474f11dd
+  $wstepRunnerAction ::
+    StreetRun.Input.Input
+    -> StreetRun.Runner.RunnerAction
+    -> GHC.Maybe.Maybe StreetRun.Types.Percent
+    -> GHC.Maybe.Maybe StreetRun.Types.Percent
+    -> StreetRun.Step.Step StreetRun.Runner.RunnerAction
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <L,1*U(A,1*U(1*U,A),1*U(1*U,A),A,A)><S,1*U><L,1*U><L,1*U>,
+     Inline: [2],
+     Unfolding: (\ (w :: StreetRun.Input.Input)
+                   (ww :: StreetRun.Runner.RunnerAction)
+                   (ww1 :: GHC.Maybe.Maybe StreetRun.Types.Percent)
+                   (ww2 :: GHC.Maybe.Maybe StreetRun.Types.Percent) ->
+                 case ww of wild {
+                   StreetRun.Runner.RunnerAction'Move
+                   -> case w of wild1 { StreetRun.Input.Input ds1 ds2 ds3 ds4 ds5 ->
+                      case ds2 of wild2 { KeyState.KeyState ds7 ds8 ->
+                      case ds7 of wild3 {
+                        DEFAULT
+                        -> case ds3 of wild4 { KeyState.KeyState ds9 ds10 ->
+                           case ds9 of wild5 {
+                             DEFAULT -> StreetRun.Runner_func_1.stepRunnerAction10
+                             KeyState.KeyStatus'Pressed
+                             -> StreetRun.Runner_func_1.stepRunnerAction9
+                             KeyState.KeyStatus'Held
+                             -> StreetRun.Runner_func_1.stepRunnerAction9 } }
+                        KeyState.KeyStatus'Pressed
+                        -> StreetRun.Runner_func_1.stepRunnerAction8
+                        KeyState.KeyStatus'Held
+                        -> StreetRun.Runner_func_1.stepRunnerAction8 } } }
+                   StreetRun.Runner.RunnerAction'Duck
+                   -> case w of wild1 { StreetRun.Input.Input ds1 ds2 ds3 ds4 ds5 ->
+                      case ds2 of wild2 { KeyState.KeyState ds7 ds8 ->
+                      case ds7 of wild3 {
+                        DEFAULT
+                        -> case ds3 of wild4 { KeyState.KeyState ds9 ds10 ->
+                           case ds9 of wild5 {
+                             DEFAULT -> StreetRun.Runner_func_1.stepRunnerAction7
+                             KeyState.KeyStatus'Pressed
+                             -> StreetRun.Runner_func_1.stepRunnerAction6
+                             KeyState.KeyStatus'Held
+                             -> StreetRun.Runner_func_1.stepRunnerAction6 } }
+                        KeyState.KeyStatus'Pressed
+                        -> StreetRun.Runner_func_1.stepRunnerAction5
+                        KeyState.KeyStatus'Held
+                        -> StreetRun.Runner_func_1.stepRunnerAction5 } } }
+                   StreetRun.Runner.RunnerAction'Jump
+                   -> case ww1 of wild1 {
+                        GHC.Maybe.Nothing -> StreetRun.Runner_func_1.stepRunnerAction4
+                        GHC.Maybe.Just p
+                        -> case p `cast`
+                                (StreetRun.Types.N:Percent[0]) of wild2 { GHC.Types.F# x ->
+                           case GHC.Prim.ltFloat# x 1.0# of lwild {
+                             DEFAULT -> StreetRun.Runner_func_1.stepRunnerAction4
+                             1# -> StreetRun.Runner_func_1.stepRunnerAction3 } } }
+                   StreetRun.Runner.RunnerAction'Hurt
+                   -> case ww2 of wild1 {
+                        GHC.Maybe.Nothing -> StreetRun.Runner_func_1.stepRunnerAction2
+                        GHC.Maybe.Just p
+                        -> case p `cast`
+                                (StreetRun.Types.N:Percent[0]) of wild2 { GHC.Types.F# x ->
+                           case GHC.Prim.ltFloat# x 1.0# of lwild {
+                             DEFAULT -> StreetRun.Runner_func_1.stepRunnerAction2
+                             1# -> StreetRun.Runner_func_1.stepRunnerAction1 } } } }) -}
+672988b26fcfb0481e586dadf16bb3ba
+  $wstepRunnerState ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+    -> StreetRun.Runner.RunnerState
+    -> (# StreetRun.Runner.RunnerAction,
+          GHC.Maybe.Maybe StreetRun.Types.Percent,
+          GHC.Maybe.Maybe StreetRun.Types.Percent,
+          GHC.Maybe.Maybe StreetRun.Types.Percent #)
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U(A,1*U,1*U,1*U)>,
+     Inline: [2],
+     Unfolding: (\ (w :: StreetRun.Step.Step
+                           StreetRun.Runner.RunnerAction)
+                   (w1 :: StreetRun.Runner.RunnerState) ->
+                 let {
+                   recover :: GHC.Maybe.Maybe StreetRun.Types.Percent
+                   = case w1 of wild { StreetRun.Runner.RunnerState ds1 ds2 ds3 ds4 ->
+                     case ds4 of wild1 {
+                       GHC.Maybe.Nothing -> GHC.Maybe.Nothing @ StreetRun.Types.Percent
+                       GHC.Maybe.Just p
+                       -> case p `cast`
+                               (StreetRun.Types.N:Percent[0]) of wild2 { GHC.Types.F# x ->
+                          case GHC.Prim.ltFloat# x 1.0# of lwild {
+                            DEFAULT -> GHC.Maybe.Nothing @ StreetRun.Types.Percent
+                            1#
+                            -> GHC.Maybe.Just
+                                 @ StreetRun.Types.Percent
+                                 (let {
+                                    present :: GHC.Prim.Float# = GHC.Prim.plusFloat# x 1.0e-2#
+                                  } in
+                                  case GHC.Prim.gtFloat# present 1.0# of lwild1 {
+                                    DEFAULT
+                                    -> case GHC.Prim.ltFloat# present 0.0# of lwild2 {
+                                         DEFAULT
+                                         -> (GHC.Types.F# present)
+                                              `cast`
+                                            (Sym (StreetRun.Types.N:Percent[0]))
+                                         1#
+                                         -> StreetRun.Runner_func_1.stepRunnerPosition4
+                                              `cast`
+                                            (Sym (StreetRun.Types.N:Percent[0])) }
+                                    1#
+                                    -> StreetRun.Runner_func_1.stepRunnerState2
+                                         `cast`
+                                       (Sym (StreetRun.Types.N:Percent[0])) }) } } } }
+                 } in
+                 let {
+                   hurt :: GHC.Maybe.Maybe StreetRun.Types.Percent
+                   = case w1 of wild { StreetRun.Runner.RunnerState ds1 ds2 ds3 ds4 ->
+                     case ds3 of wild1 {
+                       GHC.Maybe.Nothing -> GHC.Maybe.Nothing @ StreetRun.Types.Percent
+                       GHC.Maybe.Just p
+                       -> case p `cast`
+                               (StreetRun.Types.N:Percent[0]) of wild2 { GHC.Types.F# x ->
+                          case GHC.Prim.ltFloat# x 1.0# of lwild {
+                            DEFAULT -> GHC.Maybe.Nothing @ StreetRun.Types.Percent
+                            1#
+                            -> GHC.Maybe.Just
+                                 @ StreetRun.Types.Percent
+                                 (let {
+                                    present :: GHC.Prim.Float# = GHC.Prim.plusFloat# x 4.0e-2#
+                                  } in
+                                  case GHC.Prim.gtFloat# present 1.0# of lwild1 {
+                                    DEFAULT
+                                    -> case GHC.Prim.ltFloat# present 0.0# of lwild2 {
+                                         DEFAULT
+                                         -> (GHC.Types.F# present)
+                                              `cast`
+                                            (Sym (StreetRun.Types.N:Percent[0]))
+                                         1#
+                                         -> StreetRun.Runner_func_1.stepRunnerPosition4
+                                              `cast`
+                                            (Sym (StreetRun.Types.N:Percent[0])) }
+                                    1#
+                                    -> StreetRun.Runner_func_1.stepRunnerState2
+                                         `cast`
+                                       (Sym (StreetRun.Types.N:Percent[0])) }) } } } }
+                 } in
+                 let {
+                   height :: GHC.Maybe.Maybe StreetRun.Types.Percent
+                   = case w1 of wild { StreetRun.Runner.RunnerState ds1 ds2 ds3 ds4 ->
+                     case ds2 of wild1 {
+                       GHC.Maybe.Nothing -> GHC.Maybe.Nothing @ StreetRun.Types.Percent
+                       GHC.Maybe.Just p
+                       -> case p `cast`
+                               (StreetRun.Types.N:Percent[0]) of wild2 { GHC.Types.F# x ->
+                          case GHC.Prim.ltFloat# x 1.0# of lwild {
+                            DEFAULT -> GHC.Maybe.Nothing @ StreetRun.Types.Percent
+                            1#
+                            -> GHC.Maybe.Just
+                                 @ StreetRun.Types.Percent
+                                 (let {
+                                    present :: GHC.Prim.Float# = GHC.Prim.plusFloat# x 4.0e-2#
+                                  } in
+                                  case GHC.Prim.gtFloat# present 1.0# of lwild1 {
+                                    DEFAULT
+                                    -> case GHC.Prim.ltFloat# present 0.0# of lwild2 {
+                                         DEFAULT
+                                         -> (GHC.Types.F# present)
+                                              `cast`
+                                            (Sym (StreetRun.Types.N:Percent[0]))
+                                         1#
+                                         -> StreetRun.Runner_func_1.stepRunnerPosition4
+                                              `cast`
+                                            (Sym (StreetRun.Types.N:Percent[0])) }
+                                    1#
+                                    -> StreetRun.Runner_func_1.stepRunnerState2
+                                         `cast`
+                                       (Sym (StreetRun.Types.N:Percent[0])) }) } } } }
+                 } in
+                 case w of wild {
+                   StreetRun.Step.Step'Change ds da
+                   -> case da of wild1 {
+                        DEFAULT
+                        -> (# case hurt of wild2 {
+                                GHC.Maybe.Nothing
+                                -> case height of wild3 {
+                                     GHC.Maybe.Nothing -> wild1
+                                     GHC.Maybe.Just a1 -> StreetRun.Runner.RunnerAction'Jump }
+                                GHC.Maybe.Just a1 -> StreetRun.Runner.RunnerAction'Hurt },
+                              height, hurt, recover #)
+                        StreetRun.Runner.RunnerAction'Jump
+                        -> (# StreetRun.Runner.RunnerAction'Jump,
+                              StreetRun.Runner_func_1.stepRunnerState1, hurt, recover #)
+                        StreetRun.Runner.RunnerAction'Hurt
+                        -> (# StreetRun.Runner.RunnerAction'Hurt, height,
+                              StreetRun.Runner_func_1.stepRunnerState1,
+                              StreetRun.Runner_func_1.stepRunnerState1 #) }
+                   StreetRun.Step.Step'Sustain ds
+                   -> (# case hurt of wild1 {
+                           GHC.Maybe.Nothing
+                           -> case height of wild2 {
+                                GHC.Maybe.Nothing -> ds
+                                GHC.Maybe.Just a1 -> StreetRun.Runner.RunnerAction'Jump }
+                           GHC.Maybe.Just a1 -> StreetRun.Runner.RunnerAction'Hurt },
+                         height, hurt, recover #) }) -}
+62e6eabee999992f1be5f29fc948249b
+  $wstepSpeed ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+    -> GHC.Prim.Float# -> GHC.Prim.Float#
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,U>, Inline: [2],
+     Unfolding: (\ (w :: StreetRun.Step.Step
+                           StreetRun.Runner.RunnerAction)
+                   (ww :: GHC.Prim.Float#) ->
+                 case w of wild {
+                   StreetRun.Step.Step'Change ds1 a1
+                   -> case a1 of wild1 {
+                        StreetRun.Runner.RunnerAction'Move
+                        -> let {
+                             x :: GHC.Prim.Float# = GHC.Prim.plusFloat# ww 3.0e-2#
+                           } in
+                           case GHC.Prim.gtFloat# x 20.0# of lwild {
+                             DEFAULT
+                             -> case GHC.Prim.ltFloat# x 1.0# of lwild1 {
+                                  DEFAULT -> x 1# -> 1.0# }
+                             1# -> 20.0# }
+                        StreetRun.Runner.RunnerAction'Duck
+                        -> let {
+                             x :: GHC.Prim.Float# = GHC.Prim.minusFloat# ww 0.1#
+                           } in
+                           case GHC.Prim.gtFloat# x 20.0# of lwild {
+                             DEFAULT
+                             -> case GHC.Prim.ltFloat# x 1.0# of lwild1 {
+                                  DEFAULT -> x 1# -> 1.0# }
+                             1# -> 20.0# }
+                        StreetRun.Runner.RunnerAction'Jump
+                        -> case GHC.Prim.gtFloat# ww 20.0# of lwild {
+                             DEFAULT
+                             -> case GHC.Prim.ltFloat# ww 1.0# of lwild1 {
+                                  DEFAULT -> ww 1# -> 1.0# }
+                             1# -> 20.0# }
+                        StreetRun.Runner.RunnerAction'Hurt
+                        -> let {
+                             x :: GHC.Prim.Float# = GHC.Prim.minusFloat# ww 0.15#
+                           } in
+                           case GHC.Prim.gtFloat# x 20.0# of lwild {
+                             DEFAULT
+                             -> case GHC.Prim.ltFloat# x 1.0# of lwild1 {
+                                  DEFAULT -> x 1# -> 1.0# }
+                             1# -> 20.0# } }
+                   StreetRun.Step.Step'Sustain a1
+                   -> case a1 of wild1 {
+                        StreetRun.Runner.RunnerAction'Move
+                        -> let {
+                             x :: GHC.Prim.Float# = GHC.Prim.plusFloat# ww 3.0e-2#
+                           } in
+                           case GHC.Prim.gtFloat# x 20.0# of lwild {
+                             DEFAULT
+                             -> case GHC.Prim.ltFloat# x 1.0# of lwild1 {
+                                  DEFAULT -> x 1# -> 1.0# }
+                             1# -> 20.0# }
+                        StreetRun.Runner.RunnerAction'Duck
+                        -> let {
+                             x :: GHC.Prim.Float# = GHC.Prim.minusFloat# ww 0.1#
+                           } in
+                           case GHC.Prim.gtFloat# x 20.0# of lwild {
+                             DEFAULT
+                             -> case GHC.Prim.ltFloat# x 1.0# of lwild1 {
+                                  DEFAULT -> x 1# -> 1.0# }
+                             1# -> 20.0# }
+                        StreetRun.Runner.RunnerAction'Jump
+                        -> case GHC.Prim.gtFloat# ww 20.0# of lwild {
+                             DEFAULT
+                             -> case GHC.Prim.ltFloat# ww 1.0# of lwild1 {
+                                  DEFAULT -> ww 1# -> 1.0# }
+                             1# -> 20.0# }
+                        StreetRun.Runner.RunnerAction'Hurt
+                        -> let {
+                             x :: GHC.Prim.Float# = GHC.Prim.minusFloat# ww 0.15#
+                           } in
+                           case GHC.Prim.gtFloat# x 20.0# of lwild {
+                             DEFAULT
+                             -> case GHC.Prim.ltFloat# x 1.0# of lwild1 {
+                                  DEFAULT -> x 1# -> 1.0# }
+                             1# -> 20.0# } } }) -}
+48462ed2ebe3cd7276e7a4f55922b6cc
+  $wstepZoom ::
+    GHC.Prim.Float# -> StreetRun.Runner.RunnerAction -> GHC.Prim.Float#
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,U><S,1*U>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Float#)
+                   (w :: StreetRun.Runner.RunnerAction) ->
+                 case w of wild {
+                   DEFAULT
+                   -> let {
+                        x :: GHC.Prim.Float# = GHC.Prim.plusFloat# ww 5.0e-2#
+                      } in
+                      case GHC.Prim.gtFloat# x 1.0# of lwild {
+                        DEFAULT
+                        -> case GHC.Prim.ltFloat# x 0.0# of lwild1 {
+                             DEFAULT -> x 1# -> 0.0# }
+                        1# -> 1.0# }
+                   StreetRun.Runner.RunnerAction'Duck
+                   -> let {
+                        x :: GHC.Prim.Float# = GHC.Prim.minusFloat# ww 1.0e-2#
+                      } in
+                      case GHC.Prim.gtFloat# x 1.0# of lwild {
+                        DEFAULT
+                        -> case GHC.Prim.ltFloat# x 0.0# of lwild1 {
+                             DEFAULT -> x 1# -> 0.0# }
+                        1# -> 1.0# } }) -}
+3f9ac0ed95d9b2861c7650e4513cf3a9
+  addStocks ::
+    StreetRun.Types.Score -> StreetRun.Types.Score -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Types.Score) (w1 :: StreetRun.Types.Score) ->
+                 case w `cast`
+                      (StreetRun.Types.N:Score[0]) of ww { GHC.Types.I# ww1 ->
+                 case w1
+                        `cast`
+                      (StreetRun.Types.N:Score[0]) of ww2 { GHC.Types.I# ww3 ->
+                 StreetRun.Runner_func_1.$waddStocks ww1 ww3 } }) -}
+a37daaa495b04b968f4724b9bda5f603
+  applyHurt ::
+    GHC.Types.Bool
+    -> StreetRun.Step.Step StreetRun.Runner.RunnerAction
+    -> GHC.Maybe.Maybe StreetRun.Types.Percent
+    -> StreetRun.Step.Step StreetRun.Runner.RunnerAction
+  {- Arity: 3, HasNoCafRefs, Strictness: <S,1*U><S,1*U><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (collision :: GHC.Types.Bool)
+                   (stepDa :: StreetRun.Step.Step StreetRun.Runner.RunnerAction)
+                   (recover :: GHC.Maybe.Maybe StreetRun.Types.Percent) ->
+                 case collision of wild {
+                   GHC.Types.False -> stepDa
+                   GHC.Types.True
+                   -> case recover of wild1 {
+                        GHC.Maybe.Nothing
+                        -> case stepDa of wild2 {
+                             StreetRun.Step.Step'Change da ds
+                             -> StreetRun.Step.Step'Change
+                                  @ StreetRun.Runner.RunnerAction
+                                  da
+                                  StreetRun.Runner.RunnerAction'Hurt
+                             StreetRun.Step.Step'Sustain ds
+                             -> case ds of wild3 {
+                                  DEFAULT
+                                  -> StreetRun.Step.Step'Change
+                                       @ StreetRun.Runner.RunnerAction
+                                       wild3
+                                       StreetRun.Runner.RunnerAction'Hurt
+                                  StreetRun.Runner.RunnerAction'Hurt -> wild2 } }
+                        GHC.Maybe.Just a1 -> stepDa } }) -}
+dc4835650def30cb7dbaa51cb5846bad
+  nextStocks ::
+    StreetRun.Types.Score
+    -> StreetRun.Types.Score
+    -> StreetRun.Types.Stocks
+    -> StreetRun.Types.Stocks
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(S),1*U(U)><S(S),1*U(U)><S(S),1*U(U)>m,
+     Unfolding: InlineRule (0, True, True)
+                StreetRun.Runner_func_1.nextStocks1
+                  `cast`
+                (<StreetRun.Types.Score>_R
+                 ->_R <StreetRun.Types.Score>_R
+                 ->_R <StreetRun.Types.Stocks>_R
+                 ->_R Sym (StreetRun.Types.N:Stocks[0])) -}
+a608a188a1966ae926572a1b153b947d
+  nextStocks1 ::
+    StreetRun.Types.Score
+    -> StreetRun.Types.Score -> StreetRun.Types.Stocks -> GHC.Types.Int
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(S),1*U(U)><S(S),1*U(U)><S(S),1*U(U)>m, Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: StreetRun.Types.Score)
+                   (w1 :: StreetRun.Types.Score)
+                   (w2 :: StreetRun.Types.Stocks) ->
+                 case w `cast`
+                      (StreetRun.Types.N:Score[0]) of ww { GHC.Types.I# ww1 ->
+                 case w1
+                        `cast`
+                      (StreetRun.Types.N:Score[0]) of ww2 { GHC.Types.I# ww3 ->
+                 case w2
+                        `cast`
+                      (StreetRun.Types.N:Stocks[0]) of ww4 { GHC.Types.I# ww5 ->
+                 case StreetRun.Runner_func_1.$waddStocks ww1 ww3 of wild {
+                   GHC.Types.False
+                   -> case GHC.Prim.<=# 10# ww5 of lwild {
+                        DEFAULT -> GHC.Types.I# ww5 1# -> GHC.Types.I# 10# }
+                   GHC.Types.True
+                   -> let {
+                        y1 :: GHC.Prim.Int# = GHC.Prim.+# ww5 1#
+                      } in
+                      case GHC.Prim.<=# 10# y1 of lwild {
+                        DEFAULT -> GHC.Types.I# y1 1# -> GHC.Types.I# 10# } } } } }) -}
+52ce10815f8f9008ccc819d9e3ae54e9
+  showRunner :: StreetRun.Runner.RunnerState -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLLS),1*U(A,A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Runner.RunnerState) ->
+                 case ds of wild { StreetRun.Runner.RunnerState ds1 ds2 ds3 ds4 ->
+                 case ds4 of wild1 {
+                   GHC.Maybe.Nothing -> GHC.Types.True
+                   GHC.Maybe.Just percent
+                   -> case percent
+                             `cast`
+                           (StreetRun.Types.N:Percent[0]) of wild2 { GHC.Types.F# x ->
+                      GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.geFloat#
+                           (GHC.Prim.sinFloat#
+                              (GHC.Prim.timesFloat# 1000.0# (GHC.Prim.powerFloat# x 3.0#)))
+                           0.0#) } } }) -}
+0bc72f2c47cccedb391c7b182e6fa5c7
+  stepRunnerAction ::
+    StreetRun.Input.Input
+    -> StreetRun.Runner.RunnerState
+    -> StreetRun.Step.Step StreetRun.Runner.RunnerAction
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <L,1*U(A,1*U(1*U,A),1*U(1*U,A),A,A)><S(SLLL),1*U(1*U,1*U,1*U,A)>,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Input.Input)
+                   (w1 :: StreetRun.Runner.RunnerState) ->
+                 case w1 of ww { StreetRun.Runner.RunnerState ww1 ww2 ww3 ww4 ->
+                 StreetRun.Runner_func_1.$wstepRunnerAction w ww1 ww2 ww3 }) -}
+c0596d090a99e08bd8ac22a4a72048d6
+  stepRunnerAction1 ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (StreetRun.Step.Step'Sustain
+                   @ StreetRun.Runner.RunnerAction
+                   StreetRun.Runner.RunnerAction'Hurt) -}
+f3323f29588eca656204710c11c76c16
+  stepRunnerAction10 ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (StreetRun.Step.Step'Sustain
+                   @ StreetRun.Runner.RunnerAction
+                   StreetRun.Runner.RunnerAction'Move) -}
+073ad7dc88dab30508e57bd1619d3ad6
+  stepRunnerAction2 ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (StreetRun.Step.Step'Change
+                   @ StreetRun.Runner.RunnerAction
+                   StreetRun.Runner.RunnerAction'Hurt
+                   StreetRun.Runner.RunnerAction'Move) -}
+bcde86fadd587fbd99a0fd8eca7bc23b
+  stepRunnerAction3 ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (StreetRun.Step.Step'Sustain
+                   @ StreetRun.Runner.RunnerAction
+                   StreetRun.Runner.RunnerAction'Jump) -}
+39986e6b7113b8fcf0ef3f38bbef8839
+  stepRunnerAction4 ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (StreetRun.Step.Step'Change
+                   @ StreetRun.Runner.RunnerAction
+                   StreetRun.Runner.RunnerAction'Jump
+                   StreetRun.Runner.RunnerAction'Move) -}
+cb2e273dec9a50ea3d9b4080838c3687
+  stepRunnerAction5 ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (StreetRun.Step.Step'Change
+                   @ StreetRun.Runner.RunnerAction
+                   StreetRun.Runner.RunnerAction'Duck
+                   StreetRun.Runner.RunnerAction'Jump) -}
+264bd4b6e137d10bb8d4031e97484bf3
+  stepRunnerAction6 ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (StreetRun.Step.Step'Sustain
+                   @ StreetRun.Runner.RunnerAction
+                   StreetRun.Runner.RunnerAction'Duck) -}
+61cfcee689d6f47dd9b0bd31c6fbdb5c
+  stepRunnerAction7 ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (StreetRun.Step.Step'Change
+                   @ StreetRun.Runner.RunnerAction
+                   StreetRun.Runner.RunnerAction'Duck
+                   StreetRun.Runner.RunnerAction'Move) -}
+b96462889c46a28dacab68c0dad18f3b
+  stepRunnerAction8 ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (StreetRun.Step.Step'Change
+                   @ StreetRun.Runner.RunnerAction
+                   StreetRun.Runner.RunnerAction'Move
+                   StreetRun.Runner.RunnerAction'Jump) -}
+4c7f95ae0ce0aac3de242a547bb11058
+  stepRunnerAction9 ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (StreetRun.Step.Step'Change
+                   @ StreetRun.Runner.RunnerAction
+                   StreetRun.Runner.RunnerAction'Move
+                   StreetRun.Runner.RunnerAction'Duck) -}
+9595a45409ae1260deda2f73c8511e6d
+  stepRunnerPosition ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+    -> StreetRun.Types.Animations StreetRun.Runner.RunnerKey
+    -> Animate.Position
+         StreetRun.Runner.RunnerKey StreetRun.Types.Seconds
+    -> Animate.Position
+         StreetRun.Runner.RunnerKey StreetRun.Types.Seconds
+  {- Arity: 3, Strictness: <S,1*U><L,1*U(U,U,U)><L,U(U,U(U),U,U)>m,
+     Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: StreetRun.Step.Step StreetRun.Runner.RunnerAction)
+                   (w1 :: StreetRun.Types.Animations StreetRun.Runner.RunnerKey)
+                   (w2 :: Animate.Position
+                            StreetRun.Runner.RunnerKey StreetRun.Types.Seconds) ->
+                 case w of wild {
+                   StreetRun.Step.Step'Change ds da
+                   -> case da of wild1 {
+                        StreetRun.Runner.RunnerAction'Move
+                        -> Animate.Position
+                             @ StreetRun.Runner.RunnerKey
+                             @ StreetRun.Types.Seconds
+                             StreetRun.Runner.RunnerKey'Move
+                             Animate.$fShowAnimations1
+                             StreetRun.Runner_func_1.stepRunnerPosition4
+                               `cast`
+                             (Sym (StreetRun.Types.N:Seconds[0]))
+                             Animate.Loop'Always
+                        StreetRun.Runner.RunnerAction'Duck
+                        -> Animate.Position
+                             @ StreetRun.Runner.RunnerKey
+                             @ StreetRun.Types.Seconds
+                             StreetRun.Runner.RunnerKey'Sneak
+                             Animate.$fShowAnimations1
+                             StreetRun.Runner_func_1.stepRunnerPosition4
+                               `cast`
+                             (Sym (StreetRun.Types.N:Seconds[0]))
+                             Animate.Loop'Always
+                        StreetRun.Runner.RunnerAction'Jump
+                        -> Animate.Position
+                             @ StreetRun.Runner.RunnerKey
+                             @ StreetRun.Types.Seconds
+                             StreetRun.Runner.RunnerKey'Kick
+                             Animate.$fShowAnimations1
+                             StreetRun.Runner_func_1.stepRunnerPosition4
+                               `cast`
+                             (Sym (StreetRun.Types.N:Seconds[0]))
+                             StreetRun.Runner_func_1.stepRunnerPosition2
+                        StreetRun.Runner.RunnerAction'Hurt
+                        -> Animate.Position
+                             @ StreetRun.Runner.RunnerKey
+                             @ StreetRun.Types.Seconds
+                             StreetRun.Runner.RunnerKey'Hurt
+                             Animate.$fShowAnimations1
+                             StreetRun.Runner_func_1.stepRunnerPosition4
+                               `cast`
+                             (Sym (StreetRun.Types.N:Seconds[0]))
+                             Animate.Loop'Always }
+                   StreetRun.Step.Step'Sustain ds
+                   -> Animate.stepPosition
+                        @ StreetRun.Runner.RunnerKey
+                        @ StreetRun.Types.Seconds
+                        @ (Animate.SpriteClip StreetRun.Runner.RunnerKey)
+                        StreetRun.Runner.$fEnumRunnerKey
+                        StreetRun.Types.$fNumSeconds
+                        StreetRun.Types.$fOrdSeconds
+                        w1
+                        w2
+                        StreetRun.Runner_func_1.stepRunnerPosition1
+                          `cast`
+                        (Sym (StreetRun.Types.N:Seconds[0])) }) -}
+7f8dc5a425292b53f3adc7ad414ce416
+  stepRunnerPosition1 :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.F# 1.6667e-2#) -}
+4ba42b069a73911516f9a84b8cf304ce
+  stepRunnerPosition2 :: Animate.Loop
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (Animate.Loop'Count
+                   StreetRun.Runner_func_1.stepRunnerPosition3) -}
+458ccb7c52239f85a2138ea5dcbda42e
+  stepRunnerPosition3 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+968b9b416c14680b74ae0dc52b8c286e
+  stepRunnerPosition4 :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 0.0#) -}
+0698d251d8e940ae451f3e28c97d6ed2
+  stepRunnerState ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+    -> StreetRun.Runner.RunnerState -> StreetRun.Runner.RunnerState
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U(A,U,U,U)>m,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Step.Step StreetRun.Runner.RunnerAction)
+                   (w1 :: StreetRun.Runner.RunnerState) ->
+                 case StreetRun.Runner_func_1.$wstepRunnerState
+                        w
+                        w1 of ww { (#,,,#) ww1 ww2 ww3 ww4 ->
+                 StreetRun.Runner.RunnerState ww1 ww2 ww3 ww4 }) -}
+7c71fd3b1ddf41e476945edec96465b4
+  stepRunnerState1 :: GHC.Maybe.Maybe StreetRun.Types.Percent
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Maybe.Just
+                   @ StreetRun.Types.Percent
+                   StreetRun.Runner_func_1.stepRunnerPosition4
+                     `cast`
+                   (Sym (StreetRun.Types.N:Percent[0]))) -}
+5b450339d20624675fafb5cf37ad8e95
+  stepRunnerState2 :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 1.0#) -}
+81aa13d62ba412f7ca398e622c3b2746
+  stepSpeed ::
+    StreetRun.Step.Step StreetRun.Runner.RunnerAction
+    -> StreetRun.Types.Percent -> StreetRun.Types.Percent
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S(S),1*U(U)>m,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Step.Step StreetRun.Runner.RunnerAction)
+                   (w1 :: StreetRun.Types.Percent) ->
+                 case w1
+                        `cast`
+                      (StreetRun.Types.N:Percent[0]) of ww { GHC.Types.F# ww1 ->
+                 case StreetRun.Runner_func_1.$wstepSpeed w ww1 of ww2 { DEFAULT ->
+                 (GHC.Types.F# ww2)
+                   `cast`
+                 (Sym (StreetRun.Types.N:Percent[0])) } }) -}
+ec7d07281a0719f2eddc84e1cc47706c
+  stepZoom ::
+    GHC.Types.Float -> StreetRun.Runner.RunnerAction -> GHC.Types.Float
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S,1*U>m,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Types.Float) (w1 :: StreetRun.Runner.RunnerAction) ->
+                 case w of ww { GHC.Types.F# ww1 ->
+                 case StreetRun.Runner_func_1.$wstepZoom ww1 w1 of ww2 { DEFAULT ->
+                 GHC.Types.F# ww2 } }) -}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

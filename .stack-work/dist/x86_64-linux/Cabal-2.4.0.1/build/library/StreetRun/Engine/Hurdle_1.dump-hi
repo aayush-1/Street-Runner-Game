@@ -1,0 +1,490 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 19:02:29.586993343 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Engine.Hurdle_1 8064
+  interface hash: 9da8cc72cb57034a3930b4470ef7fd86
+  ABI hash: 5ea3a1a4734e7121c42d6618c17322cc
+  export-list hash: acd92b1d86ee6cc7a8f78e2746322600
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 23bfc2de71c0e795adcc3e64d97ecb08
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Engine.Hurdle_1.canAddObstacle
+  StreetRun.Engine.Hurdle_1.iterateObstacles
+  StreetRun.Engine.Hurdle_1.lastObstacleDistance
+  StreetRun.Engine.Hurdle_1.placeObstacle
+  StreetRun.Engine.Hurdle_1.removeOutOfBoundObstacles
+module dependencies: StreetRun.Engine.Bird StreetRun.Engine.Hurdle
+                     StreetRun.Engine.Lava StreetRun.Engine.Physics
+                     StreetRun.Engine.Rock StreetRun.Engine.Types
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
+                      base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
+                      bifunctors-5.5.3 binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2
+                      call-stack-0.1.0 cereal-0.5.8.0 comonad-5.0.4 conduit-1.3.1.1
+                      containers-0.6.0.1 contravariant-1.5 deepseq-1.4.4.0
+                      distributive-0.6 dlist-0.8.0.6 exceptions-0.10.1 free-5.1
+                      ghc-boot-th-8.6.4 ghc-prim-0.5.3 hashable-1.2.7.0
+                      integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2 kan-extensions-5.2
+                      lens-4.17 libyaml-0.1.1.0 linear-1.20.8 mtl-2.2.2 pretty-1.1.3.6
+                      primitive-0.6.4.0 profunctors-5.3 random-1.1 reflection-2.1.4
+                      resourcet-1.2.2 scientific-0.3.6.2 semigroupoids-5.3.2 stm-2.5.0.0
+                      tagged-0.8.6 template-haskell-2.14.0.0 text-1.2.3.1
+                      th-abstraction-0.2.11.0 time-1.8.0.2 time-locale-compat-0.1.1.5
+                      transformers-0.5.6.2 transformers-base-0.4.5.2
+                      transformers-compat-0.6.2 unliftio-core-0.1.2.0
+                      unordered-containers-0.2.9.0 uuid-types-1.0.3 vector-0.12.0.2
+                      yaml-0.11.0.0
+orphans: attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         time-1.8.0.2:Data.Time.Clock.TAI
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         reflection-2.1.4:Data.Reflection
+         vector-0.12.0.2:Data.Vector.Unboxed stm-2.5.0.0:Control.Monad.STM
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show linear-1.20.8:Linear.Instances
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.4.2.0:Data.Aeson.Types.Internal animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.Plucker linear-1.20.8:Linear.Quaternion
+                         linear-1.20.8:Linear.V linear-1.20.8:Linear.V0
+                         linear-1.20.8:Linear.V1 linear-1.20.8:Linear.V2
+                         linear-1.20.8:Linear.V3 linear-1.20.8:Linear.V4
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  base-4.12.0.0:Data.Foldable 5f70351366640f007be66681d2212df8
+import  -/  base-4.12.0.0:Data.Tuple c719fc29608fe81c10bee9a1bf1e05ff
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.List 4014a3c8a3b7c31c8325f6bcf1feea4a
+import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
+import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  linear-1.20.8:Linear c66c613217f57f0236b62caf498b629a
+import  -/  random-1.1:System.Random a2913fef910fa7846b8be540f8dcdaf5
+import  -/  StreetRun.Engine.Bird 0bf40510f04513db7870a0eb83c839ab
+  exports: 6e60076273bcfd5477b3f0cf8d1fb4b8
+  BirdKey'Idle 11a1ee3f2c3664611da8b27bd54bb55e
+import  -/  StreetRun.Engine.Hurdle 689b972d4e85183a54d17152c35d6caa
+  exports: 6f36a0da9da2341b94122a10d2fdf78c
+  $sel:osDistance:ObstacleState 6d3ea8eeee6e7afcab21f0d20b4635b9
+  $sel:osInfo:ObstacleState 6d3ea8eeee6e7afcab21f0d20b4635b9
+  ObstacleInfo'Bird 6d16663f61049db0623a4afbc9139159
+  ObstacleInfo'Lava 659684ba1980fe0d6c1c6ba47207d23f
+  ObstacleInfo'Rock c28eee548edeb6255c01939469e2fb59
+  ObstacleState 6257d4d1c9fa02eb2f74c28b66c3f754
+  ObstacleState 6d3ea8eeee6e7afcab21f0d20b4635b9
+  ObstacleTag 63829d315f2a2d8d879f1d803686748f
+  ObstacleTag'Bird 920a74496869ce68c1935ec4d6abb9e4
+  ObstacleTag'Lava f7b045d2d6b64dfa827b00fa9bdb17d4
+  ObstacleTag'Rock fa34fdaec6cb66f49dbdfaa21f0009c5
+  stepObstacles 3bf7a612ab89e663ddff3dc7553d9129
+import  -/  StreetRun.Engine.Lava f12a1755c46bbf2df272aa84c51b192b
+  exports: f674034831bb56a1796bab0274d25cf8
+  LavaKey'Idle df3eda6da760b77f140fa00cbab93359
+import  -/  StreetRun.Engine.Physics 52ab0c4d5302ce013ba13455ebad6494
+  exports: 354224f4972beeb3405c52a8946cdd1d
+  arenaWidth b565ef67ffba404e6a984ef4c3c9de98
+import  -/  StreetRun.Engine.Rock c3a73de49be33c068fbd58b6e1005240
+  exports: 09a82b06dd827cf2307a7779ea2b3f72
+  RockKey'Idle 19115d33ff9142dabd3be5528d76700a
+import  -/  StreetRun.Engine.Types 6986db6c9f4d1e9fc0edc9e119b1c392
+  exports: c934b5ae3d6a2dfd0319fd3b47efce61
+  Distance 1d27617e6b1a52e1b2997bf23482db86
+  Percent 34f2154fa29bed1ea1f6b21bbba55be5
+4ebf33470102126f608c604489478d7f
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Engine.Hurdle_1.$trModule3
+                   StreetRun.Engine.Hurdle_1.$trModule1) -}
+673995c22248a4a368be0bf12415127e
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Hurdle_1.$trModule2) -}
+e6565c58aba22aec90870625e354e2f7
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Engine.Hurdle_1"#) -}
+15dc27c08d446872390669402ee6d158
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Hurdle_1.$trModule4) -}
+be7b530bc3c94c03cf761b62df54b7e6
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+e1908b27356fff59f1ecace9f8bc6936
+  $wgo ::
+    [StreetRun.Engine.Hurdle.ObstacleState]
+    -> (# [StreetRun.Engine.Hurdle.ObstacleState],
+          [StreetRun.Engine.Hurdle.ObstacleState] #)
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>, Inline: [2] -}
+c8df51cbb00ce45fe217c14d2045f2ab
+  $wgo1 ::
+    [StreetRun.Engine.Hurdle.ObstacleState]
+    -> GHC.Prim.Float# -> GHC.Prim.Float#
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,U>, Inline: [2] -}
+3b1f875024765c4bd20a5bdbf30b32c2
+  $witerateObstacles ::
+    [(GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)]
+    -> StreetRun.Engine.Types.Percent
+    -> [StreetRun.Engine.Hurdle.ObstacleState]
+    -> (# [StreetRun.Engine.Hurdle.ObstacleState], GHC.Types.Int,
+          [(GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)],
+          GHC.Maybe.Maybe StreetRun.Engine.Hurdle.ObstacleTag #)
+  {- Arity: 3, Strictness: <L,U><L,1*U(U)><L,1*U>, Inline: [2],
+     Unfolding: (\ (w :: [(GHC.Types.Int,
+                           StreetRun.Engine.Hurdle.ObstacleTag)])
+                   (w1 :: StreetRun.Engine.Types.Percent)
+                   (w2 :: [StreetRun.Engine.Hurdle.ObstacleState]) ->
+                 let {
+                   ds :: ([StreetRun.Engine.Hurdle.ObstacleState],
+                          [StreetRun.Engine.Hurdle.ObstacleState])
+                   = case StreetRun.Engine.Hurdle_1.$wgo
+                            (StreetRun.Engine.Hurdle.stepObstacles
+                               (case w1
+                                       `cast`
+                                     (StreetRun.Engine.Types.N:Percent[0]) of ww { GHC.Types.F# ww1 ->
+                                case GHC.Float.$w$ctoRational1 ww1 of ww2 { (#,#) ww3 ww4 ->
+                                (GHC.Float.rationalToFloat ww3 ww4)
+                                  `cast`
+                                (Sym (StreetRun.Engine.Types.N:Distance[0])) } })
+                               w2) of ww { (#,#) ww1 ww2 ->
+                     (ww1, ww2) }
+                 } in
+                 let {
+                   remained :: [StreetRun.Engine.Hurdle.ObstacleState]
+                   = case ds of wild { (,) removed remained1 -> remained1 }
+                 } in
+                 let {
+                   newObstacle :: GHC.Maybe.Maybe
+                                    (StreetRun.Engine.Hurdle.ObstacleTag,
+                                     StreetRun.Engine.Hurdle.ObstacleState)
+                   = case StreetRun.Engine.Hurdle_1.iterateObstacles1 of ww { GHC.Types.F# ww1 ->
+                     let {
+                       $j :: GHC.Prim.Float#
+                             -> GHC.Maybe.Maybe
+                                  (StreetRun.Engine.Hurdle.ObstacleTag,
+                                   StreetRun.Engine.Hurdle.ObstacleState)
+                         <join 1> {- Arity: 1, Strictness: <S,U> -}
+                       = \ (x :: GHC.Prim.Float#)[OneShot] ->
+                         case StreetRun.Engine.Hurdle_1.canAddObstacle1
+                                `cast`
+                              (StreetRun.Engine.Types.N:Distance[0]) of wild1 { GHC.Types.F# y ->
+                         case GHC.Prim.ltFloat# x y of lwild {
+                           DEFAULT
+                           -> GHC.Maybe.Nothing
+                                @ (StreetRun.Engine.Hurdle.ObstacleTag,
+                                   StreetRun.Engine.Hurdle.ObstacleState)
+                           1#
+                           -> let {
+                                pair :: (GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)
+                                = case w of wild {
+                                    []
+                                    -> GHC.List.badHead
+                                         @ (GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)
+                                    : x1 ds1 -> x1 }
+                              } in
+                              GHC.Maybe.Just
+                                @ (StreetRun.Engine.Hurdle.ObstacleTag,
+                                   StreetRun.Engine.Hurdle.ObstacleState)
+                                (Data.Tuple.snd
+                                   @ GHC.Types.Int
+                                   @ StreetRun.Engine.Hurdle.ObstacleTag
+                                   pair,
+                                 StreetRun.Engine.Hurdle_1.placeObstacle pair) } }
+                     } in
+                     letrec {
+                       $wgo2 :: [StreetRun.Engine.Hurdle.ObstacleState]
+                                -> GHC.Prim.Float#
+                                -> GHC.Maybe.Maybe
+                                     (StreetRun.Engine.Hurdle.ObstacleTag,
+                                      StreetRun.Engine.Hurdle.ObstacleState)
+                         <join 2> {- Arity: 2, Strictness: <S,1*U><S,U>, Inline: [2] -}
+                       = \ (w3 :: [StreetRun.Engine.Hurdle.ObstacleState])
+                           (ww2 :: GHC.Prim.Float#) ->
+                         case w3 of wild {
+                           [] -> $j ww2
+                           : y ys
+                           -> case y of wild1 { StreetRun.Engine.Hurdle.ObstacleState ds1 ds2 ->
+                              case ds2
+                                     `cast`
+                                   (StreetRun.Engine.Types.N:Distance[0]) of wild2 { GHC.Types.F# y1 ->
+                              case GHC.Prim.leFloat# ww2 y1 of lwild {
+                                DEFAULT -> $wgo2 ys ww2 1# -> $wgo2 ys y1 } } } }
+                     } in
+                     $wgo2 remained ww1 }
+                 } in
+                 let {
+                   ds1 :: ([(GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)],
+                           [StreetRun.Engine.Hurdle.ObstacleState])
+                   = case newObstacle of wild {
+                       GHC.Maybe.Nothing -> (w, remained)
+                       GHC.Maybe.Just a1
+                       -> (GHC.List.tail
+                             @ (GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)
+                             w,
+                           GHC.Types.:
+                             @ StreetRun.Engine.Hurdle.ObstacleState
+                             (Data.Tuple.snd
+                                @ StreetRun.Engine.Hurdle.ObstacleTag
+                                @ StreetRun.Engine.Hurdle.ObstacleState
+                                a1)
+                             remained) }
+                 } in
+                 (# case ds1 of wild { (,) upcomingObstacles' obstacles' ->
+                    obstacles' },
+                    case ds of wild { (,) removed remained1 ->
+                    case GHC.List.$wlenAcc
+                           @ StreetRun.Engine.Hurdle.ObstacleState
+                           removed
+                           0# of ww2 { DEFAULT ->
+                    GHC.Types.I# ww2 } },
+                    case ds1 of wild { (,) upcomingObstacles' obstacles' ->
+                    upcomingObstacles' },
+                    case newObstacle of wild {
+                      GHC.Maybe.Nothing
+                      -> GHC.Maybe.Nothing @ StreetRun.Engine.Hurdle.ObstacleTag
+                      GHC.Maybe.Just a1
+                      -> GHC.Maybe.Just
+                           @ StreetRun.Engine.Hurdle.ObstacleTag
+                           (Data.Tuple.fst
+                              @ StreetRun.Engine.Hurdle.ObstacleTag
+                              @ StreetRun.Engine.Hurdle.ObstacleState
+                              a1) } #)) -}
+9044813eb1d56ed2644e90e2cf07d438
+  canAddObstacle :: StreetRun.Engine.Types.Distance -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S(S),1*U(U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (dist :: StreetRun.Engine.Types.Distance) ->
+                 case dist
+                        `cast`
+                      (StreetRun.Engine.Types.N:Distance[0]) of wild { GHC.Types.F# x ->
+                 case StreetRun.Engine.Hurdle_1.canAddObstacle1
+                        `cast`
+                      (StreetRun.Engine.Types.N:Distance[0]) of wild1 { GHC.Types.F# y ->
+                 GHC.Prim.tagToEnum#
+                   @ GHC.Types.Bool
+                   (GHC.Prim.ltFloat# x y) } }) -}
+244a201d401fb1f1fb2d72f44f40b72e
+  canAddObstacle1 :: StreetRun.Engine.Types.Distance
+  {- Unfolding: (case GHC.Float.$w$ctoRational1
+                        1280.0# of ww2 { (#,#) ww3 ww4 ->
+                 (GHC.Float.rationalToFloat ww3 ww4)
+                   `cast`
+                 (Sym (StreetRun.Engine.Types.N:Distance[0])) }) -}
+9d211f0cc5cc8f002521ab2cc176f9a2
+  iterateObstacles ::
+    [(GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)]
+    -> StreetRun.Engine.Types.Percent
+    -> [StreetRun.Engine.Hurdle.ObstacleState]
+    -> ([StreetRun.Engine.Hurdle.ObstacleState], GHC.Types.Int,
+        [(GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)],
+        GHC.Maybe.Maybe StreetRun.Engine.Hurdle.ObstacleTag)
+  {- Arity: 3, Strictness: <L,U><L,1*U(U)><L,1*U>m, Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: [(GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)])
+                   (w1 :: StreetRun.Engine.Types.Percent)
+                   (w2 :: [StreetRun.Engine.Hurdle.ObstacleState]) ->
+                 case StreetRun.Engine.Hurdle_1.$witerateObstacles
+                        w
+                        w1
+                        w2 of ww { (#,,,#) ww1 ww2 ww3 ww4 ->
+                 (ww1, ww2, ww3, ww4) }) -}
+9b82d00bda917989023b4126ba886236
+  iterateObstacles1 :: GHC.Types.Float
+  {- Unfolding: (case GHC.Float.$w$ctoRational1
+                        1280.0# of ww2 { (#,#) ww3 ww4 ->
+                 case GHC.Float.rationalToFloat ww3 ww4 of wild { GHC.Types.F# x ->
+                 GHC.Types.F# (GHC.Prim.minusFloat# x 1.0#) } }) -}
+0b462504c7fec49f5009d1494ca60df6
+  lastObstacleDistance ::
+    [StreetRun.Engine.Hurdle.ObstacleState]
+    -> StreetRun.Engine.Types.Distance
+  {- Arity: 1, Strictness: <S,1*U>m, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: [StreetRun.Engine.Hurdle.ObstacleState]) ->
+                 case StreetRun.Engine.Hurdle_1.iterateObstacles1 of ww { GHC.Types.F# ww1 ->
+                 case StreetRun.Engine.Hurdle_1.$wgo1 w ww1 of ww2 { DEFAULT ->
+                 (GHC.Types.F# ww2)
+                   `cast`
+                 (Sym (StreetRun.Engine.Types.N:Distance[0])) } }) -}
+ab3ced24c7f8165137f5ed98e3174bff
+  placeObstacle ::
+    (GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)
+    -> StreetRun.Engine.Hurdle.ObstacleState
+  {- Arity: 1, Strictness: <S,1*U(1*U(U),1*U)>m, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: (GHC.Types.Int, StreetRun.Engine.Hurdle.ObstacleTag)) ->
+                 case w of ww { (,) ww1 ww2 ->
+                 StreetRun.Engine.Hurdle.ObstacleState
+                   (case ww2 of wild {
+                      StreetRun.Engine.Hurdle.ObstacleTag'Lava
+                      -> StreetRun.Engine.Hurdle_1.placeObstacle6
+                      StreetRun.Engine.Hurdle.ObstacleTag'Rock
+                      -> StreetRun.Engine.Hurdle_1.placeObstacle4
+                      StreetRun.Engine.Hurdle.ObstacleTag'Bird
+                      -> StreetRun.Engine.Hurdle_1.placeObstacle1 })
+                   (case ww1 of wild { GHC.Types.I# x ->
+                    case GHC.Integer.Type.smallInteger
+                           (GHC.Prim.*# x 32#) of dt { DEFAULT ->
+                    case GHC.Float.rationalToFloat
+                           dt
+                           GHC.Real.$fEnumRatio1 of wild1 { GHC.Types.F# x1 ->
+                    case StreetRun.Engine.Hurdle_1.canAddObstacle1
+                           `cast`
+                         (StreetRun.Engine.Types.N:Distance[0]) of wild2 { GHC.Types.F# y ->
+                    (GHC.Types.F# (GHC.Prim.plusFloat# x1 y))
+                      `cast`
+                    (Sym (StreetRun.Engine.Types.N:Distance[0])) } } } }) }) -}
+4fc649510829885ba0b2bb46ec7d4b48
+  placeObstacle1 :: StreetRun.Engine.Hurdle.ObstacleInfo
+  {- HasNoCafRefs, Strictness: m3,
+     Unfolding: (StreetRun.Engine.Hurdle.ObstacleInfo'Bird
+                   StreetRun.Engine.Hurdle_1.placeObstacle2) -}
+bfe2bbedc4dd8c989e6119924a0732b3
+  placeObstacle2 ::
+    Animate.Position
+      StreetRun.Engine.Bird.BirdKey StreetRun.Engine.Types.Seconds
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Animate.Position
+                   @ StreetRun.Engine.Bird.BirdKey
+                   @ StreetRun.Engine.Types.Seconds
+                   StreetRun.Engine.Bird.BirdKey'Idle
+                   Animate.$fShowAnimations1
+                   StreetRun.Engine.Hurdle_1.placeObstacle3
+                     `cast`
+                   (Sym (StreetRun.Engine.Types.N:Seconds[0]))
+                   Animate.Loop'Always) -}
+c351ac7790897f4ba1fe6d729eb22742
+  placeObstacle3 :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 0.0#) -}
+8215c7e19ae728e34e29ebdb867a535b
+  placeObstacle4 :: StreetRun.Engine.Hurdle.ObstacleInfo
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (StreetRun.Engine.Hurdle.ObstacleInfo'Rock
+                   StreetRun.Engine.Hurdle_1.placeObstacle5) -}
+1dd4b66c001d7775bebd714477a5b168
+  placeObstacle5 ::
+    Animate.Position
+      StreetRun.Engine.Rock.RockKey StreetRun.Engine.Types.Seconds
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Animate.Position
+                   @ StreetRun.Engine.Rock.RockKey
+                   @ StreetRun.Engine.Types.Seconds
+                   StreetRun.Engine.Rock.RockKey'Idle
+                   Animate.$fShowAnimations1
+                   StreetRun.Engine.Hurdle_1.placeObstacle3
+                     `cast`
+                   (Sym (StreetRun.Engine.Types.N:Seconds[0]))
+                   Animate.Loop'Always) -}
+4303436731e20471666f0beefca83bc3
+  placeObstacle6 :: StreetRun.Engine.Hurdle.ObstacleInfo
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (StreetRun.Engine.Hurdle.ObstacleInfo'Lava
+                   StreetRun.Engine.Hurdle_1.placeObstacle7) -}
+b9621a33f88afd9a33da3b4d3de4f6ac
+  placeObstacle7 ::
+    Animate.Position
+      StreetRun.Engine.Lava.LavaKey StreetRun.Engine.Types.Seconds
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Animate.Position
+                   @ StreetRun.Engine.Lava.LavaKey
+                   @ StreetRun.Engine.Types.Seconds
+                   StreetRun.Engine.Lava.LavaKey'Idle
+                   Animate.$fShowAnimations1
+                   StreetRun.Engine.Hurdle_1.placeObstacle3
+                     `cast`
+                   (Sym (StreetRun.Engine.Types.N:Seconds[0]))
+                   Animate.Loop'Always) -}
+a76c8e43639f43e98e2b5358821c6376
+  removeOutOfBoundObstacles ::
+    [StreetRun.Engine.Hurdle.ObstacleState]
+    -> ([StreetRun.Engine.Hurdle.ObstacleState],
+        [StreetRun.Engine.Hurdle.ObstacleState])
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: [StreetRun.Engine.Hurdle.ObstacleState]) ->
+                 case StreetRun.Engine.Hurdle_1.$wgo w of ww { (#,#) ww1 ww2 ->
+                 (ww1, ww2) }) -}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

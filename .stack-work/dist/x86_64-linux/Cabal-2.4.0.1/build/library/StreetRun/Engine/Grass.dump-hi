@@ -1,0 +1,542 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 16:33:24.774877538 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Engine.Grass 8064
+  interface hash: 65bf5964117565df1e743875c7f24120
+  ABI hash: 0690fbd2f8a253d4e72fcca563506522
+  export-list hash: 9609ba03635d68e1d29fc784e69668f9
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 23bfc2de71c0e795adcc3e64d97ecb08
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Engine.Grass.grassKey'keyName
+  StreetRun.Engine.Grass.GrassKey{StreetRun.Engine.Grass.GrassKey'Idle}
+module dependencies:
+package dependencies: aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0
+                      attoparsec-0.13.2.2 base-4.12.0.0 base-compat-0.10.5 binary-0.8.6.0
+                      bytestring-0.10.8.2 conduit-1.3.1.1 containers-0.6.0.1
+                      deepseq-1.4.4.0 dlist-0.8.0.6 exceptions-0.10.1 ghc-boot-th-8.6.4
+                      ghc-prim-0.5.3 hashable-1.2.7.0 integer-gmp-1.0.2.0
+                      integer-logarithms-1.0.2.2 libyaml-0.1.1.0 mtl-2.2.2
+                      primitive-0.6.4.0 random-1.1 resourcet-1.2.2 scientific-0.3.6.2
+                      stm-2.5.0.0 tagged-0.8.6 template-haskell-2.14.0.0 text-1.2.3.1
+                      time-1.8.0.2 time-locale-compat-0.1.1.5 transformers-0.5.6.2
+                      unliftio-core-0.1.2.0 unordered-containers-0.2.9.0 uuid-types-1.0.3
+                      vector-0.12.0.2 yaml-0.11.0.0
+orphans: stm-2.5.0.0:Control.Monad.STM
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.2:Data.Vector.Unboxed
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: aeson-1.4.2.0:Data.Aeson.Types.Internal
+                         animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Enum 87204abed08db8735fc0be5ab48689aa
+import  -/  base-4.12.0.0:GHC.Err ea5e313ef4146b40b5d8b27aa168e736
+import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
+import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
+import  -/  text-1.2.3.1:Data.Text 1e51a010d8f8a6fa41d8ea82d69faf13
+import  -/  text-1.2.3.1:Data.Text.Internal 537e168590e8068f673f691833f78483
+94278f68dabd4147c29b3e2763d908e1
+  $fBoundedGrassKey ::
+    GHC.Enum.Bounded StreetRun.Engine.Grass.GrassKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Grass.GrassKey
+                  StreetRun.Engine.Grass.GrassKey'Idle
+                  StreetRun.Engine.Grass.GrassKey'Idle -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey :: GHC.Enum.Enum StreetRun.Engine.Grass.GrassKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Grass.GrassKey
+                  StreetRun.Engine.Grass.$fEnumGrassKey_$csucc
+                  StreetRun.Engine.Grass.$fEnumGrassKey_$cpred
+                  StreetRun.Engine.Grass.$fEnumGrassKey_$ctoEnum
+                  StreetRun.Engine.Grass.$fEnumGrassKey_$cfromEnum
+                  StreetRun.Engine.Grass.$fEnumGrassKey_$cenumFrom
+                  StreetRun.Engine.Grass.$fEnumGrassKey_$cenumFromThen
+                  StreetRun.Engine.Grass.$fEnumGrassKey_$cenumFromTo
+                  StreetRun.Engine.Grass.$fEnumGrassKey_$cenumFromThenTo -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey1 :: [StreetRun.Engine.Grass.GrassKey]
+  {- Unfolding: (StreetRun.Engine.Grass.$fEnumGrassKey_go_up 0#) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey2 :: [StreetRun.Engine.Grass.GrassKey]
+  {- Unfolding: (StreetRun.Engine.Grass.$fEnumGrassKey_go 0#) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey3 :: [StreetRun.Engine.Grass.GrassKey]
+  {- Unfolding: (StreetRun.Engine.Grass.$fEnumGrassKey_go1 0#) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey4 :: StreetRun.Engine.Grass.GrassKey
+  {- Strictness: x -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey5 :: StreetRun.Engine.Grass.GrassKey
+  {- Strictness: x -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey_$cenumFrom ::
+    StreetRun.Engine.Grass.GrassKey
+    -> [StreetRun.Engine.Grass.GrassKey]
+  {- Arity: 1, Strictness: <S,1*H>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: StreetRun.Engine.Grass.GrassKey) ->
+                 case w of w1 { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 StreetRun.Engine.Grass.$fEnumGrassKey3 }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey_$cenumFromThen ::
+    StreetRun.Engine.Grass.GrassKey
+    -> StreetRun.Engine.Grass.GrassKey
+    -> [StreetRun.Engine.Grass.GrassKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Engine.Grass.GrassKey)
+                   (w1 :: StreetRun.Engine.Grass.GrassKey) ->
+                 case w of w2 { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 case w1 of w3 { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Engine.Grass.GrassKey
+                   StreetRun.Engine.Grass.GrassKey'Idle
+                   (letrec {
+                      go_up1 :: GHC.Prim.Int# -> [StreetRun.Engine.Grass.GrassKey]
+                        {- Arity: 1, Strictness: <S,U> -}
+                      = \ (x :: GHC.Prim.Int#) ->
+                        case GHC.Prim.># x 0# of lwild1 {
+                          DEFAULT
+                          -> GHC.Types.:
+                               @ StreetRun.Engine.Grass.GrassKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Engine.Grass.GrassKey x)
+                               (go_up1 x)
+                          1#
+                          -> GHC.Types.:
+                               @ StreetRun.Engine.Grass.GrassKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Engine.Grass.GrassKey x)
+                               (GHC.Types.[] @ StreetRun.Engine.Grass.GrassKey) }
+                    } in
+                    go_up1 0#) } }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey_$cenumFromThenTo ::
+    StreetRun.Engine.Grass.GrassKey
+    -> StreetRun.Engine.Grass.GrassKey
+    -> StreetRun.Engine.Grass.GrassKey
+    -> [StreetRun.Engine.Grass.GrassKey]
+  {- Arity: 3, Strictness: <S,1*H><S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: StreetRun.Engine.Grass.GrassKey)
+                   (w1 :: StreetRun.Engine.Grass.GrassKey)
+                   (w2 :: StreetRun.Engine.Grass.GrassKey) ->
+                 case w of w3 { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 case w1 of w4 { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 case w2 of w5 { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Engine.Grass.GrassKey
+                   StreetRun.Engine.Grass.GrassKey'Idle
+                   StreetRun.Engine.Grass.$fEnumGrassKey1 } } }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey_$cenumFromTo ::
+    StreetRun.Engine.Grass.GrassKey
+    -> StreetRun.Engine.Grass.GrassKey
+    -> [StreetRun.Engine.Grass.GrassKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Engine.Grass.GrassKey)
+                   (w1 :: StreetRun.Engine.Grass.GrassKey) ->
+                 case w of w2 { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 case w1 of w3 { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 StreetRun.Engine.Grass.$fEnumGrassKey2 } }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey_$cfromEnum ::
+    StreetRun.Engine.Grass.GrassKey -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*H>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Engine.Grass.GrassKey) ->
+                 case a of wild { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 GHC.Types.I# 0# }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey_$cpred ::
+    StreetRun.Engine.Grass.GrassKey -> StreetRun.Engine.Grass.GrassKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Engine.Grass.GrassKey) ->
+                 case a of wild { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 StreetRun.Engine.Grass.$fEnumGrassKey4 }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey_$csucc ::
+    StreetRun.Engine.Grass.GrassKey -> StreetRun.Engine.Grass.GrassKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Engine.Grass.GrassKey) ->
+                 case a of wild { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 StreetRun.Engine.Grass.$fEnumGrassKey5 }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey_$ctoEnum ::
+    GHC.Types.Int -> StreetRun.Engine.Grass.GrassKey
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 StreetRun.Engine.Grass.$w$ctoEnum ww1 }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey_go ::
+    GHC.Prim.Int# -> [StreetRun.Engine.Grass.GrassKey]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey_go1 ::
+    GHC.Prim.Int# -> [StreetRun.Engine.Grass.GrassKey]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEnumGrassKey_go_up ::
+    GHC.Prim.Int# -> [StreetRun.Engine.Grass.GrassKey]
+  {- Arity: 1, Strictness: <S,U>m2 -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEqGrassKey :: GHC.Classes.Eq StreetRun.Engine.Grass.GrassKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Grass.GrassKey
+                  StreetRun.Engine.Grass.$fEqGrassKey_$c==
+                  StreetRun.Engine.Grass.$fEqGrassKey_$c/= -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEqGrassKey_$c/= ::
+    StreetRun.Engine.Grass.GrassKey
+    -> StreetRun.Engine.Grass.GrassKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Engine.Grass.GrassKey)
+                   (y :: StreetRun.Engine.Grass.GrassKey) ->
+                 case x of wild { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 case y of wild1 { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 GHC.Types.False } }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fEqGrassKey_$c== ::
+    StreetRun.Engine.Grass.GrassKey
+    -> StreetRun.Engine.Grass.GrassKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Engine.Grass.GrassKey)
+                   (ds1 :: StreetRun.Engine.Grass.GrassKey) ->
+                 case ds of wild { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 case ds1 of wild1 { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 GHC.Types.True } }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fKeyNameGrassKey ::
+    Animate.KeyName StreetRun.Engine.Grass.GrassKey
+  DFunId
+  {- Arity: 1, Strictness: <S,1*H>, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                StreetRun.Engine.Grass.grassKey'keyName
+                  `cast`
+                (Sym (Animate.N:KeyName[0] <StreetRun.Engine.Grass.GrassKey>_N)) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fOrdGrassKey :: GHC.Classes.Ord StreetRun.Engine.Grass.GrassKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Grass.GrassKey
+                  StreetRun.Engine.Grass.$fEqGrassKey
+                  StreetRun.Engine.Grass.$fOrdGrassKey_$ccompare
+                  StreetRun.Engine.Grass.$fOrdGrassKey_$c<
+                  StreetRun.Engine.Grass.$fOrdGrassKey_$c<=
+                  StreetRun.Engine.Grass.$fOrdGrassKey_$c>
+                  StreetRun.Engine.Grass.$fEqGrassKey_$c==
+                  StreetRun.Engine.Grass.$fOrdGrassKey_$cmax
+                  StreetRun.Engine.Grass.$fOrdGrassKey_$cmax -}
+94278f68dabd4147c29b3e2763d908e1
+  $fOrdGrassKey_$c< ::
+    StreetRun.Engine.Grass.GrassKey
+    -> StreetRun.Engine.Grass.GrassKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Engine.Grass.GrassKey)
+                   (b :: StreetRun.Engine.Grass.GrassKey) ->
+                 case a of wild { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 case b of wild1 { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 GHC.Types.False } }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fOrdGrassKey_$c<= ::
+    StreetRun.Engine.Grass.GrassKey
+    -> StreetRun.Engine.Grass.GrassKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Engine.Grass.GrassKey)
+                   (b :: StreetRun.Engine.Grass.GrassKey) ->
+                 case b of wild { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 case a of wild1 { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 GHC.Types.True } }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fOrdGrassKey_$c> ::
+    StreetRun.Engine.Grass.GrassKey
+    -> StreetRun.Engine.Grass.GrassKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Engine.Grass.GrassKey)
+                   (b :: StreetRun.Engine.Grass.GrassKey) ->
+                 case b of wild { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 case a of wild1 { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 GHC.Types.False } }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fOrdGrassKey_$ccompare ::
+    StreetRun.Engine.Grass.GrassKey
+    -> StreetRun.Engine.Grass.GrassKey -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Engine.Grass.GrassKey)
+                   (b :: StreetRun.Engine.Grass.GrassKey) ->
+                 case a of wild { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 case b of wild1 { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 GHC.Types.EQ } }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fOrdGrassKey_$cmax ::
+    StreetRun.Engine.Grass.GrassKey
+    -> StreetRun.Engine.Grass.GrassKey
+    -> StreetRun.Engine.Grass.GrassKey
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U()><S,1*H>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: StreetRun.Engine.Grass.GrassKey)
+                   (y :: StreetRun.Engine.Grass.GrassKey) ->
+                 case y of wild { StreetRun.Engine.Grass.GrassKey'Idle -> x }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fShowGrassKey :: GHC.Show.Show StreetRun.Engine.Grass.GrassKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Engine.Grass.GrassKey
+                  StreetRun.Engine.Grass.$fShowGrassKey_$cshowsPrec
+                  StreetRun.Engine.Grass.$fShowGrassKey_$cshow
+                  StreetRun.Engine.Grass.$fShowGrassKey_$cshowList -}
+94278f68dabd4147c29b3e2763d908e1
+  $fShowGrassKey1 ::
+    StreetRun.Engine.Grass.GrassKey -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*H><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Engine.Grass.GrassKey)
+                   (eta :: GHC.Base.String) ->
+                 case ds of wild { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Engine.Grass.$fShowGrassKey2)
+                   eta }) -}
+5ff9d75facdceec74e967937baeae185
+  $fShowGrassKey2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Engine.Grass.$fShowGrassKey3) -}
+807321a778b10514fd165d25dc95c0bc
+  $fShowGrassKey3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("GrassKey'Idle"#) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fShowGrassKey_$cshow ::
+    StreetRun.Engine.Grass.GrassKey -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Engine.Grass.GrassKey) ->
+                 case x of wild { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 StreetRun.Engine.Grass.$fShowGrassKey2 }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fShowGrassKey_$cshowList ::
+    [StreetRun.Engine.Grass.GrassKey] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Engine.Grass.GrassKey])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Engine.Grass.GrassKey
+                   StreetRun.Engine.Grass.$fShowGrassKey1
+                   ls
+                   s) -}
+94278f68dabd4147c29b3e2763d908e1
+  $fShowGrassKey_$cshowsPrec ::
+    GHC.Types.Int -> StreetRun.Engine.Grass.GrassKey -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*H><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: GHC.Types.Int)
+                   (ds1 :: StreetRun.Engine.Grass.GrassKey)
+                   (eta :: GHC.Base.String) ->
+                 case ds1 of wild { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Engine.Grass.$fShowGrassKey2)
+                   eta }) -}
+0467f915308fe504fd7613eb2073b7fd
+  $tc'GrassKey'Idle :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4492632975172015559##
+                   4452065435527628655##
+                   StreetRun.Engine.Grass.$trModule
+                   StreetRun.Engine.Grass.$tc'GrassKey'Idle2
+                   0#
+                   StreetRun.Engine.Grass.$tc'GrassKey'Idle1) -}
+7d9c6ea5ac34ceaa315b72f43dc5b8f7
+  $tc'GrassKey'Idle1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+2c68d3ff345ef75f40214d9741726496
+  $tc'GrassKey'Idle2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Grass.$tc'GrassKey'Idle3) -}
+491419e54e479cab0d7c46abf6e613ee
+  $tc'GrassKey'Idle3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'GrassKey'Idle"#) -}
+c7cef8a00fd7b2beda8fe59e662a759b
+  $tcGrassKey :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   16584267935695987936##
+                   12006120899599745905##
+                   StreetRun.Engine.Grass.$trModule
+                   StreetRun.Engine.Grass.$tcGrassKey1
+                   0#
+                   GHC.Types.krep$*) -}
+1908894cbe685a8b9a384000583eb785
+  $tcGrassKey1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Engine.Grass.$tcGrassKey2) -}
+3e81da555703adb22b1335c902401a73
+  $tcGrassKey2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("GrassKey"#) -}
+0a434d80db504e0b2e49a46e6fef69d6
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Engine.Grass.$trModule3
+                   StreetRun.Engine.Grass.$trModule1) -}
+c01b3113be3366245e860cdbe06303ca
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Engine.Grass.$trModule2) -}
+0268f99c871056dd529427d052b83253
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Engine.Grass"#) -}
+5ebba556f1eacd5e486def40bdd5b622
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Engine.Grass.$trModule4) -}
+e404863de77c10bb1a5be05ec4782ec6
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+94278f68dabd4147c29b3e2763d908e1
+  $w$ctoEnum :: GHC.Prim.Int# -> StreetRun.Engine.Grass.GrassKey
+  {- Arity: 1, Strictness: <S,U>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.>=# ww 0# of lwild {
+                   DEFAULT -> StreetRun.Engine.Grass.$wlvl ww
+                   1#
+                   -> case GHC.Prim.<=# ww 0# of lwild1 {
+                        DEFAULT -> StreetRun.Engine.Grass.$wlvl ww
+                        1#
+                        -> GHC.Prim.tagToEnum# @ StreetRun.Engine.Grass.GrassKey ww } }) -}
+94278f68dabd4147c29b3e2763d908e1
+  $wlvl :: GHC.Prim.Int# -> StreetRun.Engine.Grass.GrassKey
+  {- Arity: 1, Strictness: <B,U>x, Inline: [2] -}
+94278f68dabd4147c29b3e2763d908e1
+  data GrassKey = GrassKey'Idle
+94278f68dabd4147c29b3e2763d908e1
+  grassKey'keyName ::
+    StreetRun.Engine.Grass.GrassKey -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Engine.Grass.GrassKey) ->
+                 case ds of wild { StreetRun.Engine.Grass.GrassKey'Idle ->
+                 StreetRun.Engine.Grass.grassKey'keyName1 }) -}
+af7e1bbfd7998d080da96e38a3d6e13e
+  grassKey'keyName1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   StreetRun.Engine.Grass.grassKey'keyName2) -}
+323c5cfcf150bdbfe622908ea0b43d3e
+  grassKey'keyName2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Idle"#) -}
+instance GHC.Enum.Bounded [StreetRun.Engine.Grass.GrassKey]
+  = StreetRun.Engine.Grass.$fBoundedGrassKey
+instance GHC.Enum.Enum [StreetRun.Engine.Grass.GrassKey]
+  = StreetRun.Engine.Grass.$fEnumGrassKey
+instance GHC.Classes.Eq [StreetRun.Engine.Grass.GrassKey]
+  = StreetRun.Engine.Grass.$fEqGrassKey
+instance Animate.KeyName [StreetRun.Engine.Grass.GrassKey]
+  = StreetRun.Engine.Grass.$fKeyNameGrassKey
+instance GHC.Classes.Ord [StreetRun.Engine.Grass.GrassKey]
+  = StreetRun.Engine.Grass.$fOrdGrassKey
+instance GHC.Show.Show [StreetRun.Engine.Grass.GrassKey]
+  = StreetRun.Engine.Grass.$fShowGrassKey
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+
