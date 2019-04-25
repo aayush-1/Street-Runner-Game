@@ -17,11 +17,10 @@ import StreetRun.Runner_func_1
 import StreetRun.Runner_func_2
 import StreetRun.Font
 import StreetRun.Font_functions
-import StreetRun.Bird
-import StreetRun.Lava
+import StreetRun.Snag
 import StreetRun.Building
 import StreetRun.Grass
-import StreetRun.Rock
+
 
 data Resources = Resources
   { rBuildingSprites :: Animate.SpriteSheet BuildingKey SDL.Texture Seconds

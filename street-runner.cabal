@@ -48,7 +48,6 @@ library
       StreetRun.Renderer_func_1
       StreetRun.Renderer_func_2
       StreetRun.Sound_effects
-      StreetRun.Bird
       StreetRun.Building
       StreetRun.Camera
       StreetRun.Common
@@ -59,14 +58,13 @@ library
       StreetRun.Out_func
       StreetRun.Grass
       StreetRun.Input
-      StreetRun.Lava
       StreetRun.Hurdle
       StreetRun.Hurdle_1
       StreetRun.Physics
       StreetRun.Work
       StreetRun.Work_func
       StreetRun.Quake
-      StreetRun.Rock
+      StreetRun.Snag
       StreetRun.Runner
       StreetRun.Runner_func_1
       StreetRun.Runner_func_2

@@ -5,9 +5,7 @@ import System.Random
 import Linear (V2(..))
 import StreetRun.Hurdle
 import StreetRun.Types -- to import new types defined in that module
-import StreetRun.Bird
-import StreetRun.Lava
-import StreetRun.Rock
+import StreetRun.Snag
 import StreetRun.Physics
 
 
