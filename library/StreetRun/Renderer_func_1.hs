@@ -13,8 +13,7 @@ import StreetRun.Runner
 import StreetRun.Snag
 import StreetRun.Font
 import StreetRun.Font_functions
-import StreetRun.Building
-import StreetRun.Grass
+import StreetRun.Scenario
 import StreetRun.SDLRenderer
 
 drawTextureSprite :: (SDLRenderer m, MonadReader Config m) => (Config -> SDL.Texture) -> (Int, Int) -> m ()

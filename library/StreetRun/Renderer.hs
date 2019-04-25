@@ -13,8 +13,7 @@ import StreetRun.Runner
 import StreetRun.Snag
 import StreetRun.Font
 import StreetRun.Font_functions
-import StreetRun.Building
-import StreetRun.Grass
+import StreetRun.Scenario
 import StreetRun.SDLRenderer
 
 class Monad m => Renderer m where

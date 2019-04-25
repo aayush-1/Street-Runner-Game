@@ -4,7 +4,7 @@ module StreetRun.State where
 import Control.Lens
 
 import StreetRun.Common
-import StreetRun.Scene_change
+import StreetRun.Scenario
 import StreetRun.Input
 import StreetRun.Camera
 import StreetRun.Hurdle

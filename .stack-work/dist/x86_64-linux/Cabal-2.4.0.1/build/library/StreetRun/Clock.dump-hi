@@ -1,0 +1,138 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 22:11:43.434263406 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Clock 8064
+  interface hash: 9c50f33a30706f4e3b0f72b877b8e725
+  ABI hash: 89a62033dff72bebbbf4e2a01026fec0
+  export-list hash: b739ca3407504ac5807a7a1833deaf5a
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: cd6997935d09daa6a687cb8eb0447281
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Clock.delayMilliseconds'
+  StreetRun.Clock.Clock{StreetRun.Clock.delayMilliseconds}
+module dependencies:
+package dependencies: base-4.12.0.0 ghc-prim-0.5.3
+                      integer-gmp-1.0.2.0
+orphans: base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: base-4.12.0.0:Control.Applicative
+                         base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity base-4.12.0.0:Data.Monoid
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:GHC.Generics
+                         base-4.12.0.0:GHC.IO.Exception
+import  -/  base-4.12.0.0:Control.Concurrent 945d3c1c41ed03e6117e3861cad65d9f
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Conc.IO 26d42f44a7711efbf2dd2f5b965a3d45
+import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
+2e0f0a380d3f738d4fd869c564a56b3e
+  $tc'C:Clock :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   1934428320574676706##
+                   16895935849675643798##
+                   StreetRun.Clock.$trModule
+                   StreetRun.Clock.$tc'C:Clock2
+                   1#
+                   StreetRun.Clock.$tc'C:Clock1) -}
+b350e0a0fe6746be62469beb83f934af
+  $tc'C:Clock1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+8c45758f775503212607bf2f190da1bc
+  $tc'C:Clock2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Clock.$tc'C:Clock3) -}
+452700530e202a4f39c9aed16cfc95e0
+  $tc'C:Clock3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'C:Clock"#) -}
+223c8d33cbe83611c31011e64f05ef9d
+  $tcClock :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   3181799664958447681##
+                   15939197619690527471##
+                   StreetRun.Clock.$trModule
+                   StreetRun.Clock.$tcClock2
+                   0#
+                   StreetRun.Clock.$tcClock1) -}
+f1eb994573324be2e4b05c7b5b6ea5de
+  $tcClock1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+2975d466df3f5b48c360971889e4baa8
+  $tcClock2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Clock.$tcClock3) -}
+5c8bcb3833e55675c4bed4be840e29ec
+  $tcClock3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Clock"#) -}
+c0fd03cbbbe84094fa2364f14e77478d
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Clock.$trModule3
+                   StreetRun.Clock.$trModule1) -}
+f3b6ca819bee569a0f3b14043307e2c8
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Clock.$trModule2) -}
+a308052d1f0ea5452e1ed8d095e84841
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Clock"#) -}
+2e7014ae5ff5bbbe55d092e4b3784582
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Clock.$trModule4) -}
+b3d4e4369914df3679fcb7ad55f293e2
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+2b40ecab298d4d0a35bbceaf277a7019
+  class GHC.Base.Monad m => Clock (m :: * -> *) where
+    delayMilliseconds :: GHC.Types.Int -> m ()
+    {-# MINIMAL delayMilliseconds #-}
+50128bf2f29cd9bd038033d16a5a20cd
+  delayMilliseconds' :: GHC.Types.Int -> GHC.Types.IO ()
+  {- Arity: 2, Strictness: <L,1*U(U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                StreetRun.Clock.delayMilliseconds'1
+                  `cast`
+                (<GHC.Types.Int>_R ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
+c94e3f1dfd77610253e6e556cd265378
+  delayMilliseconds'1 ::
+    GHC.Types.Int
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <L,1*U(U)><L,U>,
+     Unfolding: (\ (ms :: GHC.Types.Int)
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case {__pkg_ccall base-4.12.0.0 GHC.Prim.State# GHC.Prim.RealWorld
+                                                 -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                                       GHC.Prim.Int# #)}
+                        GHC.Prim.realWorld# of wild { (#,#) ds ds1 ->
+                 case ds1 of wild1 {
+                   DEFAULT
+                   -> GHC.Event.Thread.threadDelay1
+                        (case ms of wild2 { GHC.Types.I# y ->
+                         GHC.Types.I# (GHC.Prim.*# 1000# y) })
+                        eta
+                   0#
+                   -> case ms of wild2 { GHC.Types.I# y ->
+                      case GHC.Prim.delay#
+                             @ GHC.Prim.RealWorld
+                             (GHC.Prim.*# 1000# y)
+                             eta of s' { DEFAULT ->
+                      (# s', GHC.Tuple.() #) } } } }) -}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

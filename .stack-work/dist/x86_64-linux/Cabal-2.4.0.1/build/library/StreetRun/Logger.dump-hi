@@ -1,0 +1,117 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 22:11:44.037979827 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Logger 8064
+  interface hash: 4427ebe55796461e63228af0b6cf1e47
+  ABI hash: c1184bbc74eb79639ce17c0146cd0cef
+  export-list hash: 81e5ce7f09b7fc1815ee1a743df57e50
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: cd6997935d09daa6a687cb8eb0447281
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Logger.Logger{StreetRun.Logger.logText}
+module dependencies:
+package dependencies: array-0.5.3.0 base-4.12.0.0 binary-0.8.6.0
+                      bytestring-0.10.8.2 containers-0.6.0.1 deepseq-1.4.4.0
+                      ghc-prim-0.5.3 integer-gmp-1.0.2.0 text-1.2.3.1
+orphans: text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: base-4.12.0.0:Control.Applicative
+                         base-4.12.0.0:Data.Complex base-4.12.0.0:Data.Functor.Compose
+                         base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         text-1.2.3.1:Data.Text
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  text-1.2.3.1:Data.Text 1e51a010d8f8a6fa41d8ea82d69faf13
+import  -/  text-1.2.3.1:Data.Text.Internal 537e168590e8068f673f691833f78483
+4abc6f8d60a3e79135bdd386aa1cf67c
+  $tc'C:Logger :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   14782628370574421346##
+                   7047755170919660201##
+                   StreetRun.Logger.$trModule
+                   StreetRun.Logger.$tc'C:Logger2
+                   1#
+                   StreetRun.Logger.$tc'C:Logger1) -}
+0e9f71b2c6d27ff326f41a6b17a93473
+  $tc'C:Logger1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+b43b52c1a063c5fd8ee0e917d6151b2c
+  $tc'C:Logger2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Logger.$tc'C:Logger3) -}
+9cbeb73eae8815003d719fa71d79387f
+  $tc'C:Logger3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'C:Logger"#) -}
+0e2e7807d61d485e4502a5757009f313
+  $tcLogger :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   14760394208466861471##
+                   9312732208153669521##
+                   StreetRun.Logger.$trModule
+                   StreetRun.Logger.$tcLogger2
+                   0#
+                   StreetRun.Logger.$tcLogger1) -}
+5a7612dfdbb846a3209211d11b78e88d
+  $tcLogger1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+bfc36164e5a6a8921e920467aa825ca4
+  $tcLogger2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Logger.$tcLogger3) -}
+4766ac03c18724a38e5ea24902e22209
+  $tcLogger3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Logger"#) -}
+6a8a24ec0614d9f6292e8b3375bd9a91
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Logger.$trModule3
+                   StreetRun.Logger.$trModule1) -}
+9e0aa95645d2ceccd009d0a6fb448c7b
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Logger.$trModule2) -}
+41512468db7d9bc77b8c4f83e8332500
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Logger"#) -}
+78df31ea1149b20b5f8f2ff6d020ef44
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Logger.$trModule4) -}
+7943aa91e92117df5abc4330db8651ae
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+4552d82a9988ace40de231328b43d46d
+  class GHC.Base.Monad m => Logger (m :: * -> *) where
+    logText :: Data.Text.Internal.Text -> m ()
+    {-# MINIMAL logText #-}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

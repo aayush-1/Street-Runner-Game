@@ -3,7 +3,7 @@ module StreetRun.Scene
   , Scene(..)
   ) where
 
-import StreetRun.Scene_change
+import StreetRun.Scenario
 
 class Monad m => SceneManager m where
   toScene :: Scene -> m ()

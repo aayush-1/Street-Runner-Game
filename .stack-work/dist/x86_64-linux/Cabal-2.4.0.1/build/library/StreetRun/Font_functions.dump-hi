@@ -1,0 +1,97 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 22:11:43.755540292 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Font_functions 8064
+  interface hash: 705c76398a9585d0ef873cc8bb021f2e
+  ABI hash: 1a5a69e004e559ef0ed610c21b9037a3
+  export-list hash: 8738957528d4728a198f0cc1309ae7d5
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: cd6997935d09daa6a687cb8eb0447281
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Font_functions.numberToInt
+  StreetRun.Font_functions.toNumber
+  StreetRun.Font_functions.toNumberReverse
+module dependencies: StreetRun.Font
+package dependencies: base-4.12.0.0 ghc-prim-0.5.3
+                      integer-gmp-1.0.2.0
+orphans: base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: base-4.12.0.0:Control.Applicative
+                         base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity base-4.12.0.0:Data.Monoid
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:GHC.Generics
+                         base-4.12.0.0:GHC.IO.Exception
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Enum 87204abed08db8735fc0be5ab48689aa
+import  -/  base-4.12.0.0:GHC.List 4014a3c8a3b7c31c8325f6bcf1feea4a
+import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  integer-gmp-1.0.2.0:GHC.Integer.Type 6d87087aea24143d2650f78480d954a3
+import  -/  StreetRun.Font a32f3953bbb50ce9b469edb8463d6f24
+  exports: 7faf0604fc3be1edae721103fd7b3042
+  Number b7e100f9135b0814c955ea3d79c02ada
+  Number'0 4e0746d740819fe2452564186de2dcde
+  Number'1 248183ef9ca96252664c99d781bf7e20
+  Number'2 2b53a2b5ffd40e38ebaedafde22dc64f
+  Number'3 c4ae2a7e07bad98a291fa8f8cf37c761
+  Number'4 fb0ffcc2153f5a7fac8541d8d26f5d9e
+  Number'5 701c566dd82dde0f6d6cdb1775aa9336
+  Number'6 6b34df0265b8d55413ae81f088cda146
+  Number'7 997fb803900f45f27876ddf015548551
+  Number'8 86520f7dd298fa962c4e2953d9b350b4
+  Number'9 97c7e2733d2c2569b76e0d357d0fdf8d
+68026a0be8c96dccf8d047fdbc8eab36
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Font_functions.$trModule3
+                   StreetRun.Font_functions.$trModule1) -}
+3ccf3179f6f70b291db03e43c02d01d6
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Font_functions.$trModule2) -}
+67b19d7d894d5ab18f22cc7164589a3e
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Font_functions"#) -}
+7a521c38c02ad3f2ac56e4c5b79403d7
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Font_functions.$trModule4) -}
+2539efb5b07d4f468c425edfd22a356a
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+c46627d9153e3ecc04b5d69aa22e9903
+  numberToInt :: StreetRun.Font.Number -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,U>m,
+     Unfolding: InlineRule (0, True, True)
+                StreetRun.Font.$fEnumNumber_$cfromEnum -}
+fb0a8a6cd5626a44dcc6f137c1801218
+  toNumber :: GHC.Integer.Type.Integer -> [StreetRun.Font.Number]
+  {- Arity: 1, Strictness: <S,U> -}
+ade1db35536e4e7a43d1d3f33b25d6ea
+  toNumberReverse ::
+    GHC.Integer.Type.Integer -> [StreetRun.Font.Number]
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: GHC.Integer.Type.Integer) ->
+                 GHC.List.reverse1
+                   @ StreetRun.Font.Number
+                   (StreetRun.Font_functions.toNumber x)
+                   (GHC.Types.[] @ StreetRun.Font.Number)) -}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

@@ -1,0 +1,1277 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 22:11:44.688023132 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Snag 8064
+  interface hash: 6cc7598518b2431ee29bcd8ec2fa017f
+  ABI hash: 435128ff0e3817e1b1768f09cf894e59
+  export-list hash: 7f7b3656c97eba619795923512f79f2a
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: cd6997935d09daa6a687cb8eb0447281
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Snag.birdKey'keyName
+  StreetRun.Snag.lavaKey'keyName
+  StreetRun.Snag.rockKey'keyName
+  StreetRun.Snag.BirdKey{StreetRun.Snag.BirdKey'Idle}
+  StreetRun.Snag.LavaKey{StreetRun.Snag.LavaKey'Idle}
+  StreetRun.Snag.RockKey{StreetRun.Snag.RockKey'Idle}
+module dependencies:
+package dependencies: aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0
+                      attoparsec-0.13.2.2 base-4.12.0.0 base-compat-0.10.5 binary-0.8.6.0
+                      bytestring-0.10.8.2 conduit-1.3.1.1 containers-0.6.0.1
+                      deepseq-1.4.4.0 dlist-0.8.0.6 exceptions-0.10.1 ghc-boot-th-8.6.4
+                      ghc-prim-0.5.3 hashable-1.2.7.0 integer-gmp-1.0.2.0
+                      integer-logarithms-1.0.2.2 libyaml-0.1.1.0 mtl-2.2.2
+                      primitive-0.6.4.0 random-1.1 resourcet-1.2.2 scientific-0.3.6.2
+                      stm-2.5.0.0 tagged-0.8.6 template-haskell-2.14.0.0 text-1.2.3.1
+                      time-1.8.0.2 time-locale-compat-0.1.1.5 transformers-0.5.6.2
+                      unliftio-core-0.1.2.0 unordered-containers-0.2.9.0 uuid-types-1.0.3
+                      vector-0.12.0.2 yaml-0.11.0.0
+orphans: stm-2.5.0.0:Control.Monad.STM
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.2:Data.Vector.Unboxed
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: aeson-1.4.2.0:Data.Aeson.Types.Internal
+                         animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Enum 87204abed08db8735fc0be5ab48689aa
+import  -/  base-4.12.0.0:GHC.Err ea5e313ef4146b40b5d8b27aa168e736
+import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
+import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
+import  -/  text-1.2.3.1:Data.Text 1e51a010d8f8a6fa41d8ea82d69faf13
+import  -/  text-1.2.3.1:Data.Text.Internal 537e168590e8068f673f691833f78483
+a4b9334f1959d8eda311a05a86034c88
+  $fBoundedBirdKey :: GHC.Enum.Bounded StreetRun.Snag.BirdKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.BirdKey
+                  StreetRun.Snag.BirdKey'Idle
+                  StreetRun.Snag.BirdKey'Idle -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fBoundedLavaKey :: GHC.Enum.Bounded StreetRun.Snag.LavaKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.LavaKey
+                  StreetRun.Snag.LavaKey'Idle
+                  StreetRun.Snag.LavaKey'Idle -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fBoundedRockKey :: GHC.Enum.Bounded StreetRun.Snag.RockKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.RockKey
+                  StreetRun.Snag.RockKey'Idle
+                  StreetRun.Snag.RockKey'Idle -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey :: GHC.Enum.Enum StreetRun.Snag.BirdKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.BirdKey
+                  StreetRun.Snag.$fEnumBirdKey_$csucc
+                  StreetRun.Snag.$fEnumBirdKey_$cpred
+                  StreetRun.Snag.$fEnumBirdKey_$ctoEnum
+                  StreetRun.Snag.$fEnumBirdKey_$cfromEnum
+                  StreetRun.Snag.$fEnumBirdKey_$cenumFrom
+                  StreetRun.Snag.$fEnumBirdKey_$cenumFromThen
+                  StreetRun.Snag.$fEnumBirdKey_$cenumFromTo
+                  StreetRun.Snag.$fEnumBirdKey_$cenumFromThenTo -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey1 :: [StreetRun.Snag.BirdKey]
+  {- Unfolding: (StreetRun.Snag.$fEnumBirdKey_go_up 0#) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey2 :: [StreetRun.Snag.BirdKey]
+  {- Unfolding: (StreetRun.Snag.$fEnumBirdKey_go 0#) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey3 :: [StreetRun.Snag.BirdKey]
+  {- Unfolding: (StreetRun.Snag.$fEnumBirdKey_go1 0#) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey4 :: StreetRun.Snag.BirdKey
+  {- Strictness: x -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey5 :: StreetRun.Snag.BirdKey
+  {- Strictness: x -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey_$cenumFrom ::
+    StreetRun.Snag.BirdKey -> [StreetRun.Snag.BirdKey]
+  {- Arity: 1, Strictness: <S,1*H>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: StreetRun.Snag.BirdKey) ->
+                 case w of w1 { StreetRun.Snag.BirdKey'Idle ->
+                 StreetRun.Snag.$fEnumBirdKey3 }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey_$cenumFromThen ::
+    StreetRun.Snag.BirdKey
+    -> StreetRun.Snag.BirdKey -> [StreetRun.Snag.BirdKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Snag.BirdKey) (w1 :: StreetRun.Snag.BirdKey) ->
+                 case w of w2 { StreetRun.Snag.BirdKey'Idle ->
+                 case w1 of w3 { StreetRun.Snag.BirdKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Snag.BirdKey
+                   StreetRun.Snag.BirdKey'Idle
+                   (letrec {
+                      go_up3 :: GHC.Prim.Int# -> [StreetRun.Snag.BirdKey]
+                        {- Arity: 1, Strictness: <S,U> -}
+                      = \ (x :: GHC.Prim.Int#) ->
+                        case GHC.Prim.># x 0# of lwild1 {
+                          DEFAULT
+                          -> GHC.Types.:
+                               @ StreetRun.Snag.BirdKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Snag.BirdKey x)
+                               (go_up3 x)
+                          1#
+                          -> GHC.Types.:
+                               @ StreetRun.Snag.BirdKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Snag.BirdKey x)
+                               (GHC.Types.[] @ StreetRun.Snag.BirdKey) }
+                    } in
+                    go_up3 0#) } }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey_$cenumFromThenTo ::
+    StreetRun.Snag.BirdKey
+    -> StreetRun.Snag.BirdKey
+    -> StreetRun.Snag.BirdKey
+    -> [StreetRun.Snag.BirdKey]
+  {- Arity: 3, Strictness: <S,1*H><S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: StreetRun.Snag.BirdKey)
+                   (w1 :: StreetRun.Snag.BirdKey)
+                   (w2 :: StreetRun.Snag.BirdKey) ->
+                 case w of w3 { StreetRun.Snag.BirdKey'Idle ->
+                 case w1 of w4 { StreetRun.Snag.BirdKey'Idle ->
+                 case w2 of w5 { StreetRun.Snag.BirdKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Snag.BirdKey
+                   StreetRun.Snag.BirdKey'Idle
+                   StreetRun.Snag.$fEnumBirdKey1 } } }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey_$cenumFromTo ::
+    StreetRun.Snag.BirdKey
+    -> StreetRun.Snag.BirdKey -> [StreetRun.Snag.BirdKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Snag.BirdKey) (w1 :: StreetRun.Snag.BirdKey) ->
+                 case w of w2 { StreetRun.Snag.BirdKey'Idle ->
+                 case w1 of w3 { StreetRun.Snag.BirdKey'Idle ->
+                 StreetRun.Snag.$fEnumBirdKey2 } }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey_$cfromEnum :: StreetRun.Snag.BirdKey -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*H>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Snag.BirdKey) ->
+                 case a of wild { StreetRun.Snag.BirdKey'Idle ->
+                 GHC.Types.I# 0# }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey_$cpred ::
+    StreetRun.Snag.BirdKey -> StreetRun.Snag.BirdKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Snag.BirdKey) ->
+                 case a of wild { StreetRun.Snag.BirdKey'Idle ->
+                 StreetRun.Snag.$fEnumBirdKey4 }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey_$csucc ::
+    StreetRun.Snag.BirdKey -> StreetRun.Snag.BirdKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Snag.BirdKey) ->
+                 case a of wild { StreetRun.Snag.BirdKey'Idle ->
+                 StreetRun.Snag.$fEnumBirdKey5 }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey_$ctoEnum :: GHC.Types.Int -> StreetRun.Snag.BirdKey
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 StreetRun.Snag.$w$ctoEnum ww1 }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey_go :: GHC.Prim.Int# -> [StreetRun.Snag.BirdKey]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey_go1 :: GHC.Prim.Int# -> [StreetRun.Snag.BirdKey]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEnumBirdKey_go_up :: GHC.Prim.Int# -> [StreetRun.Snag.BirdKey]
+  {- Arity: 1, Strictness: <S,U>m2 -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey :: GHC.Enum.Enum StreetRun.Snag.LavaKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.LavaKey
+                  StreetRun.Snag.$fEnumLavaKey_$csucc
+                  StreetRun.Snag.$fEnumLavaKey_$cpred
+                  StreetRun.Snag.$fEnumLavaKey_$ctoEnum
+                  StreetRun.Snag.$fEnumLavaKey_$cfromEnum
+                  StreetRun.Snag.$fEnumLavaKey_$cenumFrom
+                  StreetRun.Snag.$fEnumLavaKey_$cenumFromThen
+                  StreetRun.Snag.$fEnumLavaKey_$cenumFromTo
+                  StreetRun.Snag.$fEnumLavaKey_$cenumFromThenTo -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey1 :: [StreetRun.Snag.LavaKey]
+  {- Unfolding: (StreetRun.Snag.$fEnumLavaKey_go_up 0#) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey2 :: [StreetRun.Snag.LavaKey]
+  {- Unfolding: (StreetRun.Snag.$fEnumLavaKey_go 0#) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey3 :: [StreetRun.Snag.LavaKey]
+  {- Unfolding: (StreetRun.Snag.$fEnumLavaKey_go1 0#) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey4 :: StreetRun.Snag.LavaKey
+  {- Strictness: x -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey5 :: StreetRun.Snag.LavaKey
+  {- Strictness: x -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey_$cenumFrom ::
+    StreetRun.Snag.LavaKey -> [StreetRun.Snag.LavaKey]
+  {- Arity: 1, Strictness: <S,1*H>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: StreetRun.Snag.LavaKey) ->
+                 case w of w1 { StreetRun.Snag.LavaKey'Idle ->
+                 StreetRun.Snag.$fEnumLavaKey3 }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey_$cenumFromThen ::
+    StreetRun.Snag.LavaKey
+    -> StreetRun.Snag.LavaKey -> [StreetRun.Snag.LavaKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Snag.LavaKey) (w1 :: StreetRun.Snag.LavaKey) ->
+                 case w of w2 { StreetRun.Snag.LavaKey'Idle ->
+                 case w1 of w3 { StreetRun.Snag.LavaKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Snag.LavaKey
+                   StreetRun.Snag.LavaKey'Idle
+                   (letrec {
+                      go_up3 :: GHC.Prim.Int# -> [StreetRun.Snag.LavaKey]
+                        {- Arity: 1, Strictness: <S,U> -}
+                      = \ (x :: GHC.Prim.Int#) ->
+                        case GHC.Prim.># x 0# of lwild1 {
+                          DEFAULT
+                          -> GHC.Types.:
+                               @ StreetRun.Snag.LavaKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Snag.LavaKey x)
+                               (go_up3 x)
+                          1#
+                          -> GHC.Types.:
+                               @ StreetRun.Snag.LavaKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Snag.LavaKey x)
+                               (GHC.Types.[] @ StreetRun.Snag.LavaKey) }
+                    } in
+                    go_up3 0#) } }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey_$cenumFromThenTo ::
+    StreetRun.Snag.LavaKey
+    -> StreetRun.Snag.LavaKey
+    -> StreetRun.Snag.LavaKey
+    -> [StreetRun.Snag.LavaKey]
+  {- Arity: 3, Strictness: <S,1*H><S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: StreetRun.Snag.LavaKey)
+                   (w1 :: StreetRun.Snag.LavaKey)
+                   (w2 :: StreetRun.Snag.LavaKey) ->
+                 case w of w3 { StreetRun.Snag.LavaKey'Idle ->
+                 case w1 of w4 { StreetRun.Snag.LavaKey'Idle ->
+                 case w2 of w5 { StreetRun.Snag.LavaKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Snag.LavaKey
+                   StreetRun.Snag.LavaKey'Idle
+                   StreetRun.Snag.$fEnumLavaKey1 } } }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey_$cenumFromTo ::
+    StreetRun.Snag.LavaKey
+    -> StreetRun.Snag.LavaKey -> [StreetRun.Snag.LavaKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Snag.LavaKey) (w1 :: StreetRun.Snag.LavaKey) ->
+                 case w of w2 { StreetRun.Snag.LavaKey'Idle ->
+                 case w1 of w3 { StreetRun.Snag.LavaKey'Idle ->
+                 StreetRun.Snag.$fEnumLavaKey2 } }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey_$cfromEnum :: StreetRun.Snag.LavaKey -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*H>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Snag.LavaKey) ->
+                 case a of wild { StreetRun.Snag.LavaKey'Idle ->
+                 GHC.Types.I# 0# }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey_$cpred ::
+    StreetRun.Snag.LavaKey -> StreetRun.Snag.LavaKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Snag.LavaKey) ->
+                 case a of wild { StreetRun.Snag.LavaKey'Idle ->
+                 StreetRun.Snag.$fEnumLavaKey4 }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey_$csucc ::
+    StreetRun.Snag.LavaKey -> StreetRun.Snag.LavaKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Snag.LavaKey) ->
+                 case a of wild { StreetRun.Snag.LavaKey'Idle ->
+                 StreetRun.Snag.$fEnumLavaKey5 }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey_$ctoEnum :: GHC.Types.Int -> StreetRun.Snag.LavaKey
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 StreetRun.Snag.$w$ctoEnum1 ww1 }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey_go :: GHC.Prim.Int# -> [StreetRun.Snag.LavaKey]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey_go1 :: GHC.Prim.Int# -> [StreetRun.Snag.LavaKey]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEnumLavaKey_go_up :: GHC.Prim.Int# -> [StreetRun.Snag.LavaKey]
+  {- Arity: 1, Strictness: <S,U>m2 -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey :: GHC.Enum.Enum StreetRun.Snag.RockKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.RockKey
+                  StreetRun.Snag.$fEnumRockKey_$csucc
+                  StreetRun.Snag.$fEnumRockKey_$cpred
+                  StreetRun.Snag.$fEnumRockKey_$ctoEnum
+                  StreetRun.Snag.$fEnumRockKey_$cfromEnum
+                  StreetRun.Snag.$fEnumRockKey_$cenumFrom
+                  StreetRun.Snag.$fEnumRockKey_$cenumFromThen
+                  StreetRun.Snag.$fEnumRockKey_$cenumFromTo
+                  StreetRun.Snag.$fEnumRockKey_$cenumFromThenTo -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey1 :: [StreetRun.Snag.RockKey]
+  {- Unfolding: (StreetRun.Snag.$fEnumRockKey_go_up 0#) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey2 :: [StreetRun.Snag.RockKey]
+  {- Unfolding: (StreetRun.Snag.$fEnumRockKey_go 0#) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey3 :: [StreetRun.Snag.RockKey]
+  {- Unfolding: (StreetRun.Snag.$fEnumRockKey_go1 0#) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey4 :: StreetRun.Snag.RockKey
+  {- Strictness: x -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey5 :: StreetRun.Snag.RockKey
+  {- Strictness: x -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey_$cenumFrom ::
+    StreetRun.Snag.RockKey -> [StreetRun.Snag.RockKey]
+  {- Arity: 1, Strictness: <S,1*H>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: StreetRun.Snag.RockKey) ->
+                 case w of w1 { StreetRun.Snag.RockKey'Idle ->
+                 StreetRun.Snag.$fEnumRockKey3 }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey_$cenumFromThen ::
+    StreetRun.Snag.RockKey
+    -> StreetRun.Snag.RockKey -> [StreetRun.Snag.RockKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Snag.RockKey) (w1 :: StreetRun.Snag.RockKey) ->
+                 case w of w2 { StreetRun.Snag.RockKey'Idle ->
+                 case w1 of w3 { StreetRun.Snag.RockKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Snag.RockKey
+                   StreetRun.Snag.RockKey'Idle
+                   (letrec {
+                      go_up3 :: GHC.Prim.Int# -> [StreetRun.Snag.RockKey]
+                        {- Arity: 1, Strictness: <S,U> -}
+                      = \ (x :: GHC.Prim.Int#) ->
+                        case GHC.Prim.># x 0# of lwild1 {
+                          DEFAULT
+                          -> GHC.Types.:
+                               @ StreetRun.Snag.RockKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Snag.RockKey x)
+                               (go_up3 x)
+                          1#
+                          -> GHC.Types.:
+                               @ StreetRun.Snag.RockKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Snag.RockKey x)
+                               (GHC.Types.[] @ StreetRun.Snag.RockKey) }
+                    } in
+                    go_up3 0#) } }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey_$cenumFromThenTo ::
+    StreetRun.Snag.RockKey
+    -> StreetRun.Snag.RockKey
+    -> StreetRun.Snag.RockKey
+    -> [StreetRun.Snag.RockKey]
+  {- Arity: 3, Strictness: <S,1*H><S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: StreetRun.Snag.RockKey)
+                   (w1 :: StreetRun.Snag.RockKey)
+                   (w2 :: StreetRun.Snag.RockKey) ->
+                 case w of w3 { StreetRun.Snag.RockKey'Idle ->
+                 case w1 of w4 { StreetRun.Snag.RockKey'Idle ->
+                 case w2 of w5 { StreetRun.Snag.RockKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Snag.RockKey
+                   StreetRun.Snag.RockKey'Idle
+                   StreetRun.Snag.$fEnumRockKey1 } } }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey_$cenumFromTo ::
+    StreetRun.Snag.RockKey
+    -> StreetRun.Snag.RockKey -> [StreetRun.Snag.RockKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Snag.RockKey) (w1 :: StreetRun.Snag.RockKey) ->
+                 case w of w2 { StreetRun.Snag.RockKey'Idle ->
+                 case w1 of w3 { StreetRun.Snag.RockKey'Idle ->
+                 StreetRun.Snag.$fEnumRockKey2 } }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey_$cfromEnum :: StreetRun.Snag.RockKey -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*H>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Snag.RockKey) ->
+                 case a of wild { StreetRun.Snag.RockKey'Idle ->
+                 GHC.Types.I# 0# }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey_$cpred ::
+    StreetRun.Snag.RockKey -> StreetRun.Snag.RockKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Snag.RockKey) ->
+                 case a of wild { StreetRun.Snag.RockKey'Idle ->
+                 StreetRun.Snag.$fEnumRockKey4 }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey_$csucc ::
+    StreetRun.Snag.RockKey -> StreetRun.Snag.RockKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Snag.RockKey) ->
+                 case a of wild { StreetRun.Snag.RockKey'Idle ->
+                 StreetRun.Snag.$fEnumRockKey5 }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey_$ctoEnum :: GHC.Types.Int -> StreetRun.Snag.RockKey
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 StreetRun.Snag.$w$ctoEnum2 ww1 }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey_go :: GHC.Prim.Int# -> [StreetRun.Snag.RockKey]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey_go1 :: GHC.Prim.Int# -> [StreetRun.Snag.RockKey]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEnumRockKey_go_up :: GHC.Prim.Int# -> [StreetRun.Snag.RockKey]
+  {- Arity: 1, Strictness: <S,U>m2 -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEqBirdKey :: GHC.Classes.Eq StreetRun.Snag.BirdKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.BirdKey
+                  StreetRun.Snag.$fEqBirdKey_$c==
+                  StreetRun.Snag.$fEqBirdKey_$c/= -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEqBirdKey_$c/= ::
+    StreetRun.Snag.BirdKey -> StreetRun.Snag.BirdKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Snag.BirdKey) (y :: StreetRun.Snag.BirdKey) ->
+                 case x of wild { StreetRun.Snag.BirdKey'Idle ->
+                 case y of wild1 { StreetRun.Snag.BirdKey'Idle ->
+                 GHC.Types.False } }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fEqBirdKey_$c== ::
+    StreetRun.Snag.BirdKey -> StreetRun.Snag.BirdKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Snag.BirdKey)
+                   (ds1 :: StreetRun.Snag.BirdKey) ->
+                 case ds of wild { StreetRun.Snag.BirdKey'Idle ->
+                 case ds1 of wild1 { StreetRun.Snag.BirdKey'Idle ->
+                 GHC.Types.True } }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEqLavaKey :: GHC.Classes.Eq StreetRun.Snag.LavaKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.LavaKey
+                  StreetRun.Snag.$fEqLavaKey_$c==
+                  StreetRun.Snag.$fEqLavaKey_$c/= -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEqLavaKey_$c/= ::
+    StreetRun.Snag.LavaKey -> StreetRun.Snag.LavaKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Snag.LavaKey) (y :: StreetRun.Snag.LavaKey) ->
+                 case x of wild { StreetRun.Snag.LavaKey'Idle ->
+                 case y of wild1 { StreetRun.Snag.LavaKey'Idle ->
+                 GHC.Types.False } }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fEqLavaKey_$c== ::
+    StreetRun.Snag.LavaKey -> StreetRun.Snag.LavaKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Snag.LavaKey)
+                   (ds1 :: StreetRun.Snag.LavaKey) ->
+                 case ds of wild { StreetRun.Snag.LavaKey'Idle ->
+                 case ds1 of wild1 { StreetRun.Snag.LavaKey'Idle ->
+                 GHC.Types.True } }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEqRockKey :: GHC.Classes.Eq StreetRun.Snag.RockKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.RockKey
+                  StreetRun.Snag.$fEqRockKey_$c==
+                  StreetRun.Snag.$fEqRockKey_$c/= -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEqRockKey_$c/= ::
+    StreetRun.Snag.RockKey -> StreetRun.Snag.RockKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Snag.RockKey) (y :: StreetRun.Snag.RockKey) ->
+                 case x of wild { StreetRun.Snag.RockKey'Idle ->
+                 case y of wild1 { StreetRun.Snag.RockKey'Idle ->
+                 GHC.Types.False } }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fEqRockKey_$c== ::
+    StreetRun.Snag.RockKey -> StreetRun.Snag.RockKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Snag.RockKey)
+                   (ds1 :: StreetRun.Snag.RockKey) ->
+                 case ds of wild { StreetRun.Snag.RockKey'Idle ->
+                 case ds1 of wild1 { StreetRun.Snag.RockKey'Idle ->
+                 GHC.Types.True } }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fKeyNameBirdKey :: Animate.KeyName StreetRun.Snag.BirdKey
+  DFunId
+  {- Arity: 1, Strictness: <S,1*H>, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                StreetRun.Snag.birdKey'keyName
+                  `cast`
+                (Sym (Animate.N:KeyName[0] <StreetRun.Snag.BirdKey>_N)) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fKeyNameLavaKey :: Animate.KeyName StreetRun.Snag.LavaKey
+  DFunId
+  {- Arity: 1, Strictness: <S,1*H>, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                StreetRun.Snag.lavaKey'keyName
+                  `cast`
+                (Sym (Animate.N:KeyName[0] <StreetRun.Snag.LavaKey>_N)) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fKeyNameRockKey :: Animate.KeyName StreetRun.Snag.RockKey
+  DFunId
+  {- Arity: 1, Strictness: <S,1*H>, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                StreetRun.Snag.rockKey'keyName
+                  `cast`
+                (Sym (Animate.N:KeyName[0] <StreetRun.Snag.RockKey>_N)) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fOrdBirdKey :: GHC.Classes.Ord StreetRun.Snag.BirdKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.BirdKey
+                  StreetRun.Snag.$fEqBirdKey
+                  StreetRun.Snag.$fOrdBirdKey_$ccompare
+                  StreetRun.Snag.$fOrdBirdKey_$c<
+                  StreetRun.Snag.$fOrdBirdKey_$c<=
+                  StreetRun.Snag.$fOrdBirdKey_$c>
+                  StreetRun.Snag.$fEqBirdKey_$c==
+                  StreetRun.Snag.$fOrdBirdKey_$cmax
+                  StreetRun.Snag.$fOrdBirdKey_$cmax -}
+a4b9334f1959d8eda311a05a86034c88
+  $fOrdBirdKey_$c< ::
+    StreetRun.Snag.BirdKey -> StreetRun.Snag.BirdKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Snag.BirdKey) (b :: StreetRun.Snag.BirdKey) ->
+                 case a of wild { StreetRun.Snag.BirdKey'Idle ->
+                 case b of wild1 { StreetRun.Snag.BirdKey'Idle ->
+                 GHC.Types.False } }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fOrdBirdKey_$c<= ::
+    StreetRun.Snag.BirdKey -> StreetRun.Snag.BirdKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Snag.BirdKey) (b :: StreetRun.Snag.BirdKey) ->
+                 case b of wild { StreetRun.Snag.BirdKey'Idle ->
+                 case a of wild1 { StreetRun.Snag.BirdKey'Idle ->
+                 GHC.Types.True } }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fOrdBirdKey_$c> ::
+    StreetRun.Snag.BirdKey -> StreetRun.Snag.BirdKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Snag.BirdKey) (b :: StreetRun.Snag.BirdKey) ->
+                 case b of wild { StreetRun.Snag.BirdKey'Idle ->
+                 case a of wild1 { StreetRun.Snag.BirdKey'Idle ->
+                 GHC.Types.False } }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fOrdBirdKey_$ccompare ::
+    StreetRun.Snag.BirdKey
+    -> StreetRun.Snag.BirdKey -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Snag.BirdKey) (b :: StreetRun.Snag.BirdKey) ->
+                 case a of wild { StreetRun.Snag.BirdKey'Idle ->
+                 case b of wild1 { StreetRun.Snag.BirdKey'Idle ->
+                 GHC.Types.EQ } }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fOrdBirdKey_$cmax ::
+    StreetRun.Snag.BirdKey
+    -> StreetRun.Snag.BirdKey -> StreetRun.Snag.BirdKey
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U()><S,1*H>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: StreetRun.Snag.BirdKey) (y :: StreetRun.Snag.BirdKey) ->
+                 case y of wild { StreetRun.Snag.BirdKey'Idle -> x }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fOrdLavaKey :: GHC.Classes.Ord StreetRun.Snag.LavaKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.LavaKey
+                  StreetRun.Snag.$fEqLavaKey
+                  StreetRun.Snag.$fOrdLavaKey_$ccompare
+                  StreetRun.Snag.$fOrdLavaKey_$c<
+                  StreetRun.Snag.$fOrdLavaKey_$c<=
+                  StreetRun.Snag.$fOrdLavaKey_$c>
+                  StreetRun.Snag.$fEqLavaKey_$c==
+                  StreetRun.Snag.$fOrdLavaKey_$cmax
+                  StreetRun.Snag.$fOrdLavaKey_$cmax -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fOrdLavaKey_$c< ::
+    StreetRun.Snag.LavaKey -> StreetRun.Snag.LavaKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Snag.LavaKey) (b :: StreetRun.Snag.LavaKey) ->
+                 case a of wild { StreetRun.Snag.LavaKey'Idle ->
+                 case b of wild1 { StreetRun.Snag.LavaKey'Idle ->
+                 GHC.Types.False } }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fOrdLavaKey_$c<= ::
+    StreetRun.Snag.LavaKey -> StreetRun.Snag.LavaKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Snag.LavaKey) (b :: StreetRun.Snag.LavaKey) ->
+                 case b of wild { StreetRun.Snag.LavaKey'Idle ->
+                 case a of wild1 { StreetRun.Snag.LavaKey'Idle ->
+                 GHC.Types.True } }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fOrdLavaKey_$c> ::
+    StreetRun.Snag.LavaKey -> StreetRun.Snag.LavaKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Snag.LavaKey) (b :: StreetRun.Snag.LavaKey) ->
+                 case b of wild { StreetRun.Snag.LavaKey'Idle ->
+                 case a of wild1 { StreetRun.Snag.LavaKey'Idle ->
+                 GHC.Types.False } }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fOrdLavaKey_$ccompare ::
+    StreetRun.Snag.LavaKey
+    -> StreetRun.Snag.LavaKey -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Snag.LavaKey) (b :: StreetRun.Snag.LavaKey) ->
+                 case a of wild { StreetRun.Snag.LavaKey'Idle ->
+                 case b of wild1 { StreetRun.Snag.LavaKey'Idle ->
+                 GHC.Types.EQ } }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fOrdLavaKey_$cmax ::
+    StreetRun.Snag.LavaKey
+    -> StreetRun.Snag.LavaKey -> StreetRun.Snag.LavaKey
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U()><S,1*H>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: StreetRun.Snag.LavaKey) (y :: StreetRun.Snag.LavaKey) ->
+                 case y of wild { StreetRun.Snag.LavaKey'Idle -> x }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fOrdRockKey :: GHC.Classes.Ord StreetRun.Snag.RockKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.RockKey
+                  StreetRun.Snag.$fEqRockKey
+                  StreetRun.Snag.$fOrdRockKey_$ccompare
+                  StreetRun.Snag.$fOrdRockKey_$c<
+                  StreetRun.Snag.$fOrdRockKey_$c<=
+                  StreetRun.Snag.$fOrdRockKey_$c>
+                  StreetRun.Snag.$fEqRockKey_$c==
+                  StreetRun.Snag.$fOrdRockKey_$cmax
+                  StreetRun.Snag.$fOrdRockKey_$cmax -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fOrdRockKey_$c< ::
+    StreetRun.Snag.RockKey -> StreetRun.Snag.RockKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Snag.RockKey) (b :: StreetRun.Snag.RockKey) ->
+                 case a of wild { StreetRun.Snag.RockKey'Idle ->
+                 case b of wild1 { StreetRun.Snag.RockKey'Idle ->
+                 GHC.Types.False } }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fOrdRockKey_$c<= ::
+    StreetRun.Snag.RockKey -> StreetRun.Snag.RockKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Snag.RockKey) (b :: StreetRun.Snag.RockKey) ->
+                 case b of wild { StreetRun.Snag.RockKey'Idle ->
+                 case a of wild1 { StreetRun.Snag.RockKey'Idle ->
+                 GHC.Types.True } }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fOrdRockKey_$c> ::
+    StreetRun.Snag.RockKey -> StreetRun.Snag.RockKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Snag.RockKey) (b :: StreetRun.Snag.RockKey) ->
+                 case b of wild { StreetRun.Snag.RockKey'Idle ->
+                 case a of wild1 { StreetRun.Snag.RockKey'Idle ->
+                 GHC.Types.False } }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fOrdRockKey_$ccompare ::
+    StreetRun.Snag.RockKey
+    -> StreetRun.Snag.RockKey -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Snag.RockKey) (b :: StreetRun.Snag.RockKey) ->
+                 case a of wild { StreetRun.Snag.RockKey'Idle ->
+                 case b of wild1 { StreetRun.Snag.RockKey'Idle ->
+                 GHC.Types.EQ } }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fOrdRockKey_$cmax ::
+    StreetRun.Snag.RockKey
+    -> StreetRun.Snag.RockKey -> StreetRun.Snag.RockKey
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U()><S,1*H>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: StreetRun.Snag.RockKey) (y :: StreetRun.Snag.RockKey) ->
+                 case y of wild { StreetRun.Snag.RockKey'Idle -> x }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fShowBirdKey :: GHC.Show.Show StreetRun.Snag.BirdKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.BirdKey
+                  StreetRun.Snag.$fShowBirdKey_$cshowsPrec
+                  StreetRun.Snag.$fShowBirdKey_$cshow
+                  StreetRun.Snag.$fShowBirdKey_$cshowList -}
+a4b9334f1959d8eda311a05a86034c88
+  $fShowBirdKey1 :: StreetRun.Snag.BirdKey -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*H><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Snag.BirdKey) (eta :: GHC.Base.String) ->
+                 case ds of wild { StreetRun.Snag.BirdKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Snag.$fShowBirdKey2)
+                   eta }) -}
+6d1e562b06c151b0fe48da0f2d277633
+  $fShowBirdKey2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Snag.$fShowBirdKey3) -}
+b5a1d2600d0dd45a537469cfbee71ba5
+  $fShowBirdKey3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("BirdKey'Idle"#) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fShowBirdKey_$cshow :: StreetRun.Snag.BirdKey -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Snag.BirdKey) ->
+                 case x of wild { StreetRun.Snag.BirdKey'Idle ->
+                 StreetRun.Snag.$fShowBirdKey2 }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fShowBirdKey_$cshowList ::
+    [StreetRun.Snag.BirdKey] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Snag.BirdKey]) (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Snag.BirdKey
+                   StreetRun.Snag.$fShowBirdKey1
+                   ls
+                   s) -}
+a4b9334f1959d8eda311a05a86034c88
+  $fShowBirdKey_$cshowsPrec ::
+    GHC.Types.Int -> StreetRun.Snag.BirdKey -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*H><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: GHC.Types.Int)
+                   (ds1 :: StreetRun.Snag.BirdKey)
+                   (eta :: GHC.Base.String) ->
+                 case ds1 of wild { StreetRun.Snag.BirdKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Snag.$fShowBirdKey2)
+                   eta }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fShowLavaKey :: GHC.Show.Show StreetRun.Snag.LavaKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.LavaKey
+                  StreetRun.Snag.$fShowLavaKey_$cshowsPrec
+                  StreetRun.Snag.$fShowLavaKey_$cshow
+                  StreetRun.Snag.$fShowLavaKey_$cshowList -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fShowLavaKey1 :: StreetRun.Snag.LavaKey -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*H><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Snag.LavaKey) (eta :: GHC.Base.String) ->
+                 case ds of wild { StreetRun.Snag.LavaKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Snag.$fShowLavaKey2)
+                   eta }) -}
+ebecae9399df4329d75b41cfe0298400
+  $fShowLavaKey2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Snag.$fShowLavaKey3) -}
+6296e325ad195f600870a55199782f19
+  $fShowLavaKey3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("LavaKey'Idle"#) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fShowLavaKey_$cshow :: StreetRun.Snag.LavaKey -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Snag.LavaKey) ->
+                 case x of wild { StreetRun.Snag.LavaKey'Idle ->
+                 StreetRun.Snag.$fShowLavaKey2 }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fShowLavaKey_$cshowList ::
+    [StreetRun.Snag.LavaKey] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Snag.LavaKey]) (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Snag.LavaKey
+                   StreetRun.Snag.$fShowLavaKey1
+                   ls
+                   s) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $fShowLavaKey_$cshowsPrec ::
+    GHC.Types.Int -> StreetRun.Snag.LavaKey -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*H><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: GHC.Types.Int)
+                   (ds1 :: StreetRun.Snag.LavaKey)
+                   (eta :: GHC.Base.String) ->
+                 case ds1 of wild { StreetRun.Snag.LavaKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Snag.$fShowLavaKey2)
+                   eta }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fShowRockKey :: GHC.Show.Show StreetRun.Snag.RockKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Snag.RockKey
+                  StreetRun.Snag.$fShowRockKey_$cshowsPrec
+                  StreetRun.Snag.$fShowRockKey_$cshow
+                  StreetRun.Snag.$fShowRockKey_$cshowList -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fShowRockKey1 :: StreetRun.Snag.RockKey -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*H><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Snag.RockKey) (eta :: GHC.Base.String) ->
+                 case ds of wild { StreetRun.Snag.RockKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Snag.$fShowRockKey2)
+                   eta }) -}
+973a81df7d38a1d10ca9c9048157144e
+  $fShowRockKey2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Snag.$fShowRockKey3) -}
+d341fb2f5c26099161ae9e005c2df024
+  $fShowRockKey3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("RockKey'Idle"#) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fShowRockKey_$cshow :: StreetRun.Snag.RockKey -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Snag.RockKey) ->
+                 case x of wild { StreetRun.Snag.RockKey'Idle ->
+                 StreetRun.Snag.$fShowRockKey2 }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fShowRockKey_$cshowList ::
+    [StreetRun.Snag.RockKey] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Snag.RockKey]) (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Snag.RockKey
+                   StreetRun.Snag.$fShowRockKey1
+                   ls
+                   s) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $fShowRockKey_$cshowsPrec ::
+    GHC.Types.Int -> StreetRun.Snag.RockKey -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*H><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: GHC.Types.Int)
+                   (ds1 :: StreetRun.Snag.RockKey)
+                   (eta :: GHC.Base.String) ->
+                 case ds1 of wild { StreetRun.Snag.RockKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Snag.$fShowRockKey2)
+                   eta }) -}
+f1914bc53715e2aa7d1d6d1fe9783b5a
+  $tc'BirdKey'Idle :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   8752393879790397743##
+                   15047896601812277059##
+                   StreetRun.Snag.$trModule
+                   StreetRun.Snag.$tc'BirdKey'Idle2
+                   0#
+                   StreetRun.Snag.$tc'BirdKey'Idle1) -}
+5935c3607345dc3ed4ef5041a1ccfc73
+  $tc'BirdKey'Idle1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+c2e8d8ac31bd711138f9c053333def93
+  $tc'BirdKey'Idle2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Snag.$tc'BirdKey'Idle3) -}
+eb7a53dc3d5ad9267f24f0bdc840d16e
+  $tc'BirdKey'Idle3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'BirdKey'Idle"#) -}
+04bd4b894d69634d6f06d41ec9cf178b
+  $tc'LavaKey'Idle :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   260174897741197507##
+                   4908539529997844181##
+                   StreetRun.Snag.$trModule
+                   StreetRun.Snag.$tc'LavaKey'Idle2
+                   0#
+                   StreetRun.Snag.$tc'LavaKey'Idle1) -}
+c6e6a6b7d9a7cab40096cfc3dc92d928
+  $tc'LavaKey'Idle1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+d14d60a3bcec54214ab8656eb7d525b4
+  $tc'LavaKey'Idle2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Snag.$tc'LavaKey'Idle3) -}
+8457638bd3c91e5782f11a5265d5cb33
+  $tc'LavaKey'Idle3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'LavaKey'Idle"#) -}
+6b4bf52f1e06235de2f988ef21b41889
+  $tc'RockKey'Idle :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12094956523709126603##
+                   1114109855002306765##
+                   StreetRun.Snag.$trModule
+                   StreetRun.Snag.$tc'RockKey'Idle2
+                   0#
+                   StreetRun.Snag.$tc'RockKey'Idle1) -}
+b5d6422fbafa542d0728c6f0a2f574ad
+  $tc'RockKey'Idle1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+f9f6b9897ee416043e01eb91ce4d0d12
+  $tc'RockKey'Idle2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Snag.$tc'RockKey'Idle3) -}
+fa7e6ab613f25ac1be8f585431dd4ee8
+  $tc'RockKey'Idle3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'RockKey'Idle"#) -}
+07b72b6164ccd2a97ce6b3b7d1bbc4a8
+  $tcBirdKey :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   14004179737705045924##
+                   6702149456664800319##
+                   StreetRun.Snag.$trModule
+                   StreetRun.Snag.$tcBirdKey1
+                   0#
+                   GHC.Types.krep$*) -}
+226a04e2ff7c48cd375edefbc0985287
+  $tcBirdKey1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Snag.$tcBirdKey2) -}
+1db4842ddff7d6b3ac0126f408343e77
+  $tcBirdKey2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("BirdKey"#) -}
+ea4db6f9b69178d7faaade3459c7d105
+  $tcLavaKey :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7349983375320153485##
+                   4903477329885882783##
+                   StreetRun.Snag.$trModule
+                   StreetRun.Snag.$tcLavaKey1
+                   0#
+                   GHC.Types.krep$*) -}
+cbed265cc1ac39031c886a4d327fb32c
+  $tcLavaKey1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Snag.$tcLavaKey2) -}
+ceef43a96a658e58faf41af59908232c
+  $tcLavaKey2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("LavaKey"#) -}
+1c559a8802318cb97df0b4ceb03d5202
+  $tcRockKey :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   18247992215897799552##
+                   7631452153808890704##
+                   StreetRun.Snag.$trModule
+                   StreetRun.Snag.$tcRockKey1
+                   0#
+                   GHC.Types.krep$*) -}
+bdff31a6943892ee113197bdb59cde2f
+  $tcRockKey1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Snag.$tcRockKey2) -}
+49dfcd31765b051699611d318a57ebcc
+  $tcRockKey2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("RockKey"#) -}
+136ed4894f9649ef440ffbc3c42cd27b
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Snag.$trModule3
+                   StreetRun.Snag.$trModule1) -}
+4d24ac46c96e85359f0a6d6fdcfae4b2
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Snag.$trModule2) -}
+22002e63352c0d519d3bc91164d6c7aa
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Snag"#) -}
+4b570090426a59bc573d46217dcc8f33
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Snag.$trModule4) -}
+de1dc14ee74b4cb51e77ca473a661a91
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+a4b9334f1959d8eda311a05a86034c88
+  $w$ctoEnum :: GHC.Prim.Int# -> StreetRun.Snag.BirdKey
+  {- Arity: 1, Strictness: <S,U>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.>=# ww 0# of lwild {
+                   DEFAULT -> StreetRun.Snag.$wlvl ww
+                   1#
+                   -> case GHC.Prim.<=# ww 0# of lwild1 {
+                        DEFAULT -> StreetRun.Snag.$wlvl ww
+                        1# -> GHC.Prim.tagToEnum# @ StreetRun.Snag.BirdKey ww } }) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $w$ctoEnum1 :: GHC.Prim.Int# -> StreetRun.Snag.LavaKey
+  {- Arity: 1, Strictness: <S,U>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.>=# ww 0# of lwild {
+                   DEFAULT -> StreetRun.Snag.$wlvl1 ww
+                   1#
+                   -> case GHC.Prim.<=# ww 0# of lwild1 {
+                        DEFAULT -> StreetRun.Snag.$wlvl1 ww
+                        1# -> GHC.Prim.tagToEnum# @ StreetRun.Snag.LavaKey ww } }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $w$ctoEnum2 :: GHC.Prim.Int# -> StreetRun.Snag.RockKey
+  {- Arity: 1, Strictness: <S,U>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.>=# ww 0# of lwild {
+                   DEFAULT -> StreetRun.Snag.$wlvl2 ww
+                   1#
+                   -> case GHC.Prim.<=# ww 0# of lwild1 {
+                        DEFAULT -> StreetRun.Snag.$wlvl2 ww
+                        1# -> GHC.Prim.tagToEnum# @ StreetRun.Snag.RockKey ww } }) -}
+a4b9334f1959d8eda311a05a86034c88
+  $wlvl :: GHC.Prim.Int# -> StreetRun.Snag.BirdKey
+  {- Arity: 1, Strictness: <B,U>x, Inline: [2] -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  $wlvl1 :: GHC.Prim.Int# -> StreetRun.Snag.LavaKey
+  {- Arity: 1, Strictness: <B,U>x, Inline: [2] -}
+a1efaaa0d94a0294a7825caa774f65b1
+  $wlvl2 :: GHC.Prim.Int# -> StreetRun.Snag.RockKey
+  {- Arity: 1, Strictness: <B,U>x, Inline: [2] -}
+a4b9334f1959d8eda311a05a86034c88
+  data BirdKey = BirdKey'Idle
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  data LavaKey = LavaKey'Idle
+a1efaaa0d94a0294a7825caa774f65b1
+  data RockKey = RockKey'Idle
+a4b9334f1959d8eda311a05a86034c88
+  birdKey'keyName ::
+    StreetRun.Snag.BirdKey -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Snag.BirdKey) ->
+                 case ds of wild { StreetRun.Snag.BirdKey'Idle ->
+                 StreetRun.Snag.birdKey'keyName1 }) -}
+fa0f4ae57f216bf57746e8116ba404a0
+  birdKey'keyName1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   StreetRun.Snag.birdKey'keyName2) -}
+0be3ee6014141cd613f1efbc5722b016
+  birdKey'keyName2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Idle"#) -}
+ef15a7c1dcf7c6d0c02947b3c6d55574
+  lavaKey'keyName ::
+    StreetRun.Snag.LavaKey -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Snag.LavaKey) ->
+                 case ds of wild { StreetRun.Snag.LavaKey'Idle ->
+                 StreetRun.Snag.birdKey'keyName1 }) -}
+a1efaaa0d94a0294a7825caa774f65b1
+  rockKey'keyName ::
+    StreetRun.Snag.RockKey -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Snag.RockKey) ->
+                 case ds of wild { StreetRun.Snag.RockKey'Idle ->
+                 StreetRun.Snag.birdKey'keyName1 }) -}
+instance GHC.Enum.Bounded [StreetRun.Snag.BirdKey]
+  = StreetRun.Snag.$fBoundedBirdKey
+instance GHC.Enum.Bounded [StreetRun.Snag.LavaKey]
+  = StreetRun.Snag.$fBoundedLavaKey
+instance GHC.Enum.Bounded [StreetRun.Snag.RockKey]
+  = StreetRun.Snag.$fBoundedRockKey
+instance GHC.Enum.Enum [StreetRun.Snag.BirdKey]
+  = StreetRun.Snag.$fEnumBirdKey
+instance GHC.Enum.Enum [StreetRun.Snag.LavaKey]
+  = StreetRun.Snag.$fEnumLavaKey
+instance GHC.Enum.Enum [StreetRun.Snag.RockKey]
+  = StreetRun.Snag.$fEnumRockKey
+instance GHC.Classes.Eq [StreetRun.Snag.BirdKey]
+  = StreetRun.Snag.$fEqBirdKey
+instance GHC.Classes.Eq [StreetRun.Snag.LavaKey]
+  = StreetRun.Snag.$fEqLavaKey
+instance GHC.Classes.Eq [StreetRun.Snag.RockKey]
+  = StreetRun.Snag.$fEqRockKey
+instance Animate.KeyName [StreetRun.Snag.BirdKey]
+  = StreetRun.Snag.$fKeyNameBirdKey
+instance Animate.KeyName [StreetRun.Snag.LavaKey]
+  = StreetRun.Snag.$fKeyNameLavaKey
+instance Animate.KeyName [StreetRun.Snag.RockKey]
+  = StreetRun.Snag.$fKeyNameRockKey
+instance GHC.Classes.Ord [StreetRun.Snag.BirdKey]
+  = StreetRun.Snag.$fOrdBirdKey
+instance GHC.Classes.Ord [StreetRun.Snag.LavaKey]
+  = StreetRun.Snag.$fOrdLavaKey
+instance GHC.Classes.Ord [StreetRun.Snag.RockKey]
+  = StreetRun.Snag.$fOrdRockKey
+instance GHC.Show.Show [StreetRun.Snag.BirdKey]
+  = StreetRun.Snag.$fShowBirdKey
+instance GHC.Show.Show [StreetRun.Snag.LavaKey]
+  = StreetRun.Snag.$fShowLavaKey
+instance GHC.Show.Show [StreetRun.Snag.RockKey]
+  = StreetRun.Snag.$fShowRockKey
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

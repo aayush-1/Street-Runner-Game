@@ -1,0 +1,1264 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 22:26:36.035506198 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Scenario 8064
+  interface hash: 385ec340440e32277182313d4c5c62b0
+  ABI hash: 3d565e4d4fcefb40de1d348ddc5508f1
+  export-list hash: 425f740a4cf1b868d9284521ed68ce1e
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: cd6997935d09daa6a687cb8eb0447281
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Scenario.buildingKey'keyName
+  StreetRun.Scenario.grassKey'keyName
+  StreetRun.Scenario.BuildingKey{StreetRun.Scenario.BuildingKey'Idle}
+  StreetRun.Scenario.GrassKey{StreetRun.Scenario.GrassKey'Idle}
+  StreetRun.Scenario.Scene{StreetRun.Scenario.Scene'Death StreetRun.Scenario.Scene'GameOver StreetRun.Scenario.Scene'Pause StreetRun.Scenario.Scene'Play StreetRun.Scenario.Scene'Quit StreetRun.Scenario.Scene'Title}
+module dependencies:
+package dependencies: aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0
+                      attoparsec-0.13.2.2 base-4.12.0.0 base-compat-0.10.5 binary-0.8.6.0
+                      bytestring-0.10.8.2 conduit-1.3.1.1 containers-0.6.0.1
+                      deepseq-1.4.4.0 dlist-0.8.0.6 exceptions-0.10.1 ghc-boot-th-8.6.4
+                      ghc-prim-0.5.3 hashable-1.2.7.0 integer-gmp-1.0.2.0
+                      integer-logarithms-1.0.2.2 libyaml-0.1.1.0 mtl-2.2.2
+                      primitive-0.6.4.0 random-1.1 resourcet-1.2.2 scientific-0.3.6.2
+                      stm-2.5.0.0 tagged-0.8.6 template-haskell-2.14.0.0 text-1.2.3.1
+                      time-1.8.0.2 time-locale-compat-0.1.1.5 transformers-0.5.6.2
+                      unliftio-core-0.1.2.0 unordered-containers-0.2.9.0 uuid-types-1.0.3
+                      vector-0.12.0.2 yaml-0.11.0.0
+orphans: stm-2.5.0.0:Control.Monad.STM
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.2:Data.Vector.Unboxed
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: aeson-1.4.2.0:Data.Aeson.Types.Internal
+                         animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Enum 87204abed08db8735fc0be5ab48689aa
+import  -/  base-4.12.0.0:GHC.Err ea5e313ef4146b40b5d8b27aa168e736
+import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
+import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
+import  -/  text-1.2.3.1:Data.Text 1e51a010d8f8a6fa41d8ea82d69faf13
+import  -/  text-1.2.3.1:Data.Text.Internal 537e168590e8068f673f691833f78483
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fBoundedBuildingKey ::
+    GHC.Enum.Bounded StreetRun.Scenario.BuildingKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Scenario.BuildingKey
+                  StreetRun.Scenario.BuildingKey'Idle
+                  StreetRun.Scenario.BuildingKey'Idle -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fBoundedGrassKey :: GHC.Enum.Bounded StreetRun.Scenario.GrassKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Scenario.GrassKey
+                  StreetRun.Scenario.GrassKey'Idle
+                  StreetRun.Scenario.GrassKey'Idle -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey :: GHC.Enum.Enum StreetRun.Scenario.BuildingKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Scenario.BuildingKey
+                  StreetRun.Scenario.$fEnumBuildingKey_$csucc
+                  StreetRun.Scenario.$fEnumBuildingKey_$cpred
+                  StreetRun.Scenario.$fEnumBuildingKey_$ctoEnum
+                  StreetRun.Scenario.$fEnumBuildingKey_$cfromEnum
+                  StreetRun.Scenario.$fEnumBuildingKey_$cenumFrom
+                  StreetRun.Scenario.$fEnumBuildingKey_$cenumFromThen
+                  StreetRun.Scenario.$fEnumBuildingKey_$cenumFromTo
+                  StreetRun.Scenario.$fEnumBuildingKey_$cenumFromThenTo -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey1 :: [StreetRun.Scenario.BuildingKey]
+  {- Unfolding: (StreetRun.Scenario.$fEnumBuildingKey_go_up 0#) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey2 :: [StreetRun.Scenario.BuildingKey]
+  {- Unfolding: (StreetRun.Scenario.$fEnumBuildingKey_go 0#) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey3 :: [StreetRun.Scenario.BuildingKey]
+  {- Unfolding: (StreetRun.Scenario.$fEnumBuildingKey_go1 0#) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey4 :: StreetRun.Scenario.BuildingKey
+  {- Strictness: x -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey5 :: StreetRun.Scenario.BuildingKey
+  {- Strictness: x -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey_$cenumFrom ::
+    StreetRun.Scenario.BuildingKey -> [StreetRun.Scenario.BuildingKey]
+  {- Arity: 1, Strictness: <S,1*H>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: StreetRun.Scenario.BuildingKey) ->
+                 case w of w1 { StreetRun.Scenario.BuildingKey'Idle ->
+                 StreetRun.Scenario.$fEnumBuildingKey3 }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey_$cenumFromThen ::
+    StreetRun.Scenario.BuildingKey
+    -> StreetRun.Scenario.BuildingKey
+    -> [StreetRun.Scenario.BuildingKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Scenario.BuildingKey)
+                   (w1 :: StreetRun.Scenario.BuildingKey) ->
+                 case w of w2 { StreetRun.Scenario.BuildingKey'Idle ->
+                 case w1 of w3 { StreetRun.Scenario.BuildingKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Scenario.BuildingKey
+                   StreetRun.Scenario.BuildingKey'Idle
+                   (letrec {
+                      go_up2 :: GHC.Prim.Int# -> [StreetRun.Scenario.BuildingKey]
+                        {- Arity: 1, Strictness: <S,U> -}
+                      = \ (x :: GHC.Prim.Int#) ->
+                        case GHC.Prim.># x 0# of lwild1 {
+                          DEFAULT
+                          -> GHC.Types.:
+                               @ StreetRun.Scenario.BuildingKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Scenario.BuildingKey x)
+                               (go_up2 x)
+                          1#
+                          -> GHC.Types.:
+                               @ StreetRun.Scenario.BuildingKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Scenario.BuildingKey x)
+                               (GHC.Types.[] @ StreetRun.Scenario.BuildingKey) }
+                    } in
+                    go_up2 0#) } }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey_$cenumFromThenTo ::
+    StreetRun.Scenario.BuildingKey
+    -> StreetRun.Scenario.BuildingKey
+    -> StreetRun.Scenario.BuildingKey
+    -> [StreetRun.Scenario.BuildingKey]
+  {- Arity: 3, Strictness: <S,1*H><S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: StreetRun.Scenario.BuildingKey)
+                   (w1 :: StreetRun.Scenario.BuildingKey)
+                   (w2 :: StreetRun.Scenario.BuildingKey) ->
+                 case w of w3 { StreetRun.Scenario.BuildingKey'Idle ->
+                 case w1 of w4 { StreetRun.Scenario.BuildingKey'Idle ->
+                 case w2 of w5 { StreetRun.Scenario.BuildingKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Scenario.BuildingKey
+                   StreetRun.Scenario.BuildingKey'Idle
+                   StreetRun.Scenario.$fEnumBuildingKey1 } } }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey_$cenumFromTo ::
+    StreetRun.Scenario.BuildingKey
+    -> StreetRun.Scenario.BuildingKey
+    -> [StreetRun.Scenario.BuildingKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Scenario.BuildingKey)
+                   (w1 :: StreetRun.Scenario.BuildingKey) ->
+                 case w of w2 { StreetRun.Scenario.BuildingKey'Idle ->
+                 case w1 of w3 { StreetRun.Scenario.BuildingKey'Idle ->
+                 StreetRun.Scenario.$fEnumBuildingKey2 } }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey_$cfromEnum ::
+    StreetRun.Scenario.BuildingKey -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*H>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Scenario.BuildingKey) ->
+                 case a of wild { StreetRun.Scenario.BuildingKey'Idle ->
+                 GHC.Types.I# 0# }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey_$cpred ::
+    StreetRun.Scenario.BuildingKey -> StreetRun.Scenario.BuildingKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Scenario.BuildingKey) ->
+                 case a of wild { StreetRun.Scenario.BuildingKey'Idle ->
+                 StreetRun.Scenario.$fEnumBuildingKey4 }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey_$csucc ::
+    StreetRun.Scenario.BuildingKey -> StreetRun.Scenario.BuildingKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Scenario.BuildingKey) ->
+                 case a of wild { StreetRun.Scenario.BuildingKey'Idle ->
+                 StreetRun.Scenario.$fEnumBuildingKey5 }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey_$ctoEnum ::
+    GHC.Types.Int -> StreetRun.Scenario.BuildingKey
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 StreetRun.Scenario.$w$ctoEnum ww1 }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey_go ::
+    GHC.Prim.Int# -> [StreetRun.Scenario.BuildingKey]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey_go1 ::
+    GHC.Prim.Int# -> [StreetRun.Scenario.BuildingKey]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEnumBuildingKey_go_up ::
+    GHC.Prim.Int# -> [StreetRun.Scenario.BuildingKey]
+  {- Arity: 1, Strictness: <S,U>m2 -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey :: GHC.Enum.Enum StreetRun.Scenario.GrassKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Scenario.GrassKey
+                  StreetRun.Scenario.$fEnumGrassKey_$csucc
+                  StreetRun.Scenario.$fEnumGrassKey_$cpred
+                  StreetRun.Scenario.$fEnumGrassKey_$ctoEnum
+                  StreetRun.Scenario.$fEnumGrassKey_$cfromEnum
+                  StreetRun.Scenario.$fEnumGrassKey_$cenumFrom
+                  StreetRun.Scenario.$fEnumGrassKey_$cenumFromThen
+                  StreetRun.Scenario.$fEnumGrassKey_$cenumFromTo
+                  StreetRun.Scenario.$fEnumGrassKey_$cenumFromThenTo -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey1 :: [StreetRun.Scenario.GrassKey]
+  {- Unfolding: (StreetRun.Scenario.$fEnumGrassKey_go_up 0#) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey2 :: [StreetRun.Scenario.GrassKey]
+  {- Unfolding: (StreetRun.Scenario.$fEnumGrassKey_go 0#) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey3 :: [StreetRun.Scenario.GrassKey]
+  {- Unfolding: (StreetRun.Scenario.$fEnumGrassKey_go1 0#) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey4 :: StreetRun.Scenario.GrassKey
+  {- Strictness: x -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey5 :: StreetRun.Scenario.GrassKey
+  {- Strictness: x -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey_$cenumFrom ::
+    StreetRun.Scenario.GrassKey -> [StreetRun.Scenario.GrassKey]
+  {- Arity: 1, Strictness: <S,1*H>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: StreetRun.Scenario.GrassKey) ->
+                 case w of w1 { StreetRun.Scenario.GrassKey'Idle ->
+                 StreetRun.Scenario.$fEnumGrassKey3 }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey_$cenumFromThen ::
+    StreetRun.Scenario.GrassKey
+    -> StreetRun.Scenario.GrassKey -> [StreetRun.Scenario.GrassKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Scenario.GrassKey)
+                   (w1 :: StreetRun.Scenario.GrassKey) ->
+                 case w of w2 { StreetRun.Scenario.GrassKey'Idle ->
+                 case w1 of w3 { StreetRun.Scenario.GrassKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Scenario.GrassKey
+                   StreetRun.Scenario.GrassKey'Idle
+                   (letrec {
+                      go_up2 :: GHC.Prim.Int# -> [StreetRun.Scenario.GrassKey]
+                        {- Arity: 1, Strictness: <S,U> -}
+                      = \ (x :: GHC.Prim.Int#) ->
+                        case GHC.Prim.># x 0# of lwild1 {
+                          DEFAULT
+                          -> GHC.Types.:
+                               @ StreetRun.Scenario.GrassKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Scenario.GrassKey x)
+                               (go_up2 x)
+                          1#
+                          -> GHC.Types.:
+                               @ StreetRun.Scenario.GrassKey
+                               (GHC.Prim.tagToEnum# @ StreetRun.Scenario.GrassKey x)
+                               (GHC.Types.[] @ StreetRun.Scenario.GrassKey) }
+                    } in
+                    go_up2 0#) } }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey_$cenumFromThenTo ::
+    StreetRun.Scenario.GrassKey
+    -> StreetRun.Scenario.GrassKey
+    -> StreetRun.Scenario.GrassKey
+    -> [StreetRun.Scenario.GrassKey]
+  {- Arity: 3, Strictness: <S,1*H><S,1*H><S,1*H>m2, Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: StreetRun.Scenario.GrassKey)
+                   (w1 :: StreetRun.Scenario.GrassKey)
+                   (w2 :: StreetRun.Scenario.GrassKey) ->
+                 case w of w3 { StreetRun.Scenario.GrassKey'Idle ->
+                 case w1 of w4 { StreetRun.Scenario.GrassKey'Idle ->
+                 case w2 of w5 { StreetRun.Scenario.GrassKey'Idle ->
+                 GHC.Types.:
+                   @ StreetRun.Scenario.GrassKey
+                   StreetRun.Scenario.GrassKey'Idle
+                   StreetRun.Scenario.$fEnumGrassKey1 } } }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey_$cenumFromTo ::
+    StreetRun.Scenario.GrassKey
+    -> StreetRun.Scenario.GrassKey -> [StreetRun.Scenario.GrassKey]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>, Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: StreetRun.Scenario.GrassKey)
+                   (w1 :: StreetRun.Scenario.GrassKey) ->
+                 case w of w2 { StreetRun.Scenario.GrassKey'Idle ->
+                 case w1 of w3 { StreetRun.Scenario.GrassKey'Idle ->
+                 StreetRun.Scenario.$fEnumGrassKey2 } }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey_$cfromEnum ::
+    StreetRun.Scenario.GrassKey -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*H>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Scenario.GrassKey) ->
+                 case a of wild { StreetRun.Scenario.GrassKey'Idle ->
+                 GHC.Types.I# 0# }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey_$cpred ::
+    StreetRun.Scenario.GrassKey -> StreetRun.Scenario.GrassKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Scenario.GrassKey) ->
+                 case a of wild { StreetRun.Scenario.GrassKey'Idle ->
+                 StreetRun.Scenario.$fEnumGrassKey4 }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey_$csucc ::
+    StreetRun.Scenario.GrassKey -> StreetRun.Scenario.GrassKey
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: StreetRun.Scenario.GrassKey) ->
+                 case a of wild { StreetRun.Scenario.GrassKey'Idle ->
+                 StreetRun.Scenario.$fEnumGrassKey5 }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey_$ctoEnum ::
+    GHC.Types.Int -> StreetRun.Scenario.GrassKey
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 StreetRun.Scenario.$w$ctoEnum1 ww1 }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey_go :: GHC.Prim.Int# -> [StreetRun.Scenario.GrassKey]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey_go1 ::
+    GHC.Prim.Int# -> [StreetRun.Scenario.GrassKey]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEnumGrassKey_go_up ::
+    GHC.Prim.Int# -> [StreetRun.Scenario.GrassKey]
+  {- Arity: 1, Strictness: <S,U>m2 -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEqBuildingKey :: GHC.Classes.Eq StreetRun.Scenario.BuildingKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Scenario.BuildingKey
+                  StreetRun.Scenario.$fEqBuildingKey_$c==
+                  StreetRun.Scenario.$fEqBuildingKey_$c/= -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEqBuildingKey_$c/= ::
+    StreetRun.Scenario.BuildingKey
+    -> StreetRun.Scenario.BuildingKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Scenario.BuildingKey)
+                   (y :: StreetRun.Scenario.BuildingKey) ->
+                 case x of wild { StreetRun.Scenario.BuildingKey'Idle ->
+                 case y of wild1 { StreetRun.Scenario.BuildingKey'Idle ->
+                 GHC.Types.False } }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fEqBuildingKey_$c== ::
+    StreetRun.Scenario.BuildingKey
+    -> StreetRun.Scenario.BuildingKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Scenario.BuildingKey)
+                   (ds1 :: StreetRun.Scenario.BuildingKey) ->
+                 case ds of wild { StreetRun.Scenario.BuildingKey'Idle ->
+                 case ds1 of wild1 { StreetRun.Scenario.BuildingKey'Idle ->
+                 GHC.Types.True } }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEqGrassKey :: GHC.Classes.Eq StreetRun.Scenario.GrassKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Scenario.GrassKey
+                  StreetRun.Scenario.$fEqGrassKey_$c==
+                  StreetRun.Scenario.$fEqGrassKey_$c/= -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEqGrassKey_$c/= ::
+    StreetRun.Scenario.GrassKey
+    -> StreetRun.Scenario.GrassKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Scenario.GrassKey)
+                   (y :: StreetRun.Scenario.GrassKey) ->
+                 case x of wild { StreetRun.Scenario.GrassKey'Idle ->
+                 case y of wild1 { StreetRun.Scenario.GrassKey'Idle ->
+                 GHC.Types.False } }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fEqGrassKey_$c== ::
+    StreetRun.Scenario.GrassKey
+    -> StreetRun.Scenario.GrassKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Scenario.GrassKey)
+                   (ds1 :: StreetRun.Scenario.GrassKey) ->
+                 case ds of wild { StreetRun.Scenario.GrassKey'Idle ->
+                 case ds1 of wild1 { StreetRun.Scenario.GrassKey'Idle ->
+                 GHC.Types.True } }) -}
+2e1ce41e910869afacfce973e9cfb6ac
+  $fEqScene :: GHC.Classes.Eq StreetRun.Scenario.Scene
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Scenario.Scene
+                  StreetRun.Scenario.$fEqScene_$c==
+                  StreetRun.Scenario.$fEqScene_$c/= -}
+2e1ce41e910869afacfce973e9cfb6ac
+  $fEqScene_$c/= ::
+    StreetRun.Scenario.Scene
+    -> StreetRun.Scenario.Scene -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: StreetRun.Scenario.Scene)
+                   (y :: StreetRun.Scenario.Scene) ->
+                 case x of wild {
+                   StreetRun.Scenario.Scene'Title
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Scenario.Scene'Title -> GHC.Types.False }
+                   StreetRun.Scenario.Scene'Play
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Scenario.Scene'Play -> GHC.Types.False }
+                   StreetRun.Scenario.Scene'Pause
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Scenario.Scene'Pause -> GHC.Types.False }
+                   StreetRun.Scenario.Scene'Death
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Scenario.Scene'Death -> GHC.Types.False }
+                   StreetRun.Scenario.Scene'GameOver
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Scenario.Scene'GameOver -> GHC.Types.False }
+                   StreetRun.Scenario.Scene'Quit
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        StreetRun.Scenario.Scene'Quit -> GHC.Types.False } }) -}
+2e1ce41e910869afacfce973e9cfb6ac
+  $fEqScene_$c== ::
+    StreetRun.Scenario.Scene
+    -> StreetRun.Scenario.Scene -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (ds :: StreetRun.Scenario.Scene)
+                   (ds1 :: StreetRun.Scenario.Scene) ->
+                 case ds of wild {
+                   StreetRun.Scenario.Scene'Title
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Scenario.Scene'Title -> GHC.Types.True }
+                   StreetRun.Scenario.Scene'Play
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Scenario.Scene'Play -> GHC.Types.True }
+                   StreetRun.Scenario.Scene'Pause
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Scenario.Scene'Pause -> GHC.Types.True }
+                   StreetRun.Scenario.Scene'Death
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Scenario.Scene'Death -> GHC.Types.True }
+                   StreetRun.Scenario.Scene'GameOver
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Scenario.Scene'GameOver -> GHC.Types.True }
+                   StreetRun.Scenario.Scene'Quit
+                   -> case ds1 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        StreetRun.Scenario.Scene'Quit -> GHC.Types.True } }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fKeyNameBuildingKey ::
+    Animate.KeyName StreetRun.Scenario.BuildingKey
+  DFunId
+  {- Arity: 1, Strictness: <S,1*H>, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                StreetRun.Scenario.buildingKey'keyName
+                  `cast`
+                (Sym (Animate.N:KeyName[0] <StreetRun.Scenario.BuildingKey>_N)) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fKeyNameGrassKey :: Animate.KeyName StreetRun.Scenario.GrassKey
+  DFunId
+  {- Arity: 1, Strictness: <S,1*H>, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                StreetRun.Scenario.grassKey'keyName
+                  `cast`
+                (Sym (Animate.N:KeyName[0] <StreetRun.Scenario.GrassKey>_N)) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fOrdBuildingKey :: GHC.Classes.Ord StreetRun.Scenario.BuildingKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Scenario.BuildingKey
+                  StreetRun.Scenario.$fEqBuildingKey
+                  StreetRun.Scenario.$fOrdBuildingKey_$ccompare
+                  StreetRun.Scenario.$fOrdBuildingKey_$c<
+                  StreetRun.Scenario.$fOrdBuildingKey_$c<=
+                  StreetRun.Scenario.$fOrdBuildingKey_$c>
+                  StreetRun.Scenario.$fEqBuildingKey_$c==
+                  StreetRun.Scenario.$fOrdBuildingKey_$cmax
+                  StreetRun.Scenario.$fOrdBuildingKey_$cmax -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fOrdBuildingKey_$c< ::
+    StreetRun.Scenario.BuildingKey
+    -> StreetRun.Scenario.BuildingKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Scenario.BuildingKey)
+                   (b :: StreetRun.Scenario.BuildingKey) ->
+                 case a of wild { StreetRun.Scenario.BuildingKey'Idle ->
+                 case b of wild1 { StreetRun.Scenario.BuildingKey'Idle ->
+                 GHC.Types.False } }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fOrdBuildingKey_$c<= ::
+    StreetRun.Scenario.BuildingKey
+    -> StreetRun.Scenario.BuildingKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Scenario.BuildingKey)
+                   (b :: StreetRun.Scenario.BuildingKey) ->
+                 case b of wild { StreetRun.Scenario.BuildingKey'Idle ->
+                 case a of wild1 { StreetRun.Scenario.BuildingKey'Idle ->
+                 GHC.Types.True } }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fOrdBuildingKey_$c> ::
+    StreetRun.Scenario.BuildingKey
+    -> StreetRun.Scenario.BuildingKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Scenario.BuildingKey)
+                   (b :: StreetRun.Scenario.BuildingKey) ->
+                 case b of wild { StreetRun.Scenario.BuildingKey'Idle ->
+                 case a of wild1 { StreetRun.Scenario.BuildingKey'Idle ->
+                 GHC.Types.False } }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fOrdBuildingKey_$ccompare ::
+    StreetRun.Scenario.BuildingKey
+    -> StreetRun.Scenario.BuildingKey -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Scenario.BuildingKey)
+                   (b :: StreetRun.Scenario.BuildingKey) ->
+                 case a of wild { StreetRun.Scenario.BuildingKey'Idle ->
+                 case b of wild1 { StreetRun.Scenario.BuildingKey'Idle ->
+                 GHC.Types.EQ } }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fOrdBuildingKey_$cmax ::
+    StreetRun.Scenario.BuildingKey
+    -> StreetRun.Scenario.BuildingKey -> StreetRun.Scenario.BuildingKey
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U()><S,1*H>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: StreetRun.Scenario.BuildingKey)
+                   (y :: StreetRun.Scenario.BuildingKey) ->
+                 case y of wild { StreetRun.Scenario.BuildingKey'Idle -> x }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fOrdGrassKey :: GHC.Classes.Ord StreetRun.Scenario.GrassKey
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Scenario.GrassKey
+                  StreetRun.Scenario.$fEqGrassKey
+                  StreetRun.Scenario.$fOrdGrassKey_$ccompare
+                  StreetRun.Scenario.$fOrdGrassKey_$c<
+                  StreetRun.Scenario.$fOrdGrassKey_$c<=
+                  StreetRun.Scenario.$fOrdGrassKey_$c>
+                  StreetRun.Scenario.$fEqGrassKey_$c==
+                  StreetRun.Scenario.$fOrdGrassKey_$cmax
+                  StreetRun.Scenario.$fOrdGrassKey_$cmax -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fOrdGrassKey_$c< ::
+    StreetRun.Scenario.GrassKey
+    -> StreetRun.Scenario.GrassKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Scenario.GrassKey)
+                   (b :: StreetRun.Scenario.GrassKey) ->
+                 case a of wild { StreetRun.Scenario.GrassKey'Idle ->
+                 case b of wild1 { StreetRun.Scenario.GrassKey'Idle ->
+                 GHC.Types.False } }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fOrdGrassKey_$c<= ::
+    StreetRun.Scenario.GrassKey
+    -> StreetRun.Scenario.GrassKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Scenario.GrassKey)
+                   (b :: StreetRun.Scenario.GrassKey) ->
+                 case b of wild { StreetRun.Scenario.GrassKey'Idle ->
+                 case a of wild1 { StreetRun.Scenario.GrassKey'Idle ->
+                 GHC.Types.True } }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fOrdGrassKey_$c> ::
+    StreetRun.Scenario.GrassKey
+    -> StreetRun.Scenario.GrassKey -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Scenario.GrassKey)
+                   (b :: StreetRun.Scenario.GrassKey) ->
+                 case b of wild { StreetRun.Scenario.GrassKey'Idle ->
+                 case a of wild1 { StreetRun.Scenario.GrassKey'Idle ->
+                 GHC.Types.False } }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fOrdGrassKey_$ccompare ::
+    StreetRun.Scenario.GrassKey
+    -> StreetRun.Scenario.GrassKey -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: StreetRun.Scenario.GrassKey)
+                   (b :: StreetRun.Scenario.GrassKey) ->
+                 case a of wild { StreetRun.Scenario.GrassKey'Idle ->
+                 case b of wild1 { StreetRun.Scenario.GrassKey'Idle ->
+                 GHC.Types.EQ } }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fOrdGrassKey_$cmax ::
+    StreetRun.Scenario.GrassKey
+    -> StreetRun.Scenario.GrassKey -> StreetRun.Scenario.GrassKey
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U()><S,1*H>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: StreetRun.Scenario.GrassKey)
+                   (y :: StreetRun.Scenario.GrassKey) ->
+                 case y of wild { StreetRun.Scenario.GrassKey'Idle -> x }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fShowBuildingKey :: GHC.Show.Show StreetRun.Scenario.BuildingKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Scenario.BuildingKey
+                  StreetRun.Scenario.$fShowBuildingKey_$cshowsPrec
+                  StreetRun.Scenario.$fShowBuildingKey_$cshow
+                  StreetRun.Scenario.$fShowBuildingKey_$cshowList -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fShowBuildingKey1 ::
+    StreetRun.Scenario.BuildingKey -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*H><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Scenario.BuildingKey)
+                   (eta :: GHC.Base.String) ->
+                 case ds of wild { StreetRun.Scenario.BuildingKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Scenario.$fShowBuildingKey2)
+                   eta }) -}
+eb2bd924ee935a50d482a2d0c6d89540
+  $fShowBuildingKey2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Scenario.$fShowBuildingKey3) -}
+80e3520468fc57c9366a27cba5c0f657
+  $fShowBuildingKey3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("BuildingKey'Idle"#) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fShowBuildingKey_$cshow ::
+    StreetRun.Scenario.BuildingKey -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Scenario.BuildingKey) ->
+                 case x of wild { StreetRun.Scenario.BuildingKey'Idle ->
+                 StreetRun.Scenario.$fShowBuildingKey2 }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fShowBuildingKey_$cshowList ::
+    [StreetRun.Scenario.BuildingKey] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Scenario.BuildingKey])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Scenario.BuildingKey
+                   StreetRun.Scenario.$fShowBuildingKey1
+                   ls
+                   s) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $fShowBuildingKey_$cshowsPrec ::
+    GHC.Types.Int -> StreetRun.Scenario.BuildingKey -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*H><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: GHC.Types.Int)
+                   (ds1 :: StreetRun.Scenario.BuildingKey)
+                   (eta :: GHC.Base.String) ->
+                 case ds1 of wild { StreetRun.Scenario.BuildingKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Scenario.$fShowBuildingKey2)
+                   eta }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fShowGrassKey :: GHC.Show.Show StreetRun.Scenario.GrassKey
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Scenario.GrassKey
+                  StreetRun.Scenario.$fShowGrassKey_$cshowsPrec
+                  StreetRun.Scenario.$fShowGrassKey_$cshow
+                  StreetRun.Scenario.$fShowGrassKey_$cshowList -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fShowGrassKey1 :: StreetRun.Scenario.GrassKey -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*H><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: StreetRun.Scenario.GrassKey) (eta :: GHC.Base.String) ->
+                 case ds of wild { StreetRun.Scenario.GrassKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Scenario.$fShowGrassKey2)
+                   eta }) -}
+1be54acbca5c80ad8f34407f24ca7fa1
+  $fShowGrassKey2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Scenario.$fShowGrassKey3) -}
+2dfb5cce989f78bc365d29d9bc4f7d00
+  $fShowGrassKey3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("GrassKey'Idle"#) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fShowGrassKey_$cshow ::
+    StreetRun.Scenario.GrassKey -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Scenario.GrassKey) ->
+                 case x of wild { StreetRun.Scenario.GrassKey'Idle ->
+                 StreetRun.Scenario.$fShowGrassKey2 }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fShowGrassKey_$cshowList ::
+    [StreetRun.Scenario.GrassKey] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Scenario.GrassKey]) (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Scenario.GrassKey
+                   StreetRun.Scenario.$fShowGrassKey1
+                   ls
+                   s) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $fShowGrassKey_$cshowsPrec ::
+    GHC.Types.Int -> StreetRun.Scenario.GrassKey -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*H><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: GHC.Types.Int)
+                   (ds1 :: StreetRun.Scenario.GrassKey)
+                   (eta :: GHC.Base.String) ->
+                 case ds1 of wild { StreetRun.Scenario.GrassKey'Idle ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      StreetRun.Scenario.$fShowGrassKey2)
+                   eta }) -}
+2e1ce41e910869afacfce973e9cfb6ac
+  $fShowScene :: GHC.Show.Show StreetRun.Scenario.Scene
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ StreetRun.Scenario.Scene
+                  StreetRun.Scenario.$fShowScene_$cshowsPrec
+                  StreetRun.Scenario.$fShowScene_$cshow
+                  StreetRun.Scenario.$fShowScene_$cshowList -}
+acf4922da2a53f09c5f5dd41fdb3c8ea
+  $fShowScene1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Scenario.$fShowScene2) -}
+0749911b800e9f4c90584c37e40708f2
+  $fShowScene10 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Scene'Play"#) -}
+cacc32b7af4c80dcb11eb70ed7c93869
+  $fShowScene11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Scenario.$fShowScene12) -}
+2b7941a033c705df84518d6e8654a66d
+  $fShowScene12 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Scene'Title"#) -}
+c13e8a4cd2365d80341742a2937340c4
+  $fShowScene2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Scene'Quit"#) -}
+79b85abfd98d23cdbeea57866083cfcc
+  $fShowScene3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Scenario.$fShowScene4) -}
+e52e63c7330a445923e453a3eaeab673
+  $fShowScene4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Scene'GameOver"#) -}
+dff1a1b6f586925955fa045f78a2f3ae
+  $fShowScene5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Scenario.$fShowScene6) -}
+ff05205232c14f763dc64184c0942915
+  $fShowScene6 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Scene'Death"#) -}
+7b3b1764a6532b4ce1e0fe8c756b0303
+  $fShowScene7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Scenario.$fShowScene8) -}
+b69d64739702272751c85d8f90fb7fd5
+  $fShowScene8 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Scene'Pause"#) -}
+f422ed74b740a9885182fd9d99e87229
+  $fShowScene9 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   StreetRun.Scenario.$fShowScene10) -}
+2e1ce41e910869afacfce973e9cfb6ac
+  $fShowScene_$cshow :: StreetRun.Scenario.Scene -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: StreetRun.Scenario.Scene) ->
+                 case x of wild {
+                   StreetRun.Scenario.Scene'Title -> StreetRun.Scenario.$fShowScene11
+                   StreetRun.Scenario.Scene'Play -> StreetRun.Scenario.$fShowScene9
+                   StreetRun.Scenario.Scene'Pause -> StreetRun.Scenario.$fShowScene7
+                   StreetRun.Scenario.Scene'Death -> StreetRun.Scenario.$fShowScene5
+                   StreetRun.Scenario.Scene'GameOver
+                   -> StreetRun.Scenario.$fShowScene3
+                   StreetRun.Scenario.Scene'Quit
+                   -> StreetRun.Scenario.$fShowScene1 }) -}
+2e1ce41e910869afacfce973e9cfb6ac
+  $fShowScene_$cshowList ::
+    [StreetRun.Scenario.Scene] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [StreetRun.Scenario.Scene]) (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ StreetRun.Scenario.Scene
+                   StreetRun.Scenario.$w$cshowsPrec
+                   ls
+                   s) -}
+2e1ce41e910869afacfce973e9cfb6ac
+  $fShowScene_$cshowsPrec ::
+    GHC.Types.Int -> StreetRun.Scenario.Scene -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>, Inline: [2],
+     Unfolding: InlineRule (3, True, True)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: StreetRun.Scenario.Scene)
+                   (w2 :: GHC.Base.String) ->
+                 StreetRun.Scenario.$w$cshowsPrec w1 w2) -}
+4077245853638b24a0722c5bf668bb18
+  $tc'BuildingKey'Idle :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   10082109591712181378##
+                   17766431685638450077##
+                   StreetRun.Scenario.$trModule
+                   StreetRun.Scenario.$tc'BuildingKey'Idle2
+                   0#
+                   StreetRun.Scenario.$tc'BuildingKey'Idle1) -}
+ac643e3672f119b77cbdd67e68041353
+  $tc'BuildingKey'Idle1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+d1190ab13358106cf9b98adb6f269fd7
+  $tc'BuildingKey'Idle2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Scenario.$tc'BuildingKey'Idle3) -}
+94862cea9e5863425732af7494449b32
+  $tc'BuildingKey'Idle3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'BuildingKey'Idle"#) -}
+864ef844b58f067ecff2a4838340d3f8
+  $tc'GrassKey'Idle :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   10580272800995067258##
+                   15326740046030608740##
+                   StreetRun.Scenario.$trModule
+                   StreetRun.Scenario.$tc'GrassKey'Idle2
+                   0#
+                   StreetRun.Scenario.$tc'GrassKey'Idle1) -}
+e013ff4264dec1f56db012cd95247e90
+  $tc'GrassKey'Idle1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+6e07e8b8bc7c751df06295f317b9478e
+  $tc'GrassKey'Idle2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Scenario.$tc'GrassKey'Idle3) -}
+f78e9ed8345ea3c5c7ea88a7e10a6f44
+  $tc'GrassKey'Idle3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'GrassKey'Idle"#) -}
+3d4966b4f9665feb7200b5914e120af0
+  $tc'Scene'Death :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   2620877761690085190##
+                   8563261685450314435##
+                   StreetRun.Scenario.$trModule
+                   StreetRun.Scenario.$tc'Scene'Death2
+                   0#
+                   StreetRun.Scenario.$tc'Scene'Death1) -}
+fb6125b270dcfb9861dce9af979698e8
+  $tc'Scene'Death1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+4ea8c9e52b918b7853587fbff85f1a22
+  $tc'Scene'Death2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Scenario.$tc'Scene'Death3) -}
+6ca691dcb10f0ef53c92456f2b24c68e
+  $tc'Scene'Death3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Scene'Death"#) -}
+90ef8e74ac3bfb2a438cb562ec3a08c2
+  $tc'Scene'GameOver :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7295775190343469404##
+                   13073147343090578655##
+                   StreetRun.Scenario.$trModule
+                   StreetRun.Scenario.$tc'Scene'GameOver1
+                   0#
+                   StreetRun.Scenario.$tc'Scene'Death1) -}
+fef8a5236456987f2d89a6a39b7d2513
+  $tc'Scene'GameOver1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Scenario.$tc'Scene'GameOver2) -}
+57f9af08ca38df57d1eec7b668531e4c
+  $tc'Scene'GameOver2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Scene'GameOver"#) -}
+c9ed3175231f339ec0bf9d58f4803af5
+  $tc'Scene'Pause :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4976791068912397384##
+                   15890031828845611473##
+                   StreetRun.Scenario.$trModule
+                   StreetRun.Scenario.$tc'Scene'Pause1
+                   0#
+                   StreetRun.Scenario.$tc'Scene'Death1) -}
+c82bdb1ef684fef220aa0fe16bafe0dc
+  $tc'Scene'Pause1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Scenario.$tc'Scene'Pause2) -}
+f1126df4d6181a2edc8816bfd583e7fd
+  $tc'Scene'Pause2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Scene'Pause"#) -}
+64f7a787b85db22bc02935c7cb4c8cf8
+  $tc'Scene'Play :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   16522241792623884230##
+                   1231063334714470109##
+                   StreetRun.Scenario.$trModule
+                   StreetRun.Scenario.$tc'Scene'Play1
+                   0#
+                   StreetRun.Scenario.$tc'Scene'Death1) -}
+c82678592c920b8c494ae8fb1bf3ba18
+  $tc'Scene'Play1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Scenario.$tc'Scene'Play2) -}
+652f76b020141c4ede621ea7250fbf2a
+  $tc'Scene'Play2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Scene'Play"#) -}
+7f783b08f80aca120804cb1a797a2c13
+  $tc'Scene'Quit :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12759769294603928810##
+                   10660434411061661608##
+                   StreetRun.Scenario.$trModule
+                   StreetRun.Scenario.$tc'Scene'Quit1
+                   0#
+                   StreetRun.Scenario.$tc'Scene'Death1) -}
+1aff9393da6234d59e68edb20d9c8ca9
+  $tc'Scene'Quit1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Scenario.$tc'Scene'Quit2) -}
+79b54c13571b8d69bc7826b55a52295a
+  $tc'Scene'Quit2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Scene'Quit"#) -}
+023845b8037f1855a34e8db9073a90fe
+  $tc'Scene'Title :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   194365551652283846##
+                   3576277642239199149##
+                   StreetRun.Scenario.$trModule
+                   StreetRun.Scenario.$tc'Scene'Title1
+                   0#
+                   StreetRun.Scenario.$tc'Scene'Death1) -}
+4baf9c5acc5d87144d5155aae472c070
+  $tc'Scene'Title1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Scenario.$tc'Scene'Title2) -}
+e8bf8876ab27e51af766d4daffc3e27c
+  $tc'Scene'Title2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Scene'Title"#) -}
+687ba96a3bebc5e98ce035e67da528fa
+  $tcBuildingKey :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   17163005594255626974##
+                   7950176722506223003##
+                   StreetRun.Scenario.$trModule
+                   StreetRun.Scenario.$tcBuildingKey1
+                   0#
+                   GHC.Types.krep$*) -}
+562fefd92e4b95d68b983fa46b7d3761
+  $tcBuildingKey1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Scenario.$tcBuildingKey2) -}
+3f53a5db06acacfcb0a07d1a7f6d1421
+  $tcBuildingKey2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("BuildingKey"#) -}
+1b756eca6808a4a93cfd9edb84c25394
+  $tcGrassKey :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   15778048774894438258##
+                   2682665513388956152##
+                   StreetRun.Scenario.$trModule
+                   StreetRun.Scenario.$tcGrassKey1
+                   0#
+                   GHC.Types.krep$*) -}
+f62218464e935983310e08cab0a0862c
+  $tcGrassKey1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Scenario.$tcGrassKey2) -}
+9abd1cee192bc0a1d938341ff6336f7d
+  $tcGrassKey2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("GrassKey"#) -}
+92f67f79e917d3eb8f2e345664044951
+  $tcScene :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   16328410810546059320##
+                   17802319088508694230##
+                   StreetRun.Scenario.$trModule
+                   StreetRun.Scenario.$tcScene1
+                   0#
+                   GHC.Types.krep$*) -}
+0e9b57496d9190f0f49e3d0f7f4a81c3
+  $tcScene1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Scenario.$tcScene2) -}
+a2d98609be537c9f9dd39dfd01d6d403
+  $tcScene2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Scene"#) -}
+a7bbdc0d5f0871f03479874dd78252a3
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Scenario.$trModule3
+                   StreetRun.Scenario.$trModule1) -}
+d25f24e67c0464b851320cca59c18d6a
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Scenario.$trModule2) -}
+dcda1e3591e190d2ac755347d612240c
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Scenario"#) -}
+6b8f481d07e9a08e11ec86fbe2307de4
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Scenario.$trModule4) -}
+221c2ca2065f2efa91ae45e554d4c6aa
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+2e1ce41e910869afacfce973e9cfb6ac
+  $w$cshowsPrec ::
+    StreetRun.Scenario.Scene -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>, Inline: [2],
+     Unfolding: (\ (w :: StreetRun.Scenario.Scene)
+                   (w1 :: GHC.Base.String) ->
+                 case w of wild {
+                   StreetRun.Scenario.Scene'Title
+                   -> GHC.Base.++ @ GHC.Types.Char StreetRun.Scenario.$fShowScene11 w1
+                   StreetRun.Scenario.Scene'Play
+                   -> GHC.Base.++ @ GHC.Types.Char StreetRun.Scenario.$fShowScene9 w1
+                   StreetRun.Scenario.Scene'Pause
+                   -> GHC.Base.++ @ GHC.Types.Char StreetRun.Scenario.$fShowScene7 w1
+                   StreetRun.Scenario.Scene'Death
+                   -> GHC.Base.++ @ GHC.Types.Char StreetRun.Scenario.$fShowScene5 w1
+                   StreetRun.Scenario.Scene'GameOver
+                   -> GHC.Base.++ @ GHC.Types.Char StreetRun.Scenario.$fShowScene3 w1
+                   StreetRun.Scenario.Scene'Quit
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        StreetRun.Scenario.$fShowScene1
+                        w1 }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $w$ctoEnum :: GHC.Prim.Int# -> StreetRun.Scenario.BuildingKey
+  {- Arity: 1, Strictness: <S,U>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.>=# ww 0# of lwild {
+                   DEFAULT -> StreetRun.Scenario.$wlvl ww
+                   1#
+                   -> case GHC.Prim.<=# ww 0# of lwild1 {
+                        DEFAULT -> StreetRun.Scenario.$wlvl ww
+                        1#
+                        -> GHC.Prim.tagToEnum# @ StreetRun.Scenario.BuildingKey ww } }) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $w$ctoEnum1 :: GHC.Prim.Int# -> StreetRun.Scenario.GrassKey
+  {- Arity: 1, Strictness: <S,U>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.>=# ww 0# of lwild {
+                   DEFAULT -> StreetRun.Scenario.$wlvl1 ww
+                   1#
+                   -> case GHC.Prim.<=# ww 0# of lwild1 {
+                        DEFAULT -> StreetRun.Scenario.$wlvl1 ww
+                        1# -> GHC.Prim.tagToEnum# @ StreetRun.Scenario.GrassKey ww } }) -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  $wlvl :: GHC.Prim.Int# -> StreetRun.Scenario.BuildingKey
+  {- Arity: 1, Strictness: <B,U>x, Inline: [2] -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  $wlvl1 :: GHC.Prim.Int# -> StreetRun.Scenario.GrassKey
+  {- Arity: 1, Strictness: <B,U>x, Inline: [2] -}
+b4c3f53a1de721da99d4f02d4409c2d9
+  data BuildingKey = BuildingKey'Idle
+da61b53345a9ca19f2dea7fa2a8793b3
+  data GrassKey = GrassKey'Idle
+2e1ce41e910869afacfce973e9cfb6ac
+  data Scene
+    = Scene'Title
+    | Scene'Play
+    | Scene'Pause
+    | Scene'Death
+    | Scene'GameOver
+    | Scene'Quit
+b4c3f53a1de721da99d4f02d4409c2d9
+  buildingKey'keyName ::
+    StreetRun.Scenario.BuildingKey -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Scenario.BuildingKey) ->
+                 case ds of wild { StreetRun.Scenario.BuildingKey'Idle ->
+                 StreetRun.Scenario.buildingKey'keyName1 }) -}
+48fa7ac65746469681859b132c4e3f2a
+  buildingKey'keyName1 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   StreetRun.Scenario.buildingKey'keyName2) -}
+94edb21b54e2c00e30fe2918d9f45411
+  buildingKey'keyName2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Idle"#) -}
+da61b53345a9ca19f2dea7fa2a8793b3
+  grassKey'keyName ::
+    StreetRun.Scenario.GrassKey -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Scenario.GrassKey) ->
+                 case ds of wild { StreetRun.Scenario.GrassKey'Idle ->
+                 StreetRun.Scenario.buildingKey'keyName1 }) -}
+instance GHC.Enum.Bounded [StreetRun.Scenario.BuildingKey]
+  = StreetRun.Scenario.$fBoundedBuildingKey
+instance GHC.Enum.Bounded [StreetRun.Scenario.GrassKey]
+  = StreetRun.Scenario.$fBoundedGrassKey
+instance GHC.Enum.Enum [StreetRun.Scenario.BuildingKey]
+  = StreetRun.Scenario.$fEnumBuildingKey
+instance GHC.Enum.Enum [StreetRun.Scenario.GrassKey]
+  = StreetRun.Scenario.$fEnumGrassKey
+instance GHC.Classes.Eq [StreetRun.Scenario.BuildingKey]
+  = StreetRun.Scenario.$fEqBuildingKey
+instance GHC.Classes.Eq [StreetRun.Scenario.GrassKey]
+  = StreetRun.Scenario.$fEqGrassKey
+instance GHC.Classes.Eq [StreetRun.Scenario.Scene]
+  = StreetRun.Scenario.$fEqScene
+instance Animate.KeyName [StreetRun.Scenario.BuildingKey]
+  = StreetRun.Scenario.$fKeyNameBuildingKey
+instance Animate.KeyName [StreetRun.Scenario.GrassKey]
+  = StreetRun.Scenario.$fKeyNameGrassKey
+instance GHC.Classes.Ord [StreetRun.Scenario.BuildingKey]
+  = StreetRun.Scenario.$fOrdBuildingKey
+instance GHC.Classes.Ord [StreetRun.Scenario.GrassKey]
+  = StreetRun.Scenario.$fOrdGrassKey
+instance GHC.Show.Show [StreetRun.Scenario.BuildingKey]
+  = StreetRun.Scenario.$fShowBuildingKey
+instance GHC.Show.Show [StreetRun.Scenario.GrassKey]
+  = StreetRun.Scenario.$fShowGrassKey
+instance GHC.Show.Show [StreetRun.Scenario.Scene]
+  = StreetRun.Scenario.$fShowScene
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

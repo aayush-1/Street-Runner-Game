@@ -18,8 +18,7 @@ import StreetRun.Runner_func_2
 import StreetRun.Font
 import StreetRun.Font_functions
 import StreetRun.Snag
-import StreetRun.Building
-import StreetRun.Grass
+import StreetRun.Scenario
 
 
 data Resources = Resources

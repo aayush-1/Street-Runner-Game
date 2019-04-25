@@ -1,0 +1,266 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 22:11:46.034748372 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Out_func 8064
+  interface hash: 3c1578f52ea052bc9bad481766f5670c
+  ABI hash: 2d58e416218e91bacef699b8794601fc
+  export-list hash: 58fe7acc1a80715b11adc637a32a5ffc
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: e9979ed0ba295133ef8188aa5e696ffc
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  StreetRun.Out_func.gameOverShowPressSpace
+  StreetRun.Out_func.initGameOverVars
+  StreetRun.Out_func.stepGameOverVars
+  StreetRun.Out_func.HasGameOverVars{StreetRun.Out_func.gameOverVars}
+module dependencies: StreetRun.Out StreetRun.Types
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
+                      base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
+                      bifunctors-5.5.3 binary-0.8.6.0 bytestring-0.10.8.2
+                      call-stack-0.1.0 comonad-5.0.4 conduit-1.3.1.1 containers-0.6.0.1
+                      contravariant-1.5 deepseq-1.4.4.0 distributive-0.6 dlist-0.8.0.6
+                      exceptions-0.10.1 free-5.1 ghc-boot-th-8.6.4 ghc-prim-0.5.3
+                      hashable-1.2.7.0 integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2
+                      kan-extensions-5.2 lens-4.17 libyaml-0.1.1.0 mtl-2.2.2
+                      pretty-1.1.3.6 primitive-0.6.4.0 profunctors-5.3 random-1.1
+                      reflection-2.1.4 resourcet-1.2.2 scientific-0.3.6.2
+                      semigroupoids-5.3.2 stm-2.5.0.0 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 th-abstraction-0.2.11.0
+                      time-1.8.0.2 time-locale-compat-0.1.1.5 transformers-0.5.6.2
+                      transformers-base-0.4.5.2 transformers-compat-0.6.2
+                      unliftio-core-0.1.2.0 unordered-containers-0.2.9.0 uuid-types-1.0.3
+                      vector-0.12.0.2 yaml-0.11.0.0
+orphans: reflection-2.1.4:Data.Reflection
+         stm-2.5.0.0:Control.Monad.STM
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.2:Data.Vector.Unboxed
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.4.2.0:Data.Aeson.Types.Internal animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Float ccb68fbeaab348f60d11c8132d51af5d
+import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  lens-4.17:Control.Lens 531af2b540e6d8d8ce856b6f46207d94
+import  -/  lens-4.17:Control.Lens.TH c8ee903ac0437128dcf8373c689fbce1
+import  -/  lens-4.17:Control.Lens.Type a26601a0a02238b01fa664e92db6501f
+import  -/  StreetRun.Out c6f895be71f537324fe40402a153a0c3
+  exports: 7da7bc3ed9644406cff4632113b7a06a
+  $sel:govFadeout:GameOverVars e451e3f2cb5d3f53bad8e5ab684f2543
+  $sel:govSpaceFlashing:GameOverVars e451e3f2cb5d3f53bad8e5ab684f2543
+  GameOverVars dd2e1916cf4e51d63dfcaf9a57d708eb
+  GameOverVars e451e3f2cb5d3f53bad8e5ab684f2543
+import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
+  exports: 687926be2250d898b68652280e784933
+  Percent 9bc35ebe469aab1ad3d8edfd9fd30da6
+  clamp 4428598fac4688a3e97e01b2030e4732
+177b7477cb03a1ead955d8fa43c30efd
+  $fHasGameOverVarsGameOverVars ::
+    StreetRun.Out_func.HasGameOverVars StreetRun.Out.GameOverVars
+  DFunId
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A>, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                StreetRun.Out_func.$fHasGameOverVarsGameOverVars_$cgameOverVars
+                  `cast`
+                (Sym (StreetRun.Out_func.N:HasGameOverVars[0]
+                          <StreetRun.Out.GameOverVars>_N)) -}
+c759603e024e1ea6587e1aa85f91106a
+  $fHasGameOverVarsGameOverVars_$cgameOverVars ::
+    Control.Lens.Type.Lens'
+      StreetRun.Out.GameOverVars StreetRun.Out.GameOverVars
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ f :: * -> * ($dFunctor :: GHC.Base.Functor f) ->
+                 GHC.Base.id
+                   @ (StreetRun.Out.GameOverVars -> f StreetRun.Out.GameOverVars)) -}
+0299cf1033f4f359e7505f92aac4ecb6
+  $tcHasGameOverVars :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12089758912405116076##
+                   8854212207827016535##
+                   StreetRun.Out_func.$trModule
+                   StreetRun.Out_func.$tcHasGameOverVars2
+                   0#
+                   StreetRun.Out_func.$tcHasGameOverVars1) -}
+cd7478b2b675c2e6e996d095e6663fab
+  $tcHasGameOverVars1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+ef76ea96455f40d5b79e71f4d54de7f6
+  $tcHasGameOverVars2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Out_func.$tcHasGameOverVars3) -}
+5fa77b4e2345b2462b74c5d0a974962d
+  $tcHasGameOverVars3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("HasGameOverVars"#) -}
+c35567ec0c4b6cc67ca67f501390e290
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Out_func.$trModule3
+                   StreetRun.Out_func.$trModule1) -}
+bd10fc150a21f60d7b1afee82d09e4c4
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Out_func.$trModule2) -}
+baec32a51a6e264ea4a608a731fb00c4
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Out_func"#) -}
+dfc1554553622471b2a786a1de79d81a
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Out_func.$trModule4) -}
+f00e60a709bea7dfcf5ccfcb7085c26e
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+177b7477cb03a1ead955d8fa43c30efd
+  class HasGameOverVars c where
+    gameOverVars :: Control.Lens.Type.Lens'
+                      c StreetRun.Out.GameOverVars
+    {-# MINIMAL gameOverVars #-}
+85073f5fac93297f04b7dded1ee81195
+  gameOverShowPressSpace :: StreetRun.Types.Percent -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (p :: StreetRun.Types.Percent) ->
+                 case p `cast`
+                      (StreetRun.Types.N:Percent[0]) of wild { GHC.Types.F# x ->
+                 GHC.Prim.tagToEnum#
+                   @ GHC.Types.Bool
+                   (GHC.Prim.ltFloat# (GHC.Prim.sinFloat# x) 0.0#) }) -}
+dfc3e6878a66f84949ca52c26a0282ea
+  initGameOverVars :: StreetRun.Out.GameOverVars
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (StreetRun.Out.GameOverVars
+                   StreetRun.Out_func.initGameOverVars1
+                     `cast`
+                   (Sym (StreetRun.Types.N:Percent[0]))
+                   StreetRun.Out_func.initGameOverVars1
+                     `cast`
+                   (Sym (StreetRun.Types.N:Percent[0]))) -}
+414c1003d004983916a77e8f14349a6b
+  initGameOverVars1 :: GHC.Types.Float
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 0.0#) -}
+1523f186be2488a6a589686ca9aaedc1
+  stepGameOverVars ::
+    StreetRun.Out.GameOverVars -> StreetRun.Out.GameOverVars
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(1*U(U),1*U(U))>m,
+     Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: StreetRun.Out.GameOverVars) ->
+                 case w of ww { StreetRun.Out.GameOverVars ww1 ww2 ->
+                 StreetRun.Out.GameOverVars
+                   (case ww1
+                           `cast`
+                         (StreetRun.Types.N:Percent[0]) of wild { GHC.Types.F# x ->
+                    let {
+                      x1 :: GHC.Prim.Float# = GHC.Prim.plusFloat# x 1.0e-2#
+                    } in
+                    case GHC.Prim.gtFloat# x1 0.0# of lwild {
+                      DEFAULT
+                      -> case GHC.Prim.ltFloat# x1 0.0# of lwild1 {
+                           DEFAULT
+                           -> (GHC.Types.F# x1) `cast` (Sym (StreetRun.Types.N:Percent[0]))
+                           1#
+                           -> StreetRun.Out_func.initGameOverVars1
+                                `cast`
+                              (Sym (StreetRun.Types.N:Percent[0])) }
+                      1#
+                      -> StreetRun.Out_func.initGameOverVars1
+                           `cast`
+                         (Sym (StreetRun.Types.N:Percent[0])) } })
+                   (case ww2
+                           `cast`
+                         (StreetRun.Types.N:Percent[0]) of wild { GHC.Types.F# x ->
+                    (GHC.Types.F# (GHC.Prim.plusFloat# x 5.0e-2#))
+                      `cast`
+                    (Sym (StreetRun.Types.N:Percent[0])) }) }) -}
+instance StreetRun.Out_func.HasGameOverVars [StreetRun.Out.GameOverVars]
+  = StreetRun.Out_func.$fHasGameOverVarsGameOverVars
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

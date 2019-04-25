@@ -9,8 +9,7 @@ import StreetRun.Types
 import StreetRun.Runner
 import StreetRun.Runner_func_1
 import StreetRun.Runner_func_2
-import StreetRun.Building
-import StreetRun.Grass
+import StreetRun.Scenario
 
 
 

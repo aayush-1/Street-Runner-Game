@@ -48,7 +48,6 @@ library
       StreetRun.Renderer_func_1
       StreetRun.Renderer_func_2
       StreetRun.Sound_effects
-      StreetRun.Building
       StreetRun.Camera
       StreetRun.Common
       StreetRun.Font
@@ -56,7 +55,6 @@ library
       StreetRun.Frame
       StreetRun.Out
       StreetRun.Out_func
-      StreetRun.Grass
       StreetRun.Input
       StreetRun.Hurdle
       StreetRun.Hurdle_1
@@ -68,7 +66,7 @@ library
       StreetRun.Runner
       StreetRun.Runner_func_1
       StreetRun.Runner_func_2
-      StreetRun.Scene_change
+      StreetRun.Scenario
       StreetRun.Sfx
       StreetRun.Step
       StreetRun.Tag

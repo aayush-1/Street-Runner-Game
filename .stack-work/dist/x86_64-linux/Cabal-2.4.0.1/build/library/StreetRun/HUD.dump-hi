@@ -1,0 +1,880 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 22:26:38.761499363 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.HUD 8064
+  interface hash: 52f98e11fbfa74691cd7b7f07c9de97a
+  ABI hash: 1b45c563f90a817d6df4d9a2659a5183
+  export-list hash: e799087feb519c2fa6ec11e1bcb9834b
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: cd6997935d09daa6a687cb8eb0447281
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.HUD.drawControls'
+  StreetRun.HUD.drawHiscore'
+  StreetRun.HUD.drawNumbers
+  StreetRun.HUD.drawScore'
+  StreetRun.HUD.HUD{StreetRun.HUD.drawControls StreetRun.HUD.drawHiscore StreetRun.HUD.drawScore}
+module dependencies: StreetRun.Camera StreetRun.Common
+                     StreetRun.Config StreetRun.Font StreetRun.Font_functions
+                     StreetRun.Frame StreetRun.Hurdle StreetRun.Hurdle_1 StreetRun.Input
+                     StreetRun.Physics StreetRun.Quake StreetRun.Quake_BackStreet
+                     StreetRun.Quake_Building StreetRun.Quake_Grass
+                     StreetRun.Quake_Street StreetRun.Renderer StreetRun.Renderer_func_1
+                     StreetRun.Renderer_func_2 StreetRun.Resource StreetRun.Runner
+                     StreetRun.Runner_func_1 StreetRun.Runner_func_2
+                     StreetRun.SDLRenderer StreetRun.Scenario StreetRun.Sfx
+                     StreetRun.Snag StreetRun.Step StreetRun.Types StreetRun.Work
+                     StreetRun.Work_func
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
+                      base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
+                      base16-bytestring-0.1.1.6 base64-bytestring-1.0.0.2
+                      bifunctors-5.5.3 binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2
+                      call-stack-0.1.0 cereal-0.5.8.0 comonad-5.0.4 conduit-1.3.1.1
+                      containers-0.6.0.1 contravariant-1.5 data-default-class-0.1.2.0
+                      deepseq-1.4.4.0 distributive-0.6 dlist-0.8.0.6 errors-2.3.0
+                      exceptions-0.10.1 free-5.1 ghc-boot-th-8.6.4 ghc-prim-0.5.3
+                      hashable-1.2.7.0 integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2
+                      kan-extensions-5.2 key-state-0.2.0 lens-4.17 libyaml-0.1.1.0
+                      lifted-base-0.2.3.12 linear-1.20.8 monad-control-1.0.2.3 mtl-2.2.2
+                      pretty-1.1.3.6 primitive-0.6.4.0 profunctors-5.3 random-1.1
+                      reflection-2.1.4 resourcet-1.2.2 safe-0.3.17 scientific-0.3.6.2
+                      sdl2-2.4.1.0 sdl2-image-2.0.0 sdl2-mixer-1.1.0 sdl2-ttf-2.0.2
+                      semigroupoids-5.3.2 stm-2.5.0.0 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 text-conversions-0.3.0
+                      th-abstraction-0.2.11.0 time-1.8.0.2 time-locale-compat-0.1.1.5
+                      transformers-0.5.6.2 transformers-base-0.4.5.2
+                      transformers-compat-0.6.2 unliftio-core-0.1.2.0
+                      unordered-containers-0.2.9.0 uuid-types-1.0.3 vector-0.12.0.2
+                      yaml-0.11.0.0
+orphans: attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         time-1.8.0.2:Data.Time.Clock.TAI
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         reflection-2.1.4:Data.Reflection
+         vector-0.12.0.2:Data.Vector.Unboxed stm-2.5.0.0:Control.Monad.STM
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         linear-1.20.8:Linear.Instances base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.4.2.0:Data.Aeson.Types.Internal animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.Affine linear-1.20.8:Linear.Plucker
+                         linear-1.20.8:Linear.Quaternion linear-1.20.8:Linear.V
+                         linear-1.20.8:Linear.V0 linear-1.20.8:Linear.V1
+                         linear-1.20.8:Linear.V2 linear-1.20.8:Linear.V3
+                         linear-1.20.8:Linear.V4
+                         monad-control-1.0.2.3:Control.Monad.Trans.Control
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         sdl2-2.4.1.0:SDL.Audio sdl2-2.4.1.0:SDL.Event
+                         sdl2-2.4.1.0:SDL.Exception sdl2-2.4.1.0:SDL.Hint
+                         sdl2-2.4.1.0:SDL.Init sdl2-2.4.1.0:SDL.Input.GameController
+                         sdl2-2.4.1.0:SDL.Input.Joystick sdl2-2.4.1.0:SDL.Input.Keyboard
+                         sdl2-2.4.1.0:SDL.Input.Keyboard.Codes sdl2-2.4.1.0:SDL.Input.Mouse
+                         sdl2-2.4.1.0:SDL.Internal.Types sdl2-2.4.1.0:SDL.Power
+                         sdl2-2.4.1.0:SDL.Time sdl2-2.4.1.0:SDL.Video
+                         sdl2-2.4.1.0:SDL.Video.OpenGL sdl2-2.4.1.0:SDL.Video.Renderer
+                         sdl2-image-2.0.0:SDL.Image sdl2-ttf-2.0.2:SDL.Font
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  base-4.12.0.0:Control.Monad 728c9526f38369d3ad3bf7824b06e87e
+import  -/  base-4.12.0.0:Data.Foldable 5f70351366640f007be66681d2212df8
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.List 4014a3c8a3b7c31c8325f6bcf1feea4a
+import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
+import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  integer-gmp-1.0.2.0:GHC.Integer.Type 6d87087aea24143d2650f78480d954a3
+import  -/  lens-4.17:Control.Lens 531af2b540e6d8d8ce856b6f46207d94
+import  -/  lens-4.17:Control.Lens.Getter 79a8b254c85ab59ff7c11b644140539d
+import  -/  mtl-2.2.2:Control.Monad.State 753def63fe8e937dc636f11e5230745a
+import  -/  mtl-2.2.2:Control.Monad.State.Class 94cc1438f3f9a3259fb0a2c56d3d0303
+import  -/  StreetRun.Common ae88f6983cc973a550c263b8148feda8
+  exports: 61e4030ffa8e91db9a54c7154cc3d232
+  $sel:cvHiscore:CommonVars 0f93d8dfb992b8c8431fd0dc1f0c54d0
+  HasCommonVars 919b4731c41ba51a047a083b8a4cc9c7
+  commonVars 0c52cc297fe39f10299147a803dcafdf
+import  -/  StreetRun.Font a32f3953bbb50ce9b469edb8463d6f24
+  exports: 7faf0604fc3be1edae721103fd7b3042
+import  -/  StreetRun.Font_functions 1a5a69e004e559ef0ed610c21b9037a3
+  exports: 8738957528d4728a198f0cc1309ae7d5
+  toNumberReverse ade1db35536e4e7a43d1d3f33b25d6ea
+import  -/  StreetRun.Renderer eba9a9e4c8700e42ea509a1bf564c30b
+  exports: bdc569cebfaf1503ce959a9192a1814c
+  Renderer 879b383bd7b1ca67a12fca41ecb57c3d
+  drawControlsText c273e63bbfbceba86e2e57429e35786d
+  drawHiscoreText 5f28a0ed8ecf785685f579f732fae6f3
+  drawNumber 07f1262f00e44fb0901563f24ac11422
+import  -/  StreetRun.Renderer_func_1 b2f8a68dbebb4a5575e9c9404df81f49
+  exports: cd995c9f02033435bf3d7151e24e6a3d
+import  -/  StreetRun.Renderer_func_2 4d5a7c4dba8ccd5d139bd424e7e60331
+  exports: acb7c593e3b7f4916cf72f231a22b161
+import  -/  StreetRun.Work 31dc36aef5c80ae1dc00f3ed83f6fff4
+  exports: ffd7a4165016a00bc61ed7371fce244a
+  $sel:pvScore:PlayVars 4e0d6882d8c80f982ce44d3f26d5ffda
+  $sel:pvSeconds:PlayVars 4e0d6882d8c80f982ce44d3f26d5ffda
+import  -/  StreetRun.Work_func 618d334218ef249bf8e50fb375f6996c
+  exports: 0632c1ae56fdb446c1bb6a552db25704
+  HasPlayVars eec911aa0de1f5cc54fcdff2fefe17b2
+  playVars c7cc94ac4e480a0c8202559ffac5c2bb
+65aa37a2c5eab369441f067e51da18ec
+  $tc'C:HUD :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   3547234284853905943##
+                   1155380085604435243##
+                   StreetRun.HUD.$trModule
+                   StreetRun.HUD.$tc'C:HUD2
+                   1#
+                   StreetRun.HUD.$tc'C:HUD1) -}
+4129de118bcd35410aad5f5a5de8f0d3
+  $tc'C:HUD1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+38afad7249e342aec0b1d37e774b3f55
+  $tc'C:HUD2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.HUD.$tc'C:HUD3) -}
+b8ae7210b7ddb19cbbee2ecba34c42ac
+  $tc'C:HUD3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'C:HUD"#) -}
+a54d111a1129fa0b3708ba97af0a8759
+  $tcHUD :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   3482481533836805470##
+                   4266052322964262051##
+                   StreetRun.HUD.$trModule
+                   StreetRun.HUD.$tcHUD2
+                   0#
+                   StreetRun.HUD.$tcHUD1) -}
+6efa4bc1c92ca887f3e981dca24c76c4
+  $tcHUD1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+746846ed941250f11fd6f798e46ebf87
+  $tcHUD2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.HUD.$tcHUD3) -}
+7554a144075604339779bd07d7915b2b
+  $tcHUD3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("HUD"#) -}
+49c263ea01fde3fad4a9c084212bffb9
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.HUD.$trModule3
+                   StreetRun.HUD.$trModule1) -}
+ffe97fc6b3189e964975da14c8bea32e
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.HUD.$trModule2) -}
+aca6ece205ea1a562cc0aef605eb9f24
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.HUD"#) -}
+723adc657a9736581238ae5f7687858c
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.HUD.$trModule4) -}
+01a408743db5358fe9f77bc8d13fd2df
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+89dec736a29ae8339cf6e494dc99e498
+  $wdrawControls' ::
+    GHC.Base.Applicative m =>
+    (forall a b. m a -> (a -> m b) -> m b)
+    -> ((GHC.Types.Int, GHC.Types.Int) -> m ())
+    -> (Control.Monad.State.Class.MonadState s m,
+        StreetRun.Work_func.HasPlayVars s) =>
+       m ()
+  {- Arity: 5,
+     Strictness: <L,1*U(A,1*C1(U),A,A,A,A)><C(C(S)),1*C1(C1(U))><L,1*C1(U)><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)><L,1*C1(C1(C(U)))>,
+     Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   @ s
+                   (ww :: GHC.Base.Applicative m)
+                   (ww1 :: forall a b. m a -> (a -> m b) -> m b)
+                   (ww2 :: (GHC.Types.Int, GHC.Types.Int) -> m ())
+                   (w :: Control.Monad.State.Class.MonadState s m)
+                   (w1 :: StreetRun.Work_func.HasPlayVars s) ->
+                 let {
+                   lvl :: m () = ww2 StreetRun.HUD.drawControls'2
+                 } in
+                 let {
+                   lvl1 :: m () = GHC.Base.pure @ m ww @ () GHC.Tuple.()
+                 } in
+                 ww1
+                   @ StreetRun.Work.PlayVars
+                   @ ()
+                   (case w of ww3 { Control.Monad.State.Class.C:MonadState ww4 ww5 ww6 ww7 ->
+                    case ww4 of ww8 { GHC.Base.C:Monad ww9 ww10 ww11 ww12 ww13 ->
+                    let {
+                      w2 :: s -> Data.Functor.Const.Const StreetRun.Work.PlayVars s
+                      = w1 `cast` (StreetRun.Work_func.N:HasPlayVars[0] <s>_N)
+                          @ (Data.Functor.Const.Const StreetRun.Work.PlayVars)
+                          (Data.Functor.Const.$fFunctorConst @ StreetRun.Work.PlayVars)
+                          StreetRun.HUD.drawControls'1
+                            `cast`
+                          (<StreetRun.Work.PlayVars>_R
+                           ->_R Sym (Data.Functor.Const.N:Const[0]
+                                         <*>_N
+                                         <StreetRun.Work.PlayVars>_R
+                                         <StreetRun.Work.PlayVars>_P))
+                    } in
+                    ww10
+                      @ s
+                      @ StreetRun.Work.PlayVars
+                      ww5
+                      (\ (s1 :: s) ->
+                       ww12
+                         @ StreetRun.Work.PlayVars
+                         (w2 s1)
+                           `cast`
+                         (Data.Functor.Const.N:Const[0]
+                              <*>_N <StreetRun.Work.PlayVars>_R <s>_P)) } })
+                   (\ (pv :: StreetRun.Work.PlayVars) ->
+                    case pv of wild { StreetRun.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                    case ds4
+                           `cast`
+                         (StreetRun.Types.N:Seconds[0]) of wild1 { GHC.Types.F# x ->
+                    case GHC.Prim.ltFloat# x 0.0# of lwild {
+                      DEFAULT -> lvl1 1# -> lvl } } })) -}
+3ec07710849be6b68c25d7f553b93620
+  $wdrawHiscore' ::
+    (forall a b. m a -> (a -> m b) -> m b)
+    -> (forall a b. m a -> m b -> m b)
+    -> (forall a. a -> m a)
+    -> ((GHC.Types.Int, GHC.Types.Int) -> m ())
+    -> (StreetRun.Font.Number
+        -> (GHC.Types.Int, GHC.Types.Int) -> m ())
+    -> (Control.Monad.State.Class.MonadState s m,
+        StreetRun.Common.HasCommonVars s) =>
+       m ()
+  {- Arity: 7,
+     Strictness: <C(C(S)),1*C1(C1(U))><L,C(C1(U))><L,C(U)><L,1*C1(U)><L,C(C1(U))><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)><L,1*C1(C1(C(U)))>,
+     Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   @ s
+                   (ww :: forall a b. m a -> (a -> m b) -> m b)
+                   (ww1 :: forall a b. m a -> m b -> m b)
+                   (ww2 :: forall a. a -> m a)
+                   (ww3 :: (GHC.Types.Int, GHC.Types.Int) -> m ())
+                   (ww4 :: StreetRun.Font.Number
+                           -> (GHC.Types.Int, GHC.Types.Int) -> m ())
+                   (w :: Control.Monad.State.Class.MonadState s m)
+                   (w1 :: StreetRun.Common.HasCommonVars s) ->
+                 let {
+                   lvl :: m () = ww3 StreetRun.HUD.drawHiscore'38
+                 } in
+                 let {
+                   $dRenderer :: GHC.Base.Monad m
+                   = GHC.Base.C:Monad
+                       @ m
+                       (StreetRun.HUD.drawHiscore'36 @ m)
+                       ww
+                       ww1
+                       ww2
+                       (StreetRun.HUD.drawHiscore'34 @ m)
+                 } in
+                 let {
+                   $dRenderer1 :: StreetRun.Renderer.Renderer m
+                   = StreetRun.Renderer.C:Renderer
+                       @ m
+                       $dRenderer
+                       (StreetRun.HUD.drawHiscore'32 @ m)
+                       (StreetRun.HUD.drawHiscore'32 @ m)
+                       (StreetRun.HUD.drawHiscore'30 @ m)
+                       (StreetRun.HUD.drawHiscore'28 @ m)
+                       (StreetRun.HUD.drawHiscore'26 @ m)
+                       (StreetRun.HUD.drawHiscore'24 @ m)
+                       (StreetRun.HUD.drawHiscore'22 @ m)
+                       (StreetRun.HUD.drawHiscore'20 @ m)
+                       (StreetRun.HUD.drawHiscore'18 @ m)
+                       (StreetRun.HUD.drawHiscore'16 @ m)
+                       (StreetRun.HUD.drawHiscore'14 @ m)
+                       (StreetRun.HUD.drawHiscore'12 @ m)
+                       (StreetRun.HUD.drawHiscore'10 @ m)
+                       (StreetRun.HUD.drawHiscore'8 @ m)
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       (StreetRun.HUD.drawHiscore'4 @ m)
+                       ww3
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       ww4
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                 } in
+                 ww
+                   @ StreetRun.Common.CommonVars
+                   @ ()
+                   (case w of ww5 { Control.Monad.State.Class.C:MonadState ww6 ww7 ww8 ww9 ->
+                    case ww6 of ww10 { GHC.Base.C:Monad ww11 ww12 ww13 ww14 ww15 ->
+                    let {
+                      w2 :: s -> Data.Functor.Const.Const StreetRun.Common.CommonVars s
+                      = w1 `cast` (StreetRun.Common.N:HasCommonVars[0] <s>_N)
+                          @ (Data.Functor.Const.Const StreetRun.Common.CommonVars)
+                          (Data.Functor.Const.$fFunctorConst @ StreetRun.Common.CommonVars)
+                          StreetRun.HUD.drawHiscore'3
+                            `cast`
+                          (<StreetRun.Common.CommonVars>_R
+                           ->_R Sym (Data.Functor.Const.N:Const[0]
+                                         <*>_N
+                                         <StreetRun.Common.CommonVars>_R
+                                         <StreetRun.Common.CommonVars>_P))
+                    } in
+                    ww12
+                      @ s
+                      @ StreetRun.Common.CommonVars
+                      ww7
+                      (\ (s1 :: s) ->
+                       ww14
+                         @ StreetRun.Common.CommonVars
+                         (w2 s1)
+                           `cast`
+                         (Data.Functor.Const.N:Const[0]
+                              <*>_N <StreetRun.Common.CommonVars>_R <s>_P)) } })
+                   (\ (cv :: StreetRun.Common.CommonVars) ->
+                    ww1
+                      @ ()
+                      @ ()
+                      lvl
+                      (case cv of wild { StreetRun.Common.CommonVars ds1 ds2 ds3 ->
+                       case ds1
+                              `cast`
+                            (StreetRun.Types.N:Score[0]) of wild1 { GHC.Types.I# i ->
+                       StreetRun.HUD.$wdrawNumbers
+                         @ m
+                         $dRenderer1
+                         (GHC.Integer.Type.smallInteger i)
+                         StreetRun.HUD.drawHiscore'2
+                         StreetRun.HUD.drawHiscore'1 } }))) -}
+8394fc6e72d358d9eb96d54e94539468
+  $wdrawNumbers ::
+    StreetRun.Renderer.Renderer m =>
+    GHC.Integer.Type.Integer -> GHC.Types.Int -> GHC.Types.Int -> m ()
+  {- Arity: 4,
+     Strictness: <L,U(1*U(A,A,C(C1(U)),1*C1(U),A),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C(C1(U)),A)><S,U><L,U(U)><L,U>,
+     Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   (w :: StreetRun.Renderer.Renderer m)
+                   (w1 :: GHC.Integer.Type.Integer)
+                   (ww :: GHC.Types.Int)
+                   (ww1 :: GHC.Types.Int) ->
+                 let {
+                   w2 :: GHC.Base.Monad m = StreetRun.Renderer.$p1Renderer @ m w
+                 } in
+                 let {
+                   n :: m () = GHC.Base.return @ m w2 @ () GHC.Tuple.()
+                 } in
+                 letrec {
+                   go :: GHC.Prim.Int# -> [StreetRun.Font.Number] -> m ()
+                     {- Arity: 2, Strictness: <L,U><S,1*U> -}
+                   = \ (x :: GHC.Prim.Int#) (eta :: [StreetRun.Font.Number]) ->
+                     case eta of wild {
+                       [] -> n
+                       : y ys
+                       -> GHC.Base.>>
+                            @ m
+                            w2
+                            @ ()
+                            @ ()
+                            (StreetRun.Renderer.drawNumber
+                               @ m
+                               w
+                               y
+                               (case ww of wild1 { GHC.Types.I# x1 ->
+                                GHC.Types.I# (GHC.Prim.-# x1 (GHC.Prim.*# x 16#)) },
+                                ww1))
+                            (case x of wild1 {
+                               DEFAULT -> go (GHC.Prim.+# wild1 1#) ys
+                               9223372036854775807# -> n }) }
+                 } in
+                 go
+                   0#
+                   (GHC.List.reverse1
+                      @ StreetRun.Font.Number
+                      (StreetRun.Font_functions.toNumber w1)
+                      (GHC.Types.[] @ StreetRun.Font.Number))) -}
+5deaeb6cf25666d41a6f1854e10e6f56
+  $wdrawScore' ::
+    (forall a b. m a -> (a -> m b) -> m b)
+    -> (forall a b. m a -> m b -> m b)
+    -> (forall a. a -> m a)
+    -> (StreetRun.Font.Number
+        -> (GHC.Types.Int, GHC.Types.Int) -> m ())
+    -> (Control.Monad.State.Class.MonadState s m,
+        StreetRun.Work_func.HasPlayVars s) =>
+       m ()
+  {- Arity: 6,
+     Strictness: <C(C(S)),1*C1(C1(U))><L,C(C1(U))><L,C(U)><L,C(C1(U))><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)><L,1*C1(C1(C(U)))>,
+     Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   @ s
+                   (ww :: forall a b. m a -> (a -> m b) -> m b)
+                   (ww1 :: forall a b. m a -> m b -> m b)
+                   (ww2 :: forall a. a -> m a)
+                   (ww3 :: StreetRun.Font.Number
+                           -> (GHC.Types.Int, GHC.Types.Int) -> m ())
+                   (w :: Control.Monad.State.Class.MonadState s m)
+                   (w1 :: StreetRun.Work_func.HasPlayVars s) ->
+                 let {
+                   $dRenderer :: GHC.Base.Monad m
+                   = GHC.Base.C:Monad
+                       @ m
+                       (StreetRun.HUD.drawHiscore'36 @ m)
+                       ww
+                       ww1
+                       ww2
+                       (StreetRun.HUD.drawHiscore'34 @ m)
+                 } in
+                 let {
+                   $dRenderer1 :: StreetRun.Renderer.Renderer m
+                   = StreetRun.Renderer.C:Renderer
+                       @ m
+                       $dRenderer
+                       (StreetRun.HUD.drawHiscore'32 @ m)
+                       (StreetRun.HUD.drawHiscore'32 @ m)
+                       (StreetRun.HUD.drawHiscore'30 @ m)
+                       (StreetRun.HUD.drawHiscore'28 @ m)
+                       (StreetRun.HUD.drawHiscore'26 @ m)
+                       (StreetRun.HUD.drawHiscore'24 @ m)
+                       (StreetRun.HUD.drawHiscore'22 @ m)
+                       (StreetRun.HUD.drawHiscore'20 @ m)
+                       (StreetRun.HUD.drawHiscore'18 @ m)
+                       (StreetRun.HUD.drawHiscore'16 @ m)
+                       (StreetRun.HUD.drawHiscore'14 @ m)
+                       (StreetRun.HUD.drawHiscore'12 @ m)
+                       (StreetRun.HUD.drawHiscore'10 @ m)
+                       (StreetRun.HUD.drawHiscore'8 @ m)
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       (StreetRun.HUD.drawHiscore'4 @ m)
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                       ww3
+                       (StreetRun.HUD.drawHiscore'6 @ m)
+                 } in
+                 ww
+                   @ StreetRun.Work.PlayVars
+                   @ ()
+                   (case w of ww4 { Control.Monad.State.Class.C:MonadState ww5 ww6 ww7 ww8 ->
+                    case ww5 of ww9 { GHC.Base.C:Monad ww10 ww11 ww12 ww13 ww14 ->
+                    let {
+                      w2 :: s -> Data.Functor.Const.Const StreetRun.Work.PlayVars s
+                      = w1 `cast` (StreetRun.Work_func.N:HasPlayVars[0] <s>_N)
+                          @ (Data.Functor.Const.Const StreetRun.Work.PlayVars)
+                          (Data.Functor.Const.$fFunctorConst @ StreetRun.Work.PlayVars)
+                          StreetRun.HUD.drawControls'1
+                            `cast`
+                          (<StreetRun.Work.PlayVars>_R
+                           ->_R Sym (Data.Functor.Const.N:Const[0]
+                                         <*>_N
+                                         <StreetRun.Work.PlayVars>_R
+                                         <StreetRun.Work.PlayVars>_P))
+                    } in
+                    ww11
+                      @ s
+                      @ StreetRun.Work.PlayVars
+                      ww6
+                      (\ (s1 :: s) ->
+                       ww13
+                         @ StreetRun.Work.PlayVars
+                         (w2 s1)
+                           `cast`
+                         (Data.Functor.Const.N:Const[0]
+                              <*>_N <StreetRun.Work.PlayVars>_R <s>_P)) } })
+                   (\ (pv :: StreetRun.Work.PlayVars) ->
+                    case pv of wild { StreetRun.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
+                    case ds1
+                           `cast`
+                         (StreetRun.Types.N:Score[0]) of wild1 { GHC.Types.I# i ->
+                    StreetRun.HUD.$wdrawNumbers
+                      @ m
+                      $dRenderer1
+                      (GHC.Integer.Type.smallInteger i)
+                      StreetRun.HUD.drawHiscore'2
+                      StreetRun.HUD.drawScore'1 } })) -}
+dd3aec2a82456c62e19ed6e64162878f
+  class GHC.Base.Monad m => HUD (m :: * -> *) where
+    drawHiscore :: m ()
+    drawScore :: m ()
+    drawControls :: m ()
+    {-# MINIMAL drawHiscore, drawScore, drawControls #-}
+4640b3dd895ade9ae143bbe1fb3c0fb5
+  drawControls' ::
+    (StreetRun.Renderer.Renderer m,
+     Control.Monad.State.Class.MonadState s m,
+     StreetRun.Work_func.HasPlayVars s) =>
+    m ()
+  {- Arity: 3,
+     Strictness: <S(S(LC(C(S))LLL)LLLLLLLLLLLLLLLLLLLLLLLLL),1*U(1*U(1*U(A,1*C1(U),A,A,A,A),1*C1(C1(U)),A,A,A),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*C1(U))><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)><L,1*C1(C1(C(U)))>,
+     Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ m :: * -> *
+                   @ s
+                   (w :: StreetRun.Renderer.Renderer m)
+                   (w1 :: Control.Monad.State.Class.MonadState s m)
+                   (w2 :: StreetRun.Work_func.HasPlayVars s) ->
+                 case w of ww { StreetRun.Renderer.C:Renderer ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ww13 ww14 ww15 ww16 ww17 ww18 ww19 ww20 ww21 ww22 ww23 ww24 ww25 ww26 ->
+                 case ww1 of ww27 { GHC.Base.C:Monad ww28 ww29 ww30 ww31 ww32 ->
+                 StreetRun.HUD.$wdrawControls' @ m @ s ww28 ww29 ww26 w1 w2 } }) -}
+cf775d83c5de84ae077467e68deb274c
+  drawControls'1 ::
+    StreetRun.Work.PlayVars -> StreetRun.Work.PlayVars
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S,1*U(U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U)>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ (v :: StreetRun.Work.PlayVars) -> v) -}
+7271f9463ed15e0aaf9d9d72af3959b7
+  drawControls'2 :: (GHC.Types.Int, GHC.Types.Int)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: ((StreetRun.HUD.drawControls'4,
+                  StreetRun.HUD.drawControls'3)) -}
+61ac6baca46a453e789dea7ccb86ff9b
+  drawControls'3 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 470#) -}
+6e84808aacef121f6034fe32612712d8
+  drawControls'4 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 200#) -}
+cd60de1bc32326dac23a77881c1d4dc4
+  drawHiscore' ::
+    (StreetRun.Renderer.Renderer m,
+     Control.Monad.State.Class.MonadState s m,
+     StreetRun.Common.HasCommonVars s) =>
+    m ()
+  {- Arity: 3,
+     Strictness: <S(S(LC(C(S))LLL)LLLLLLLLLLLLLLLLLLLLLLLLL),1*U(1*U(A,1*C1(C1(U)),C(C1(U)),C(U),A),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*C1(U),A,A,A,A,A,C(C1(U)),A)><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)><L,1*C1(C1(C(U)))>,
+     Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ m :: * -> *
+                   @ s
+                   (w :: StreetRun.Renderer.Renderer m)
+                   (w1 :: Control.Monad.State.Class.MonadState s m)
+                   (w2 :: StreetRun.Common.HasCommonVars s) ->
+                 case w of ww { StreetRun.Renderer.C:Renderer ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ww13 ww14 ww15 ww16 ww17 ww18 ww19 ww20 ww21 ww22 ww23 ww24 ww25 ww26 ->
+                 case ww1 of ww27 { GHC.Base.C:Monad ww28 ww29 ww30 ww31 ww32 ->
+                 StreetRun.HUD.$wdrawHiscore'
+                   @ m
+                   @ s
+                   ww29
+                   ww30
+                   ww31
+                   ww19
+                   ww25
+                   w1
+                   w2 } }) -}
+6cb5f41aaf5ffc362f3b9869c617e5e9
+  drawHiscore'1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 50#) -}
+78b07766a728f73af85ce80c07e80037
+  drawHiscore'10 ::
+    StreetRun.Types.DrawSprite StreetRun.Scenario.BuildingKey m
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (StreetRun.Types.DrawSprite StreetRun.Scenario.BuildingKey m)
+                   StreetRun.HUD.drawHiscore'11) -}
+4af16229891ab978a3e5e22050ac577c
+  drawHiscore'11 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww DrawSprite BuildingKey m"#) -}
+96a9f795c2c44c2b56d0b4df10e47627
+  drawHiscore'12 ::
+    StreetRun.Types.DrawSprite StreetRun.Snag.BirdKey m
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (StreetRun.Types.DrawSprite StreetRun.Snag.BirdKey m)
+                   StreetRun.HUD.drawHiscore'13) -}
+e51257af773fab97365e54af3187e82c
+  drawHiscore'13 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww DrawSprite BirdKey m"#) -}
+95e07c7884270dba764da6b6510ca2c7
+  drawHiscore'14 ::
+    StreetRun.Types.DrawSprite StreetRun.Snag.RockKey m
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (StreetRun.Types.DrawSprite StreetRun.Snag.RockKey m)
+                   StreetRun.HUD.drawHiscore'15) -}
+d671a19213deaf65b38d9fe59bda8c2e
+  drawHiscore'15 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww DrawSprite RockKey m"#) -}
+2fb2a4ac4811d21cd2625385da1fa605
+  drawHiscore'16 ::
+    StreetRun.Types.DrawSprite StreetRun.Snag.LavaKey m
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (StreetRun.Types.DrawSprite StreetRun.Snag.LavaKey m)
+                   StreetRun.HUD.drawHiscore'17) -}
+ec3f5b85f56a1d1c0e315c8f67b02e40
+  drawHiscore'17 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww DrawSprite LavaKey m"#) -}
+01bcfc47d4b85cf82e21f05a897a8f8c
+  drawHiscore'18 ::
+    StreetRun.Types.DrawSprite StreetRun.Runner.RunnerKey m
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (StreetRun.Types.DrawSprite StreetRun.Runner.RunnerKey m)
+                   StreetRun.HUD.drawHiscore'19) -}
+8237bb91ec3067c72799b435ecdee030
+  drawHiscore'19 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww DrawSprite RunnerKey m"#) -}
+27578e3d938de12193018a89e90086b5
+  drawHiscore'2 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 1234#) -}
+e82a0150ca672ccacf119ec226d72fa8
+  drawHiscore'20 ::
+    m (StreetRun.Types.Animations StreetRun.Scenario.GrassKey)
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (m (StreetRun.Types.Animations StreetRun.Scenario.GrassKey))
+                   StreetRun.HUD.drawHiscore'21) -}
+2bf203b281da2ec2a808138061112e45
+  drawHiscore'21 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww m (Animations GrassKey)"#) -}
+1f68a87b81ebbe8e05a7bb46a20ac038
+  drawHiscore'22 ::
+    m (StreetRun.Types.Animations StreetRun.Scenario.BuildingKey)
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (m (StreetRun.Types.Animations StreetRun.Scenario.BuildingKey))
+                   StreetRun.HUD.drawHiscore'23) -}
+0d7f78f5aac81a572cdeeead6565b8cf
+  drawHiscore'23 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww m (Animations BuildingKey)"#) -}
+3b690695c111b1e016d7d3900a558ed0
+  drawHiscore'24 ::
+    m (StreetRun.Types.Animations StreetRun.Snag.BirdKey)
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (m (StreetRun.Types.Animations StreetRun.Snag.BirdKey))
+                   StreetRun.HUD.drawHiscore'25) -}
+335fb4e374f73c858131f312862bd03d
+  drawHiscore'25 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww m (Animations BirdKey)"#) -}
+d70c25f5fffebcf1b4cf89d372e5bf8b
+  drawHiscore'26 ::
+    m (StreetRun.Types.Animations StreetRun.Snag.RockKey)
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (m (StreetRun.Types.Animations StreetRun.Snag.RockKey))
+                   StreetRun.HUD.drawHiscore'27) -}
+04783512dc65b7da9d9d024ac3899251
+  drawHiscore'27 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww m (Animations RockKey)"#) -}
+da54e9546faf62da3812ba12145ada95
+  drawHiscore'28 ::
+    m (StreetRun.Types.Animations StreetRun.Snag.LavaKey)
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (m (StreetRun.Types.Animations StreetRun.Snag.LavaKey))
+                   StreetRun.HUD.drawHiscore'29) -}
+ec56262098ef8c6de71e7bf763ebbfbe
+  drawHiscore'29 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww m (Animations LavaKey)"#) -}
+a56545cef970202d00cc2bbfb2961649
+  drawHiscore'3 ::
+    StreetRun.Common.CommonVars -> StreetRun.Common.CommonVars
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ (v :: StreetRun.Common.CommonVars) -> v) -}
+045ed19b54dff589bdc358c2a68549db
+  drawHiscore'30 ::
+    m (StreetRun.Types.Animations StreetRun.Runner.RunnerKey)
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (m (StreetRun.Types.Animations StreetRun.Runner.RunnerKey))
+                   StreetRun.HUD.drawHiscore'31) -}
+a4394b65a46ead2f85399a00a639e142
+  drawHiscore'31 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww m (Animations RunnerKey)"#) -}
+b17b4e4a4deb77d033dbe9898c1ea97c
+  drawHiscore'32 :: m ()
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (m ())
+                   StreetRun.HUD.drawHiscore'33) -}
+87b7ea6dab135c7430122dbcfbd51799
+  drawHiscore'33 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww m ()"#) -}
+0ba61de7b16d4379b7ae8086ec22629d
+  drawHiscore'34 :: GHC.Base.String -> m a
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (forall a. GHC.Base.String -> m a)
+                   StreetRun.HUD.drawHiscore'35) -}
+3a8d9bd470bd283d4095564f710e5ff7
+  drawHiscore'35 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww forall a. String -> m a"#) -}
+f21e718f006a733b3e8e2774c3d404e2
+  drawHiscore'36 :: GHC.Base.Applicative m
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (GHC.Base.Applicative m)
+                   StreetRun.HUD.drawHiscore'37) -}
+e0d416973668f61ed2a0b2bd63497b45
+  drawHiscore'37 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww Applicative m"#) -}
+c4ee056755fd82d2fef0388e9c8c04b9
+  drawHiscore'38 :: (GHC.Types.Int, GHC.Types.Int)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: ((StreetRun.HUD.drawHiscore'40,
+                  StreetRun.HUD.drawHiscore'39)) -}
+286a1a74960f5ce8ce6dbd537279b508
+  drawHiscore'39 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 16#) -}
+ee7637f51278b3dc9942ab1a49d142c3
+  drawHiscore'4 :: StreetRun.Types.Percent -> m ()
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (StreetRun.Types.Percent -> m ())
+                   StreetRun.HUD.drawHiscore'5) -}
+55b0ee46aa3d3221185d509e9edabaa8
+  drawHiscore'40 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 1180#) -}
+fe242c8a392b861f3c06dd337f8bbc93
+  drawHiscore'5 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww Percent -> m ()"#) -}
+6c7aa2f7eee8210b73f401162d0ce2d6
+  drawHiscore'6 :: (GHC.Types.Int, GHC.Types.Int) -> m ()
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ ((GHC.Types.Int, GHC.Types.Int) -> m ())
+                   StreetRun.HUD.drawHiscore'7) -}
+7a5d42bb2e79792b114e2e44f7a22280
+  drawHiscore'7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww (Int, Int) -> m ()"#) -}
+43c1be242c3d81d57fbb71f75d58b216
+  drawHiscore'8 ::
+    StreetRun.Types.DrawSprite StreetRun.Scenario.GrassKey m
+  {- Unfolding: (\ @ m :: * -> * ->
+                 Control.Exception.Base.absentError
+                   @ (StreetRun.Types.DrawSprite StreetRun.Scenario.GrassKey m)
+                   StreetRun.HUD.drawHiscore'9) -}
+f93dc6d68d51b0630268e6d0191bcbec
+  drawHiscore'9 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ww DrawSprite GrassKey m"#) -}
+806955b21eefc0f09a8b4479de5d646b
+  drawNumbers ::
+    StreetRun.Renderer.Renderer m =>
+    GHC.Integer.Type.Integer -> (GHC.Types.Int, GHC.Types.Int) -> m ()
+  {- Arity: 3,
+     Strictness: <L,U(U(A,A,C(C1(U)),C(U),A),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C(C1(U)),A)><S,U><S,1*U(U(U),U)>,
+     Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ m :: * -> *
+                   (w :: StreetRun.Renderer.Renderer m)
+                   (w1 :: GHC.Integer.Type.Integer)
+                   (w2 :: (GHC.Types.Int, GHC.Types.Int)) ->
+                 case w2 of ww { (,) ww1 ww2 ->
+                 StreetRun.HUD.$wdrawNumbers @ m w w1 ww1 ww2 }) -}
+a5c9c459003e7df7d2ca6aa11d392b18
+  drawScore' ::
+    (StreetRun.Renderer.Renderer m,
+     Control.Monad.State.Class.MonadState s m,
+     StreetRun.Work_func.HasPlayVars s) =>
+    m ()
+  {- Arity: 3,
+     Strictness: <S(S(LC(C(S))LLL)LLLLLLLLLLLLLLLLLLLLLLLLL),1*U(1*U(A,1*C1(C1(U)),C(C1(U)),C(U),A),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C(C1(U)),A)><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)><L,1*C1(C1(C(U)))>,
+     Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ m :: * -> *
+                   @ s
+                   (w :: StreetRun.Renderer.Renderer m)
+                   (w1 :: Control.Monad.State.Class.MonadState s m)
+                   (w2 :: StreetRun.Work_func.HasPlayVars s) ->
+                 case w of ww { StreetRun.Renderer.C:Renderer ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ww13 ww14 ww15 ww16 ww17 ww18 ww19 ww20 ww21 ww22 ww23 ww24 ww25 ww26 ->
+                 case ww1 of ww27 { GHC.Base.C:Monad ww28 ww29 ww30 ww31 ww32 ->
+                 StreetRun.HUD.$wdrawScore'
+                   @ m
+                   @ s
+                   ww29
+                   ww30
+                   ww31
+                   ww25
+                   w1
+                   w2 } }) -}
+9632b38b03d15b3493b9d4c9dbe9afd1
+  drawScore'1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 100#) -}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

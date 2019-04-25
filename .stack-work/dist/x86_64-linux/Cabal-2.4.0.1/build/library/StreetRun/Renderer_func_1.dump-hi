@@ -1,0 +1,549 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-25 22:26:37.775500185 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Renderer_func_1 8064
+  interface hash: f2bdb4f90c703b4d54c3f15ac1255847
+  ABI hash: b2f8a68dbebb4a5575e9c9404df81f49
+  export-list hash: cd995c9f02033435bf3d7151e24e6a3d
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: cd6997935d09daa6a687cb8eb0447281
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Renderer_func_1.drawSprite
+  StreetRun.Renderer_func_1.drawTextureSprite
+  StreetRun.Renderer_func_1.rectFromClip
+module dependencies: StreetRun.Camera StreetRun.Config
+                     StreetRun.Font StreetRun.Font_functions StreetRun.Frame
+                     StreetRun.Hurdle StreetRun.Hurdle_1 StreetRun.Input
+                     StreetRun.Physics StreetRun.Renderer StreetRun.Resource
+                     StreetRun.Runner StreetRun.Runner_func_1 StreetRun.Runner_func_2
+                     StreetRun.SDLRenderer StreetRun.Scenario StreetRun.Snag
+                     StreetRun.Step StreetRun.Types
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
+                      base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
+                      base16-bytestring-0.1.1.6 base64-bytestring-1.0.0.2
+                      bifunctors-5.5.3 binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2
+                      call-stack-0.1.0 cereal-0.5.8.0 comonad-5.0.4 conduit-1.3.1.1
+                      containers-0.6.0.1 contravariant-1.5 data-default-class-0.1.2.0
+                      deepseq-1.4.4.0 distributive-0.6 dlist-0.8.0.6 errors-2.3.0
+                      exceptions-0.10.1 free-5.1 ghc-boot-th-8.6.4 ghc-prim-0.5.3
+                      hashable-1.2.7.0 integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2
+                      kan-extensions-5.2 key-state-0.2.0 lens-4.17 libyaml-0.1.1.0
+                      lifted-base-0.2.3.12 linear-1.20.8 monad-control-1.0.2.3 mtl-2.2.2
+                      pretty-1.1.3.6 primitive-0.6.4.0 profunctors-5.3 random-1.1
+                      reflection-2.1.4 resourcet-1.2.2 safe-0.3.17 scientific-0.3.6.2
+                      sdl2-2.4.1.0 sdl2-image-2.0.0 sdl2-mixer-1.1.0 sdl2-ttf-2.0.2
+                      semigroupoids-5.3.2 stm-2.5.0.0 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 text-conversions-0.3.0
+                      th-abstraction-0.2.11.0 time-1.8.0.2 time-locale-compat-0.1.1.5
+                      transformers-0.5.6.2 transformers-base-0.4.5.2
+                      transformers-compat-0.6.2 unliftio-core-0.1.2.0
+                      unordered-containers-0.2.9.0 uuid-types-1.0.3 vector-0.12.0.2
+                      yaml-0.11.0.0
+orphans: attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         time-1.8.0.2:Data.Time.Clock.TAI
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         reflection-2.1.4:Data.Reflection
+         vector-0.12.0.2:Data.Vector.Unboxed stm-2.5.0.0:Control.Monad.STM
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         linear-1.20.8:Linear.Instances base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.4.2.0:Data.Aeson.Types.Internal animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.Affine linear-1.20.8:Linear.Plucker
+                         linear-1.20.8:Linear.Quaternion linear-1.20.8:Linear.V
+                         linear-1.20.8:Linear.V0 linear-1.20.8:Linear.V1
+                         linear-1.20.8:Linear.V2 linear-1.20.8:Linear.V3
+                         linear-1.20.8:Linear.V4
+                         monad-control-1.0.2.3:Control.Monad.Trans.Control
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         sdl2-2.4.1.0:SDL.Audio sdl2-2.4.1.0:SDL.Event
+                         sdl2-2.4.1.0:SDL.Exception sdl2-2.4.1.0:SDL.Hint
+                         sdl2-2.4.1.0:SDL.Init sdl2-2.4.1.0:SDL.Input.GameController
+                         sdl2-2.4.1.0:SDL.Input.Joystick sdl2-2.4.1.0:SDL.Input.Keyboard
+                         sdl2-2.4.1.0:SDL.Input.Keyboard.Codes sdl2-2.4.1.0:SDL.Input.Mouse
+                         sdl2-2.4.1.0:SDL.Internal.Types sdl2-2.4.1.0:SDL.Power
+                         sdl2-2.4.1.0:SDL.Time sdl2-2.4.1.0:SDL.Video
+                         sdl2-2.4.1.0:SDL.Video.OpenGL sdl2-2.4.1.0:SDL.Video.Renderer
+                         sdl2-image-2.0.0:SDL.Image sdl2-ttf-2.0.2:SDL.Font
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  StateVar-1.1.1.1:Data.StateVar 3356bd62ad24ee9ca28de7ecf3cb79ab
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  base-4.12.0.0:Foreign.C.Types 35a1d321965626990bdd0f18683810e2
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  linear-1.20.8:Linear.Affine ad49a7802911561cdceabb09a106eb0a
+import  -/  linear-1.20.8:Linear.V2 4a7e4c0c9247ec5477069840e3acbf22
+import  -/  mtl-2.2.2:Control.Monad.Reader d5c3a33f1c95bb71f4ae02f87a7048ff
+import  -/  mtl-2.2.2:Control.Monad.Reader.Class 56d676c7504f5007ee5b66906716abcc
+import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
+import  -/  sdl2-2.4.1.0:SDL.Vect cd47fc30aef16e8f55c1351dafae292d
+import  -/  sdl2-2.4.1.0:SDL.Video.Renderer fde5d4735decffc12f192a8489c7afbb
+import  -/  StreetRun.Config cf93ae4b11ed31ae458ca135cf881ef9
+  exports: 718448995096e5a0315e80eb460349b2
+  $sel:cRenderer:Config 8fee3f2631cead17e5b67aab65a149ae
+  Config 8fee3f2631cead17e5b67aab65a149ae
+import  -/  StreetRun.Font a32f3953bbb50ce9b469edb8463d6f24
+  exports: 7faf0604fc3be1edae721103fd7b3042
+import  -/  StreetRun.Font_functions 1a5a69e004e559ef0ed610c21b9037a3
+  exports: 8738957528d4728a198f0cc1309ae7d5
+import  -/  StreetRun.Renderer eba9a9e4c8700e42ea509a1bf564c30b
+  exports: bdc569cebfaf1503ce959a9192a1814c
+import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
+  exports: 07dc0a302095db6221f41ecc2db9aec7
+import  -/  StreetRun.SDLRenderer 3cb58a3e7c151a4e55076a15375a1145
+  exports: b035665cd19a2962c5a1cabd4abb8a1f
+  SDLRenderer a56dc3e11af00cde5b5730118be5d15e
+  drawTexture 6ee9f52e6185de199a0acef0c5269213
+  queryTexture d0db3c6e376a1d27c0f3172328ac7b6e
+import  -/  StreetRun.Scenario 3d565e4d4fcefb40de1d348ddc5508f1
+  exports: 425f740a4cf1b868d9284521ed68ce1e
+import  -/  StreetRun.Snag 435128ff0e3817e1b1768f09cf894e59
+  exports: 7f7b3656c97eba619795923512f79f2a
+import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
+  exports: 687926be2250d898b68652280e784933
+  Seconds 3096dba0a5a57c02592e934b662fbeb3
+40289347282178c2e00b9ce491bea0c5
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Renderer_func_1.$trModule3
+                   StreetRun.Renderer_func_1.$trModule1) -}
+9c700b3a068cf6dcb9cbb9a186038891
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Renderer_func_1.$trModule2) -}
+cdda257bd791512f8606a07d19269ad2
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Renderer_func_1"#) -}
+fe90f1cda49d913994ea62be02082c3a
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.Renderer_func_1.$trModule4) -}
+97bf0db32fbe2bcec5c2f39842de388f
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+f7a1f15d13f6f793b68cf8bfadd45f78
+  $wdrawSprite ::
+    (forall a b. m a -> (a -> m b) -> m b)
+    -> (SDL.Internal.Types.Renderer
+        -> SDL.Video.Renderer.Texture
+        -> GHC.Maybe.Maybe
+             (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+        -> GHC.Maybe.Maybe
+             (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+        -> m ())
+    -> Control.Monad.Reader.Class.MonadReader
+         StreetRun.Config.Config m =>
+       (StreetRun.Config.Config
+        -> Animate.SpriteSheet
+             key SDL.Video.Renderer.Texture StreetRun.Types.Seconds)
+       -> Animate.SpriteClip key -> GHC.Types.Int -> GHC.Types.Int -> m ()
+  {- Arity: 7, HasNoCafRefs,
+     Strictness: <C(C(S)),C(C1(U))><L,C(C1(C1(C1(U))))><L,U(A,A,A,C(U))><L,C(U(A,1*U))><L,1*U(1*U(U),1*U(U),1*U(U),1*U(U),A)><L,1*U(U)><L,1*U(U)>,
+     Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   @ key
+                   (ww :: forall a b. m a -> (a -> m b) -> m b)
+                   (ww1 :: SDL.Internal.Types.Renderer
+                           -> SDL.Video.Renderer.Texture
+                           -> GHC.Maybe.Maybe
+                                (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+                           -> GHC.Maybe.Maybe
+                                (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+                           -> m ())
+                   (w :: Control.Monad.Reader.Class.MonadReader
+                           StreetRun.Config.Config m)
+                   (w1 :: StreetRun.Config.Config
+                          -> Animate.SpriteSheet
+                               key SDL.Video.Renderer.Texture StreetRun.Types.Seconds)
+                   (w2 :: Animate.SpriteClip key)
+                   (ww2 :: GHC.Types.Int)
+                   (ww3 :: GHC.Types.Int) ->
+                 let {
+                   lvl :: m SDL.Video.Renderer.Texture
+                   = Control.Monad.Reader.Class.reader
+                       @ StreetRun.Config.Config
+                       @ m
+                       w
+                       @ SDL.Video.Renderer.Texture
+                       (\ (x :: StreetRun.Config.Config) ->
+                        case w1 x of wild { Animate.SpriteSheet ds1 ds2 -> ds2 })
+                 } in
+                 let {
+                   ds :: (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt,
+                          Linear.V2.V2 Foreign.C.Types.CInt)
+                   = case w2 of wild { Animate.SpriteClip ds1 ds2 ds3 ds4 ds5 ->
+                     let {
+                       dim :: Linear.V2.V2 Foreign.C.Types.CInt
+                       = case ds3 of wild1 { GHC.Types.I# x# ->
+                         case ds4 of wild2 { GHC.Types.I# x#1 ->
+                         Linear.V2.V2
+                           @ Foreign.C.Types.CInt
+                           (GHC.Int.I32# (GHC.Prim.narrow32Int# x#))
+                             `cast`
+                           (Sym (Foreign.C.Types.N:CInt[0]))
+                           (GHC.Int.I32# (GHC.Prim.narrow32Int# x#1))
+                             `cast`
+                           (Sym (Foreign.C.Types.N:CInt[0])) } }
+                     } in
+                     (SDL.Video.Renderer.Rectangle
+                        @ Foreign.C.Types.CInt
+                        (case ds1 of wild1 { GHC.Types.I# x# ->
+                         case ds2 of wild2 { GHC.Types.I# x#1 ->
+                         (Linear.V2.V2
+                            @ Foreign.C.Types.CInt
+                            (GHC.Int.I32# (GHC.Prim.narrow32Int# x#))
+                              `cast`
+                            (Sym (Foreign.C.Types.N:CInt[0]))
+                            (GHC.Int.I32# (GHC.Prim.narrow32Int# x#1))
+                              `cast`
+                            (Sym (Foreign.C.Types.N:CInt[0])))
+                           `cast`
+                         (Sym (Linear.Affine.N:Point[0]
+                                   <Linear.V2.V2>_R) <Foreign.C.Types.CInt>_N) } })
+                        dim,
+                      dim) }
+                 } in
+                 let {
+                   lvl1 :: SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt
+                   = case ds of ds1 { (,) clip' dim -> clip' }
+                 } in
+                 let {
+                   lvl2 :: GHC.Maybe.Maybe
+                             (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+                   = GHC.Maybe.Just
+                       @ (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+                       lvl1
+                 } in
+                 let {
+                   lvl3 :: Linear.Affine.Point Linear.V2.V2 Foreign.C.Types.CInt
+                   = case ww2 of wild { GHC.Types.I# x# ->
+                     case ww3 of wild1 { GHC.Types.I# x#1 ->
+                     (Linear.V2.V2
+                        @ Foreign.C.Types.CInt
+                        (GHC.Int.I32# (GHC.Prim.narrow32Int# x#))
+                          `cast`
+                        (Sym (Foreign.C.Types.N:CInt[0]))
+                        (GHC.Int.I32# (GHC.Prim.narrow32Int# x#1))
+                          `cast`
+                        (Sym (Foreign.C.Types.N:CInt[0])))
+                       `cast`
+                     (Sym (Linear.Affine.N:Point[0]
+                               <Linear.V2.V2>_R) <Foreign.C.Types.CInt>_N) } }
+                 } in
+                 let {
+                   lvl4 :: Linear.V2.V2 Foreign.C.Types.CInt
+                   = case ds of ds1 { (,) clip' dim -> dim }
+                 } in
+                 let {
+                   lvl5 :: SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt
+                   = SDL.Video.Renderer.Rectangle @ Foreign.C.Types.CInt lvl3 lvl4
+                 } in
+                 let {
+                   lvl6 :: GHC.Maybe.Maybe
+                             (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+                   = GHC.Maybe.Just
+                       @ (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+                       lvl5
+                 } in
+                 ww
+                   @ SDL.Internal.Types.Renderer
+                   @ ()
+                   (Control.Monad.Reader.Class.reader
+                      @ StreetRun.Config.Config
+                      @ m
+                      w
+                      @ SDL.Internal.Types.Renderer
+                      StreetRun.Config.$sel:cRenderer:Config)
+                   (\ (renderer :: SDL.Internal.Types.Renderer) ->
+                    ww
+                      @ SDL.Video.Renderer.Texture
+                      @ ()
+                      lvl
+                      (\ (sheet :: SDL.Video.Renderer.Texture) ->
+                       ww1 renderer sheet lvl2 lvl6))) -}
+ed626acc5a4260fc8242331ce663eeee
+  $wdrawTextureSprite ::
+    (forall a b. m a -> (a -> m b) -> m b)
+    -> (SDL.Video.Renderer.Texture -> m SDL.Video.Renderer.TextureInfo)
+    -> (SDL.Internal.Types.Renderer
+        -> SDL.Video.Renderer.Texture
+        -> GHC.Maybe.Maybe
+             (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+        -> GHC.Maybe.Maybe
+             (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+        -> m ())
+    -> Control.Monad.Reader.Class.MonadReader
+         StreetRun.Config.Config m =>
+       (StreetRun.Config.Config -> SDL.Video.Renderer.Texture)
+       -> GHC.Types.Int -> GHC.Types.Int -> m ()
+  {- Arity: 7, HasNoCafRefs,
+     Strictness: <C(C(S)),C(C1(U))><L,C(U)><L,C(C1(C1(C1(U))))><L,U(A,A,A,C(U))><L,U><L,1*U(U)><L,1*U(U)>,
+     Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   (ww :: forall a b. m a -> (a -> m b) -> m b)
+                   (ww1 :: SDL.Video.Renderer.Texture
+                           -> m SDL.Video.Renderer.TextureInfo)
+                   (ww2 :: SDL.Internal.Types.Renderer
+                           -> SDL.Video.Renderer.Texture
+                           -> GHC.Maybe.Maybe
+                                (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+                           -> GHC.Maybe.Maybe
+                                (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+                           -> m ())
+                   (w :: Control.Monad.Reader.Class.MonadReader
+                           StreetRun.Config.Config m)
+                   (w1 :: StreetRun.Config.Config -> SDL.Video.Renderer.Texture)
+                   (ww3 :: GHC.Types.Int)
+                   (ww4 :: GHC.Types.Int) ->
+                 let {
+                   lvl :: m SDL.Video.Renderer.Texture
+                   = Control.Monad.Reader.Class.reader
+                       @ StreetRun.Config.Config
+                       @ m
+                       w
+                       @ SDL.Video.Renderer.Texture
+                       w1
+                 } in
+                 let {
+                   lvl1 :: Linear.V2.V2 Foreign.C.Types.CInt
+                   = case ww3 of wild { GHC.Types.I# x# ->
+                     case ww4 of wild1 { GHC.Types.I# x#1 ->
+                     Linear.V2.V2
+                       @ Foreign.C.Types.CInt
+                       (GHC.Int.I32# (GHC.Prim.narrow32Int# x#))
+                         `cast`
+                       (Sym (Foreign.C.Types.N:CInt[0]))
+                       (GHC.Int.I32# (GHC.Prim.narrow32Int# x#1))
+                         `cast`
+                       (Sym (Foreign.C.Types.N:CInt[0])) } }
+                 } in
+                 ww
+                   @ SDL.Internal.Types.Renderer
+                   @ ()
+                   (Control.Monad.Reader.Class.reader
+                      @ StreetRun.Config.Config
+                      @ m
+                      w
+                      @ SDL.Internal.Types.Renderer
+                      StreetRun.Config.$sel:cRenderer:Config)
+                   (\ (renderer :: SDL.Internal.Types.Renderer) ->
+                    ww
+                      @ SDL.Video.Renderer.Texture
+                      @ ()
+                      lvl
+                      (\ (tex :: SDL.Video.Renderer.Texture) ->
+                       ww
+                         @ SDL.Video.Renderer.TextureInfo
+                         @ ()
+                         (ww1 tex)
+                         (\ (ds :: SDL.Video.Renderer.TextureInfo) ->
+                          case ds of wild { SDL.Video.Renderer.TextureInfo ds1 ds2 ds3 ds4 ->
+                          ww2
+                            renderer
+                            tex
+                            (GHC.Maybe.Nothing
+                               @ (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt))
+                            (GHC.Maybe.Just
+                               @ (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+                               (SDL.Video.Renderer.Rectangle
+                                  @ Foreign.C.Types.CInt
+                                  lvl1
+                                    `cast`
+                                  (Sym (Linear.Affine.N:Point[0]
+                                            <Linear.V2.V2>_R) <Foreign.C.Types.CInt>_N)
+                                  (case ds3
+                                          `cast`
+                                        (Foreign.C.Types.N:CInt[0]) of nt { GHC.Int.I32# ipv ->
+                                   case ds4
+                                          `cast`
+                                        (Foreign.C.Types.N:CInt[0]) of nt1 { GHC.Int.I32# ipv1 ->
+                                   Linear.V2.V2
+                                     @ Foreign.C.Types.CInt
+                                     nt `cast` (Sym (Foreign.C.Types.N:CInt[0]))
+                                     nt1 `cast` (Sym (Foreign.C.Types.N:CInt[0])) } }))) })))) -}
+2f4afbe89784245783cfed7a7288c531
+  drawSprite ::
+    (StreetRun.SDLRenderer.SDLRenderer m,
+     Control.Monad.Reader.Class.MonadReader
+       StreetRun.Config.Config m) =>
+    (StreetRun.Config.Config
+     -> Animate.SpriteSheet
+          key SDL.Video.Renderer.Texture StreetRun.Types.Seconds)
+    -> Animate.SpriteClip key -> (GHC.Types.Int, GHC.Types.Int) -> m ()
+  {- Arity: 5, HasNoCafRefs,
+     Strictness: <S(S(LC(C(S))LLL)LLLL),1*U(1*U(A,C(C1(U)),A,A,A),A,A,A,C(C1(C1(C1(U)))))><L,U(A,A,A,C(U))><L,C(U(A,1*U))><L,1*U(1*U(U),1*U(U),1*U(U),1*U(U),A)><S,1*U(1*U(U),1*U(U))>,
+     Inline: [2],
+     Unfolding: InlineRule (5, True, False)
+                (\ @ m :: * -> *
+                   @ key
+                   (w :: StreetRun.SDLRenderer.SDLRenderer m)
+                   (w1 :: Control.Monad.Reader.Class.MonadReader
+                            StreetRun.Config.Config m)
+                   (w2 :: StreetRun.Config.Config
+                          -> Animate.SpriteSheet
+                               key SDL.Video.Renderer.Texture StreetRun.Types.Seconds)
+                   (w3 :: Animate.SpriteClip key)
+                   (w4 :: (GHC.Types.Int, GHC.Types.Int)) ->
+                 case w of ww { StreetRun.SDLRenderer.C:SDLRenderer ww1 ww2 ww3 ww4 ww5 ->
+                 case ww1 of ww6 { GHC.Base.C:Monad ww7 ww8 ww9 ww10 ww11 ->
+                 case w4 of ww12 { (,) ww13 ww14 ->
+                 StreetRun.Renderer_func_1.$wdrawSprite
+                   @ m
+                   @ key
+                   ww8
+                   ww5
+                   w1
+                   w2
+                   w3
+                   ww13
+                   ww14 } } }) -}
+caf10b0ef3aef43ae2caa84cdcf6bae4
+  drawTextureSprite ::
+    (StreetRun.SDLRenderer.SDLRenderer m,
+     Control.Monad.Reader.Class.MonadReader
+       StreetRun.Config.Config m) =>
+    (StreetRun.Config.Config -> SDL.Video.Renderer.Texture)
+    -> (GHC.Types.Int, GHC.Types.Int) -> m ()
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <S(S(LC(C(S))LLL)LLLL),1*U(1*U(A,C(C1(U)),A,A,A),A,A,C(U),C(C1(C1(C1(U)))))><L,U(A,A,A,C(U))><L,U><S,1*U(1*U(U),1*U(U))>,
+     Inline: [2],
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   (w :: StreetRun.SDLRenderer.SDLRenderer m)
+                   (w1 :: Control.Monad.Reader.Class.MonadReader
+                            StreetRun.Config.Config m)
+                   (w2 :: StreetRun.Config.Config -> SDL.Video.Renderer.Texture)
+                   (w3 :: (GHC.Types.Int, GHC.Types.Int)) ->
+                 case w of ww { StreetRun.SDLRenderer.C:SDLRenderer ww1 ww2 ww3 ww4 ww5 ->
+                 case ww1 of ww6 { GHC.Base.C:Monad ww7 ww8 ww9 ww10 ww11 ->
+                 case w3 of ww12 { (,) ww13 ww14 ->
+                 StreetRun.Renderer_func_1.$wdrawTextureSprite
+                   @ m
+                   ww8
+                   ww4
+                   ww5
+                   w1
+                   w2
+                   ww13
+                   ww14 } } }) -}
+84a3c478bd2606939c018fd631f62292
+  rectFromClip ::
+    Animate.SpriteClip key
+    -> SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S,1*U(1*U(U),1*U(U),1*U(U),1*U(U),A)>m, Inline: [2],
+     Unfolding: InlineRule (1, True, False)
+                (\ @ key (w :: Animate.SpriteClip key) ->
+                 case w of ww { Animate.SpriteClip ww1 ww2 ww3 ww4 ww5 ->
+                 SDL.Video.Renderer.Rectangle
+                   @ Foreign.C.Types.CInt
+                   (case ww1 of wild { GHC.Types.I# x# ->
+                    case ww2 of wild1 { GHC.Types.I# x#1 ->
+                    (Linear.V2.V2
+                       @ Foreign.C.Types.CInt
+                       (GHC.Int.I32# (GHC.Prim.narrow32Int# x#))
+                         `cast`
+                       (Sym (Foreign.C.Types.N:CInt[0]))
+                       (GHC.Int.I32# (GHC.Prim.narrow32Int# x#1))
+                         `cast`
+                       (Sym (Foreign.C.Types.N:CInt[0])))
+                      `cast`
+                    (Sym (Linear.Affine.N:Point[0]
+                              <Linear.V2.V2>_R) <Foreign.C.Types.CInt>_N) } })
+                   (case ww3 of wild { GHC.Types.I# x# ->
+                    case ww4 of wild1 { GHC.Types.I# x#1 ->
+                    Linear.V2.V2
+                      @ Foreign.C.Types.CInt
+                      (GHC.Int.I32# (GHC.Prim.narrow32Int# x#))
+                        `cast`
+                      (Sym (Foreign.C.Types.N:CInt[0]))
+                      (GHC.Int.I32# (GHC.Prim.narrow32Int# x#1))
+                        `cast`
+                      (Sym (Foreign.C.Types.N:CInt[0])) } }) }) -}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+
