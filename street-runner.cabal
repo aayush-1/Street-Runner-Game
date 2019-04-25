@@ -1,0 +1,117 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 3a5987b8c8cf5ebfcf5b03f698192ac42fe72227c89b38d2ec35ca478b7d7bac
+
+name:           street-runner
+version:        0.0.0
+synopsis:       man running on street avoiding obstacles
+description:    man running on street avoiding obstacles
+category:       Game
+homepage:       https://github.com/haskell-10/street-runner#readme
+bug-reports:    https://github.com/haskell-10/street-runner/issues
+maintainer:     aayush
+copyright:      2019 aayush
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    package.yaml
+    README.md
+    stack.yaml
+data-files:
+    resource/runner.json
+    resource/run.png
+
+source-repository head
+  type: git
+  location: https://github.com/haskell-10/street-runner
+
+library
+  exposed-modules:
+      StreetRun
+      StreetRun.Config
+      StreetRun.Effect.Audio
+      StreetRun.Effect.Camera
+      StreetRun.Effect.Clock
+      StreetRun.Effect.HUD
+      StreetRun.Effect.Logger
+      StreetRun.Effect.Quake
+      StreetRun.Effect.Renderer
+      StreetRun.Effect.Sfx
+      StreetRun.Engine.Bird
+      StreetRun.Engine.Building
+      StreetRun.Engine.Camera
+      StreetRun.Engine.Common
+      StreetRun.Engine.Font
+      StreetRun.Engine.Frame
+      StreetRun.Engine.GameOver
+      StreetRun.Engine.Grass
+      StreetRun.Engine.Input
+      StreetRun.Engine.Lava
+      StreetRun.Engine.Obstacle
+      StreetRun.Engine.Physics
+      StreetRun.Engine.Play
+      StreetRun.Engine.Quake
+      StreetRun.Engine.Rock
+      StreetRun.Engine.Runner
+      StreetRun.Engine.Scene
+      StreetRun.Engine.Sfx
+      StreetRun.Engine.Step
+      StreetRun.Engine.Title
+      StreetRun.Engine.Types
+      StreetRun.Manager.Input
+      StreetRun.Manager.Scene
+      StreetRun.Resource
+      StreetRun.Runner
+      StreetRun.Scene.Death
+      StreetRun.Scene.GameOver
+      StreetRun.Scene.Pause
+      StreetRun.Scene.Play
+      StreetRun.Scene.Title
+      StreetRun.State
+      StreetRun.Wrapper.SDLInput
+      StreetRun.Wrapper.SDLRenderer
+  other-modules:
+      Paths_street_runner
+  hs-source-dirs:
+      library
+  default-extensions: DuplicateRecordFields FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving LambdaCase NamedFieldPuns ScopedTypeVariables OverloadedStrings
+  ghc-options: -Wall
+  build-depends:
+      StateVar
+    , aeson
+    , animate
+    , base >=4.7 && <5
+    , bytestring
+    , containers
+    , key-state
+    , lens
+    , linear
+    , mtl
+    , random
+    , safe
+    , safe-exceptions
+    , sdl2
+    , sdl2-image
+    , sdl2-mixer
+    , sdl2-ttf
+    , text
+    , text-conversions
+  default-language: Haskell2010
+
+executable street-runner
+  main-is: Main.hs
+  other-modules:
+      Paths_street_runner
+  hs-source-dirs:
+      executable
+  default-extensions: DuplicateRecordFields FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving LambdaCase NamedFieldPuns ScopedTypeVariables OverloadedStrings
+  ghc-options: -Wall -rtsopts -threaded -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , street-runner
+  default-language: Haskell2010
