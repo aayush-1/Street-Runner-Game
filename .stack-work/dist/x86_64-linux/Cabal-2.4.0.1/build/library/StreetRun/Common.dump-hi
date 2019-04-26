@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:06.226632187 UTC
+2019-04-26 16:49:11.282284203 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Common 8064
-  interface hash: a54c500733f47e02682a1c497f16b9ab
-  ABI hash: ec7a24ddc13a89793e354234ea8b6a8f
-  export-list hash: 5bf7e8807e04e9b7e18cf5c3f75b1f5b
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Common 8064
+  interface hash: 0a89d4c2a26ae632e07e46a9653c24c9
+  ABI hash: ae88f6983cc973a550c263b8148feda8
+  export-list hash: 61e4030ffa8e91db9a54c7154cc3d232
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: e9979ed0ba295133ef8188aa5e696ffc
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -120,28 +120,28 @@ import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
-import  -/  lens-4.17:Control.Lens 02c38743366e4d3d260b71bddfddea13
-import  -/  lens-4.17:Control.Lens.TH a3413f983a85efb472c9d435aae96b24
-import  -/  lens-4.17:Control.Lens.Type fd3d7a4235b6bea7852cfdf84ee6def7
-import  -/  StreetRun.Quake b6a124c4030dd8107fa49ff2cc71f4ef
-  exports: 1b20d2e9b9ea83d46fe981dd6ab66f9e
-  Quake 1a9c7230fc5b6045929623cb4b581a74
-  Quake'Dormant 479e3bdfddfb2fad202074f6161a7075
-import  -/  StreetRun.Quake_BackStreet ebd66aa7fea9a4375db34319ddddfe2a
-  exports: 578e5b9ec1aaacc51172575d1af9f5be
-import  -/  StreetRun.Quake_Building 7b28d20ae17511fa922d20e9819b3dc0
-  exports: 6525757d6f3314b41ce008ffadedcbcd
-import  -/  StreetRun.Quake_Grass 5769fbd4058b117d8edf4d5fb329570b
-  exports: 7f02c80c1b0edff6e6cef90cfed2f356
-import  -/  StreetRun.Quake_Street 0639936fb2089261a1b9959dd9fae6ce
-  exports: 945f767c32e91e3edb88f6795d3a025e
-import  -/  StreetRun.Sfx 188ad4f30736accf16515482a6965264
-  exports: 029fd02878001f540ae45828c6e7c393
-  Sfx a3dab70cffee12c7533ffba02a25eece
-import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
-  exports: 68eec0a854069d6ebcc9ba499b980fc6
-  Score 4bad63bb3fa03e71441e81262a8b345e
-1a70b4b7adfef4baee78b76f08e9c288
+import  -/  lens-4.17:Control.Lens 531af2b540e6d8d8ce856b6f46207d94
+import  -/  lens-4.17:Control.Lens.TH c8ee903ac0437128dcf8373c689fbce1
+import  -/  lens-4.17:Control.Lens.Type a26601a0a02238b01fa664e92db6501f
+import  -/  StreetRun.Quake 534ecc20f0d0082a1dfa1bcf26bf997d
+  exports: ad876ccc0312a03ee7f2e4b3c80c4160
+  Quake bf6b24e5831a4dd5418423ad7b277e13
+  Quake'Dormant 6c7668e31a26cffa9fb440ddd6a0cb4b
+import  -/  StreetRun.Quake_BackStreet b655aa3f0985b36698a52eb293422bae
+  exports: 74d66d7bc295214aa67aef6b0028b730
+import  -/  StreetRun.Quake_Building 62453cda89c32691aab5de3709136976
+  exports: f6a986805fd741a89c48d6a16b4d0f3b
+import  -/  StreetRun.Quake_Grass 8acdd0976725ecdc0aae8148de0e5478
+  exports: 5d42752bf51786e0aa2b859a9d6873ad
+import  -/  StreetRun.Quake_Street bab4016d1b3ebad7a2b7c1ed285f4529
+  exports: 18446ae1546a0ea859bc4b20f064313b
+import  -/  StreetRun.Sfx 84ca787432fe5aa9b2474b5f085cc5ee
+  exports: 40f6907587702e890ebc457991a6c86d
+  Sfx fb15b7866cecd0ca9b160c975af7b405
+import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
+  exports: 687926be2250d898b68652280e784933
+  Score 14dcab1a7c2f10e1cc53b42f2e1d95fd
+0f93d8dfb992b8c8431fd0dc1f0c54d0
   $fEqCommonVars :: GHC.Classes.Eq StreetRun.Common.CommonVars
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -149,7 +149,7 @@ import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
                   @ StreetRun.Common.CommonVars
                   StreetRun.Common.$fEqCommonVars_$c==
                   StreetRun.Common.$fEqCommonVars_$c/= -}
-1a70b4b7adfef4baee78b76f08e9c288
+0f93d8dfb992b8c8431fd0dc1f0c54d0
   $fEqCommonVars_$c/= ::
     StreetRun.Common.CommonVars
     -> StreetRun.Common.CommonVars -> GHC.Types.Bool
@@ -162,7 +162,7 @@ import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
                  case StreetRun.Common.$fEqCommonVars_$c== x y of wild {
                    GHC.Types.False -> GHC.Types.True
                    GHC.Types.True -> GHC.Types.False }) -}
-1a70b4b7adfef4baee78b76f08e9c288
+0f93d8dfb992b8c8431fd0dc1f0c54d0
   $fEqCommonVars_$c== ::
     StreetRun.Common.CommonVars
     -> StreetRun.Common.CommonVars -> GHC.Types.Bool
@@ -181,7 +181,7 @@ import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
                         `cast`
                       (StreetRun.Types.N:Score[0]) of ww10 { GHC.Types.I# ww11 ->
                  StreetRun.Common.$w$c== ww5 ww2 ww3 ww11 ww8 ww9 } } } }) -}
-78e2982dec7ad30766f890d3421b5154
+919b4731c41ba51a047a083b8a4cc9c7
   $fHasCommonVarsCommonVars ::
     StreetRun.Common.HasCommonVars StreetRun.Common.CommonVars
   DFunId
@@ -191,7 +191,7 @@ import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
                   `cast`
                 (Sym (StreetRun.Common.N:HasCommonVars[0]
                           <StreetRun.Common.CommonVars>_N)) -}
-e59eae50c5f9b5e4575e3be210682fdd
+a779a29e93e8c34d0a5a736958d3c71e
   $fHasCommonVarsCommonVars_$ccommonVars ::
     Control.Lens.Type.Lens'
       StreetRun.Common.CommonVars StreetRun.Common.CommonVars
@@ -201,7 +201,7 @@ e59eae50c5f9b5e4575e3be210682fdd
                  GHC.Base.id
                    @ (StreetRun.Common.CommonVars
                       -> f StreetRun.Common.CommonVars)) -}
-1a70b4b7adfef4baee78b76f08e9c288
+0f93d8dfb992b8c8431fd0dc1f0c54d0
   $fShowCommonVars :: GHC.Show.Show StreetRun.Common.CommonVars
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -210,31 +210,31 @@ e59eae50c5f9b5e4575e3be210682fdd
                   StreetRun.Common.$fShowCommonVars_$cshowsPrec
                   StreetRun.Common.$fShowCommonVars_$cshow
                   StreetRun.Common.$fShowCommonVars_$cshowList -}
-1a70b4b7adfef4baee78b76f08e9c288
+0f93d8dfb992b8c8431fd0dc1f0c54d0
   $fShowCommonVars1 :: StreetRun.Common.CommonVars -> GHC.Show.ShowS
   {- Arity: 1, Strictness: <S,1*U(U(U),1*U,U)>,
      Unfolding: (\ (w :: StreetRun.Common.CommonVars) ->
                  case w of ww { StreetRun.Common.CommonVars ww1 ww2 ww3 ->
                  StreetRun.Common.$w$cshowsPrec 0# ww1 ww2 ww3 }) -}
-186cdb3e60e6dccde3d420e9cd79ecf8
+61bf691d2b3485c261819f91e3bf0f78
   $fShowCommonVars2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("}"#) -}
-e46d3071e90918b94e39d8b5eb93af97
+ac012529714e25cc79100ad1dc4360ba
   $fShowCommonVars3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("cvSfx = "#) -}
-a6e8e1194551bc920ad80224666e4779
+1faf0db113a6b86d5e05330a1232bdba
   $fShowCommonVars4 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("cvQuake = "#) -}
-1d484438a7ef7beb9339392f37658fdf
+1d95e9531e90c254b9b173968d570f12
   $fShowCommonVars5 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("cvHiscore = "#) -}
-60b171630dd302fe2b55a94f747a4d48
+502b7c68caf329b52dc096fe7ef5d4c4
   $fShowCommonVars6 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("CommonVars {"#) -}
-3b379619be4f15f59c47f347196e96bf
+bc61033a71024706f25ad8041871c2e9
   $fShowCommonVars7 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
-1a70b4b7adfef4baee78b76f08e9c288
+0f93d8dfb992b8c8431fd0dc1f0c54d0
   $fShowCommonVars_$cshow ::
     StreetRun.Common.CommonVars -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U(U(U),1*U,U)>,
@@ -244,7 +244,7 @@ a6e8e1194551bc920ad80224666e4779
                    StreetRun.Common.$fShowCommonVars7
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-1a70b4b7adfef4baee78b76f08e9c288
+0f93d8dfb992b8c8431fd0dc1f0c54d0
   $fShowCommonVars_$cshowList ::
     [StreetRun.Common.CommonVars] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
@@ -255,7 +255,7 @@ a6e8e1194551bc920ad80224666e4779
                    StreetRun.Common.$fShowCommonVars1
                    ls
                    s) -}
-1a70b4b7adfef4baee78b76f08e9c288
+0f93d8dfb992b8c8431fd0dc1f0c54d0
   $fShowCommonVars_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Common.CommonVars -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S(S),1*U(U)><S,1*U(U(U),1*U,U)>,
@@ -265,7 +265,7 @@ a6e8e1194551bc920ad80224666e4779
                  case w of ww { GHC.Types.I# ww1 ->
                  case w1 of ww2 { StreetRun.Common.CommonVars ww3 ww4 ww5 ->
                  StreetRun.Common.$w$cshowsPrec ww1 ww3 ww4 ww5 } }) -}
-1a70b4b7adfef4baee78b76f08e9c288
+0f93d8dfb992b8c8431fd0dc1f0c54d0
   $sel:cvHiscore:CommonVars ::
     StreetRun.Common.CommonVars -> StreetRun.Types.Score
   RecSel Left StreetRun.Common.CommonVars
@@ -274,7 +274,7 @@ a6e8e1194551bc920ad80224666e4779
                 (\ (ds :: StreetRun.Common.CommonVars) ->
                  case ds of wild { StreetRun.Common.CommonVars ds1 ds2 ds3 ->
                  ds1 }) -}
-1a70b4b7adfef4baee78b76f08e9c288
+0f93d8dfb992b8c8431fd0dc1f0c54d0
   $sel:cvQuake:CommonVars ::
     StreetRun.Common.CommonVars -> StreetRun.Quake.Quake
   RecSel Left StreetRun.Common.CommonVars
@@ -283,7 +283,7 @@ a6e8e1194551bc920ad80224666e4779
                 (\ (ds :: StreetRun.Common.CommonVars) ->
                  case ds of wild { StreetRun.Common.CommonVars ds1 ds2 ds3 ->
                  ds2 }) -}
-1a70b4b7adfef4baee78b76f08e9c288
+0f93d8dfb992b8c8431fd0dc1f0c54d0
   $sel:cvSfx:CommonVars ::
     StreetRun.Common.CommonVars -> [StreetRun.Sfx.Sfx]
   RecSel Left StreetRun.Common.CommonVars
@@ -292,86 +292,86 @@ a6e8e1194551bc920ad80224666e4779
                 (\ (ds :: StreetRun.Common.CommonVars) ->
                  case ds of wild { StreetRun.Common.CommonVars ds1 ds2 ds3 ->
                  ds3 }) -}
-8fe70b41650a14d74110162e2ab03b96
+03711fc33cc71aa2f63dc14db4c22310
   $tc'CommonVars :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   13455688158429199351##
-                   8112429035551343189##
+                   9765444502480576744##
+                   16521911790065962658##
                    StreetRun.Common.$trModule
                    StreetRun.Common.$tc'CommonVars2
                    0#
                    StreetRun.Common.$tc'CommonVars1) -}
-c1058f7ad241641104327f3ab346d649
+bb0f0da87b00769a6da4286159488187
   $tc'CommonVars1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-78bb6ec0d61ad6b1bb986faebf39add5
+a5eb6f0b70bdd751e1ce1301017ac890
   $tc'CommonVars2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Common.$tc'CommonVars3) -}
-d4499b01a37c69b4cdc77acb4e7504ed
+343fddf46b2b4d90d8edb9abf289c195
   $tc'CommonVars3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'CommonVars"#) -}
-413c63fd40476375cea419df34365e42
+56d17b8e8d618a87ceef8904f6944d9e
   $tcCommonVars :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   11941373046255105723##
-                   9486650644626214362##
+                   10822855670610644475##
+                   18004580230715453297##
                    StreetRun.Common.$trModule
                    StreetRun.Common.$tcCommonVars1
                    0#
                    GHC.Types.krep$*) -}
-f24cc83b04b9a67a8ed744faced0fa10
+74ce05e4202c35f2502ac8f3aa7df6ea
   $tcCommonVars1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Common.$tcCommonVars2) -}
-6a3286178fc30246262f033e7bae0bb0
+d23302485f1900b8aa643c1907e108c1
   $tcCommonVars2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("CommonVars"#) -}
-bb480fbc46e15c90be68afcca7e5b529
+9cff3f384f1e81f939f7703db9fe41bb
   $tcHasCommonVars :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   4306960771697972579##
-                   4898884303684824760##
+                   1398709848066294524##
+                   1794497743522335707##
                    StreetRun.Common.$trModule
                    StreetRun.Common.$tcHasCommonVars2
                    0#
                    StreetRun.Common.$tcHasCommonVars1) -}
-9ef218f96c70b227cfc78eb77269bd73
+56c20a5bcb3825529bcf05a19b889778
   $tcHasCommonVars1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-1c4690c2038440f8ff603b6f5c29dcbf
+0c9ae72be245d81481a0689b2b4b29b2
   $tcHasCommonVars2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Common.$tcHasCommonVars3) -}
-a0be5a5c3289d99028631d3f22122774
+9a1c04eaedc31a6dff454df102a3d277
   $tcHasCommonVars3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("HasCommonVars"#) -}
-ba828e68681f5865297deb2c416b6523
+d2376ee559285b7b6f9bcd67f4d7a882
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Common.$trModule3
                    StreetRun.Common.$trModule1) -}
-404b2ddcdcd4971f50e3a3a35f64b12d
+4d8a814ec4eb4d8b9a6b09a9d5bf40b1
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Common.$trModule2) -}
-a6f95af736cafa1fe45b4a3b723b7905
+9738522cc1e464a20a75144a339a0197
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Common"#) -}
-79bb11bef48e4b25370e68921845df3b
+2739025b50a2f86b0ebfc7d694d9a691
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Common.$trModule4) -}
-3ca0003fb80c2c3d9d499c74d5fa37f8
+10c81e8e2a084d858170246630f87a8c
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-36bd51c0197f6478efff9073dc9f1e2d
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+7f79a3fce66385c43ff7c1cd80a2150f
   $w$c== ::
     GHC.Prim.Int#
     -> StreetRun.Quake.Quake
@@ -428,7 +428,7 @@ a6f95af736cafa1fe45b4a3b723b7905
                                        StreetRun.Sfx.$fEqSfx
                                        ww2
                                        ww5 } } } } } }) -}
-0093c6b46b2d26efd4be62449119373e
+4790908f728272146db076758795808e
   $w$cshowsPrec ::
     GHC.Prim.Int#
     -> StreetRun.Types.Score
@@ -513,16 +513,16 @@ a6f95af736cafa1fe45b4a3b723b7905
                         @ GHC.Types.Char
                         GHC.Show.$fShow(,)4
                         (p (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)2 x)) }) -}
-1a70b4b7adfef4baee78b76f08e9c288
+0f93d8dfb992b8c8431fd0dc1f0c54d0
   data CommonVars
     = CommonVars {cvHiscore :: StreetRun.Types.Score,
                   cvQuake :: StreetRun.Quake.Quake,
                   cvSfx :: [StreetRun.Sfx.Sfx]}
-78e2982dec7ad30766f890d3421b5154
+919b4731c41ba51a047a083b8a4cc9c7
   class HasCommonVars c where
     commonVars :: Control.Lens.Type.Lens' c StreetRun.Common.CommonVars
     {-# MINIMAL commonVars #-}
-e9af88a65889b0174c6b0f0f18ddc4b6
+4e6b01758597412806e75e6dac1bc3c0
   initCommonVars :: StreetRun.Common.CommonVars
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (StreetRun.Common.CommonVars
@@ -531,14 +531,14 @@ e9af88a65889b0174c6b0f0f18ddc4b6
                    (Sym (StreetRun.Types.N:Score[0]))
                    StreetRun.Common.initCommonVars1
                    (GHC.Types.[] @ StreetRun.Sfx.Sfx)) -}
-2d114400603448f1a20303478da49480
+89d0da44471c4c0dad1469b443d2191b
   initCommonVars1 :: StreetRun.Quake.Quake
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (StreetRun.Quake.Quake'Dormant
                    StreetRun.Common.initCommonVars2
                      `cast`
                    (Sym (StreetRun.Types.N:Seconds[0]))) -}
-904de18ce60ec806e423ce52e37838cd
+13e7831ab6580e48d76d0fc97a18655c
   initCommonVars2 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 2.0#) -}
 instance GHC.Classes.Eq [StreetRun.Common.CommonVars]

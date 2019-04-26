@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:09.539486555 UTC
+2019-04-26 16:49:15.640396256 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Death 8064
-  interface hash: 6c350a2e2526afaca70c5805d1c6f26a
-  ABI hash: 3736750ea403d6c2a935ce3e3e1829bd
-  export-list hash: eeb974f5063b6e179132d6dcd1281d6b
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Death 8064
+  interface hash: 6dbdf7a1c89aa5c31182de9838319ffb
+  ABI hash: 4f7eacbaac739ee4d5621e77a22fbbe0
+  export-list hash: 14743785934f7ec3332ecd60bf49379e
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -150,7 +150,7 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
                          vector-0.12.0.2:Data.Vector.Storable
                          vector-0.12.0.2:Data.Vector.Unboxed
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
-import  -/  animate-0.7.0:Animate cf529f033c38156be2990062be8eb570
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
 import  -/  base-4.12.0.0:Control.Monad 728c9526f38369d3ad3bf7824b06e87e
 import  -/  base-4.12.0.0:Data.Maybe 9b76a39e833465c3c5b3c078b431417f
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
@@ -159,120 +159,120 @@ import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
 import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
-import  -/  lens-4.17:Control.Lens 02c38743366e4d3d260b71bddfddea13
-import  -/  lens-4.17:Control.Lens.Getter 18b0523ecb5ed8cc7fa826ffd942da08
+import  -/  lens-4.17:Control.Lens 531af2b540e6d8d8ce856b6f46207d94
+import  -/  lens-4.17:Control.Lens.Getter 79a8b254c85ab59ff7c11b644140539d
 import  -/  mtl-2.2.2:Control.Monad.State 753def63fe8e937dc636f11e5230745a
 import  -/  mtl-2.2.2:Control.Monad.State.Class 94cc1438f3f9a3259fb0a2c56d3d0303
-import  -/  StreetRun.CFL 22aaa7e917fe6023bc75b650c540e607
-  exports: f389828e267831208731f8c3eb015474
-  frameDeltaSeconds 9605a9c4d4e8e9e818a55364604b43d7
-import  -/  StreetRun.Common ec7a24ddc13a89793e354234ea8b6a8f
-  exports: 5bf7e8807e04e9b7e18cf5c3f75b1f5b
-  HasCommonVars 78e2982dec7ad30766f890d3421b5154
-import  -/  StreetRun.HUD 33ed45f0ee969474895a8614650a2f1b
-  exports: 7832e9cac015a5203f08d8c52ac8b9ae
-  HUD 910cd3343cd00cd8902c09529859c02a
-import  -/  StreetRun.Load b854b61e5394a1e0d9cd4b9313a268b0
-  exports: 4cddd7fe752b7b923c34c3b71e404029
-  HasInput ba70c797691329d224bd192290501ef6
-import  -/  StreetRun.Picture b3a434655916c9bd40f5e83b30c22973
-  exports: 3a912206f39fec45a542e7a9b7b90546
-  CameraControl 4fbff540ba209f3d818863d970cdf797
-import  -/  StreetRun.Play 5e1759185369f3a2fb6cea30997a29a1
-  exports: a72549fdc40fd458e99f01bb54a263bc
-  drawPlay 2d161bb4ba69e327c7b99d0e8e3033b6
-  modifyPlayVars 7212d1f75fb00121324a8daebf64fa50
-import  -/  StreetRun.Renderer 0519d22b921b8437012069e63a6f4fa6
-  exports: 3ce23641af82250faf4b4afd515774b7
-  Renderer 718a3d63cec016694ff0c781c86acdfc
-  getRunnerAnimations 2fcaf83fcbda5f1bc7a60f13b946af8e
-import  -/  StreetRun.Renderer_func_1 a9aeb84e666161fb4390884165deb075
-  exports: 6a0ad2bf2ffcb5fd6ca93a687f153110
-import  -/  StreetRun.Renderer_func_2 8e1829777a16c2ecd350a0a2077893e3
-  exports: e72c1bc9f19fb36af370b60f395645dd
-import  -/  StreetRun.Runner a6abbd291e744158bf9018a60f48d314
-  exports: ae88bb9ed2797ab0ae7bfb3fb6716c40
-  $sel:dsHeight:RunnerState 47dad745455c1bb3aa6466e0dcf4a02c
-import  -/  StreetRun.Runner_func_1 bdddcc72b2b205ac6ed65be0261303a7
-  exports: 5dd8b90845ed790a7a36c82e6f4d7138
-import  -/  StreetRun.Runner_func_2 850b3567ef6c7c4675339eaa541ca68a
-  exports: 132f0584768b112cf2826c60192e01cb
-import  -/  StreetRun.Scenario 354a54748ba84a3c008f8f16b2acd94c
-  Scene'GameOver d8d6b39c31265c252eb4d435b4bc9d0f
-import  -/  StreetRun.Scene 77553ca4972702fc9ed9a930428c3b84
-  exports: e5cf8e79f9eac931695eddae8a179fc0
-  SceneManager 8a74b8a4c9e990537b0f35c67b38d826
-  toScene d29769eae987e04902c8094df1bb527e
-import  -/  StreetRun.Work 84c49625e5300d184b6b74d71a119d1f
-  exports: be18f47a77094179ee18b27ca088c03e
-  $sel:pvRunnerPos:PlayVars 454bac6bacb8c3a13959acb3712742b4
-  $sel:pvRunnerState:PlayVars 454bac6bacb8c3a13959acb3712742b4
-import  -/  StreetRun.Work_func e74f2daf9d4710767ad8c2ada174399d
-  exports: c79cba614ebcff5946e13d50725530aa
-  HasPlayVars 9cbc89508257ef44e1f754bf3878ef7f
-  playVars a16e4bec16bd99ad3c380a2d9a9d4a2c
-e2286afe22a8d5595213667b47043e36
+import  -/  StreetRun.CFL 3eda38b0b4527455a470588885876383
+  exports: 7e1369c6347bedc3f988b96583d80157
+  frameDeltaSeconds 99f34a321f0767b8c92e0a5de49841e4
+import  -/  StreetRun.Common ae88f6983cc973a550c263b8148feda8
+  exports: 61e4030ffa8e91db9a54c7154cc3d232
+  HasCommonVars 919b4731c41ba51a047a083b8a4cc9c7
+import  -/  StreetRun.HUD 67c25875c022a2408906d37d63f0510d
+  exports: e799087feb519c2fa6ec11e1bcb9834b
+  HUD dd3aec2a82456c62e19ed6e64162878f
+import  -/  StreetRun.Load 0b2c99b1460fc0284ebe0ed44ab70962
+  exports: bb94dee51103db3de49f80223cdee067
+  HasInput a827a1b40b93ca24fd0678aff14a3874
+import  -/  StreetRun.Picture 2415def10652325ab2b0934136a862a9
+  exports: babc26a2152d66639b7a47ea4c5947f4
+  CameraControl 886c953787575a6ab7b91f5818c72b74
+import  -/  StreetRun.Play 13434c08ceb9c55f59c270081107bded
+  exports: e0892446b692f7e2c328da9798320326
+  drawPlay c6ebab1eb6b97a8395051df7a792e079
+  modifyPlayVars 987b668df3cefbd20f7940434ad8e7aa
+import  -/  StreetRun.Renderer a69ba77fd8f4ba75b3394f8a84f6545b
+  exports: bdc569cebfaf1503ce959a9192a1814c
+  Renderer 879b383bd7b1ca67a12fca41ecb57c3d
+  getRunnerAnimations 359e34639657617fa9e732d909871035
+import  -/  StreetRun.Renderer_func_1 87b11dfcfe20c3a1685ab67cfe255c84
+  exports: cd995c9f02033435bf3d7151e24e6a3d
+import  -/  StreetRun.Renderer_func_2 87fc080bf0dac60d05d8fd44dced694f
+  exports: acb7c593e3b7f4916cf72f231a22b161
+import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
+  exports: 07dc0a302095db6221f41ecc2db9aec7
+  $sel:dsHeight:RunnerState ba3a4953300a8a7970962fa07fd443a5
+import  -/  StreetRun.Runner_func_1 1928ba54f43a20365598e5563c7061e0
+  exports: 3aace68dd54e293b9e7cb9629aa29f15
+import  -/  StreetRun.Runner_func_2 f8a14e2b7b30d725c8ce0939a4c26918
+  exports: fc83ba710a96fc8b5794a82f528d2b01
+import  -/  StreetRun.Scenario 3d565e4d4fcefb40de1d348ddc5508f1
+  Scene'GameOver d6d74f7b1099ec47643260db8a409509
+import  -/  StreetRun.Scene af7d6d54736d3642cc86bcfab3e76781
+  exports: 07dad99016b354b41a3f7ae55850c26a
+  SceneManager 63d1267c6f32ccbcb6cd361a33bac81a
+  toScene 1edb960cc18f68f27f8817e7a98f03a1
+import  -/  StreetRun.Work 3611973cdf8488c3a5964c00b99590c8
+  exports: ffd7a4165016a00bc61ed7371fce244a
+  $sel:pvRunnerPos:PlayVars 05b27afb2a000fc455265545d1f3ef8b
+  $sel:pvRunnerState:PlayVars 05b27afb2a000fc455265545d1f3ef8b
+import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
+  exports: 0632c1ae56fdb446c1bb6a552db25704
+  HasPlayVars 7c21393bf018dbd7864889724c1b555b
+  playVars 189c6f7e94884827f037d5be1ee00734
+3f8c293a598c055c13d4a425169a6878
   $tc'C:Death :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   9401505886989119513##
-                   9541935714450025831##
+                   15129259457649480633##
+                   14418804958156768900##
                    StreetRun.Death.$trModule
                    StreetRun.Death.$tc'C:Death2
                    1#
                    StreetRun.Death.$tc'C:Death1) -}
-b00ccafc94578c996ecff47d639bc1dc
+07e8635ff71788a3a7fba83ef1010fcd
   $tc'C:Death1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-079da08cdce60080706e3193d2f2a750
+0c3c747257b74e0af8758b2443f60317
   $tc'C:Death2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Death.$tc'C:Death3) -}
-84c5d809ba9f254ede58c5d0b8e3c014
+fd2e2764d23c4b474e3cb87dda6b7eeb
   $tc'C:Death3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'C:Death"#) -}
-35810590efdfbe2b8063d694a7720650
+101b5e754f57e0a53778ae386ea175f3
   $tcDeath :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   16847990499517116146##
-                   2588749826481686494##
+                   8272875983655061546##
+                   15449919037938246225##
                    StreetRun.Death.$trModule
                    StreetRun.Death.$tcDeath2
                    0#
                    StreetRun.Death.$tcDeath1) -}
-2394d48015a13390508d0dd65850b025
+fdbfc912c3e4136bdab8b4b957a39609
   $tcDeath1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-356ef95a573111362ce94c7cf647f529
+848f6f530c02f13913e88db4c5d3e3bf
   $tcDeath2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Death.$tcDeath3) -}
-3f04c3ccb57bb76ec2f9490c5e4c21bd
+7d59ba41508c6d4741be300ac82a0d41
   $tcDeath3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Death"#) -}
-b243578ae328db6280e23d1c3aa7fd4e
+e6849602bd75fe59a58ba038991d86d2
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Death.$trModule3
                    StreetRun.Death.$trModule1) -}
-bcb5e1372cdc3eb4229c04ac8412c857
+f88f984ecf93920c8a9f0290921f2bc2
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Death.$trModule2) -}
-2a0417f2a0a2415c0ebb5bb5a707f278
+d8ffa1cbd19cac249cd3c71684025708
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Death"#) -}
-df449c31b94062fb2de63f73911c273b
+525077b7c977cf3cb7e04509e5c518bb
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Death.$trModule4) -}
-4bf42867ece0bd769a647c456173f7d8
+d7a783a0a537b1fcd065b26bf1bcde22
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-9da905b612dcf352ae0061cf4f36269c
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+8266b9828ab27da7649f85fe9be6d50c
   $wupdateDeath ::
     StreetRun.Work_func.HasPlayVars s =>
     (forall a b. m a -> (a -> m b) -> m b)
@@ -352,11 +352,11 @@ df449c31b94062fb2de63f73911c273b
                       (\ (s1 :: s) ->
                        (GHC.Tuple.(),
                         (f s1) `cast` (Data.Functor.Identity.N:Identity[0] <s>_R))))) -}
-ba62fe1977cc43c295ad3e800eb6583f
+de140fce135b19484db7562249d763a3
   class GHC.Base.Monad m => Death (m :: * -> *) where
     deathStep :: m ()
     {-# MINIMAL deathStep #-}
-f48e6c046145349a9cd289c79187e874
+5ed0ab25b5cc8602421dfe8fc945c228
   deathStep' ::
     (StreetRun.Work_func.HasPlayVars s,
      StreetRun.Common.HasCommonVars s,
@@ -464,13 +464,13 @@ f48e6c046145349a9cd289c79187e874
                                     (StreetRun.Types.N:Percent[0]) of wild1 { GHC.Types.F# x ->
                                case GHC.Prim.gtFloat# x 1.5707964# of lwild {
                                  DEFAULT -> lvl2 1# -> lvl } } }))) }) -}
-8fe15d0bad0880531de6d1dcd703b2a0
+38677df3f7e8210d204beff83a944f53
   deathStep'1 :: StreetRun.Work.PlayVars -> StreetRun.Work.PlayVars
   {- Arity: 1, HasNoCafRefs,
      Strictness: <S,1*U(U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U)>m,
      Unfolding: InlineRule (1, True, True)
                 (\ (v :: StreetRun.Work.PlayVars) -> v) -}
-0c0651bd6673ac71edcdef6e02f52927
+c6025ae1f214737339c24a78bb14eeee
   deathStep'2 :: GHC.Maybe.Maybe StreetRun.Types.Percent
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Maybe.Just
@@ -478,14 +478,14 @@ f48e6c046145349a9cd289c79187e874
                    StreetRun.Death.deathStep'3
                      `cast`
                    (Sym (StreetRun.Types.N:Percent[0]))) -}
-5e5d8a2500ab9e313a0953b6d4741fe6
+9e430cc8556ea74ec9ac331f9cf812e9
   deathStep'3 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 0.0#) -}
-da9bbbc02a53d8f2cb6e8558141bd783
+5111f621b1b95e5bd13180679a828815
   deathStep'4 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.F# 1.6667e-2#) -}
-74f68c3c3d660e7dc7baa5cf8bfc83aa
+19ff19630652f67004bcc922b83bb065
   updateDeath ::
     (StreetRun.Work_func.HasPlayVars s,
      Control.Monad.State.Class.MonadState s m,

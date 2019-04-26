@@ -43,7 +43,3 @@ Building library for text-1.2.3.1..
 [40 of 44] Compiling Data.Text.Internal.Builder.Functions ( Data/Text/Internal/Builder/Functions.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Data/Text/Internal/Builder/Functions.o )
 [41 of 44] Compiling Data.Text.Lazy.Builder.Int ( Data/Text/Lazy/Builder/Int.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Data/Text/Lazy/Builder/Int.o )
 [42 of 44] Compiling Data.Text.Lazy.Builder.RealFloat ( Data/Text/Lazy/Builder/RealFloat.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Data/Text/Lazy/Builder/RealFloat.o )
-[43 of 44] Compiling Data.Text.IO     ( Data/Text/IO.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Data/Text/IO.o )
-[44 of 44] Compiling Data.Text.Lazy.IO ( Data/Text/Lazy/IO.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Data/Text/Lazy/IO.o )
-Installing library in /home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/lib/x86_64-linux-ghc-8.6.4/text-1.2.3.1-La8HgsbI3z7Ezd75FPHQix
-Registering library for text-1.2.3.1..

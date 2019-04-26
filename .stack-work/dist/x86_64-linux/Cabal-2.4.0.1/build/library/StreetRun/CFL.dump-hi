@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:00.410196094 UTC
+2019-04-26 16:49:05.067960023 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.CFL 8064
-  interface hash: 984a03939e6ecd07969c98dc9951f6ae
-  ABI hash: 22aaa7e917fe6023bc75b650c540e607
-  export-list hash: f389828e267831208731f8c3eb015474
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.CFL 8064
+  interface hash: ffdcb6c618deadd0c6a8781eff1d3870
+  ABI hash: 3eda38b0b4527455a470588885876383
+  export-list hash: 7e1369c6347bedc3f988b96583d80157
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -50,122 +50,122 @@ import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
 import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
-import  -/  text-1.2.3.1:Data.Text 18aabeaea44861e012250635c667d309
-import  -/  text-1.2.3.1:Data.Text.Internal 33f95a55c7e327b089fd4ee34193da3c
-93823c145347cf9db181f2c1e8081351
+import  -/  text-1.2.3.1:Data.Text 1e51a010d8f8a6fa41d8ea82d69faf13
+import  -/  text-1.2.3.1:Data.Text.Internal 537e168590e8068f673f691833f78483
+b49d60a2cd281290e8624b8cf2131fd1
   $tc'C:Clock :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   6809948519181176359##
-                   2125759075624403184##
+                   577823558845833148##
+                   3012729058406595246##
                    StreetRun.CFL.$trModule
                    StreetRun.CFL.$tc'C:Clock2
                    1#
                    StreetRun.CFL.$tc'C:Clock1) -}
-86d633cb84477596fe56f378eddc24d1
+484985c331deee727b96a6dc63e44167
   $tc'C:Clock1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-b2da89978b2f0a5c248de0484071634d
+bcd49bbe97ea637f1688ce6f7ae27d9a
   $tc'C:Clock2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.CFL.$tc'C:Clock3) -}
-9ccc426dc319ddf0d5b7b17d92e7e5d1
+b42d630efb4f1a6bbe2e21a03ee97984
   $tc'C:Clock3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'C:Clock"#) -}
-5c7f7cc7a8ab45430353d03b0981e19e
+b97b3a7a9172da796fcd0b03af03ea8c
   $tc'C:Logger :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   11860533576845291143##
-                   12072243166512581323##
+                   1606071723468138354##
+                   8328333298928689689##
                    StreetRun.CFL.$trModule
                    StreetRun.CFL.$tc'C:Logger2
                    1#
                    StreetRun.CFL.$tc'C:Logger1) -}
-2b947948352069787ae5f0e6cdb69761
+8d10b088303f52b70c49e216cada8141
   $tc'C:Logger1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-e71a7b2e457ff2e54488440db9389a8f
+b624cbab2cade4122e791646af5add46
   $tc'C:Logger2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.CFL.$tc'C:Logger3) -}
-30e8ec5bc8275079d88a8237a439a056
+efa04602ec1242634e0b898a1a85c153
   $tc'C:Logger3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'C:Logger"#) -}
-bf28adfa0c5c48c7342d16896e50ac29
+71b6af9b6ef4115bc5b1bbf4f5ecaad9
   $tcClock :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   8520848846372801767##
-                   16108831575314797333##
+                   3929050769442292627##
+                   5392903112831208167##
                    StreetRun.CFL.$trModule
                    StreetRun.CFL.$tcClock2
                    0#
                    StreetRun.CFL.$tcClock1) -}
-a43d1b16127d436059aa605f226643ce
+7bca0d2946e81826c9a9d81635fc096a
   $tcClock1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-60f3b145c03da20559fdea9e5011bab3
+2643f11368be474e6494744a3df281e8
   $tcClock2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.CFL.$tcClock3) -}
-c1fa3dde5e7ad2be8ead2ca174b7f1ae
+04f71b968c42b87a7cd9242e2b3f6af8
   $tcClock3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Clock"#) -}
-a7c7a47da406669ada3f0602fe5b9cd4
+c34119b12270aee8f059dc862bd61011
   $tcLogger :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   8737040092216184868##
-                   11981854120549870031##
+                   17385619964773799655##
+                   15747695128057789009##
                    StreetRun.CFL.$trModule
                    StreetRun.CFL.$tcLogger1
                    0#
                    StreetRun.CFL.$tcClock1) -}
-f4ba2e250248197b139955e78051e343
+0c407544510177f136b35108445c4cf4
   $tcLogger1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.CFL.$tcLogger2) -}
-7da6298cb7efa76a837eceb156f94bb8
+f33a57182f53ca4a5b88a21bb55d81a6
   $tcLogger2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Logger"#) -}
-acda7b14b83a0afba7aff7c8d4a9267e
+c350afd8a7ad0f81f2ded5a2c31a641f
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.CFL.$trModule3
                    StreetRun.CFL.$trModule1) -}
-f0c341168c510b7da971efce08efccad
+218a951e4f520df97350f006fe2fe8b9
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.CFL.$trModule2) -}
-87c876e07636d0af33173cb024050c30
+79ace2ed60a7a567b516285d3630e528
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.CFL"#) -}
-8c44f65e8ce4db5f6845d3cfe005030b
+bf11f6d68812a0f57f5443c4cca318e2
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.CFL.$trModule4) -}
-88520f8bdb1c3eef3e13331cada46e54
+39ea4c19b8ea617950f4b20ba9d93878
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-7a224d3c24f27ab5449750b94a90522b
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+2dd5e552ef33361792fc99c135e1cdb1
   class GHC.Base.Monad m => Clock (m :: * -> *) where
     delayMilliseconds :: GHC.Types.Int -> m ()
     {-# MINIMAL delayMilliseconds #-}
-1754f757febcf328080928cadc0ce029
+2bac4802c92eda635fb9d72df4e83c39
   class GHC.Base.Monad m => Logger (m :: * -> *) where
     logText :: Data.Text.Internal.Text -> m ()
     {-# MINIMAL logText #-}
-3b7d69ea6fc3cf09c41497fcbd9b8104
+631952e7cd923b9529bf09e18f7126c9
   delayMilliseconds' :: GHC.Types.Int -> GHC.Types.IO ()
   {- Arity: 2, Strictness: <L,1*U(U)><L,U>,
      Unfolding: InlineRule (0, True, True)
                 StreetRun.CFL.delayMilliseconds'1
                   `cast`
                 (<GHC.Types.Int>_R ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
-5a5346d726e333124d17512f63468924
+c11867bdc854dd09e775a64afc1214e1
   delayMilliseconds'1 ::
     GHC.Types.Int
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -190,10 +190,10 @@ f0c341168c510b7da971efce08efccad
                              (GHC.Prim.*# 1000# y)
                              eta of s' { DEFAULT ->
                       (# s', GHC.Tuple.() #) } } } }) -}
-90622874aa4369df0481285d834bc8f0
+c7826b0a7e6c3d7fd345efd544c3dff6
   frameDeltaMilliseconds :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 20#) -}
-9605a9c4d4e8e9e818a55364604b43d7
+99f34a321f0767b8c92e0a5de49841e4
   frameDeltaSeconds :: GHC.Real.Fractional a => a
   {- Arity: 1, HasNoCafRefs,
      Strictness: <S(LLLC(S)),1*U(A,A,A,1*C1(U))>,
@@ -203,17 +203,17 @@ f0c341168c510b7da971efce08efccad
                    @ a
                    $dFractional
                    StreetRun.CFL.frameDeltaSeconds1) -}
-14812a6ab40a6aef7657f85535717b39
+60888a28f6362716ddd81a1d46d242f2
   frameDeltaSeconds1 :: GHC.Real.Ratio GHC.Integer.Type.Integer
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Real.:%
                    @ GHC.Integer.Type.Integer
                    StreetRun.CFL.frameDeltaSeconds3
                    StreetRun.CFL.frameDeltaSeconds2) -}
-0f9c16d92856ddd9f3f0e2775242824d
+befe3e8650f1690f58ffa9959a2fb319
   frameDeltaSeconds2 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (1000000) -}
-825894c46d8edff1859d40d58b53ab02
+a3face1c06745b5e6d55fc9e3975b672
   frameDeltaSeconds3 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (16667) -}
 trusted: none

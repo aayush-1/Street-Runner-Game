@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:06.7641966 UTC
+2019-04-26 16:49:11.916058564 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Assets_1 8064
-  interface hash: 9805984583446b61e965111d074d0b78
-  ABI hash: 092a9f85ac2840e6b6b4a8844b69b157
-  export-list hash: a0e66bff35b5bbeef533c40567f2213d
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Assets_1 8064
+  interface hash: 7887145964a53ea98330f50f9e0f4b86
+  ABI hash: f2041023758fb4fb3de0d429a531996b
+  export-list hash: 23645df15c706621917a7fcb8bbb0549
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -139,111 +139,111 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
                          vector-0.12.0.2:Data.Vector.Unboxed
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
 import  -/  StateVar-1.1.1.1:Data.StateVar 3356bd62ad24ee9ca28de7ecf3cb79ab
-import  -/  animate-0.7.0:Animate cf529f033c38156be2990062be8eb570
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
-import  -/  linear-1.20.8:Linear.V4 c70db2e424bdc7ab8d43e643d0753cb7
-import  -/  sdl2-2.4.1.0:SDL a509879ea64738370e9e96c8f0b5e49f
-import  -/  sdl2-2.4.1.0:SDL.Internal.Numbered 0b11fbe4c03927fdc1fd6ca7bf4277c7
-import  -/  sdl2-2.4.1.0:SDL.Internal.Types 7b679d0a22de4708b08683438715e813
-import  -/  sdl2-2.4.1.0:SDL.Raw.Video 339ce0d115a8b7b77c00b6b6a31f46f6
-import  -/  sdl2-2.4.1.0:SDL.Vect 87cebfb5451b5123ac5e23d9821e85c2
-import  -/  sdl2-2.4.1.0:SDL.Video.Renderer 93203afab1f85132f9da5863a7f04f06
-import  -/  sdl2-image-2.0.0:SDL.Image 77e927eadd80e879a871675cb789a7ca
-import  -/  sdl2-mixer-1.1.0:SDL.Mixer f3936c6b9c7c99434739f7b77f9abfbf
-import  -/  sdl2-ttf-2.0.2:SDL.Font d24b31830df063b1aa6c9977b6472ef3
-import  -/  StreetRun.Assets 2819f37df7c59b80fb7f3a73042c7f01
-  exports: 86be993b4877099fabbc9ec1b43ab731
-  $sel:rBackStreetSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rBirdSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rBirdSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rBuildingSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rControlsSprite:Resources 022c06076a805b822172c29a76100922
-  $sel:rDeathSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rDuckSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rEscapeSprite:Resources 022c06076a805b822172c29a76100922
-  $sel:rGameMusic:Resources 022c06076a805b822172c29a76100922
-  $sel:rGameOverSprite:Resources 022c06076a805b822172c29a76100922
-  $sel:rGrassSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rHiscoreSprite:Resources 022c06076a805b822172c29a76100922
-  $sel:rHurtSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rJumpSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rLavaSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rLavaSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rNumberSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rPauseSprite:Resources 022c06076a805b822172c29a76100922
-  $sel:rPointSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rQuakeSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rRecoverSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rRockSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rRockSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rRunnerSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rSpaceSprite:Resources 022c06076a805b822172c29a76100922
-  $sel:rStockSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rStreetSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rTitleSprite:Resources 022c06076a805b822172c29a76100922
-  Resources 7ccfae4571a60c468174d5051eb9d38d
-  Resources 022c06076a805b822172c29a76100922
-  alphaColorDef ec1be3f1c5ea93b38342efcd4a1bf7ca
-  loadSurface 1450d6737be5a179db03233b9830fa0d
-import  -/  StreetRun.Font 34a23e060586d079dd0657583ffec0bf
-  exports: 09e7f7e66762b635c22cb5644e292e72
-  Number'0 81af8e3a09617e94c97cb4ae6a000b68
-  Number'1 fe9089bf146e06ea9cc4265fc88114cc
-  Number'2 31f6de683d3ccaf0b66e605af28065ad
-  Number'3 7f3836e7b6ca1a1b62173905a336ba41
-  Number'4 43b61cad8e2969bbfd216e89a40e527c
-  Number'5 867c275580aa81721c23c86199072170
-  Number'6 ecc452d04d7c9f79886a53cb4f85418c
-  Number'7 e950ce4560308a2c7e780c91aa5fe71a
-  Number'8 d849d7cc8cd5aab54fcdcd7f2b29da70
-  Number'9 6939c5b07ea5c87a8ab9c9fc9ed90ded
-import  -/  StreetRun.Font_functions 233513d294ddb4c635ea5e843e8f2bc1
-  exports: c1863499f3ebc41d6a1caeb3c071141a
-import  -/  StreetRun.Runner a6abbd291e744158bf9018a60f48d314
-  exports: ae88bb9ed2797ab0ae7bfb3fb6716c40
-  RunnerKey 246fbc2203e765942b6e843f2c5465c5
-import  -/  StreetRun.Runner_func_1 bdddcc72b2b205ac6ed65be0261303a7
-  exports: 5dd8b90845ed790a7a36c82e6f4d7138
-import  -/  StreetRun.Runner_func_2 850b3567ef6c7c4675339eaa541ca68a
-  exports: 132f0584768b112cf2826c60192e01cb
-import  -/  StreetRun.Scenario 354a54748ba84a3c008f8f16b2acd94c
-  exports: 64c6733be65834216e60f326da61cf65
-  BuildingKey 8d4c5e6921f733591e707f21136e38ef
-  GrassKey ad2a2fb6c9f7041cf4bd51fd17675c8c
-import  -/  StreetRun.Snag 91cafec8e0a3bc8aded7f9bc89567610
-  exports: c07ed761210af14f8b0800e144209504
-  BirdKey f88ace211280dc1d7921a1773951ed44
-  LavaKey 3fc67e1f876892a8dbc5f4b90be00bda
-  RockKey 5221b707992783923c608096f51488e5
-import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
-  exports: 68eec0a854069d6ebcc9ba499b980fc6
-  Seconds a9822968438ab4a0fccda00b12150109
-import  -/  text-conversions-0.3.0:Data.Text.Conversions 3b269e79ba7224fcc6a43cbc3208b0b3
-f686d332930d6b6d30fe1b595dfe6428
+import  -/  linear-1.20.8:Linear.V4 c239e31f533d2317ba3df898a135744f
+import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
+import  -/  sdl2-2.4.1.0:SDL.Internal.Numbered f3853aae17e1e1845b0a5ba2f25c1787
+import  -/  sdl2-2.4.1.0:SDL.Internal.Types e9c1ec4176424e757d8731678bde7206
+import  -/  sdl2-2.4.1.0:SDL.Raw.Video 49d4be230da948d7687c7ac321a90c99
+import  -/  sdl2-2.4.1.0:SDL.Vect cd47fc30aef16e8f55c1351dafae292d
+import  -/  sdl2-2.4.1.0:SDL.Video.Renderer fde5d4735decffc12f192a8489c7afbb
+import  -/  sdl2-image-2.0.0:SDL.Image 67bf05f64bc35f747ec59baab27c7015
+import  -/  sdl2-mixer-1.1.0:SDL.Mixer ab60a8550598269def875bc1a7207b35
+import  -/  sdl2-ttf-2.0.2:SDL.Font c4a3fe90a2776dafa33b0d9792acf8d0
+import  -/  StreetRun.Assets 8f2913451ac82f2b7c6c2615bf793ef1
+  exports: 0a88185806d79762834760ca6a267506
+  $sel:rBackStreetSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rBirdSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rBirdSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rBuildingSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rControlsSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rDeathSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rDuckSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rEscapeSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rGameMusic:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rGameOverSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rGrassSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rHiscoreSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rHurtSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rJumpSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rLavaSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rLavaSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rNumberSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rPauseSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rPointSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rQuakeSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRecoverSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRockSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRockSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRunnerSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rSpaceSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rStockSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rStreetSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rTitleSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  Resources f71a17aa4c9f09e87bb3cd6d3ac1eeb6
+  Resources 506eb6c1c8a755fdf82b61cc10157e07
+  alphaColorDef 4376993b8abfe550ff97ac31d31fd99c
+  loadSurface 43540737d7d981701d2c424d53a8797c
+import  -/  StreetRun.Font a32f3953bbb50ce9b469edb8463d6f24
+  exports: 7faf0604fc3be1edae721103fd7b3042
+  Number'0 4e0746d740819fe2452564186de2dcde
+  Number'1 248183ef9ca96252664c99d781bf7e20
+  Number'2 2b53a2b5ffd40e38ebaedafde22dc64f
+  Number'3 c4ae2a7e07bad98a291fa8f8cf37c761
+  Number'4 fb0ffcc2153f5a7fac8541d8d26f5d9e
+  Number'5 701c566dd82dde0f6d6cdb1775aa9336
+  Number'6 6b34df0265b8d55413ae81f088cda146
+  Number'7 997fb803900f45f27876ddf015548551
+  Number'8 86520f7dd298fa962c4e2953d9b350b4
+  Number'9 97c7e2733d2c2569b76e0d357d0fdf8d
+import  -/  StreetRun.Font_functions 1a5a69e004e559ef0ed610c21b9037a3
+  exports: 8738957528d4728a198f0cc1309ae7d5
+import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
+  exports: 07dc0a302095db6221f41ecc2db9aec7
+  RunnerKey c9d847714c135c3fbba17148989067a8
+import  -/  StreetRun.Runner_func_1 1928ba54f43a20365598e5563c7061e0
+  exports: 3aace68dd54e293b9e7cb9629aa29f15
+import  -/  StreetRun.Runner_func_2 f8a14e2b7b30d725c8ce0939a4c26918
+  exports: fc83ba710a96fc8b5794a82f528d2b01
+import  -/  StreetRun.Scenario 3d565e4d4fcefb40de1d348ddc5508f1
+  exports: 425f740a4cf1b868d9284521ed68ce1e
+  BuildingKey b4c3f53a1de721da99d4f02d4409c2d9
+  GrassKey da61b53345a9ca19f2dea7fa2a8793b3
+import  -/  StreetRun.Snag 435128ff0e3817e1b1768f09cf894e59
+  exports: 7f7b3656c97eba619795923512f79f2a
+  BirdKey a4b9334f1959d8eda311a05a86034c88
+  LavaKey ef15a7c1dcf7c6d0c02947b3c6d55574
+  RockKey a1efaaa0d94a0294a7825caa774f65b1
+import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
+  exports: 687926be2250d898b68652280e784933
+  Seconds 3096dba0a5a57c02592e934b662fbeb3
+import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd13d7c5bf10
+f1d7c8b9064fb4f7511d38bf45100c4c
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Assets_1.$trModule3
                    StreetRun.Assets_1.$trModule1) -}
-6707918d784a61a7b481c346df6ea381
+78d2b5d64e58a54e94af919fabe351e5
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Assets_1.$trModule2) -}
-2a0cee7f225c991966a92ef946bac0a4
+56ea5d34f6af59bb35361e7da61dac80
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Assets_1"#) -}
-7ab69c0f9bf6b3ff59e1d3c55247f750
+0af3c91a3bac2949bd1cb7466bb7cda3
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Assets_1.$trModule4) -}
-ab292ee90780fb7a2c44b1c411a03926
+5627a0694db22c5d4c048a670e627132
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-c517a5ac057a1f44ad0cd5168faeeb85
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+b2335b6a01dad8b0a317e1cec65fce21
   loadResources ::
     SDL.Internal.Types.Renderer
     -> GHC.Types.IO StreetRun.Assets.Resources
@@ -253,7 +253,7 @@ c517a5ac057a1f44ad0cd5168faeeb85
                   `cast`
                 (<SDL.Internal.Types.Renderer>_R
                  ->_R Sym (GHC.Types.N:IO[0] <StreetRun.Assets.Resources>_R)) -}
-e6ee3155f9bc8b49ea68da3ef268f508
+62740711ac8bdaec8744e906f67c52b6
   loadResources1 ::
     SDL.Internal.Types.Renderer
     -> GHC.Prim.State# GHC.Prim.RealWorld

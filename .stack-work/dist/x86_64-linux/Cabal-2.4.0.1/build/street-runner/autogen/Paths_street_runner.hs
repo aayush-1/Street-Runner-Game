@@ -30,7 +30,7 @@ version = Version [0,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/bin"
-libdir     = "/home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/lib/x86_64-linux-ghc-8.6.4/street-runner-0.0.0-Jsj2Qw83YqR1vI22EXKMe-street-runner"
+libdir     = "/home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/lib/x86_64-linux-ghc-8.6.4/street-runner-0.0.0-IRHS6dLHshlHGWQD6b0861-street-runner"
 dynlibdir  = "/home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/lib/x86_64-linux-ghc-8.6.4"
 datadir    = "/home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/share/x86_64-linux-ghc-8.6.4/street-runner-0.0.0"
 libexecdir = "/home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/libexec/x86_64-linux-ghc-8.6.4/street-runner-0.0.0"

@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:06.909155015 UTC
+2019-04-26 16:49:12.130202732 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Assets_2 8064
-  interface hash: 65c97329e549e2dcb908ad3762e75508
-  ABI hash: 554c0cc210cac8907e123e55b9f847ff
-  export-list hash: 8a28f26399f8feeec61fee2c50539027
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Assets_2 8064
+  interface hash: fdb4b52e612e3aa12a1a733b51504b35
+  ABI hash: ed7b4bbc3c266f562c97d1eacc2a8b6f
+  export-list hash: 0c2eda332977a867677d45b3ebd3a710
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -139,89 +139,89 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
                          vector-0.12.0.2:Data.Vector.Unboxed
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
 import  -/  StateVar-1.1.1.1:Data.StateVar 3356bd62ad24ee9ca28de7ecf3cb79ab
-import  -/  animate-0.7.0:Animate cf529f033c38156be2990062be8eb570
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
-import  -/  sdl2-2.4.1.0:SDL a509879ea64738370e9e96c8f0b5e49f
-import  -/  sdl2-2.4.1.0:SDL.Internal.Numbered 0b11fbe4c03927fdc1fd6ca7bf4277c7
-import  -/  sdl2-2.4.1.0:SDL.Raw.Video 339ce0d115a8b7b77c00b6b6a31f46f6
-import  -/  sdl2-2.4.1.0:SDL.Vect 87cebfb5451b5123ac5e23d9821e85c2
-import  -/  sdl2-2.4.1.0:SDL.Video.Renderer 93203afab1f85132f9da5863a7f04f06
-import  -/  sdl2-image-2.0.0:SDL.Image 77e927eadd80e879a871675cb789a7ca
-import  -/  sdl2-mixer-1.1.0:SDL.Mixer f3936c6b9c7c99434739f7b77f9abfbf
-import  -/  sdl2-ttf-2.0.2:SDL.Font d24b31830df063b1aa6c9977b6472ef3
-import  -/  StreetRun.Assets 2819f37df7c59b80fb7f3a73042c7f01
-  exports: 86be993b4877099fabbc9ec1b43ab731
-  $sel:rBackStreetSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rBirdSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rBirdSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rBuildingSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rControlsSprite:Resources 022c06076a805b822172c29a76100922
-  $sel:rDeathSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rDuckSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rEscapeSprite:Resources 022c06076a805b822172c29a76100922
-  $sel:rGameMusic:Resources 022c06076a805b822172c29a76100922
-  $sel:rGameOverSprite:Resources 022c06076a805b822172c29a76100922
-  $sel:rGrassSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rHiscoreSprite:Resources 022c06076a805b822172c29a76100922
-  $sel:rHurtSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rJumpSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rLavaSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rLavaSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rPauseSprite:Resources 022c06076a805b822172c29a76100922
-  $sel:rPointSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rQuakeSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rRecoverSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rRockSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rRockSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rRunnerSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rSpaceSprite:Resources 022c06076a805b822172c29a76100922
-  $sel:rStockSfx:Resources 022c06076a805b822172c29a76100922
-  $sel:rStreetSprites:Resources 022c06076a805b822172c29a76100922
-  $sel:rTitleSprite:Resources 022c06076a805b822172c29a76100922
-  Resources 022c06076a805b822172c29a76100922
-import  -/  StreetRun.Assets_1 092a9f85ac2840e6b6b4a8844b69b157
-  exports: a0e66bff35b5bbeef533c40567f2213d
-import  -/  StreetRun.Font 34a23e060586d079dd0657583ffec0bf
-  exports: 09e7f7e66762b635c22cb5644e292e72
-import  -/  StreetRun.Font_functions 233513d294ddb4c635ea5e843e8f2bc1
-  exports: c1863499f3ebc41d6a1caeb3c071141a
-import  -/  StreetRun.Runner a6abbd291e744158bf9018a60f48d314
-  exports: ae88bb9ed2797ab0ae7bfb3fb6716c40
-import  -/  StreetRun.Runner_func_1 bdddcc72b2b205ac6ed65be0261303a7
-  exports: 5dd8b90845ed790a7a36c82e6f4d7138
-import  -/  StreetRun.Runner_func_2 850b3567ef6c7c4675339eaa541ca68a
-  exports: 132f0584768b112cf2826c60192e01cb
-import  -/  StreetRun.Scenario 354a54748ba84a3c008f8f16b2acd94c
-  exports: 64c6733be65834216e60f326da61cf65
-import  -/  StreetRun.Snag 91cafec8e0a3bc8aded7f9bc89567610
-  exports: c07ed761210af14f8b0800e144209504
-import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
-  exports: 68eec0a854069d6ebcc9ba499b980fc6
-import  -/  text-conversions-0.3.0:Data.Text.Conversions 3b269e79ba7224fcc6a43cbc3208b0b3
-c6a464053b34b0286bada534c362b279
+import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
+import  -/  sdl2-2.4.1.0:SDL.Internal.Numbered f3853aae17e1e1845b0a5ba2f25c1787
+import  -/  sdl2-2.4.1.0:SDL.Raw.Video 49d4be230da948d7687c7ac321a90c99
+import  -/  sdl2-2.4.1.0:SDL.Vect cd47fc30aef16e8f55c1351dafae292d
+import  -/  sdl2-2.4.1.0:SDL.Video.Renderer fde5d4735decffc12f192a8489c7afbb
+import  -/  sdl2-image-2.0.0:SDL.Image 67bf05f64bc35f747ec59baab27c7015
+import  -/  sdl2-mixer-1.1.0:SDL.Mixer ab60a8550598269def875bc1a7207b35
+import  -/  sdl2-ttf-2.0.2:SDL.Font c4a3fe90a2776dafa33b0d9792acf8d0
+import  -/  StreetRun.Assets 8f2913451ac82f2b7c6c2615bf793ef1
+  exports: 0a88185806d79762834760ca6a267506
+  $sel:rBackStreetSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rBirdSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rBirdSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rBuildingSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rControlsSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rDeathSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rDuckSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rEscapeSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rGameMusic:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rGameOverSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rGrassSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rHiscoreSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rHurtSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rJumpSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rLavaSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rLavaSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rPauseSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rPointSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rQuakeSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRecoverSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRockSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRockSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRunnerSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rSpaceSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rStockSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rStreetSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rTitleSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  Resources 506eb6c1c8a755fdf82b61cc10157e07
+import  -/  StreetRun.Assets_1 f2041023758fb4fb3de0d429a531996b
+  exports: 23645df15c706621917a7fcb8bbb0549
+import  -/  StreetRun.Font a32f3953bbb50ce9b469edb8463d6f24
+  exports: 7faf0604fc3be1edae721103fd7b3042
+import  -/  StreetRun.Font_functions 1a5a69e004e559ef0ed610c21b9037a3
+  exports: 8738957528d4728a198f0cc1309ae7d5
+import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
+  exports: 07dc0a302095db6221f41ecc2db9aec7
+import  -/  StreetRun.Runner_func_1 1928ba54f43a20365598e5563c7061e0
+  exports: 3aace68dd54e293b9e7cb9629aa29f15
+import  -/  StreetRun.Runner_func_2 f8a14e2b7b30d725c8ce0939a4c26918
+  exports: fc83ba710a96fc8b5794a82f528d2b01
+import  -/  StreetRun.Scenario 3d565e4d4fcefb40de1d348ddc5508f1
+  exports: 425f740a4cf1b868d9284521ed68ce1e
+import  -/  StreetRun.Snag 435128ff0e3817e1b1768f09cf894e59
+  exports: 7f7b3656c97eba619795923512f79f2a
+import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
+  exports: 687926be2250d898b68652280e784933
+import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd13d7c5bf10
+a94cf92290096079f26c7c0816554a9e
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Assets_2.$trModule3
                    StreetRun.Assets_2.$trModule1) -}
-bf2198e9881aa96b76d7edac4670bef8
+a5b675a7cf13f7a1476ee806e5fff698
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Assets_2.$trModule2) -}
-ceb0de7363d1aab63158bcd990f3fa70
+09da886270c42c62fab8f927171aa09d
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Assets_2"#) -}
-dba57b66622ac141b6e00061086a56f1
+4fdf4ea00dea5ec393ffaeb535e68b73
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Assets_2.$trModule4) -}
-a0254d5a8c8efdd51b24eef5da95227d
+5b6132a2984e39c6d0d72a87c2e7965b
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-c18e2c40cb302ad0d96b0ad9826ba31a
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+0d1d02c5acb6d0063fb97d299998483a
   freeResources :: StreetRun.Assets.Resources -> GHC.Types.IO ()
   {- Arity: 2, HasNoCafRefs,
      Strictness: <S(S(LS(S))S(LS(S))S(S)S(S)S(LS(S))S(LS(S))S(LS(S))S(LS(S))S(S)S(S)S(S)S(S)S(S)S(S)S(S)S(S)S(S)S(S)S(S)S(S)S(S)S(S)S(S)S(S)S(S)S(S)LS(S)),1*U(1*U(A,1*U(U)),1*U(A,1*U(U)),1*U(U),1*U(U),1*U(A,1*U(U)),1*U(A,1*U(U)),1*U(A,1*U(U)),1*U(A,1*U(U)),1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),1*U(U),A,1*U(U))><S,U>,
@@ -230,7 +230,7 @@ c18e2c40cb302ad0d96b0ad9826ba31a
                   `cast`
                 (<StreetRun.Assets.Resources>_R
                  ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
-880ede6b7ae34f7a7d5aaf5b907b3e1c
+34e51b6d56920102905f2e52186470c0
   freeResources1 ::
     StreetRun.Assets.Resources
     -> GHC.Prim.State# GHC.Prim.RealWorld

@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:01.270543998 UTC
+2019-04-26 16:49:05.957003338 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.SDLLayer 8064
-  interface hash: f0c5725edd0a89634842ac6591d27105
-  ABI hash: 43fbd12d1c3076103d4acc48080a09a0
-  export-list hash: 646f4aaf1892c6584fb74106a06288c0
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.SDLLayer 8064
+  interface hash: 24e2ea8563a79a331154d9578cfb00fd
+  ABI hash: 472f0f146c646fd670be8cc0b6cbfdac
+  export-list hash: b9d495c503a62642ca4638e990961b8e
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -130,116 +130,116 @@ import  -/  base-4.12.0.0:Foreign.C.Types 35a1d321965626990bdd0f18683810e2
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
-import  -/  linear-1.20.8:Linear.V4 c70db2e424bdc7ab8d43e643d0753cb7
-import  -/  sdl2-2.4.1.0:SDL a509879ea64738370e9e96c8f0b5e49f
-import  -/  sdl2-2.4.1.0:SDL.Event fbf16d9130d99ce78bbb0e43275086f3
-import  -/  sdl2-2.4.1.0:SDL.Input.Keyboard b51d26624d6b46d89b8bc781d8f03838
-import  -/  sdl2-2.4.1.0:SDL.Input.Keyboard.Codes e4fd14eb91c214be96ff75d5892ac71e
-import  -/  sdl2-2.4.1.0:SDL.Internal.Types 7b679d0a22de4708b08683438715e813
-import  -/  sdl2-2.4.1.0:SDL.Vect 87cebfb5451b5123ac5e23d9821e85c2
-import  -/  sdl2-2.4.1.0:SDL.Video.Renderer 93203afab1f85132f9da5863a7f04f06
-0c983202fdf3e588a472cfc2ec8e2c88
+import  -/  linear-1.20.8:Linear.V4 c239e31f533d2317ba3df898a135744f
+import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
+import  -/  sdl2-2.4.1.0:SDL.Event bdfb9ed9abd68e5e54327e8929789d20
+import  -/  sdl2-2.4.1.0:SDL.Input.Keyboard 591251d71dc0f73c073e92456df69137
+import  -/  sdl2-2.4.1.0:SDL.Input.Keyboard.Codes 958ec6e4cb0fa119a48dab2683056293
+import  -/  sdl2-2.4.1.0:SDL.Internal.Types e9c1ec4176424e757d8731678bde7206
+import  -/  sdl2-2.4.1.0:SDL.Vect cd47fc30aef16e8f55c1351dafae292d
+import  -/  sdl2-2.4.1.0:SDL.Video.Renderer fde5d4735decffc12f192a8489c7afbb
+ba6565c5e112a3c74cfe8572da4849a3
   $tc'C:SDLInput :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   6176959297673086143##
-                   6447944042797484110##
+                   14739638820805530124##
+                   2225000403527893137##
                    StreetRun.SDLLayer.$trModule
                    StreetRun.SDLLayer.$tc'C:SDLInput2
                    1#
                    StreetRun.SDLLayer.$tc'C:SDLInput1) -}
-6e87aebf30c79760809eeb84d260bf8d
+13aa2c848ac760f5dac38ac497a69191
   $tc'C:SDLInput1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-4823ffe5ad7e8bdea08d5b343718aee9
+a8e17eb3e2d02e94e6d1352a66d25bac
   $tc'C:SDLInput2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.SDLLayer.$tc'C:SDLInput3) -}
-f6d8d975bbb64494bb03f8acbe170e18
+8299dced2df6e7f91cb0d6d30f99e241
   $tc'C:SDLInput3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'C:SDLInput"#) -}
-3af2cdd87612961fd96248cf413b656c
+7201493e3739c7ac663238d236ab59ad
   $tc'C:SDLRenderer :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   17802826038684556103##
-                   9998216203241239259##
+                   7840658688261501587##
+                   3137523900939203466##
                    StreetRun.SDLLayer.$trModule
                    StreetRun.SDLLayer.$tc'C:SDLRenderer2
                    1#
                    StreetRun.SDLLayer.$tc'C:SDLRenderer1) -}
-8e12739aa8d013eff4c8e26499c49fdd
+206bd65fa7f4ad84149c092114ffdf25
   $tc'C:SDLRenderer1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-156b3575e3352bc99ba0cc6aa9fd3069
+242ef9f893b614acfafe566f76763a91
   $tc'C:SDLRenderer2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.SDLLayer.$tc'C:SDLRenderer3) -}
-6531ab744d2802ff5204b1758b34e093
+cc7957248d774aa61edd083f7a2e2606
   $tc'C:SDLRenderer3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'C:SDLRenderer"#) -}
-c37fbab30f5f4c13bb5b957ac653a23f
+ce207b44d7c76d865990d5a2b183fdce
   $tcSDLInput :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   9297870421460640997##
-                   2720953298968176141##
+                   8372632753048390177##
+                   6707138668337522205##
                    StreetRun.SDLLayer.$trModule
                    StreetRun.SDLLayer.$tcSDLInput2
                    0#
                    StreetRun.SDLLayer.$tcSDLInput1) -}
-bb9aad84cd8dcef2611b15b34808bb03
+123a36d71cc45bf0ae88294d90bd41d8
   $tcSDLInput1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-bfe4705a34364fb47a6771f27f2b00a9
+72865458d45a9960c3e3a7f48c683640
   $tcSDLInput2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.SDLLayer.$tcSDLInput3) -}
-8baa4275205a1524a3b49c569cf21a4c
+8057016f6f4c92a578a04b6e17acb0ad
   $tcSDLInput3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("SDLInput"#) -}
-69cd089ff3052c4943ed140d798ed396
+03a897511de9971e8cf292a710b69345
   $tcSDLRenderer :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   7817258920205599222##
-                   16944989684730174404##
+                   8958353954204854553##
+                   3482290427557987897##
                    StreetRun.SDLLayer.$trModule
                    StreetRun.SDLLayer.$tcSDLRenderer1
                    0#
                    StreetRun.SDLLayer.$tcSDLInput1) -}
-1cb7b3a51fd62223d20472f67ab11292
+af969d70e0124787ea316519aa6db409
   $tcSDLRenderer1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.SDLLayer.$tcSDLRenderer2) -}
-3f31e0367acb13df555d0cc97eee532c
+6230a3ccab97ae39d8a52982957e5cb1
   $tcSDLRenderer2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("SDLRenderer"#) -}
-4916e8d89a6905a8cd3433f0e336336c
+65c7b33b194e43a2c99a65825ebb6ac3
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.SDLLayer.$trModule3
                    StreetRun.SDLLayer.$trModule1) -}
-7479dbbfaaa3c5f9e79f44cf01860154
+96bac6fec096868777c9ae780d93041d
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.SDLLayer.$trModule2) -}
-a9509acaa9f41195467ef157efb25d59
+aafa087aec8a2fb87c86dba2aea658d2
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.SDLLayer"#) -}
-0e6130c4b0aab7cc6f123fdf7a38c89a
+8245c7df877f1db94c8ea657590bdf6a
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.SDLLayer.$trModule4) -}
-2a4086a237542b90617388e3240a5c5b
+9559f6e9eb3d94f95192b4bf522e0ba3
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-a2abd36e3aeb1f6eb76a01a95d373ae0
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+595528486811a583e6f2390c134625a6
   $wclearRenderer' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a b. m a -> m b -> m b)
@@ -297,7 +297,7 @@ a2abd36e3aeb1f6eb76a01a95d373ae0
                                   (Sym (GHC.Types.N:IO[0] <()>_R)) } }))
                          (ww2 @ Foreign.C.Types.CInt a1)))
                    (ww2 @ () GHC.Tuple.())) -}
-081e3bac7316562967e0a77e59f908d7
+d60608d1c25c4f772a307472f6730e24
   $wclearSurface' ::
     (forall a. GHC.Types.IO a -> m a)
     -> SDL.Video.Renderer.Surface -> m ()
@@ -319,7 +319,7 @@ a2abd36e3aeb1f6eb76a01a95d373ae0
                       0##
                       0##
                       0## })) -}
-4f001a52cedc05f7d1015b8fcd77744b
+eedda50b9ef8fbbb4bbe5ead81c28fc9
   $wupdateWindowSurface' ::
     (forall a. GHC.Types.IO a -> m a)
     -> SDL.Internal.Types.Window -> m ()
@@ -346,11 +346,11 @@ a2abd36e3aeb1f6eb76a01a95d373ae0
                          (# ipv, GHC.Tuple.() #) } } } })
                      `cast`
                    (Sym (GHC.Types.N:IO[0] <()>_R))) -}
-969aa8b98ac2c7df2923b0f3a0618b6d
+c9593cb492a6f461bc1a5d0539631820
   class GHC.Base.Monad m => SDLInput (m :: * -> *) where
     pollEventPayloads :: m [SDL.Event.EventPayload]
     {-# MINIMAL pollEventPayloads #-}
-ab017af776428e68e506559777a5f6a1
+4f6ee56ef94bbb8367ac0e96051915aa
   class GHC.Base.Monad m => SDLRenderer (m :: * -> *) where
     presentRenderer :: SDL.Internal.Types.Renderer -> m ()
     clearRenderer :: SDL.Internal.Types.Renderer -> m ()
@@ -365,7 +365,7 @@ ab017af776428e68e506559777a5f6a1
                    -> m ()
     {-# MINIMAL presentRenderer, clearRenderer, queryTexture,
                 drawTexture #-}
-9161e6fcca7f0e90166b733c4d9c60ff
+c6d8e89a305ddeb25ecd0fb40daa61c7
   clearRenderer' ::
     Control.Monad.IO.Class.MonadIO m =>
     SDL.Internal.Types.Renderer -> m ()
@@ -379,12 +379,12 @@ ab017af776428e68e506559777a5f6a1
                  case w of ww { Control.Monad.IO.Class.C:MonadIO ww1 ww2 ->
                  case ww1 of ww3 { GHC.Base.C:Monad ww4 ww5 ww6 ww7 ww8 ->
                  StreetRun.SDLLayer.$wclearRenderer' @ m ww5 ww6 ww7 ww2 w1 } }) -}
-972cb00a7160240016398af7e82b6f0c
+24692c022a471108c3e6033460143ab3
   clearRenderer'1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <S,U> -}
-899a2f7a8f9b0e85f886a907a3e8b924
+30a4c6e95d69b2ad5f58e17e6248ae41
   clearRenderer'2 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -392,7 +392,7 @@ ab017af776428e68e506559777a5f6a1
      Unfolding: InlineRule (1, True, False)
                 (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  (# s, GHC.Tuple.() #)) -}
-d320142277aea63599ccd923ffebe990
+cebde0317dead53b0579f0c79ff50e15
   clearSurface' ::
     Control.Monad.IO.Class.MonadIO m =>
     SDL.Video.Renderer.Surface -> m ()
@@ -404,7 +404,7 @@ d320142277aea63599ccd923ffebe990
                    (w1 :: SDL.Video.Renderer.Surface) ->
                  case w of ww { Control.Monad.IO.Class.C:MonadIO ww1 ww2 ->
                  StreetRun.SDLLayer.$wclearSurface' @ m ww2 w1 }) -}
-741002c938ffbd9571b8cfff15ec0641
+96eaab32a9bc991d561283d1a7247c03
   drawTexture' ::
     Control.Monad.IO.Class.MonadIO m =>
     SDL.Internal.Types.Renderer
@@ -417,7 +417,7 @@ d320142277aea63599ccd923ffebe990
   {- Arity: 5,
      Strictness: <S(LC(S)),1*U(A,1*C1(U))><L,U(U)><L,U(U)><L,U><L,U>,
      Unfolding: InlineRule (0, True, True) SDL.Video.Renderer.copy -}
-9e36590ab8a59445c8be55ac238bccdc
+261a2e8677f0b792f87668f9cd6fbc5d
   keycodePressed ::
     SDL.Input.Keyboard.Codes.Keycode
     -> SDL.Event.EventPayload -> GHC.Types.Bool
@@ -444,7 +444,7 @@ d320142277aea63599ccd923ffebe990
                              -> case ds3 of wild6 {
                                   GHC.Types.False -> GHC.Types.True
                                   GHC.Types.True -> GHC.Types.False } } } } } } } }) -}
-d2ae4d9c1a223b95696b31b96f52c1ad
+19f4e3a0a899bfce40f07cf8e7923f4f
   keycodeReleased ::
     SDL.Input.Keyboard.Codes.Keycode
     -> SDL.Event.EventPayload -> GHC.Types.Bool
@@ -471,7 +471,7 @@ d2ae4d9c1a223b95696b31b96f52c1ad
                                   GHC.Types.False -> GHC.Types.True
                                   GHC.Types.True -> GHC.Types.False }
                              SDL.Event.Pressed -> GHC.Types.False } } } } } } }) -}
-96927240b26171ab588ebac9895162ef
+ac1850686ff1517ff5d687a4cd43c661
   pollEventPayloads' ::
     Control.Monad.IO.Class.MonadIO m => m [SDL.Event.EventPayload]
   {- Arity: 1, Strictness: <S(LC(S)),1*U(A,1*C1(U))>,
@@ -484,7 +484,7 @@ d2ae4d9c1a223b95696b31b96f52c1ad
                    StreetRun.SDLLayer.pollEventPayloads'1
                      `cast`
                    (Sym (GHC.Types.N:IO[0] <[SDL.Event.EventPayload]>_R))) -}
-a0338326002e04c26ab987986a86867c
+ca8bbcdd9a4aac9ce13155c61fb296b7
   pollEventPayloads'1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -513,7 +513,7 @@ a0338326002e04c26ab987986a86867c
                       @ SDL.Event.EventPayload
                       SDL.Event.eventPayload
                       ipv1 #) }) -}
-918826776b5a862b19448dce0e8cabd1
+917238cc465f1c8236f8c3fba2964a1f
   presentRenderer' ::
     Control.Monad.IO.Class.MonadIO m =>
     SDL.Internal.Types.Renderer -> m ()
@@ -526,14 +526,14 @@ a0338326002e04c26ab987986a86867c
                  <Control.Monad.IO.Class.MonadIO m>_R
                  ->_R Sym (SDL.Internal.Types.N:Renderer[0])
                  ->_R <m ()>_R) -}
-d8b12a6eebecc805934fa3b4a866f317
+1eaf2283f585b6deb9863fc90bf3efe1
   queryTexture' ::
     Control.Monad.IO.Class.MonadIO m =>
     SDL.Video.Renderer.Texture -> m SDL.Video.Renderer.TextureInfo
   {- Arity: 2, Strictness: <S(LC(S)),1*U(A,1*C1(U))><L,U(U)>,
      Unfolding: InlineRule (0, True, True)
                 SDL.Video.Renderer.queryTexture -}
-0582ee63115c2a48be543f6e13b979b6
+5d4620f05f5a23b46c632703ee181b2d
   updateWindowSurface' ::
     Control.Monad.IO.Class.MonadIO m =>
     SDL.Internal.Types.Window -> m ()

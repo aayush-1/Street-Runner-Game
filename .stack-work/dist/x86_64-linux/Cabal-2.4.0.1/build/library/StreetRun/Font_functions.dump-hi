@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:00.865918033 UTC
+2019-04-26 16:49:05.507377289 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Font_functions 8064
-  interface hash: 4cb9014b23893003dd72d2c08196b84a
-  ABI hash: 233513d294ddb4c635ea5e843e8f2bc1
-  export-list hash: c1863499f3ebc41d6a1caeb3c071141a
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Font_functions 8064
+  interface hash: 705c76398a9585d0ef873cc8bb021f2e
+  ABI hash: 1a5a69e004e559ef0ed610c21b9037a3
+  export-list hash: 8738957528d4728a198f0cc1309ae7d5
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -34,51 +34,51 @@ import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
 import  -/  integer-gmp-1.0.2.0:GHC.Integer.Type 6d87087aea24143d2650f78480d954a3
-import  -/  StreetRun.Font 34a23e060586d079dd0657583ffec0bf
-  exports: 09e7f7e66762b635c22cb5644e292e72
-  Number 1ca7e4c8adfb9337ba114131324bb05d
-  Number'0 81af8e3a09617e94c97cb4ae6a000b68
-  Number'1 fe9089bf146e06ea9cc4265fc88114cc
-  Number'2 31f6de683d3ccaf0b66e605af28065ad
-  Number'3 7f3836e7b6ca1a1b62173905a336ba41
-  Number'4 43b61cad8e2969bbfd216e89a40e527c
-  Number'5 867c275580aa81721c23c86199072170
-  Number'6 ecc452d04d7c9f79886a53cb4f85418c
-  Number'7 e950ce4560308a2c7e780c91aa5fe71a
-  Number'8 d849d7cc8cd5aab54fcdcd7f2b29da70
-  Number'9 6939c5b07ea5c87a8ab9c9fc9ed90ded
-1f47587eada4d26fb85d4b726141f40d
+import  -/  StreetRun.Font a32f3953bbb50ce9b469edb8463d6f24
+  exports: 7faf0604fc3be1edae721103fd7b3042
+  Number b7e100f9135b0814c955ea3d79c02ada
+  Number'0 4e0746d740819fe2452564186de2dcde
+  Number'1 248183ef9ca96252664c99d781bf7e20
+  Number'2 2b53a2b5ffd40e38ebaedafde22dc64f
+  Number'3 c4ae2a7e07bad98a291fa8f8cf37c761
+  Number'4 fb0ffcc2153f5a7fac8541d8d26f5d9e
+  Number'5 701c566dd82dde0f6d6cdb1775aa9336
+  Number'6 6b34df0265b8d55413ae81f088cda146
+  Number'7 997fb803900f45f27876ddf015548551
+  Number'8 86520f7dd298fa962c4e2953d9b350b4
+  Number'9 97c7e2733d2c2569b76e0d357d0fdf8d
+68026a0be8c96dccf8d047fdbc8eab36
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Font_functions.$trModule3
                    StreetRun.Font_functions.$trModule1) -}
-c5075134a3f9b2df92d464196b536b5e
+3ccf3179f6f70b291db03e43c02d01d6
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Font_functions.$trModule2) -}
-dd688cbcae360e259fb886604b8d849c
+67b19d7d894d5ab18f22cc7164589a3e
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Font_functions"#) -}
-32505a15ade5c18fd19535805348366a
+7a521c38c02ad3f2ac56e4c5b79403d7
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Font_functions.$trModule4) -}
-e3f56b5a3003c148db09bd0118d13283
+2539efb5b07d4f468c425edfd22a356a
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-33225fc1b922e96801c9b46939563e5f
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+c46627d9153e3ecc04b5d69aa22e9903
   numberToInt :: StreetRun.Font.Number -> GHC.Types.Int
   {- Arity: 1, HasNoCafRefs, Strictness: <S,U>m,
      Unfolding: InlineRule (0, True, True)
                 StreetRun.Font.$fEnumNumber_$cfromEnum -}
-c823a0646830d6a1be8b9cde172d3238
+fb0a8a6cd5626a44dcc6f137c1801218
   toNumber :: GHC.Integer.Type.Integer -> [StreetRun.Font.Number]
   {- Arity: 1, Strictness: <S,U> -}
-1e3288a1964648de6cb5976aabe82b56
+ade1db35536e4e7a43d1d3f33b25d6ea
   toNumberReverse ::
     GHC.Integer.Type.Integer -> [StreetRun.Font.Number]
   {- Arity: 1, Strictness: <S,U>,

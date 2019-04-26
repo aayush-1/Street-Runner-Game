@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:07.6602153 UTC
+2019-04-26 16:49:13.038970303 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Shaky 8064
-  interface hash: 714c4adcc7ee8c022bbdc3487d2efd91
-  ABI hash: bf6450958c5e6061ad725a6a72da0954
-  export-list hash: 39697ca0506edb964ff62bb59aba967b
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Shaky 8064
+  interface hash: 2227d58499577c56e5641c5190d9fc00
+  ABI hash: 73c7299a5a081d70c95cc242cc2167f1
+  export-list hash: ea6c0f37b81e16877b60fc8f184d2566
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -146,60 +146,60 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
 import  -/  base-4.12.0.0:Data.Functor 069b2025a03e32fd228e74a86a58a075
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
-import  -/  lens-4.17:Control.Lens 02c38743366e4d3d260b71bddfddea13
-import  -/  lens-4.17:Control.Lens.Getter 18b0523ecb5ed8cc7fa826ffd942da08
-import  -/  lens-4.17:Control.Lens.Setter 7961fe073f63bb6246bee7094d4bca17
+import  -/  lens-4.17:Control.Lens 531af2b540e6d8d8ce856b6f46207d94
+import  -/  lens-4.17:Control.Lens.Getter 79a8b254c85ab59ff7c11b644140539d
+import  -/  lens-4.17:Control.Lens.Setter 54f8dcf2fae78610733fc46eb59386aa
 import  -/  mtl-2.2.2:Control.Monad.State 753def63fe8e937dc636f11e5230745a
 import  -/  mtl-2.2.2:Control.Monad.State.Class 94cc1438f3f9a3259fb0a2c56d3d0303
-import  -/  StreetRun.Common ec7a24ddc13a89793e354234ea8b6a8f
-  exports: 5bf7e8807e04e9b7e18cf5c3f75b1f5b
-  $sel:cvQuake:CommonVars 1a70b4b7adfef4baee78b76f08e9c288
-  HasCommonVars 78e2982dec7ad30766f890d3421b5154
-  commonVars 2394ba70a1376f821bc3afbedd466646
-import  -/  StreetRun.Quake b6a124c4030dd8107fa49ff2cc71f4ef
-  exports: 1b20d2e9b9ea83d46fe981dd6ab66f9e
-  startQuake 1fe8d332d3cf59b7b7ab747fccd17c2a
-  stepQuake a525ba97ef20b55e0890e2086574afb9
-import  -/  StreetRun.Quake_BackStreet ebd66aa7fea9a4375db34319ddddfe2a
-  exports: 578e5b9ec1aaacc51172575d1af9f5be
-import  -/  StreetRun.Quake_Building 7b28d20ae17511fa922d20e9819b3dc0
-  exports: 6525757d6f3314b41ce008ffadedcbcd
-import  -/  StreetRun.Quake_Grass 5769fbd4058b117d8edf4d5fb329570b
-  exports: 7f02c80c1b0edff6e6cef90cfed2f356
-import  -/  StreetRun.Quake_Street 0639936fb2089261a1b9959dd9fae6ce
-  exports: 945f767c32e91e3edb88f6795d3a025e
-import  -/  StreetRun.Sfx 188ad4f30736accf16515482a6965264
-  exports: 029fd02878001f540ae45828c6e7c393
-  Sfx'Quake 3418156418f2be3f54fabce9f34e741c
-import  -/  StreetRun.Sound_effects d6b1e92985bd34983de20a110cbdad5e
-  exports: eb4fe4175b79b0dda794b44c2a2faa67
-  AudioSfx 61b40e20c8ad121c087626bea3914def
-  addSfxs e9af88e331891550fe436b3269b71c3e
-import  -/  StreetRun.Step 290ae331db595dd4cf6d5e1e70227106
-  exports: 719fef8fe6a2dea83d42318f70df48fb
-  smash 05906d7c152d8c605e26773ad8eebc8e
-f4c478752cad9f66e477e871a12f5608
+import  -/  StreetRun.Common ae88f6983cc973a550c263b8148feda8
+  exports: 61e4030ffa8e91db9a54c7154cc3d232
+  $sel:cvQuake:CommonVars 0f93d8dfb992b8c8431fd0dc1f0c54d0
+  HasCommonVars 919b4731c41ba51a047a083b8a4cc9c7
+  commonVars 0c52cc297fe39f10299147a803dcafdf
+import  -/  StreetRun.Quake 534ecc20f0d0082a1dfa1bcf26bf997d
+  exports: ad876ccc0312a03ee7f2e4b3c80c4160
+  startQuake 1fefde292dc4702789b0b1ea301990b3
+  stepQuake bba9b631bfbac6c17b33e69edb0e8c76
+import  -/  StreetRun.Quake_BackStreet b655aa3f0985b36698a52eb293422bae
+  exports: 74d66d7bc295214aa67aef6b0028b730
+import  -/  StreetRun.Quake_Building 62453cda89c32691aab5de3709136976
+  exports: f6a986805fd741a89c48d6a16b4d0f3b
+import  -/  StreetRun.Quake_Grass 8acdd0976725ecdc0aae8148de0e5478
+  exports: 5d42752bf51786e0aa2b859a9d6873ad
+import  -/  StreetRun.Quake_Street bab4016d1b3ebad7a2b7c1ed285f4529
+  exports: 18446ae1546a0ea859bc4b20f064313b
+import  -/  StreetRun.Sfx 84ca787432fe5aa9b2474b5f085cc5ee
+  exports: 40f6907587702e890ebc457991a6c86d
+  Sfx'Quake 7772cfe5f552ab11dedfd737f5b63915
+import  -/  StreetRun.Sound_effects a85edcbc0529355d0d823628a5187457
+  exports: 4f505e3c45a92fc5611bc81b03b0dc47
+  AudioSfx 59c875a47b0b4851b33ea127ea6242ec
+  addSfxs ee402906cebf9450d6b91af8555bb717
+import  -/  StreetRun.Step da8e238f737bd9817c61db5c1982dc0f
+  exports: 4def855fa00facc907450d29f9f75fae
+  smash 9b143f8d06c805775836741a712abedc
+7a6ad2de2af58f3a4777b7555e7d7ebd
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Shaky.$trModule3
                    StreetRun.Shaky.$trModule1) -}
-be51763988e766ed943358276f9fc657
+4e6aeae4d6ca570b91435de21a78e804
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Shaky.$trModule2) -}
-71ce6dbac89ea1d475c7b1a8030cf514
+77b6e8101bdb3face21b6b860add058c
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Shaky"#) -}
-41649aa1aa8220fe9aa95805bc107e16
+345fd58025d23d8b6136a2881a8699e8
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Shaky.$trModule4) -}
-ab83b2a481f2a0a8d2910247cf9024a0
+1e22ca247228622759cad07a78ba962c
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-a59e320115bbb6cb3e38a168d59c5c4c
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+edda01169c741ae2aabf5a81a1a76c35
   $wupdateQuake ::
     GHC.Base.Applicative m =>
     (forall a b. m a -> (a -> m b) -> m b)
@@ -297,7 +297,7 @@ a59e320115bbb6cb3e38a168d59c5c4c
                          (\ (s1 :: s) ->
                           (GHC.Tuple.(),
                            (f s1) `cast` (Data.Functor.Identity.N:Identity[0] <s>_R)))))) -}
-0006897a4a4b5f989e18731428cd8225
+25a9813cc662819eb84c786b010f123f
   updateQuake ::
     (StreetRun.Sound_effects.AudioSfx m,
      Control.Monad.State.Class.MonadState s m,
@@ -315,14 +315,14 @@ a59e320115bbb6cb3e38a168d59c5c4c
                  case w of ww { StreetRun.Sound_effects.C:AudioSfx ww1 ww2 ww3 ww4 ->
                  case ww1 of ww5 { GHC.Base.C:Monad ww6 ww7 ww8 ww9 ww10 ->
                  StreetRun.Shaky.$wupdateQuake @ m @ s ww6 ww7 ww8 ww3 w1 w2 } }) -}
-56f471c00ed553f7a311ec2601aee7eb
+bbd517dad86de1ee788b9bd002fc14f0
   updateQuake1 :: [StreetRun.Sfx.Sfx]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ StreetRun.Sfx.Sfx
                    StreetRun.Sfx.Sfx'Quake
                    (GHC.Types.[] @ StreetRun.Sfx.Sfx)) -}
-538b1fc601f7c9df2a025d0f71b4e58c
+da839791ef3d5ddbbbbb3183bbaa8875
   updateQuake2 ::
     StreetRun.Common.CommonVars -> StreetRun.Common.CommonVars
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,

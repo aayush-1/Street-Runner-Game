@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:01.603358507 UTC
+2019-04-26 16:49:06.438672699 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Scene 8064
-  interface hash: bfad2e46f48dbfcd6b76c0b381e18232
-  ABI hash: 77553ca4972702fc9ed9a930428c3b84
-  export-list hash: e5cf8e79f9eac931695eddae8a179fc0
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Scene 8064
+  interface hash: 3e8a286cd2e11165dbc789e1b6b3d6ae
+  ABI hash: af7d6d54736d3642cc86bcfab3e76781
+  export-list hash: 07dad99016b354b41a3f7ae55850c26a
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -84,78 +84,78 @@ family instance modules: aeson-1.4.2.0:Data.Aeson.Types.Internal
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
-import  -/  StreetRun.Scenario 354a54748ba84a3c008f8f16b2acd94c
-  exports: 64c6733be65834216e60f326da61cf65
-  Scene 627d7fee21737fffbaa905616e7162fd
-  Scene'Death 9194253026f1630590baed668e875f0f
-  Scene'GameOver d8d6b39c31265c252eb4d435b4bc9d0f
-  Scene'Pause 1296e9eeda51de3aaff7f8a38cbd5ca4
-  Scene'Play c86d6ce8ce9affe48daa18b004e699b4
-  Scene'Quit 910e5c0b8064bf542379495a179c4f5b
-  Scene'Title 63ef21e09609c128de8ab51cdf5c195a
-6c06ff2c4aa3267f746955833a7ee2b7
+import  -/  StreetRun.Scenario 3d565e4d4fcefb40de1d348ddc5508f1
+  exports: 425f740a4cf1b868d9284521ed68ce1e
+  Scene 2e1ce41e910869afacfce973e9cfb6ac
+  Scene'Death aea209b229860e93386470ee40f0e938
+  Scene'GameOver d6d74f7b1099ec47643260db8a409509
+  Scene'Pause f023b58fd2c2e200229745d239e94c38
+  Scene'Play 2ed041c5b85088aff58ed9d2427e8cf2
+  Scene'Quit abc7e76666b0a486f2493221c5c54408
+  Scene'Title 9ddce5108a41a20ee05af12020205cb4
+1efecdbf46e8c928ccf0c39acca0e75c
   $tc'C:SceneManager :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   14841917403895457344##
-                   7038364760009761392##
+                   16203596467201317604##
+                   13224835272569973872##
                    StreetRun.Scene.$trModule
                    StreetRun.Scene.$tc'C:SceneManager2
                    1#
                    StreetRun.Scene.$tc'C:SceneManager1) -}
-c72a3cdb87a8e0860aa29118b037c0d6
+81b4f7eddff48e0450079281ddfff0f0
   $tc'C:SceneManager1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-d61b33894d3cab21ebfed42a16c6d63c
+fac8926665fcbba5f6f8785b4e7a6307
   $tc'C:SceneManager2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Scene.$tc'C:SceneManager3) -}
-5616f3309c27b606001628fa0f678ca1
+8b000e863ab4ebd8cd752b6b10021ab0
   $tc'C:SceneManager3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'C:SceneManager"#) -}
-42133a5c240f47f896d7b00013f4ba79
+7780f8212edc3796e22901b44669301f
   $tcSceneManager :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   2902043051915761811##
-                   6797110290408593602##
+                   14464125593662040297##
+                   751502314536167561##
                    StreetRun.Scene.$trModule
                    StreetRun.Scene.$tcSceneManager2
                    0#
                    StreetRun.Scene.$tcSceneManager1) -}
-25de280d6acbe6fd2f0385f293684902
+5170eb174cfa85d3435cab900a2467a2
   $tcSceneManager1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-dae3032aa36d41d225fc8f0f344725cd
+8f8f0a549cebba06f66ec6ff1429d1a6
   $tcSceneManager2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Scene.$tcSceneManager3) -}
-057f11e01e8c21d6345df7d836b24ef8
+8fa826093b8536c3d10843a784ebdecc
   $tcSceneManager3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("SceneManager"#) -}
-759dac76369f3a170fbcc3e3ecf3761c
+22706b94e06c723ef5b6eb353590eb8b
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Scene.$trModule3
                    StreetRun.Scene.$trModule1) -}
-5a92c9895e3d6025633b0960d381792f
+788278624a1e3426c56ec3cf8798a35d
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Scene.$trModule2) -}
-6e354191a6b4ed183905a23035436d5e
+3987132bd998e44c7de413780a245f35
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Scene"#) -}
-9fd10af75ef7debdc24f0740085d2638
+10d64f5d611d3e97c90eafef8b417c17
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Scene.$trModule4) -}
-71aa191a4ee98180a2adeefc24245fd1
+821dbfdb3722893fa69bbc8e70923b66
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-8a74b8a4c9e990537b0f35c67b38d826
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+63d1267c6f32ccbcb6cd361a33bac81a
   class GHC.Base.Monad m => SceneManager (m :: * -> *) where
     toScene :: StreetRun.Scenario.Scene -> m ()
     {-# MINIMAL toScene #-}

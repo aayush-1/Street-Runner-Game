@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:02.065999851 UTC
+2019-04-26 16:49:07.158209637 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Step 8064
-  interface hash: 7162222fcdc8fe862c16506ac8ff24b5
-  ABI hash: 290ae331db595dd4cf6d5e1e70227106
-  export-list hash: 719fef8fe6a2dea83d42318f70df48fb
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Step 8064
+  interface hash: e4a18675ab50ff875c7115ded91a002d
+  ABI hash: da8e238f737bd9817c61db5c1982dc0f
+  export-list hash: 4def855fa00facc907450d29f9f75fae
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -30,7 +30,7 @@ import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
-daa3ab940f53a2ea3c69c832d1d2d582
+df088ef4f637b8a0cda346c30c5ea086
   $fEqStep ::
     GHC.Classes.Eq a => GHC.Classes.Eq (StreetRun.Step.Step a)
   DFunId
@@ -40,7 +40,7 @@ daa3ab940f53a2ea3c69c832d1d2d582
                   @ (StreetRun.Step.Step a)
                   (StreetRun.Step.$fEqStep_$c== @ a v)
                   (StreetRun.Step.$fEqStep_$c/= @ a v) -}
-daa3ab940f53a2ea3c69c832d1d2d582
+df088ef4f637b8a0cda346c30c5ea086
   $fEqStep_$c/= ::
     GHC.Classes.Eq a =>
     StreetRun.Step.Step a -> StreetRun.Step.Step a -> GHC.Types.Bool
@@ -54,7 +54,7 @@ daa3ab940f53a2ea3c69c832d1d2d582
                  case StreetRun.Step.$fEqStep_$c== @ a $dEq x y of wild {
                    GHC.Types.False -> GHC.Types.True
                    GHC.Types.True -> GHC.Types.False }) -}
-daa3ab940f53a2ea3c69c832d1d2d582
+df088ef4f637b8a0cda346c30c5ea086
   $fEqStep_$c== ::
     GHC.Classes.Eq a =>
     StreetRun.Step.Step a -> StreetRun.Step.Step a -> GHC.Types.Bool
@@ -77,7 +77,7 @@ daa3ab940f53a2ea3c69c832d1d2d582
                         StreetRun.Step.Step'Change ipv ipv1 -> GHC.Types.False
                         StreetRun.Step.Step'Sustain b1
                         -> GHC.Classes.== @ a $dEq a1 b1 } }) -}
-daa3ab940f53a2ea3c69c832d1d2d582
+df088ef4f637b8a0cda346c30c5ea086
   $fShowStep ::
     GHC.Show.Show a => GHC.Show.Show (StreetRun.Step.Step a)
   DFunId
@@ -87,23 +87,23 @@ daa3ab940f53a2ea3c69c832d1d2d582
                   (StreetRun.Step.$fShowStep_$cshowsPrec @ a v)
                   (StreetRun.Step.$fShowStep_$cshow @ a v)
                   (StreetRun.Step.$fShowStep_$cshowList @ a v) -}
-4953da1092cd041ff355cc94072d5498
+4fbb3e62ba91d2db43695813f937f7ce
   $fShowStep1 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
-2dccb398589802fe296d9ab4c544514f
+b9629aafed6c8d4eacbe78b55157ff98
   $fShowStep2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Step.$fShowStep3) -}
-b406a02c4a8401d36354942cfb4aa961
+477570c3169d98ffab185a7f413faa72
   $fShowStep3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Step'Sustain "#) -}
-b8a8de32f69b79c3d34b43e3b69c1ce9
+535f7e4e82558fb85878b0d6119f3611
   $fShowStep4 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Step'Change "#) -}
-4788a81d48fb1f99433ffadc550e1c4d
+161207ba66722eda4a09ebe86ef1baec
   $fShowStep5 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 11#) -}
-daa3ab940f53a2ea3c69c832d1d2d582
+df088ef4f637b8a0cda346c30c5ea086
   $fShowStep_$cshow ::
     GHC.Show.Show a => StreetRun.Step.Step a -> GHC.Base.String
   {- Arity: 2, Strictness: <L,U(C(C1(C(U))),A,A)><S,1*U>,
@@ -115,7 +115,7 @@ daa3ab940f53a2ea3c69c832d1d2d582
                    StreetRun.Step.$fShowStep1
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-daa3ab940f53a2ea3c69c832d1d2d582
+df088ef4f637b8a0cda346c30c5ea086
   $fShowStep_$cshowList ::
     GHC.Show.Show a => [StreetRun.Step.Step a] -> GHC.Show.ShowS
   {- Arity: 3, Strictness: <L,U(C(C1(C(U))),A,A)><S,1*U><L,U>,
@@ -132,7 +132,7 @@ daa3ab940f53a2ea3c69c832d1d2d582
                       StreetRun.Step.$fShowStep1)
                    ls
                    s) -}
-daa3ab940f53a2ea3c69c832d1d2d582
+df088ef4f637b8a0cda346c30c5ea086
   $fShowStep_$cshowsPrec ::
     GHC.Show.Show a =>
     GHC.Types.Int -> StreetRun.Step.Step a -> GHC.Show.ShowS
@@ -146,85 +146,85 @@ daa3ab940f53a2ea3c69c832d1d2d582
                    (w2 :: StreetRun.Step.Step a) ->
                  case w1 of ww { GHC.Types.I# ww1 ->
                  StreetRun.Step.$w$cshowsPrec @ a w ww1 w2 }) -}
-bd2922794ce8a82b697da3bcd342aa7d
+743f2117a03061ce52979bbc548e3f6b
   $tc'Step'Change :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   18323273018819489706##
-                   14119293396343937787##
+                   9922959884720923007##
+                   3270702526785501997##
                    StreetRun.Step.$trModule
                    StreetRun.Step.$tc'Step'Change2
                    1#
                    StreetRun.Step.$tc'Step'Change1) -}
-da4a600d20c43fd107ccbbaffb424a87
+88a2c826688ad748397aa054badd94c3
   $tc'Step'Change1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-8312d4c774b6e1eac2607926fec68369
+a489bb39f3b08dfd97ba1dee6fcd3090
   $tc'Step'Change2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Step.$tc'Step'Change3) -}
-cb39dc62d250fcd478be406de06fd975
+46cbfaecb6262abbafbe02636751f361
   $tc'Step'Change3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Step'Change"#) -}
-bf92ced528ef91c6aa97a1929c4b1dfa
+33cfa3dd0f2635ccbc04a97b48fca9f1
   $tc'Step'Sustain :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   5305582004940116303##
-                   7866573803894486937##
+                   9374062374675917523##
+                   6331367759847790316##
                    StreetRun.Step.$trModule
                    StreetRun.Step.$tc'Step'Sustain2
                    1#
                    StreetRun.Step.$tc'Step'Sustain1) -}
-0d33177284f863cb80200d2c7907cd9d
+0c0801350d52247601f9695f1ed838a3
   $tc'Step'Sustain1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-fde7c72f9b152cbeec8dd83a875db3d3
+0924a0be89280d6c0bfc63f6142514c7
   $tc'Step'Sustain2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Step.$tc'Step'Sustain3) -}
-723e8a62bac6fd840fa9dee1fd861671
+43d4f0c4070788d8e276e64d784ee4be
   $tc'Step'Sustain3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Step'Sustain"#) -}
-73404bc451387ddabd32222094619804
+25c1e5625424d11461af73cc1a0f8265
   $tcStep :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   8526834537948272189##
-                   7968923498305901596##
+                   15009643991987764158##
+                   908002221255534966##
                    StreetRun.Step.$trModule
                    StreetRun.Step.$tcStep1
                    0#
                    GHC.Types.krep$*Arr*) -}
-f77c6d74c05a0223f438cbb83c75759f
+bf59c7a4786a687489a8f4ad1e80e2ab
   $tcStep1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Step.$tcStep2) -}
-1ec1dabcb9cc973a94264cb25feb4809
+40cc713fc65bbe07976b0edfee1637c1
   $tcStep2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Step"#) -}
-0d54606c6b77feadae33d8cce01e9bf6
+a638eaf08ea34d9cf84c4ee5d6a24576
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Step.$trModule3
                    StreetRun.Step.$trModule1) -}
-959008fa6b2838d8ee377b5ea5212108
+785b795d76198514a3ed92bd4569e1e9
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Step.$trModule2) -}
-64a15da9e174584e4ebc5403950102df
+18978d9ed771da5ea1e32297a13a4c8a
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Step"#) -}
-9fbc471b77ca92c1c86939f872fa96cd
+8ab703cf9bab34966ee03cec06e62246
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Step.$trModule4) -}
-6af66ca04ab724ba3bba3b5bd91a9b4f
+a48e929cd2f2a10d75794d0a8429531e
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-daa3ab940f53a2ea3c69c832d1d2d582
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+df088ef4f637b8a0cda346c30c5ea086
   $w$cshowsPrec ::
     GHC.Show.Show a =>
     GHC.Prim.Int# -> StreetRun.Step.Step a -> GHC.Show.ShowS
@@ -279,9 +279,9 @@ daa3ab940f53a2ea3c69c832d1d2d582
                                 @ GHC.Types.Char
                                 StreetRun.Step.$fShowStep2
                                 (g (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)2 x))) } }) -}
-daa3ab940f53a2ea3c69c832d1d2d582
+df088ef4f637b8a0cda346c30c5ea086
   data Step a = Step'Change a a | Step'Sustain a
-05906d7c152d8c605e26773ad8eebc8e
+9b143f8d06c805775836741a712abedc
   smash :: StreetRun.Step.Step a -> a
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
      Unfolding: InlineRule (1, True, False)

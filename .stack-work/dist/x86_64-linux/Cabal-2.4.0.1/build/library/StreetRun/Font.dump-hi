@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:00.734636911 UTC
+2019-04-26 16:49:05.378129481 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Font 8064
-  interface hash: 34c87e9b3d98744e461710b1fe907546
-  ABI hash: 34a23e060586d079dd0657583ffec0bf
-  export-list hash: 09e7f7e66762b635c22cb5644e292e72
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Font 8064
+  interface hash: 4b50c784fc274b7556990b12242274f6
+  ABI hash: a32f3953bbb50ce9b469edb8463d6f24
+  export-list hash: 7faf0604fc3be1edae721103fd7b3042
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -32,7 +32,7 @@ import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
 import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fBoundedNumber :: GHC.Enum.Bounded StreetRun.Font.Number
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -40,7 +40,7 @@ import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
                   @ StreetRun.Font.Number
                   StreetRun.Font.Number'0
                   StreetRun.Font.Number'9 -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEnumNumber :: GHC.Enum.Enum StreetRun.Font.Number
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -54,13 +54,13 @@ import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
                   StreetRun.Font.$fEnumNumber_$cenumFromThen
                   StreetRun.Font.$fEnumNumber_$cenumFromTo
                   StreetRun.Font.$fEnumNumber_$cenumFromThenTo -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEnumNumber1 :: StreetRun.Font.Number
   {- Strictness: x -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEnumNumber2 :: StreetRun.Font.Number
   {- Strictness: x -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEnumNumber_$cenumFrom ::
     StreetRun.Font.Number -> [StreetRun.Font.Number]
   {- Arity: 1, HasNoCafRefs, Strictness: <S,U>,
@@ -71,7 +71,7 @@ import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
                  case GHC.Prim.># a# 9# of lwild {
                    DEFAULT -> StreetRun.Font.$fEnumNumber_go a#
                    1# -> GHC.Types.[] @ StreetRun.Font.Number } }) -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEnumNumber_$cenumFromThen ::
     StreetRun.Font.Number
     -> StreetRun.Font.Number -> [StreetRun.Font.Number]
@@ -237,14 +237,14 @@ import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
                                        (GHC.Prim.tagToEnum# @ StreetRun.Font.Number a#)
                                        (GHC.Types.[] @ StreetRun.Font.Number)
                                   1# -> GHC.Types.[] @ StreetRun.Font.Number } } } } } }) -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEnumNumber_$cenumFromThenTo ::
     StreetRun.Font.Number
     -> StreetRun.Font.Number
     -> StreetRun.Font.Number
     -> [StreetRun.Font.Number]
   {- Arity: 3, Strictness: <S,U><S,U><S,U> -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEnumNumber_$cenumFromTo ::
     StreetRun.Font.Number
     -> StreetRun.Font.Number -> [StreetRun.Font.Number]
@@ -277,7 +277,7 @@ import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
                       } in
                       go a#
                    1# -> GHC.Types.[] @ StreetRun.Font.Number } } }) -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEnumNumber_$cfromEnum :: StreetRun.Font.Number -> GHC.Types.Int
   {- Arity: 1, HasNoCafRefs, Strictness: <S,U>m,
      Unfolding: InlineRule (1, True, False)
@@ -286,7 +286,7 @@ import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
                         @ StreetRun.Font.Number
                         a of a# { DEFAULT ->
                  GHC.Types.I# a# }) -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEnumNumber_$cpred ::
     StreetRun.Font.Number -> StreetRun.Font.Number
   {- Arity: 1, Strictness: <S,1*U>,
@@ -299,7 +299,7 @@ import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
                              lwild of a# { DEFAULT ->
                       GHC.Prim.tagToEnum# @ StreetRun.Font.Number (GHC.Prim.+# a# -1#) }
                    StreetRun.Font.Number'0 -> StreetRun.Font.$fEnumNumber1 }) -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEnumNumber_$csucc ::
     StreetRun.Font.Number -> StreetRun.Font.Number
   {- Arity: 1, Strictness: <S,1*U>,
@@ -312,17 +312,17 @@ import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
                              lwild of a# { DEFAULT ->
                       GHC.Prim.tagToEnum# @ StreetRun.Font.Number (GHC.Prim.+# a# 1#) }
                    StreetRun.Font.Number'9 -> StreetRun.Font.$fEnumNumber2 }) -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEnumNumber_$ctoEnum :: GHC.Types.Int -> StreetRun.Font.Number
   {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [2],
      Unfolding: InlineRule (1, True, False)
                 (\ (w :: GHC.Types.Int) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  StreetRun.Font.$w$ctoEnum ww1 }) -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEnumNumber_go :: GHC.Prim.Int# -> [StreetRun.Font.Number]
   {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEqNumber :: GHC.Classes.Eq StreetRun.Font.Number
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -330,7 +330,7 @@ import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
                   @ StreetRun.Font.Number
                   StreetRun.Font.$fEqNumber_$c==
                   StreetRun.Font.$fEqNumber_$c/= -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEqNumber_$c/= ::
     StreetRun.Font.Number -> StreetRun.Font.Number -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
@@ -378,7 +378,7 @@ import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
                    -> case y of wild1 {
                         DEFAULT -> GHC.Types.True
                         StreetRun.Font.Number'9 -> GHC.Types.False } }) -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fEqNumber_$c== ::
     StreetRun.Font.Number -> StreetRun.Font.Number -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
@@ -425,7 +425,7 @@ import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
                    -> case ds1 of wild1 {
                         DEFAULT -> GHC.Types.False
                         StreetRun.Font.Number'9 -> GHC.Types.True } }) -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fShowNumber :: GHC.Show.Show StreetRun.Font.Number
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -434,77 +434,77 @@ import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
                   StreetRun.Font.$fShowNumber_$cshowsPrec
                   StreetRun.Font.$fShowNumber_$cshow
                   StreetRun.Font.$fShowNumber_$cshowList -}
-13011d3606184172e9640a774603e9c7
+a4161ba6e94d196551621d3d05a0d95d
   $fShowNumber1 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Font.$fShowNumber2) -}
-e13721cb06f4eaff3800fc56e3d08d03
+9b9c8b7c479f63f9dda8480063991d2f
   $fShowNumber10 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Number'5"#) -}
-33ce83300e8a6b439c1edb623f1e2fe4
+2a787d5bed628b2a82a08b45ff73103b
   $fShowNumber11 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Font.$fShowNumber12) -}
-02aa442102d68aea7cd3d6e75031abf5
+2fd460b61cad0bc8f62255df1f12e61a
   $fShowNumber12 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Number'4"#) -}
-e719d330f06e4e22aa960d5a61190909
+bf84bd0cd2d9c23abc62cf42e9c13c31
   $fShowNumber13 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Font.$fShowNumber14) -}
-7554100448f048790300f430905b4524
+4f85442093e14c7294091a5b92e09f9f
   $fShowNumber14 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Number'3"#) -}
-ee7a0d691d629b37f5a4551346b8930c
+59ca51a7be5055eb1f3149c627ebf9a5
   $fShowNumber15 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Font.$fShowNumber16) -}
-f7dcd7ff3902ac916d573aa8b55b2305
+5bdd489e41cffd1e7a473ed37f13df95
   $fShowNumber16 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Number'2"#) -}
-7b679ba21acbf6e83124cb0fe8bde5dc
+6446f70341335702bce1babff4a141fa
   $fShowNumber17 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Font.$fShowNumber18) -}
-d3f5c359090bf7351c0ccc5492377e31
+34b12c08cbdbe4a2792bd9a281b30139
   $fShowNumber18 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Number'1"#) -}
-3242d522b17f8e513e741b3cc4484f56
+257402f1340ee1ae466941effe5f2707
   $fShowNumber19 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Font.$fShowNumber20) -}
-bc65bb7e29491c0136f3c90165f20252
+69c97e33b4724bc6b80dd0954b8c2d11
   $fShowNumber2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Number'9"#) -}
-e66750b194e344b65dfc7b887dfa71eb
+b7bf235837ba100d54e5c09c717e46cb
   $fShowNumber20 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Number'0"#) -}
-319f4eff49b273a4cab56514fe813e60
+04caa9e07bc532bab0c6e6a3a916f065
   $fShowNumber3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Font.$fShowNumber4) -}
-99a3bb4629f95355dc591230ef173498
+e513d67388aadf0ccd07c499e0026341
   $fShowNumber4 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Number'8"#) -}
-04c18ba3d6ca24e8e28a6cd0e02b9b9e
+820c938471125316de4d502c1addb881
   $fShowNumber5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Font.$fShowNumber6) -}
-2acb7a3d1dd4ede1680fd63ee03eb247
+3ae95de4c819ce73f894734881d560e6
   $fShowNumber6 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Number'7"#) -}
-56105b0e2c7e201098d8252e98bb4088
+20dc9cdb6457de4bae074b0c5d075edb
   $fShowNumber7 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Font.$fShowNumber8) -}
-31f43eaa3ccbcf4a56d805f459769233
+14faba2dd8e6cea9c6be32547cac9c63
   $fShowNumber8 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Number'6"#) -}
-bd1b79e6529aa3706e8b874b74841451
+0d1fe9807da979ba4b211a3553026e80
   $fShowNumber9 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Font.$fShowNumber10) -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fShowNumber_$cshow :: StreetRun.Font.Number -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U>,
      Unfolding: (\ (x :: StreetRun.Font.Number) ->
@@ -519,7 +519,7 @@ bd1b79e6529aa3706e8b874b74841451
                    StreetRun.Font.Number'7 -> StreetRun.Font.$fShowNumber5
                    StreetRun.Font.Number'8 -> StreetRun.Font.$fShowNumber3
                    StreetRun.Font.Number'9 -> StreetRun.Font.$fShowNumber1 }) -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fShowNumber_$cshowList ::
     [StreetRun.Font.Number] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
@@ -530,7 +530,7 @@ bd1b79e6529aa3706e8b874b74841451
                    StreetRun.Font.$w$cshowsPrec
                    ls
                    s) -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $fShowNumber_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Font.Number -> GHC.Show.ShowS
   {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>, Inline: [2],
@@ -539,218 +539,218 @@ bd1b79e6529aa3706e8b874b74841451
                    (w1 :: StreetRun.Font.Number)
                    (w2 :: GHC.Base.String) ->
                  StreetRun.Font.$w$cshowsPrec w1 w2) -}
-0f8110c39fb6e5a6c914a61dd553a770
+a613c9892fef6916454a22d0a406ea32
   $tc'Number'0 :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   3047003837212018329##
-                   15776129266525910649##
+                   11338767607987256792##
+                   2847142118679939011##
                    StreetRun.Font.$trModule
                    StreetRun.Font.$tc'Number'12
                    0#
                    StreetRun.Font.$tc'Number'11) -}
-549bb00a08104fef499cd1a54a2e9789
+d8c621015ddd7d87c5bdc142c7eda0e6
   $tc'Number'1 :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   4726914519486304285##
-                   12683340034476045718##
+                   9979926265490236342##
+                   9895640108571110931##
                    StreetRun.Font.$trModule
                    StreetRun.Font.$tc'Number'14
                    0#
                    StreetRun.Font.$tc'Number'11) -}
-6beaad80d0b5637efa8e8b91f990d263
+60b1514fb99e29e1b770aca293eceeb0
   $tc'Number'11 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
-ba74e0908007a375321a543c42ad011e
+dabb61c6fcddf521de7e8fbdc24b220d
   $tc'Number'12 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Font.$tc'Number'13) -}
-71d8abfb21c27be902903683810122b1
+5bb1293a4396a88a4e398a977d39e6e3
   $tc'Number'13 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Number'0"#) -}
-4bfe1fc9170481cac84ac63614583d31
+2eff9ab71067c2881662eb678aec75c2
   $tc'Number'14 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Font.$tc'Number'15) -}
-a2f195590e400d9a8b6507a4bdb1d573
+9437419c1d438d400c9cc6d1ea77d84a
   $tc'Number'15 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Number'1"#) -}
-63fccc3477b8556e2ce25a27af729c38
+a9fb8aa62425e2c9719e2ae2831f0546
   $tc'Number'16 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Font.$tc'Number'17) -}
-1a3c515c08cabc53e2d29f48fff7efdf
+7ca669c0d12eecef92b73d72eb14fc32
   $tc'Number'17 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Number'2"#) -}
-796543488c3b35efa81635b2d5b4e623
+2a3dd0e47f81ab23c4b7bac806b23caa
   $tc'Number'18 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Font.$tc'Number'19) -}
-3ecd0a34512c719ac32b4c148573ae1f
+5bb150a2ffd14455c84f9c827b800b51
   $tc'Number'19 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Number'3"#) -}
-d43bdabd7246ae76e04915e741318fc4
+e33f727e65412f3d841d266a34f3621f
   $tc'Number'2 :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   12595568839047580803##
-                   11310287363192627542##
+                   3780551109177806322##
+                   11128148328392953671##
                    StreetRun.Font.$trModule
                    StreetRun.Font.$tc'Number'16
                    0#
                    StreetRun.Font.$tc'Number'11) -}
-cd1621916328e6deb02987cf0e3d1acc
+ffea7fe37ddc72f1ae73942f496cf8e3
   $tc'Number'20 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Font.$tc'Number'21) -}
-26745bfe27e841ec8761133aff86c7b3
+508359a934e5ab22b33ca844279f6ff2
   $tc'Number'21 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Number'4"#) -}
-29258edfeb1f1b64c81aace9ada5dcec
+b3e69d88f06bf2bd22a1bed56c15a54b
   $tc'Number'22 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Font.$tc'Number'23) -}
-6cca81f3b3005f4779e91abc2ae13670
+cd62810c661d5bdbdf062acd3799d443
   $tc'Number'23 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Number'5"#) -}
-4aae3aefc49fdb149a9e4c1b6f3d158e
+4e3419a59ebeea43b84faa8df02e6c1b
   $tc'Number'24 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Font.$tc'Number'25) -}
-750403b25430c40259f57ddb90108863
+856e87862399f16b2b22d4a3c8032515
   $tc'Number'25 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Number'6"#) -}
-117479094fa429c4fdc8927e1b05ca41
+752d92db9876d493e9d649716e423f6a
   $tc'Number'26 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Font.$tc'Number'27) -}
-9ebe4b1521e946297f7f455f81f071a5
+0aa868193a23ed8d34780110911bcf19
   $tc'Number'27 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Number'7"#) -}
-c2e25b0e1d349edd858801bfec4d4061
+9a6782d66b4002424f945d5f13659103
   $tc'Number'28 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Font.$tc'Number'29) -}
-ea437ab4693c44d545c58beeb3009723
+49c24e132c6babef647597088a1005a7
   $tc'Number'29 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Number'8"#) -}
-0d8886a9a8c5cc9599e2ba027cf524c5
+a0b0cedd3f0b56d3db7eaf9255a2aa8f
   $tc'Number'3 :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   1136088964849646900##
-                   8895182323806413069##
+                   11381813492877105615##
+                   4982692797271128192##
                    StreetRun.Font.$trModule
                    StreetRun.Font.$tc'Number'18
                    0#
                    StreetRun.Font.$tc'Number'11) -}
-cdd17c658c59185ad438cd9b60fc9061
+c7e95dc94adc1b5f49b4514651b4ea74
   $tc'Number'30 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Font.$tc'Number'31) -}
-ee4e88f53e70525e5dc546b5040eba9a
+f5b90c7964d256969c538fab9af8ffde
   $tc'Number'31 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Number'9"#) -}
-8f55dec1eb2442a1ac099ff3ca784365
+c322cab91fa1bef94fb81ad6a4b89f3a
   $tc'Number'4 :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   7206210191626367545##
-                   13269096094922618811##
+                   11938202429867289534##
+                   7169533801838985498##
                    StreetRun.Font.$trModule
                    StreetRun.Font.$tc'Number'20
                    0#
                    StreetRun.Font.$tc'Number'11) -}
-b298b4e3c741e7b18974d0f4e4a90054
+45ccaf8970e56aa92986ba67235be25d
   $tc'Number'5 :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   5000031872104225007##
-                   13444972739532289112##
+                   17092183455419055173##
+                   11489702855393097404##
                    StreetRun.Font.$trModule
                    StreetRun.Font.$tc'Number'22
                    0#
                    StreetRun.Font.$tc'Number'11) -}
-827c0b4b7ef1de992f35471cfa9e7e7b
+cef59a76721b1837e752b4c5521940c6
   $tc'Number'6 :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   13745968222626170352##
-                   534029629149920390##
+                   17086420837018405212##
+                   12176995177952053504##
                    StreetRun.Font.$trModule
                    StreetRun.Font.$tc'Number'24
                    0#
                    StreetRun.Font.$tc'Number'11) -}
-3d54b7f0fbc4bd625c686a620967cebe
+8cfa6445da5762d2eb321e45c41f8ff7
   $tc'Number'7 :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   14940068265124674613##
-                   2581714910064448450##
+                   7876670617478901443##
+                   5530713855998619085##
                    StreetRun.Font.$trModule
                    StreetRun.Font.$tc'Number'26
                    0#
                    StreetRun.Font.$tc'Number'11) -}
-a29739edf3f4195da1baa9f9135692a9
+0e035f3d8bd8300a7e08e1e5c70545c6
   $tc'Number'8 :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   2140483647837500883##
-                   7351311008629762739##
+                   5586453772138858812##
+                   13855382826840902865##
                    StreetRun.Font.$trModule
                    StreetRun.Font.$tc'Number'28
                    0#
                    StreetRun.Font.$tc'Number'11) -}
-25a079131823047011ecc807aaa39bec
+b088d3ad0786952af9e78f11b9fc3009
   $tc'Number'9 :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   16432164904538126452##
-                   4909631497559317276##
+                   7329467508573291326##
+                   6887622875710566603##
                    StreetRun.Font.$trModule
                    StreetRun.Font.$tc'Number'30
                    0#
                    StreetRun.Font.$tc'Number'11) -}
-9be7d4c74a08b849af04208f54901291
+e23e8df21d751f598c3e9da9aa83cdf4
   $tcNumber :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   1466504702230063152##
-                   6082906989020248613##
+                   17347136643039676592##
+                   5393227036649458702##
                    StreetRun.Font.$trModule
                    StreetRun.Font.$tcNumber1
                    0#
                    GHC.Types.krep$*) -}
-95376ae6d532884a3e6b0f6aa0423768
+2a325ab3a471688afdbb0c3dfae6b561
   $tcNumber1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Font.$tcNumber2) -}
-d5c72daa8240737155749519c952c838
+cc4339f70fe716ec1f7c4e4495e24d89
   $tcNumber2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Number"#) -}
-13ab36997f86343b47f31658ed8ffced
+4d1ce5d4281011b57b68219472ab2fe3
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Font.$trModule3
                    StreetRun.Font.$trModule1) -}
-aa164ea42215803b1304c123247def35
+207385767e4eea1c60a7befe7ffadacf
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Font.$trModule2) -}
-767b6ffd911d44690118f6e385eb2bd6
+c4513bd98477a7d03776c13476d17dfb
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Font"#) -}
-45851933dc140f9e32020a9c45fbf06d
+c35b3e4edda41c67f45f4b0cce63f03f
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Font.$trModule4) -}
-77575b71438e244ff6b6246d50c10fd7
+65346606dbb3099e316ab364b17b75d0
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-1ca7e4c8adfb9337ba114131324bb05d
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+b7e100f9135b0814c955ea3d79c02ada
   $w$cshowsPrec ::
     StreetRun.Font.Number -> GHC.Base.String -> GHC.Base.String
   {- Arity: 2, Strictness: <S,1*U><L,1*U>, Inline: [2],
@@ -780,7 +780,7 @@ aa164ea42215803b1304c123247def35
                         @ GHC.Types.Char
                         StreetRun.Font.$fShowNumber1
                         w1 }) -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $w$ctoEnum :: GHC.Prim.Int# -> StreetRun.Font.Number
   {- Arity: 1, Strictness: <S,U>, Inline: [2],
      Unfolding: (\ (ww :: GHC.Prim.Int#) ->
@@ -790,10 +790,10 @@ aa164ea42215803b1304c123247def35
                    -> case GHC.Prim.<=# ww 9# of lwild1 {
                         DEFAULT -> StreetRun.Font.$wlvl ww
                         1# -> GHC.Prim.tagToEnum# @ StreetRun.Font.Number ww } }) -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   $wlvl :: GHC.Prim.Int# -> StreetRun.Font.Number
   {- Arity: 1, Strictness: <B,U>x, Inline: [2] -}
-1ca7e4c8adfb9337ba114131324bb05d
+b7e100f9135b0814c955ea3d79c02ada
   data Number
     = Number'0
     | Number'1

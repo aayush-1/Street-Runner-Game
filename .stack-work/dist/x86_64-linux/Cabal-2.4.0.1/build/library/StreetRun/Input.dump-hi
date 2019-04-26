@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:00.948200433 UTC
+2019-04-26 16:49:05.576502571 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Input 8064
-  interface hash: e12fa591a4160e1fb8a9fd40e231f3ef
-  ABI hash: 2b2882bb9ccf0deac02d72ccd2af9474
-  export-list hash: 794b8afcff1485016b9c41551ca5bab1
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Input 8064
+  interface hash: 371325e4be8147e052dfa83223438b78
+  ABI hash: dc1e62404449c4ef4f763046555938b3
+  export-list hash: d5c6fc579c43e57e8ccb72f493e3d8f8
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -31,7 +31,7 @@ import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
 import  -/  key-state-0.2.0:KeyState f505d200ccd373546afa68666240df7e
-f50c2ab9e2082623275c9cc57e0e92df
+debdce52acaa37df87e66131243c6c87
   $fEqInput :: GHC.Classes.Eq StreetRun.Input.Input
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -39,7 +39,7 @@ f50c2ab9e2082623275c9cc57e0e92df
                   @ StreetRun.Input.Input
                   StreetRun.Input.$fEqInput_$c==
                   StreetRun.Input.$fEqInput_$c/= -}
-f50c2ab9e2082623275c9cc57e0e92df
+debdce52acaa37df87e66131243c6c87
   $fEqInput_$c/= ::
     StreetRun.Input.Input -> StreetRun.Input.Input -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs,
@@ -50,7 +50,7 @@ f50c2ab9e2082623275c9cc57e0e92df
                  case StreetRun.Input.$fEqInput_$c== x y of wild {
                    GHC.Types.False -> GHC.Types.True
                    GHC.Types.True -> GHC.Types.False }) -}
-f50c2ab9e2082623275c9cc57e0e92df
+debdce52acaa37df87e66131243c6c87
   $fEqInput_$c== ::
     StreetRun.Input.Input -> StreetRun.Input.Input -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs,
@@ -104,7 +104,7 @@ f50c2ab9e2082623275c9cc57e0e92df
                                   GHC.Types.False -> GHC.Types.False
                                   GHC.Types.True
                                   -> GHC.Classes.$fEqBool_$c== a5 b5 } } } } } } } } } } } } } }) -}
-f50c2ab9e2082623275c9cc57e0e92df
+debdce52acaa37df87e66131243c6c87
   $fShowInput :: GHC.Show.Show StreetRun.Input.Input
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -113,17 +113,17 @@ f50c2ab9e2082623275c9cc57e0e92df
                   StreetRun.Input.$fShowInput_$cshowsPrec
                   StreetRun.Input.$fShowInput_$cshow
                   StreetRun.Input.$fShowInput_$cshowList -}
-f50c2ab9e2082623275c9cc57e0e92df
+debdce52acaa37df87e66131243c6c87
   $fShowInput1 :: StreetRun.Input.Input -> GHC.Show.ShowS
   {- Arity: 1,
      Strictness: <S,1*U(1*U(U,1*U),1*U(U,1*U),1*U(U,1*U),1*U(U,1*U),U)>,
      Unfolding: (\ (w :: StreetRun.Input.Input) ->
                  case w of ww { StreetRun.Input.Input ww1 ww2 ww3 ww4 ww5 ->
                  StreetRun.Input.$w$cshowsPrec 0# ww1 ww2 ww3 ww4 ww5 }) -}
-996e2650419b780494b6ce23fecbbe11
+69edd4073ff8c85a3469a23ec5c3f4b5
   $fShowInput2 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
-f50c2ab9e2082623275c9cc57e0e92df
+debdce52acaa37df87e66131243c6c87
   $fShowInput_$cshow :: StreetRun.Input.Input -> GHC.Base.String
   {- Arity: 1,
      Strictness: <S,1*U(1*U(U,1*U),1*U(U,1*U),1*U(U,1*U),1*U(U,1*U),U)>,
@@ -133,7 +133,7 @@ f50c2ab9e2082623275c9cc57e0e92df
                    StreetRun.Input.$fShowInput2
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-f50c2ab9e2082623275c9cc57e0e92df
+debdce52acaa37df87e66131243c6c87
   $fShowInput_$cshowList :: [StreetRun.Input.Input] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
      Unfolding: InlineRule (2, True, False)
@@ -143,7 +143,7 @@ f50c2ab9e2082623275c9cc57e0e92df
                    StreetRun.Input.$fShowInput1
                    ls
                    s) -}
-f50c2ab9e2082623275c9cc57e0e92df
+debdce52acaa37df87e66131243c6c87
   $fShowInput_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Input.Input -> GHC.Show.ShowS
   {- Arity: 2,
@@ -154,7 +154,7 @@ f50c2ab9e2082623275c9cc57e0e92df
                  case w of ww { GHC.Types.I# ww1 ->
                  case w1 of ww2 { StreetRun.Input.Input ww3 ww4 ww5 ww6 ww7 ->
                  StreetRun.Input.$w$cshowsPrec ww1 ww3 ww4 ww5 ww6 ww7 } }) -}
-f50c2ab9e2082623275c9cc57e0e92df
+debdce52acaa37df87e66131243c6c87
   $sel:iDown:Input ::
     StreetRun.Input.Input -> KeyState.KeyState GHC.Types.Int
   RecSel Left StreetRun.Input.Input
@@ -164,7 +164,7 @@ f50c2ab9e2082623275c9cc57e0e92df
                 (\ (ds :: StreetRun.Input.Input) ->
                  case ds of wild { StreetRun.Input.Input ds1 ds2 ds3 ds4 ds5 ->
                  ds3 }) -}
-f50c2ab9e2082623275c9cc57e0e92df
+debdce52acaa37df87e66131243c6c87
   $sel:iEscape:Input ::
     StreetRun.Input.Input -> KeyState.KeyState GHC.Types.Int
   RecSel Left StreetRun.Input.Input
@@ -174,7 +174,7 @@ f50c2ab9e2082623275c9cc57e0e92df
                 (\ (ds :: StreetRun.Input.Input) ->
                  case ds of wild { StreetRun.Input.Input ds1 ds2 ds3 ds4 ds5 ->
                  ds4 }) -}
-f50c2ab9e2082623275c9cc57e0e92df
+debdce52acaa37df87e66131243c6c87
   $sel:iQuit:Input :: StreetRun.Input.Input -> GHC.Types.Bool
   RecSel Left StreetRun.Input.Input
   {- Arity: 1, HasNoCafRefs, Strictness: <S(LLLLS),1*U(A,A,A,A,1*U)>,
@@ -182,7 +182,7 @@ f50c2ab9e2082623275c9cc57e0e92df
                 (\ (ds :: StreetRun.Input.Input) ->
                  case ds of wild { StreetRun.Input.Input ds1 ds2 ds3 ds4 ds5 ->
                  ds5 }) -}
-f50c2ab9e2082623275c9cc57e0e92df
+debdce52acaa37df87e66131243c6c87
   $sel:iSpace:Input ::
     StreetRun.Input.Input -> KeyState.KeyState GHC.Types.Int
   RecSel Left StreetRun.Input.Input
@@ -192,7 +192,7 @@ f50c2ab9e2082623275c9cc57e0e92df
                 (\ (ds :: StreetRun.Input.Input) ->
                  case ds of wild { StreetRun.Input.Input ds1 ds2 ds3 ds4 ds5 ->
                  ds1 }) -}
-f50c2ab9e2082623275c9cc57e0e92df
+debdce52acaa37df87e66131243c6c87
   $sel:iUp:Input ::
     StreetRun.Input.Input -> KeyState.KeyState GHC.Types.Int
   RecSel Left StreetRun.Input.Input
@@ -202,65 +202,65 @@ f50c2ab9e2082623275c9cc57e0e92df
                 (\ (ds :: StreetRun.Input.Input) ->
                  case ds of wild { StreetRun.Input.Input ds1 ds2 ds3 ds4 ds5 ->
                  ds2 }) -}
-1ed61cded2861258f09b740744487fe5
+fbfffb9c4f51ce16032a62d01bd2ed15
   $tc'Input :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   4299936760947063665##
-                   10561969034365961826##
+                   11426628790945701948##
+                   10064924767582747064##
                    StreetRun.Input.$trModule
                    StreetRun.Input.$tc'Input2
                    0#
                    StreetRun.Input.$tc'Input1) -}
-c4f1cc7bb7b559b77544ba613b7dbcfb
+3f504770066eb85033888d641e38cb33
   $tc'Input1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-035eaa4dd32375b4c19637c227910fe2
+ae39d67f8d5ffb66f09bf9aab11ae9ae
   $tc'Input2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Input.$tc'Input3) -}
-6a09dac42dac19529fbc345554a4e320
+1843ad0f50321795eaf4724e0b68a360
   $tc'Input3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Input"#) -}
-f7e00621505718ee15680da3e9ffc8bb
+cf8fe52426fe241f9a434b242534fa49
   $tcInput :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   834930815167070892##
-                   416939108165476731##
+                   13588256717102628273##
+                   14127208873213915606##
                    StreetRun.Input.$trModule
                    StreetRun.Input.$tcInput1
                    0#
                    GHC.Types.krep$*) -}
-d3c70589fd51cdf1c33193fbbd405371
+743c84708aeff827c3842c98117be788
   $tcInput1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Input.$tcInput2) -}
-7b2e2e70b80ffe99ef5725237bc2314c
+26fa5ed5183f9a34341382e83278388c
   $tcInput2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Input"#) -}
-085f4aebbcdd7ce219b9f399eba34976
+019fe4f33077f63dffd5ae6e2b869853
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Input.$trModule3
                    StreetRun.Input.$trModule1) -}
-e9418c5736b0a665f0b051b410d64371
+bffb63595d4b089f54ddb3323a0c6c89
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Input.$trModule2) -}
-677b92d442bff0e6235cd1e8e483c82f
+cac7e8aca29a0abe89ff107928b81a0d
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Input"#) -}
-86626b2959a8374d26393bd3f6495ffd
+62a0ed06a1f91cf08b26ee3378acc755
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Input.$trModule4) -}
-41149b8db604dcdd06f699f64d3ff8c7
+a9b5b13b55f6ba9697f8c3b10a706565
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-7396f308defe52cf6968bda207aa2848
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+db8770c70e212255784d57048dfb391b
   $w$cshowsPrec ::
     GHC.Prim.Int#
     -> KeyState.KeyState GHC.Types.Int
@@ -272,14 +272,14 @@ e9418c5736b0a665f0b051b410d64371
   {- Arity: 6,
      Strictness: <S,U><L,1*U(U,1*U)><L,1*U(U,1*U)><L,1*U(U,1*U)><L,1*U(U,1*U)><L,U>,
      Inline: [2] -}
-f50c2ab9e2082623275c9cc57e0e92df
+debdce52acaa37df87e66131243c6c87
   data Input
     = Input {iSpace :: KeyState.KeyState GHC.Types.Int,
              iUp :: KeyState.KeyState GHC.Types.Int,
              iDown :: KeyState.KeyState GHC.Types.Int,
              iEscape :: KeyState.KeyState GHC.Types.Int,
              iQuit :: GHC.Types.Bool}
-5f2bfd4a976eb5bf95386ec47a194730
+8de476ac606cbac3be07d10e3769ebef
   initInput :: StreetRun.Input.Input
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (StreetRun.Input.Input

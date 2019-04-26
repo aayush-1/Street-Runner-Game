@@ -1,12 +1,12 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:08.700078061 UTC
+2019-04-26 16:49:14.613878233 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Title 8064
-  interface hash: 7b33619369a4433272c718faf3fd47f0
-  ABI hash: 427b9b65804f28d35ec4680f154ed57b
-  export-list hash: 675ba76475a084728ea77f5f00720288
-  orphan hash: 2c5b73cd1b76d521f86e93d4ccad462a
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Title 8064
+  interface hash: b44b461c7ae3a4d7d02789442e50007b
+  ABI hash: f5fb31d8f149afbdd3fe29ce098e380e
+  export-list hash: b086a246cc8dd93e3bfebff4e6d99f5d
+  orphan hash: 3f0e510ef550bf06074776c1868b96d0
   flag hash: e9979ed0ba295133ef8188aa5e696ffc
   opt_hash: 6faf2de08de32d19db9870899d88e59a
   hpc_hash: 93b885adfe0da089cdf634904fd59f71
@@ -150,7 +150,7 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
                          vector-0.12.0.2:Data.Vector.Storable
                          vector-0.12.0.2:Data.Vector.Unboxed
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
-import  -/  animate-0.7.0:Animate cf529f033c38156be2990062be8eb570
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
 import  -/  base-4.12.0.0:Control.Monad 728c9526f38369d3ad3bf7824b06e87e
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
@@ -158,166 +158,166 @@ import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
 import  -/  key-state-0.2.0:KeyState f505d200ccd373546afa68666240df7e
-import  -/  lens-4.17:Control.Lens 02c38743366e4d3d260b71bddfddea13
-import  -/  lens-4.17:Control.Lens.Getter 18b0523ecb5ed8cc7fa826ffd942da08
-import  -/  lens-4.17:Control.Lens.Setter 7961fe073f63bb6246bee7094d4bca17
+import  -/  lens-4.17:Control.Lens 531af2b540e6d8d8ce856b6f46207d94
+import  -/  lens-4.17:Control.Lens.Getter 79a8b254c85ab59ff7c11b644140539d
+import  -/  lens-4.17:Control.Lens.Setter 54f8dcf2fae78610733fc46eb59386aa
 import  -/  mtl-2.2.2:Control.Monad.Reader d5c3a33f1c95bb71f4ae02f87a7048ff
 import  -/  mtl-2.2.2:Control.Monad.Reader.Class 56d676c7504f5007ee5b66906716abcc
 import  -/  mtl-2.2.2:Control.Monad.State 753def63fe8e937dc636f11e5230745a
 import  -/  mtl-2.2.2:Control.Monad.State.Class 94cc1438f3f9a3259fb0a2c56d3d0303
-import  -/  StreetRun.CFL 22aaa7e917fe6023bc75b650c540e607
-  exports: f389828e267831208731f8c3eb015474
-  frameDeltaSeconds 9605a9c4d4e8e9e818a55364604b43d7
-import  -/  StreetRun.Common ec7a24ddc13a89793e354234ea8b6a8f
-  exports: 5bf7e8807e04e9b7e18cf5c3f75b1f5b
-  $sel:cvQuake:CommonVars 1a70b4b7adfef4baee78b76f08e9c288
-  HasCommonVars 78e2982dec7ad30766f890d3421b5154
-  commonVars 2394ba70a1376f821bc3afbedd466646
-import  -/  StreetRun.Config b599dd5c3a0bd39090f183027c337ded
-  exports: a84af2eb49502a4ece92fede76199115
-  Config 74b4b3d61d611d8fd0371c0c604c9c1b
-import  -/  StreetRun.HUD 33ed45f0ee969474895a8614650a2f1b
-  exports: 7832e9cac015a5203f08d8c52ac8b9ae
-  HUD 910cd3343cd00cd8902c09529859c02a
-  drawHiscore 1844561d5282f8253fb45bae9bfafaf4
-import  -/  StreetRun.Input 2b2882bb9ccf0deac02d72ccd2af9474
-  exports: 794b8afcff1485016b9c41551ca5bab1
-  $sel:iSpace:Input f50c2ab9e2082623275c9cc57e0e92df
-import  -/  StreetRun.Load b854b61e5394a1e0d9cd4b9313a268b0
-  exports: 4cddd7fe752b7b923c34c3b71e404029
-  HasInput ba70c797691329d224bd192290501ef6
-  getInput 191f425c4d27320b241e01dc8844e1d0
-import  -/  StreetRun.Quake b6a124c4030dd8107fa49ff2cc71f4ef
-  exports: 1b20d2e9b9ea83d46fe981dd6ab66f9e
-import  -/  StreetRun.Quake_BackStreet ebd66aa7fea9a4375db34319ddddfe2a
-  exports: 578e5b9ec1aaacc51172575d1af9f5be
-  applyQuakeToBackStreet ae610989547ea9f445521321c10d41c9
-import  -/  StreetRun.Quake_Building 7b28d20ae17511fa922d20e9819b3dc0
-  exports: 6525757d6f3314b41ce008ffadedcbcd
-  applyQuakeToBuilding 75f95d76f94aadf9fbde79f512e1287d
-import  -/  StreetRun.Quake_Grass 5769fbd4058b117d8edf4d5fb329570b
-  exports: 7f02c80c1b0edff6e6cef90cfed2f356
-  applyQuakeToGrass 746ef2a7bfdacb0ce16c6331ddfdf993
-import  -/  StreetRun.Quake_Street 0639936fb2089261a1b9959dd9fae6ce
-  exports: 945f767c32e91e3edb88f6795d3a025e
-  applyQuakeToStreet cbc3186ba29eec598941c9d02b611e73
-import  -/  StreetRun.Renderer 0519d22b921b8437012069e63a6f4fa6
-  exports: 3ce23641af82250faf4b4afd515774b7
-  Renderer 718a3d63cec016694ff0c781c86acdfc
-  backStreetY d6d18a9a691e8c838d2cdefb408516e2
-  buildingY fd12705178fd95b18142e8b8b595fc90
-  drawBackStreet a256bda3269dd49460279d1a5af46e6c
-  drawBuilding 9162a3ec484098740d63d08b41ba8b08
-  drawGrass 1c222f81d1ad0ae6611d3a64f4ce5df9
-  drawPressEscapeText c843d7fd734cdf1ed9055d637c447251
-  drawPressSpaceText 51c1f10d647b7f285afd74f79d59bcb8
-  drawRunner 135ef7a866989d944f40576be2e3f3b4
-  drawStreet 56481eb6410660724e0c6477d55a660e
-  drawTitleText 17058c46fa43fac28336eb1f5ffe4f30
-  getBuildingAnimations 0aae0f4093ec2823e58e7ba08120c3a5
-  getGrassAnimations 7490e1214f10ead45cd2c92a5b22c5be
-  getRunnerAnimations 2fcaf83fcbda5f1bc7a60f13b946af8e
-  grassY 3f786eac2f607352fc5a43167b9f58be
-  streetY fe01709c343458dc4f3317788fb8ff29
-import  -/  StreetRun.Renderer_func_1 a9aeb84e666161fb4390884165deb075
-  exports: 6a0ad2bf2ffcb5fd6ca93a687f153110
-import  -/  StreetRun.Renderer_func_2 8e1829777a16c2ecd350a0a2077893e3
-  exports: e72c1bc9f19fb36af370b60f395645dd
-import  -/  StreetRun.Runner a6abbd291e744158bf9018a60f48d314
-  exports: ae88bb9ed2797ab0ae7bfb3fb6716c40
-import  -/  StreetRun.Runner_func_1 bdddcc72b2b205ac6ed65be0261303a7
-  exports: 5dd8b90845ed790a7a36c82e6f4d7138
-import  -/  StreetRun.Runner_func_2 850b3567ef6c7c4675339eaa541ca68a
-  exports: 132f0584768b112cf2826c60192e01cb
-  runnerX fd3805a2c9f39bc5c408a2b656b47006
-  runnerY 87cb356d89a34d0300a4e0f2bbb2169c
-import  -/  StreetRun.Scenario 354a54748ba84a3c008f8f16b2acd94c
-  Scene'Play c86d6ce8ce9affe48daa18b004e699b4
-import  -/  StreetRun.Scene 77553ca4972702fc9ed9a930428c3b84
-  exports: e5cf8e79f9eac931695eddae8a179fc0
-  SceneManager 8a74b8a4c9e990537b0f35c67b38d826
-  toScene d29769eae987e04902c8094df1bb527e
-import  -/  StreetRun.Sound_effects d6b1e92985bd34983de20a110cbdad5e
-  exports: eb4fe4175b79b0dda794b44c2a2faa67
-  AudioSfx 61b40e20c8ad121c087626bea3914def
-import  -/  StreetRun.Tag 478c1a1eaec7462402e2b3261537fcf9
-  exports: 6ff61bf1ef79bf9f2647f863adb633fe
-  $sel:tvBuildingPos:TitleVars cbf7b7425a835bb0a1de90f31f4231c6
-  $sel:tvFlashing:TitleVars cbf7b7425a835bb0a1de90f31f4231c6
-  $sel:tvGrassPos:TitleVars cbf7b7425a835bb0a1de90f31f4231c6
-  $sel:tvRunnerPos:TitleVars cbf7b7425a835bb0a1de90f31f4231c6
-import  -/  StreetRun.Tag_func 159a50a2215140f4934819751a0cd220
-  exports: fdd42e8f6ce9b2005464c764ab69e99f
-  HasTitleVars 8a5ef6bd9652a97c580bdda9c0818595
-  titleShowPressEscape 2a83704cf03b4f853e482c3cec251251
-  titleShowPressSpace dafed0598b6b0c0507dc46a12d7d07fa
-  titleVars b336c6d8dd7af5f49b808333f852cb3e
-65e81e3af61112d2562681f1479a26c6
+import  -/  StreetRun.CFL 3eda38b0b4527455a470588885876383
+  exports: 7e1369c6347bedc3f988b96583d80157
+  frameDeltaSeconds 99f34a321f0767b8c92e0a5de49841e4
+import  -/  StreetRun.Common ae88f6983cc973a550c263b8148feda8
+  exports: 61e4030ffa8e91db9a54c7154cc3d232
+  $sel:cvQuake:CommonVars 0f93d8dfb992b8c8431fd0dc1f0c54d0
+  HasCommonVars 919b4731c41ba51a047a083b8a4cc9c7
+  commonVars 0c52cc297fe39f10299147a803dcafdf
+import  -/  StreetRun.Config d537956b220fa6e917381a250f3474d9
+  exports: 67f65ea021d4fb0cf4ae01501b50bd2f
+  Config 9c151486d5b66b82caae303edc04126a
+import  -/  StreetRun.HUD 67c25875c022a2408906d37d63f0510d
+  exports: e799087feb519c2fa6ec11e1bcb9834b
+  HUD dd3aec2a82456c62e19ed6e64162878f
+  drawHiscore d9f8935f842a5900f6b8471631f6be0c
+import  -/  StreetRun.Input dc1e62404449c4ef4f763046555938b3
+  exports: d5c6fc579c43e57e8ccb72f493e3d8f8
+  $sel:iSpace:Input debdce52acaa37df87e66131243c6c87
+import  -/  StreetRun.Load 0b2c99b1460fc0284ebe0ed44ab70962
+  exports: bb94dee51103db3de49f80223cdee067
+  HasInput a827a1b40b93ca24fd0678aff14a3874
+  getInput 13a07f24b1df74c123ca0a0ea07ffed3
+import  -/  StreetRun.Quake 534ecc20f0d0082a1dfa1bcf26bf997d
+  exports: ad876ccc0312a03ee7f2e4b3c80c4160
+import  -/  StreetRun.Quake_BackStreet b655aa3f0985b36698a52eb293422bae
+  exports: 74d66d7bc295214aa67aef6b0028b730
+  applyQuakeToBackStreet c1bd6e993ae8b479f687cdc1860f9d05
+import  -/  StreetRun.Quake_Building 62453cda89c32691aab5de3709136976
+  exports: f6a986805fd741a89c48d6a16b4d0f3b
+  applyQuakeToBuilding b444f870717611acd2b11fc64ed0ffd0
+import  -/  StreetRun.Quake_Grass 8acdd0976725ecdc0aae8148de0e5478
+  exports: 5d42752bf51786e0aa2b859a9d6873ad
+  applyQuakeToGrass 20c5b9efd35513ec7473642db58c6c5a
+import  -/  StreetRun.Quake_Street bab4016d1b3ebad7a2b7c1ed285f4529
+  exports: 18446ae1546a0ea859bc4b20f064313b
+  applyQuakeToStreet 4d4353f102c2f0df8996bf65d95a5a94
+import  -/  StreetRun.Renderer a69ba77fd8f4ba75b3394f8a84f6545b
+  exports: bdc569cebfaf1503ce959a9192a1814c
+  Renderer 879b383bd7b1ca67a12fca41ecb57c3d
+  backStreetY ccf52ea587c1ecc8ec1796df4caa3d7d
+  buildingY ab86752338eaff4cb8c6e6f15dcd589f
+  drawBackStreet afd2058a76d92d9c9a6477b805d361df
+  drawBuilding 98862114cd4393daacb62c3c62b741d9
+  drawGrass 300bcb4e7e7a8aebd18c38326db371ef
+  drawPressEscapeText 2ae8b7fcb102ccba84952a605d66ac0f
+  drawPressSpaceText 3e8045c0d9b81cc51a314d7c13a775c0
+  drawRunner 8afdaa74ae5b8a9e593b1d176c2c226f
+  drawStreet 9dd4cb0f5ffe5a88ffc9b02a84128af0
+  drawTitleText 01828666899216fd8cdb79a320824506
+  getBuildingAnimations 86205e2c40d8921f697df5dfcb48e5bd
+  getGrassAnimations 8d341d7c0cf61d24e7dfea5fbd232e91
+  getRunnerAnimations 359e34639657617fa9e732d909871035
+  grassY a198ec76154c94d6ad1a9049304ad402
+  streetY db5e1961b93d8c66656c254e30009db8
+import  -/  StreetRun.Renderer_func_1 87b11dfcfe20c3a1685ab67cfe255c84
+  exports: cd995c9f02033435bf3d7151e24e6a3d
+import  -/  StreetRun.Renderer_func_2 87fc080bf0dac60d05d8fd44dced694f
+  exports: acb7c593e3b7f4916cf72f231a22b161
+import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
+  exports: 07dc0a302095db6221f41ecc2db9aec7
+import  -/  StreetRun.Runner_func_1 1928ba54f43a20365598e5563c7061e0
+  exports: 3aace68dd54e293b9e7cb9629aa29f15
+import  -/  StreetRun.Runner_func_2 f8a14e2b7b30d725c8ce0939a4c26918
+  exports: fc83ba710a96fc8b5794a82f528d2b01
+  runnerX 5aaf8282d23efce0690fc2ffbc20a4dd
+  runnerY 1ea05b9e0e39cd6d08c69a3be1bc0951
+import  -/  StreetRun.Scenario 3d565e4d4fcefb40de1d348ddc5508f1
+  Scene'Play 2ed041c5b85088aff58ed9d2427e8cf2
+import  -/  StreetRun.Scene af7d6d54736d3642cc86bcfab3e76781
+  exports: 07dad99016b354b41a3f7ae55850c26a
+  SceneManager 63d1267c6f32ccbcb6cd361a33bac81a
+  toScene 1edb960cc18f68f27f8817e7a98f03a1
+import  -/  StreetRun.Sound_effects a85edcbc0529355d0d823628a5187457
+  exports: 4f505e3c45a92fc5611bc81b03b0dc47
+  AudioSfx 59c875a47b0b4851b33ea127ea6242ec
+import  -/  StreetRun.Tag 27e814674fbab3eb0744c0bf2fe41e37
+  exports: 2deb1d4d5d6d85e90a593ece5714e0ef
+  $sel:tvBuildingPos:TitleVars 157b3cd13c267a6428af29fa9619d644
+  $sel:tvFlashing:TitleVars 157b3cd13c267a6428af29fa9619d644
+  $sel:tvGrassPos:TitleVars 157b3cd13c267a6428af29fa9619d644
+  $sel:tvRunnerPos:TitleVars 157b3cd13c267a6428af29fa9619d644
+import  -/  StreetRun.Tag_func f3f5a14ffbd5357638b12d8b482ff7e8
+  exports: 66d8f3d93a0bfb73e2304b95f1e2d95e
+  HasTitleVars 32b6a39b10f54ea6f85c15e607982124
+  titleShowPressEscape 18b0746f726075b63583fccbd597f0b4
+  titleShowPressSpace 94fbf9cf58ea01b3b6eaceb383a7917c
+  titleVars a582b3522038ca4077d69a9ee44f7b5a
+40dc63c463d038334701137cf9da019d
   $srunnerY :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Inline: [2],
      Unfolding: InlineRule (0, True, False) (GHC.Types.I# 408#) -}
-9829d3812a25f8e5cb340fbe9bcc42c7
+a8122f11433551d28cf9286b770c3afa
   $tc'C:Title :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   8223819595085444118##
-                   11187165454609521078##
+                   16066249037214792469##
+                   12269235593844658688##
                    StreetRun.Title.$trModule
                    StreetRun.Title.$tc'C:Title2
                    1#
                    StreetRun.Title.$tc'C:Title1) -}
-af522a5e1d8c093cf14466ec44448f5c
+ff0d23d09fe93423e418ee24fdad914f
   $tc'C:Title1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-e2733903ce5b135cfdfbc11f0971bca1
+3a88d0c63bcd3da42d14c5365a8e2600
   $tc'C:Title2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Title.$tc'C:Title3) -}
-e456321e2a54d64709daacf4d944ead4
+281310db36999cd5e72b187b73521a72
   $tc'C:Title3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'C:Title"#) -}
-e729367ca582dadd18de2731f5a1d1e2
+5e20417f90431dfcb760aad65367fe72
   $tcTitle :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   14090914070894604445##
-                   12269521504363636452##
+                   3200036819986834942##
+                   17104271083102462371##
                    StreetRun.Title.$trModule
                    StreetRun.Title.$tcTitle2
                    0#
                    StreetRun.Title.$tcTitle1) -}
-a12862176adad3aa75957239f4a7ef41
+d3c41f9de536e8df4e7390f9e1d1bf00
   $tcTitle1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-5e5694b7a02f158860429f5d3ccb923e
+d9ef73a55b08f7654867c2d8b15d011d
   $tcTitle2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Title.$tcTitle3) -}
-98c758e9d57da266bc4e99461a3269d7
+cce5c55337b8c3a9469eaaf3fafdd7a6
   $tcTitle3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Title"#) -}
-d2d2f55b8e40dfa8a52b8e25299f7b83
+e47425de8702eb260c954ece0e6911bf
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Title.$trModule3
                    StreetRun.Title.$trModule1) -}
-54373ecbb0acb4bca395db12fe575611
+c3856259a0c8b32e6e31bf899f4bcae6
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Title.$trModule2) -}
-5a8fee2b28219466948967221afbdce1
+7719a3a2cae491faafc78564c861d378
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Title"#) -}
-26f82ee3b29ab0018bb0f285022496ff
+53c0de56cfb4d90376781ad3db680e30
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Title.$trModule4) -}
-0f0938d2fc0237e0bca716570746899b
+d1a71accfa731306c48c88d1cdd58bdf
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-2d2bf491679f32eabe1ba6481a107b89
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+a33120d13210295c17eda3ab086c9fd1
   $wdrawTitle ::
     (StreetRun.Tag_func.HasTitleVars s,
      StreetRun.Common.HasCommonVars s, GHC.Base.Applicative m) =>
@@ -329,7 +329,7 @@ d2d2f55b8e40dfa8a52b8e25299f7b83
   {- Arity: 8,
      Strictness: <L,1*C1(C1(C(U)))><L,1*C1(C1(C(U)))><L,1*U(A,1*C1(U),A,A,A,A)><C(C(S)),C(C1(U))><L,C(C1(U))><L,U(U(A,C(C1(U)),A,C(U),A),U,A,A)><L,U(A,A,A,1*U,A,A,A,1*U,1*U,C(C1(U)),A,A,A,C(C1(U)),C(C1(U)),C(U),C(U),A,A,A,A,1*C1(U),1*C1(U),1*C1(U),A,A)><L,1*U(A,1*U,A,A)>,
      Inline: [2] -}
-29361fd12d56dc73b604632f94938d4b
+0c503b8ad35d7bb698c168cd99c15a9b
   $wtitleStep' ::
     (StreetRun.Tag_func.HasTitleVars s,
      StreetRun.Common.HasCommonVars s, GHC.Base.Applicative m) =>
@@ -382,7 +382,7 @@ d2d2f55b8e40dfa8a52b8e25299f7b83
                        case ds7 of wild2 {
                          DEFAULT -> lvl15 KeyState.KeyStatus'Pressed -> lvl13 } } })
                       lvl14)) -}
-3a676fb134f5421e2ed4809f305002c9
+5e16f70e9d29de4c8793d641e98aad01
   $wupdateTitle ::
     StreetRun.Tag_func.HasTitleVars s =>
     (forall a b. m a -> (a -> m b) -> m b)
@@ -392,11 +392,11 @@ d2d2f55b8e40dfa8a52b8e25299f7b83
   {- Arity: 4,
      Strictness: <L,C(C1(C(U)))><C(C(S)),C(C1(U))><L,U(U(A,C(C1(U)),A,C(U),A),U,A,C(U))><L,U(A,A,A,1*U,A,A,A,1*U,1*U,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>,
      Inline: [2] -}
-8b7db90ec4ead404b7a137052a3db498
+fd9ee9f44b91ce89af456ee8e77d61f3
   class GHC.Base.Monad m => Title (m :: * -> *) where
     titleStep :: m ()
     {-# MINIMAL titleStep #-}
-b920777fedda5aae2eea1778da73f0f2
+de17c80c3f10e98a85a6b41fce49398a
   drawTitle ::
     (StreetRun.Tag_func.HasTitleVars s,
      StreetRun.Common.HasCommonVars s,
@@ -433,7 +433,7 @@ b920777fedda5aae2eea1778da73f0f2
                    w3
                    w4
                    w7 } }) -}
-43523358cfa25f49a4c68ab19eb01df7
+af0da93f42069e383d4c68aaec067ea0
   titleStep' ::
     (StreetRun.Tag_func.HasTitleVars s,
      StreetRun.Common.HasCommonVars s,
@@ -474,7 +474,7 @@ b920777fedda5aae2eea1778da73f0f2
                    w5
                    w6
                    w7 } }) -}
-65cbd99097207cfcfdcae9fa101d7100
+73b3ba392f2d50f69f335431ea2ac537
   updateTitle ::
     (StreetRun.Tag_func.HasTitleVars s,
      StreetRun.Common.HasCommonVars s,

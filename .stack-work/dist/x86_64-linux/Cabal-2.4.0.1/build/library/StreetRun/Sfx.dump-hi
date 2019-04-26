@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:01.683912912 UTC
+2019-04-26 16:49:06.518519733 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Sfx 8064
-  interface hash: 8817b0f026243169565fc20bbf77d74f
-  ABI hash: 188ad4f30736accf16515482a6965264
-  export-list hash: 029fd02878001f540ae45828c6e7c393
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Sfx 8064
+  interface hash: ed1527a017c89a176ea817b2719d4137
+  ABI hash: 84ca787432fe5aa9b2474b5f085cc5ee
+  export-list hash: 40f6907587702e890ebc457991a6c86d
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -28,7 +28,7 @@ family instance modules: base-4.12.0.0:Control.Applicative
 import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
-a3dab70cffee12c7533ffba02a25eece
+fb15b7866cecd0ca9b160c975af7b405
   $fEqSfx :: GHC.Classes.Eq StreetRun.Sfx.Sfx
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -36,7 +36,7 @@ a3dab70cffee12c7533ffba02a25eece
                   @ StreetRun.Sfx.Sfx
                   StreetRun.Sfx.$fEqSfx_$c==
                   StreetRun.Sfx.$fEqSfx_$c/= -}
-a3dab70cffee12c7533ffba02a25eece
+fb15b7866cecd0ca9b160c975af7b405
   $fEqSfx_$c/= ::
     StreetRun.Sfx.Sfx -> StreetRun.Sfx.Sfx -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
@@ -84,7 +84,7 @@ a3dab70cffee12c7533ffba02a25eece
                    -> case y of wild1 {
                         DEFAULT -> GHC.Types.True
                         StreetRun.Sfx.Sfx'Stock -> GHC.Types.False } }) -}
-a3dab70cffee12c7533ffba02a25eece
+fb15b7866cecd0ca9b160c975af7b405
   $fEqSfx_$c== ::
     StreetRun.Sfx.Sfx -> StreetRun.Sfx.Sfx -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
@@ -131,7 +131,7 @@ a3dab70cffee12c7533ffba02a25eece
                    -> case ds1 of wild1 {
                         DEFAULT -> GHC.Types.False
                         StreetRun.Sfx.Sfx'Stock -> GHC.Types.True } }) -}
-a3dab70cffee12c7533ffba02a25eece
+fb15b7866cecd0ca9b160c975af7b405
   $fShowSfx :: GHC.Show.Show StreetRun.Sfx.Sfx
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -140,77 +140,77 @@ a3dab70cffee12c7533ffba02a25eece
                   StreetRun.Sfx.$fShowSfx_$cshowsPrec
                   StreetRun.Sfx.$fShowSfx_$cshow
                   StreetRun.Sfx.$fShowSfx_$cshowList -}
-f5828c20612d95de3990223880b899c6
+04881e10a20f07852144744f23d378f8
   $fShowSfx1 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Sfx.$fShowSfx2) -}
-f209c01e6c5691bf00d5de5498a4326f
+534fa05daad98186de85b06b9a27c9d6
   $fShowSfx10 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Sfx'Lava"#) -}
-952621916f782612bfb45821fd917e8c
+4fe9939623e1734aa8662268e0681093
   $fShowSfx11 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Sfx.$fShowSfx12) -}
-dc5f49483cf215281d01f9d51708d0be
+f75cffeab3454ce878a0689b0ee856a5
   $fShowSfx12 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Sfx'Hurt"#) -}
-d6d5c431306df855ca2d7d5dd0702ccd
+5a3e9a0eae3dd78f093f95479889949b
   $fShowSfx13 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Sfx.$fShowSfx14) -}
-d3268979b6cfb0ff90aa4e1a7b46acdb
+b9eb2ea6939abb238398ac3403ea7206
   $fShowSfx14 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Sfx'Bird"#) -}
-9ccb7353ae328f5968c6913f38b2c6dc
+ddc521158f43c3085ce3d4ca9c513ce9
   $fShowSfx15 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Sfx.$fShowSfx16) -}
-28acb34271aee897dbb75dfb293c7df8
+41e625fa016a4415b07e4485c7305f6d
   $fShowSfx16 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Sfx'Duck"#) -}
-c7ffd2306ea6daec001a466f50fa50fd
+89c05528c1f4b5f13f481747b95f0552
   $fShowSfx17 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Sfx.$fShowSfx18) -}
-7106044fa8864b44f1e5b9273e5e23b1
+72592cf78aa8900da0ff1c7ab1165130
   $fShowSfx18 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Sfx'Point"#) -}
-7011073492d86fec22dcabec47bb5db9
+c8c215cc786eca41833a64ab85eb79be
   $fShowSfx19 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Sfx.$fShowSfx20) -}
-e969213c1bf085616f351d09b806f17b
+ef84db6b7ea6c21594edff459ca5848f
   $fShowSfx2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Sfx'Stock"#) -}
-0c4be440d597e896209990c04399aafc
+c6f551adb7f79ffef2450570af210a57
   $fShowSfx20 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Sfx'Jump"#) -}
-7dcf4fe9248b1c55475f783c05f9d655
+4621906882599b9b63b563135f2ad208
   $fShowSfx3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Sfx.$fShowSfx4) -}
-626467dbc515dc3acdb8d820ff7a5271
+2b0b2d03d6e9f15dfc6319c21727c564
   $fShowSfx4 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Sfx'Recover"#) -}
-2e0452239499ec80c59c3fa6dffd4a51
+fcd85fa0df1ed6d5666eea6df8807c80
   $fShowSfx5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Sfx.$fShowSfx6) -}
-865fe580dd5c06d20b7151e38eb8fb64
+04193db9db225d95ec8ab696f87a09a6
   $fShowSfx6 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Sfx'Rock"#) -}
-774c867c088e95ef8986470532144693
+099539d99a62916022fe915981d0fd1f
   $fShowSfx7 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Sfx.$fShowSfx8) -}
-20a75ea345051114386406cdb7971f09
+c81b020f4e5e5d04cee3102e9c3776fc
   $fShowSfx8 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Sfx'Quake"#) -}
-4ad8f687dd558460eafd6307223405b4
+8652d116a3a3b9febc4fc8c65a9a1456
   $fShowSfx9 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Sfx.$fShowSfx10) -}
-a3dab70cffee12c7533ffba02a25eece
+fb15b7866cecd0ca9b160c975af7b405
   $fShowSfx_$cshow :: StreetRun.Sfx.Sfx -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U>,
      Unfolding: (\ (x :: StreetRun.Sfx.Sfx) ->
@@ -225,7 +225,7 @@ a3dab70cffee12c7533ffba02a25eece
                    StreetRun.Sfx.Sfx'Rock -> StreetRun.Sfx.$fShowSfx5
                    StreetRun.Sfx.Sfx'Recover -> StreetRun.Sfx.$fShowSfx3
                    StreetRun.Sfx.Sfx'Stock -> StreetRun.Sfx.$fShowSfx1 }) -}
-a3dab70cffee12c7533ffba02a25eece
+fb15b7866cecd0ca9b160c975af7b405
   $fShowSfx_$cshowList :: [StreetRun.Sfx.Sfx] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
      Unfolding: InlineRule (2, True, False)
@@ -235,7 +235,7 @@ a3dab70cffee12c7533ffba02a25eece
                    StreetRun.Sfx.$w$cshowsPrec
                    ls
                    s) -}
-a3dab70cffee12c7533ffba02a25eece
+fb15b7866cecd0ca9b160c975af7b405
   $fShowSfx_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Sfx.Sfx -> GHC.Show.ShowS
   {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>, Inline: [2],
@@ -244,218 +244,218 @@ a3dab70cffee12c7533ffba02a25eece
                    (w1 :: StreetRun.Sfx.Sfx)
                    (w2 :: GHC.Base.String) ->
                  StreetRun.Sfx.$w$cshowsPrec w1 w2) -}
-e61c4e244747c655c2b5e5f7599136c0
+415afcc0250fccf29da1340e00939d81
   $tc'Sfx'Bird :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   10085465405572955774##
-                   15497021661604433210##
+                   685748733555819250##
+                   12703387193598512098##
                    StreetRun.Sfx.$trModule
                    StreetRun.Sfx.$tc'Sfx'Bird2
                    0#
                    StreetRun.Sfx.$tc'Sfx'Bird1) -}
-9f490089fab8bd4446747a8195393769
+5c7a6719794a8c0bfc3338641eb38ea3
   $tc'Sfx'Bird1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
-1054071a1c6db3c39a05a6d342d32712
+5cdcf060a4b969f1ea06cada860a3017
   $tc'Sfx'Bird2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Sfx.$tc'Sfx'Bird3) -}
-9038877cd991943b61b77395fff8f1ce
+c33dd7065f01348383a60c0132116fc0
   $tc'Sfx'Bird3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Sfx'Bird"#) -}
-62275bf6456ba58bf6280db398193d56
+e1419b5e5c6740864222192a19710724
   $tc'Sfx'Duck :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   15949486015035645035##
-                   7155418418227144621##
+                   13169857281996432611##
+                   15670360113960405443##
                    StreetRun.Sfx.$trModule
                    StreetRun.Sfx.$tc'Sfx'Duck1
                    0#
                    StreetRun.Sfx.$tc'Sfx'Bird1) -}
-5be63aacb71cb3a4533667f30930e9d7
+c45a4c78e387dd47b2d92a12b157a881
   $tc'Sfx'Duck1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Sfx.$tc'Sfx'Duck2) -}
-37a36a67a20e57f1ab3345a1beb4f3d7
+702b616119b64e613f2c9105da5a2e28
   $tc'Sfx'Duck2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Sfx'Duck"#) -}
-620e3cfbe7cb54d404c89536b3f8672d
+c384a26d0adfd007eb6fcbe1d9f6f56a
   $tc'Sfx'Hurt :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   13783978229710837082##
-                   14441692359369664081##
+                   8989542228745950259##
+                   3070425086872115792##
                    StreetRun.Sfx.$trModule
                    StreetRun.Sfx.$tc'Sfx'Hurt1
                    0#
                    StreetRun.Sfx.$tc'Sfx'Bird1) -}
-0132526c422f681ccbfa618bd2a5244d
+55633c17cb26f53ed8e64ccf8829f2fa
   $tc'Sfx'Hurt1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Sfx.$tc'Sfx'Hurt2) -}
-aa733019c06207e79dea8d52dca8f94c
+e53d91fd8eeec509a19c7c38efed229a
   $tc'Sfx'Hurt2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Sfx'Hurt"#) -}
-2a13626d6a2531e1d808c89e57721c82
+047f142ab61c920825b733659024c875
   $tc'Sfx'Jump :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   17577626358198874494##
-                   9792928417491490839##
+                   4336249606337668494##
+                   6044868976226710456##
                    StreetRun.Sfx.$trModule
                    StreetRun.Sfx.$tc'Sfx'Jump1
                    0#
                    StreetRun.Sfx.$tc'Sfx'Bird1) -}
-2dd145178a918f65b3074655555af241
+4272cb0f3c37b16cd10841fc9580a49b
   $tc'Sfx'Jump1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Sfx.$tc'Sfx'Jump2) -}
-10afedb0903be9f11cda7ace692bd9d2
+c1dc344fa6a1b126e7ce5741182ab11c
   $tc'Sfx'Jump2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Sfx'Jump"#) -}
-5a111cc3683cd62902ed66f493c89b0c
+98c219fbcc5151fe395ba9a0914283af
   $tc'Sfx'Lava :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   1239867911347024823##
-                   2900313391136864781##
+                   4205430316091409475##
+                   8225562471547326714##
                    StreetRun.Sfx.$trModule
                    StreetRun.Sfx.$tc'Sfx'Lava1
                    0#
                    StreetRun.Sfx.$tc'Sfx'Bird1) -}
-bff7a5f9921afccf7cad6416b58d8095
+84e39fd9ade2db683e5791713adcd4ea
   $tc'Sfx'Lava1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Sfx.$tc'Sfx'Lava2) -}
-2bc23cc815faaf6efc6120a7310cf6bd
+f8fffb4ebf103d46f5e62be59d0c2739
   $tc'Sfx'Lava2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Sfx'Lava"#) -}
-34e76490b1d0d1dc7868bf4a70e6a614
+e80f9ad279b063ec3422c9f95aa138a9
   $tc'Sfx'Point :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   9835256064600796709##
-                   2916334407770566163##
+                   10576811412839893856##
+                   5566239857212263407##
                    StreetRun.Sfx.$trModule
                    StreetRun.Sfx.$tc'Sfx'Point1
                    0#
                    StreetRun.Sfx.$tc'Sfx'Bird1) -}
-c3dbb81265cedfc1333155278e815702
+dd9f10b2473aa6ab5fd011f56e50110e
   $tc'Sfx'Point1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Sfx.$tc'Sfx'Point2) -}
-29449221666ccbfed58a747582e14b57
+4d123d869f4336f9043952fe89f336ab
   $tc'Sfx'Point2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Sfx'Point"#) -}
-4e14d626f2e547a59189352a230c0b9f
+72d9e98d977df558fb93ec0eccf04120
   $tc'Sfx'Quake :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   8505792839264076767##
-                   5990960270440321050##
+                   11754997675082576326##
+                   6093778059048900626##
                    StreetRun.Sfx.$trModule
                    StreetRun.Sfx.$tc'Sfx'Quake1
                    0#
                    StreetRun.Sfx.$tc'Sfx'Bird1) -}
-bd116b86102cd45c1b0c5c3f1429c01c
+62961313620490b9fc302c6549cfbdf6
   $tc'Sfx'Quake1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Sfx.$tc'Sfx'Quake2) -}
-4314e93823c207857121d2e770c6c3fd
+a8e916a505527650db0eebcd62d96792
   $tc'Sfx'Quake2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Sfx'Quake"#) -}
-8e70cd2aad8c6bfed7faaab9dbf94271
+7711eacebaae88581004579622656de5
   $tc'Sfx'Recover :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   9812166723849139120##
-                   2528953775413721171##
+                   2574026452413530566##
+                   15338244665097747085##
                    StreetRun.Sfx.$trModule
                    StreetRun.Sfx.$tc'Sfx'Recover1
                    0#
                    StreetRun.Sfx.$tc'Sfx'Bird1) -}
-76f6ae521e4dfaadbf34208b642d5f4b
+268a222b40c84d8461b3a9d34c651e44
   $tc'Sfx'Recover1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Sfx.$tc'Sfx'Recover2) -}
-73467f610a10aca90a1ce6532c0cc97b
+3e3d85f656f514bbbf33e69acdb6bb02
   $tc'Sfx'Recover2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Sfx'Recover"#) -}
-661b6a9fa8c8cd5e673fc9c84055b209
+186cadef6882703c1ff1f7ac2fc5483a
   $tc'Sfx'Rock :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   10515202216272822181##
-                   15320802818391522302##
+                   14084296734037659618##
+                   8310012954046802265##
                    StreetRun.Sfx.$trModule
                    StreetRun.Sfx.$tc'Sfx'Rock1
                    0#
                    StreetRun.Sfx.$tc'Sfx'Bird1) -}
-6f3bc5181521c0920706c5487968e10d
+6b869b8dc34b2a780b5ff58bd1eea42b
   $tc'Sfx'Rock1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Sfx.$tc'Sfx'Rock2) -}
-66d17cef40b4d4fd216fc22bca9ea811
+497c48ded249f9f82c0880779e2fe667
   $tc'Sfx'Rock2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Sfx'Rock"#) -}
-2576ea2d82046ef0203c0d0d9a557f62
+9ef24b183f7c7364833711507f74b166
   $tc'Sfx'Stock :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   18312037993523750430##
-                   2092684701657776018##
+                   504882994947975154##
+                   1131853989118282044##
                    StreetRun.Sfx.$trModule
                    StreetRun.Sfx.$tc'Sfx'Stock1
                    0#
                    StreetRun.Sfx.$tc'Sfx'Bird1) -}
-a4fe2f0715a500c13363d8d34d0802dc
+945077f580430c395c67119eae3d09e7
   $tc'Sfx'Stock1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Sfx.$tc'Sfx'Stock2) -}
-165057f4c68459dc48423c3dead257ee
+9afcf3d0826f8b8df5880299570c4dc4
   $tc'Sfx'Stock2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Sfx'Stock"#) -}
-ae743b8e7f84dbcd537c8b2860b05407
+d46d102e6c419bcdf649f9dcfd438b8a
   $tcSfx :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   16298554809540841431##
-                   17224773259368438290##
+                   12432272341522449576##
+                   9148317814744255196##
                    StreetRun.Sfx.$trModule
                    StreetRun.Sfx.$tcSfx1
                    0#
                    GHC.Types.krep$*) -}
-6bcf2469c91d0252eb4c9ec163b6a08e
+06c67a6d7ae8c56cb2746304845df877
   $tcSfx1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Sfx.$tcSfx2) -}
-3ab747b84e8912d18cabb229fa62d13a
+6a7a9ce0439567490051ee0e78f51e84
   $tcSfx2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Sfx"#) -}
-487eedac6c5174660c3913ae2326142b
+9cf9beef110ed7594d8d5ba94e03091b
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Sfx.$trModule3
                    StreetRun.Sfx.$trModule1) -}
-f2a4dca74b9f33b05778d302244669a9
+5cac4c6476c74c34d522c3975549b577
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Sfx.$trModule2) -}
-d8109771c2a9bec4b79c4c343ea42782
+9626a36f59b8aa2ae349f7d93f5e55c5
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Sfx"#) -}
-b825120a0829591099932f96e5af06d6
+4723092af61e2128f909955e41ab9391
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Sfx.$trModule4) -}
-2601d25fe2301f646fe60b3275e248d5
+d34700d09a8f40dd57fab4200d83f4a5
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-a3dab70cffee12c7533ffba02a25eece
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+fb15b7866cecd0ca9b160c975af7b405
   $w$cshowsPrec ::
     StreetRun.Sfx.Sfx -> GHC.Base.String -> GHC.Base.String
   {- Arity: 2, Strictness: <S,1*U><L,1*U>, Inline: [2],
@@ -481,7 +481,7 @@ a3dab70cffee12c7533ffba02a25eece
                    -> GHC.Base.++ @ GHC.Types.Char StreetRun.Sfx.$fShowSfx3 w1
                    StreetRun.Sfx.Sfx'Stock
                    -> GHC.Base.++ @ GHC.Types.Char StreetRun.Sfx.$fShowSfx1 w1 }) -}
-a3dab70cffee12c7533ffba02a25eece
+fb15b7866cecd0ca9b160c975af7b405
   data Sfx
     = Sfx'Jump
     | Sfx'Point

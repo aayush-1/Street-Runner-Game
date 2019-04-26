@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:08.30282815 UTC
+2019-04-26 16:49:13.863978161 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Picture 8064
-  interface hash: 4b5e59fbb395ad1ffb31b89cc8705e29
-  ABI hash: b3a434655916c9bd40f5e83b30c22973
-  export-list hash: 3a912206f39fec45a542e7a9b7b90546
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Picture 8064
+  interface hash: 4781dc25f38bb3dafd025b2266fc6e57
+  ABI hash: 2415def10652325ab2b0934136a862a9
+  export-list hash: babc26a2152d66639b7a47ea4c5947f4
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -150,96 +150,96 @@ import  -/  base-4.12.0.0:Control.Monad.IO.Class e96805f9d79f75be66a0d44eb83064c
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
-import  -/  linear-1.20.8:Linear.Affine d36c64474d5a73db89d8620023f2c4b0
-import  -/  linear-1.20.8:Linear.V2 8a9154bf8e5f0fecb2cc8fb6a057e650
+import  -/  linear-1.20.8:Linear.Affine ad49a7802911561cdceabb09a106eb0a
+import  -/  linear-1.20.8:Linear.V2 4a7e4c0c9247ec5477069840e3acbf22
 import  -/  mtl-2.2.2:Control.Monad.Reader d5c3a33f1c95bb71f4ae02f87a7048ff
 import  -/  mtl-2.2.2:Control.Monad.Reader.Class 56d676c7504f5007ee5b66906716abcc
 import  -/  mtl-2.2.2:Control.Monad.State 753def63fe8e937dc636f11e5230745a
 import  -/  mtl-2.2.2:Control.Monad.State.Class 94cc1438f3f9a3259fb0a2c56d3d0303
-import  -/  sdl2-2.4.1.0:SDL a509879ea64738370e9e96c8f0b5e49f
-import  -/  sdl2-2.4.1.0:SDL.Internal.Types 7b679d0a22de4708b08683438715e813
-import  -/  sdl2-2.4.1.0:SDL.Vect 87cebfb5451b5123ac5e23d9821e85c2
-import  -/  sdl2-2.4.1.0:SDL.Video.Renderer 93203afab1f85132f9da5863a7f04f06
-import  -/  StreetRun.Camera 15520c15c72428459c71d35d468598c8
-  exports: 445eb368813d35f6641c1446797753f7
-  $sel:camOrigin:Camera b5968deab63503d8481a66bb851490e6
-  $sel:camZoom:Camera b5968deab63503d8481a66bb851490e6
-  Camera 50f7b673c29ffcb8d7ebee383f5cb5b6
-  Camera b5968deab63503d8481a66bb851490e6
-  moveOrigin c1d3998015c783bdb0ee398ffa38a68b
-  screenV2 bfbff365d903fb8d57bf6a7a5b4b9ace
-import  -/  StreetRun.Config b599dd5c3a0bd39090f183027c337ded
-  exports: a84af2eb49502a4ece92fede76199115
-  $sel:cRenderer:Config 74b4b3d61d611d8fd0371c0c604c9c1b
-  Config 74b4b3d61d611d8fd0371c0c604c9c1b
-import  -/  StreetRun.State 879bfe0721b41cea3eaddf89be35a0d2
-  exports: 2ad9459b3bdc4835614d220ed9e341f2
-  $sel:vCamera:Vars 94cac8e669b0992d9fdeb1c0cad361f9
-  Vars 94cac8e669b0992d9fdeb1c0cad361f9
-4b6ecb54354c1c6dba8dc7d0ae2a08f1
+import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
+import  -/  sdl2-2.4.1.0:SDL.Internal.Types e9c1ec4176424e757d8731678bde7206
+import  -/  sdl2-2.4.1.0:SDL.Vect cd47fc30aef16e8f55c1351dafae292d
+import  -/  sdl2-2.4.1.0:SDL.Video.Renderer fde5d4735decffc12f192a8489c7afbb
+import  -/  StreetRun.Camera aee3fb01ce4891aa2dae6a21d7c202e6
+  exports: 1a6acd683c9676f4c91f67deeac64d72
+  $sel:camOrigin:Camera 2825edad27438647c3fbdedec7f77477
+  $sel:camZoom:Camera 2825edad27438647c3fbdedec7f77477
+  Camera 9790c46a29778f8a911ea305460f4e30
+  Camera 2825edad27438647c3fbdedec7f77477
+  moveOrigin b15a8ffc08aeb0da07f783749d42a97a
+  screenV2 2a10fb626633c8c65637ada046def9a1
+import  -/  StreetRun.Config d537956b220fa6e917381a250f3474d9
+  exports: 67f65ea021d4fb0cf4ae01501b50bd2f
+  $sel:cRenderer:Config 9c151486d5b66b82caae303edc04126a
+  Config 9c151486d5b66b82caae303edc04126a
+import  -/  StreetRun.State 2b4a5b23cba95fdf8a8075ad75dbe6ec
+  exports: 9215ef2a775e8ad7562f6edbfe13ac1f
+  $sel:vCamera:Vars 06c844f355a6a421607a99fdffa4b901
+  Vars 06c844f355a6a421607a99fdffa4b901
+f38e0f857d1c46779311bbce2ec39ee4
   $tc'C:CameraControl :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   15408077831268309658##
-                   12011727682764063784##
+                   482799792664500146##
+                   166649092783416503##
                    StreetRun.Picture.$trModule
                    StreetRun.Picture.$tc'C:CameraControl2
                    1#
                    StreetRun.Picture.$tc'C:CameraControl1) -}
-3fd8a25a1b4181eeef175bdaf5b80aec
+d1a00103bff7ce9a30cce78201c4c1bd
   $tc'C:CameraControl1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-60fe7cd25c767f08a1e7132bad7efbc9
+74325ebcd26c761903b43d53a84664f4
   $tc'C:CameraControl2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Picture.$tc'C:CameraControl3) -}
-d6e9470e5d7ebba2ffd7599647242d32
+a4ee3972e84362930b2b43fdead7d984
   $tc'C:CameraControl3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'C:CameraControl"#) -}
-7b945bc7786876ffdb83f98d9b00e115
+2398d321d8ed2bc36b495ab0a637b53e
   $tcCameraControl :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   6087024812329836397##
-                   17864115817368504640##
+                   1548400781568943250##
+                   3215427940608181174##
                    StreetRun.Picture.$trModule
                    StreetRun.Picture.$tcCameraControl2
                    0#
                    StreetRun.Picture.$tcCameraControl1) -}
-d248c83eef6880c015bbd09beaa30d0a
+5f439602fddf14d96bea55fa4a7f245e
   $tcCameraControl1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-93b9e9b1ef51bc2dc3efe6536354f0e0
+52a1ae32556944fa1fb6fefe515b8b02
   $tcCameraControl2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Picture.$tcCameraControl3) -}
-b4896018c750e0168c47d190358c31e8
+aa5b4e68efce6c64262919a5ee0d9054
   $tcCameraControl3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("CameraControl"#) -}
-d1dcc84a8c6ecd0372be574242f3a5fb
+ce84c706756e7875456223f113b69385
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Picture.$trModule3
                    StreetRun.Picture.$trModule1) -}
-904ec4893e2a81002dd71f9ed2d9a571
+a56f0e4bac911c3636ff49fa99287d6c
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Picture.$trModule2) -}
-06f3ea6353b8bb2b9534cd3bfb1f9b0c
+e24268b97a5e0249a0afc4c2f16fef4b
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Picture"#) -}
-7893100dfdded208c7f72111d470a8bf
+d7bc4eb66a0260d6e7872e44f49ab061
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Picture.$trModule4) -}
-78d6f539153c5030c70c53158bfa111a
+8bc8dd882112a80e624012d87e764da1
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-753460ac009711b11842fff1fc39800d
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+f57d028cdf86b15d6b2c8de452fc2cf6
   $wadjustCamera' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a b. m a -> m b -> m b)
@@ -283,7 +283,7 @@ d1dcc84a8c6ecd0372be574242f3a5fb
                       (\ (renderer :: SDL.Internal.Types.Renderer) ->
                        case w2 of ww3 { StreetRun.Camera.Camera ww4 ww5 ->
                        StreetRun.Picture.$wmoveCamera @ m ww1 ww2 renderer ww4 ww5 }))) -}
-e5d023fdbec0d4b3396ee0f573a29955
+0ddd9e75881c28e91c033a3c8ed1b350
   $wmoveCamera ::
     (forall a b. m a -> m b -> m b)
     -> (forall a. GHC.Types.IO a -> m a)
@@ -355,11 +355,11 @@ e5d023fdbec0d4b3396ee0f573a29955
                       (case SDL.Video.Renderer.$wrendererClipRect
                               w of ww4 { (#,#) ww5 ww6 ->
                        ww1 @ () (ww6 StreetRun.Picture.adjustCamera'1) }))) -}
-4fbff540ba209f3d818863d970cdf797
+886c953787575a6ab7b91f5818c72b74
   class GHC.Base.Monad m => CameraControl (m :: * -> *) where
     adjustCamera :: StreetRun.Camera.Camera -> m ()
     {-# MINIMAL adjustCamera #-}
-b8e15433cf3c4c8223073926be73c883
+85295771b64e18fb6e41800af72908cd
   adjustCamera' ::
     (Control.Monad.IO.Class.MonadIO m,
      Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
@@ -378,14 +378,14 @@ b8e15433cf3c4c8223073926be73c883
                  case w of ww { Control.Monad.IO.Class.C:MonadIO ww1 ww2 ->
                  case ww1 of ww3 { GHC.Base.C:Monad ww4 ww5 ww6 ww7 ww8 ->
                  StreetRun.Picture.$wadjustCamera' @ m ww5 ww6 ww2 w1 w2 w3 } }) -}
-7a8dfb239a2844c9078f7749cc8bf027
+ea8f3719895af276619c8ed2133a37d7
   adjustCamera'1 ::
     GHC.Maybe.Maybe (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
   {- Strictness: m2,
      Unfolding: (GHC.Maybe.Just
                    @ (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
                    StreetRun.Picture.adjustCamera'2) -}
-2498e1233cb67931d4d1a6a44f31724c
+5792c5e3de538b5468c6761ddd4070f5
   adjustCamera'2 :: SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt
   {- Strictness: m,
      Unfolding: (SDL.Video.Renderer.Rectangle
@@ -395,7 +395,7 @@ b8e15433cf3c4c8223073926be73c883
                    (Sym (Linear.Affine.N:Point[0]
                              <Linear.V2.V2>_R) <Foreign.C.Types.CInt>_N)
                    StreetRun.Picture.adjustCamera'_dim) -}
-fe6596341706f6d8b7c539ad240d6a86
+a72ea4fa92592fabb1084895169e4343
   adjustCamera'3 :: Linear.V2.V2 Foreign.C.Types.CInt
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (Linear.V2.V2
@@ -406,10 +406,10 @@ fe6596341706f6d8b7c539ad240d6a86
                    StreetRun.Picture.adjustCamera'4
                      `cast`
                    (Sym (Foreign.C.Types.N:CInt[0]))) -}
-a02cb4301bdf9fce896a7926136f7887
+358dd7134f5354be925c045b44c2e76f
   adjustCamera'4 :: GHC.Int.Int32
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Int.I32# 0#) -}
-1ecfd0c0034a04ad48169413b10a53f0
+c7e3c7a4444b01118530f2d52a3d7d38
   adjustCamera'_dim :: Linear.V2.V2 Foreign.C.Types.CInt
   {- Unfolding: (case GHC.Float.$w$cproperFraction1
                         @ Foreign.C.Types.CInt
@@ -422,7 +422,7 @@ a02cb4301bdf9fce896a7926136f7887
                    @ Foreign.C.Types.CInt
                    nt `cast` (Sym (Foreign.C.Types.N:CInt[0]))
                    (GHC.Int.I32# ipv) `cast` (Sym (Foreign.C.Types.N:CInt[0])) } }) -}
-e55cdd45051ece501632c8a496e50e02
+764ca484f000bf86a1c5df386728a497
   moveCamera ::
     Control.Monad.IO.Class.MonadIO m =>
     SDL.Internal.Types.Renderer -> StreetRun.Camera.Camera -> m ()

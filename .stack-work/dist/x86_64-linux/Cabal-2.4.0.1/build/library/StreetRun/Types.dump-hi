@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:02.359577657 UTC
+2019-04-26 16:49:07.499933524 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Types 8064
-  interface hash: ff12b0bd101cc3af0202c364036e5431
-  ABI hash: fe57a12901e3ac69e610bc5ec1ffe588
-  export-list hash: 68eec0a854069d6ebcc9ba499b980fc6
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Types 8064
+  interface hash: d9bcf428226d43b39f2957f545961a6e
+  ABI hash: 12e0a8d06a192b8682dfbe1a40ce2131
+  export-list hash: 687926be2250d898b68652280e784933
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -88,12 +88,12 @@ family instance modules: aeson-1.4.2.0:Data.Aeson.Types.Internal
                          vector-0.12.0.2:Data.Vector.Storable
                          vector-0.12.0.2:Data.Vector.Unboxed
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
-import  -/  aeson-1.4.2.0:Data.Aeson 11fabf31eb51ace925e01dbcac5c5e1c
-import  -/  aeson-1.4.2.0:Data.Aeson.Encoding.Internal 489714a4ee472b64ad082134e1d90018
-import  -/  aeson-1.4.2.0:Data.Aeson.Types.FromJSON 478a7294b0f6cba3e3f81ade37661719
-import  -/  aeson-1.4.2.0:Data.Aeson.Types.Internal bb47a80da26f8aef0a8b525434722917
-import  -/  aeson-1.4.2.0:Data.Aeson.Types.ToJSON 2d8fbdbeae55689e15006e77c5de60e8
-import  -/  animate-0.7.0:Animate cf529f033c38156be2990062be8eb570
+import  -/  aeson-1.4.2.0:Data.Aeson 7ec18050df94dd51d2f69af3944967ff
+import  -/  aeson-1.4.2.0:Data.Aeson.Encoding.Internal d8672d486147eb31d167a9c2e5221e97
+import  -/  aeson-1.4.2.0:Data.Aeson.Types.FromJSON 3e7f1c9a3edc88087cacef084e8d2ce3
+import  -/  aeson-1.4.2.0:Data.Aeson.Types.Internal 7f9a1a56dd2f406c72f987f53fafa4f6
+import  -/  aeson-1.4.2.0:Data.Aeson.Types.ToJSON 0651cc315621e0dbfdc7948709397d41
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:GHC.Enum 87204abed08db8735fc0be5ab48689aa
 import  -/  base-4.12.0.0:GHC.Float ccb68fbeaab348f60d11c8132d51af5d
@@ -104,7 +104,7 @@ import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
 import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
 import  -/  integer-gmp-1.0.2.0:GHC.Integer.Type 6d87087aea24143d2650f78480d954a3
-4bad63bb3fa03e71441e81262a8b345e
+14dcab1a7c2f10e1cc53b42f2e1d95fd
   $fEnumScore :: GHC.Enum.Enum StreetRun.Types.Score
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -144,7 +144,7 @@ import  -/  integer-gmp-1.0.2.0:GHC.Integer.Type 6d87087aea24143d2650f78480d954a
                    ->_R Sym (StreetRun.Types.N:Score[0])
                    ->_R Sym (StreetRun.Types.N:Score[0])
                    ->_R ([Sym (StreetRun.Types.N:Score[0])])_R) -}
-7e2313b523e61aeeac98a063f19e7634
+7e087ffbec1cc0f28357111020b2535d
   $fEnumStocks :: GHC.Enum.Enum StreetRun.Types.Stocks
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -184,7 +184,7 @@ import  -/  integer-gmp-1.0.2.0:GHC.Integer.Type 6d87087aea24143d2650f78480d954a
                    ->_R Sym (StreetRun.Types.N:Stocks[0])
                    ->_R Sym (StreetRun.Types.N:Stocks[0])
                    ->_R ([Sym (StreetRun.Types.N:Stocks[0])])_R) -}
-b4174e484e1fd82b32e71de2fbcef362
+c2340071e208afde2c97a480402508ac
   $fEqDistance :: GHC.Classes.Eq StreetRun.Types.Distance
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -200,7 +200,7 @@ b4174e484e1fd82b32e71de2fbcef362
                   (Sym (StreetRun.Types.N:Distance[0])
                    ->_R Sym (StreetRun.Types.N:Distance[0])
                    ->_R <GHC.Types.Bool>_R) -}
-ba7abb7eeed8b328d8b72349c7c4fef0
+9bc35ebe469aab1ad3d8edfd9fd30da6
   $fEqPercent :: GHC.Classes.Eq StreetRun.Types.Percent
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -216,7 +216,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                   (Sym (StreetRun.Types.N:Percent[0])
                    ->_R Sym (StreetRun.Types.N:Percent[0])
                    ->_R <GHC.Types.Bool>_R) -}
-4bad63bb3fa03e71441e81262a8b345e
+14dcab1a7c2f10e1cc53b42f2e1d95fd
   $fEqScore :: GHC.Classes.Eq StreetRun.Types.Score
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -232,7 +232,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                   (Sym (StreetRun.Types.N:Score[0])
                    ->_R Sym (StreetRun.Types.N:Score[0])
                    ->_R <GHC.Types.Bool>_R) -}
-a9822968438ab4a0fccda00b12150109
+3096dba0a5a57c02592e934b662fbeb3
   $fEqSeconds :: GHC.Classes.Eq StreetRun.Types.Seconds
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -248,7 +248,7 @@ a9822968438ab4a0fccda00b12150109
                   (Sym (StreetRun.Types.N:Seconds[0])
                    ->_R Sym (StreetRun.Types.N:Seconds[0])
                    ->_R <GHC.Types.Bool>_R) -}
-7e2313b523e61aeeac98a063f19e7634
+7e087ffbec1cc0f28357111020b2535d
   $fEqStocks :: GHC.Classes.Eq StreetRun.Types.Stocks
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -264,7 +264,7 @@ a9822968438ab4a0fccda00b12150109
                   (Sym (StreetRun.Types.N:Stocks[0])
                    ->_R Sym (StreetRun.Types.N:Stocks[0])
                    ->_R <GHC.Types.Bool>_R) -}
-ba7abb7eeed8b328d8b72349c7c4fef0
+9bc35ebe469aab1ad3d8edfd9fd30da6
   $fFloatingPercent :: GHC.Float.Floating StreetRun.Types.Percent
   DFunId
   {- Inline: CONLIKE,
@@ -360,7 +360,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                     `cast`
                   (Sym (StreetRun.Types.N:Percent[0])
                    ->_R Sym (StreetRun.Types.N:Percent[0])) -}
-b4174e484e1fd82b32e71de2fbcef362
+c2340071e208afde2c97a480402508ac
   $fFractionalDistance ::
     GHC.Real.Fractional StreetRun.Types.Distance
   DFunId
@@ -381,7 +381,7 @@ b4174e484e1fd82b32e71de2fbcef362
                     `cast`
                   (<GHC.Real.Ratio GHC.Integer.Type.Integer>_R
                    ->_R Sym (StreetRun.Types.N:Distance[0])) -}
-ba7abb7eeed8b328d8b72349c7c4fef0
+9bc35ebe469aab1ad3d8edfd9fd30da6
   $fFractionalPercent :: GHC.Real.Fractional StreetRun.Types.Percent
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -401,7 +401,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                     `cast`
                   (<GHC.Real.Ratio GHC.Integer.Type.Integer>_R
                    ->_R Sym (StreetRun.Types.N:Percent[0])) -}
-a9822968438ab4a0fccda00b12150109
+3096dba0a5a57c02592e934b662fbeb3
   $fFractionalSeconds :: GHC.Real.Fractional StreetRun.Types.Seconds
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -421,7 +421,7 @@ a9822968438ab4a0fccda00b12150109
                     `cast`
                   (<GHC.Real.Ratio GHC.Integer.Type.Integer>_R
                    ->_R Sym (StreetRun.Types.N:Seconds[0])) -}
-a9822968438ab4a0fccda00b12150109
+3096dba0a5a57c02592e934b662fbeb3
   $fFromJSONSeconds ::
     Data.Aeson.Types.FromJSON.FromJSON StreetRun.Types.Seconds
   DFunId
@@ -438,7 +438,7 @@ a9822968438ab4a0fccda00b12150109
                   (<Data.Aeson.Types.Internal.Value>_R
                    ->_R (Data.Aeson.Types.Internal.Parser
                            ([Sym (StreetRun.Types.N:Seconds[0])])_R)_R) -}
-4bad63bb3fa03e71441e81262a8b345e
+14dcab1a7c2f10e1cc53b42f2e1d95fd
   $fIntegralScore :: GHC.Real.Integral StreetRun.Types.Score
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -484,7 +484,7 @@ a9822968438ab4a0fccda00b12150109
                     `cast`
                   (Sym (StreetRun.Types.N:Score[0])
                    ->_R <GHC.Integer.Type.Integer>_R) -}
-7e2313b523e61aeeac98a063f19e7634
+7e087ffbec1cc0f28357111020b2535d
   $fIntegralStocks :: GHC.Real.Integral StreetRun.Types.Stocks
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -530,7 +530,7 @@ a9822968438ab4a0fccda00b12150109
                     `cast`
                   (Sym (StreetRun.Types.N:Stocks[0])
                    ->_R <GHC.Integer.Type.Integer>_R) -}
-b4174e484e1fd82b32e71de2fbcef362
+c2340071e208afde2c97a480402508ac
   $fNumDistance :: GHC.Num.Num StreetRun.Types.Distance
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -567,7 +567,7 @@ b4174e484e1fd82b32e71de2fbcef362
                     `cast`
                   (<GHC.Integer.Type.Integer>_R
                    ->_R Sym (StreetRun.Types.N:Distance[0])) -}
-ba7abb7eeed8b328d8b72349c7c4fef0
+9bc35ebe469aab1ad3d8edfd9fd30da6
   $fNumPercent :: GHC.Num.Num StreetRun.Types.Percent
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -604,7 +604,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                     `cast`
                   (<GHC.Integer.Type.Integer>_R
                    ->_R Sym (StreetRun.Types.N:Percent[0])) -}
-4bad63bb3fa03e71441e81262a8b345e
+14dcab1a7c2f10e1cc53b42f2e1d95fd
   $fNumScore :: GHC.Num.Num StreetRun.Types.Score
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -641,7 +641,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                     `cast`
                   (<GHC.Integer.Type.Integer>_R
                    ->_R Sym (StreetRun.Types.N:Score[0])) -}
-a9822968438ab4a0fccda00b12150109
+3096dba0a5a57c02592e934b662fbeb3
   $fNumSeconds :: GHC.Num.Num StreetRun.Types.Seconds
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -678,7 +678,7 @@ a9822968438ab4a0fccda00b12150109
                     `cast`
                   (<GHC.Integer.Type.Integer>_R
                    ->_R Sym (StreetRun.Types.N:Seconds[0])) -}
-7e2313b523e61aeeac98a063f19e7634
+7e087ffbec1cc0f28357111020b2535d
   $fNumStocks :: GHC.Num.Num StreetRun.Types.Stocks
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -715,7 +715,7 @@ a9822968438ab4a0fccda00b12150109
                     `cast`
                   (<GHC.Integer.Type.Integer>_R
                    ->_R Sym (StreetRun.Types.N:Stocks[0])) -}
-b4174e484e1fd82b32e71de2fbcef362
+c2340071e208afde2c97a480402508ac
   $fOrdDistance :: GHC.Classes.Ord StreetRun.Types.Distance
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -757,7 +757,7 @@ b4174e484e1fd82b32e71de2fbcef362
                   (Sym (StreetRun.Types.N:Distance[0])
                    ->_R Sym (StreetRun.Types.N:Distance[0])
                    ->_R Sym (StreetRun.Types.N:Distance[0])) -}
-ba7abb7eeed8b328d8b72349c7c4fef0
+9bc35ebe469aab1ad3d8edfd9fd30da6
   $fOrdPercent :: GHC.Classes.Ord StreetRun.Types.Percent
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -799,7 +799,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                   (Sym (StreetRun.Types.N:Percent[0])
                    ->_R Sym (StreetRun.Types.N:Percent[0])
                    ->_R Sym (StreetRun.Types.N:Percent[0])) -}
-4bad63bb3fa03e71441e81262a8b345e
+14dcab1a7c2f10e1cc53b42f2e1d95fd
   $fOrdScore :: GHC.Classes.Ord StreetRun.Types.Score
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -841,7 +841,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                   (Sym (StreetRun.Types.N:Score[0])
                    ->_R Sym (StreetRun.Types.N:Score[0])
                    ->_R Sym (StreetRun.Types.N:Score[0])) -}
-a9822968438ab4a0fccda00b12150109
+3096dba0a5a57c02592e934b662fbeb3
   $fOrdSeconds :: GHC.Classes.Ord StreetRun.Types.Seconds
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -883,7 +883,7 @@ a9822968438ab4a0fccda00b12150109
                   (Sym (StreetRun.Types.N:Seconds[0])
                    ->_R Sym (StreetRun.Types.N:Seconds[0])
                    ->_R Sym (StreetRun.Types.N:Seconds[0])) -}
-7e2313b523e61aeeac98a063f19e7634
+7e087ffbec1cc0f28357111020b2535d
   $fOrdStocks :: GHC.Classes.Ord StreetRun.Types.Stocks
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -925,7 +925,7 @@ a9822968438ab4a0fccda00b12150109
                   (Sym (StreetRun.Types.N:Stocks[0])
                    ->_R Sym (StreetRun.Types.N:Stocks[0])
                    ->_R Sym (StreetRun.Types.N:Stocks[0])) -}
-b4174e484e1fd82b32e71de2fbcef362
+c2340071e208afde2c97a480402508ac
   $fRealDistance :: GHC.Real.Real StreetRun.Types.Distance
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -937,7 +937,7 @@ b4174e484e1fd82b32e71de2fbcef362
                     `cast`
                   (Sym (StreetRun.Types.N:Distance[0])
                    ->_R <GHC.Real.Ratio GHC.Integer.Type.Integer>_R) -}
-b4174e484e1fd82b32e71de2fbcef362
+c2340071e208afde2c97a480402508ac
   $fRealFracDistance :: GHC.Real.RealFrac StreetRun.Types.Distance
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -975,7 +975,7 @@ b4174e484e1fd82b32e71de2fbcef362
                    <GHC.Real.Integral b>_R
                    ->_R Sym (StreetRun.Types.N:Distance[0])
                    ->_R <b>_R) -}
-ba7abb7eeed8b328d8b72349c7c4fef0
+9bc35ebe469aab1ad3d8edfd9fd30da6
   $fRealFracPercent :: GHC.Real.RealFrac StreetRun.Types.Percent
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -1013,7 +1013,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                    <GHC.Real.Integral b>_R
                    ->_R Sym (StreetRun.Types.N:Percent[0])
                    ->_R <b>_R) -}
-ba7abb7eeed8b328d8b72349c7c4fef0
+9bc35ebe469aab1ad3d8edfd9fd30da6
   $fRealPercent :: GHC.Real.Real StreetRun.Types.Percent
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -1025,7 +1025,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                     `cast`
                   (Sym (StreetRun.Types.N:Percent[0])
                    ->_R <GHC.Real.Ratio GHC.Integer.Type.Integer>_R) -}
-4bad63bb3fa03e71441e81262a8b345e
+14dcab1a7c2f10e1cc53b42f2e1d95fd
   $fRealScore :: GHC.Real.Real StreetRun.Types.Score
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -1037,7 +1037,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                     `cast`
                   (Sym (StreetRun.Types.N:Score[0])
                    ->_R <GHC.Real.Ratio GHC.Integer.Type.Integer>_R) -}
-7e2313b523e61aeeac98a063f19e7634
+7e087ffbec1cc0f28357111020b2535d
   $fRealStocks :: GHC.Real.Real StreetRun.Types.Stocks
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -1049,7 +1049,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                     `cast`
                   (Sym (StreetRun.Types.N:Stocks[0])
                    ->_R <GHC.Real.Ratio GHC.Integer.Type.Integer>_R) -}
-b4174e484e1fd82b32e71de2fbcef362
+c2340071e208afde2c97a480402508ac
   $fShowDistance :: GHC.Show.Show StreetRun.Types.Distance
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -1058,22 +1058,22 @@ b4174e484e1fd82b32e71de2fbcef362
                   StreetRun.Types.$fShowDistance_$cshowsPrec
                   StreetRun.Types.$fShowDistance_$cshow
                   StreetRun.Types.$fShowDistance_$cshowList -}
-b4174e484e1fd82b32e71de2fbcef362
+c2340071e208afde2c97a480402508ac
   $fShowDistance1 :: StreetRun.Types.Distance -> GHC.Show.ShowS
   {- Arity: 1, Strictness: <L,1*U(U)>,
      Unfolding: (\ (w :: StreetRun.Types.Distance) ->
                  StreetRun.Types.$w$cshowsPrec 0# w) -}
-3c7f4ad7feef15d58a9c1b696aea9d52
+6d008f55f48e6ec013ca66940252ca57
   $fShowDistance2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Types.$fShowDistance3) -}
-881b0aaa1a417b6301d28050aea2be96
+c54c551a5bfcbe9746b59a6e71a824f6
   $fShowDistance3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Distance "#) -}
-e004e885881be455a9fbc862a836b0dc
+130501d1e3168411f645b2a83194d9fb
   $fShowDistance4 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 11#) -}
-b4174e484e1fd82b32e71de2fbcef362
+c2340071e208afde2c97a480402508ac
   $fShowDistance_$cshow ::
     StreetRun.Types.Distance -> GHC.Base.String
   {- Arity: 1, Strictness: <L,1*U(U)>,
@@ -1088,7 +1088,7 @@ b4174e484e1fd82b32e71de2fbcef362
                       StreetRun.Types.$fShowDistance4
                       ww1
                       (GHC.Types.[] @ GHC.Types.Char) })) -}
-b4174e484e1fd82b32e71de2fbcef362
+c2340071e208afde2c97a480402508ac
   $fShowDistance_$cshowList ::
     [StreetRun.Types.Distance] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
@@ -1099,7 +1099,7 @@ b4174e484e1fd82b32e71de2fbcef362
                    StreetRun.Types.$fShowDistance1
                    ls
                    s) -}
-b4174e484e1fd82b32e71de2fbcef362
+c2340071e208afde2c97a480402508ac
   $fShowDistance_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Types.Distance -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S(S),1*U(U)><L,1*U(U)>, Inline: [2],
@@ -1107,7 +1107,7 @@ b4174e484e1fd82b32e71de2fbcef362
                 (\ (w :: GHC.Types.Int) (w1 :: StreetRun.Types.Distance) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  StreetRun.Types.$w$cshowsPrec ww1 w1 }) -}
-ba7abb7eeed8b328d8b72349c7c4fef0
+9bc35ebe469aab1ad3d8edfd9fd30da6
   $fShowPercent :: GHC.Show.Show StreetRun.Types.Percent
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -1116,19 +1116,19 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                   StreetRun.Types.$fShowPercent_$cshowsPrec
                   StreetRun.Types.$fShowPercent_$cshow
                   StreetRun.Types.$fShowPercent_$cshowList -}
-ba7abb7eeed8b328d8b72349c7c4fef0
+9bc35ebe469aab1ad3d8edfd9fd30da6
   $fShowPercent1 :: StreetRun.Types.Percent -> GHC.Show.ShowS
   {- Arity: 1, Strictness: <L,1*U(U)>,
      Unfolding: (\ (w :: StreetRun.Types.Percent) ->
                  StreetRun.Types.$w$cshowsPrec1 0# w) -}
-ef082445b7a8743aefd2bb26fbd01221
+bde1c69fbcec3f99ad4d745f146c560d
   $fShowPercent2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Types.$fShowPercent3) -}
-1446e5de621d8fa47e6b4df3562b91cf
+f4b0374cfb587b47da5216e7cd2c92ee
   $fShowPercent3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Percent "#) -}
-ba7abb7eeed8b328d8b72349c7c4fef0
+9bc35ebe469aab1ad3d8edfd9fd30da6
   $fShowPercent_$cshow :: StreetRun.Types.Percent -> GHC.Base.String
   {- Arity: 1, Strictness: <L,1*U(U)>,
      Unfolding: (\ (x :: StreetRun.Types.Percent) ->
@@ -1142,7 +1142,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                       StreetRun.Types.$fShowDistance4
                       ww1
                       (GHC.Types.[] @ GHC.Types.Char) })) -}
-ba7abb7eeed8b328d8b72349c7c4fef0
+9bc35ebe469aab1ad3d8edfd9fd30da6
   $fShowPercent_$cshowList ::
     [StreetRun.Types.Percent] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
@@ -1153,7 +1153,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                    StreetRun.Types.$fShowPercent1
                    ls
                    s) -}
-ba7abb7eeed8b328d8b72349c7c4fef0
+9bc35ebe469aab1ad3d8edfd9fd30da6
   $fShowPercent_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Types.Percent -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S(S),1*U(U)><L,1*U(U)>, Inline: [2],
@@ -1161,7 +1161,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                 (\ (w :: GHC.Types.Int) (w1 :: StreetRun.Types.Percent) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  StreetRun.Types.$w$cshowsPrec1 ww1 w1 }) -}
-4bad63bb3fa03e71441e81262a8b345e
+14dcab1a7c2f10e1cc53b42f2e1d95fd
   $fShowScore :: GHC.Show.Show StreetRun.Types.Score
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -1170,16 +1170,16 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                   StreetRun.Types.$fShowScore_$cshowsPrec
                   StreetRun.Types.$fShowScore_$cshow
                   StreetRun.Types.$fShowScore_$cshowList -}
-4bad63bb3fa03e71441e81262a8b345e
+14dcab1a7c2f10e1cc53b42f2e1d95fd
   $fShowScore1 :: StreetRun.Types.Score -> GHC.Show.ShowS
   {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><L,U>,
      Unfolding: (\ (w :: StreetRun.Types.Score)
                    (w1 :: GHC.Base.String) ->
                  StreetRun.Types.$w$cshowsPrec2 0# w w1) -}
-f392038f771cfb11a23c56c481cee04b
+507442267dfd93750baf425dfcd1d70a
   $fShowScore2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Score "#) -}
-4bad63bb3fa03e71441e81262a8b345e
+14dcab1a7c2f10e1cc53b42f2e1d95fd
   $fShowScore_$cshow :: StreetRun.Types.Score -> GHC.Base.String
   {- Arity: 1, HasNoCafRefs, Strictness: <L,1*U(U)>,
      Unfolding: (\ (x :: StreetRun.Types.Score) ->
@@ -1192,7 +1192,7 @@ f392038f771cfb11a23c56c481cee04b
                            ww3
                            (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
                     GHC.Types.: @ GHC.Types.Char ww5 ww6 } })) -}
-4bad63bb3fa03e71441e81262a8b345e
+14dcab1a7c2f10e1cc53b42f2e1d95fd
   $fShowScore_$cshowList :: [StreetRun.Types.Score] -> GHC.Show.ShowS
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>,
      Unfolding: InlineRule (2, True, False)
@@ -1202,7 +1202,7 @@ f392038f771cfb11a23c56c481cee04b
                    StreetRun.Types.$fShowScore1
                    ls
                    s) -}
-4bad63bb3fa03e71441e81262a8b345e
+14dcab1a7c2f10e1cc53b42f2e1d95fd
   $fShowScore_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Types.Score -> GHC.Show.ShowS
   {- Arity: 3, HasNoCafRefs,
@@ -1213,7 +1213,7 @@ f392038f771cfb11a23c56c481cee04b
                    (w2 :: GHC.Base.String) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  StreetRun.Types.$w$cshowsPrec2 ww1 w1 w2 }) -}
-a9822968438ab4a0fccda00b12150109
+3096dba0a5a57c02592e934b662fbeb3
   $fShowSeconds :: GHC.Show.Show StreetRun.Types.Seconds
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -1222,19 +1222,19 @@ a9822968438ab4a0fccda00b12150109
                   StreetRun.Types.$fShowSeconds_$cshowsPrec
                   StreetRun.Types.$fShowSeconds_$cshow
                   StreetRun.Types.$fShowSeconds_$cshowList -}
-a9822968438ab4a0fccda00b12150109
+3096dba0a5a57c02592e934b662fbeb3
   $fShowSeconds1 :: StreetRun.Types.Seconds -> GHC.Show.ShowS
   {- Arity: 1, Strictness: <L,1*U(U)>,
      Unfolding: (\ (w :: StreetRun.Types.Seconds) ->
                  StreetRun.Types.$w$cshowsPrec3 0# w) -}
-f8683332004d1ecf9250c577585e2b63
+f91d34849bd6260761c9b5ca5e5c425a
   $fShowSeconds2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Types.$fShowSeconds3) -}
-7ba71e6da00af872e067654177116fca
+58b1ba4866615aa0fa6f6b2e4fad3510
   $fShowSeconds3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Seconds "#) -}
-a9822968438ab4a0fccda00b12150109
+3096dba0a5a57c02592e934b662fbeb3
   $fShowSeconds_$cshow :: StreetRun.Types.Seconds -> GHC.Base.String
   {- Arity: 1, Strictness: <L,1*U(U)>,
      Unfolding: (\ (x :: StreetRun.Types.Seconds) ->
@@ -1248,7 +1248,7 @@ a9822968438ab4a0fccda00b12150109
                       StreetRun.Types.$fShowDistance4
                       ww1
                       (GHC.Types.[] @ GHC.Types.Char) })) -}
-a9822968438ab4a0fccda00b12150109
+3096dba0a5a57c02592e934b662fbeb3
   $fShowSeconds_$cshowList ::
     [StreetRun.Types.Seconds] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
@@ -1259,7 +1259,7 @@ a9822968438ab4a0fccda00b12150109
                    StreetRun.Types.$fShowSeconds1
                    ls
                    s) -}
-a9822968438ab4a0fccda00b12150109
+3096dba0a5a57c02592e934b662fbeb3
   $fShowSeconds_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Types.Seconds -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S(S),1*U(U)><L,1*U(U)>, Inline: [2],
@@ -1267,7 +1267,7 @@ a9822968438ab4a0fccda00b12150109
                 (\ (w :: GHC.Types.Int) (w1 :: StreetRun.Types.Seconds) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  StreetRun.Types.$w$cshowsPrec3 ww1 w1 }) -}
-7e2313b523e61aeeac98a063f19e7634
+7e087ffbec1cc0f28357111020b2535d
   $fShowStocks :: GHC.Show.Show StreetRun.Types.Stocks
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -1276,16 +1276,16 @@ a9822968438ab4a0fccda00b12150109
                   StreetRun.Types.$fShowStocks_$cshowsPrec
                   StreetRun.Types.$fShowStocks_$cshow
                   StreetRun.Types.$fShowStocks_$cshowList -}
-7e2313b523e61aeeac98a063f19e7634
+7e087ffbec1cc0f28357111020b2535d
   $fShowStocks1 :: StreetRun.Types.Stocks -> GHC.Show.ShowS
   {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><L,U>,
      Unfolding: (\ (w :: StreetRun.Types.Stocks)
                    (w1 :: GHC.Base.String) ->
                  StreetRun.Types.$w$cshowsPrec4 0# w w1) -}
-9443483335668dcd47ec61c626b7a568
+cdd5e1d373735e19974efa1542fa47ed
   $fShowStocks2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Stocks "#) -}
-7e2313b523e61aeeac98a063f19e7634
+7e087ffbec1cc0f28357111020b2535d
   $fShowStocks_$cshow :: StreetRun.Types.Stocks -> GHC.Base.String
   {- Arity: 1, HasNoCafRefs, Strictness: <L,1*U(U)>,
      Unfolding: (\ (x :: StreetRun.Types.Stocks) ->
@@ -1298,7 +1298,7 @@ a9822968438ab4a0fccda00b12150109
                            ww3
                            (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
                     GHC.Types.: @ GHC.Types.Char ww5 ww6 } })) -}
-7e2313b523e61aeeac98a063f19e7634
+7e087ffbec1cc0f28357111020b2535d
   $fShowStocks_$cshowList ::
     [StreetRun.Types.Stocks] -> GHC.Show.ShowS
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>,
@@ -1309,7 +1309,7 @@ a9822968438ab4a0fccda00b12150109
                    StreetRun.Types.$fShowStocks1
                    ls
                    s) -}
-7e2313b523e61aeeac98a063f19e7634
+7e087ffbec1cc0f28357111020b2535d
   $fShowStocks_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Types.Stocks -> GHC.Show.ShowS
   {- Arity: 3, HasNoCafRefs,
@@ -1320,7 +1320,7 @@ a9822968438ab4a0fccda00b12150109
                    (w2 :: GHC.Base.String) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  StreetRun.Types.$w$cshowsPrec4 ww1 w1 w2 }) -}
-a9822968438ab4a0fccda00b12150109
+3096dba0a5a57c02592e934b662fbeb3
   $fToJSONSeconds ::
     Data.Aeson.Types.ToJSON.ToJSON StreetRun.Types.Seconds
   DFunId
@@ -1345,213 +1345,213 @@ a9822968438ab4a0fccda00b12150109
                   (([Sym (StreetRun.Types.N:Seconds[0])])_R
                    ->_R <Data.Aeson.Encoding.Internal.Encoding'
                            Data.Aeson.Types.Internal.Value>_R) -}
-3288ee25f65796f9009011bdc0ac1ec4
+49372ea901122c1de599c3e081c64237
   $tc'Distance :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   13760987662837805153##
-                   2393058870814479825##
+                   15655936909401835207##
+                   741286035194410817##
                    StreetRun.Types.$trModule
                    StreetRun.Types.$tc'Distance2
                    0#
                    StreetRun.Types.$tc'Distance1) -}
-10e16567c9c6db648c64519c3b6f3787
+7082f280ffa7df8d2c30a75eac8d8c5f
   $tc'Distance1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-67424c29d71a5ea88107ac8ae9cc9040
+4c5219ece4f3ee8a0cad4e5d02977485
   $tc'Distance2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Types.$tc'Distance3) -}
-6cfa1e3a9feb4a367a5a551de1b700fe
+66f3019258f18e220d8d5263641da918
   $tc'Distance3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Distance"#) -}
-57b523c26186abccb517983120958b7e
+9aa70b641378fe92c300d3a71c0b61eb
   $tc'Percent :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   2941660895343710956##
-                   5960657441966499778##
+                   1002033293825299140##
+                   10141224472946180866##
                    StreetRun.Types.$trModule
                    StreetRun.Types.$tc'Percent2
                    0#
                    StreetRun.Types.$tc'Percent1) -}
-9d4cc6ff5d43ac939d860da32b5cff07
+6b5e4c80aaf974d8c22a28ae613a8796
   $tc'Percent1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-1f2036a6236cddce4fea578e12260da9
+91acf28fca0cbe8120e7b0045cb059d6
   $tc'Percent2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Types.$tc'Percent3) -}
-ec80cf7ee3fd50ecfcad13692229f4bb
+85780378758a9eff14b2ff4d7b62f2f0
   $tc'Percent3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Percent"#) -}
-a8198b9f3760ce1671996f680a548f1b
+95528a8935fb7689f080c1d735f6601a
   $tc'Score :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   12441415051786661293##
-                   14985196263289702550##
+                   7866887872735340979##
+                   1929461524175693752##
                    StreetRun.Types.$trModule
                    StreetRun.Types.$tc'Score2
                    0#
                    StreetRun.Types.$tc'Score1) -}
-6c2473c1ee1f263c30eb8174e4f0a4df
+f2acb5a708d2e658c1a2198aa2129ae6
   $tc'Score1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-0c35ebd3a24db298d204f6133d0ca1e2
+e76aff039e7499896e7e2fe311536a3b
   $tc'Score2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Types.$tc'Score3) -}
-78395f2aa1bb944ad88d7b09bb82c8be
+c1ca93bce5ca35c6d1e61e65817c024e
   $tc'Score3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Score"#) -}
-50ae9956eb287cb0bc187d2dd667553a
+c7c2e2b1266245581e6c87d19c017e31
   $tc'Seconds :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   811556301992157421##
-                   18433164042482183378##
+                   6834671676842677303##
+                   15092534658322762542##
                    StreetRun.Types.$trModule
                    StreetRun.Types.$tc'Seconds2
                    0#
                    StreetRun.Types.$tc'Seconds1) -}
-6abc232867d17bb97aa5e771510a2bd2
+e93b2adc249a358e272f87495e89e026
   $tc'Seconds1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-bb37389491f72b5a039b0ac2b796ebc0
+12efe3fdfc6c586d83e76ed969629392
   $tc'Seconds2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Types.$tc'Seconds3) -}
-2483f5d8d373a37d5c99912acc6ca2b3
+08113a97ab0edbf325f92b81cdd07097
   $tc'Seconds3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Seconds"#) -}
-6d7b4cba7b6d092652baffb4c6f8b433
+da779218bd417c197921d35dcf5403ea
   $tc'Stocks :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   14762799206573524821##
-                   9902753067487527448##
+                   17829350814927369864##
+                   17891692231250405592##
                    StreetRun.Types.$trModule
                    StreetRun.Types.$tc'Stocks2
                    0#
                    StreetRun.Types.$tc'Stocks1) -}
-b5573174dc3a9f5e58766d37b351e287
+8ce6d4ce8365197b014bc17c0df65ded
   $tc'Stocks1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-5bf919bee015c10108fb90acd2715d0d
+d7ee478fbf3c0b8f1ee001de870db693
   $tc'Stocks2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Types.$tc'Stocks3) -}
-67c484832ab2f3f6cde8db9e93e41ef9
+be4b72ebd93d55b91af776fd9dbb78ca
   $tc'Stocks3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Stocks"#) -}
-2e42c073d8b2a898509c0ca2f7629e94
+122e86749b3c758babdcfa34970ad508
   $tcDistance :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   18287208675725186784##
-                   13158553973749112754##
+                   12377208966267652678##
+                   3754710261721873955##
                    StreetRun.Types.$trModule
                    StreetRun.Types.$tcDistance1
                    0#
                    GHC.Types.krep$*) -}
-c20cc5771357038f6087f20e0974b2f6
+3e981e7461d0a848a015f816d0abdb4e
   $tcDistance1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Types.$tcDistance2) -}
-631bdee5039ba3991464a0e6f4807fe9
+29d40bf10955457a74b23d073e94782b
   $tcDistance2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Distance"#) -}
-3737b80fc0a68f60b75895ea2e740b0f
+d6e036a92f5eeca7c382fac1879bea74
   $tcPercent :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   11039880425948791114##
-                   1924285066985348400##
+                   17974675891407163971##
+                   12844074373311875974##
                    StreetRun.Types.$trModule
                    StreetRun.Types.$tcPercent1
                    0#
                    GHC.Types.krep$*) -}
-320a348033899a35bac3d0cedbb7b6f3
+497f54446c8933de35436252d9301ffc
   $tcPercent1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Types.$tcPercent2) -}
-2174a54220d609ebd259c296b0c837f5
+522d313b508c0f7a1e55a6ac19b1376f
   $tcPercent2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Percent"#) -}
-9333334af2f3275df8534a5f43d3556d
+5dbd3c34775a614a2183caa86c001078
   $tcScore :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   17945849737782117735##
-                   14156560775157129183##
+                   16410784703633646770##
+                   5658161514325299877##
                    StreetRun.Types.$trModule
                    StreetRun.Types.$tcScore1
                    0#
                    GHC.Types.krep$*) -}
-bd6da0d01bb813b6be70af4d411cad8b
+10c17cdc505754d04560f3ede782acf7
   $tcScore1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Types.$tcScore2) -}
-15e341ec66a117c2c59015a41df0fe4a
+7b512d487378321ebceebc25b3fed0b4
   $tcScore2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Score"#) -}
-8bfb9ca6998f4536cbcf1cef4cbfaca5
+19fc304428692ba07f0260361b43c6f8
   $tcSeconds :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   18433715289975040557##
-                   2096433570845819791##
+                   225682008172692866##
+                   6237851604343913638##
                    StreetRun.Types.$trModule
                    StreetRun.Types.$tcSeconds1
                    0#
                    GHC.Types.krep$*) -}
-435692376040a01e6ff37d95cb75eb35
+de0375b7b6b69e0c6ac776f3c6254a54
   $tcSeconds1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Types.$tcSeconds2) -}
-e1773289c30e8f332a41d9746ffe428d
+5a7368f68e957450c653f21a88917005
   $tcSeconds2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Seconds"#) -}
-c8d020be5ca0f4213413bde396e5af86
+21e7020083a6cd2ed03eda7e16df1de3
   $tcStocks :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   1020728279321110615##
-                   4429008913629432224##
+                   9418289486482967761##
+                   16992419897786058160##
                    StreetRun.Types.$trModule
                    StreetRun.Types.$tcStocks1
                    0#
                    GHC.Types.krep$*) -}
-bfa548297df22819956928e4af74b3ad
+78e6badcdbd7b9be4ea5a36260c425d1
   $tcStocks1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Types.$tcStocks2) -}
-0ee86aed22df740c2b45be88d0b05b8a
+707dbef8cafd447f7df0a896fab5a5c5
   $tcStocks2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Stocks"#) -}
-934e13147d5a093ccba399f25cff1aae
+1b02e3d014f5b1731a49234ff816cd39
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Types.$trModule3
                    StreetRun.Types.$trModule1) -}
-4e647b5e753f62373b9e3e3c3bdce817
+9511014dafbb67595d592dd4799df1a5
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Types.$trModule2) -}
-30eb9ea266a552127819be57956e905d
+685689bdf47920f3b0e6a5a6ac12e1d9
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Types"#) -}
-dbfbaa1a996cc6ada8106066051df842
+02bbe365fd2cb54c72d6fc937704b4b8
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Types.$trModule4) -}
-26fd08783722e1f1730754612b1d5e8d
+9f458114f7630697997addb8055815b7
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-b4174e484e1fd82b32e71de2fbcef362
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+c2340071e208afde2c97a480402508ac
   $w$cshowsPrec ::
     GHC.Prim.Int# -> StreetRun.Types.Distance -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,U><L,1*U(U)>, Inline: [2],
@@ -1579,7 +1579,7 @@ b4174e484e1fd82b32e71de2fbcef362
                            @ GHC.Types.Char
                            StreetRun.Types.$fShowDistance2
                            (g (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)2 x))) }) -}
-ba7abb7eeed8b328d8b72349c7c4fef0
+9bc35ebe469aab1ad3d8edfd9fd30da6
   $w$cshowsPrec1 ::
     GHC.Prim.Int# -> StreetRun.Types.Percent -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,U><L,1*U(U)>, Inline: [2],
@@ -1607,7 +1607,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                            @ GHC.Types.Char
                            StreetRun.Types.$fShowPercent2
                            (g (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)2 x))) }) -}
-4bad63bb3fa03e71441e81262a8b345e
+14dcab1a7c2f10e1cc53b42f2e1d95fd
   $w$cshowsPrec2 ::
     GHC.Prim.Int#
     -> StreetRun.Types.Score -> GHC.Base.String -> GHC.Base.String
@@ -1640,7 +1640,7 @@ ba7abb7eeed8b328d8b72349c7c4fef0
                                       GHC.Show.$fShow(,)2
                                       w1) of ww4 { (#,#) ww5 ww6 ->
                             GHC.Types.: @ GHC.Types.Char ww5 ww6 } })) }) -}
-a9822968438ab4a0fccda00b12150109
+3096dba0a5a57c02592e934b662fbeb3
   $w$cshowsPrec3 ::
     GHC.Prim.Int# -> StreetRun.Types.Seconds -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,U><L,1*U(U)>, Inline: [2],
@@ -1668,7 +1668,7 @@ a9822968438ab4a0fccda00b12150109
                            @ GHC.Types.Char
                            StreetRun.Types.$fShowSeconds2
                            (g (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)2 x))) }) -}
-7e2313b523e61aeeac98a063f19e7634
+7e087ffbec1cc0f28357111020b2535d
   $w$cshowsPrec4 ::
     GHC.Prim.Int#
     -> StreetRun.Types.Stocks -> GHC.Base.String -> GHC.Base.String
@@ -1701,24 +1701,24 @@ a9822968438ab4a0fccda00b12150109
                                       GHC.Show.$fShow(,)2
                                       w1) of ww4 { (#,#) ww5 ww6 ->
                             GHC.Types.: @ GHC.Types.Char ww5 ww6 } })) }) -}
-a3f8cdd403e06536e6d6c806da810a9f
+4b41587a259aae6b6ac40ba923e843f7
   type Animations key =
     Animate.Animations
       key (Animate.SpriteClip key) StreetRun.Types.Seconds
-b4174e484e1fd82b32e71de2fbcef362
+c2340071e208afde2c97a480402508ac
   newtype Distance = Distance GHC.Types.Float
-a6cded7f7738d4f19eef54d8bec96036
+531feb50bd0e4f1fa8a49efaa448989f
   type DrawSprite key (m :: * -> *) =
     Animate.SpriteClip key -> (GHC.Types.Int, GHC.Types.Int) -> m ()
-ba7abb7eeed8b328d8b72349c7c4fef0
+9bc35ebe469aab1ad3d8edfd9fd30da6
   newtype Percent = Percent GHC.Types.Float
-4bad63bb3fa03e71441e81262a8b345e
+14dcab1a7c2f10e1cc53b42f2e1d95fd
   newtype Score = Score GHC.Types.Int
-a9822968438ab4a0fccda00b12150109
+3096dba0a5a57c02592e934b662fbeb3
   newtype Seconds = Seconds GHC.Types.Float
-7e2313b523e61aeeac98a063f19e7634
+7e087ffbec1cc0f28357111020b2535d
   newtype Stocks = Stocks GHC.Types.Int
-e1ad8578b50b6091ffb795f7d612ef1e
+4428598fac4688a3e97e01b2030e4732
   clamp ::
     (GHC.Real.Fractional a, GHC.Classes.Ord a) => a -> a -> a -> a
   {- Arity: 5, HasNoCafRefs,

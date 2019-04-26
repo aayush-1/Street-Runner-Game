@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 14:29:08.411772437 UTC
+2019-04-26 16:49:13.985285943 UTC
 
-interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Load 8064
-  interface hash: c073bf7f11b23a2c28bb1fa721cdee40
-  ABI hash: b854b61e5394a1e0d9cd4b9313a268b0
-  export-list hash: 4cddd7fe752b7b923c34c3b71e404029
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Load 8064
+  interface hash: 7b5735807956c4879d404e93d2191ef0
+  ABI hash: 0b2c99b1460fc0284ebe0ed44ab70962
+  export-list hash: bb94dee51103db3de49f80223cdee067
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -145,90 +145,90 @@ import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  key-state-0.2.0:KeyState f505d200ccd373546afa68666240df7e
 import  -/  mtl-2.2.2:Control.Monad.State 753def63fe8e937dc636f11e5230745a
 import  -/  mtl-2.2.2:Control.Monad.State.Class 94cc1438f3f9a3259fb0a2c56d3d0303
-import  -/  sdl2-2.4.1.0:SDL a509879ea64738370e9e96c8f0b5e49f
-import  -/  sdl2-2.4.1.0:SDL.Event fbf16d9130d99ce78bbb0e43275086f3
-import  -/  sdl2-2.4.1.0:SDL.Input.Keyboard.Codes e4fd14eb91c214be96ff75d5892ac71e
-import  -/  StreetRun.Input 2b2882bb9ccf0deac02d72ccd2af9474
-  exports: 794b8afcff1485016b9c41551ca5bab1
-  $sel:iDown:Input f50c2ab9e2082623275c9cc57e0e92df
-  $sel:iEscape:Input f50c2ab9e2082623275c9cc57e0e92df
-  $sel:iQuit:Input f50c2ab9e2082623275c9cc57e0e92df
-  $sel:iSpace:Input f50c2ab9e2082623275c9cc57e0e92df
-  $sel:iUp:Input f50c2ab9e2082623275c9cc57e0e92df
-  Input a906c34d9e2f37609bd58ffcc210d061
-  Input f50c2ab9e2082623275c9cc57e0e92df
-import  -/  StreetRun.SDLLayer 43fbd12d1c3076103d4acc48080a09a0
-  exports: 646f4aaf1892c6584fb74106a06288c0
-  SDLInput 969aa8b98ac2c7df2923b0f3a0618b6d
-  keycodePressed 9e36590ab8a59445c8be55ac238bccdc
-  keycodeReleased d2ae4d9c1a223b95696b31b96f52c1ad
-  pollEventPayloads 76d0075e37d552099a2acf9c3ed815d8
-import  -/  StreetRun.State 879bfe0721b41cea3eaddf89be35a0d2
-  exports: 2ad9459b3bdc4835614d220ed9e341f2
-  $sel:vInput:Vars 94cac8e669b0992d9fdeb1c0cad361f9
-  Vars 94cac8e669b0992d9fdeb1c0cad361f9
-c4c262ee14599bdfcd587daf5b3c84bc
+import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
+import  -/  sdl2-2.4.1.0:SDL.Event bdfb9ed9abd68e5e54327e8929789d20
+import  -/  sdl2-2.4.1.0:SDL.Input.Keyboard.Codes 958ec6e4cb0fa119a48dab2683056293
+import  -/  StreetRun.Input dc1e62404449c4ef4f763046555938b3
+  exports: d5c6fc579c43e57e8ccb72f493e3d8f8
+  $sel:iDown:Input debdce52acaa37df87e66131243c6c87
+  $sel:iEscape:Input debdce52acaa37df87e66131243c6c87
+  $sel:iQuit:Input debdce52acaa37df87e66131243c6c87
+  $sel:iSpace:Input debdce52acaa37df87e66131243c6c87
+  $sel:iUp:Input debdce52acaa37df87e66131243c6c87
+  Input e98b533a546cc5e8f0f0d2754a3f06d0
+  Input debdce52acaa37df87e66131243c6c87
+import  -/  StreetRun.SDLLayer 472f0f146c646fd670be8cc0b6cbfdac
+  exports: b9d495c503a62642ca4638e990961b8e
+  SDLInput c9593cb492a6f461bc1a5d0539631820
+  keycodePressed 261a2e8677f0b792f87668f9cd6fbc5d
+  keycodeReleased 19f4e3a0a899bfce40f07cf8e7923f4f
+  pollEventPayloads 158d3677561c17149f60d5b149c51995
+import  -/  StreetRun.State 2b4a5b23cba95fdf8a8075ad75dbe6ec
+  exports: 9215ef2a775e8ad7562f6edbfe13ac1f
+  $sel:vInput:Vars 06c844f355a6a421607a99fdffa4b901
+  Vars 06c844f355a6a421607a99fdffa4b901
+3dde55c39db25282fa9e63ad079e5010
   $tc'C:HasInput :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   2451234910737385458##
-                   9783816764286079179##
+                   10872750098901145836##
+                   8811918079519061596##
                    StreetRun.Load.$trModule
                    StreetRun.Load.$tc'C:HasInput2
                    1#
                    StreetRun.Load.$tc'C:HasInput1) -}
-c50c42d5aaee715d0f8c8a6f259f78cb
+40e117501262ad12ae996cefb36527c5
   $tc'C:HasInput1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-933b1669839a0075caaa1d37ef7806d2
+67a9d51ffb434a2cf012f154d3e4cabb
   $tc'C:HasInput2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Load.$tc'C:HasInput3) -}
-c7da5402c430761115034f7c29de9d9e
+195f88217af4655d2d564f1642852aaf
   $tc'C:HasInput3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'C:HasInput"#) -}
-6d75f6d67ce862e26fcd4cad06e3b728
+d21492d6e408ced4b555250a9d2f9162
   $tcHasInput :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   15430367112582588277##
-                   9811660387715166745##
+                   9198917501761024435##
+                   2012035368532478941##
                    StreetRun.Load.$trModule
                    StreetRun.Load.$tcHasInput2
                    0#
                    StreetRun.Load.$tcHasInput1) -}
-57b2839f1afe8695bb0c0815ed8dd4af
+6c05eef07d2954aaa2c1a395d569aaaa
   $tcHasInput1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-6b46205b68fb5a337fa066badb81fd7b
+f537af97fb74a48feef6ecf1a9e4ef77
   $tcHasInput2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Load.$tcHasInput3) -}
-33217241e4cf68c924db71a756ee3069
+74fd8c68374b4adfa07d9e27d0496378
   $tcHasInput3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("HasInput"#) -}
-421eeb6d7b8d8c76d2f873471b094ea4
+0f3f60097c9eda56f9a77eedbaa2971c
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Load.$trModule3
                    StreetRun.Load.$trModule1) -}
-e9d204e6a15bb83296030983eee76825
+377b9c4ab9d87ba23e345fa5b3575014
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Load.$trModule2) -}
-33cc5b8da46913cc066e9981be3e9ecf
+803691e1bf80efc2371de460be37d242
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Load"#) -}
-dbe9fce42d63b8ea85ef70617766cd36
+39131d71155714a6e8e964933e71ff73
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Load.$trModule4) -}
-aefd92fb10db23155db801857862ddfd
+673cb22551712490e6e0588328dcd60d
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
-c82218982cd7b04dc3b627c84692ad0c
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+c379cd246e2b8db38cabe2754eb9cecf
   $wgetInput' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a. a -> m a)
@@ -248,7 +248,7 @@ c82218982cd7b04dc3b627c84692ad0c
                     ww1
                       @ StreetRun.Input.Input
                       (StreetRun.State.$sel:vInput:Vars s1))) -}
-6fabc960e285415180ef9a30185583aa
+93381ed33a2fbba2609e3003f53980ea
   $wstepControl ::
     [SDL.Event.EventPayload]
     -> KeyState.KeyState GHC.Types.Int
@@ -261,7 +261,7 @@ c82218982cd7b04dc3b627c84692ad0c
   {- Arity: 5, HasNoCafRefs,
      Strictness: <L,U><L,U(U,U)><L,U(U,U)><L,U(U,U)><L,U(U,U)>,
      Inline: [2] -}
-f90f741fdce708cacb5fdc22c2d13d67
+a9fb9de2e48b600e1a801037951bb89c
   $wupdateInput' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (StreetRun.Input.Input -> m ())
@@ -290,13 +290,13 @@ f90f741fdce708cacb5fdc22c2d13d67
                       lvl9
                       (\ (events :: [SDL.Event.EventPayload]) ->
                        ww1 (StreetRun.Load.stepControl events input)))) -}
-ba70c797691329d224bd192290501ef6
+a827a1b40b93ca24fd0678aff14a3874
   class GHC.Base.Monad m => HasInput (m :: * -> *) where
     updateInput :: m ()
     setInput :: StreetRun.Input.Input -> m ()
     getInput :: m StreetRun.Input.Input
     {-# MINIMAL updateInput, setInput, getInput #-}
-1c214788286f53b4dfcd920da43c3212
+3b2e90049f95a24e277a54181dcb47ad
   getInput' ::
     Control.Monad.State.Class.MonadState StreetRun.State.Vars m =>
     m StreetRun.Input.Input
@@ -310,7 +310,7 @@ ba70c797691329d224bd192290501ef6
                  case w of ww { Control.Monad.State.Class.C:MonadState ww1 ww2 ww3 ww4 ->
                  case ww1 of ww5 { GHC.Base.C:Monad ww6 ww7 ww8 ww9 ww10 ->
                  StreetRun.Load.$wgetInput' @ m ww7 ww9 ww2 } }) -}
-81d824290d4b44048bda54a02d1d21b6
+8a93adfed30f97654995bd993076c4c9
   setInput' ::
     Control.Monad.State.Class.MonadState StreetRun.State.Vars m =>
     StreetRun.Input.Input -> m ()
@@ -330,7 +330,7 @@ ba70c797691329d224bd192290501ef6
                     (GHC.Tuple.(),
                      case s1 of wild { StreetRun.State.Vars ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
                      StreetRun.State.Vars ds ds1 ds2 ds3 ds4 ds5 input ds7 }))) -}
-5b1964ea81d46a852f58b829d6c46984
+2145c61a58bc015f73ada4dbb406da5e
   stepControl ::
     [SDL.Event.EventPayload]
     -> StreetRun.Input.Input -> StreetRun.Input.Input
@@ -347,7 +347,7 @@ ba70c797691329d224bd192290501ef6
                         ww3
                         ww4 of ww6 { (#,,,,#) ww7 ww8 ww9 ww10 ww11 ->
                  StreetRun.Input.Input ww7 ww8 ww9 ww10 ww11 } }) -}
-0815ec15cc7b9df59a708cc4cb2a0f95
+be92fbc3936b56903b5ba045a296fa9c
   updateInput' ::
     (StreetRun.Load.HasInput m, StreetRun.SDLLayer.SDLInput m) => m ()
   {- Arity: 2, HasNoCafRefs,
