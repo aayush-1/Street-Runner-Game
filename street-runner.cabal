@@ -83,8 +83,7 @@ library
       StreetRun.Play
       StreetRun.Title
       StreetRun.State
-      StreetRun.SDLInput
-      StreetRun.SDLRenderer
+      StreetRun.SDLLayer
   other-modules:
       Paths_street_runner
   hs-source-dirs:

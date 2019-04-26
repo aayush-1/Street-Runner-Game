@@ -5,7 +5,7 @@ import Control.Monad.State
 import KeyState
 
 import StreetRun.Input
-import StreetRun.SDLInput
+import StreetRun.SDLLayer
 import StreetRun.State
 
 class Monad m => HasInput m where

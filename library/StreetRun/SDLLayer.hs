@@ -1,4 +1,4 @@
-module StreetRun.SDLRenderer where
+module StreetRun.SDLLayer where
 
 import qualified SDL
 import Control.Monad.IO.Class (MonadIO(..)) --Mondas with Embedded IO operations 
@@ -33,3 +33,25 @@ clearRenderer' = SDL.clear -- clears the current rendering target
 
 queryTexture' ::  MonadIO m => SDL.Texture -> m SDL.TextureInfo
 queryTexture' = SDL.queryTexture --get text info (px format,access,width and height of texture)
+
+keycodePressed :: SDL.Keycode -> SDL.EventPayload -> Bool
+keycodePressed keycode event = case event of
+  SDL.KeyboardEvent SDL.KeyboardEventData{keyboardEventKeysym = SDL.Keysym{keysymKeycode = code}, keyboardEventKeyMotion = motion, keyboardEventRepeat } ->
+    code == keycode &&
+    motion == SDL.Pressed &&
+    not keyboardEventRepeat
+  _ -> False
+
+keycodeReleased :: SDL.Keycode -> SDL.EventPayload -> Bool
+keycodeReleased keycode event = case event of --Keyboard Event data means that if any key has been pressed or released or held 
+  SDL.KeyboardEvent SDL.KeyboardEventData{keyboardEventKeysym = SDL.Keysym{keysymKeycode = code}, keyboardEventKeyMotion = motion, keyboardEventRepeat } ->
+    code == keycode &&
+    motion == SDL.Released &&  --input motion (released or pressed)
+    not keyboardEventRepeat
+  _ -> False
+
+class Monad m => SDLInput m where
+  pollEventPayloads :: m [SDL.EventPayload]
+
+pollEventPayloads' :: MonadIO m => m [SDL.EventPayload]
+pollEventPayloads' = liftIO $ map SDL.eventPayload <$> SDL.pollEvents

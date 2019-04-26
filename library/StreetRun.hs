@@ -26,8 +26,7 @@ import StreetRun.HUD
 import StreetRun.Sound_effects
 import StreetRun.Hurdle
 import StreetRun.Hurdle_1
-import StreetRun.SDLInput
-import StreetRun.SDLRenderer
+import StreetRun.SDLLayer
 import StreetRun.Load
 import StreetRun.Scene
 import StreetRun.Resource
