@@ -18,14 +18,19 @@ III. Pre-Required Libraries
 -----------------------------------------------------------------------------------------
 sudo apt install libsdl2-dev libsdl2-ttf-dev libsdl2-image-dev libmikmod-dev libsdl2-mixer-dev</br>
 
-IV. Authors
------------------------------------------------------------------------------------------
 
+IV. Controls
+-----------------------------------------------------------------------------------------
+Up - Jump</br>
+Space - Start/Pause</br>
+
+V. Authors
+-----------------------------------------------------------------------------------------
 * **Aayush Arora** 
 * **Aakash Daswani**  
 * **Aarushi**
 * **Pooja Mate** 
 
-V. License
+VI. License
 ----------------------------------------------------------------------------------------
 This project is licensed under the [3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause) License - see the [LICENSE.md](LICENSE.md) file for details.</br>
