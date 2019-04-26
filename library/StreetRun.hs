@@ -152,8 +152,6 @@ instance GameOver StreetRun where
 
 instance CameraControl StreetRun where
   adjustCamera = adjustCamera'
-  disableZoom = disableZoom'
-  enableZoom = enableZoom'
 
 instance HUD StreetRun where
   drawScore = drawScore'

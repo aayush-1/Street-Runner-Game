@@ -39,7 +39,5 @@ drawGameOver :: (Renderer m, CameraControl m, MonadState s m, HasGameOverVars s)
 drawGameOver = do
   gov <- gets (view gameOverVars)
   drawBlackOverlay (govFadeout gov)
-  disableZoom
   drawGameOverText (470,300)
   when (gameOverShowPressSpace $ govSpaceFlashing gov) $ drawPressSpaceText (550,500)
-  enableZoom

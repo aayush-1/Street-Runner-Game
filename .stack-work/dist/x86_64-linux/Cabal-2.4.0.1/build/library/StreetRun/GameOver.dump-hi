@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:26:39.714448008 UTC
+2019-04-26 06:49:54.406524614 UTC
 
 interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.GameOver 8064
-  interface hash: 6be92ade15f1b317cdb15c9456e5f232
-  ABI hash: 87806a4d6979c737eb28de5ffbbb8cbf
+  interface hash: 69c5b0e39072af0f109364d7037e1b55
+  ABI hash: 9330ccdf856df0c1b05f4ee437aa6e4e
   export-list hash: 169b239352018c17431b908b51c6f065
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
@@ -164,13 +164,13 @@ import  -/  mtl-2.2.2:Control.Monad.State.Class 94cc1438f3f9a3259fb0a2c56d3d0303
 import  -/  StreetRun.Common ae88f6983cc973a550c263b8148feda8
   exports: 61e4030ffa8e91db9a54c7154cc3d232
   HasCommonVars 919b4731c41ba51a047a083b8a4cc9c7
-import  -/  StreetRun.HUD 1b45c563f90a817d6df4d9a2659a5183
+import  -/  StreetRun.HUD 67c25875c022a2408906d37d63f0510d
   exports: e799087feb519c2fa6ec11e1bcb9834b
   HUD dd3aec2a82456c62e19ed6e64162878f
 import  -/  StreetRun.Input dc1e62404449c4ef4f763046555938b3
   exports: d5c6fc579c43e57e8ccb72f493e3d8f8
   $sel:iSpace:Input debdce52acaa37df87e66131243c6c87
-import  -/  StreetRun.Load 3dc63bb9369eb1de600fb017ab043f16
+import  -/  StreetRun.Load 16e217d4e0c253fb423fa049ddaea289
   exports: bb94dee51103db3de49f80223cdee067
   HasInput a827a1b40b93ca24fd0678aff14a3874
   getInput 13a07f24b1df74c123ca0a0ea07ffed3
@@ -184,14 +184,12 @@ import  -/  StreetRun.Out_func 2d58e416218e91bacef699b8794601fc
   gameOverShowPressSpace 85073f5fac93297f04b7dded1ee81195
   gameOverVars 05ec3a119d6da86dceb0d0cf4ed82361
   stepGameOverVars 1523f186be2488a6a589686ca9aaedc1
-import  -/  StreetRun.Picture 740652ffc53cd238afc496b4670a11b4
-  exports: 06342640fb845a39d68035a047b820fb
-  CameraControl b8645564078b95158c10dcc1b98f02d6
-  disableZoom 7dbcecfd535c92b01b50f240b9291f9a
-  enableZoom b5d6a9b94937712e8eeaaa1a46110a99
-import  -/  StreetRun.Play 27684fe36aaf8f9d1883f55e4040c714
-  exports: f538b15a41c690c80826177fc3bfda5b
-  drawPlay 4d641394618ff0d6ddbd55a8ae521adf
+import  -/  StreetRun.Picture 75395a4c252b8548400a323f40a76527
+  exports: babc26a2152d66639b7a47ea4c5947f4
+  CameraControl 886c953787575a6ab7b91f5818c72b74
+import  -/  StreetRun.Play fde39e25142d663f83ffdc7c478d68a3
+  exports: fddfe503c07894a36563a64c1e4547d3
+  drawPlay c6ebab1eb6b97a8395051df7a792e079
 import  -/  StreetRun.Renderer eba9a9e4c8700e42ea509a1bf564c30b
   exports: bdc569cebfaf1503ce959a9192a1814c
   Renderer 879b383bd7b1ca67a12fca41ecb57c3d
@@ -208,11 +206,11 @@ import  -/  StreetRun.Scene af7d6d54736d3642cc86bcfab3e76781
   exports: 07dad99016b354b41a3f7ae55850c26a
   SceneManager 63d1267c6f32ccbcb6cd361a33bac81a
   toScene 1edb960cc18f68f27f8817e7a98f03a1
-import  -/  StreetRun.Work 31dc36aef5c80ae1dc00f3ed83f6fff4
+import  -/  StreetRun.Work 3611973cdf8488c3a5964c00b99590c8
   exports: ffd7a4165016a00bc61ed7371fce244a
-import  -/  StreetRun.Work_func 618d334218ef249bf8e50fb375f6996c
+import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
   exports: 0632c1ae56fdb446c1bb6a552db25704
-  HasPlayVars eec911aa0de1f5cc54fcdff2fefe17b2
+  HasPlayVars 7c21393bf018dbd7864889724c1b555b
 31b122a74e4c2df5a53385e681e6dad8
   $tc'C:GameOver :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
@@ -275,7 +273,7 @@ b9dd7826491a8750f4823f1ce96b0b32
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-73833e0096c4ea653e0c0f69fc70be50
+1ec8d4dc177d1cd4e2ba2da8f0ffd02b
   $wdrawGameOver ::
     GHC.Base.Applicative m =>
     (forall a b. m a -> (a -> m b) -> m b)
@@ -283,12 +281,11 @@ b9dd7826491a8750f4823f1ce96b0b32
     -> (StreetRun.Types.Percent -> m ())
     -> ((GHC.Types.Int, GHC.Types.Int) -> m ())
     -> ((GHC.Types.Int, GHC.Types.Int) -> m ())
-    -> (StreetRun.Picture.CameraControl m,
-        Control.Monad.State.Class.MonadState s m,
+    -> (Control.Monad.State.Class.MonadState s m,
         StreetRun.Out_func.HasGameOverVars s) =>
        m ()
-  {- Arity: 9,
-     Strictness: <L,1*U(A,1*C1(U),A,A,A,A)><C(C(S)),1*C1(C1(U))><L,C(C1(U))><L,C(U)><L,1*C1(U)><L,1*C1(U)><L,U(A,A,1*U,1*U)><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)><L,1*C1(C1(C(U)))>,
+  {- Arity: 8,
+     Strictness: <L,1*U(A,1*C1(U),A,A,A,A)><C(C(S)),1*C1(C1(U))><L,C(C1(U))><L,C(U)><L,1*C1(U)><L,1*C1(U)><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)><L,1*C1(C1(C(U)))>,
      Inline: [2],
      Unfolding: (\ @ m :: * -> *
                    @ s
@@ -298,32 +295,25 @@ b9dd7826491a8750f4823f1ce96b0b32
                    (ww3 :: StreetRun.Types.Percent -> m ())
                    (ww4 :: (GHC.Types.Int, GHC.Types.Int) -> m ())
                    (ww5 :: (GHC.Types.Int, GHC.Types.Int) -> m ())
-                   (w :: StreetRun.Picture.CameraControl m)
-                   (w1 :: Control.Monad.State.Class.MonadState s m)
-                   (w2 :: StreetRun.Out_func.HasGameOverVars s) ->
+                   (w :: Control.Monad.State.Class.MonadState s m)
+                   (w1 :: StreetRun.Out_func.HasGameOverVars s) ->
                  let {
-                   lvl :: m () = StreetRun.Picture.disableZoom @ m w
+                   lvl :: m () = ww4 StreetRun.GameOver.drawGameOver5
                  } in
                  let {
-                   lvl1 :: m () = ww4 StreetRun.GameOver.drawGameOver5
+                   lvl1 :: m () = ww5 StreetRun.GameOver.drawGameOver2
                  } in
                  let {
-                   lvl2 :: m () = ww5 StreetRun.GameOver.drawGameOver2
-                 } in
-                 let {
-                   lvl3 :: m () = StreetRun.Picture.enableZoom @ m w
-                 } in
-                 let {
-                   lvl4 :: m () = GHC.Base.pure @ m ww @ () GHC.Tuple.()
+                   lvl2 :: m () = GHC.Base.pure @ m ww @ () GHC.Tuple.()
                  } in
                  ww1
                    @ StreetRun.Out.GameOverVars
                    @ ()
-                   (case w1 of ww6 { Control.Monad.State.Class.C:MonadState ww7 ww8 ww9 ww10 ->
+                   (case w of ww6 { Control.Monad.State.Class.C:MonadState ww7 ww8 ww9 ww10 ->
                     case ww7 of ww11 { GHC.Base.C:Monad ww12 ww13 ww14 ww15 ww16 ->
                     let {
-                      w3 :: s -> Data.Functor.Const.Const StreetRun.Out.GameOverVars s
-                      = w2 `cast` (StreetRun.Out_func.N:HasGameOverVars[0] <s>_N)
+                      w2 :: s -> Data.Functor.Const.Const StreetRun.Out.GameOverVars s
+                      = w1 `cast` (StreetRun.Out_func.N:HasGameOverVars[0] <s>_N)
                           @ (Data.Functor.Const.Const StreetRun.Out.GameOverVars)
                           (Data.Functor.Const.$fFunctorConst @ StreetRun.Out.GameOverVars)
                           StreetRun.GameOver.drawGameOver1
@@ -341,7 +331,7 @@ b9dd7826491a8750f4823f1ce96b0b32
                       (\ (s1 :: s) ->
                        ww15
                          @ StreetRun.Out.GameOverVars
-                         (w3 s1)
+                         (w2 s1)
                            `cast`
                          (Data.Functor.Const.N:Const[0]
                               <*>_N <StreetRun.Out.GameOverVars>_R <s>_P)) } })
@@ -355,20 +345,12 @@ b9dd7826491a8750f4823f1ce96b0b32
                          @ ()
                          @ ()
                          lvl
-                         (ww2
-                            @ ()
-                            @ ()
-                            lvl1
-                            (ww2
-                               @ ()
-                               @ ()
-                               (case gov of wild { StreetRun.Out.GameOverVars ds1 ds2 ->
-                                case ds2
-                                       `cast`
-                                     (StreetRun.Types.N:Percent[0]) of wild1 { GHC.Types.F# x ->
-                                case GHC.Prim.ltFloat# (GHC.Prim.sinFloat# x) 0.0# of lwild {
-                                  DEFAULT -> lvl4 1# -> lvl2 } } })
-                               lvl3))))) -}
+                         (case gov of wild { StreetRun.Out.GameOverVars ds1 ds2 ->
+                          case ds2
+                                 `cast`
+                               (StreetRun.Types.N:Percent[0]) of wild1 { GHC.Types.F# x ->
+                          case GHC.Prim.ltFloat# (GHC.Prim.sinFloat# x) 0.0# of lwild {
+                            DEFAULT -> lvl2 1# -> lvl1 } } })))) -}
 3c80083cf93e899e60204f0e39f29205
   $wupdateGameOver ::
     StreetRun.Out_func.HasGameOverVars s =>
@@ -399,14 +381,14 @@ b9dd7826491a8750f4823f1ce96b0b32
   class GHC.Base.Monad m => GameOver (m :: * -> *) where
     gameOverStep :: m ()
     {-# MINIMAL gameOverStep #-}
-1fb147a100d513618dd8e0c7d2de59f1
+d07341442df9d6810a080b96ebdd28d3
   drawGameOver ::
     (StreetRun.Renderer.Renderer m, StreetRun.Picture.CameraControl m,
      Control.Monad.State.Class.MonadState s m,
      StreetRun.Out_func.HasGameOverVars s) =>
     m ()
   {- Arity: 4,
-     Strictness: <S(S(LC(C(S))LLL)LLLLLLLLLLLLLLLLLLLLLLLLL),1*U(1*U(1*U(A,1*C1(U),A,A,A,A),1*C1(C1(U)),C(C1(U)),A,A),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C(U),A,A,1*C1(U),1*C1(U),A,A,A,A)><L,U(A,A,U,U)><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)><L,1*C1(C1(C(U)))>,
+     Strictness: <S(S(LC(C(S))LLL)LLLLLLLLLLLLLLLLLLLLLLLLL),1*U(1*U(1*U(A,1*C1(U),A,A,A,A),1*C1(C1(U)),C(C1(U)),A,A),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,C(U),A,A,1*C1(U),1*C1(U),A,A,A,A)><L,A><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)><L,1*C1(C1(C(U)))>,
      Inline: [2],
      Unfolding: InlineRule (4, True, False)
                 (\ @ m :: * -> *
@@ -426,7 +408,6 @@ b9dd7826491a8750f4823f1ce96b0b32
                    ww18
                    ww21
                    ww22
-                   w1
                    w2
                    w3 } }) -}
 a7fe93d82322ad085dd1fe8553b236d2
@@ -457,7 +438,7 @@ b7f0043e43f9dec074703270a4bf664b
 a3ad975026ac9bca321114449e1e5950
   drawGameOver7 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 470#) -}
-d078d248e216b32e802580ee31a86070
+7ff0ffe2471310105361dcefcb1820c7
   gameOverStep' ::
     (StreetRun.Work_func.HasPlayVars s,
      StreetRun.Common.HasCommonVars s,
@@ -468,7 +449,7 @@ d078d248e216b32e802580ee31a86070
      StreetRun.HUD.HUD m) =>
     m ()
   {- Arity: 9,
-     Strictness: <L,1*C1(C1(C(U)))><L,1*C1(C1(C(U)))><L,C(C1(C(U)))><S(S(LC(C(S))LLL)LLL),U(U(U(A,C(U),A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),U,A,1*C1(U))><L,1*U(A,1*C1(U))><L,1*U(A,A,A,1*U)><L,U(U(1*U(A,1*C1(U),A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),A,A,U,U,U,U,U,U,C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(U),C(U),C(U),A,A,1*C1(U),1*C1(U),A,A,A,A)><L,U(A,A,U,U)><L,U(A,U,U,U)>,
+     Strictness: <L,1*C1(C1(C(U)))><L,1*C1(C1(C(U)))><L,C(C1(C(U)))><S(S(LC(C(S))LLL)LLL),U(U(U(A,C(U),A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),U,A,1*C1(U))><L,1*U(A,1*C1(U))><L,1*U(A,A,A,1*U)><L,U(U(1*U(A,1*C1(U),A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),A,A,U,U,U,U,U,U,C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(U),C(U),C(U),A,A,1*C1(U),1*C1(U),A,A,A,A)><L,A><L,U(A,U,U,U)>,
      Unfolding: (\ @ s
                    @ m :: * -> *
                    ($dHasPlayVars :: StreetRun.Work_func.HasPlayVars s)
@@ -508,7 +489,6 @@ d078d248e216b32e802580ee31a86070
                        ww15
                        ww8
                        $dRenderer
-                       $dCameraControl
                        $dHUD } }
                  } in
                  let {
@@ -524,7 +504,6 @@ d078d248e216b32e802580ee31a86070
                        ww24
                        ww27
                        ww28
-                       $dCameraControl
                        $dMonadState
                        $dHasGameOverVars } }
                  } in
@@ -559,7 +538,7 @@ d078d248e216b32e802580ee31a86070
                              case ds1 of wild1 { KeyState.KeyState ds7 ds8 ->
                              case ds7 of wild2 {
                                DEFAULT -> lvl4 KeyState.KeyStatus'Pressed -> lvl3 } } })))) }) -}
-50c180410a16470012b27252f29c79ab
+894fd490d71fd5960d2c8c2154a51a8a
   updateGameOver ::
     (StreetRun.Out_func.HasGameOverVars s,
      StreetRun.Work_func.HasPlayVars s,

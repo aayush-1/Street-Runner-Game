@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:26:42.488988718 UTC
+2019-04-26 06:47:58.449775219 UTC
 
 interface main:Main 8064
-  interface hash: 1176fa3087044865a881da3b4bee129c
-  ABI hash: 598260ccbbfa6046ad2442f0d73b339d
+  interface hash: 6bda82393b4d81acf5c877bad3301a54
+  ABI hash: 24815711cb28ce3efce77edb6469c86d
   export-list hash: 10bdf201a36accd70e4dfd4f95c01c8b
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 51b440e6011b38f151ea3f113cecbc51
@@ -136,7 +136,7 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
-import  -/  street-runner-0.0.0:StreetRun 4aa44a23eff46556683b4f5a107e7f72
+import  -/  street-runner-0.0.0:StreetRun cac23d9dbff83e5caa25086f5e43259d
 be86c9d078d3acbf19ba91fe74a24273
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
@@ -155,12 +155,12 @@ e5875966b74dad2d29772660b8a75e33
 d026be77cb9ced20e35a61514e0458aa
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("main"#) -}
-498172b1c38efe9f38dfc3460125c333
+51b15ee11f4e939d4e88bebaf6405c51
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 StreetRun.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-8231b542a7d5b1ebff5b5c7425e25049
+3e70159730bd3656d25d7d26da75ea62
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)

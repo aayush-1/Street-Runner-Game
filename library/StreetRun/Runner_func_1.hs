@@ -23,16 +23,19 @@ stepRunnerAction input ds = case da of
     KeyStatus'Pressed -> Step'Change da RunnerAction'Jump
     KeyStatus'Held -> Step'Change da RunnerAction'Jump
     _ -> case ksStatus (iDown input) of   --if after up, down cases are checked
-      KeyStatus'Pressed -> Step'Change da RunnerAction'Duck   -- changed to duck
-      KeyStatus'Held -> Step'Change da RunnerAction'Duck  -- duck sustained 
-      _ -> Step'Sustain RunnerAction'Move   -- unaffected by any other key
-  RunnerAction'Duck -> case ksStatus (iUp input) of
-    KeyStatus'Pressed -> Step'Change da RunnerAction'Jump
-    KeyStatus'Held -> Step'Change da RunnerAction'Jump
-    _ -> case ksStatus (iDown input) of
-      KeyStatus'Pressed -> Step'Sustain RunnerAction'Duck
-      KeyStatus'Held -> Step'Sustain RunnerAction'Duck
-      _ -> Step'Change da RunnerAction'Move
+      KeyStatus'Pressed -> Step'Change da RunnerAction'Duck
+      KeyStatus'Held -> Step'Change da RunnerAction'Duck
+      _ -> Step'Sustain RunnerAction'Move
+  -- RunnerAction'Duck -> case ksStatus (iUp input) of
+  --   KeyStatus'Pressed -> Step'Change da RunnerAction'Jump
+  --   KeyStatus'Held -> Step'Change da RunnerAction'Jump
+  --   _ -> case ksStatus (iDown input) of
+  --     KeyStatus'Pressed -> Step'Sustain RunnerAction'Duck
+  --     KeyStatus'Held -> Step'Sustain RunnerAction'Duck
+  --     _ -> Step'Change da RunnerAction'Move
+  RunnerAction'Duck -> case dsHeight ds of
+    Nothing -> Step'Change da RunnerAction'Move
+    Just p -> if p < 1 then Step'Sustain da else Step'Change da RunnerAction'Move  
   RunnerAction'Jump -> case dsHeight ds of
     Nothing -> Step'Change da RunnerAction'Move
     Just p -> if p < 1 then Step'Sustain da else Step'Change da RunnerAction'Move
@@ -77,7 +80,7 @@ stepSpeed sda speed = clamp speed' 1 20   --range of speed
   where
     da = smash sda
     speed' = case da of
-      RunnerAction'Duck -> speed - 0.1   -- speed'll decrease with 0.1  
+      RunnerAction'Duck -> speed    -- speed'll decrease with 0.1  
       RunnerAction'Move -> speed + 0.03
       RunnerAction'Jump -> speed    -- same
       RunnerAction'Hurt -> speed - 0.15
@@ -96,10 +99,32 @@ addStocks s s' = or [pass 1, pass 5, pass 10, pass 20, pass 35, pass 50, pass 75
 nextStocks :: Score -> Score -> Stocks -> Stocks   --max lives one can gather at a run is 8
 nextStocks s s' st = min 10 (st + if addStocks s s' then 1 else 0)
 
-stepZoom :: Float -> RunnerAction -> Float    --zoom and zoomout speed control 
-stepZoom zoom runnerAction = case runnerAction of
-  RunnerAction'Duck -> clamp (zoom - 0.01) 0 1   --range with rate of change
-  _ -> clamp (zoom + 0.05) 0 1
+stepZoom :: Step RunnerAction -> RunnerState -> RunnerState   --dstate (action height hurt recover)
+stepZoom stepDa ds = case stepDa of
+    Step'Change _ da -> case da of
+      RunnerAction'Duck -> RunnerState da (Just 0) hurt recover
+      RunnerAction'Hurt -> RunnerState da height (Just 0) (Just 0)
+      _ -> RunnerState nextAction height hurt recover
+    Step'Sustain _ -> RunnerState nextAction height hurt recover
+  where
+    nextAction
+      | hurt /= Nothing = RunnerAction'Hurt
+      | height /= Nothing = RunnerAction'Duck
+      | otherwise = smash stepDa
+    height = case dsHeight ds of
+      Just p -> if p < 1 then Just (clamp (p + 0.04) 0 1) else Nothing  -- rate at which jump is made (following sin wave) 
+      Nothing -> Nothing
+    hurt = case dsHurt ds of
+      Just p -> if p < 1 then Just (clamp (p + 0.04) 0 1) else Nothing   -- time for which it'll stay hurt
+      Nothing -> Nothing
+    recover = case dsRecover ds of
+      Just p -> if p < 1 then Just (clamp (p + 0.01) 0 1) else Nothing  -- recovery rate
+      Nothing -> Nothing
+
+-- stepZoom :: Float -> RunnerAction -> Float    --zoom and zoomout speed control 
+-- stepZoom zoom runnerAction = case runnerAction of
+--   RunnerAction'Duck -> clamp (zoom - 0.01) 0 1   --range with rate of change
+--   _ -> clamp (zoom + 0.05) 0 1
 
 applyHurt :: Bool -> Step RunnerAction -> Maybe Percent -> Step RunnerAction
 applyHurt collision stepDa recover

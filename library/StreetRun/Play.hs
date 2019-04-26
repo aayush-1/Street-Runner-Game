@@ -58,7 +58,7 @@ updatePlay = do
   updateSpeed da
   updateObstacles
   (collision, da') <- tryCollision da
-  updateZoom da'
+  -- updateZoom da'
   updateRunner da'
   updateCamera
   updateScrolling
@@ -83,12 +83,10 @@ drawPlay = do
   when (pvShowRunner pv) $ drawRunner runnerLoc $ applyQuakeToStreet quake (truncate runnerX, runnerHeight (dsHeight $ pvRunnerState pv))
   drawObstacles quake (pvObstacles pv)
   drawGrass grassLoc $ applyQuakeToGrass quake (truncate $ pvGrassScroll pv, grassY)
-  disableZoom
   drawControls
   drawStocks pv runnerAnimations
   drawHiscore
   drawScore
-  enableZoom
   where
     drawStocks pv runnerAnimations =
       flip mapM_ [1..(fromIntegral $ pvStocks pv - 1)] $ \stock -> do
@@ -141,13 +139,13 @@ updateRunner sda = do
       , pvRunnerPos = stepRunnerPosition sda runnerAnimations (pvRunnerPos pv)
       }
 
-updateZoom :: (MonadState s m, HasPlayVars s) => Step RunnerAction -> m ()
-updateZoom da = modifyPlayVars $ \pv -> pv { pvZoom = stepZoom (pvZoom pv) (smash da) }
+-- updateZoom :: (MonadState s m, HasPlayVars s) => Step RunnerAction -> m ()
+-- updateZoom da = modifyPlayVars $ \pv -> pv { pvZoom = stepZoom (pvZoom pv) (smash da) }
 
 updateCamera :: (MonadState s m, HasPlayVars s, CameraControl m) => m ()
 updateCamera = do
-  zoom <- gets (pvZoom . view playVars)
-  let cam = lerpCamera ((1 - zoom) ** (1.8 :: Float)) duckCamera initCamera
+  -- zoom <- gets (pvZoom . view playVars)
+  let cam = lerpCamera ((0) ** (1.8 :: Float)) duckCamera initCamera
   adjustCamera cam
 
 updateObstacles :: (MonadState s m, HasPlayVars s, Renderer m, AudioSfx m) => m ()

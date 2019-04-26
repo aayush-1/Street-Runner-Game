@@ -17,7 +17,7 @@ data PlayVars = PlayVars
   , pvStocks :: Stocks
   , pvSpeed :: Percent
   , pvSeconds :: Seconds
-  , pvZoom :: Float
+  , pvZoom :: RunnerState
   , pvShowRunner :: Bool
   , pvRunnerPos :: Animate.Position RunnerKey Seconds
   , pvBuildingPos :: Animate.Position BuildingKey Seconds

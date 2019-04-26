@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:26:38.536318691 UTC
+2019-04-26 06:49:53.385018273 UTC
 
 interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Picture 8064
-  interface hash: ac160c603a36676039192e25a9653892
-  ABI hash: 740652ffc53cd238afc496b4670a11b4
-  export-list hash: 06342640fb845a39d68035a047b820fb
+  interface hash: c29572e6ca7baacbaf873a5afd2c76a7
+  ABI hash: 75395a4c252b8548400a323f40a76527
+  export-list hash: babc26a2152d66639b7a47ea4c5947f4
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -16,10 +16,8 @@ interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Picture 8064
   where
 exports:
   StreetRun.Picture.adjustCamera'
-  StreetRun.Picture.disableZoom'
-  StreetRun.Picture.enableZoom'
   StreetRun.Picture.moveCamera
-  StreetRun.Picture.CameraControl{StreetRun.Picture.adjustCamera StreetRun.Picture.disableZoom StreetRun.Picture.enableZoom}
+  StreetRun.Picture.CameraControl{StreetRun.Picture.adjustCamera}
 module dependencies: StreetRun.Camera StreetRun.Common
                      StreetRun.Config StreetRun.Font StreetRun.Font_functions
                      StreetRun.Frame StreetRun.Hurdle StreetRun.Hurdle_1 StreetRun.Input
@@ -167,17 +165,16 @@ import  -/  StreetRun.Camera 63926371f9a3875764572c53b7b589e9
   $sel:camZoom:Camera 2825edad27438647c3fbdedec7f77477
   Camera 9790c46a29778f8a911ea305460f4e30
   Camera 2825edad27438647c3fbdedec7f77477
-  initCamera 375914fddf296f3e4e56a03285ce9522
   moveOrigin b15a8ffc08aeb0da07f783749d42a97a
   screenV2 2a10fb626633c8c65637ada046def9a1
 import  -/  StreetRun.Config cf93ae4b11ed31ae458ca135cf881ef9
   exports: 718448995096e5a0315e80eb460349b2
   $sel:cRenderer:Config 8fee3f2631cead17e5b67aab65a149ae
   Config 8fee3f2631cead17e5b67aab65a149ae
-import  -/  StreetRun.State afe769c83e1db811ae34958dff0a7dea
+import  -/  StreetRun.State 2b4a5b23cba95fdf8a8075ad75dbe6ec
   exports: 9215ef2a775e8ad7562f6edbfe13ac1f
-  $sel:vCamera:Vars 4201915800ab738e9c71b5816972a806
-  Vars 4201915800ab738e9c71b5816972a806
+  $sel:vCamera:Vars 06c844f355a6a421607a99fdffa4b901
+  Vars 06c844f355a6a421607a99fdffa4b901
 f38e0f857d1c46779311bbce2ec39ee4
   $tc'C:CameraControl :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
@@ -241,7 +238,7 @@ d7bc4eb66a0260d6e7872e44f49ab061
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-52fc74e9b87aea45656b8760b611515a
+c2dd3f47aa9f2819bd766201e74cac0b
   $wadjustCamera' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a b. m a -> m b -> m b)
@@ -284,90 +281,6 @@ d7bc4eb66a0260d6e7872e44f49ab061
                          StreetRun.Config.$sel:cRenderer:Config)
                       (\ (renderer :: SDL.Internal.Types.Renderer) ->
                        case w2 of ww3 { StreetRun.Camera.Camera ww4 ww5 ->
-                       StreetRun.Picture.$wmoveCamera @ m ww1 ww2 renderer ww4 ww5 }))) -}
-ba6ec403d6d6b20fe1581bc4560ab23f
-  $wdisableZoom' ::
-    (forall a b. m a -> (a -> m b) -> m b)
-    -> (forall a b. m a -> m b -> m b)
-    -> (forall a. GHC.Types.IO a -> m a)
-    -> Control.Monad.Reader.Class.MonadReader
-         StreetRun.Config.Config m =>
-       m ()
-  {- Arity: 4,
-     Strictness: <C(C(S)),1*C1(C1(U))><L,C(C1(U))><L,C(U)><L,1*U(A,A,A,1*C1(U))>,
-     Inline: [2],
-     Unfolding: (\ @ m :: * -> *
-                   (ww :: forall a b. m a -> (a -> m b) -> m b)
-                   (ww1 :: forall a b. m a -> m b -> m b)
-                   (ww2 :: forall a. GHC.Types.IO a -> m a)
-                   (w :: Control.Monad.Reader.Class.MonadReader
-                           StreetRun.Config.Config m) ->
-                 ww
-                   @ SDL.Internal.Types.Renderer
-                   @ ()
-                   (Control.Monad.Reader.Class.reader
-                      @ StreetRun.Config.Config
-                      @ m
-                      w
-                      @ SDL.Internal.Types.Renderer
-                      StreetRun.Config.$sel:cRenderer:Config)
-                   (\ (renderer :: SDL.Internal.Types.Renderer) ->
-                    StreetRun.Picture.$wmoveCamera
-                      @ m
-                      ww1
-                      ww2
-                      renderer
-                      StreetRun.Camera.initCamera3
-                      StreetRun.Camera.initCamera1)) -}
-52fee36c62db4f9198d16d72b19c67da
-  $wenableZoom' ::
-    (forall a b. m a -> (a -> m b) -> m b)
-    -> (forall a b. m a -> m b -> m b)
-    -> (forall a. GHC.Types.IO a -> m a)
-    -> (Control.Monad.Reader.Class.MonadReader
-          StreetRun.Config.Config m,
-        Control.Monad.State.Class.MonadState StreetRun.State.Vars m) =>
-       m ()
-  {- Arity: 5,
-     Strictness: <C(C(S)),C(C1(U))><L,C(C1(U))><L,C(U)><L,1*U(A,A,A,1*C1(U))><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)>,
-     Inline: [2],
-     Unfolding: (\ @ m :: * -> *
-                   (ww :: forall a b. m a -> (a -> m b) -> m b)
-                   (ww1 :: forall a b. m a -> m b -> m b)
-                   (ww2 :: forall a. GHC.Types.IO a -> m a)
-                   (w :: Control.Monad.Reader.Class.MonadReader
-                           StreetRun.Config.Config m)
-                   (w1 :: Control.Monad.State.Class.MonadState
-                            StreetRun.State.Vars m) ->
-                 let {
-                   lvl :: m StreetRun.Camera.Camera
-                   = case w1 of ww3 { Control.Monad.State.Class.C:MonadState ww4 ww5 ww6 ww7 ->
-                     case ww4 of ww8 { GHC.Base.C:Monad ww9 ww10 ww11 ww12 ww13 ->
-                     ww10
-                       @ StreetRun.State.Vars
-                       @ StreetRun.Camera.Camera
-                       ww5
-                       (\ (s1 :: StreetRun.State.Vars) ->
-                        ww12
-                          @ StreetRun.Camera.Camera
-                          (StreetRun.State.$sel:vCamera:Vars s1)) } }
-                 } in
-                 ww
-                   @ SDL.Internal.Types.Renderer
-                   @ ()
-                   (Control.Monad.Reader.Class.reader
-                      @ StreetRun.Config.Config
-                      @ m
-                      w
-                      @ SDL.Internal.Types.Renderer
-                      StreetRun.Config.$sel:cRenderer:Config)
-                   (\ (renderer :: SDL.Internal.Types.Renderer) ->
-                    ww
-                      @ StreetRun.Camera.Camera
-                      @ ()
-                      lvl
-                      (\ (cam :: StreetRun.Camera.Camera) ->
-                       case cam of ww3 { StreetRun.Camera.Camera ww4 ww5 ->
                        StreetRun.Picture.$wmoveCamera @ m ww1 ww2 renderer ww4 ww5 }))) -}
 0ddd9e75881c28e91c033a3c8ed1b350
   $wmoveCamera ::
@@ -441,13 +354,11 @@ ba6ec403d6d6b20fe1581bc4560ab23f
                       (case SDL.Video.Renderer.$wrendererClipRect
                               w of ww4 { (#,#) ww5 ww6 ->
                        ww1 @ () (ww6 StreetRun.Picture.adjustCamera'1) }))) -}
-b8645564078b95158c10dcc1b98f02d6
+886c953787575a6ab7b91f5818c72b74
   class GHC.Base.Monad m => CameraControl (m :: * -> *) where
     adjustCamera :: StreetRun.Camera.Camera -> m ()
-    disableZoom :: m ()
-    enableZoom :: m ()
-    {-# MINIMAL adjustCamera, disableZoom, enableZoom #-}
-085ffd212e43e56a790a9cb8061c8abf
+    {-# MINIMAL adjustCamera #-}
+e0a614f67400a50e568310b8cd0251a3
   adjustCamera' ::
     (Control.Monad.IO.Class.MonadIO m,
      Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
@@ -510,42 +421,6 @@ c7e3c7a4444b01118530f2d52a3d7d38
                    @ Foreign.C.Types.CInt
                    nt `cast` (Sym (Foreign.C.Types.N:CInt[0]))
                    (GHC.Int.I32# ipv) `cast` (Sym (Foreign.C.Types.N:CInt[0])) } }) -}
-ced8f6a6eb63eb449b98159f94733174
-  disableZoom' ::
-    (Control.Monad.IO.Class.MonadIO m,
-     Control.Monad.Reader.Class.MonadReader
-       StreetRun.Config.Config m) =>
-    m ()
-  {- Arity: 2,
-     Strictness: <S(S(LC(C(S))LLL)L),1*U(1*U(A,1*C1(C1(U)),C(C1(U)),A,A),C(U))><L,1*U(A,A,A,1*C1(U))>,
-     Inline: [2],
-     Unfolding: InlineRule (2, True, False)
-                (\ @ m :: * -> *
-                   (w :: Control.Monad.IO.Class.MonadIO m)
-                   (w1 :: Control.Monad.Reader.Class.MonadReader
-                            StreetRun.Config.Config m) ->
-                 case w of ww { Control.Monad.IO.Class.C:MonadIO ww1 ww2 ->
-                 case ww1 of ww3 { GHC.Base.C:Monad ww4 ww5 ww6 ww7 ww8 ->
-                 StreetRun.Picture.$wdisableZoom' @ m ww5 ww6 ww2 w1 } }) -}
-bbd8ae8b648b7a43c03c0e5c8bbad5ce
-  enableZoom' ::
-    (Control.Monad.IO.Class.MonadIO m,
-     Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
-     Control.Monad.State.Class.MonadState StreetRun.State.Vars m) =>
-    m ()
-  {- Arity: 3,
-     Strictness: <S(S(LC(C(S))LLL)L),1*U(1*U(A,C(C1(U)),C(C1(U)),A,A),C(U))><L,1*U(A,A,A,1*C1(U))><L,1*U(1*U(A,1*C1(C1(U)),A,C(U),A),U,A,A)>,
-     Inline: [2],
-     Unfolding: InlineRule (3, True, False)
-                (\ @ m :: * -> *
-                   (w :: Control.Monad.IO.Class.MonadIO m)
-                   (w1 :: Control.Monad.Reader.Class.MonadReader
-                            StreetRun.Config.Config m)
-                   (w2 :: Control.Monad.State.Class.MonadState
-                            StreetRun.State.Vars m) ->
-                 case w of ww { Control.Monad.IO.Class.C:MonadIO ww1 ww2 ->
-                 case ww1 of ww3 { GHC.Base.C:Monad ww4 ww5 ww6 ww7 ww8 ->
-                 StreetRun.Picture.$wenableZoom' @ m ww5 ww6 ww2 w1 w2 } }) -}
 764ca484f000bf86a1c5df386728a497
   moveCamera ::
     Control.Monad.IO.Class.MonadIO m =>

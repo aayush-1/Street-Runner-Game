@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:26:39.963015857 UTC
+2019-04-26 06:47:55.874172895 UTC
 
 interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Bolt_1 8064
-  interface hash: 0f6a301d2239478df0b6b359d73ae921
-  ABI hash: 5d5a5323d4cf07786a5dccda1232e912
+  interface hash: 5a856100fcbd13cc9957647fb8cf1478
+  ABI hash: 4f06a9cd2a934ee939896c699ad0fdd5
   export-list hash: b531d00fa49df8fd0047b6101961014e
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: e9979ed0ba295133ef8188aa5e696ffc
@@ -163,13 +163,13 @@ import  -/  mtl-2.2.2:Control.Monad.State.Class 94cc1438f3f9a3259fb0a2c56d3d0303
 import  -/  StreetRun.Audio b9aa4bed0b608434003177c2612cb676
   exports: ea2a64f8a738ac11df84a60ad5ddd8a8
   Audio c236b79048ac247852d9a2f1fb556e72
-import  -/  StreetRun.Bolt 15c606bd7daae5537f7364d9af1e2330
+import  -/  StreetRun.Bolt 12910c793e44be4c968efabd0e75da0f
   exports: 1b9bf166c2cef1cae48bc6688399036f
   deathTransition dda5b67805065ff2548207d4a97c2d32
   pauseToPlay 73bbd1011042121a9f8e17f03ae91575
   playToPause d13c59c72c44656aae723f53be165bd2
-  playTransition eee81c406b6862a88b26e3dec946f456
-  titleTransition 5a12510653a6f215db87b04daef847cf
+  playTransition 4f1402e2022ea21eb9fe0a73e563e7ed
+  titleTransition d58296344452104f8b3ebfd409beb5b2
 import  -/  StreetRun.Camera 63926371f9a3875764572c53b7b589e9
   exports: 0bdcb1ea14c3bd8392b27cba46d7b4fa
 import  -/  StreetRun.Clock 89a62033dff72bebbbf4e2a01026fec0
@@ -179,14 +179,14 @@ import  -/  StreetRun.Clock 89a62033dff72bebbbf4e2a01026fec0
 import  -/  StreetRun.Config cf93ae4b11ed31ae458ca135cf881ef9
   exports: 718448995096e5a0315e80eb460349b2
   Config 8fee3f2631cead17e5b67aab65a149ae
-import  -/  StreetRun.Death 019005110cbcfd9725dea09049debd8b
+import  -/  StreetRun.Death 4f7eacbaac739ee4d5621e77a22fbbe0
   exports: 14743785934f7ec3332ecd60bf49379e
   Death de140fce135b19484db7562249d763a3
   deathStep 605e9080ad6ec431a53663ccecdd0312
 import  -/  StreetRun.Frame bcb622c9bc5c55d3184ab58affcc1b5b
   exports: 061806fa76aa4b4d9f3c174ee83d7084
   frameDeltaMilliseconds b142ee9003a67137bc3317b054314a4e
-import  -/  StreetRun.GameOver 87806a4d6979c737eb28de5ffbbb8cbf
+import  -/  StreetRun.GameOver 9330ccdf856df0c1b05f4ee437aa6e4e
   exports: 169b239352018c17431b908b51c6f065
   GameOver 06ea9fcbce4094d17d445d488f0cfed9
   gameOverStep 466c5fd985fbf129290dbe4797ed3ca3
@@ -194,7 +194,7 @@ import  -/  StreetRun.Input dc1e62404449c4ef4f763046555938b3
   exports: d5c6fc579c43e57e8ccb72f493e3d8f8
   $sel:iEscape:Input debdce52acaa37df87e66131243c6c87
   $sel:iQuit:Input debdce52acaa37df87e66131243c6c87
-import  -/  StreetRun.Load 3dc63bb9369eb1de600fb017ab043f16
+import  -/  StreetRun.Load 16e217d4e0c253fb423fa049ddaea289
   exports: bb94dee51103db3de49f80223cdee067
   HasInput a827a1b40b93ca24fd0678aff14a3874
   getInput 13a07f24b1df74c123ca0a0ea07ffed3
@@ -202,15 +202,15 @@ import  -/  StreetRun.Load 3dc63bb9369eb1de600fb017ab043f16
 import  -/  StreetRun.Logger c1184bbc74eb79639ce17c0146cd0cef
   exports: 81e5ce7f09b7fc1815ee1a743df57e50
   Logger 4552d82a9988ace40de231328b43d46d
-import  -/  StreetRun.Pause 630257d8778b5d21f16f674eba0ae733
+import  -/  StreetRun.Pause c6aa2674428525a6eacaff4466252b89
   exports: 82d44093e53fd475130cc34c015137c2
   Pause 886d57635fcced106f4fa92fa348f6af
   pauseStep 9deb41cc1d96a014dcea48a8e0e8dcc2
-import  -/  StreetRun.Picture 740652ffc53cd238afc496b4670a11b4
-  exports: 06342640fb845a39d68035a047b820fb
-  CameraControl b8645564078b95158c10dcc1b98f02d6
-import  -/  StreetRun.Play 27684fe36aaf8f9d1883f55e4040c714
-  exports: f538b15a41c690c80826177fc3bfda5b
+import  -/  StreetRun.Picture 75395a4c252b8548400a323f40a76527
+  exports: babc26a2152d66639b7a47ea4c5947f4
+  CameraControl 886c953787575a6ab7b91f5818c72b74
+import  -/  StreetRun.Play fde39e25142d663f83ffdc7c478d68a3
+  exports: fddfe503c07894a36563a64c1e4547d3
   Play 34ccbec8700b76610dd4c882634b2a13
   playStep 7d17ed1af2f52ad32462e10e7b88d150
 import  -/  StreetRun.Renderer eba9a9e4c8700e42ea509a1bf564c30b
@@ -239,11 +239,11 @@ import  -/  StreetRun.Sound_effects a85edcbc0529355d0d823628a5187457
   AudioSfx 59c875a47b0b4851b33ea127ea6242ec
   clearSfx 7d986b28c6050c897bb0e1bc04f36d4d
   playSfx 02eb9818a48db8ec161283992d76c52b
-import  -/  StreetRun.State afe769c83e1db811ae34958dff0a7dea
+import  -/  StreetRun.State 2b4a5b23cba95fdf8a8075ad75dbe6ec
   exports: 9215ef2a775e8ad7562f6edbfe13ac1f
-  $sel:vNextScene:Vars 4201915800ab738e9c71b5816972a806
-  $sel:vScene:Vars 4201915800ab738e9c71b5816972a806
-  Vars 4201915800ab738e9c71b5816972a806
+  $sel:vNextScene:Vars 06c844f355a6a421607a99fdffa4b901
+  $sel:vScene:Vars 06c844f355a6a421607a99fdffa4b901
+  Vars 06c844f355a6a421607a99fdffa4b901
 import  -/  StreetRun.Tag 27e814674fbab3eb0744c0bf2fe41e37
   exports: 2deb1d4d5d6d85e90a593ece5714e0ef
 import  -/  StreetRun.Tag_func f3f5a14ffbd5357638b12d8b482ff7e8
@@ -252,9 +252,9 @@ import  -/  StreetRun.Title 7fc5acc47d603fae759ec80e05bc9953
   exports: b086a246cc8dd93e3bfebff4e6d99f5d
   Title fd9ee9f44b91ce89af456ee8e77d61f3
   titleStep 86ceec6416ff949c1da8084ddfef652c
-import  -/  StreetRun.Work 31dc36aef5c80ae1dc00f3ed83f6fff4
+import  -/  StreetRun.Work 3611973cdf8488c3a5964c00b99590c8
   exports: ffd7a4165016a00bc61ed7371fce244a
-import  -/  StreetRun.Work_func 618d334218ef249bf8e50fb375f6996c
+import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
   exports: 0632c1ae56fdb446c1bb6a552db25704
 12e0bd774e401a335c4bd0abbddec06e
   $trModule :: GHC.Types.Module
@@ -277,7 +277,7 @@ e4479e3daf1035b13d5463d12dbd9b71
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-ea8dcc46074979d169746048fe06f8ec
+8afb306182ad3311bfc3e1190ee1cdb2
   mainLoop ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.State.Class.MonadState StreetRun.State.Vars m,
@@ -289,7 +289,7 @@ ea8dcc46074979d169746048fe06f8ec
      StreetRun.Death.Death m, StreetRun.GameOver.GameOver m) =>
     m ()
   {- Arity: 14,
-     Strictness: <S(S(LLC(C(S))LL)LLL),U(U(U(A,C(U),A,A,A,A),C(C1(U)),C(C1(U)),A,A),A,A,A)><L,U(U(U(A,C(U),A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),U,A,C(U))><L,U(U(A,A,C(C1(U)),A,A),U,U,A,A,A,A,A,A,A,A,U,A,A,U,U)><L,U(U(U(U(C(C1(U)),A),A,A,A,A,A),C(C1(U)),C(C1(U)),A,A),U,C(U),U)><L,A><L,U(A,C(U))><L,U(A,C(U),A,A)><L,U(A,U,U,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)><L,U(A,U,A,U)><L,U(U(A,A,A,C(U),A),U)><L,U(A,U)><L,U(A,U)><L,U(A,U)><L,U(A,U)> -}
+     Strictness: <S(S(LLC(C(S))LL)LLL),U(U(U(A,C(U),A,A,A,A),C(C1(U)),C(C1(U)),A,A),A,A,A)><L,U(U(U(A,C(U),A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),U,A,C(U))><L,U(U(A,A,C(C1(U)),A,A),U,U,A,A,A,A,A,A,A,A,U,A,A,U,U)><L,U(U(U(U(C(C1(U)),A),A,A,A,A,A),C(C1(U)),C(C1(U)),A,A),U,C(U),U)><L,A><L,U(A,C(U))><L,U(A,C(U))><L,U(A,U,U,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)><L,U(A,U,A,U)><L,U(U(A,A,A,C(U),A),U)><L,U(A,U)><L,U(A,U)><L,U(A,U)><L,U(A,U)> -}
 trusted: none
 require own pkg trusted: False
 module header:

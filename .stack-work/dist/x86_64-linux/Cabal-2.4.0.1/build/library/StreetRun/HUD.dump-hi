@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:26:38.761499363 UTC
+2019-04-25 23:07:13.285464563 UTC
 
 interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.HUD 8064
-  interface hash: 52f98e11fbfa74691cd7b7f07c9de97a
-  ABI hash: 1b45c563f90a817d6df4d9a2659a5183
+  interface hash: fc28d9a066d122013775d8f4d0e3c14d
+  ABI hash: 67c25875c022a2408906d37d63f0510d
   export-list hash: e799087feb519c2fa6ec11e1bcb9834b
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
@@ -180,14 +180,14 @@ import  -/  StreetRun.Renderer_func_1 b2f8a68dbebb4a5575e9c9404df81f49
   exports: cd995c9f02033435bf3d7151e24e6a3d
 import  -/  StreetRun.Renderer_func_2 4d5a7c4dba8ccd5d139bd424e7e60331
   exports: acb7c593e3b7f4916cf72f231a22b161
-import  -/  StreetRun.Work 31dc36aef5c80ae1dc00f3ed83f6fff4
+import  -/  StreetRun.Work 3611973cdf8488c3a5964c00b99590c8
   exports: ffd7a4165016a00bc61ed7371fce244a
-  $sel:pvScore:PlayVars 4e0d6882d8c80f982ce44d3f26d5ffda
-  $sel:pvSeconds:PlayVars 4e0d6882d8c80f982ce44d3f26d5ffda
-import  -/  StreetRun.Work_func 618d334218ef249bf8e50fb375f6996c
+  $sel:pvScore:PlayVars 05b27afb2a000fc455265545d1f3ef8b
+  $sel:pvSeconds:PlayVars 05b27afb2a000fc455265545d1f3ef8b
+import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
   exports: 0632c1ae56fdb446c1bb6a552db25704
-  HasPlayVars eec911aa0de1f5cc54fcdff2fefe17b2
-  playVars c7cc94ac4e480a0c8202559ffac5c2bb
+  HasPlayVars 7c21393bf018dbd7864889724c1b555b
+  playVars 189c6f7e94884827f037d5be1ee00734
 65aa37a2c5eab369441f067e51da18ec
   $tc'C:HUD :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
@@ -249,7 +249,7 @@ aca6ece205ea1a562cc0aef605eb9f24
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-89dec736a29ae8339cf6e494dc99e498
+e60a383b4110ec147a2f74598f810bf2
   $wdrawControls' ::
     GHC.Base.Applicative m =>
     (forall a b. m a -> (a -> m b) -> m b)
@@ -468,7 +468,7 @@ aca6ece205ea1a562cc0aef605eb9f24
                       @ StreetRun.Font.Number
                       (StreetRun.Font_functions.toNumber w1)
                       (GHC.Types.[] @ StreetRun.Font.Number))) -}
-5deaeb6cf25666d41a6f1854e10e6f56
+4cdbd27969874e09ec51d7c0e87997de
   $wdrawScore' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a b. m a -> m b -> m b)
@@ -577,7 +577,7 @@ dd3aec2a82456c62e19ed6e64162878f
     drawScore :: m ()
     drawControls :: m ()
     {-# MINIMAL drawHiscore, drawScore, drawControls #-}
-4640b3dd895ade9ae143bbe1fb3c0fb5
+f634a2a9a71af10e46b89f09774437f9
   drawControls' ::
     (StreetRun.Renderer.Renderer m,
      Control.Monad.State.Class.MonadState s m,
@@ -595,7 +595,7 @@ dd3aec2a82456c62e19ed6e64162878f
                  case w of ww { StreetRun.Renderer.C:Renderer ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ww13 ww14 ww15 ww16 ww17 ww18 ww19 ww20 ww21 ww22 ww23 ww24 ww25 ww26 ->
                  case ww1 of ww27 { GHC.Base.C:Monad ww28 ww29 ww30 ww31 ww32 ->
                  StreetRun.HUD.$wdrawControls' @ m @ s ww28 ww29 ww26 w1 w2 } }) -}
-cf775d83c5de84ae077467e68deb274c
+61a1adbe08ccd78783c7fa1b61d7e041
   drawControls'1 ::
     StreetRun.Work.PlayVars -> StreetRun.Work.PlayVars
   {- Arity: 1, HasNoCafRefs,
@@ -842,7 +842,7 @@ f93dc6d68d51b0630268e6d0191bcbec
                    (w2 :: (GHC.Types.Int, GHC.Types.Int)) ->
                  case w2 of ww { (,) ww1 ww2 ->
                  StreetRun.HUD.$wdrawNumbers @ m w w1 ww1 ww2 }) -}
-a5c9c459003e7df7d2ca6aa11d392b18
+e7eea35b314d1c7643b6972bd08ba89a
   drawScore' ::
     (StreetRun.Renderer.Renderer m,
      Control.Monad.State.Class.MonadState s m,

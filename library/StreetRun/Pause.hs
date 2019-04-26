@@ -31,6 +31,4 @@ pauseStep' = do
 drawPause :: (Renderer m, CameraControl m) => m ()
 drawPause = do
   drawBlackOverlay 0.8
-  disableZoom
   drawPauseText (530,270)
-  enableZoom

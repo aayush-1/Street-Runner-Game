@@ -1,12 +1,12 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:26:41.410288976 UTC
+2019-04-26 06:49:55.629339303 UTC
 
 interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun 8064
-  interface hash: 6ab9601f31a4d574e37c5386ab1b3496
-  ABI hash: 4aa44a23eff46556683b4f5a107e7f72
-  export-list hash: 13d179decb0d1afdab6262a5d1b88b6b
-  orphan hash: a58a1ccc502f5404390504ea52a05542
+  interface hash: a3bc655069006562f55639c775a64000
+  ABI hash: cac23d9dbff83e5caa25086f5e43259d
+  export-list hash: 5275e5943d824dd2df957e53b5070875
+  orphan hash: e8467508e3d5a5825f82b279bfef8dea
   flag hash: be0c81c72ad12296c619c6c60c666543
   opt_hash: 6faf2de08de32d19db9870899d88e59a
   hpc_hash: 93b885adfe0da089cdf634904fd59f71
@@ -189,12 +189,12 @@ import  -/  StreetRun.Audio b9aa4bed0b608434003177c2612cb676
   playStockSfx' 2b406e3fbd7f6b6387d1851f8b7602ef
   raiseGameMusic' ec1ed41672fd5490732fbe9b4a984927
   stopGameMusic' d1372267d32d6a322df900cb1131e999
-import  -/  StreetRun.Bolt 15c606bd7daae5537f7364d9af1e2330
+import  -/  StreetRun.Bolt 12910c793e44be4c968efabd0e75da0f
   exports: 1b9bf166c2cef1cae48bc6688399036f
-  toScene' 666422472ef2bd96796bbdce400bb0b3
-import  -/  StreetRun.Bolt_1 5d5a5323d4cf07786a5dccda1232e912
+  toScene' f609ddbce3efc6d212f5997997c1f1bb
+import  -/  StreetRun.Bolt_1 4f06a9cd2a934ee939896c699ad0fdd5
   exports: b531d00fa49df8fd0047b6101961014e
-  mainLoop ea8dcc46074979d169746048fe06f8ec
+  mainLoop 8afb306182ad3311bfc3e1190ee1cdb2
 import  -/  StreetRun.Clock 89a62033dff72bebbbf4e2a01026fec0
   exports: b739ca3407504ac5807a7a1833deaf5a
   Clock 2b40ecab298d4d0a35bbceaf277a7019
@@ -206,48 +206,46 @@ import  -/  StreetRun.Config cf93ae4b11ed31ae458ca135cf881ef9
   $sel:cWindow:Config 8fee3f2631cead17e5b67aab65a149ae
   Config 1e9ae779b02f6c42784957c8c445b325
   Config 8fee3f2631cead17e5b67aab65a149ae
-import  -/  StreetRun.Death 019005110cbcfd9725dea09049debd8b
+import  -/  StreetRun.Death 4f7eacbaac739ee4d5621e77a22fbbe0
   exports: 14743785934f7ec3332ecd60bf49379e
   Death de140fce135b19484db7562249d763a3
-  deathStep' aaddd674eb676f0b61eb1435a25d25cb
-import  -/  StreetRun.GameOver 87806a4d6979c737eb28de5ffbbb8cbf
+  deathStep' 5ed0ab25b5cc8602421dfe8fc945c228
+import  -/  StreetRun.GameOver 9330ccdf856df0c1b05f4ee437aa6e4e
   exports: 169b239352018c17431b908b51c6f065
   GameOver 06ea9fcbce4094d17d445d488f0cfed9
-  gameOverStep' d078d248e216b32e802580ee31a86070
-import  -/  StreetRun.HUD 1b45c563f90a817d6df4d9a2659a5183
+  gameOverStep' 7ff0ffe2471310105361dcefcb1820c7
+import  -/  StreetRun.HUD 67c25875c022a2408906d37d63f0510d
   exports: e799087feb519c2fa6ec11e1bcb9834b
   HUD dd3aec2a82456c62e19ed6e64162878f
-  drawControls' 4640b3dd895ade9ae143bbe1fb3c0fb5
+  drawControls' f634a2a9a71af10e46b89f09774437f9
   drawHiscore' cd60de1bc32326dac23a77881c1d4dc4
-  drawScore' a5c9c459003e7df7d2ca6aa11d392b18
+  drawScore' e7eea35b314d1c7643b6972bd08ba89a
 import  -/  StreetRun.Hurdle c4bf1734d0fc0cd048dae74996b10d52
   exports: 5d1d0f5747b642287dbb935bf038e6f0
   streamOfObstacles 1da345358045153159835e6370c41b00
 import  -/  StreetRun.Hurdle_1 1a485025fa7e082b8373c58e155e3bf6
   exports: d905238960a6001c32ab0ea30381a713
-import  -/  StreetRun.Load 3dc63bb9369eb1de600fb017ab043f16
+import  -/  StreetRun.Load 16e217d4e0c253fb423fa049ddaea289
   exports: bb94dee51103db3de49f80223cdee067
   HasInput a827a1b40b93ca24fd0678aff14a3874
-  getInput' 86b22baae5666ec0b15ffa42c041ac14
-  setInput' cae1858b005fdcc5ba51e93a49349d38
+  getInput' 3b2e90049f95a24e277a54181dcb47ad
+  setInput' 8a93adfed30f97654995bd993076c4c9
   updateInput' f510f8119c3c4e774a33c2459719a17b
 import  -/  StreetRun.Logger c1184bbc74eb79639ce17c0146cd0cef
   exports: 81e5ce7f09b7fc1815ee1a743df57e50
   Logger 4552d82a9988ace40de231328b43d46d
-import  -/  StreetRun.Pause 630257d8778b5d21f16f674eba0ae733
+import  -/  StreetRun.Pause c6aa2674428525a6eacaff4466252b89
   exports: 82d44093e53fd475130cc34c015137c2
   Pause 886d57635fcced106f4fa92fa348f6af
-  pauseStep' 604f7767f319a14995937d3a21ee37db
-import  -/  StreetRun.Picture 740652ffc53cd238afc496b4670a11b4
-  exports: 06342640fb845a39d68035a047b820fb
-  CameraControl b8645564078b95158c10dcc1b98f02d6
-  adjustCamera' 085ffd212e43e56a790a9cb8061c8abf
-  disableZoom' ced8f6a6eb63eb449b98159f94733174
-  enableZoom' bbd8ae8b648b7a43c03c0e5c8bbad5ce
-import  -/  StreetRun.Play 27684fe36aaf8f9d1883f55e4040c714
-  exports: f538b15a41c690c80826177fc3bfda5b
+  pauseStep' 728a65ac6f7523e03c3d967ee2e33620
+import  -/  StreetRun.Picture 75395a4c252b8548400a323f40a76527
+  exports: babc26a2152d66639b7a47ea4c5947f4
+  CameraControl 886c953787575a6ab7b91f5818c72b74
+  adjustCamera' e0a614f67400a50e568310b8cd0251a3
+import  -/  StreetRun.Play fde39e25142d663f83ffdc7c478d68a3
+  exports: fddfe503c07894a36563a64c1e4547d3
   Play 34ccbec8700b76610dd4c882634b2a13
-  playStep' 11345948b67a4e18c5c774f346f49c39
+  playStep' 33dbbbcf8794418576c3962bae5fa1b6
 import  -/  StreetRun.Renderer eba9a9e4c8700e42ea509a1bf564c30b
   exports: bdc569cebfaf1503ce959a9192a1814c
   Renderer 879b383bd7b1ca67a12fca41ecb57c3d
@@ -303,10 +301,10 @@ import  -/  StreetRun.Sound_effects a85edcbc0529355d0d823628a5187457
   addSfxs' a1d16c5d5c83fa4ed5f5fe23e20b87e5
   clearSfx' abc36d23b521fdce048ece0e11cb8977
   playSfx' 011d33880344a376bd197c0c84b80490
-import  -/  StreetRun.State afe769c83e1db811ae34958dff0a7dea
+import  -/  StreetRun.State 2b4a5b23cba95fdf8a8075ad75dbe6ec
   exports: 9215ef2a775e8ad7562f6edbfe13ac1f
-  Vars 4201915800ab738e9c71b5816972a806
-  initVars 6d6ef5bc51869b760cc5d989f3dd2330
+  Vars 06c844f355a6a421607a99fdffa4b901
+  initVars c01f031cbd84f26d28c85b81e68c6880
 import  -/  StreetRun.Title 7fc5acc47d603fae759ec80e05bc9953
   exports: b086a246cc8dd93e3bfebff4e6d99f5d
   Title fd9ee9f44b91ce89af456ee8e77d61f3
@@ -314,7 +312,7 @@ import  -/  StreetRun.Title 7fc5acc47d603fae759ec80e05bc9953
 import  -/  text-1.2.3.1:Data.Text.IO 04a90de6b55e7446693a989e9de89740
 import  -/  transformers-0.5.6.2:Control.Monad.Trans.Reader 56f58e64ea149219b98233a32ddd4759
 import  -/  transformers-0.5.6.2:Control.Monad.Trans.State.Lazy ff6ca0dfc09530bd7be56f884563f2c0
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fApplicativeStreetRun :: GHC.Base.Applicative StreetRun.StreetRun
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -367,7 +365,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    Sym (StreetRun.N:StreetRun[0]) <a>_N
                    ->_R Sym (StreetRun.N:StreetRun[0]) <b>_N
                    ->_R Sym (StreetRun.N:StreetRun[0]) <a>_N) -}
-7b34bfbfbae54f78dad06834a0b202f0
+6f60f3e069f72ea5dd97625902d175b3
   $fApplicativeStreetRun1 ::
     a
     -> StreetRun.Config.Config
@@ -383,7 +381,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (eta2 :: StreetRun.State.Vars)
                    (eta3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  (# eta3, (eta, eta2) #)) -}
-4de942eccc650479664d3ab459b58e04
+b64a10a2bec7581f581472783ddf806d
   $fApplicativeStreetRun_$s$fApplicativeReaderT_$c*> ::
     Control.Monad.Trans.Reader.ReaderT
       r
@@ -482,7 +480,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                <Control.Monad.Trans.State.Lazy.StateT
                                   StreetRun.State.Vars GHC.Types.IO>_R
                                <b>_N)) -}
-e5d7dfa0f8f4a856677c0d080cc6ec68
+bff58b2779b2e8124827ec352de4e3cb
   $fApplicativeStreetRun_$s$fApplicativeReaderT_$c<* ::
     Control.Monad.Trans.Reader.ReaderT
       r
@@ -561,7 +559,7 @@ e5d7dfa0f8f4a856677c0d080cc6ec68
                                                         <Control.Monad.Trans.State.Lazy.StateT
                                                            StreetRun.State.Vars GHC.Types.IO>_R
                                                         <a>_N)) -}
-45d989e8b042e9c7913e6e9999a6cd03
+ed4a6cc85ac32d25ad69c5a6bd13c800
   $fApplicativeStreetRun_$s$fApplicativeReaderT_$c<*> ::
     Control.Monad.Trans.Reader.ReaderT
       r
@@ -665,7 +663,7 @@ e5d7dfa0f8f4a856677c0d080cc6ec68
                                <Control.Monad.Trans.State.Lazy.StateT
                                   StreetRun.State.Vars GHC.Types.IO>_R
                                <b>_N)) -}
-d3befb016803b1762532811e29359b26
+a5ca1ed2f57d925f752cd9a25b268f19
   $fApplicativeStreetRun_$s$fApplicativeReaderT_$cliftA2 ::
     (a -> b -> c)
     -> Control.Monad.Trans.Reader.ReaderT
@@ -748,7 +746,7 @@ d3befb016803b1762532811e29359b26
                                                         <Control.Monad.Trans.State.Lazy.StateT
                                                            StreetRun.State.Vars GHC.Types.IO>_R
                                                         <c>_N)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fAudioSfxStreetRun ::
     StreetRun.Sound_effects.AudioSfx StreetRun.StreetRun
   DFunId
@@ -788,7 +786,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                              GHC.Types.IO>_R
                                                                                                           <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N))
                   StreetRun.$fAudioSfxStreetRun_$cplaySfx -}
-069699ab3569de88709da1d35b224843
+50dd74530a72fd1a860077ea15d01e26
   $fAudioSfxStreetRun1 ::
     [StreetRun.Sfx.Sfx]
     -> StreetRun.Config.Config
@@ -825,7 +823,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                        ds5
                        ds6
                        ds7 }) #)) -}
-c43a984b9be0ffdeaec7f98e706f70d1
+853e0f56b77210993d52c6f588f8aa23
   $fAudioSfxStreetRun2 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -854,7 +852,7 @@ c43a984b9be0ffdeaec7f98e706f70d1
                        ds5
                        ds6
                        ds7 }) #)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fAudioSfxStreetRun_$cplaySfx :: StreetRun.StreetRun ()
   {- Unfolding: (StreetRun.Sound_effects.playSfx'
                    @ StreetRun.StreetRun
@@ -865,7 +863,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (Sym (StreetRun.Common.N:HasCommonVars[0]
                              <StreetRun.State.Vars>_N))
                    StreetRun.$fMonadStateStreetRun) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fAudioStreetRun :: StreetRun.Audio.Audio StreetRun.StreetRun
   DFunId
   {- Inline: CONLIKE,
@@ -1097,7 +1095,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                         StreetRun.State.Vars
                                                                                                         GHC.Types.IO>_R
                                                                                                      <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-ace6775ce3dd4441a482a50ea618bc23
+638652411ebba2f54a5dd3921eb06dd6
   $fAudioStreetRun1 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -1116,7 +1114,7 @@ ace6775ce3dd4441a482a50ea618bc23
                         128#
                         eta1 of wild { (#,#) ds4 ds5 ->
                  (# ds4, (GHC.Tuple.(), eta) #) }) -}
-cd34bab7637be1a6018cba1079b4525b
+3414d6cbc61f6084ed231a85a86fdac7
   $fAudioStreetRun10 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -1203,7 +1201,7 @@ cd34bab7637be1a6018cba1079b4525b
                                         ((), StreetRun.State.Vars) #)
                               of {} } } } } })
                    eta1) -}
-314c416baa4bab9d5d57f1a13e19d37d
+3b021d11f155eb1d35a0c56cc7c38177
   $fAudioStreetRun11 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -1290,7 +1288,7 @@ cd34bab7637be1a6018cba1079b4525b
                                         ((), StreetRun.State.Vars) #)
                               of {} } } } } })
                    eta1) -}
-cce15d6230c05bd532a4e2fcee5ab019
+055ec36a014d897e3dcb10ee8037fbb9
   $fAudioStreetRun12 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -1377,7 +1375,7 @@ cce15d6230c05bd532a4e2fcee5ab019
                                         ((), StreetRun.State.Vars) #)
                               of {} } } } } })
                    eta1) -}
-34213aa8a34023cc14619e0ce874abd0
+eff577509aec2badec65a8c667558a94
   $fAudioStreetRun13 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -1464,7 +1462,7 @@ cce15d6230c05bd532a4e2fcee5ab019
                                         ((), StreetRun.State.Vars) #)
                               of {} } } } } })
                    eta1) -}
-0a0a95d34eb7fb3318981f759bb26255
+f7113248cb7f5469c9a1f307e2d74149
   $fAudioStreetRun14 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -1482,7 +1480,7 @@ cce15d6230c05bd532a4e2fcee5ab019
                                                              GHC.Prim.Int# #)}
                         eta1 of wild { (#,#) ds1 ds2 ->
                  (# ds1, (GHC.Tuple.(), eta) #) }) -}
-e37ea72ed6d809e3371853bdd5385f6d
+2ab236ea6023ea441a9d455901f404d5
   $fAudioStreetRun15 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -1502,7 +1500,7 @@ e37ea72ed6d809e3371853bdd5385f6d
                         `cast`
                       (SDL.Mixer.N:Music[0]) of ww33 { GHC.Ptr.Ptr ww34 ->
                  StreetRun.$w$splayGameMusic' ww34 w1 w2 } } }) -}
-62475a59258a0ccdd9d65c76a87498bc
+21eef3ed5d229b1b787756d2dc50e3fa
   $fAudioStreetRun2 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -1521,7 +1519,7 @@ e37ea72ed6d809e3371853bdd5385f6d
                         16#
                         eta1 of wild { (#,#) ds4 ds5 ->
                  (# ds4, (GHC.Tuple.(), eta) #) }) -}
-05a7ad1b8623f500d3510e4c5596bd60
+47c084f83af8c6bde4ee823b3d4737d0
   $fAudioStreetRun3 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -1608,7 +1606,7 @@ e37ea72ed6d809e3371853bdd5385f6d
                                         ((), StreetRun.State.Vars) #)
                               of {} } } } } })
                    eta1) -}
-711d9f559fda42af623b087dbdad42d7
+59952c32d11656d2ae4b596c324d258f
   $fAudioStreetRun4 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -1695,7 +1693,7 @@ e37ea72ed6d809e3371853bdd5385f6d
                                         ((), StreetRun.State.Vars) #)
                               of {} } } } } })
                    eta1) -}
-e74d2555c90257f046dd3f1143ee6c1b
+351c5705e9925aec2030e1c94e73578d
   $fAudioStreetRun5 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -1782,7 +1780,7 @@ e74d2555c90257f046dd3f1143ee6c1b
                                         ((), StreetRun.State.Vars) #)
                               of {} } } } } })
                    eta1) -}
-fd6f486920f90e70f5552d7d25b55c29
+be094a42833df5cf3e3be375f009f6bd
   $fAudioStreetRun6 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -1869,7 +1867,7 @@ fd6f486920f90e70f5552d7d25b55c29
                                         ((), StreetRun.State.Vars) #)
                               of {} } } } } })
                    eta1) -}
-47a0213c385a8d36a8845e56f93b6883
+7c2e041b619e815f0a7a0a030b90d5d5
   $fAudioStreetRun7 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -1956,7 +1954,7 @@ fd6f486920f90e70f5552d7d25b55c29
                                         ((), StreetRun.State.Vars) #)
                               of {} } } } } })
                    eta1) -}
-0ad9971da93b35567c3a544a12ba7fe7
+ee71c2bfb73d7e641f32ea34f967fe21
   $fAudioStreetRun8 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -2043,7 +2041,7 @@ fd6f486920f90e70f5552d7d25b55c29
                                         ((), StreetRun.State.Vars) #)
                               of {} } } } } })
                    eta1) -}
-91f785789e5a456f4375b78dd8b68b9f
+48da8a172d278bd3c6dfbb360462a1ee
   $fAudioStreetRun9 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -2130,7 +2128,7 @@ fd6f486920f90e70f5552d7d25b55c29
                                         ((), StreetRun.State.Vars) #)
                               of {} } } } } })
                    eta1) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fCameraControlStreetRun ::
     StreetRun.Picture.CameraControl StreetRun.StreetRun
   DFunId
@@ -2138,7 +2136,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
      Unfolding: DFun:.
                   @ StreetRun.StreetRun
                   StreetRun.$fMonadStreetRun
-                  StreetRun.$fCameraControlStreetRun7
+                  StreetRun.$fCameraControlStreetRun1
                     `cast`
                   (<StreetRun.Camera.Camera>_R
                    ->_R (<StreetRun.Config.Config>_R
@@ -2153,188 +2151,9 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                           <Control.Monad.Trans.State.Lazy.StateT
                                                                                                              StreetRun.State.Vars
                                                                                                              GHC.Types.IO>_R
-                                                                                                          <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N))
-                  StreetRun.$fCameraControlStreetRun2
-                    `cast`
-                  ((<StreetRun.Config.Config>_R
-                    ->_R (<StreetRun.State.Vars>_R
-                          ->_R Sym (GHC.Types.N:IO[0]
-                                        <((),
-                                          StreetRun.State.Vars)>_R)) ; Sym (Control.Monad.Trans.State.Lazy.N:StateT[0]
-                                                                                <StreetRun.State.Vars>_N
-                                                                                <GHC.Types.IO>_R
-                                                                                <()>_N)) ; (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
-                                                                                                     <StreetRun.Config.Config>_R
-                                                                                                     <Control.Monad.Trans.State.Lazy.StateT
-                                                                                                        StreetRun.State.Vars
-                                                                                                        GHC.Types.IO>_R
-                                                                                                     <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N))
-                  StreetRun.$fCameraControlStreetRun1
-                    `cast`
-                  ((<StreetRun.Config.Config>_R
-                    ->_R (<StreetRun.State.Vars>_R
-                          ->_R Sym (GHC.Types.N:IO[0]
-                                        <((),
-                                          StreetRun.State.Vars)>_R)) ; Sym (Control.Monad.Trans.State.Lazy.N:StateT[0]
-                                                                                <StreetRun.State.Vars>_N
-                                                                                <GHC.Types.IO>_R
-                                                                                <()>_N)) ; (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
-                                                                                                     <StreetRun.Config.Config>_R
-                                                                                                     <Control.Monad.Trans.State.Lazy.StateT
-                                                                                                        StreetRun.State.Vars
-                                                                                                        GHC.Types.IO>_R
-                                                                                                     <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-29bb5003cfc80b91559512f1a95a2cf6
+                                                                                                          <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
+d05c2a68001b3ce0f87f1485dd166976
   $fCameraControlStreetRun1 ::
-    StreetRun.Config.Config
-    -> StreetRun.State.Vars
-    -> GHC.Prim.State# GHC.Prim.RealWorld
-    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
-          ((), StreetRun.State.Vars) #)
-  {- Arity: 3,
-     Strictness: <L,1*U(A,1*U(U),A)><S(LLLLLLLS),1*U(U,U,U,U,U,U,U,U(U(U(U),U(U)),U(U,U)))><S,U>,
-     Unfolding: (\ (r1 :: StreetRun.Config.Config)
-                   (eta :: StreetRun.State.Vars)
-                   (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
-                 case eta of wild { StreetRun.State.Vars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
-                 case ds8 of ww3 { StreetRun.Camera.Camera ww4 ww5 ->
-                 let {
-                   renderer :: SDL.Internal.Types.Renderer
-                   = case r1 of wild1 { StreetRun.Config.Config ds11 ds12 ds13 ->
-                     ds12 }
-                 } in
-                 case SDL.Video.Renderer.$wrendererScale
-                        renderer of ww1 { (#,#) ww2 ww6 ->
-                 case (ww6
-                         (case ww5 of wild1 { Linear.V2.V2 a1 b1 ->
-                          Linear.V2.V2
-                            @ Foreign.C.Types.CFloat
-                            a1 `cast` (Sym (Foreign.C.Types.N:CFloat[0]))
-                            b1 `cast` (Sym (Foreign.C.Types.N:CFloat[0])) }))
-                        `cast`
-                      (GHC.Types.N:IO[0] <()>_R)
-                        eta1 of ds11 { (#,#) ipv ipv1 ->
-                 case SDL.Video.Renderer.$wrendererViewport
-                        renderer of ww9 { (#,#) ww10 ww11 ->
-                 case (ww11
-                         (GHC.Maybe.Just
-                            @ (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
-                            (SDL.Video.Renderer.Rectangle
-                               @ Foreign.C.Types.CInt
-                               (case ww4 of wild1 { Linear.V2.V2 x y ->
-                                case x of wild2 { GHC.Types.F# y1 ->
-                                case y of wild3 { GHC.Types.F# y2 ->
-                                case GHC.Float.$w$cproperFraction1
-                                       @ Foreign.C.Types.CInt
-                                       Foreign.C.Types.$fIntegralCInt
-                                       (GHC.Prim.minusFloat# 640.0# y1) of ww7 { (#,#) ww8 ww12 ->
-                                case ww8
-                                       `cast`
-                                     (Foreign.C.Types.N:CInt[0]) of nt { GHC.Int.I32# ipv2 ->
-                                case GHC.Float.$w$cproperFraction1
-                                       @ Foreign.C.Types.CInt
-                                       Foreign.C.Types.$fIntegralCInt
-                                       (GHC.Prim.minusFloat# 640.0# y2) of ww13 { (#,#) ww14 ww15 ->
-                                case ww14
-                                       `cast`
-                                     (Foreign.C.Types.N:CInt[0]) of nt1 { GHC.Int.I32# ipv3 ->
-                                (Linear.V2.V2
-                                   @ Foreign.C.Types.CInt
-                                   nt `cast` (Sym (Foreign.C.Types.N:CInt[0]))
-                                   nt1 `cast` (Sym (Foreign.C.Types.N:CInt[0])))
-                                  `cast`
-                                (Sym (Linear.Affine.N:Point[0]
-                                          <Linear.V2.V2>_R) <Foreign.C.Types.CInt>_N) } } } } } } })
-                               StreetRun.Picture.adjustCamera'_dim)))
-                        `cast`
-                      (GHC.Types.N:IO[0] <()>_R)
-                        ipv of ds12 { (#,#) ipv2 ipv3 ->
-                 case SDL.Video.Renderer.$wrendererClipRect
-                        renderer of ww12 { (#,#) ww13 ww14 ->
-                 case (ww14 StreetRun.Picture.adjustCamera'1)
-                        `cast`
-                      (GHC.Types.N:IO[0] <()>_R)
-                        ipv2 of ds13 { (#,#) ipv4 ipv5 ->
-                 (# ipv4, (ipv5, wild) #) } } } } } } } }) -}
-b2c1d212e2304627a3326a8a016a491a
-  $fCameraControlStreetRun2 ::
-    StreetRun.Config.Config
-    -> StreetRun.State.Vars
-    -> GHC.Prim.State# GHC.Prim.RealWorld
-    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
-          ((), StreetRun.State.Vars) #)
-  {- Arity: 3, Strictness: <L,1*U(A,1*U(U),A)><L,U><S,U>,
-     Unfolding: (\ (r1 :: StreetRun.Config.Config)
-                   (eta :: StreetRun.State.Vars)
-                   (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
-                 let {
-                   eta2 :: SDL.Internal.Types.Renderer
-                   = case r1 of wild { StreetRun.Config.Config ds1 ds2 ds3 -> ds2 }
-                 } in
-                 case SDL.Video.Renderer.$wrendererScale
-                        eta2 of ww4 { (#,#) ww5 ww6 ->
-                 case (ww6 StreetRun.$fCameraControlStreetRun6)
-                        `cast`
-                      (GHC.Types.N:IO[0] <()>_R)
-                        eta1 of ds1 { (#,#) ipv ipv1 ->
-                 case SDL.Video.Renderer.$wrendererViewport
-                        eta2 of ww1 { (#,#) ww2 ww3 ->
-                 case (ww3 StreetRun.$fCameraControlStreetRun3)
-                        `cast`
-                      (GHC.Types.N:IO[0] <()>_R)
-                        ipv of ds2 { (#,#) ipv2 ipv3 ->
-                 case SDL.Video.Renderer.$wrendererClipRect
-                        eta2 of ww7 { (#,#) ww8 ww9 ->
-                 case (ww9 StreetRun.Picture.adjustCamera'1)
-                        `cast`
-                      (GHC.Types.N:IO[0] <()>_R)
-                        ipv2 of ds3 { (#,#) ipv4 ipv5 ->
-                 (# ipv4, (ipv5, eta) #) } } } } } }) -}
-dea6a83beb480dc8cb57c55d9eba61e0
-  $fCameraControlStreetRun3 ::
-    GHC.Maybe.Maybe (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
-  {- Strictness: m2,
-     Unfolding: (GHC.Maybe.Just
-                   @ (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
-                   StreetRun.$fCameraControlStreetRun4) -}
-0f2f5fc3142b0c7bd86c6286e60fe3ae
-  $fCameraControlStreetRun4 ::
-    SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt
-  {- Strictness: m,
-     Unfolding: (SDL.Video.Renderer.Rectangle
-                   @ Foreign.C.Types.CInt
-                   StreetRun.$fCameraControlStreetRun5
-                   StreetRun.Picture.adjustCamera'_dim) -}
-f2fb1f4ef1cee1ba10d0234792b88859
-  $fCameraControlStreetRun5 ::
-    Linear.Affine.Point Linear.V2.V2 Foreign.C.Types.CInt
-  {- Unfolding: (case GHC.Float.$w$cproperFraction1
-                        @ Foreign.C.Types.CInt
-                        Foreign.C.Types.$fIntegralCInt
-                        0.0# of ww7 { (#,#) ww8 ww9 ->
-                 case ww8
-                        `cast`
-                      (Foreign.C.Types.N:CInt[0]) of nt { GHC.Int.I32# ipv ->
-                 (Linear.V2.V2
-                    @ Foreign.C.Types.CInt
-                    nt `cast` (Sym (Foreign.C.Types.N:CInt[0]))
-                    (GHC.Int.I32# ipv) `cast` (Sym (Foreign.C.Types.N:CInt[0])))
-                   `cast`
-                 (Sym (Linear.Affine.N:Point[0]
-                           <Linear.V2.V2>_R) <Foreign.C.Types.CInt>_N) } }) -}
-e5663349ebe3365a7d32285d60ce1186
-  $fCameraControlStreetRun6 :: Linear.V2.V2 Foreign.C.Types.CFloat
-  {- HasNoCafRefs, Strictness: m,
-     Unfolding: (Linear.V2.V2
-                   @ Foreign.C.Types.CFloat
-                   StreetRun.Camera.initCamera2
-                     `cast`
-                   (Sym (Foreign.C.Types.N:CFloat[0]))
-                   StreetRun.Camera.initCamera2
-                     `cast`
-                   (Sym (Foreign.C.Types.N:CFloat[0]))) -}
-a1b772b7fe8ff28ba982d71b1792a369
-  $fCameraControlStreetRun7 ::
     StreetRun.Camera.Camera
     -> StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -2351,7 +2170,7 @@ a1b772b7fe8ff28ba982d71b1792a369
                    (w3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  case w of ww { StreetRun.Camera.Camera ww1 ww2 ->
                  StreetRun.$w$sadjustCamera' ww1 ww2 w1 w2 w3 }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fClockStreetRun :: StreetRun.Clock.Clock StreetRun.StreetRun
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -2374,7 +2193,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                              StreetRun.State.Vars
                                                                                                              GHC.Types.IO>_R
                                                                                                           <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-7655ee583c990dfe1c678e6adbfaaa24
+ec139a351ea711edb3de6d6a78414e8c
   $fClockStreetRun1 ::
     GHC.Types.Int
     -> StreetRun.Config.Config
@@ -2389,7 +2208,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (w2 :: StreetRun.State.Vars)
                    (w3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  StreetRun.$w$cdelayMilliseconds w w2 w3) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fDeathStreetRun :: StreetRun.Death.Death StreetRun.StreetRun
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -2397,7 +2216,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                   @ StreetRun.StreetRun
                   StreetRun.$fMonadStreetRun
                   StreetRun.$fDeathStreetRun_$cdeathStep -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fDeathStreetRun_$cdeathStep :: StreetRun.StreetRun ()
   {- Unfolding: (StreetRun.Death.deathStep'
                    @ StreetRun.State.Vars
@@ -2416,7 +2235,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    StreetRun.$fRendererStreetRun
                    StreetRun.$fCameraControlStreetRun
                    StreetRun.$fHUDStreetRun) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fFunctorStreetRun :: GHC.Base.Functor StreetRun.StreetRun
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -2436,7 +2255,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    <a>_R
                    ->_R Sym (StreetRun.N:StreetRun[0]) <b>_N
                    ->_R Sym (StreetRun.N:StreetRun[0]) <a>_N) -}
-06df57ae7be5822e73f8abd2701caeed
+0a23228c5a9d60c6000c2dac2d39c024
   $fFunctorStreetRun_$s$fFunctorReaderT_$c<$ ::
     a
     -> Control.Monad.Trans.Reader.ReaderT
@@ -2506,7 +2325,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                <Control.Monad.Trans.State.Lazy.StateT
                                   StreetRun.State.Vars GHC.Types.IO>_R
                                <a>_N)) -}
-66516dd2d25bd64393821fdca27e2e80
+1be2ca96f4c4e922ddbaf1e8a4399d9e
   $fFunctorStreetRun_$s$fFunctorReaderT_$cfmap ::
     (a -> b)
     -> Control.Monad.Trans.Reader.ReaderT
@@ -2539,7 +2358,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                       @ a
                       @ b
                       f)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fGameOverStreetRun ::
     StreetRun.GameOver.GameOver StreetRun.StreetRun
   DFunId
@@ -2548,7 +2367,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                   @ StreetRun.StreetRun
                   StreetRun.$fMonadStreetRun
                   StreetRun.$fGameOverStreetRun_$cgameOverStep -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fGameOverStreetRun_$cgameOverStep :: StreetRun.StreetRun ()
   {- Unfolding: (StreetRun.GameOver.gameOverStep'
                    @ StreetRun.State.Vars
@@ -2571,7 +2390,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    StreetRun.$fRendererStreetRun
                    StreetRun.$fCameraControlStreetRun
                    StreetRun.$fHUDStreetRun) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fHUDStreetRun :: StreetRun.HUD.HUD StreetRun.StreetRun
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -2623,7 +2442,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                         StreetRun.State.Vars
                                                                                                         GHC.Types.IO>_R
                                                                                                      <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fHUDStreetRun1 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -2649,7 +2468,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                         r1
                         wild
                         eta1 } } } }) -}
-a277c579091dc9ee94ed00478238509d
+5e1d190f886b29e6682eecea170be21c
   $fHUDStreetRun2 ::
     GHC.Types.IO a
     -> StreetRun.Config.Config
@@ -2668,7 +2487,7 @@ a277c579091dc9ee94ed00478238509d
                  case x `cast` (GHC.Types.N:IO[0] <a>_R)
                         eta2 of ds1 { (#,#) ipv ipv1 ->
                  (# ipv, (ipv1, eta1) #) }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fHUDStreetRun3 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -2705,7 +2524,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    `cast`
                  (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                    eta1 } } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fHUDStreetRun4 ::
     StreetRun.Font.Number
     -> (GHC.Types.Int, GHC.Types.Int)
@@ -2725,7 +2544,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (w4 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  case w1 of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawNumber w ww1 ww2 w2 w3 w4 }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fHUDStreetRun5 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -2768,7 +2587,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    `cast`
                  (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                    ipv } } } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fHUDStreetRun6 ::
     (GHC.Types.Int, GHC.Types.Int)
     -> StreetRun.Config.Config
@@ -2786,7 +2605,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (w3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  case w of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawHiscoreText ww1 ww2 w1 w2 w3 }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fHUDStreetRun_$dRenderer :: GHC.Base.Monad StreetRun.StreetRun
   {- Strictness: m,
      Unfolding: (GHC.Base.C:Monad
@@ -2824,7 +2643,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                              GHC.Types.IO>_R
                                                                                                           <a>_N) ; Sym (StreetRun.N:StreetRun[0]) <a>_N))
                    (StreetRun.HUD.drawHiscore'34 @ StreetRun.StreetRun)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fHUDStreetRun_$dRenderer1 ::
     StreetRun.Renderer.Renderer StreetRun.StreetRun
   {- Unfolding: (StreetRun.Renderer.C:Renderer
@@ -2871,7 +2690,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                               GHC.Types.IO>_R
                                                                                                            <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N))
                    (StreetRun.HUD.drawHiscore'6 @ StreetRun.StreetRun)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fHUDStreetRun_$dRenderer2 ::
     StreetRun.Renderer.Renderer StreetRun.StreetRun
   {- Unfolding: (StreetRun.Renderer.C:Renderer
@@ -2933,7 +2752,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                               GHC.Types.IO>_R
                                                                                                            <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N))
                    (StreetRun.HUD.drawHiscore'6 @ StreetRun.StreetRun)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fHasInputStreetRun :: StreetRun.Load.HasInput StreetRun.StreetRun
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -2986,7 +2805,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                                            StreetRun.State.Vars
                                                                                                                            GHC.Types.IO>_R
                                                                                                                         <StreetRun.Input.Input>_N) ; Sym (StreetRun.N:StreetRun[0]) <StreetRun.Input.Input>_N)) -}
-2736d513f7cb0b2b37fd4c57b786e2ac
+56317b4350f7ff2da60cf22921aa2111
   $fHasInputStreetRun1 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -3003,7 +2822,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                     (case eta of wild { StreetRun.State.Vars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
                      ds7 },
                      eta) #)) -}
-db9b2d08495aeb344235046c4eab947c
+bf0d82dd956ea056641b2de0a19379ef
   $fHasInputStreetRun2 ::
     StreetRun.Input.Input
     -> StreetRun.Config.Config
@@ -3022,7 +2841,7 @@ db9b2d08495aeb344235046c4eab947c
                     (GHC.Tuple.(),
                      case eta1 of wild { StreetRun.State.Vars ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
                      StreetRun.State.Vars ds ds1 ds2 ds3 ds4 ds5 input ds7 }) #)) -}
-2f59fb3d3de677dff31e064a17171e1c
+3cd0098cf0d7d9b7279cd2b4cb1f4b4f
   $fHasInputStreetRun3 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -3037,7 +2856,7 @@ db9b2d08495aeb344235046c4eab947c
                    (w1 :: StreetRun.State.Vars)
                    (w2 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  StreetRun.$w$cupdateInput w1 w2) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fLoggerStreetRun :: StreetRun.Logger.Logger StreetRun.StreetRun
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -3060,7 +2879,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                              StreetRun.State.Vars
                                                                                                              GHC.Types.IO>_R
                                                                                                           <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-b6246a3ef203e435e997c49b04579fe8
+7b7147a5f687e9a185dced24282c882d
   $fLoggerStreetRun1 ::
     Data.Text.Internal.Text
     -> StreetRun.Config.Config
@@ -3083,7 +2902,7 @@ b6246a3ef203e435e997c49b04579fe8
                         '\n'#
                         ipv of ds2 { (#,#) ipv2 ipv3 ->
                  (# ipv2, (ipv3, eta1) #) } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fMonadCatchStreetRun ::
     Control.Monad.Catch.MonadCatch StreetRun.StreetRun
   DFunId
@@ -3102,7 +2921,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                  <Control.Monad.Trans.State.Lazy.StateT
                                     StreetRun.State.Vars GHC.Types.IO>_R
                                  <a>_N) ; Sym (StreetRun.N:StreetRun[0]) <a>_N) -}
-266af14317d32d74d5f16179ea9d602b
+052f7b9df1080deaa422458896799a36
   $fMonadCatchStreetRun1 ::
     GHC.Exception.Type.Exception e =>
     Control.Monad.Trans.Reader.ReaderT
@@ -3191,7 +3010,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                          <StreetRun.State.Vars>_N
                                                                          <GHC.Types.IO>_R
                                                                          <a>_N))) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fMonadIOStreetRun ::
     Control.Monad.IO.Class.MonadIO StreetRun.StreetRun
   DFunId
@@ -3216,7 +3035,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                             StreetRun.State.Vars
                                                                                                             GHC.Types.IO>_R
                                                                                                          <a>_N) ; Sym (StreetRun.N:StreetRun[0]) <a>_N)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fMonadReaderStreetRun ::
     Control.Monad.Reader.Class.MonadReader
       StreetRun.Config.Config StreetRun.StreetRun
@@ -3256,7 +3075,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                   (forall (a :: <*>_N).
                    <StreetRun.Config.Config -> a>_R
                    ->_R Sym (StreetRun.N:StreetRun[0]) <a>_N) -}
-286cde354d1f51e39aaba423450dbc21
+3951e4e29756fcfc2abea6bad4123d51
   $fMonadReaderStreetRun1 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -3269,7 +3088,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (eta1 :: StreetRun.State.Vars)
                    (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  (# s, (eta, eta1) #)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fMonadStateStreetRun ::
     Control.Monad.State.Class.MonadState
       StreetRun.State.Vars StreetRun.StreetRun
@@ -3327,7 +3146,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                             StreetRun.State.Vars
                                                                                                             GHC.Types.IO>_R
                                                                                                          <a>_N) ; Sym (StreetRun.N:StreetRun[0]) <a>_N)) -}
-c867ea84f24b34b21f83761e13188914
+415bdaf852c880cca9a607b6f7a95041
   $fMonadStateStreetRun1 ::
     (StreetRun.State.Vars -> (a, StreetRun.State.Vars))
     -> StreetRun.Config.Config
@@ -3343,7 +3162,7 @@ c867ea84f24b34b21f83761e13188914
                    (eta2 :: StreetRun.State.Vars)
                    (eta3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  (# eta3, eta eta2 #)) -}
-7c338d546e9efdc1c394ba8f2d9b52b7
+63399390d17db660afc30f15f0ed558f
   $fMonadStateStreetRun2 ::
     StreetRun.State.Vars
     -> StreetRun.Config.Config
@@ -3358,7 +3177,7 @@ c867ea84f24b34b21f83761e13188914
                    (eta2 :: StreetRun.State.Vars)
                    (eta3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  (# eta3, (GHC.Tuple.(), eta) #)) -}
-b46140d1a14a21107ead6c569f8202a7
+954cbfffb6120506360f65ad47fd9a1b
   $fMonadStateStreetRun3 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -3371,7 +3190,7 @@ b46140d1a14a21107ead6c569f8202a7
                    (x :: StreetRun.State.Vars)
                    (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  (# s, (x, x) #)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fMonadStreetRun :: GHC.Base.Monad StreetRun.StreetRun
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -3414,7 +3233,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                     `cast`
                   (forall (a :: <*>_N).
                    <[GHC.Types.Char]>_R ->_R Sym (StreetRun.N:StreetRun[0]) <a>_N) -}
-6e11d8bc4931755e776aec90a8db6412
+eabff0a2d20d791d085b3317290bd575
   $fMonadStreetRun_$s$fMonadReaderT_$c>>= ::
     Control.Monad.Trans.Reader.ReaderT
       r
@@ -3514,7 +3333,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                <Control.Monad.Trans.State.Lazy.StateT
                                   StreetRun.State.Vars GHC.Types.IO>_R
                                <b>_N)) -}
-77920f80fe61f71929100dc55d99a855
+00886ed141494eb325398d3a0af41d7c
   $fMonadStreetRun_$s$fMonadReaderT_$cfail ::
     GHC.Base.String
     -> Control.Monad.Trans.Reader.ReaderT
@@ -3550,7 +3369,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                     <Control.Monad.Trans.State.Lazy.StateT
                                                        StreetRun.State.Vars GHC.Types.IO>_R
                                                     <a>_N))) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fMonadThrowStreetRun ::
     Control.Monad.Catch.MonadThrow StreetRun.StreetRun
   DFunId
@@ -3576,7 +3395,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                             StreetRun.State.Vars
                                                                                                             GHC.Types.IO>_R
                                                                                                          <a>_N) ; Sym (StreetRun.N:StreetRun[0]) <a>_N)) -}
-cbfee85e5323a9b9a6d3ffaff44a7834
+25be92a41c17a9bbd261278c91d1f460
   $fMonadThrowStreetRun1 ::
     GHC.Exception.Type.Exception e =>
     e
@@ -3603,7 +3422,7 @@ cbfee85e5323a9b9a6d3ffaff44a7834
                  ret_ty (# GHC.Prim.State# GHC.Prim.RealWorld,
                            (a, StreetRun.State.Vars) #)
                  of {}) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fPauseStreetRun :: StreetRun.Pause.Pause StreetRun.StreetRun
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -3611,7 +3430,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                   @ StreetRun.StreetRun
                   StreetRun.$fMonadStreetRun
                   StreetRun.$fPauseStreetRun_$cpauseStep -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fPauseStreetRun_$cpauseStep :: StreetRun.StreetRun ()
   {- Unfolding: (StreetRun.Pause.pauseStep'
                    @ StreetRun.State.Vars
@@ -3630,7 +3449,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    StreetRun.$fRendererStreetRun
                    StreetRun.$fCameraControlStreetRun
                    StreetRun.$fHUDStreetRun) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fPlayStreetRun :: StreetRun.Play.Play StreetRun.StreetRun
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -3638,7 +3457,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                   @ StreetRun.StreetRun
                   StreetRun.$fMonadStreetRun
                   StreetRun.$fPlayStreetRun_$cplayStep -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fPlayStreetRun_$cplayStep :: StreetRun.StreetRun ()
   {- Unfolding: (StreetRun.Play.playStep'
                    @ StreetRun.State.Vars
@@ -3661,7 +3480,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    StreetRun.$fHasInputStreetRun
                    StreetRun.$fSceneManagerStreetRun
                    StreetRun.$fHUDStreetRun) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun ::
     StreetRun.Renderer.Renderer StreetRun.StreetRun
   DFunId
@@ -4096,7 +3915,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                              StreetRun.State.Vars
                                                                                                              GHC.Types.IO>_R
                                                                                                           <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun1 ::
     (GHC.Types.Int, GHC.Types.Int)
     -> StreetRun.Config.Config
@@ -4161,7 +3980,7 @@ ff9ad4d942c28e03be90feb46b94061a
                  case x of wild { StreetRun.Config.Config ds1 ds2 ds3 ->
                  case ds3 of wild1 { StreetRun.Resource.Resources ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ds29 ds30 ds31 ->
                  ds4 } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun16 ::
     Animate.SpriteClip StreetRun.Snag.BirdKey
     -> (GHC.Types.Int, GHC.Types.Int)
@@ -4181,7 +4000,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (w4 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  case w1 of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawBird w ww1 ww2 w2 w3 w4 }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun17 ::
     Animate.SpriteClip StreetRun.Snag.RockKey
     -> (GHC.Types.Int, GHC.Types.Int)
@@ -4201,7 +4020,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (w4 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  case w1 of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawRock w ww1 ww2 w2 w3 w4 }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun18 ::
     Animate.SpriteClip StreetRun.Snag.LavaKey
     -> (GHC.Types.Int, GHC.Types.Int)
@@ -4221,7 +4040,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (w4 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  case w1 of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawLava w ww1 ww2 w2 w3 w4 }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun19 ::
     Animate.SpriteClip StreetRun.Runner.RunnerKey
     -> (GHC.Types.Int, GHC.Types.Int)
@@ -4241,7 +4060,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (w4 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  case w1 of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawRunner w ww1 ww2 w2 w3 w4 }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun2 ::
     (GHC.Types.Int, GHC.Types.Int)
     -> StreetRun.Config.Config
@@ -4259,7 +4078,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (w3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  case w of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawTitleText ww1 ww2 w1 w2 w3 }) -}
-c16b359865240db33d052697f4f8fde3
+fcef38cedfd8bf91a89fbea213ea38b8
   $fRendererStreetRun20 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -4281,7 +4100,7 @@ c16b359865240db33d052697f4f8fde3
                      case ds3 of wild1 { StreetRun.Resource.Resources ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ds29 ds30 ds31 ->
                      case ds5 of wild2 { Animate.SpriteSheet ds32 ds33 -> ds32 } } },
                      eta) #)) -}
-bb0fe04232dacb2b73f5a4b3a752ca3a
+a3eddb196b2dca1291b20da04664eaed
   $fRendererStreetRun21 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -4303,7 +4122,7 @@ bb0fe04232dacb2b73f5a4b3a752ca3a
                      case ds3 of wild1 { StreetRun.Resource.Resources ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ds29 ds30 ds31 ->
                      case ds4 of wild2 { Animate.SpriteSheet ds32 ds33 -> ds32 } } },
                      eta) #)) -}
-b55078708602ebea3bb2dc8215ec3a06
+587c2375566385f84761382c713a535c
   $fRendererStreetRun22 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -4325,7 +4144,7 @@ b55078708602ebea3bb2dc8215ec3a06
                      case ds3 of wild1 { StreetRun.Resource.Resources ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ds29 ds30 ds31 ->
                      case ds9 of wild2 { Animate.SpriteSheet ds32 ds33 -> ds32 } } },
                      eta) #)) -}
-c1844315bd608d5bd3c24672abbb8fa7
+003dcdb1883a8cb4d107ee960ece1244
   $fRendererStreetRun23 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -4347,7 +4166,7 @@ c1844315bd608d5bd3c24672abbb8fa7
                      case ds3 of wild1 { StreetRun.Resource.Resources ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ds29 ds30 ds31 ->
                      case ds11 of wild2 { Animate.SpriteSheet ds32 ds33 -> ds32 } } },
                      eta) #)) -}
-5eb9755bf037e9ee187fc1a8fbbcb9b8
+de58de07e0eadd3fb388c5d0918122ae
   $fRendererStreetRun24 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -4369,7 +4188,7 @@ c1844315bd608d5bd3c24672abbb8fa7
                      case ds3 of wild1 { StreetRun.Resource.Resources ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ds29 ds30 ds31 ->
                      case ds10 of wild2 { Animate.SpriteSheet ds32 ds33 -> ds32 } } },
                      eta) #)) -}
-e66c9b211ba7de8c24642d2f0cf7ae02
+0135fc266b202d86d164c2d8fa3aef8b
   $fRendererStreetRun25 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -4391,7 +4210,7 @@ e66c9b211ba7de8c24642d2f0cf7ae02
                      case ds3 of wild1 { StreetRun.Resource.Resources ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ds29 ds30 ds31 ->
                      case ds8 of wild2 { Animate.SpriteSheet ds32 ds33 -> ds32 } } },
                      eta) #)) -}
-63e96a7ad30fb9cf7d1f17789c6d4adf
+b03088bf4c00d9b1b290d627cb36cb7c
   $fRendererStreetRun26 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -4414,7 +4233,7 @@ e66c9b211ba7de8c24642d2f0cf7ae02
                         ds4
                         eta1 of wild1 { Unit# ds5 ->
                  (# ds5, (GHC.Tuple.(), eta) #) } } }) -}
-ab878c6fc304395b362d466c06c020c1
+5665531e5cce7806e22e984c91c1b17d
   $fRendererStreetRun27 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -4432,7 +4251,7 @@ ab878c6fc304395b362d466c06c020c1
                         `cast`
                       (SDL.Internal.Types.N:Renderer[0]) of ww4 { GHC.Ptr.Ptr ww5 ->
                  StreetRun.$w$cclearScreen ww5 w1 w2 } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun3 ::
     (GHC.Types.Int, GHC.Types.Int)
     -> StreetRun.Config.Config
@@ -4450,7 +4269,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (w3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  case w of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawPressEscapeText ww1 ww2 w1 w2 w3 }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun4 ::
     (GHC.Types.Int, GHC.Types.Int)
     -> StreetRun.Config.Config
@@ -4468,7 +4287,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (w3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  case w of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawPressSpaceText ww1 ww2 w1 w2 w3 }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun5 ::
     (GHC.Types.Int, GHC.Types.Int)
     -> StreetRun.Config.Config
@@ -4486,7 +4305,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (w3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  case w of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawGameOverText ww1 ww2 w1 w2 w3 }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun6 ::
     (GHC.Types.Int, GHC.Types.Int)
     -> StreetRun.Config.Config
@@ -4504,7 +4323,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (w3 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  case w of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawPauseText ww1 ww2 w1 w2 w3 }) -}
-743de2efec8224e38e9c04c2ef915b92
+3a535f4e25bc8a0b6ce7c8072a9d5588
   $fRendererStreetRun7 ::
     StreetRun.Types.Percent
     -> StreetRun.Config.Config
@@ -4599,7 +4418,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                  case x of wild { StreetRun.Config.Config ds1 ds2 ds3 ->
                  case ds3 of wild1 { StreetRun.Resource.Resources ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ds29 ds30 ds31 ->
                  ds7 } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun_$cdrawBackStreet ::
     (GHC.Types.Int, GHC.Types.Int) -> StreetRun.StreetRun ()
   {- Arity: 1, Strictness: <S,1*U(U(U),U(U))>, Inline: [2],
@@ -4607,7 +4426,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                 (\ (w :: (GHC.Types.Int, GHC.Types.Int)) ->
                  case w of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawBackStreet ww1 ww2 }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun_$cdrawBuilding ::
     StreetRun.Types.DrawSprite
       StreetRun.Scenario.BuildingKey StreetRun.StreetRun
@@ -4619,7 +4438,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (w1 :: (GHC.Types.Int, GHC.Types.Int)) ->
                  case w1 of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawBuilding w ww1 ww2 }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun_$cdrawGrass ::
     StreetRun.Types.DrawSprite
       StreetRun.Scenario.GrassKey StreetRun.StreetRun
@@ -4631,7 +4450,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (w1 :: (GHC.Types.Int, GHC.Types.Int)) ->
                  case w1 of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawGrass w ww1 ww2 }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fRendererStreetRun_$cdrawStreet ::
     (GHC.Types.Int, GHC.Types.Int) -> StreetRun.StreetRun ()
   {- Arity: 1, Strictness: <S,1*U(U(U),U(U))>, Inline: [2],
@@ -4639,7 +4458,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                 (\ (w :: (GHC.Types.Int, GHC.Types.Int)) ->
                  case w of ww { (,) ww1 ww2 ->
                  StreetRun.$w$cdrawStreet ww1 ww2 }) -}
-9df35f96995a2912179dade067c30cdc
+333d7131ae9a87d72e3a19a6fcbcb029
   $fRendererStreetRun_$sreader ::
     (r -> a)
     -> Control.Monad.Trans.Reader.ReaderT
@@ -4673,7 +4492,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                <Control.Monad.Trans.State.Lazy.StateT
                                   StreetRun.State.Vars GHC.Types.IO>_R
                                <a>_N)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fSDLInputStreetRun ::
     StreetRun.SDLInput.SDLInput StreetRun.StreetRun
   DFunId
@@ -4696,7 +4515,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                                               StreetRun.State.Vars
                                                                                                                               GHC.Types.IO>_R
                                                                                                                            <[SDL.Event.EventPayload]>_N) ; Sym (StreetRun.N:StreetRun[0]) <[SDL.Event.EventPayload]>_N)) -}
-b55e9515ec24b7e88276d532b16e9931
+0a3edb500c92d06bc722428249d7a540
   $fSDLInputStreetRun1 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -4742,7 +4561,7 @@ b55e9515ec24b7e88276d532b16e9931
                           n
                           ipv1),
                      eta1) #) }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fSDLRendererStreetRun ::
     StreetRun.SDLRenderer.SDLRenderer StreetRun.StreetRun
   DFunId
@@ -4772,7 +4591,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                           <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N))
                   StreetRun.$fSDLRendererStreetRun_$cqueryTexture
                   StreetRun.$fSDLRendererStreetRun_$cdrawTexture -}
-f1eadc0db5829ee3790b91b0b6b459ad
+6df317e462438a1f5bee16be625a67e1
   $fSDLRendererStreetRun1 ::
     SDL.Internal.Types.Renderer
     -> StreetRun.Config.Config
@@ -4801,7 +4620,7 @@ f1eadc0db5829ee3790b91b0b6b459ad
                    -> case StreetRun.SDLRenderer.clearRenderer'1
                              ds12 of ds1 { (#,#) ipv ipv1 ->
                       (# ipv, (GHC.Tuple.(), eta1) #) } } } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fSDLRendererStreetRun_$cdrawTexture ::
     SDL.Internal.Types.Renderer
     -> SDL.Video.Renderer.Texture
@@ -4841,7 +4660,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    w2
                    w3
                    w4) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fSDLRendererStreetRun_$cqueryTexture ::
     SDL.Video.Renderer.Texture
     -> StreetRun.StreetRun SDL.Video.Renderer.TextureInfo
@@ -4868,7 +4687,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                              GHC.Types.IO>_R
                                                                                                           <a>_N) ; Sym (StreetRun.N:StreetRun[0]) <a>_N))
                    w1) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fSDLRendererStreetRun_$srenderPresent ::
     SDL.Raw.Types.Renderer -> StreetRun.StreetRun ()
   {- Arity: 4, HasNoCafRefs,
@@ -4900,7 +4719,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                            StreetRun.State.Vars
                                                                                                            GHC.Types.IO>_R
                                                                                                         <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fSceneManagerStreetRun ::
     StreetRun.Scene.SceneManager StreetRun.StreetRun
   DFunId
@@ -4924,7 +4743,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                              StreetRun.State.Vars
                                                                                                              GHC.Types.IO>_R
                                                                                                           <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-4da469b05259b2fcc5ff2c96e2938c94
+8871957e93b1ad92c355cdd43fd2b25d
   $fSceneManagerStreetRun1 ::
     StreetRun.Scenario.Scene
     -> StreetRun.Config.Config
@@ -4943,7 +4762,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                     (GHC.Tuple.(),
                      case eta1 of wild { StreetRun.State.Vars ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
                      StreetRun.State.Vars ds ds1 scene ds3 ds4 ds5 ds6 ds7 }) #)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fTitleStreetRun :: StreetRun.Title.Title StreetRun.StreetRun
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -4965,7 +4784,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                         StreetRun.State.Vars
                                                                                                         GHC.Types.IO>_R
                                                                                                      <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fTitleStreetRun1 ::
     StreetRun.Config.Config
     -> StreetRun.State.Vars
@@ -5055,7 +4874,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                         `cast`
                       (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                         ipv } } } } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fTitleStreetRun2 :: StreetRun.StreetRun ()
   {- Unfolding: (StreetRun.Title.$wdrawTitle
                    @ StreetRun.State.Vars
@@ -5086,7 +4905,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    StreetRun.$fMonadStateStreetRun
                    StreetRun.$fRendererStreetRun
                    StreetRun.$fHUDStreetRun) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $fTitleStreetRun3 :: StreetRun.StreetRun ()
   {- Unfolding: (StreetRun.Title.$wupdateTitle
                    @ StreetRun.State.Vars
@@ -5104,7 +4923,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                     ->_R Sym (StreetRun.N:StreetRun[0]) <b>_N)
                    StreetRun.$fMonadStateStreetRun
                    StreetRun.$fRendererStreetRun) -}
-2ef1dad25f5c4683c77754043a7d0d06
+33c1544aafa52d17b880415f2b52dbeb
   $saddSfxs' :: [StreetRun.Sfx.Sfx] -> StreetRun.StreetRun ()
   {- Arity: 4, HasNoCafRefs,
      Strictness: <L,1*U><L,A><L,1*U(1*U(U,U,1*U),U,U,U,U,U,U,U)><S,U>,
@@ -5151,7 +4970,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                                                                                            StreetRun.State.Vars
                                                                                                            GHC.Types.IO>_R
                                                                                                         <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-2b0dee2fa8b18c434531d0a381b9a03d
+3d617f165270bcfb41f55f36d0c5d4f5
   $sadjustCamera' ::
     StreetRun.Camera.Camera -> StreetRun.StreetRun ()
   {- Arity: 4,
@@ -5248,7 +5067,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                <Control.Monad.Trans.State.Lazy.StateT
                                   StreetRun.State.Vars GHC.Types.IO>_R
                                <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N) -}
-a008a60d2d92f1f604472aea0c7ae2e8
+b7d9c10bd218e137ed662c60b84f72d9
   $sclearRenderer' ::
     SDL.Internal.Types.Renderer -> StreetRun.StreetRun ()
   {- Arity: 4, Strictness: <S(S),1*U(U)><L,A><L,U><S,U>, Inline: [2],
@@ -5287,7 +5106,7 @@ a008a60d2d92f1f604472aea0c7ae2e8
                                                                                                            StreetRun.State.Vars
                                                                                                            GHC.Types.IO>_R
                                                                                                         <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-45c56c0021fd8587be1ce1c5f202ca89
+2049574ec014623f312364e7fd41a47a
   $sclearScreen' :: StreetRun.StreetRun ()
   {- Arity: 3, Strictness: <S(LS(S)L),1*U(A,1*U(U),A)><L,U><S,U>,
      Inline: [2],
@@ -5314,7 +5133,7 @@ a008a60d2d92f1f604472aea0c7ae2e8
                           <Control.Monad.Trans.State.Lazy.StateT
                              StreetRun.State.Vars GHC.Types.IO>_R
                           <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N) -}
-5e00f8f6ca461fc3283f7db7b8ccfd9e
+a9935dec284838244bad3ba25b7a858f
   $sclearSfx' :: StreetRun.StreetRun ()
   {- Arity: 3, HasNoCafRefs,
      Strictness: <L,A><L,1*U(1*U(U,U,A),U,U,U,U,U,U,U)><S,U>,
@@ -5353,7 +5172,7 @@ a008a60d2d92f1f604472aea0c7ae2e8
                                                                                                       StreetRun.State.Vars
                                                                                                       GHC.Types.IO>_R
                                                                                                    <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-dde5c8075bcc5fee90928d990ef3940a
+9f1a9a6ee954861fb5458c894ac3aefa
   $sdrawHiscore' :: StreetRun.StreetRun ()
   {- Arity: 3,
      Strictness: <L,U(U,U(U),U(U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U(U),U,U,U))><L,U(U(U(U),U,U),U,U,U,U,U,U,U)><S,U>,
@@ -5507,7 +5326,7 @@ dde5c8075bcc5fee90928d990ef3940a
                                                                                                        StreetRun.State.Vars
                                                                                                        GHC.Types.IO>_R
                                                                                                     <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N))) -}
-86b4be383a341fa777ff88596f2d1e5c
+ff6b4a8539ca8d99969be7698f2422c5
   $sdrawScore' :: StreetRun.StreetRun ()
   {- Arity: 3,
      Strictness: <L,U><S(LLLLS(S(S)LLLLLLLLLLLLLLL)LLL),1*U(U,U,U,U,U(U(U),U,U,U,U,U,U,U,U,U,U,U,U,U,U,U),U,U,U)><S,U>,
@@ -5640,7 +5459,7 @@ dde5c8075bcc5fee90928d990ef3940a
                                                                                                        StreetRun.State.Vars
                                                                                                        GHC.Types.IO>_R
                                                                                                     <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N))) -}
-400de6551d0ec0d422f7f7c0ab7a4257
+7b4672dcdd24050ae082d27f0b41c2d5
   $sdrawScreen' :: StreetRun.StreetRun ()
   {- Arity: 3, HasNoCafRefs,
      Strictness: <S(LS(S)L),1*U(A,1*U(U),A)><L,U><S,U>, Inline: [2],
@@ -5672,91 +5491,7 @@ dde5c8075bcc5fee90928d990ef3940a
                                                                                                       StreetRun.State.Vars
                                                                                                       GHC.Types.IO>_R
                                                                                                    <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-3f7a1ccbf9181b05ba7f7c8be8ef00be
-  $senableZoom' :: StreetRun.StreetRun ()
-  {- Arity: 3,
-     Strictness: <L,1*U(A,1*U(U),A)><S(LLLLLLLS),1*U(U,U,U,U,U,U,U,U(U(U(U),U(U)),U(U,U)))><S,U>,
-     Inline: [2],
-     Unfolding: InlineRule (0, True, False)
-                (\ (r1 :: StreetRun.Config.Config) ->
-                 let {
-                   eta :: SDL.Internal.Types.Renderer
-                   = case r1 of wild { StreetRun.Config.Config ds1 ds2 ds3 -> ds2 }
-                 } in
-                 (\ (s1 :: StreetRun.State.Vars)
-                    (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
-                  case s1 of wild { StreetRun.State.Vars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
-                  case ds8 of ww3 { StreetRun.Camera.Camera ww4 ww5 ->
-                  case SDL.Video.Renderer.$wrendererScale
-                         eta of ww1 { (#,#) ww2 ww6 ->
-                  case (ww6
-                          (case ww5 of wild1 { Linear.V2.V2 a1 b1 ->
-                           Linear.V2.V2
-                             @ Foreign.C.Types.CFloat
-                             a1 `cast` (Sym (Foreign.C.Types.N:CFloat[0]))
-                             b1 `cast` (Sym (Foreign.C.Types.N:CFloat[0])) }))
-                         `cast`
-                       (GHC.Types.N:IO[0] <()>_R)
-                         s of ds11 { (#,#) ipv ipv1 ->
-                  case SDL.Video.Renderer.$wrendererViewport
-                         eta of ww9 { (#,#) ww10 ww11 ->
-                  case (ww11
-                          (GHC.Maybe.Just
-                             @ (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
-                             (SDL.Video.Renderer.Rectangle
-                                @ Foreign.C.Types.CInt
-                                (case ww4 of wild1 { Linear.V2.V2 x y ->
-                                 case x of wild2 { GHC.Types.F# y1 ->
-                                 case y of wild3 { GHC.Types.F# y2 ->
-                                 case GHC.Float.$w$cproperFraction1
-                                        @ Foreign.C.Types.CInt
-                                        Foreign.C.Types.$fIntegralCInt
-                                        (GHC.Prim.minusFloat# 640.0# y1) of ww7 { (#,#) ww8 ww12 ->
-                                 case ww8
-                                        `cast`
-                                      (Foreign.C.Types.N:CInt[0]) of nt { GHC.Int.I32# ipv2 ->
-                                 case GHC.Float.$w$cproperFraction1
-                                        @ Foreign.C.Types.CInt
-                                        Foreign.C.Types.$fIntegralCInt
-                                        (GHC.Prim.minusFloat#
-                                           640.0#
-                                           y2) of ww13 { (#,#) ww14 ww15 ->
-                                 case ww14
-                                        `cast`
-                                      (Foreign.C.Types.N:CInt[0]) of nt1 { GHC.Int.I32# ipv3 ->
-                                 (Linear.V2.V2
-                                    @ Foreign.C.Types.CInt
-                                    nt `cast` (Sym (Foreign.C.Types.N:CInt[0]))
-                                    nt1 `cast` (Sym (Foreign.C.Types.N:CInt[0])))
-                                   `cast`
-                                 (Sym (Linear.Affine.N:Point[0]
-                                           <Linear.V2.V2>_R) <Foreign.C.Types.CInt>_N) } } } } } } })
-                                StreetRun.Picture.adjustCamera'_dim)))
-                         `cast`
-                       (GHC.Types.N:IO[0] <()>_R)
-                         ipv of ds12 { (#,#) ipv2 ipv3 ->
-                  case SDL.Video.Renderer.$wrendererClipRect
-                         eta of ww12 { (#,#) ww13 ww14 ->
-                  case (ww14 StreetRun.Picture.adjustCamera'1)
-                         `cast`
-                       (GHC.Types.N:IO[0] <()>_R)
-                         ipv2 of ds13 { (#,#) ipv4 ipv5 ->
-                  (# ipv4, (ipv5, wild) #) } } } } } } } })
-                   `cast`
-                 ((<StreetRun.State.Vars>_R
-                   ->_R Sym (GHC.Types.N:IO[0]
-                                 <((),
-                                   StreetRun.State.Vars)>_R)) ; Sym (Control.Monad.Trans.State.Lazy.N:StateT[0]
-                                                                         <StreetRun.State.Vars>_N
-                                                                         <GHC.Types.IO>_R
-                                                                         <()>_N)))
-                  `cast`
-                (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
-                          <StreetRun.Config.Config>_R
-                          <Control.Monad.Trans.State.Lazy.StateT
-                             StreetRun.State.Vars GHC.Types.IO>_R
-                          <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N) -}
-7ea93b2f33a73e5a006b79ffd3f6bc94
+be7313e1ba74752283b8c81686182d63
   $sgetInput' :: StreetRun.StreetRun StreetRun.Input.Input
   {- Arity: 3, HasNoCafRefs,
      Strictness: <L,A><L,U(U,U,U,U,U,U,U,U)><S,U>, Inline: [2],
@@ -5782,7 +5517,7 @@ dde5c8075bcc5fee90928d990ef3940a
                                                                                                                          StreetRun.State.Vars
                                                                                                                          GHC.Types.IO>_R
                                                                                                                       <StreetRun.Input.Input>_N) ; Sym (StreetRun.N:StreetRun[0]) <StreetRun.Input.Input>_N)) -}
-c152384ed80085746f4724fe7c57d7ee
+6bd8dd7579c90521d28b4f0200408750
   $shaltMusic :: StreetRun.StreetRun ()
   {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,U><S,U>,
      Inline: [2],
@@ -5810,7 +5545,7 @@ c152384ed80085746f4724fe7c57d7ee
                                                                                                       StreetRun.State.Vars
                                                                                                       GHC.Types.IO>_R
                                                                                                    <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-047e2c2ba952ddb9a5aa85e0642190bf
+c33cbb5c32940affc1847f2d9b106331
   $splayGameMusic' :: StreetRun.StreetRun ()
   {- Arity: 3,
      Strictness: <S(LLS(LLLLLLLLS(S)LLLLLLLLLLLLLLLLLLL)),1*U(A,A,1*U(A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A))><L,U><S,U>,
@@ -5851,7 +5586,7 @@ c152384ed80085746f4724fe7c57d7ee
                                                                                                       StreetRun.State.Vars
                                                                                                       GHC.Types.IO>_R
                                                                                                    <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N)) -}
-dc3361ac6cbbfcde1469925784e3c58f
+69cc3706cee17cf89af8185efb7e9da1
   $stitleStep' :: StreetRun.StreetRun ()
   {- Arity: 3,
      Strictness: <L,U><S(LLLLLLS(S(SL)LLLL)L),1*U(U,U,U,U,U,U,U(U(U,U),U,U,U,U),U)><S,U>,
@@ -5999,7 +5734,7 @@ dc3361ac6cbbfcde1469925784e3c58f
                                                                                                        StreetRun.State.Vars
                                                                                                        GHC.Types.IO>_R
                                                                                                     <()>_N) ; Sym (StreetRun.N:StreetRun[0]) <()>_N))) -}
-4f8e4de678feda0f5f0d0ed841557427
+3171ea61bb26a51d3b5964e3b84a034f
   $supdateInput' :: StreetRun.StreetRun ()
   {- Arity: 3,
      Strictness: <L,A><L,1*U(U,U,U,U,U,U,1*U(U(U,U),U(U,U),U(U,U),U(U,U),A),U)><S,U>,
@@ -6123,7 +5858,7 @@ a74b64125e9050e94356bc4c7fbd9694
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-2dc16eda9facb24161f0ea593667bad4
+fc5fa47852ec25c2d66aa3d38e774b9b
   $w$cclearScreen ::
     GHC.Prim.Addr#
     -> StreetRun.State.Vars
@@ -6146,7 +5881,7 @@ a74b64125e9050e94356bc4c7fbd9694
                    -> case StreetRun.SDLRenderer.clearRenderer'1
                              ds12 of ds1 { (#,#) ipv ipv1 ->
                       (# ipv, (GHC.Tuple.(), w) #) } } }) -}
-706076a9da26c8080611fd4944306d07
+ec3f2e768ae154e7c3f4506258c90d67
   $w$cdelayMilliseconds ::
     GHC.Types.Int
     -> StreetRun.State.Vars
@@ -6175,7 +5910,7 @@ a74b64125e9050e94356bc4c7fbd9694
                              (GHC.Prim.*# 1000# y)
                              w2 of s' { DEFAULT ->
                       (# s', (GHC.Tuple.(), w1) #) } } } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawBackStreet ::
     GHC.Types.Int -> GHC.Types.Int -> StreetRun.StreetRun ()
   {- Arity: 2, Strictness: <L,U(U)><L,U(U)>, Inline: [2],
@@ -6206,7 +5941,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    StreetRun.$fRendererStreetRun10
                    ww
                    ww1) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawBird ::
     Animate.SpriteClip StreetRun.Snag.BirdKey
     -> GHC.Types.Int
@@ -6318,7 +6053,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    `cast`
                  (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                    w3) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawBuilding ::
     Animate.SpriteClip StreetRun.Scenario.BuildingKey
     -> GHC.Types.Int -> GHC.Types.Int -> StreetRun.StreetRun ()
@@ -6357,7 +6092,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    w
                    ww
                    ww1) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawControlsText ::
     GHC.Types.Int
     -> GHC.Types.Int
@@ -6484,7 +6219,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    `cast`
                  (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                    ipv } } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawGameOverText ::
     GHC.Types.Int
     -> GHC.Types.Int
@@ -6611,7 +6346,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    `cast`
                  (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                    ipv } } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawGrass ::
     Animate.SpriteClip StreetRun.Scenario.GrassKey
     -> GHC.Types.Int -> GHC.Types.Int -> StreetRun.StreetRun ()
@@ -6649,7 +6384,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    w
                    ww
                    ww1) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawHiscoreText ::
     GHC.Types.Int
     -> GHC.Types.Int
@@ -6776,7 +6511,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    `cast`
                  (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                    ipv } } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawLava ::
     Animate.SpriteClip StreetRun.Snag.LavaKey
     -> GHC.Types.Int
@@ -6888,7 +6623,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    `cast`
                  (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                    w3) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawNumber ::
     StreetRun.Font.Number
     -> GHC.Types.Int
@@ -7017,7 +6752,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    `cast`
                  (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                    ipv } } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawPauseText ::
     GHC.Types.Int
     -> GHC.Types.Int
@@ -7144,7 +6879,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    `cast`
                  (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                    ipv } } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawPressEscapeText ::
     GHC.Types.Int
     -> GHC.Types.Int
@@ -7271,7 +7006,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    `cast`
                  (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                    ipv } } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawPressSpaceText ::
     GHC.Types.Int
     -> GHC.Types.Int
@@ -7398,7 +7133,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    `cast`
                  (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                    ipv } } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawRock ::
     Animate.SpriteClip StreetRun.Snag.RockKey
     -> GHC.Types.Int
@@ -7510,7 +7245,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    `cast`
                  (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                    w3) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawRunner ::
     Animate.SpriteClip StreetRun.Runner.RunnerKey
     -> GHC.Types.Int
@@ -7622,7 +7357,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    `cast`
                  (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                    w3) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawStreet ::
     GHC.Types.Int -> GHC.Types.Int -> StreetRun.StreetRun ()
   {- Arity: 2, Strictness: <L,U(U)><L,U(U)>, Inline: [2],
@@ -7653,7 +7388,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    StreetRun.$fRendererStreetRun8
                    ww
                    ww1) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   $w$cdrawTitleText ::
     GHC.Types.Int
     -> GHC.Types.Int
@@ -7780,7 +7515,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    `cast`
                  (GHC.Types.N:IO[0] <((), StreetRun.State.Vars)>_R)
                    ipv } } }) -}
-3ca063547993e5677ccdeeca2b54fc13
+1b902cd5e87cda287f9b2c8252b08b9f
   $w$cupdateInput ::
     StreetRun.State.Vars
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -7830,7 +7565,7 @@ c2291f5aa6c8e27c9e276ee31825d83a
                                ww4 of ww6 { (#,,,,#) ww7 ww8 ww9 ww10 ww11 ->
                         StreetRun.Input.Input ww7 ww8 ww9 ww10 ww11 } })
                        ds8 }) #) }) -}
-e3b57f78cb3bf5ea4801f951c124fd02
+2b317973cef82bae6553e2cf0df25e3c
   $w$j ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -7854,7 +7589,7 @@ e3b57f78cb3bf5ea4801f951c124fd02
                         -> case SDL.Font.initialize2 ds4 of ds6 { (#,#) ipv ipv1 ->
                            StreetRun.$w$j1 ipv } } }
                    1# -> StreetRun.$w$j1 ds1 } }) -}
-41338a8e6e18b9d9d5d3112808599cae
+6d0bc8e4ad95d5f27cc48dfac66f8156
   $w$j1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -7877,7 +7612,7 @@ e3b57f78cb3bf5ea4801f951c124fd02
                    1#
                    -> case SDL.Mixer.openAudio1 ds9 of ds1 { (#,#) ipv ipv1 ->
                       StreetRun.$w$j2 ipv } } }) -}
-56add250ff6fbb3783e7f64bd4f94c12
+a70b7741d689c3d4198c803499c2e320
   $w$j2 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -7967,25 +7702,25 @@ e3b57f78cb3bf5ea4801f951c124fd02
                                    StreetRun.Work_func.initPlayVars6
                                      `cast`
                                    (Sym (StreetRun.Types.N:Percent[0]))
-                                   StreetRun.Work_func.initPlayVars3
+                                   StreetRun.Work_func.initPlayVars2
                                      `cast`
                                    (Sym (StreetRun.Types.N:Seconds[0]))
-                                   StreetRun.Work_func.initPlayVars6
-                                   GHC.Types.True
                                    StreetRun.Work_func.initPlayVars5
+                                   GHC.Types.True
                                    StreetRun.Work_func.initPlayVars4
-                                   StreetRun.Work_func.initPlayVars2
+                                   StreetRun.Work_func.initPlayVars3
                                    StreetRun.Work_func.initPlayVars1
-                                   StreetRun.Work_func.initPlayVars3
+                                   StreetRun.Work_func.initPlayVars5
+                                   StreetRun.Work_func.initPlayVars2
                                      `cast`
                                    (Sym (StreetRun.Types.N:Distance[0]))
-                                   StreetRun.Work_func.initPlayVars3
+                                   StreetRun.Work_func.initPlayVars2
                                      `cast`
                                    (Sym (StreetRun.Types.N:Distance[0]))
-                                   StreetRun.Work_func.initPlayVars3
+                                   StreetRun.Work_func.initPlayVars2
                                      `cast`
                                    (Sym (StreetRun.Types.N:Distance[0]))
-                                   StreetRun.Work_func.initPlayVars3
+                                   StreetRun.Work_func.initPlayVars2
                                      `cast`
                                    (Sym (StreetRun.Types.N:Distance[0]))
                                    (GHC.Types.[] @ StreetRun.Hurdle.ObstacleState)
@@ -8053,7 +7788,7 @@ e3b57f78cb3bf5ea4801f951c124fd02
                              ds15
                              ds14 of ds2 { (#,#) ipv2 ipv3 ->
                       $j ipv2 ipv3 } } } } } } }) -}
-0d2e37f44d2987fc76da535b3200a833
+39b762da0e45c22896c8693684b7670b
   $w$sadjustCamera' ::
     Linear.V2.V2 GHC.Types.Float
     -> Linear.V2.V2 GHC.Types.Float
@@ -8138,7 +7873,7 @@ e3b57f78cb3bf5ea4801f951c124fd02
                        ds8
                        ds9
                        (StreetRun.Camera.Camera ww ww1) }) #) } } } } } }) -}
-e4153507686464d14f07ae23d6c62f74
+56a72448a3a8d604b78f7970248662ed
   $w$splayGameMusic' ::
     GHC.Prim.Addr#
     -> StreetRun.State.Vars
@@ -8162,7 +7897,7 @@ e4153507686464d14f07ae23d6c62f74
                    1#
                    -> case SDL.Mixer.playMusic1 ds6 of ds1 { (#,#) ipv ipv1 ->
                       (# ipv, (GHC.Tuple.(), w) #) } } }) -}
-c2291f5aa6c8e27c9e276ee31825d83a
+ba46176ec69d12880f5348a25544d176
   type role StreetRun nominal
   newtype StreetRun a
     = StreetRun (Control.Monad.Trans.Reader.ReaderT
@@ -8170,12 +7905,12 @@ c2291f5aa6c8e27c9e276ee31825d83a
                    (Control.Monad.Trans.State.Lazy.StateT
                       StreetRun.State.Vars GHC.Types.IO)
                    a)
-07e3d3fa1e18c73dabfda4ae993c0cfe
+67697b7a5cf0f53bf298290174de6622
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 StreetRun.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-e034d7e44b1a4dd2c917546211229ec5
+2eee8cf282a39959d489f8305891978e
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -8429,16 +8164,6 @@ instance StreetRun.Title.Title [StreetRun.StreetRun]
                                                             StreetRun.StreetRun)
   StreetRun.Renderer.drawScreen' @ StreetRun.StreetRun w w1
   = StreetRun.$sdrawScreen'
-"SPEC/StreetRun enableZoom' @ StreetRun" [2] forall (w2 :: Control.Monad.State.Class.MonadState
-                                                             StreetRun.State.Vars
-                                                             StreetRun.StreetRun)
-                                                    (w1 :: Control.Monad.Reader.Class.MonadReader
-                                                             StreetRun.Config.Config
-                                                             StreetRun.StreetRun)
-                                                    (w :: Control.Monad.IO.Class.MonadIO
-                                                            StreetRun.StreetRun)
-  StreetRun.Picture.enableZoom' @ StreetRun.StreetRun w w1 w2
-  = StreetRun.$senableZoom'
 "SPEC/StreetRun getInput' @ StreetRun" [2] forall (w :: Control.Monad.State.Class.MonadState
                                                           StreetRun.State.Vars StreetRun.StreetRun)
   StreetRun.Load.getInput' @ StreetRun.StreetRun w

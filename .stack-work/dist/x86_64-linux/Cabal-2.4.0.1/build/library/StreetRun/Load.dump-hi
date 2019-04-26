@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:26:38.64958347 UTC
+2019-04-25 23:07:13.16562442 UTC
 
 interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Load 8064
-  interface hash: 5720ad06b45feb1f69198aec886701f4
-  ABI hash: 3dc63bb9369eb1de600fb017ab043f16
+  interface hash: c6c5017e80d0a6ea96f66d11de4a7825
+  ABI hash: 16e217d4e0c253fb423fa049ddaea289
   export-list hash: bb94dee51103db3de49f80223cdee067
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
@@ -163,10 +163,10 @@ import  -/  StreetRun.SDLInput 7f2490d25daddc69d56177a64a0d9e82
   keycodePressed cc16adb67ee5159fa97a55e6ea5a1911
   keycodeReleased cba7751ea4a56515fff9cc9951fed5b1
   pollEventPayloads a91c93657bcf4151e0803d26d969d260
-import  -/  StreetRun.State afe769c83e1db811ae34958dff0a7dea
+import  -/  StreetRun.State 2b4a5b23cba95fdf8a8075ad75dbe6ec
   exports: 9215ef2a775e8ad7562f6edbfe13ac1f
-  $sel:vInput:Vars 4201915800ab738e9c71b5816972a806
-  Vars 4201915800ab738e9c71b5816972a806
+  $sel:vInput:Vars 06c844f355a6a421607a99fdffa4b901
+  Vars 06c844f355a6a421607a99fdffa4b901
 3dde55c39db25282fa9e63ad079e5010
   $tc'C:HasInput :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
@@ -228,7 +228,7 @@ f537af97fb74a48feef6ecf1a9e4ef77
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-d5280969b4d8c5de585061039c538728
+c379cd246e2b8db38cabe2754eb9cecf
   $wgetInput' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a. a -> m a)
@@ -296,7 +296,7 @@ a827a1b40b93ca24fd0678aff14a3874
     setInput :: StreetRun.Input.Input -> m ()
     getInput :: m StreetRun.Input.Input
     {-# MINIMAL updateInput, setInput, getInput #-}
-86b22baae5666ec0b15ffa42c041ac14
+3b2e90049f95a24e277a54181dcb47ad
   getInput' ::
     Control.Monad.State.Class.MonadState StreetRun.State.Vars m =>
     m StreetRun.Input.Input
@@ -310,7 +310,7 @@ a827a1b40b93ca24fd0678aff14a3874
                  case w of ww { Control.Monad.State.Class.C:MonadState ww1 ww2 ww3 ww4 ->
                  case ww1 of ww5 { GHC.Base.C:Monad ww6 ww7 ww8 ww9 ww10 ->
                  StreetRun.Load.$wgetInput' @ m ww7 ww9 ww2 } }) -}
-cae1858b005fdcc5ba51e93a49349d38
+8a93adfed30f97654995bd993076c4c9
   setInput' ::
     Control.Monad.State.Class.MonadState StreetRun.State.Vars m =>
     StreetRun.Input.Input -> m ()

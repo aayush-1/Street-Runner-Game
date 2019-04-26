@@ -13,25 +13,12 @@ import StreetRun.Camera
 
 class Monad m => CameraControl m where --m() indicates that output is monadic 
   adjustCamera :: Camera -> m ()
-  disableZoom :: m ()
-  enableZoom :: m ()
 
 adjustCamera' :: (MonadIO m, MonadReader Config m, MonadState Vars m) => Camera -> m ()
 adjustCamera' cam = do
   modify ( \v -> v { vCamera = cam } )--setting vcam variable from vars to cam
   renderer <- asks cRenderer --returns it's value to renderer (tied to SDL_window)
   moveCamera renderer cam 
-
-disableZoom' :: (MonadIO m, MonadReader Config m) => m ()-- disables zoom by calling initial settings on camera
-disableZoom' = do
-  renderer <- asks cRenderer
-  moveCamera renderer initCamera
-
-enableZoom' :: (MonadIO m, MonadReader Config m, MonadState Vars m) => m ()
-enableZoom' = do -- enables zoom
-  renderer <- asks cRenderer
-  cam <- gets vCamera
-  moveCamera renderer cam
 
 moveCamera :: MonadIO m => SDL.Renderer -> Camera -> m ()
 moveCamera renderer Camera{camZoom, camOrigin} = do

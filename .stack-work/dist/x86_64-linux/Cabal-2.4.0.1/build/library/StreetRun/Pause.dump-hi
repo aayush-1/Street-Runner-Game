@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:26:39.643406977 UTC
+2019-04-26 06:49:54.34165835 UTC
 
 interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Pause 8064
-  interface hash: 41e75544544332686a1e9c5f47d74f6e
-  ABI hash: 630257d8778b5d21f16f674eba0ae733
+  interface hash: 93f9b1bd99daa9da761fc0469bcce59f
+  ABI hash: c6aa2674428525a6eacaff4466252b89
   export-list hash: 82d44093e53fd475130cc34c015137c2
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
@@ -160,24 +160,22 @@ import  -/  mtl-2.2.2:Control.Monad.State.Class 94cc1438f3f9a3259fb0a2c56d3d0303
 import  -/  StreetRun.Common ae88f6983cc973a550c263b8148feda8
   exports: 61e4030ffa8e91db9a54c7154cc3d232
   HasCommonVars 919b4731c41ba51a047a083b8a4cc9c7
-import  -/  StreetRun.HUD 1b45c563f90a817d6df4d9a2659a5183
+import  -/  StreetRun.HUD 67c25875c022a2408906d37d63f0510d
   exports: e799087feb519c2fa6ec11e1bcb9834b
   HUD dd3aec2a82456c62e19ed6e64162878f
 import  -/  StreetRun.Input dc1e62404449c4ef4f763046555938b3
   exports: d5c6fc579c43e57e8ccb72f493e3d8f8
   $sel:iSpace:Input debdce52acaa37df87e66131243c6c87
-import  -/  StreetRun.Load 3dc63bb9369eb1de600fb017ab043f16
+import  -/  StreetRun.Load 16e217d4e0c253fb423fa049ddaea289
   exports: bb94dee51103db3de49f80223cdee067
   HasInput a827a1b40b93ca24fd0678aff14a3874
   getInput 13a07f24b1df74c123ca0a0ea07ffed3
-import  -/  StreetRun.Picture 740652ffc53cd238afc496b4670a11b4
-  exports: 06342640fb845a39d68035a047b820fb
-  CameraControl b8645564078b95158c10dcc1b98f02d6
-  disableZoom 7dbcecfd535c92b01b50f240b9291f9a
-  enableZoom b5d6a9b94937712e8eeaaa1a46110a99
-import  -/  StreetRun.Play 27684fe36aaf8f9d1883f55e4040c714
-  exports: f538b15a41c690c80826177fc3bfda5b
-  drawPlay 4d641394618ff0d6ddbd55a8ae521adf
+import  -/  StreetRun.Picture 75395a4c252b8548400a323f40a76527
+  exports: babc26a2152d66639b7a47ea4c5947f4
+  CameraControl 886c953787575a6ab7b91f5818c72b74
+import  -/  StreetRun.Play fde39e25142d663f83ffdc7c478d68a3
+  exports: fddfe503c07894a36563a64c1e4547d3
+  drawPlay c6ebab1eb6b97a8395051df7a792e079
 import  -/  StreetRun.Renderer eba9a9e4c8700e42ea509a1bf564c30b
   exports: bdc569cebfaf1503ce959a9192a1814c
   Renderer 879b383bd7b1ca67a12fca41ecb57c3d
@@ -193,11 +191,11 @@ import  -/  StreetRun.Scene af7d6d54736d3642cc86bcfab3e76781
   exports: 07dad99016b354b41a3f7ae55850c26a
   SceneManager 63d1267c6f32ccbcb6cd361a33bac81a
   toScene 1edb960cc18f68f27f8817e7a98f03a1
-import  -/  StreetRun.Work 31dc36aef5c80ae1dc00f3ed83f6fff4
+import  -/  StreetRun.Work 3611973cdf8488c3a5964c00b99590c8
   exports: ffd7a4165016a00bc61ed7371fce244a
-import  -/  StreetRun.Work_func 618d334218ef249bf8e50fb375f6996c
+import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
   exports: 0632c1ae56fdb446c1bb6a552db25704
-  HasPlayVars eec911aa0de1f5cc54fcdff2fefe17b2
+  HasPlayVars 7c21393bf018dbd7864889724c1b555b
 65cf531347dc5e0a4dd066eb10b1f4cd
   $tc'C:Pause :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
@@ -259,20 +257,19 @@ aabaab1ea45d26447c91dac8d651f3a1
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-24c3f174b4bbead75bb2188286a3d183
+d23c7d280cbd19d0b3206410963a15ae
   $wdrawPause ::
     (forall a b. m a -> m b -> m b)
     -> (StreetRun.Types.Percent -> m ())
     -> ((GHC.Types.Int, GHC.Types.Int) -> m ())
-    -> StreetRun.Picture.CameraControl m => m ()
-  {- Arity: 4, HasNoCafRefs,
-     Strictness: <C(C(S)),C(C1(U))><L,1*C1(U)><L,1*C1(U)><L,U(A,A,1*U,1*U)>,
+    -> m ()
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <C(C(S)),1*C1(C1(U))><L,1*C1(U)><L,1*C1(U)>,
      Inline: [2],
      Unfolding: (\ @ m :: * -> *
                    (ww :: forall a b. m a -> m b -> m b)
                    (ww1 :: StreetRun.Types.Percent -> m ())
-                   (ww2 :: (GHC.Types.Int, GHC.Types.Int) -> m ())
-                   (w :: StreetRun.Picture.CameraControl m) ->
+                   (ww2 :: (GHC.Types.Int, GHC.Types.Int) -> m ()) ->
                  ww
                    @ ()
                    @ ()
@@ -280,26 +277,18 @@ aabaab1ea45d26447c91dac8d651f3a1
                       StreetRun.Pause.drawPause4
                         `cast`
                       (Sym (StreetRun.Types.N:Percent[0])))
-                   (ww
-                      @ ()
-                      @ ()
-                      (StreetRun.Picture.disableZoom @ m w)
-                      (ww
-                         @ ()
-                         @ ()
-                         (ww2 StreetRun.Pause.drawPause1)
-                         (StreetRun.Picture.enableZoom @ m w)))) -}
+                   (ww2 StreetRun.Pause.drawPause1)) -}
 886d57635fcced106f4fa92fa348f6af
   class GHC.Base.Monad m => Pause (m :: * -> *) where
     pauseStep :: m ()
     {-# MINIMAL pauseStep #-}
-96ed3ee1bf3f88dcae01d573b95656e6
+50dfa071686f73792e93b402c18f72b3
   drawPause ::
     (StreetRun.Renderer.Renderer m,
      StreetRun.Picture.CameraControl m) =>
     m ()
   {- Arity: 2, HasNoCafRefs,
-     Strictness: <S(S(LLC(C(S))LL)LLLLLLLLLLLLLLLLLLLLLLLLL),1*U(1*U(A,A,C(C1(U)),A,A),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*C1(U),A,1*C1(U),A,A,A,A,A,A)><L,U(A,A,U,U)>,
+     Strictness: <S(S(LLC(C(S))LL)LLLLLLLLLLLLLLLLLLLLLLLLL),1*U(1*U(A,A,1*C1(C1(U)),A,A),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*C1(U),A,1*C1(U),A,A,A,A,A,A)><L,A>,
      Inline: [2],
      Unfolding: InlineRule (2, True, False)
                 (\ @ m :: * -> *
@@ -307,7 +296,7 @@ aabaab1ea45d26447c91dac8d651f3a1
                    (w1 :: StreetRun.Picture.CameraControl m) ->
                  case w of ww { StreetRun.Renderer.C:Renderer ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ww13 ww14 ww15 ww16 ww17 ww18 ww19 ww20 ww21 ww22 ww23 ww24 ww25 ww26 ->
                  case ww1 of ww27 { GHC.Base.C:Monad ww28 ww29 ww30 ww31 ww32 ->
-                 StreetRun.Pause.$wdrawPause @ m ww30 ww18 ww20 w1 } }) -}
+                 StreetRun.Pause.$wdrawPause @ m ww30 ww18 ww20 } }) -}
 746957fe3c7f04b0fce5d71b219803b7
   drawPause1 :: (GHC.Types.Int, GHC.Types.Int)
   {- HasNoCafRefs, Strictness: m,
@@ -322,7 +311,7 @@ aa51cb72f7b13296096a27bc7ee81178
 c28c836df7c8903571290b3626f26d15
   drawPause4 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 0.8#) -}
-604f7767f319a14995937d3a21ee37db
+728a65ac6f7523e03c3d967ee2e33620
   pauseStep' ::
     (StreetRun.Work_func.HasPlayVars s,
      StreetRun.Common.HasCommonVars s,
@@ -332,7 +321,7 @@ c28c836df7c8903571290b3626f26d15
      StreetRun.HUD.HUD m) =>
     m ()
   {- Arity: 8,
-     Strictness: <L,1*C1(C1(C(U)))><L,1*C1(C1(C(U)))><S(S(LC(C(S))LLL)LLL),U(U(U(A,C(U),A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),U,A,A)><L,1*U(A,1*C1(U))><L,1*U(A,A,A,1*U)><L,U(U(A,C(C1(U)),C(C1(U)),C(U),A),A,A,U,U,U,U,U,U,C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(U),C(U),1*C1(U),A,1*C1(U),A,A,A,A,A,A)><L,U(A,A,U,U)><L,U(A,U,U,U)>,
+     Strictness: <L,1*C1(C1(C(U)))><L,1*C1(C1(C(U)))><S(S(LC(C(S))LLL)LLL),U(U(U(A,C(U),A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),U,A,A)><L,1*U(A,1*C1(U))><L,1*U(A,A,A,1*U)><L,U(U(A,C(C1(U)),C(C1(U)),C(U),A),A,A,U,U,U,U,U,U,C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(U),C(U),1*C1(U),A,1*C1(U),A,A,A,A,A,A)><L,A><L,U(A,U,U,U)>,
      Unfolding: (\ @ s
                    @ m :: * -> *
                    ($dHasPlayVars :: StreetRun.Work_func.HasPlayVars s)
@@ -362,14 +351,20 @@ c28c836df7c8903571290b3626f26d15
                        ww15
                        ww8
                        $dRenderer
-                       $dCameraControl
                        $dHUD } }
                  } in
                  let {
                    lvl1 :: m ()
                    = case $dRenderer of ww6 { StreetRun.Renderer.C:Renderer ww7 ww8 ww9 ww10 ww11 ww12 ww13 ww14 ww15 ww16 ww17 ww18 ww19 ww20 ww21 ww22 ww23 ww24 ww25 ww26 ww27 ww28 ww29 ww30 ww31 ww32 ->
                      case ww7 of ww33 { GHC.Base.C:Monad ww34 ww35 ww36 ww37 ww38 ->
-                     StreetRun.Pause.$wdrawPause @ m ww36 ww24 ww26 $dCameraControl } }
+                     ww36
+                       @ ()
+                       @ ()
+                       (ww24
+                          StreetRun.Pause.drawPause4
+                            `cast`
+                          (Sym (StreetRun.Types.N:Percent[0])))
+                       (ww26 StreetRun.Pause.drawPause1) } }
                  } in
                  let {
                    lvl2 :: m ()
