@@ -1,6 +1,6 @@
 module StreetRun.Quake_BackStreet where
 import StreetRun.Types
-import StreetRun.Frame
+import StreetRun.CFL
 import StreetRun.Step
 import StreetRun.Quake
 

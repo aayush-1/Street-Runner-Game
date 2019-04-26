@@ -16,7 +16,7 @@ import StreetRun.Renderer_func_2
 import StreetRun.HUD
 import StreetRun.Sound_effects
 import StreetRun.Input
-import StreetRun.Frame
+import StreetRun.CFL
 import StreetRun.Runner
 import StreetRun.Runner_func_1
 import StreetRun.Runner_func_2

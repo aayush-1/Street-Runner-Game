@@ -1,7 +1,7 @@
 module StreetRun.Quake_Building where
 
 import StreetRun.Types
-import StreetRun.Frame
+import StreetRun.CFL
 import StreetRun.Step
 import StreetRun.Quake
 

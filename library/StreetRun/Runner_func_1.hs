@@ -9,7 +9,7 @@ import KeyState
 import StreetRun.Runner_func_2
 import StreetRun.Runner
 import StreetRun.Camera
-import StreetRun.Frame
+import StreetRun.CFL
 import StreetRun.Types
 import StreetRun.Hurdle
 import StreetRun.Hurdle_1

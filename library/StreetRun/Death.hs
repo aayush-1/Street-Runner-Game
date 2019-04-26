@@ -14,7 +14,7 @@ import StreetRun.Picture
 import StreetRun.Runner
 import StreetRun.Runner_func_1
 import StreetRun.Runner_func_2
-import StreetRun.Frame
+import StreetRun.CFL
 import StreetRun.Common
 import StreetRun.Work
 import StreetRun.Work_func

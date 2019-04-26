@@ -7,7 +7,7 @@ import Linear (V2(..))
 import KeyState
 
 import StreetRun.Camera
-import StreetRun.Frame
+import StreetRun.CFL
 import StreetRun.Types
 import StreetRun.Hurdle
 import StreetRun.Hurdle_1
