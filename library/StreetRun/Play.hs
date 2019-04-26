@@ -9,9 +9,8 @@ import Data.Foldable (forM_)
 import KeyState
 
 import StreetRun.Audio
-import StreetRun.Clock
+import StreetRun.CFL
 import StreetRun.Picture
-import StreetRun.Logger
 import StreetRun.HUD
 import StreetRun.Renderer
 import StreetRun.Renderer_func_1
@@ -21,7 +20,6 @@ import StreetRun.Sound_effects
 import StreetRun.Common
 import StreetRun.Input
 import StreetRun.Camera
-import StreetRun.Frame
 import StreetRun.Step
 import StreetRun.Runner
 import StreetRun.Runner_func_1

@@ -17,8 +17,7 @@ import System.Random
 import StreetRun.Config
 import StreetRun.Audio
 import StreetRun.Picture
-import StreetRun.Clock
-import StreetRun.Logger
+import StreetRun.CFL
 import StreetRun.Renderer
 import StreetRun.Renderer_func_1
 import StreetRun.Renderer_func_2

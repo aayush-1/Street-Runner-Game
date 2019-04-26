@@ -36,9 +36,8 @@ library
       StreetRun.Config
       StreetRun.Audio
       StreetRun.Picture
-      StreetRun.Clock
+      StreetRun.CFL
       StreetRun.HUD
-      StreetRun.Logger
       StreetRun.Shaky
       StreetRun.Quake_BackStreet
       StreetRun.Quake_Building
@@ -52,7 +51,6 @@ library
       StreetRun.Common
       StreetRun.Font
       StreetRun.Font_functions
-      StreetRun.Frame
       StreetRun.Out
       StreetRun.Out_func
       StreetRun.Input
