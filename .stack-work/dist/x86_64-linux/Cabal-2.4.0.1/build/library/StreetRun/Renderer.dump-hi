@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 07:48:59.319181926 UTC
+2019-04-26 14:29:07.044321153 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Renderer 8064
-  interface hash: 72f5cb54fc30b69f6dfa999fa42809ac
-  ABI hash: a69ba77fd8f4ba75b3394f8a84f6545b
-  export-list hash: bdc569cebfaf1503ce959a9192a1814c
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Renderer 8064
+  interface hash: 2551220e9086b75f9a70f37d8d62ae26
+  ABI hash: 0519d22b921b8437012069e63a6f4fa6
+  export-list hash: 3ce23641af82250faf4b4afd515774b7
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -23,8 +23,8 @@ exports:
   StreetRun.Renderer.streetY
   StreetRun.Renderer.Renderer{StreetRun.Renderer.clearScreen StreetRun.Renderer.drawBackStreet StreetRun.Renderer.drawBird StreetRun.Renderer.drawBlackOverlay StreetRun.Renderer.drawBuilding StreetRun.Renderer.drawControlsText StreetRun.Renderer.drawGameOverText StreetRun.Renderer.drawGrass StreetRun.Renderer.drawHiscoreText StreetRun.Renderer.drawLava StreetRun.Renderer.drawNumber StreetRun.Renderer.drawPauseText StreetRun.Renderer.drawPressEscapeText StreetRun.Renderer.drawPressSpaceText StreetRun.Renderer.drawRock StreetRun.Renderer.drawRunner StreetRun.Renderer.drawScreen StreetRun.Renderer.drawStreet StreetRun.Renderer.drawTitleText StreetRun.Renderer.getBirdAnimations StreetRun.Renderer.getBuildingAnimations StreetRun.Renderer.getGrassAnimations StreetRun.Renderer.getLavaAnimations StreetRun.Renderer.getRockAnimations StreetRun.Renderer.getRunnerAnimations}
 module dependencies: StreetRun.Assets StreetRun.Assets_1
-                     StreetRun.Assets_2 StreetRun.Camera StreetRun.Config StreetRun.Font
-                     StreetRun.Font_functions StreetRun.Frame StreetRun.Hurdle
+                     StreetRun.Assets_2 StreetRun.CFL StreetRun.Camera StreetRun.Config
+                     StreetRun.Font StreetRun.Font_functions StreetRun.Hurdle
                      StreetRun.Hurdle_1 StreetRun.Input StreetRun.Physics
                      StreetRun.Runner StreetRun.Runner_func_1 StreetRun.Runner_func_2
                      StreetRun.SDLLayer StreetRun.Scenario StreetRun.Snag StreetRun.Step
@@ -146,109 +146,109 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
                          vector-0.12.0.2:Data.Vector.Unboxed
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
 import  -/  StateVar-1.1.1.1:Data.StateVar 3356bd62ad24ee9ca28de7ecf3cb79ab
-import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  animate-0.7.0:Animate cf529f033c38156be2990062be8eb570
 import  -/  base-4.12.0.0:Foreign.C.Types 35a1d321965626990bdd0f18683810e2
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  mtl-2.2.2:Control.Monad.Reader d5c3a33f1c95bb71f4ae02f87a7048ff
 import  -/  mtl-2.2.2:Control.Monad.Reader.Class 56d676c7504f5007ee5b66906716abcc
-import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
-import  -/  sdl2-2.4.1.0:SDL.Vect cd47fc30aef16e8f55c1351dafae292d
-import  -/  StreetRun.Config d537956b220fa6e917381a250f3474d9
-  exports: 67f65ea021d4fb0cf4ae01501b50bd2f
-  $sel:cRenderer:Config 9c151486d5b66b82caae303edc04126a
-  Config 9c151486d5b66b82caae303edc04126a
-import  -/  StreetRun.Font a32f3953bbb50ce9b469edb8463d6f24
-  exports: 7faf0604fc3be1edae721103fd7b3042
-  Number b7e100f9135b0814c955ea3d79c02ada
-import  -/  StreetRun.Font_functions 1a5a69e004e559ef0ed610c21b9037a3
-  exports: 8738957528d4728a198f0cc1309ae7d5
-import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
-  exports: 07dc0a302095db6221f41ecc2db9aec7
-  RunnerKey c9d847714c135c3fbba17148989067a8
-import  -/  StreetRun.SDLLayer 472f0f146c646fd670be8cc0b6cbfdac
-  exports: b9d495c503a62642ca4638e990961b8e
-  SDLRenderer 4f6ee56ef94bbb8367ac0e96051915aa
-  clearRenderer 2c61001c8769a52e5ab64fba7e437b48
-  presentRenderer 2ea8ef135c0a5a42eea4c94f38f65b5e
-import  -/  StreetRun.Scenario 3d565e4d4fcefb40de1d348ddc5508f1
-  exports: 425f740a4cf1b868d9284521ed68ce1e
-  BuildingKey b4c3f53a1de721da99d4f02d4409c2d9
-  GrassKey da61b53345a9ca19f2dea7fa2a8793b3
-import  -/  StreetRun.Snag 435128ff0e3817e1b1768f09cf894e59
-  exports: 7f7b3656c97eba619795923512f79f2a
-  BirdKey a4b9334f1959d8eda311a05a86034c88
-  LavaKey ef15a7c1dcf7c6d0c02947b3c6d55574
-  RockKey a1efaaa0d94a0294a7825caa774f65b1
-import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
-  exports: 687926be2250d898b68652280e784933
-  Animations 4b41587a259aae6b6ac40ba923e843f7
-  DrawSprite 531feb50bd0e4f1fa8a49efaa448989f
-  Percent 9bc35ebe469aab1ad3d8edfd9fd30da6
-db36ef1624efe5dabea312d4c631a33d
+import  -/  sdl2-2.4.1.0:SDL a509879ea64738370e9e96c8f0b5e49f
+import  -/  sdl2-2.4.1.0:SDL.Vect 87cebfb5451b5123ac5e23d9821e85c2
+import  -/  StreetRun.Config b599dd5c3a0bd39090f183027c337ded
+  exports: a84af2eb49502a4ece92fede76199115
+  $sel:cRenderer:Config 74b4b3d61d611d8fd0371c0c604c9c1b
+  Config 74b4b3d61d611d8fd0371c0c604c9c1b
+import  -/  StreetRun.Font 34a23e060586d079dd0657583ffec0bf
+  exports: 09e7f7e66762b635c22cb5644e292e72
+  Number 1ca7e4c8adfb9337ba114131324bb05d
+import  -/  StreetRun.Font_functions 233513d294ddb4c635ea5e843e8f2bc1
+  exports: c1863499f3ebc41d6a1caeb3c071141a
+import  -/  StreetRun.Runner a6abbd291e744158bf9018a60f48d314
+  exports: ae88bb9ed2797ab0ae7bfb3fb6716c40
+  RunnerKey 246fbc2203e765942b6e843f2c5465c5
+import  -/  StreetRun.SDLLayer 43fbd12d1c3076103d4acc48080a09a0
+  exports: 646f4aaf1892c6584fb74106a06288c0
+  SDLRenderer ab017af776428e68e506559777a5f6a1
+  clearRenderer af9f16388fe8c8f53622ec4f0095e5df
+  presentRenderer 45d08d76d2a6bae5acd21339094a0712
+import  -/  StreetRun.Scenario 354a54748ba84a3c008f8f16b2acd94c
+  exports: 64c6733be65834216e60f326da61cf65
+  BuildingKey 8d4c5e6921f733591e707f21136e38ef
+  GrassKey ad2a2fb6c9f7041cf4bd51fd17675c8c
+import  -/  StreetRun.Snag 91cafec8e0a3bc8aded7f9bc89567610
+  exports: c07ed761210af14f8b0800e144209504
+  BirdKey f88ace211280dc1d7921a1773951ed44
+  LavaKey 3fc67e1f876892a8dbc5f4b90be00bda
+  RockKey 5221b707992783923c608096f51488e5
+import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
+  exports: 68eec0a854069d6ebcc9ba499b980fc6
+  Animations a3f8cdd403e06536e6d6c806da810a9f
+  DrawSprite a6cded7f7738d4f19eef54d8bec96036
+  Percent ba7abb7eeed8b328d8b72349c7c4fef0
+2819fcbe7c7342fe6f2f40ce507e2bf5
   $tc'C:Renderer :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   13837472412662055692##
-                   9168878423226045508##
+                   4487606637547853851##
+                   9749802548693019044##
                    StreetRun.Renderer.$trModule
                    StreetRun.Renderer.$tc'C:Renderer2
                    1#
                    StreetRun.Renderer.$tc'C:Renderer1) -}
-8f98699188b840e5c5539b4de9525ba0
+a805247a854cd05e152a688f09011835
   $tc'C:Renderer1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-3cf4c4310099367c9fb98ceab212e718
+e16f0bfcc10e75815d32b547c1835c55
   $tc'C:Renderer2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Renderer.$tc'C:Renderer3) -}
-0fc5f89c67855d63fea3572d796f4d1c
+ac43c704ad75aeec9a982707f44120e6
   $tc'C:Renderer3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'C:Renderer"#) -}
-e49d48edb67daadb46ee1aacc54d02a3
+79ddd99d35aff5bc3d3aacdb17b52c1c
   $tcRenderer :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   11071232882400314140##
-                   4777465051328501973##
+                   3745588093124705279##
+                   4136668096625091249##
                    StreetRun.Renderer.$trModule
                    StreetRun.Renderer.$tcRenderer2
                    0#
                    StreetRun.Renderer.$tcRenderer1) -}
-40b3cc54bfcb75f6eee7278cef7a835f
+0343cab9aec72e2d85449a1228e84483
   $tcRenderer1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-c717f5537df242b01d27280d496d759b
+3209ea0163bab38aaa478208c77787b1
   $tcRenderer2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Renderer.$tcRenderer3) -}
-78aba862a41f3d3bc437744b78b40660
+4294ededb628961b1c4ca1603b6fc46c
   $tcRenderer3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Renderer"#) -}
-caedb621ea7ef52a6e505679c297b6b3
+08f248f65472c7d350c5651630585e1d
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Renderer.$trModule3
                    StreetRun.Renderer.$trModule1) -}
-130b46c04a40bb1a3e53975cb2c78ab1
+2156d5a82775cffbfed1751b644f9958
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Renderer.$trModule2) -}
-8921d60f54874f8f20fdb3e85ed33b69
+ced078e913571fb6f3c8d4034556cbef
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Renderer"#) -}
-3efa7ec0a3cffa892611a6ea59bafc7f
+d93c42f0f7c753cab99c8f2f99c71048
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Renderer.$trModule4) -}
-8233917a180031b12970c1a0fd71188b
+11aa74055415314a1498e99783ae6ddf
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-104e4dd10352a56ce884cd6be4b621c9
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+490a56df13a16adef1ee44c7755e142c
   $wclearScreen' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (SDL.Internal.Types.Renderer -> m ())
@@ -273,7 +273,7 @@ caedb621ea7ef52a6e505679c297b6b3
                       @ SDL.Internal.Types.Renderer
                       StreetRun.Config.$sel:cRenderer:Config)
                    (\ (renderer :: SDL.Internal.Types.Renderer) -> ww1 renderer)) -}
-879b383bd7b1ca67a12fca41ecb57c3d
+718a3d63cec016694ff0c781c86acdfc
   class GHC.Base.Monad m => Renderer (m :: * -> *) where
     clearScreen :: m ()
     drawScreen :: m ()
@@ -317,13 +317,13 @@ caedb621ea7ef52a6e505679c297b6b3
                 drawStreet, drawBlackOverlay, drawHiscoreText, drawPauseText,
                 drawGameOverText, drawPressSpaceText, drawPressEscapeText,
                 drawTitleText, drawNumber, drawControlsText #-}
-ccf52ea587c1ecc8ec1796df4caa3d7d
+d6d18a9a691e8c838d2cdefb408516e2
   backStreetY :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
-ab86752338eaff4cb8c6e6f15dcd589f
+fd12705178fd95b18142e8b8b595fc90
   buildingY :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# -16#) -}
-b654236dfeea956a77d7651122192aa0
+1d8ec8d9e97d10bcbf1e0ac68f75058a
   clearScreen' ::
     (StreetRun.SDLLayer.SDLRenderer m,
      Control.Monad.Reader.Class.MonadReader
@@ -340,7 +340,7 @@ b654236dfeea956a77d7651122192aa0
                  case w of ww { StreetRun.SDLLayer.C:SDLRenderer ww1 ww2 ww3 ww4 ww5 ->
                  case ww1 of ww6 { GHC.Base.C:Monad ww7 ww8 ww9 ww10 ww11 ->
                  StreetRun.Renderer.$wclearScreen' @ m ww8 ww3 w1 } }) -}
-af034b3304e1b941ef9b4ecaf0673006
+95398e630047a32f774d251f1e150784
   drawScreen' ::
     (StreetRun.SDLLayer.SDLRenderer m,
      Control.Monad.Reader.Class.MonadReader
@@ -357,10 +357,10 @@ af034b3304e1b941ef9b4ecaf0673006
                  case w of ww { StreetRun.SDLLayer.C:SDLRenderer ww1 ww2 ww3 ww4 ww5 ->
                  case ww1 of ww6 { GHC.Base.C:Monad ww7 ww8 ww9 ww10 ww11 ->
                  StreetRun.Renderer.$wclearScreen' @ m ww8 ww2 w1 } }) -}
-a198ec76154c94d6ad1a9049304ad402
+3f786eac2f607352fc5a43167b9f58be
   grassY :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 576#) -}
-db5e1961b93d8c66656c254e30009db8
+fe01709c343458dc4f3317788fb8ff29
   streetY :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 448#) -}
 trusted: none

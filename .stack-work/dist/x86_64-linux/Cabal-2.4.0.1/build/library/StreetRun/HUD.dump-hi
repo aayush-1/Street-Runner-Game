@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 23:07:13.285464563 UTC
+2019-04-26 14:29:08.546408099 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.HUD 8064
-  interface hash: fc28d9a066d122013775d8f4d0e3c14d
-  ABI hash: 67c25875c022a2408906d37d63f0510d
-  export-list hash: e799087feb519c2fa6ec11e1bcb9834b
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.HUD 8064
+  interface hash: 5ae24d091bf2d2cead7b5d3660af52ea
+  ABI hash: 33ed45f0ee969474895a8614650a2f1b
+  export-list hash: 7832e9cac015a5203f08d8c52ac8b9ae
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -20,17 +20,17 @@ exports:
   StreetRun.HUD.drawNumbers
   StreetRun.HUD.drawScore'
   StreetRun.HUD.HUD{StreetRun.HUD.drawControls StreetRun.HUD.drawHiscore StreetRun.HUD.drawScore}
-module dependencies: StreetRun.Camera StreetRun.Common
+module dependencies: StreetRun.Assets StreetRun.Assets_1
+                     StreetRun.Assets_2 StreetRun.CFL StreetRun.Camera StreetRun.Common
                      StreetRun.Config StreetRun.Font StreetRun.Font_functions
-                     StreetRun.Frame StreetRun.Hurdle StreetRun.Hurdle_1 StreetRun.Input
+                     StreetRun.Hurdle StreetRun.Hurdle_1 StreetRun.Input
                      StreetRun.Physics StreetRun.Quake StreetRun.Quake_BackStreet
                      StreetRun.Quake_Building StreetRun.Quake_Grass
                      StreetRun.Quake_Street StreetRun.Renderer StreetRun.Renderer_func_1
-                     StreetRun.Renderer_func_2 StreetRun.Resource StreetRun.Runner
-                     StreetRun.Runner_func_1 StreetRun.Runner_func_2
-                     StreetRun.SDLRenderer StreetRun.Scenario StreetRun.Sfx
-                     StreetRun.Snag StreetRun.Step StreetRun.Types StreetRun.Work
-                     StreetRun.Work_func
+                     StreetRun.Renderer_func_2 StreetRun.Runner StreetRun.Runner_func_1
+                     StreetRun.Runner_func_2 StreetRun.SDLLayer StreetRun.Scenario
+                     StreetRun.Sfx StreetRun.Snag StreetRun.Step StreetRun.Types
+                     StreetRun.Work StreetRun.Work_func
 package dependencies: StateVar-1.1.1.1 adjunctions-4.4
                       aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
                       base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
@@ -156,100 +156,100 @@ import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
 import  -/  integer-gmp-1.0.2.0:GHC.Integer.Type 6d87087aea24143d2650f78480d954a3
-import  -/  lens-4.17:Control.Lens 531af2b540e6d8d8ce856b6f46207d94
-import  -/  lens-4.17:Control.Lens.Getter 79a8b254c85ab59ff7c11b644140539d
+import  -/  lens-4.17:Control.Lens 02c38743366e4d3d260b71bddfddea13
+import  -/  lens-4.17:Control.Lens.Getter 18b0523ecb5ed8cc7fa826ffd942da08
 import  -/  mtl-2.2.2:Control.Monad.State 753def63fe8e937dc636f11e5230745a
 import  -/  mtl-2.2.2:Control.Monad.State.Class 94cc1438f3f9a3259fb0a2c56d3d0303
-import  -/  StreetRun.Common ae88f6983cc973a550c263b8148feda8
-  exports: 61e4030ffa8e91db9a54c7154cc3d232
-  $sel:cvHiscore:CommonVars 0f93d8dfb992b8c8431fd0dc1f0c54d0
-  HasCommonVars 919b4731c41ba51a047a083b8a4cc9c7
-  commonVars 0c52cc297fe39f10299147a803dcafdf
-import  -/  StreetRun.Font a32f3953bbb50ce9b469edb8463d6f24
-  exports: 7faf0604fc3be1edae721103fd7b3042
-import  -/  StreetRun.Font_functions 1a5a69e004e559ef0ed610c21b9037a3
-  exports: 8738957528d4728a198f0cc1309ae7d5
-  toNumberReverse ade1db35536e4e7a43d1d3f33b25d6ea
-import  -/  StreetRun.Renderer eba9a9e4c8700e42ea509a1bf564c30b
-  exports: bdc569cebfaf1503ce959a9192a1814c
-  Renderer 879b383bd7b1ca67a12fca41ecb57c3d
-  drawControlsText c273e63bbfbceba86e2e57429e35786d
-  drawHiscoreText 5f28a0ed8ecf785685f579f732fae6f3
-  drawNumber 07f1262f00e44fb0901563f24ac11422
-import  -/  StreetRun.Renderer_func_1 b2f8a68dbebb4a5575e9c9404df81f49
-  exports: cd995c9f02033435bf3d7151e24e6a3d
-import  -/  StreetRun.Renderer_func_2 4d5a7c4dba8ccd5d139bd424e7e60331
-  exports: acb7c593e3b7f4916cf72f231a22b161
-import  -/  StreetRun.Work 3611973cdf8488c3a5964c00b99590c8
-  exports: ffd7a4165016a00bc61ed7371fce244a
-  $sel:pvScore:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvSeconds:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
-  exports: 0632c1ae56fdb446c1bb6a552db25704
-  HasPlayVars 7c21393bf018dbd7864889724c1b555b
-  playVars 189c6f7e94884827f037d5be1ee00734
-65aa37a2c5eab369441f067e51da18ec
+import  -/  StreetRun.Common ec7a24ddc13a89793e354234ea8b6a8f
+  exports: 5bf7e8807e04e9b7e18cf5c3f75b1f5b
+  $sel:cvHiscore:CommonVars 1a70b4b7adfef4baee78b76f08e9c288
+  HasCommonVars 78e2982dec7ad30766f890d3421b5154
+  commonVars 2394ba70a1376f821bc3afbedd466646
+import  -/  StreetRun.Font 34a23e060586d079dd0657583ffec0bf
+  exports: 09e7f7e66762b635c22cb5644e292e72
+import  -/  StreetRun.Font_functions 233513d294ddb4c635ea5e843e8f2bc1
+  exports: c1863499f3ebc41d6a1caeb3c071141a
+  toNumberReverse 1e3288a1964648de6cb5976aabe82b56
+import  -/  StreetRun.Renderer 0519d22b921b8437012069e63a6f4fa6
+  exports: 3ce23641af82250faf4b4afd515774b7
+  Renderer 718a3d63cec016694ff0c781c86acdfc
+  drawControlsText 76faa600e0a59dd6c1019a2728558ec4
+  drawHiscoreText 3aececd03c6b18fda7ae5d49ef3491da
+  drawNumber efc5747e03521eb7a6a30e323aefdf65
+import  -/  StreetRun.Renderer_func_1 a9aeb84e666161fb4390884165deb075
+  exports: 6a0ad2bf2ffcb5fd6ca93a687f153110
+import  -/  StreetRun.Renderer_func_2 8e1829777a16c2ecd350a0a2077893e3
+  exports: e72c1bc9f19fb36af370b60f395645dd
+import  -/  StreetRun.Work 84c49625e5300d184b6b74d71a119d1f
+  exports: be18f47a77094179ee18b27ca088c03e
+  $sel:pvScore:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvSeconds:PlayVars 454bac6bacb8c3a13959acb3712742b4
+import  -/  StreetRun.Work_func e74f2daf9d4710767ad8c2ada174399d
+  exports: c79cba614ebcff5946e13d50725530aa
+  HasPlayVars 9cbc89508257ef44e1f754bf3878ef7f
+  playVars a16e4bec16bd99ad3c380a2d9a9d4a2c
+a9288adb3c6870de6e3de5d760795123
   $tc'C:HUD :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   3547234284853905943##
-                   1155380085604435243##
+                   15141097494528897167##
+                   3094018620200797137##
                    StreetRun.HUD.$trModule
                    StreetRun.HUD.$tc'C:HUD2
                    1#
                    StreetRun.HUD.$tc'C:HUD1) -}
-4129de118bcd35410aad5f5a5de8f0d3
+3e6d288d77c97cb0244105ca0147a69e
   $tc'C:HUD1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-38afad7249e342aec0b1d37e774b3f55
+507b3746e179cc17c90499c10d2daba3
   $tc'C:HUD2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.HUD.$tc'C:HUD3) -}
-b8ae7210b7ddb19cbbee2ecba34c42ac
+14fc8f43bc7ff156e9423135e16b7253
   $tc'C:HUD3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'C:HUD"#) -}
-a54d111a1129fa0b3708ba97af0a8759
+b8702cbcf2d458d3f80f8e73c0dcc469
   $tcHUD :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   3482481533836805470##
-                   4266052322964262051##
+                   3776264625076898781##
+                   8651596617328099463##
                    StreetRun.HUD.$trModule
                    StreetRun.HUD.$tcHUD2
                    0#
                    StreetRun.HUD.$tcHUD1) -}
-6efa4bc1c92ca887f3e981dca24c76c4
+8cda40767dc076d74db2736804deb34d
   $tcHUD1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-746846ed941250f11fd6f798e46ebf87
+053ac583a6e48c83300664a8c7039ca7
   $tcHUD2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.HUD.$tcHUD3) -}
-7554a144075604339779bd07d7915b2b
+1f219bc861be99767e0d699c3e097c0d
   $tcHUD3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("HUD"#) -}
-49c263ea01fde3fad4a9c084212bffb9
+6b3c5cefd8ef648ac1a70caeb2518d18
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.HUD.$trModule3
                    StreetRun.HUD.$trModule1) -}
-ffe97fc6b3189e964975da14c8bea32e
+be873042eb836af092ae1686d950797b
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.HUD.$trModule2) -}
-aca6ece205ea1a562cc0aef605eb9f24
+3eca081c2f00d2afe013991f6e6e9ba3
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.HUD"#) -}
-723adc657a9736581238ae5f7687858c
+d5d4be634ad4321d48d77ef744b1b7ba
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.HUD.$trModule4) -}
-01a408743db5358fe9f77bc8d13fd2df
+03be485ce5115dfda7a3281ead9006c5
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-e60a383b4110ec147a2f74598f810bf2
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+45448efffee22b39cd922e74e8455b50
   $wdrawControls' ::
     GHC.Base.Applicative m =>
     (forall a b. m a -> (a -> m b) -> m b)
@@ -309,7 +309,7 @@ e60a383b4110ec147a2f74598f810bf2
                          (StreetRun.Types.N:Seconds[0]) of wild1 { GHC.Types.F# x ->
                     case GHC.Prim.ltFloat# x 0.0# of lwild {
                       DEFAULT -> lvl1 1# -> lvl } } })) -}
-3ec07710849be6b68c25d7f553b93620
+924e5ea5a4f217e5b45fd5d948adc232
   $wdrawHiscore' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a b. m a -> m b -> m b)
@@ -421,7 +421,7 @@ e60a383b4110ec147a2f74598f810bf2
                          (GHC.Integer.Type.smallInteger i)
                          StreetRun.HUD.drawHiscore'2
                          StreetRun.HUD.drawHiscore'1 } }))) -}
-8394fc6e72d358d9eb96d54e94539468
+a305de48ef6a823812df061010758ab8
   $wdrawNumbers ::
     StreetRun.Renderer.Renderer m =>
     GHC.Integer.Type.Integer -> GHC.Types.Int -> GHC.Types.Int -> m ()
@@ -468,7 +468,7 @@ e60a383b4110ec147a2f74598f810bf2
                       @ StreetRun.Font.Number
                       (StreetRun.Font_functions.toNumber w1)
                       (GHC.Types.[] @ StreetRun.Font.Number))) -}
-4cdbd27969874e09ec51d7c0e87997de
+1756fcc5508a74c0925871fa3a924f09
   $wdrawScore' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a b. m a -> m b -> m b)
@@ -571,13 +571,13 @@ e60a383b4110ec147a2f74598f810bf2
                       (GHC.Integer.Type.smallInteger i)
                       StreetRun.HUD.drawHiscore'2
                       StreetRun.HUD.drawScore'1 } })) -}
-dd3aec2a82456c62e19ed6e64162878f
+910cd3343cd00cd8902c09529859c02a
   class GHC.Base.Monad m => HUD (m :: * -> *) where
     drawHiscore :: m ()
     drawScore :: m ()
     drawControls :: m ()
     {-# MINIMAL drawHiscore, drawScore, drawControls #-}
-f634a2a9a71af10e46b89f09774437f9
+d52431e5918ea475379194d1b2b14cd4
   drawControls' ::
     (StreetRun.Renderer.Renderer m,
      Control.Monad.State.Class.MonadState s m,
@@ -595,25 +595,25 @@ f634a2a9a71af10e46b89f09774437f9
                  case w of ww { StreetRun.Renderer.C:Renderer ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ww13 ww14 ww15 ww16 ww17 ww18 ww19 ww20 ww21 ww22 ww23 ww24 ww25 ww26 ->
                  case ww1 of ww27 { GHC.Base.C:Monad ww28 ww29 ww30 ww31 ww32 ->
                  StreetRun.HUD.$wdrawControls' @ m @ s ww28 ww29 ww26 w1 w2 } }) -}
-61a1adbe08ccd78783c7fa1b61d7e041
+68b91529158b8f8a0a4715ce672c857a
   drawControls'1 ::
     StreetRun.Work.PlayVars -> StreetRun.Work.PlayVars
   {- Arity: 1, HasNoCafRefs,
      Strictness: <S,1*U(U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U)>m,
      Unfolding: InlineRule (1, True, True)
                 (\ (v :: StreetRun.Work.PlayVars) -> v) -}
-7271f9463ed15e0aaf9d9d72af3959b7
+b81b0ce9f36a2dcb779629f2863f654c
   drawControls'2 :: (GHC.Types.Int, GHC.Types.Int)
   {- HasNoCafRefs, Strictness: m,
      Unfolding: ((StreetRun.HUD.drawControls'4,
                   StreetRun.HUD.drawControls'3)) -}
-61ac6baca46a453e789dea7ccb86ff9b
+c334554a4cb6309222504a8dd9432541
   drawControls'3 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 470#) -}
-6e84808aacef121f6034fe32612712d8
+128bb4a997f8f09de6f6478d5cea1b18
   drawControls'4 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 200#) -}
-cd60de1bc32326dac23a77881c1d4dc4
+0ed06d0c764870decd9971b5fe230c57
   drawHiscore' ::
     (StreetRun.Renderer.Renderer m,
      Control.Monad.State.Class.MonadState s m,
@@ -640,195 +640,195 @@ cd60de1bc32326dac23a77881c1d4dc4
                    ww25
                    w1
                    w2 } }) -}
-6cb5f41aaf5ffc362f3b9869c617e5e9
+f06aef4892cf69a5930bbf633f0abb6a
   drawHiscore'1 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 50#) -}
-78b07766a728f73af85ce80c07e80037
+819c2c7a038d2716cca00379ec7448f6
   drawHiscore'10 ::
     StreetRun.Types.DrawSprite StreetRun.Scenario.BuildingKey m
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (StreetRun.Types.DrawSprite StreetRun.Scenario.BuildingKey m)
                    StreetRun.HUD.drawHiscore'11) -}
-4af16229891ab978a3e5e22050ac577c
+26b240e3967185fb94d71781343b7cf9
   drawHiscore'11 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww DrawSprite BuildingKey m"#) -}
-96a9f795c2c44c2b56d0b4df10e47627
+98eb4a671f4d82d23e5e5f696e942b16
   drawHiscore'12 ::
     StreetRun.Types.DrawSprite StreetRun.Snag.BirdKey m
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (StreetRun.Types.DrawSprite StreetRun.Snag.BirdKey m)
                    StreetRun.HUD.drawHiscore'13) -}
-e51257af773fab97365e54af3187e82c
+93aa16912f9b667b8a803a7109ac8f14
   drawHiscore'13 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww DrawSprite BirdKey m"#) -}
-95e07c7884270dba764da6b6510ca2c7
+3ef6c0d1f2eb51a15927b5ee306ba9f4
   drawHiscore'14 ::
     StreetRun.Types.DrawSprite StreetRun.Snag.RockKey m
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (StreetRun.Types.DrawSprite StreetRun.Snag.RockKey m)
                    StreetRun.HUD.drawHiscore'15) -}
-d671a19213deaf65b38d9fe59bda8c2e
+3752efd26a584a8b5a91e8092f67a2f8
   drawHiscore'15 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww DrawSprite RockKey m"#) -}
-2fb2a4ac4811d21cd2625385da1fa605
+15682896764ef82b7d1d7f602d6044fc
   drawHiscore'16 ::
     StreetRun.Types.DrawSprite StreetRun.Snag.LavaKey m
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (StreetRun.Types.DrawSprite StreetRun.Snag.LavaKey m)
                    StreetRun.HUD.drawHiscore'17) -}
-ec3f5b85f56a1d1c0e315c8f67b02e40
+6b7c049c5f7425501d2a8067de7d0e00
   drawHiscore'17 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww DrawSprite LavaKey m"#) -}
-01bcfc47d4b85cf82e21f05a897a8f8c
+702e43f79f432f79fff8ce3a326b1c29
   drawHiscore'18 ::
     StreetRun.Types.DrawSprite StreetRun.Runner.RunnerKey m
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (StreetRun.Types.DrawSprite StreetRun.Runner.RunnerKey m)
                    StreetRun.HUD.drawHiscore'19) -}
-8237bb91ec3067c72799b435ecdee030
+f5ffbc3199fdb9063d9da761fa27ec4e
   drawHiscore'19 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww DrawSprite RunnerKey m"#) -}
-27578e3d938de12193018a89e90086b5
+adfd976244550fff228b5f24d32bc0c8
   drawHiscore'2 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 1234#) -}
-e82a0150ca672ccacf119ec226d72fa8
+c67608fb48e8903aefad249b74895529
   drawHiscore'20 ::
     m (StreetRun.Types.Animations StreetRun.Scenario.GrassKey)
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (m (StreetRun.Types.Animations StreetRun.Scenario.GrassKey))
                    StreetRun.HUD.drawHiscore'21) -}
-2bf203b281da2ec2a808138061112e45
+152f114c2db2c76c7391ebcdf01e04c2
   drawHiscore'21 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww m (Animations GrassKey)"#) -}
-1f68a87b81ebbe8e05a7bb46a20ac038
+4008fae669acf98866636a546f93a8f5
   drawHiscore'22 ::
     m (StreetRun.Types.Animations StreetRun.Scenario.BuildingKey)
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (m (StreetRun.Types.Animations StreetRun.Scenario.BuildingKey))
                    StreetRun.HUD.drawHiscore'23) -}
-0d7f78f5aac81a572cdeeead6565b8cf
+1393cbde170d70e8033f42d57f1e3ed2
   drawHiscore'23 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww m (Animations BuildingKey)"#) -}
-3b690695c111b1e016d7d3900a558ed0
+f2aaccb17d3c536fba957b92a8df3080
   drawHiscore'24 ::
     m (StreetRun.Types.Animations StreetRun.Snag.BirdKey)
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (m (StreetRun.Types.Animations StreetRun.Snag.BirdKey))
                    StreetRun.HUD.drawHiscore'25) -}
-335fb4e374f73c858131f312862bd03d
+7d536c6005d7cd82c7c1880543eed54e
   drawHiscore'25 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww m (Animations BirdKey)"#) -}
-d70c25f5fffebcf1b4cf89d372e5bf8b
+43bce45f3713d38784e13650e384710a
   drawHiscore'26 ::
     m (StreetRun.Types.Animations StreetRun.Snag.RockKey)
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (m (StreetRun.Types.Animations StreetRun.Snag.RockKey))
                    StreetRun.HUD.drawHiscore'27) -}
-04783512dc65b7da9d9d024ac3899251
+244ff9622f752a9aeefd03c731266db1
   drawHiscore'27 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww m (Animations RockKey)"#) -}
-da54e9546faf62da3812ba12145ada95
+6b63d8f04502c79216280fdfa145e2cf
   drawHiscore'28 ::
     m (StreetRun.Types.Animations StreetRun.Snag.LavaKey)
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (m (StreetRun.Types.Animations StreetRun.Snag.LavaKey))
                    StreetRun.HUD.drawHiscore'29) -}
-ec56262098ef8c6de71e7bf763ebbfbe
+7f53d84b660c0de859a104b3fbca71de
   drawHiscore'29 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww m (Animations LavaKey)"#) -}
-a56545cef970202d00cc2bbfb2961649
+ab26a2ce7c85fcaece202691d4d72f5d
   drawHiscore'3 ::
     StreetRun.Common.CommonVars -> StreetRun.Common.CommonVars
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
      Unfolding: InlineRule (1, True, True)
                 (\ (v :: StreetRun.Common.CommonVars) -> v) -}
-045ed19b54dff589bdc358c2a68549db
+b9e85c8aaffb8630db0a2771c8704f59
   drawHiscore'30 ::
     m (StreetRun.Types.Animations StreetRun.Runner.RunnerKey)
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (m (StreetRun.Types.Animations StreetRun.Runner.RunnerKey))
                    StreetRun.HUD.drawHiscore'31) -}
-a4394b65a46ead2f85399a00a639e142
+6d0e4f3248fc3d95d1bb2be872baf833
   drawHiscore'31 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww m (Animations RunnerKey)"#) -}
-b17b4e4a4deb77d033dbe9898c1ea97c
+874f5f09fb2886fab0a78ca8d9183c33
   drawHiscore'32 :: m ()
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (m ())
                    StreetRun.HUD.drawHiscore'33) -}
-87b7ea6dab135c7430122dbcfbd51799
+d90c4e357eabdfc386cd9c371aac3f2e
   drawHiscore'33 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww m ()"#) -}
-0ba61de7b16d4379b7ae8086ec22629d
+c5a433b1e86daaa602da978ce62c965c
   drawHiscore'34 :: GHC.Base.String -> m a
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (forall a. GHC.Base.String -> m a)
                    StreetRun.HUD.drawHiscore'35) -}
-3a8d9bd470bd283d4095564f710e5ff7
+db00873709905037388c5727eacad1b2
   drawHiscore'35 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww forall a. String -> m a"#) -}
-f21e718f006a733b3e8e2774c3d404e2
+b006e82b6aef0d8cfa89a91a0744901b
   drawHiscore'36 :: GHC.Base.Applicative m
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (GHC.Base.Applicative m)
                    StreetRun.HUD.drawHiscore'37) -}
-e0d416973668f61ed2a0b2bd63497b45
+e2566ae732f23e7c8b2708a244894c9d
   drawHiscore'37 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww Applicative m"#) -}
-c4ee056755fd82d2fef0388e9c8c04b9
+c1110f964487c74b9a950eb74adc82e7
   drawHiscore'38 :: (GHC.Types.Int, GHC.Types.Int)
   {- HasNoCafRefs, Strictness: m,
      Unfolding: ((StreetRun.HUD.drawHiscore'40,
                   StreetRun.HUD.drawHiscore'39)) -}
-286a1a74960f5ce8ce6dbd537279b508
+ce9e6962872b2f14d64ad074d991ed59
   drawHiscore'39 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 16#) -}
-ee7637f51278b3dc9942ab1a49d142c3
+97817229cf0edc89ca8fd7436c9b82e9
   drawHiscore'4 :: StreetRun.Types.Percent -> m ()
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (StreetRun.Types.Percent -> m ())
                    StreetRun.HUD.drawHiscore'5) -}
-55b0ee46aa3d3221185d509e9edabaa8
+836a5dbf1576f428b47928b00f6d8a81
   drawHiscore'40 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 1180#) -}
-fe242c8a392b861f3c06dd337f8bbc93
+f310175a6fada1589acef5ab5567b90a
   drawHiscore'5 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww Percent -> m ()"#) -}
-6c7aa2f7eee8210b73f401162d0ce2d6
+1a80452119623e75d92322935e38572b
   drawHiscore'6 :: (GHC.Types.Int, GHC.Types.Int) -> m ()
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ ((GHC.Types.Int, GHC.Types.Int) -> m ())
                    StreetRun.HUD.drawHiscore'7) -}
-7a5d42bb2e79792b114e2e44f7a22280
+acc9cfc7ba9d07fc825687f878faad06
   drawHiscore'7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww (Int, Int) -> m ()"#) -}
-43c1be242c3d81d57fbb71f75d58b216
+0e28b6d61ba9b3852cbf023e117f3866
   drawHiscore'8 ::
     StreetRun.Types.DrawSprite StreetRun.Scenario.GrassKey m
   {- Unfolding: (\ @ m :: * -> * ->
                  Control.Exception.Base.absentError
                    @ (StreetRun.Types.DrawSprite StreetRun.Scenario.GrassKey m)
                    StreetRun.HUD.drawHiscore'9) -}
-f93dc6d68d51b0630268e6d0191bcbec
+2d31e32ebc75a90055557a773ac42739
   drawHiscore'9 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ww DrawSprite GrassKey m"#) -}
-806955b21eefc0f09a8b4479de5d646b
+0460193ebb688acded79f56a0ef87953
   drawNumbers ::
     StreetRun.Renderer.Renderer m =>
     GHC.Integer.Type.Integer -> (GHC.Types.Int, GHC.Types.Int) -> m ()
@@ -842,7 +842,7 @@ f93dc6d68d51b0630268e6d0191bcbec
                    (w2 :: (GHC.Types.Int, GHC.Types.Int)) ->
                  case w2 of ww { (,) ww1 ww2 ->
                  StreetRun.HUD.$wdrawNumbers @ m w w1 ww1 ww2 }) -}
-e7eea35b314d1c7643b6972bd08ba89a
+c5e3b6255c9d5772ce3393324bacdbe5
   drawScore' ::
     (StreetRun.Renderer.Renderer m,
      Control.Monad.State.Class.MonadState s m,
@@ -868,7 +868,7 @@ e7eea35b314d1c7643b6972bd08ba89a
                    ww25
                    w1
                    w2 } }) -}
-9632b38b03d15b3493b9d4c9dbe9afd1
+35103a64e0e821e73c310f389dba80eb
   drawScore'1 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 100#) -}
 trusted: none

@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 3a5987b8c8cf5ebfcf5b03f698192ac42fe72227c89b38d2ec35ca478b7d7bac
+-- hash: 620a81cff0beb4703d1f87c7e0660ebf04b0435580fa29ddb4259ed5a5a523ff
 
 name:           street-runner
 version:        0.0.0
@@ -33,12 +33,32 @@ source-repository head
 library
   exposed-modules:
       StreetRun
-      StreetRun.Config
+      StreetRun.Assets
+      StreetRun.Assets_1
+      StreetRun.Assets_2
       StreetRun.Audio
-      StreetRun.Picture
+      StreetRun.Bolt
+      StreetRun.Bolt_1
+      StreetRun.Camera
       StreetRun.CFL
+      StreetRun.Common
+      StreetRun.Config
+      StreetRun.Death
+      StreetRun.Font
+      StreetRun.Font_functions
+      StreetRun.GameOver
       StreetRun.HUD
-      StreetRun.Shaky
+      StreetRun.Hurdle
+      StreetRun.Hurdle_1
+      StreetRun.Input
+      StreetRun.Load
+      StreetRun.Out
+      StreetRun.Out_func
+      StreetRun.Pause
+      StreetRun.Physics
+      StreetRun.Picture
+      StreetRun.Play
+      StreetRun.Quake
       StreetRun.Quake_BackStreet
       StreetRun.Quake_Building
       StreetRun.Quake_Grass
@@ -46,44 +66,24 @@ library
       StreetRun.Renderer
       StreetRun.Renderer_func_1
       StreetRun.Renderer_func_2
-      StreetRun.Sound_effects
-      StreetRun.Camera
-      StreetRun.Common
-      StreetRun.Font
-      StreetRun.Font_functions
-      StreetRun.Out
-      StreetRun.Out_func
-      StreetRun.Input
-      StreetRun.Hurdle
-      StreetRun.Hurdle_1
-      StreetRun.Physics
-      StreetRun.Work
-      StreetRun.Work_func
-      StreetRun.Quake
-      StreetRun.Snag
       StreetRun.Runner
       StreetRun.Runner_func_1
       StreetRun.Runner_func_2
       StreetRun.Scenario
+      StreetRun.Scene
+      StreetRun.SDLLayer
       StreetRun.Sfx
+      StreetRun.Shaky
+      StreetRun.Snag
+      StreetRun.Sound_effects
+      StreetRun.State
       StreetRun.Step
       StreetRun.Tag
       StreetRun.Tag_func
-      StreetRun.Types
-      StreetRun.Load
-      StreetRun.Scene
-      StreetRun.Assets
-      StreetRun.Assets_1
-      StreetRun.Assets_2
-      StreetRun.Bolt
-      StreetRun.Bolt_1
-      StreetRun.Death
-      StreetRun.GameOver
-      StreetRun.Pause
-      StreetRun.Play
       StreetRun.Title
-      StreetRun.State
-      StreetRun.SDLLayer
+      StreetRun.Types
+      StreetRun.Work
+      StreetRun.Work_func
   other-modules:
       Paths_street_runner
   hs-source-dirs:
@@ -123,4 +123,21 @@ executable street-runner
   build-depends:
       base >=4.7 && <5
     , street-runner
+  default-language: Haskell2010
+
+test-suite street-runner-tests
+  type: exitcode-stdio-1.0
+  main-is: Main.hs
+  other-modules:
+      Paths_street_runner
+  hs-source-dirs:
+      test
+  default-extensions: DuplicateRecordFields FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving LambdaCase NamedFieldPuns ScopedTypeVariables OverloadedStrings
+  ghc-options: -Wall -rtsopts -threaded -with-rtsopts=-N
+  build-depends:
+      HUnit
+    , base
+    , street-runner
+    , text
+    , linear
   default-language: Haskell2010

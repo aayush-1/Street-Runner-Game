@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:11:44.067717867 UTC
+2019-04-26 14:29:01.04086308 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Physics 8064
-  interface hash: 25a1e29ed2032fc512020d88b258ede1
-  ABI hash: bcf598c857c36dd82527ead0c17a7064
-  export-list hash: 12b72d4e6f732b1793039514751aff72
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Physics 8064
+  interface hash: c2cb98f4a97daab1a2ead178512ee872
+  ABI hash: 913327b3ebcb9b45610bccf968b96819
+  export-list hash: 9d3a92dda1fb515a473dcd811827989d
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -105,8 +105,8 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
-import  -/  linear-1.20.8:Linear.V2 4a7e4c0c9247ec5477069840e3acbf22
-162276088b6d485fc167c1472cefa7da
+import  -/  linear-1.20.8:Linear.V2 8a9154bf8e5f0fecb2cc8fb6a057e650
+e343afcb44ddfcc03b022243d4611461
   $sel:aMax:Aabb ::
     StreetRun.Physics.Aabb -> Linear.V2.V2 GHC.Types.Float
   RecSel Left StreetRun.Physics.Aabb
@@ -114,7 +114,7 @@ import  -/  linear-1.20.8:Linear.V2 4a7e4c0c9247ec5477069840e3acbf22
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: StreetRun.Physics.Aabb) ->
                  case ds of wild { StreetRun.Physics.Aabb ds1 ds2 -> ds2 }) -}
-162276088b6d485fc167c1472cefa7da
+e343afcb44ddfcc03b022243d4611461
   $sel:aMin:Aabb ::
     StreetRun.Physics.Aabb -> Linear.V2.V2 GHC.Types.Float
   RecSel Left StreetRun.Physics.Aabb
@@ -122,73 +122,73 @@ import  -/  linear-1.20.8:Linear.V2 4a7e4c0c9247ec5477069840e3acbf22
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: StreetRun.Physics.Aabb) ->
                  case ds of wild { StreetRun.Physics.Aabb ds1 ds2 -> ds1 }) -}
-104b95171d99224b651dd0ceda3b24dd
+9322c5645851a5bdc84ef1afa55e0c21
   $tc'Aabb :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   4465448829615113935##
-                   6767889940350689437##
+                   4235852481553874343##
+                   8395888674822682809##
                    StreetRun.Physics.$trModule
                    StreetRun.Physics.$tc'Aabb2
                    0#
                    StreetRun.Physics.$tc'Aabb1) -}
-73e63814abbd01d00153ef522e7e41d2
+a6d4fe0dc14ee8daedb8e5d16a948afc
   $tc'Aabb1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-d14e4a4472d5c21624e0461383829a46
+25215315353ce192aba7ecea78bdea91
   $tc'Aabb2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Physics.$tc'Aabb3) -}
-3509157c9e51eeb2da2d1b5e5c55fd32
+43a5525fec962d15f8aabdb566ddaedc
   $tc'Aabb3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Aabb"#) -}
-659148625e4572eac6c3329b6f3d6f6d
+258de3271ce7a8e972a448a4fb761df8
   $tcAabb :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   14194555920922382911##
-                   190013194875946247##
+                   7533222413310032769##
+                   2285137153525915786##
                    StreetRun.Physics.$trModule
                    StreetRun.Physics.$tcAabb1
                    0#
                    GHC.Types.krep$*) -}
-ef8365b31cf5bf1d81285b250399214e
+58c29f53ea8c6d6b8ad99b0028df82c6
   $tcAabb1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Physics.$tcAabb2) -}
-fb583da77cb0ff2798348a944f32e5bd
+c82d5be32cbcbc0bc6c283174983cc1b
   $tcAabb2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Aabb"#) -}
-fcad73dfb7b978db95013a29a128da87
+48446f9c92a041180407e608a5fe5f63
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Physics.$trModule3
                    StreetRun.Physics.$trModule1) -}
-aa3fcc14b09b29d76a4123e49d8bcc11
+85c38f3233b9a1fa6676b4503fce8230
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Physics.$trModule2) -}
-68a50eaacd1ab3ebc17416e87b058257
+3a1d3e03719434e581bd85b56a105de9
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Physics"#) -}
-e594636be82044f857e1584b4906da0b
+0b45a528ca3d6a7be360810eb8021cb9
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Physics.$trModule4) -}
-9d68515a1395c1557548c3564e0d7045
+110e77b4587539382cef57fc7c68cf80
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-162276088b6d485fc167c1472cefa7da
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+e343afcb44ddfcc03b022243d4611461
   data Aabb
     = Aabb {aMin :: Linear.V2.V2 GHC.Types.Float,
             aMax :: Linear.V2.V2 GHC.Types.Float}
-6c518472c98ac834846ce41285c17220
+720fa9caa92593fe12c8c368a7042a57
   arenaWidth :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.F# 1280.0#) -}
-6ca72cfc149e4e3d55232b7b95bcbed9
+cb8debe291605a263e6f28e6cb560d2f
   collisionIntersect ::
     StreetRun.Physics.Aabb -> StreetRun.Physics.Aabb -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs,

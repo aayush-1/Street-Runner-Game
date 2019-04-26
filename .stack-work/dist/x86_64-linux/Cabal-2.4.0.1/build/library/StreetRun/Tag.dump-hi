@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:26:36.440714421 UTC
+2019-04-26 14:29:06.091962282 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Tag 8064
-  interface hash: 085020e00a7506a8f8b4ff06b265bfbf
-  ABI hash: 27e814674fbab3eb0744c0bf2fe41e37
-  export-list hash: 2deb1d4d5d6d85e90a593ece5714e0ef
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Tag 8064
+  interface hash: 5df1bc6d81ad5817625b69fcce9e448a
+  ABI hash: 478c1a1eaec7462402e2b3261537fcf9
+  export-list hash: 6ff61bf1ef79bf9f2647f863adb633fe
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: e9979ed0ba295133ef8188aa5e696ffc
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -16,7 +16,7 @@ interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Tag 8064
   where
 exports:
   StreetRun.Tag.TitleVars{StreetRun.Tag.TitleVars tvBuildingPos tvFlashing tvGrassPos tvRunnerPos}
-module dependencies: StreetRun.Camera StreetRun.Frame
+module dependencies: StreetRun.CFL StreetRun.Camera
                      StreetRun.Hurdle StreetRun.Hurdle_1 StreetRun.Input
                      StreetRun.Physics StreetRun.Runner StreetRun.Runner_func_1
                      StreetRun.Runner_func_2 StreetRun.Scenario StreetRun.Snag
@@ -122,27 +122,27 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
                          vector-0.12.0.2:Data.Vector.Storable
                          vector-0.12.0.2:Data.Vector.Unboxed
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
-import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  animate-0.7.0:Animate cf529f033c38156be2990062be8eb570
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
-import  -/  lens-4.17:Control.Lens 531af2b540e6d8d8ce856b6f46207d94
-import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
-  exports: 07dc0a302095db6221f41ecc2db9aec7
-  RunnerKey c9d847714c135c3fbba17148989067a8
-import  -/  StreetRun.Runner_func_1 ecc488ef1c2226e946880fe6b01c6046
-  exports: 3aace68dd54e293b9e7cb9629aa29f15
-import  -/  StreetRun.Runner_func_2 f8a14e2b7b30d725c8ce0939a4c26918
-  exports: fc83ba710a96fc8b5794a82f528d2b01
-import  -/  StreetRun.Scenario 3d565e4d4fcefb40de1d348ddc5508f1
-  exports: 425f740a4cf1b868d9284521ed68ce1e
-  BuildingKey b4c3f53a1de721da99d4f02d4409c2d9
-  GrassKey da61b53345a9ca19f2dea7fa2a8793b3
-import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
-  exports: 687926be2250d898b68652280e784933
-  Seconds 3096dba0a5a57c02592e934b662fbeb3
-157b3cd13c267a6428af29fa9619d644
+import  -/  lens-4.17:Control.Lens 02c38743366e4d3d260b71bddfddea13
+import  -/  StreetRun.Runner a6abbd291e744158bf9018a60f48d314
+  exports: ae88bb9ed2797ab0ae7bfb3fb6716c40
+  RunnerKey 246fbc2203e765942b6e843f2c5465c5
+import  -/  StreetRun.Runner_func_1 bdddcc72b2b205ac6ed65be0261303a7
+  exports: 5dd8b90845ed790a7a36c82e6f4d7138
+import  -/  StreetRun.Runner_func_2 850b3567ef6c7c4675339eaa541ca68a
+  exports: 132f0584768b112cf2826c60192e01cb
+import  -/  StreetRun.Scenario 354a54748ba84a3c008f8f16b2acd94c
+  exports: 64c6733be65834216e60f326da61cf65
+  BuildingKey 8d4c5e6921f733591e707f21136e38ef
+  GrassKey ad2a2fb6c9f7041cf4bd51fd17675c8c
+import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
+  exports: 68eec0a854069d6ebcc9ba499b980fc6
+  Seconds a9822968438ab4a0fccda00b12150109
+cbf7b7425a835bb0a1de90f31f4231c6
   $fEqTitleVars :: GHC.Classes.Eq StreetRun.Tag.TitleVars
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -150,7 +150,7 @@ import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
                   @ StreetRun.Tag.TitleVars
                   StreetRun.Tag.$fEqTitleVars_$c==
                   StreetRun.Tag.$fEqTitleVars_$c/= -}
-157b3cd13c267a6428af29fa9619d644
+cbf7b7425a835bb0a1de90f31f4231c6
   $fEqTitleVars_$c/= ::
     StreetRun.Tag.TitleVars
     -> StreetRun.Tag.TitleVars -> GHC.Types.Bool
@@ -162,13 +162,13 @@ import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
                  case StreetRun.Tag.$fEqTitleVars_$c== x y of wild {
                    GHC.Types.False -> GHC.Types.True
                    GHC.Types.True -> GHC.Types.False }) -}
-157b3cd13c267a6428af29fa9619d644
+cbf7b7425a835bb0a1de90f31f4231c6
   $fEqTitleVars_$c== ::
     StreetRun.Tag.TitleVars
     -> StreetRun.Tag.TitleVars -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs,
      Strictness: <S(S(SLLL)LLL),1*U(1*U(1*U,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(U))><S(S(SLLL)LLL),1*U(1*U(1*U,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(1*H,1*U(U),1*U(U),1*U),1*U(U))> -}
-157b3cd13c267a6428af29fa9619d644
+cbf7b7425a835bb0a1de90f31f4231c6
   $fShowTitleVars :: GHC.Show.Show StreetRun.Tag.TitleVars
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -177,17 +177,17 @@ import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
                   StreetRun.Tag.$fShowTitleVars_$cshowsPrec
                   StreetRun.Tag.$fShowTitleVars_$cshow
                   StreetRun.Tag.$fShowTitleVars_$cshowList -}
-157b3cd13c267a6428af29fa9619d644
+cbf7b7425a835bb0a1de90f31f4231c6
   $fShowTitleVars1 :: StreetRun.Tag.TitleVars -> GHC.Show.ShowS
   {- Arity: 1,
      Strictness: <S,1*U(1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U))>,
      Unfolding: (\ (w :: StreetRun.Tag.TitleVars) ->
                  case w of ww { StreetRun.Tag.TitleVars ww1 ww2 ww3 ww4 ->
                  StreetRun.Tag.$w$cshowsPrec 0# ww1 ww2 ww3 ww4 }) -}
-5d24695966b81232ee233cd0719ed853
+111a5007a7dfacdbf626f3d2708054e3
   $fShowTitleVars2 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
-157b3cd13c267a6428af29fa9619d644
+cbf7b7425a835bb0a1de90f31f4231c6
   $fShowTitleVars_$cshow ::
     StreetRun.Tag.TitleVars -> GHC.Base.String
   {- Arity: 1,
@@ -198,7 +198,7 @@ import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
                    StreetRun.Tag.$fShowTitleVars2
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-157b3cd13c267a6428af29fa9619d644
+cbf7b7425a835bb0a1de90f31f4231c6
   $fShowTitleVars_$cshowList ::
     [StreetRun.Tag.TitleVars] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
@@ -209,7 +209,7 @@ import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
                    StreetRun.Tag.$fShowTitleVars1
                    ls
                    s) -}
-157b3cd13c267a6428af29fa9619d644
+cbf7b7425a835bb0a1de90f31f4231c6
   $fShowTitleVars_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Tag.TitleVars -> GHC.Show.ShowS
   {- Arity: 2,
@@ -220,7 +220,7 @@ import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
                  case w of ww { GHC.Types.I# ww1 ->
                  case w1 of ww2 { StreetRun.Tag.TitleVars ww3 ww4 ww5 ww6 ->
                  StreetRun.Tag.$w$cshowsPrec ww1 ww3 ww4 ww5 ww6 } }) -}
-157b3cd13c267a6428af29fa9619d644
+cbf7b7425a835bb0a1de90f31f4231c6
   $sel:tvBuildingPos:TitleVars ::
     StreetRun.Tag.TitleVars
     -> Animate.Position
@@ -232,7 +232,7 @@ import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
                 (\ (ds :: StreetRun.Tag.TitleVars) ->
                  case ds of wild { StreetRun.Tag.TitleVars ds1 ds2 ds3 ds4 ->
                  ds2 }) -}
-157b3cd13c267a6428af29fa9619d644
+cbf7b7425a835bb0a1de90f31f4231c6
   $sel:tvFlashing:TitleVars ::
     StreetRun.Tag.TitleVars -> GHC.Types.Float
   RecSel Left StreetRun.Tag.TitleVars
@@ -242,7 +242,7 @@ import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
                 (\ (ds :: StreetRun.Tag.TitleVars) ->
                  case ds of wild { StreetRun.Tag.TitleVars ds1 ds2 ds3 ds4 ->
                  ds4 }) -}
-157b3cd13c267a6428af29fa9619d644
+cbf7b7425a835bb0a1de90f31f4231c6
   $sel:tvGrassPos:TitleVars ::
     StreetRun.Tag.TitleVars
     -> Animate.Position
@@ -254,7 +254,7 @@ import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
                 (\ (ds :: StreetRun.Tag.TitleVars) ->
                  case ds of wild { StreetRun.Tag.TitleVars ds1 ds2 ds3 ds4 ->
                  ds3 }) -}
-157b3cd13c267a6428af29fa9619d644
+cbf7b7425a835bb0a1de90f31f4231c6
   $sel:tvRunnerPos:TitleVars ::
     StreetRun.Tag.TitleVars
     -> Animate.Position
@@ -266,65 +266,65 @@ import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
                 (\ (ds :: StreetRun.Tag.TitleVars) ->
                  case ds of wild { StreetRun.Tag.TitleVars ds1 ds2 ds3 ds4 ->
                  ds1 }) -}
-ad72b63c799ef9fdb8ca50256ed4508d
+49a7edd4e3a565e222b68ab62310cc56
   $tc'TitleVars :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   9692689447634692280##
-                   11017448114696833095##
+                   784831062878604357##
+                   7900115956767267773##
                    StreetRun.Tag.$trModule
                    StreetRun.Tag.$tc'TitleVars2
                    0#
                    StreetRun.Tag.$tc'TitleVars1) -}
-3b545a49daca2cb715ef079f61a06ac1
+830e25c5e8d85f1d7d3bf9bbd2e14550
   $tc'TitleVars1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-7a76ee599d2b1c39866b919daabfd8c3
+6e968d56b95bf45c6b7903044d823f7f
   $tc'TitleVars2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Tag.$tc'TitleVars3) -}
-965cbefede8c0224792969a69a0715ff
+a49f228bf76f703c848393b56b03f4fb
   $tc'TitleVars3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'TitleVars"#) -}
-fda4632aacfd85aa48f72b97830a60ac
+a736e1912b13658452226cc314cb6fbe
   $tcTitleVars :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   11952868720128412110##
-                   16185355316678126073##
+                   6287616596585819701##
+                   12852237412966480033##
                    StreetRun.Tag.$trModule
                    StreetRun.Tag.$tcTitleVars1
                    0#
                    GHC.Types.krep$*) -}
-72a32216a320c85b2552940acf88a862
+2b68f302d3fa3f54f71026e9e34999a5
   $tcTitleVars1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Tag.$tcTitleVars2) -}
-e0a4263d17b1665d322a15b990983a06
+1a78d245842732d2265ad5e4ba1fc81d
   $tcTitleVars2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("TitleVars"#) -}
-a50b8a0a0da39ea852752e39baf2e4a1
+37ba58f2de5408ab60bec1aa297791fd
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Tag.$trModule3
                    StreetRun.Tag.$trModule1) -}
-83b0071b2999cdce05d8a848f8648ef1
+3de2d0906ed48a2d1724cbbfc58edb9d
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Tag.$trModule2) -}
-06128b41a261e1704dd9b2ecf957a7bf
+abe30d445f947fea0d3cd7b396b294bc
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Tag"#) -}
-027623ab5bc1d1553a7657d50354f493
+fc58f8da944c408eac019862a37e4e55
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Tag.$trModule4) -}
-eb26a787f17a090822e6691fd773ef05
+60251b79bb2198dddae8efbf4c58c72d
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-26770133d39af2cd7984150d2e96391c
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+c051bc904e480f9d09472775bbe380fc
   $w$cshowsPrec ::
     GHC.Prim.Int#
     -> Animate.Position
@@ -338,7 +338,7 @@ eb26a787f17a090822e6691fd773ef05
   {- Arity: 5,
      Strictness: <S,U><L,1*U(U,U(U),U,U)><L,1*U(U,U(U),U,U)><L,1*U(U,U(U),U,U)><L,1*U(U)>,
      Inline: [2] -}
-157b3cd13c267a6428af29fa9619d644
+cbf7b7425a835bb0a1de90f31f4231c6
   data TitleVars
     = TitleVars {tvRunnerPos :: Animate.Position
                                   StreetRun.Runner.RunnerKey StreetRun.Types.Seconds,

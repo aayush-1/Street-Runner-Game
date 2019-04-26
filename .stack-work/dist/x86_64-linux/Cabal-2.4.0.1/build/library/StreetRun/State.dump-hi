@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 06:42:09.189432095 UTC
+2019-04-26 14:36:06.305834371 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.State 8064
-  interface hash: 47322f7bccc1e170fa4283acf2e0be6e
-  ABI hash: 2b4a5b23cba95fdf8a8075ad75dbe6ec
-  export-list hash: 9215ef2a775e8ad7562f6edbfe13ac1f
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.State 8064
+  interface hash: b1793e9fbba839ac665578da5d546416
+  ABI hash: 879bfe0721b41cea3eaddf89be35a0d2
+  export-list hash: 2ad9459b3bdc4835614d220ed9e341f2
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: e9979ed0ba295133ef8188aa5e696ffc
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -18,10 +18,10 @@ exports:
   StreetRun.State.initVars
   StreetRun.State.HasVars{StreetRun.State.vars}
   StreetRun.State.Vars{StreetRun.State.Vars vCamera vCommon vGameOver vInput vNextScene vPlay vScene vTitle}
-module dependencies: StreetRun.Camera StreetRun.Common
-                     StreetRun.Frame StreetRun.Hurdle StreetRun.Hurdle_1 StreetRun.Input
-                     StreetRun.Out StreetRun.Out_func StreetRun.Physics StreetRun.Quake
-                     StreetRun.Quake_BackStreet StreetRun.Quake_Building
+module dependencies: StreetRun.CFL StreetRun.Camera
+                     StreetRun.Common StreetRun.Hurdle StreetRun.Hurdle_1
+                     StreetRun.Input StreetRun.Out StreetRun.Out_func StreetRun.Physics
+                     StreetRun.Quake StreetRun.Quake_BackStreet StreetRun.Quake_Building
                      StreetRun.Quake_Grass StreetRun.Quake_Street StreetRun.Runner
                      StreetRun.Runner_func_1 StreetRun.Runner_func_2 StreetRun.Scenario
                      StreetRun.Sfx StreetRun.Snag StreetRun.Step StreetRun.Tag
@@ -132,54 +132,54 @@ import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
-import  -/  lens-4.17:Control.Lens 531af2b540e6d8d8ce856b6f46207d94
-import  -/  lens-4.17:Control.Lens.Lens 4ecd1f102747486cc4886e7a52fd51ac
-import  -/  lens-4.17:Control.Lens.TH c8ee903ac0437128dcf8373c689fbce1
-import  -/  lens-4.17:Control.Lens.Type a26601a0a02238b01fa664e92db6501f
-import  -/  StreetRun.Camera 63926371f9a3875764572c53b7b589e9
-  exports: 0bdcb1ea14c3bd8392b27cba46d7b4fa
-  Camera 2825edad27438647c3fbdedec7f77477
-  initCamera 375914fddf296f3e4e56a03285ce9522
-import  -/  StreetRun.Common ae88f6983cc973a550c263b8148feda8
-  exports: 61e4030ffa8e91db9a54c7154cc3d232
-  CommonVars 0f93d8dfb992b8c8431fd0dc1f0c54d0
-  HasCommonVars 919b4731c41ba51a047a083b8a4cc9c7
-  initCommonVars 4e6b01758597412806e75e6dac1bc3c0
-import  -/  StreetRun.Hurdle c4bf1734d0fc0cd048dae74996b10d52
-  exports: 5d1d0f5747b642287dbb935bf038e6f0
-  ObstacleTag ba95154007acc7d07251b5e5be0f759f
-import  -/  StreetRun.Hurdle_1 1a485025fa7e082b8373c58e155e3bf6
-  exports: d905238960a6001c32ab0ea30381a713
-import  -/  StreetRun.Input dc1e62404449c4ef4f763046555938b3
-  exports: d5c6fc579c43e57e8ccb72f493e3d8f8
-  Input debdce52acaa37df87e66131243c6c87
-  initInput 8de476ac606cbac3be07d10e3769ebef
-import  -/  StreetRun.Out c6f895be71f537324fe40402a153a0c3
-  exports: 7da7bc3ed9644406cff4632113b7a06a
-  GameOverVars e451e3f2cb5d3f53bad8e5ab684f2543
-import  -/  StreetRun.Out_func 2d58e416218e91bacef699b8794601fc
-  exports: 58fe7acc1a80715b11adc637a32a5ffc
-  HasGameOverVars 177b7477cb03a1ead955d8fa43c30efd
-  initGameOverVars dfc3e6878a66f84949ca52c26a0282ea
-import  -/  StreetRun.Scenario 3d565e4d4fcefb40de1d348ddc5508f1
-  exports: 425f740a4cf1b868d9284521ed68ce1e
-  Scene 2e1ce41e910869afacfce973e9cfb6ac
-  Scene'Title 9ddce5108a41a20ee05af12020205cb4
-import  -/  StreetRun.Tag 27e814674fbab3eb0744c0bf2fe41e37
-  exports: 2deb1d4d5d6d85e90a593ece5714e0ef
-  TitleVars 157b3cd13c267a6428af29fa9619d644
-import  -/  StreetRun.Tag_func f3f5a14ffbd5357638b12d8b482ff7e8
-  exports: 66d8f3d93a0bfb73e2304b95f1e2d95e
-  HasTitleVars 32b6a39b10f54ea6f85c15e607982124
-  initTitleVars d45273ed412fef927d696fb1f8133201
-import  -/  StreetRun.Work 3611973cdf8488c3a5964c00b99590c8
-  exports: ffd7a4165016a00bc61ed7371fce244a
-  PlayVars 05b27afb2a000fc455265545d1f3ef8b
-import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
-  exports: 0632c1ae56fdb446c1bb6a552db25704
-  HasPlayVars 7c21393bf018dbd7864889724c1b555b
-  initPlayVars ccfd65467c3b5b01dde30d5c7a0a7b13
-06c844f355a6a421607a99fdffa4b901
+import  -/  lens-4.17:Control.Lens 02c38743366e4d3d260b71bddfddea13
+import  -/  lens-4.17:Control.Lens.Lens 28f33ded64c598d9fbea880860e212ae
+import  -/  lens-4.17:Control.Lens.TH a3413f983a85efb472c9d435aae96b24
+import  -/  lens-4.17:Control.Lens.Type fd3d7a4235b6bea7852cfdf84ee6def7
+import  -/  StreetRun.Camera 15520c15c72428459c71d35d468598c8
+  exports: 445eb368813d35f6641c1446797753f7
+  Camera b5968deab63503d8481a66bb851490e6
+  initCamera d5f1066db3772b85d485fcdd4aefe8c0
+import  -/  StreetRun.Common ec7a24ddc13a89793e354234ea8b6a8f
+  exports: 5bf7e8807e04e9b7e18cf5c3f75b1f5b
+  CommonVars 1a70b4b7adfef4baee78b76f08e9c288
+  HasCommonVars 78e2982dec7ad30766f890d3421b5154
+  initCommonVars e9af88a65889b0174c6b0f0f18ddc4b6
+import  -/  StreetRun.Hurdle 38a26fa541ce5ced9eea0f70d3aa69b6
+  exports: ccac325c207e939d1f0d01c3da87ee30
+  ObstacleTag 87a5d4ad614d614ae5f2b575cc03f725
+import  -/  StreetRun.Hurdle_1 c9e76027407717b022743d66c2f85407
+  exports: be3dc5eb0f18c89559dce1b425bb13f5
+import  -/  StreetRun.Input 2b2882bb9ccf0deac02d72ccd2af9474
+  exports: 794b8afcff1485016b9c41551ca5bab1
+  Input f50c2ab9e2082623275c9cc57e0e92df
+  initInput 5f2bfd4a976eb5bf95386ec47a194730
+import  -/  StreetRun.Out 821100932c472ef91d1cc00ebdbd32fc
+  exports: f97bdbd80a695ead6b4ee17ec380e5cf
+  GameOverVars 2891ba2842a669b0d757efb60792393f
+import  -/  StreetRun.Out_func a900baa9f9b77c1879583d44ab2f3b10
+  exports: 7986cfba44c33c394d69d1f3c9409685
+  HasGameOverVars 35cf1815c5f5f54bc448623ef9f0aa92
+  initGameOverVars b53fcd1b7b8c8341e1cde92f4e3f7d87
+import  -/  StreetRun.Scenario 354a54748ba84a3c008f8f16b2acd94c
+  exports: 64c6733be65834216e60f326da61cf65
+  Scene 627d7fee21737fffbaa905616e7162fd
+  Scene'Title 63ef21e09609c128de8ab51cdf5c195a
+import  -/  StreetRun.Tag 478c1a1eaec7462402e2b3261537fcf9
+  exports: 6ff61bf1ef79bf9f2647f863adb633fe
+  TitleVars cbf7b7425a835bb0a1de90f31f4231c6
+import  -/  StreetRun.Tag_func 159a50a2215140f4934819751a0cd220
+  exports: fdd42e8f6ce9b2005464c764ab69e99f
+  HasTitleVars 8a5ef6bd9652a97c580bdda9c0818595
+  initTitleVars e1f971ff3f2b26c1d9ce79179b157d21
+import  -/  StreetRun.Work 84c49625e5300d184b6b74d71a119d1f
+  exports: be18f47a77094179ee18b27ca088c03e
+  PlayVars 454bac6bacb8c3a13959acb3712742b4
+import  -/  StreetRun.Work_func e74f2daf9d4710767ad8c2ada174399d
+  exports: c79cba614ebcff5946e13d50725530aa
+  HasPlayVars 9cbc89508257ef44e1f754bf3878ef7f
+  initPlayVars 433e189d7b7f8f1cc59a9c7750ea4b83
+94cac8e669b0992d9fdeb1c0cad361f9
   $fEqVars :: GHC.Classes.Eq StreetRun.State.Vars
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -187,7 +187,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                   @ StreetRun.State.Vars
                   StreetRun.State.$fEqVars_$c==
                   StreetRun.State.$fEqVars_$c/= -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fEqVars_$c/= ::
     StreetRun.State.Vars -> StreetRun.State.Vars -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs,
@@ -198,7 +198,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                  case StreetRun.State.$fEqVars_$c== x y of wild {
                    GHC.Types.False -> GHC.Types.True
                    GHC.Types.True -> GHC.Types.False }) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fEqVars_$c== ::
     StreetRun.State.Vars -> StreetRun.State.Vars -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs,
@@ -299,7 +299,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                         -> case b2 of wild4 {
                              DEFAULT -> GHC.Types.False
                              StreetRun.Scenario.Scene'Quit -> $j } } } } } } } } }) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fHasCommonVarsVars ::
     StreetRun.Common.HasCommonVars StreetRun.State.Vars
   DFunId
@@ -311,7 +311,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                   `cast`
                 (Sym (StreetRun.Common.N:HasCommonVars[0]
                           <StreetRun.State.Vars>_N)) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fHasCommonVarsVars_$ccommonVars ::
     Control.Lens.Type.Lens'
       StreetRun.State.Vars StreetRun.Common.CommonVars
@@ -334,7 +334,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                    (eta
                       (case eta1 of wild { StreetRun.State.Vars ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
                        ds }))) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fHasGameOverVarsVars ::
     StreetRun.Out_func.HasGameOverVars StreetRun.State.Vars
   DFunId
@@ -346,7 +346,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                   `cast`
                 (Sym (StreetRun.Out_func.N:HasGameOverVars[0]
                           <StreetRun.State.Vars>_N)) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fHasGameOverVarsVars_$cgameOverVars ::
     Control.Lens.Type.Lens'
       StreetRun.State.Vars StreetRun.Out.GameOverVars
@@ -368,7 +368,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                    (eta
                       (case eta1 of wild { StreetRun.State.Vars ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
                        ds5 }))) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fHasPlayVarsVars ::
     StreetRun.Work_func.HasPlayVars StreetRun.State.Vars
   DFunId
@@ -380,7 +380,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                   `cast`
                 (Sym (StreetRun.Work_func.N:HasPlayVars[0]
                           <StreetRun.State.Vars>_N)) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fHasPlayVarsVars_$cplayVars ::
     Control.Lens.Type.Lens'
       StreetRun.State.Vars StreetRun.Work.PlayVars
@@ -402,7 +402,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                    (eta
                       (case eta1 of wild { StreetRun.State.Vars ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
                        ds4 }))) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fHasTitleVarsVars ::
     StreetRun.Tag_func.HasTitleVars StreetRun.State.Vars
   DFunId
@@ -414,7 +414,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                   `cast`
                 (Sym (StreetRun.Tag_func.N:HasTitleVars[0]
                           <StreetRun.State.Vars>_N)) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fHasTitleVarsVars_$ctitleVars ::
     Control.Lens.Type.Lens'
       StreetRun.State.Vars StreetRun.Tag.TitleVars
@@ -436,7 +436,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                    (eta
                       (case eta1 of wild { StreetRun.State.Vars ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
                        ds3 }))) -}
-91ed9d027500b47aace60749fbb901f4
+650d39c4c257120a3a60af34d5d27c42
   $fHasVarsVars :: StreetRun.State.HasVars StreetRun.State.Vars
   DFunId
   {- Arity: 2, HasNoCafRefs, Strictness: <L,A>, Inline: (sat-args=0),
@@ -444,14 +444,14 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                 StreetRun.State.$fHasVarsVars_$cvars
                   `cast`
                 (Sym (StreetRun.State.N:HasVars[0] <StreetRun.State.Vars>_N)) -}
-152b00ed776e4b23f47bfeb853c56365
+dddaa3c1c47cffe5ba3050e41ae40a59
   $fHasVarsVars_$cvars ::
     Control.Lens.Type.Lens' StreetRun.State.Vars StreetRun.State.Vars
   {- Arity: 2, HasNoCafRefs, Strictness: <L,A>,
      Unfolding: InlineRule (1, True, True)
                 (\ @ f :: * -> * ($dFunctor :: GHC.Base.Functor f) ->
                  GHC.Base.id @ (StreetRun.State.Vars -> f StreetRun.State.Vars)) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fShowVars :: GHC.Show.Show StreetRun.State.Vars
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -460,7 +460,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                   StreetRun.State.$fShowVars_$cshowsPrec
                   StreetRun.State.$fShowVars_$cshow
                   StreetRun.State.$fShowVars_$cshowList -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fShowVars1 :: StreetRun.State.Vars -> GHC.Show.ShowS
   {- Arity: 1,
      Strictness: <S,1*U(1*U(U(U),1*U,U),U,U,1*U(1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U)),1*U(U(U),U(U),1*U(U),1*U(U),1*U(U,1*U,1*U,1*U),U,1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,1*U,1*U,1*U),1*U(U),1*U(U),1*U(U),1*U(U),U,U),1*U(1*U(U),1*U(U)),1*U(1*U(U,1*U),1*U(U,1*U),1*U(U,1*U),1*U(U,1*U),U),1*U(1*U(U,U),1*U(U,U)))>,
@@ -476,10 +476,10 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                    ww6
                    ww7
                    ww8 }) -}
-2cb3a7c73e7124d22679c66a23e5d895
+b13016f2788160db3bfe910352cd0416
   $fShowVars2 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fShowVars_$cshow :: StreetRun.State.Vars -> GHC.Base.String
   {- Arity: 1,
      Strictness: <S,1*U(1*U(U(U),1*U,U),U,U,1*U(1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U)),1*U(U(U),U(U),1*U(U),1*U(U),1*U(U,1*U,1*U,1*U),U,1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,1*U,1*U,1*U),1*U(U),1*U(U),1*U(U),1*U(U),U,U),1*U(1*U(U),1*U(U)),1*U(1*U(U,1*U),1*U(U,1*U),1*U(U,1*U),1*U(U,1*U),U),1*U(1*U(U,U),1*U(U,U)))>,
@@ -489,7 +489,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                    StreetRun.State.$fShowVars2
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fShowVars_$cshowList :: [StreetRun.State.Vars] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
      Unfolding: InlineRule (2, True, False)
@@ -499,7 +499,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                    StreetRun.State.$fShowVars1
                    ls
                    s) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $fShowVars_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.State.Vars -> GHC.Show.ShowS
   {- Arity: 2,
@@ -519,7 +519,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                    ww8
                    ww9
                    ww10 } }) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $sel:vCamera:Vars ::
     StreetRun.State.Vars -> StreetRun.Camera.Camera
   RecSel Left StreetRun.State.Vars
@@ -529,7 +529,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                 (\ (ds :: StreetRun.State.Vars) ->
                  case ds of wild { StreetRun.State.Vars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
                  ds8 }) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $sel:vCommon:Vars ::
     StreetRun.State.Vars -> StreetRun.Common.CommonVars
   RecSel Left StreetRun.State.Vars
@@ -539,7 +539,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                 (\ (ds :: StreetRun.State.Vars) ->
                  case ds of wild { StreetRun.State.Vars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
                  ds1 }) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $sel:vGameOver:Vars ::
     StreetRun.State.Vars -> StreetRun.Out.GameOverVars
   RecSel Left StreetRun.State.Vars
@@ -549,7 +549,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                 (\ (ds :: StreetRun.State.Vars) ->
                  case ds of wild { StreetRun.State.Vars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
                  ds6 }) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $sel:vInput:Vars :: StreetRun.State.Vars -> StreetRun.Input.Input
   RecSel Left StreetRun.State.Vars
   {- Arity: 1, HasNoCafRefs,
@@ -558,7 +558,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                 (\ (ds :: StreetRun.State.Vars) ->
                  case ds of wild { StreetRun.State.Vars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
                  ds7 }) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $sel:vNextScene:Vars ::
     StreetRun.State.Vars -> StreetRun.Scenario.Scene
   RecSel Left StreetRun.State.Vars
@@ -568,7 +568,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                 (\ (ds :: StreetRun.State.Vars) ->
                  case ds of wild { StreetRun.State.Vars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
                  ds3 }) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $sel:vPlay:Vars :: StreetRun.State.Vars -> StreetRun.Work.PlayVars
   RecSel Left StreetRun.State.Vars
   {- Arity: 1, HasNoCafRefs,
@@ -577,7 +577,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                 (\ (ds :: StreetRun.State.Vars) ->
                  case ds of wild { StreetRun.State.Vars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
                  ds5 }) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $sel:vScene:Vars ::
     StreetRun.State.Vars -> StreetRun.Scenario.Scene
   RecSel Left StreetRun.State.Vars
@@ -587,7 +587,7 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                 (\ (ds :: StreetRun.State.Vars) ->
                  case ds of wild { StreetRun.State.Vars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
                  ds2 }) -}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   $sel:vTitle:Vars :: StreetRun.State.Vars -> StreetRun.Tag.TitleVars
   RecSel Left StreetRun.State.Vars
   {- Arity: 1, HasNoCafRefs,
@@ -596,85 +596,85 @@ import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
                 (\ (ds :: StreetRun.State.Vars) ->
                  case ds of wild { StreetRun.State.Vars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
                  ds4 }) -}
-d103ffd43302fa77ceddc32e33145416
+c25162c17cf357aa77af36f47049c40f
   $tc'Vars :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   10191869312646527334##
-                   8774075883731588482##
+                   9512186802707788397##
+                   3792258574536085116##
                    StreetRun.State.$trModule
                    StreetRun.State.$tc'Vars2
                    0#
                    StreetRun.State.$tc'Vars1) -}
-582d0b4e6f2e5abdad79dfd42e1cb449
+45c5c06049b9b1dca5aec981912195ce
   $tc'Vars1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-1ea9d4d5a716d9ffcff801f582d9e652
+61a8b4cf9b17733a24426326d5571bb1
   $tc'Vars2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.State.$tc'Vars3) -}
-fbc5cc6183ff78aa51ee9d39bac0e1fe
+33ec8c08b23e4f4ad8b362591f3f3ac4
   $tc'Vars3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Vars"#) -}
-b8bd2f1a6eef165fdb67f344e9119e07
+4fce778e4af4edc2830c709419fbaee7
   $tcHasVars :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   12087706502709424598##
-                   15044233622556020283##
+                   4237547442222199907##
+                   1390576690555438337##
                    StreetRun.State.$trModule
                    StreetRun.State.$tcHasVars2
                    0#
                    StreetRun.State.$tcHasVars1) -}
-59c0bd0165adcd36ec3cdd7006e119cc
+27e60ea5f7881a3fbf1f6254240bb021
   $tcHasVars1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-208c4d2793d1da791711a4c054302450
+1474b8c35a83fdebdfd39f228fa656f1
   $tcHasVars2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.State.$tcHasVars3) -}
-b94574169dee77cf9171a0a08c805bf0
+a7401b214537a3332ae8270cc0a0edf9
   $tcHasVars3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("HasVars"#) -}
-bdbcce59502aca6f5e8c53cf33fd4f03
+8e1109def173a00ef8ae47124251440e
   $tcVars :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   15453616296655953428##
-                   18046094796844181646##
+                   14256170631220530794##
+                   13494224128928598222##
                    StreetRun.State.$trModule
                    StreetRun.State.$tcVars1
                    0#
                    GHC.Types.krep$*) -}
-5687000ef5c9d5f81a2f71aa8eff64dd
+697caf8123398817fdcb1258b780e090
   $tcVars1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.State.$tcVars2) -}
-679145b10ea799605f8bec25eb133607
+34d60fca7de2ccdc9a099528ff78cfa9
   $tcVars2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Vars"#) -}
-7bb29378669981cd617676feafb71472
+fb9785270723972263e2c87c1e8798c9
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.State.$trModule3
                    StreetRun.State.$trModule1) -}
-33a63ca064f7ef89ea892e594f8719a1
+bf7e2a296f37abd15db5d7b7b95585fd
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.State.$trModule2) -}
-fceaf12a1de5fe97c3b6dd70a4694667
+3fdae6ef1f254d29ab0f24bb49d11f30
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.State"#) -}
-675f062be1bfc3f66d866e3d1f81fee9
+8eedf3cec88a971b46c912dac003d891
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.State.$trModule4) -}
-cc3f79c206e70207d0bf524d7708e4a9
+71a97a8ab2dfc6d17efc091c11d99377
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-1aff965c0134fc0c92556b3586392c3b
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+ee5342ab5c5c1da380163d99ee94017e
   $w$cshowsPrec ::
     GHC.Prim.Int#
     -> StreetRun.Common.CommonVars
@@ -689,11 +689,11 @@ cc3f79c206e70207d0bf524d7708e4a9
   {- Arity: 9,
      Strictness: <S,U><L,1*U(U(U),1*U,U)><L,U><L,U><L,1*U(1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U))><L,1*U(U(U),U(U),1*U(U),1*U(U),1*U(U,1*U,1*U,1*U),U,1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,U(U),U,U),1*U(U,1*U,1*U,1*U),1*U(U),1*U(U),1*U(U),1*U(U),U,U)><L,1*U(1*U(U),1*U(U))><L,1*U(1*U(U,1*U),1*U(U,1*U),1*U(U,1*U),1*U(U,1*U),U)><L,1*U(1*U(U,U),1*U(U,U))>,
      Inline: [2] -}
-91ed9d027500b47aace60749fbb901f4
+650d39c4c257120a3a60af34d5d27c42
   class HasVars c where
     vars :: Control.Lens.Type.Lens' c StreetRun.State.Vars
     {-# MINIMAL vars #-}
-06c844f355a6a421607a99fdffa4b901
+94cac8e669b0992d9fdeb1c0cad361f9
   data Vars
     = Vars {vCommon :: StreetRun.Common.CommonVars,
             vScene :: StreetRun.Scenario.Scene,
@@ -703,7 +703,7 @@ cc3f79c206e70207d0bf524d7708e4a9
             vGameOver :: StreetRun.Out.GameOverVars,
             vInput :: StreetRun.Input.Input,
             vCamera :: StreetRun.Camera.Camera}
-c01f031cbd84f26d28c85b81e68c6880
+804dc814ad3dfd1100f71425f3dfa705
   initVars ::
     [(GHC.Types.Int, StreetRun.Hurdle.ObstacleTag)]
     -> StreetRun.State.Vars

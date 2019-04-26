@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 07:48:59.590754064 UTC
+2019-04-26 14:29:07.140026535 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Renderer_func_1 8064
-  interface hash: 93e2d875c924797c38e09f56df75bc67
-  ABI hash: 87b11dfcfe20c3a1685ab67cfe255c84
-  export-list hash: cd995c9f02033435bf3d7151e24e6a3d
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Renderer_func_1 8064
+  interface hash: b23960f153228e1b9ba3c3a19ae96f01
+  ABI hash: a9aeb84e666161fb4390884165deb075
+  export-list hash: 6a0ad2bf2ffcb5fd6ca93a687f153110
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -19,8 +19,8 @@ exports:
   StreetRun.Renderer_func_1.drawTextureSprite
   StreetRun.Renderer_func_1.rectFromClip
 module dependencies: StreetRun.Assets StreetRun.Assets_1
-                     StreetRun.Assets_2 StreetRun.Camera StreetRun.Config StreetRun.Font
-                     StreetRun.Font_functions StreetRun.Frame StreetRun.Hurdle
+                     StreetRun.Assets_2 StreetRun.CFL StreetRun.Camera StreetRun.Config
+                     StreetRun.Font StreetRun.Font_functions StreetRun.Hurdle
                      StreetRun.Hurdle_1 StreetRun.Input StreetRun.Physics
                      StreetRun.Renderer StreetRun.Runner StreetRun.Runner_func_1
                      StreetRun.Runner_func_2 StreetRun.SDLLayer StreetRun.Scenario
@@ -142,66 +142,66 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
                          vector-0.12.0.2:Data.Vector.Unboxed
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
 import  -/  StateVar-1.1.1.1:Data.StateVar 3356bd62ad24ee9ca28de7ecf3cb79ab
-import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  animate-0.7.0:Animate cf529f033c38156be2990062be8eb570
 import  -/  base-4.12.0.0:Foreign.C.Types 35a1d321965626990bdd0f18683810e2
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
-import  -/  linear-1.20.8:Linear.Affine ad49a7802911561cdceabb09a106eb0a
-import  -/  linear-1.20.8:Linear.V2 4a7e4c0c9247ec5477069840e3acbf22
+import  -/  linear-1.20.8:Linear.Affine d36c64474d5a73db89d8620023f2c4b0
+import  -/  linear-1.20.8:Linear.V2 8a9154bf8e5f0fecb2cc8fb6a057e650
 import  -/  mtl-2.2.2:Control.Monad.Reader d5c3a33f1c95bb71f4ae02f87a7048ff
 import  -/  mtl-2.2.2:Control.Monad.Reader.Class 56d676c7504f5007ee5b66906716abcc
-import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
-import  -/  sdl2-2.4.1.0:SDL.Vect cd47fc30aef16e8f55c1351dafae292d
-import  -/  sdl2-2.4.1.0:SDL.Video.Renderer fde5d4735decffc12f192a8489c7afbb
-import  -/  StreetRun.Config d537956b220fa6e917381a250f3474d9
-  exports: 67f65ea021d4fb0cf4ae01501b50bd2f
-  $sel:cRenderer:Config 9c151486d5b66b82caae303edc04126a
-  Config 9c151486d5b66b82caae303edc04126a
-import  -/  StreetRun.Font a32f3953bbb50ce9b469edb8463d6f24
-  exports: 7faf0604fc3be1edae721103fd7b3042
-import  -/  StreetRun.Font_functions 1a5a69e004e559ef0ed610c21b9037a3
-  exports: 8738957528d4728a198f0cc1309ae7d5
-import  -/  StreetRun.Renderer a69ba77fd8f4ba75b3394f8a84f6545b
-  exports: bdc569cebfaf1503ce959a9192a1814c
-import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
-  exports: 07dc0a302095db6221f41ecc2db9aec7
-import  -/  StreetRun.SDLLayer 472f0f146c646fd670be8cc0b6cbfdac
-  exports: b9d495c503a62642ca4638e990961b8e
-  SDLRenderer 4f6ee56ef94bbb8367ac0e96051915aa
-  drawTexture 240fc2764d20de05a5c0fe3dc8ba1841
-  queryTexture fc732b441da8c44d4a32dd3b205b3ba8
-import  -/  StreetRun.Scenario 3d565e4d4fcefb40de1d348ddc5508f1
-  exports: 425f740a4cf1b868d9284521ed68ce1e
-import  -/  StreetRun.Snag 435128ff0e3817e1b1768f09cf894e59
-  exports: 7f7b3656c97eba619795923512f79f2a
-import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
-  exports: 687926be2250d898b68652280e784933
-  Seconds 3096dba0a5a57c02592e934b662fbeb3
-40289347282178c2e00b9ce491bea0c5
+import  -/  sdl2-2.4.1.0:SDL a509879ea64738370e9e96c8f0b5e49f
+import  -/  sdl2-2.4.1.0:SDL.Vect 87cebfb5451b5123ac5e23d9821e85c2
+import  -/  sdl2-2.4.1.0:SDL.Video.Renderer 93203afab1f85132f9da5863a7f04f06
+import  -/  StreetRun.Config b599dd5c3a0bd39090f183027c337ded
+  exports: a84af2eb49502a4ece92fede76199115
+  $sel:cRenderer:Config 74b4b3d61d611d8fd0371c0c604c9c1b
+  Config 74b4b3d61d611d8fd0371c0c604c9c1b
+import  -/  StreetRun.Font 34a23e060586d079dd0657583ffec0bf
+  exports: 09e7f7e66762b635c22cb5644e292e72
+import  -/  StreetRun.Font_functions 233513d294ddb4c635ea5e843e8f2bc1
+  exports: c1863499f3ebc41d6a1caeb3c071141a
+import  -/  StreetRun.Renderer 0519d22b921b8437012069e63a6f4fa6
+  exports: 3ce23641af82250faf4b4afd515774b7
+import  -/  StreetRun.Runner a6abbd291e744158bf9018a60f48d314
+  exports: ae88bb9ed2797ab0ae7bfb3fb6716c40
+import  -/  StreetRun.SDLLayer 43fbd12d1c3076103d4acc48080a09a0
+  exports: 646f4aaf1892c6584fb74106a06288c0
+  SDLRenderer ab017af776428e68e506559777a5f6a1
+  drawTexture 66fd53d60f8599e0a2f1a919b54c2fb6
+  queryTexture b95869fb5ceed47b0d8c505631cfd586
+import  -/  StreetRun.Scenario 354a54748ba84a3c008f8f16b2acd94c
+  exports: 64c6733be65834216e60f326da61cf65
+import  -/  StreetRun.Snag 91cafec8e0a3bc8aded7f9bc89567610
+  exports: c07ed761210af14f8b0800e144209504
+import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
+  exports: 68eec0a854069d6ebcc9ba499b980fc6
+  Seconds a9822968438ab4a0fccda00b12150109
+678117f4b45bcb1f7bcc62dbfc9358b5
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Renderer_func_1.$trModule3
                    StreetRun.Renderer_func_1.$trModule1) -}
-9c700b3a068cf6dcb9cbb9a186038891
+bedddf052af2e1e0dd20da49cdf328ad
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Renderer_func_1.$trModule2) -}
-cdda257bd791512f8606a07d19269ad2
+356225220196f48ca79cbd358d85bf4c
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Renderer_func_1"#) -}
-fe90f1cda49d913994ea62be02082c3a
+2d189c4fd1f1b9fa2b47518beeb7f22d
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Renderer_func_1.$trModule4) -}
-97bf0db32fbe2bcec5c2f39842de388f
+fb1f884e86bdb186b17cf35b841901e0
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-1b03a7b4ef99cbc9910f9d35d18d2b1a
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+5b235ad1a606a9a5fa6ff19f0f20d5eb
   $wdrawSprite ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (SDL.Internal.Types.Renderer
@@ -341,7 +341,7 @@ fe90f1cda49d913994ea62be02082c3a
                       lvl
                       (\ (sheet :: SDL.Video.Renderer.Texture) ->
                        ww1 renderer sheet lvl2 lvl6))) -}
-bfb3483bd7febe269eafe45d68064085
+816e35fa0a10c2c6b2ce71e039f67fdc
   $wdrawTextureSprite ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (SDL.Video.Renderer.Texture -> m SDL.Video.Renderer.TextureInfo)
@@ -441,7 +441,7 @@ bfb3483bd7febe269eafe45d68064085
                                      @ Foreign.C.Types.CInt
                                      nt `cast` (Sym (Foreign.C.Types.N:CInt[0]))
                                      nt1 `cast` (Sym (Foreign.C.Types.N:CInt[0])) } }))) })))) -}
-2db9c6328041ad58b9f76aac067005af
+4e2e9855f53571266aaceeaac8fcb569
   drawSprite ::
     (StreetRun.SDLLayer.SDLRenderer m,
      Control.Monad.Reader.Class.MonadReader
@@ -477,7 +477,7 @@ bfb3483bd7febe269eafe45d68064085
                    w3
                    ww13
                    ww14 } } }) -}
-2a4e9a9a3c3c1aab30dc01f02283064d
+01f391030fabff71d271cfdd5adbe1ed
   drawTextureSprite ::
     (StreetRun.SDLLayer.SDLRenderer m,
      Control.Monad.Reader.Class.MonadReader
@@ -506,7 +506,7 @@ bfb3483bd7febe269eafe45d68064085
                    w2
                    ww13
                    ww14 } } }) -}
-84a3c478bd2606939c018fd631f62292
+7cb00c065d65ef1025f11ead39b9f467
   rectFromClip ::
     Animate.SpriteClip key
     -> SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt

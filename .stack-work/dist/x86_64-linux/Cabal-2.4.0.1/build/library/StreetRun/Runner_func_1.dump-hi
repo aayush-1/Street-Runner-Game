@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 06:42:08.825242155 UTC
+2019-04-26 14:29:05.940472752 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Runner_func_1 8064
-  interface hash: 3edfa9595baba8fd23b9edee1b66b53c
-  ABI hash: 1928ba54f43a20365598e5563c7061e0
-  export-list hash: 3aace68dd54e293b9e7cb9629aa29f15
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Runner_func_1 8064
+  interface hash: 6352674fdc2062e89adfe4dbf40eeef3
+  ABI hash: bdddcc72b2b205ac6ed65be0261303a7
+  export-list hash: 5dd8b90845ed790a7a36c82e6f4d7138
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -24,7 +24,7 @@ exports:
   StreetRun.Runner_func_1.stepRunnerState
   StreetRun.Runner_func_1.stepSpeed
   StreetRun.Runner_func_1.stepZoom
-module dependencies: StreetRun.Camera StreetRun.Frame
+module dependencies: StreetRun.CFL StreetRun.Camera
                      StreetRun.Hurdle StreetRun.Hurdle_1 StreetRun.Input
                      StreetRun.Physics StreetRun.Runner StreetRun.Runner_func_2
                      StreetRun.Snag StreetRun.Step StreetRun.Types
@@ -128,7 +128,7 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
                          vector-0.12.0.2:Data.Vector.Storable
                          vector-0.12.0.2:Data.Vector.Unboxed
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
-import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  animate-0.7.0:Animate cf529f033c38156be2990062be8eb570
 import  -/  base-4.12.0.0:Data.Foldable 5f70351366640f007be66681d2212df8
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:GHC.Float ccb68fbeaab348f60d11c8132d51af5d
@@ -137,83 +137,83 @@ import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
 import  -/  key-state-0.2.0:KeyState f505d200ccd373546afa68666240df7e
-import  -/  linear-1.20.8:Linear c66c613217f57f0236b62caf498b629a
+import  -/  linear-1.20.8:Linear 04ff2913b766e124dece4465ec5ad3d4
 import  -/  safe-0.3.17:Safe 436789855584374f8b9a2b8b149b8684
-import  -/  StreetRun.Camera 63926371f9a3875764572c53b7b589e9
-  exports: 0bdcb1ea14c3bd8392b27cba46d7b4fa
-import  -/  StreetRun.Frame bcb622c9bc5c55d3184ab58affcc1b5b
-  exports: 061806fa76aa4b4d9f3c174ee83d7084
-  frameDeltaSeconds f3a7e06e5c0381d3a81fcee62fef3367
-import  -/  StreetRun.Hurdle c4bf1734d0fc0cd048dae74996b10d52
-  exports: 5d1d0f5747b642287dbb935bf038e6f0
-import  -/  StreetRun.Hurdle_1 1a485025fa7e082b8373c58e155e3bf6
-  exports: d905238960a6001c32ab0ea30381a713
-import  -/  StreetRun.Input dc1e62404449c4ef4f763046555938b3
-  exports: d5c6fc579c43e57e8ccb72f493e3d8f8
-  $sel:iDown:Input debdce52acaa37df87e66131243c6c87
-  $sel:iUp:Input debdce52acaa37df87e66131243c6c87
-  Input debdce52acaa37df87e66131243c6c87
-import  -/  StreetRun.Physics bcf598c857c36dd82527ead0c17a7064
-  exports: 12b72d4e6f732b1793039514751aff72
-import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
-  exports: 07dc0a302095db6221f41ecc2db9aec7
-  $sel:dsAction:RunnerState ba3a4953300a8a7970962fa07fd443a5
-  $sel:dsHeight:RunnerState ba3a4953300a8a7970962fa07fd443a5
-  $sel:dsHurt:RunnerState ba3a4953300a8a7970962fa07fd443a5
-  $sel:dsRecover:RunnerState ba3a4953300a8a7970962fa07fd443a5
-  RunnerAction b40b32426d0e9605bd1b5196a5b093c8
-  RunnerAction'Duck 71aa68e34d9d20fa5719cc8e63885d5e
-  RunnerAction'Hurt 52b6e367c3afaaddeec6cf55bb8a1b8e
-  RunnerAction'Jump de799746cc760820e4640404bbfde537
-  RunnerAction'Move f2f0659a96d320885e09e32bf7484607
-  RunnerKey c9d847714c135c3fbba17148989067a8
-  RunnerKey'Hurt a55fd3785c76d857e35e54ed380ede5f
-  RunnerKey'Kick 385cf197088539d3629639fe93b2987b
-  RunnerKey'Move 0c11f73f5616f93a390433bb2e122fd2
-  RunnerKey'Sneak c7074d5d9fbca38644c828c00c54a55e
-  RunnerState b79719effa9b9e197810f35ddd3ddf39
-  RunnerState ba3a4953300a8a7970962fa07fd443a5
-import  -/  StreetRun.Runner_func_2 f8a14e2b7b30d725c8ce0939a4c26918
-  exports: fc83ba710a96fc8b5794a82f528d2b01
-import  -/  StreetRun.Step da8e238f737bd9817c61db5c1982dc0f
-  exports: 4def855fa00facc907450d29f9f75fae
-  Step df088ef4f637b8a0cda346c30c5ea086
-  Step'Change e827a7efadc8349d47d90b3f4757231a
-  Step'Sustain 19776ad9b68ce99fbd90ff77dc74711c
-  smash 9b143f8d06c805775836741a712abedc
-import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
-  exports: 687926be2250d898b68652280e784933
-  Animations 4b41587a259aae6b6ac40ba923e843f7
-  Percent 9bc35ebe469aab1ad3d8edfd9fd30da6
-  Score 14dcab1a7c2f10e1cc53b42f2e1d95fd
-  Seconds 3096dba0a5a57c02592e934b662fbeb3
-  Stocks 7e087ffbec1cc0f28357111020b2535d
-  clamp 4428598fac4688a3e97e01b2030e4732
-import  -/  text-1.2.3.1:Data.Text 1e51a010d8f8a6fa41d8ea82d69faf13
-02ac6123a6525c90c475ef3d7894907b
+import  -/  StreetRun.CFL 22aaa7e917fe6023bc75b650c540e607
+  exports: f389828e267831208731f8c3eb015474
+  frameDeltaSeconds 9605a9c4d4e8e9e818a55364604b43d7
+import  -/  StreetRun.Camera 15520c15c72428459c71d35d468598c8
+  exports: 445eb368813d35f6641c1446797753f7
+import  -/  StreetRun.Hurdle 38a26fa541ce5ced9eea0f70d3aa69b6
+  exports: ccac325c207e939d1f0d01c3da87ee30
+import  -/  StreetRun.Hurdle_1 c9e76027407717b022743d66c2f85407
+  exports: be3dc5eb0f18c89559dce1b425bb13f5
+import  -/  StreetRun.Input 2b2882bb9ccf0deac02d72ccd2af9474
+  exports: 794b8afcff1485016b9c41551ca5bab1
+  $sel:iDown:Input f50c2ab9e2082623275c9cc57e0e92df
+  $sel:iUp:Input f50c2ab9e2082623275c9cc57e0e92df
+  Input f50c2ab9e2082623275c9cc57e0e92df
+import  -/  StreetRun.Physics 913327b3ebcb9b45610bccf968b96819
+  exports: 9d3a92dda1fb515a473dcd811827989d
+import  -/  StreetRun.Runner a6abbd291e744158bf9018a60f48d314
+  exports: ae88bb9ed2797ab0ae7bfb3fb6716c40
+  $sel:dsAction:RunnerState 47dad745455c1bb3aa6466e0dcf4a02c
+  $sel:dsHeight:RunnerState 47dad745455c1bb3aa6466e0dcf4a02c
+  $sel:dsHurt:RunnerState 47dad745455c1bb3aa6466e0dcf4a02c
+  $sel:dsRecover:RunnerState 47dad745455c1bb3aa6466e0dcf4a02c
+  RunnerAction 96b981a2adf5042b7be2258f10bd37f0
+  RunnerAction'Duck aa99514d3c4d70fb8300e8d80209d403
+  RunnerAction'Hurt 0b414f4d4215180b5f3dd3d581dcc132
+  RunnerAction'Jump a4fd8fd2893a082d05e81ff1c9516470
+  RunnerAction'Move 909c36157f46dd71ce486c75b2b34ef1
+  RunnerKey 246fbc2203e765942b6e843f2c5465c5
+  RunnerKey'Hurt 49f1b84c2266416190b6ba1a850161b3
+  RunnerKey'Kick 3cd65175a6bf6c6362b9251f8d73343d
+  RunnerKey'Move ff1f32316b00888d847298fa42e183e2
+  RunnerKey'Sneak 739cf650665031108def31bdfd3dde88
+  RunnerState 802f4153594574704bc04dfd1a8b9017
+  RunnerState 47dad745455c1bb3aa6466e0dcf4a02c
+import  -/  StreetRun.Runner_func_2 850b3567ef6c7c4675339eaa541ca68a
+  exports: 132f0584768b112cf2826c60192e01cb
+import  -/  StreetRun.Step 290ae331db595dd4cf6d5e1e70227106
+  exports: 719fef8fe6a2dea83d42318f70df48fb
+  Step daa3ab940f53a2ea3c69c832d1d2d582
+  Step'Change cd810651f7950f648570405c0497b830
+  Step'Sustain 3fd1f4686ef7e95fd855f3c5806c6dc9
+  smash 05906d7c152d8c605e26773ad8eebc8e
+import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
+  exports: 68eec0a854069d6ebcc9ba499b980fc6
+  Animations a3f8cdd403e06536e6d6c806da810a9f
+  Percent ba7abb7eeed8b328d8b72349c7c4fef0
+  Score 4bad63bb3fa03e71441e81262a8b345e
+  Seconds a9822968438ab4a0fccda00b12150109
+  Stocks 7e2313b523e61aeeac98a063f19e7634
+  clamp e1ad8578b50b6091ffb795f7d612ef1e
+import  -/  text-1.2.3.1:Data.Text 18aabeaea44861e012250635c667d309
+8b32d55453f76fa4125ca4cbd47a278f
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Runner_func_1.$trModule3
                    StreetRun.Runner_func_1.$trModule1) -}
-b234d41b97df97b36e3babe5f5087971
+0fbc1c45cd146b10b2c395e6c0b605a7
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Runner_func_1.$trModule2) -}
-9a635d2efe1e09527ade3a5225884fb8
+be2d015d316ac33e5758918fb348e0a0
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Runner_func_1"#) -}
-c61626844f9140cf1b08f0ae52392adb
+1b9412cfb2c5b4a3163ab272854d5594
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Runner_func_1.$trModule4) -}
-a0614a354428bc7ed44024b79062830b
+f084ae1b45fef23e393d1fbb44238cb0
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-31130a4259aba1b99f3ebfa6a3ee0cb4
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+4e33c337b159c6497b2c2893d81aeef3
   $waddStocks :: GHC.Prim.Int# -> GHC.Prim.Int# -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs, Strictness: <S,U><S,U>, Inline: [2],
      Unfolding: (\ (ww :: GHC.Prim.Int#) (ww1 :: GHC.Prim.Int#) ->
@@ -285,7 +285,7 @@ a0614a354428bc7ed44024b79062830b
                    1#
                    -> case GHC.Prim.>=# ww1 1# of lwild1 {
                         DEFAULT -> $j 1# -> GHC.Types.True } }) -}
-f38e55d098e2330e85071c4c72c5bf05
+bdd1c4ffc401b0aeb497d81d76833590
   $wstepRunnerAction ::
     StreetRun.Input.Input
     -> StreetRun.Runner.RunnerAction
@@ -343,7 +343,7 @@ f38e55d098e2330e85071c4c72c5bf05
                            case GHC.Prim.ltFloat# x 1.0# of lwild {
                              DEFAULT -> StreetRun.Runner_func_1.stepRunnerAction2
                              1# -> StreetRun.Runner_func_1.stepRunnerAction1 } } } }) -}
-672988b26fcfb0481e586dadf16bb3ba
+5bdcad75ed7dadd84d50ed53a4672a2f
   $wstepRunnerState ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
     -> StreetRun.Runner.RunnerState
@@ -478,7 +478,7 @@ f38e55d098e2330e85071c4c72c5bf05
                                 GHC.Maybe.Just a1 -> StreetRun.Runner.RunnerAction'Jump }
                            GHC.Maybe.Just a1 -> StreetRun.Runner.RunnerAction'Hurt },
                          height, hurt, recover #) }) -}
-fb99499b548b08a9d91d91113dcf8cb6
+cf8e3f4b6bc966a31a1989a3ff3d837b
   $wstepSpeed ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
     -> GHC.Prim.Float# -> GHC.Prim.Float#
@@ -551,7 +551,7 @@ fb99499b548b08a9d91d91113dcf8cb6
                              -> case GHC.Prim.ltFloat# x 1.0# of lwild1 {
                                   DEFAULT -> x 1# -> 1.0# }
                              1# -> 20.0# } } }) -}
-05727d7f3b7fca5b4bb815704ce1a5cb
+eb7850b77ba3f77b0ffa75e648f50ea9
   $wstepZoom ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
     -> StreetRun.Runner.RunnerState
@@ -686,7 +686,7 @@ fb99499b548b08a9d91d91113dcf8cb6
                                 GHC.Maybe.Just a1 -> StreetRun.Runner.RunnerAction'Duck }
                            GHC.Maybe.Just a1 -> StreetRun.Runner.RunnerAction'Hurt },
                          height, hurt, recover #) }) -}
-3f9ac0ed95d9b2861c7650e4513cf3a9
+8244adc782f840dc6aa2cb2ed93cdde2
   addStocks ::
     StreetRun.Types.Score -> StreetRun.Types.Score -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>,
@@ -699,7 +699,7 @@ fb99499b548b08a9d91d91113dcf8cb6
                         `cast`
                       (StreetRun.Types.N:Score[0]) of ww2 { GHC.Types.I# ww3 ->
                  StreetRun.Runner_func_1.$waddStocks ww1 ww3 } }) -}
-a37daaa495b04b968f4724b9bda5f603
+7cfed591a1d0e562745bbbc1acbdc0fe
   applyHurt ::
     GHC.Types.Bool
     -> StreetRun.Step.Step StreetRun.Runner.RunnerAction
@@ -730,7 +730,7 @@ a37daaa495b04b968f4724b9bda5f603
                                        StreetRun.Runner.RunnerAction'Hurt
                                   StreetRun.Runner.RunnerAction'Hurt -> wild2 } }
                         GHC.Maybe.Just a1 -> stepDa } }) -}
-dc4835650def30cb7dbaa51cb5846bad
+95091e4c4c96f00db43792d0f2d244e2
   nextStocks ::
     StreetRun.Types.Score
     -> StreetRun.Types.Score
@@ -745,7 +745,7 @@ dc4835650def30cb7dbaa51cb5846bad
                  ->_R <StreetRun.Types.Score>_R
                  ->_R <StreetRun.Types.Stocks>_R
                  ->_R Sym (StreetRun.Types.N:Stocks[0])) -}
-a608a188a1966ae926572a1b153b947d
+e30a8854ea29547e108c23b438ce9d13
   nextStocks1 ::
     StreetRun.Types.Score
     -> StreetRun.Types.Score -> StreetRun.Types.Stocks -> GHC.Types.Int
@@ -773,7 +773,7 @@ a608a188a1966ae926572a1b153b947d
                       } in
                       case GHC.Prim.<=# 10# y1 of lwild {
                         DEFAULT -> GHC.Types.I# y1 1# -> GHC.Types.I# 10# } } } } }) -}
-52ce10815f8f9008ccc819d9e3ae54e9
+6b858db2d1e4cba16b18d0910487a076
   showRunner :: StreetRun.Runner.RunnerState -> GHC.Types.Bool
   {- Arity: 1, HasNoCafRefs, Strictness: <S(LLLS),1*U(A,A,A,1*U)>,
      Unfolding: InlineRule (1, True, False)
@@ -791,7 +791,7 @@ a608a188a1966ae926572a1b153b947d
                            (GHC.Prim.sinFloat#
                               (GHC.Prim.timesFloat# 1000.0# (GHC.Prim.powerFloat# x 3.0#)))
                            0.0#) } } }) -}
-7dd95d5c7590f4d75a112f34596e5722
+b4371f6a54e7937123a4fde4dd7d6c20
   stepRunnerAction ::
     StreetRun.Input.Input
     -> StreetRun.Runner.RunnerState
@@ -804,14 +804,14 @@ a608a188a1966ae926572a1b153b947d
                    (w1 :: StreetRun.Runner.RunnerState) ->
                  case w1 of ww { StreetRun.Runner.RunnerState ww1 ww2 ww3 ww4 ->
                  StreetRun.Runner_func_1.$wstepRunnerAction w ww1 ww2 ww3 }) -}
-c0596d090a99e08bd8ac22a4a72048d6
+3a4639ad39d1faaef805626504b58491
   stepRunnerAction1 ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (StreetRun.Step.Step'Sustain
                    @ StreetRun.Runner.RunnerAction
                    StreetRun.Runner.RunnerAction'Hurt) -}
-073ad7dc88dab30508e57bd1619d3ad6
+839d07bb000651f51cef1049cce38fae
   stepRunnerAction2 ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
   {- HasNoCafRefs, Strictness: m1,
@@ -819,14 +819,14 @@ c0596d090a99e08bd8ac22a4a72048d6
                    @ StreetRun.Runner.RunnerAction
                    StreetRun.Runner.RunnerAction'Hurt
                    StreetRun.Runner.RunnerAction'Move) -}
-bcde86fadd587fbd99a0fd8eca7bc23b
+997b845ede60ccbed5e38bef1dbbfc15
   stepRunnerAction3 ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (StreetRun.Step.Step'Sustain
                    @ StreetRun.Runner.RunnerAction
                    StreetRun.Runner.RunnerAction'Jump) -}
-39986e6b7113b8fcf0ef3f38bbef8839
+76e2c217aafa90d628fbe6f807ef5a69
   stepRunnerAction4 ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
   {- HasNoCafRefs, Strictness: m1,
@@ -834,14 +834,14 @@ bcde86fadd587fbd99a0fd8eca7bc23b
                    @ StreetRun.Runner.RunnerAction
                    StreetRun.Runner.RunnerAction'Jump
                    StreetRun.Runner.RunnerAction'Move) -}
-6e3dbf793d1b1aebaae1c8585ebe00f9
+678ab5de2d1260903eb9cce71afb3671
   stepRunnerAction5 ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (StreetRun.Step.Step'Sustain
                    @ StreetRun.Runner.RunnerAction
                    StreetRun.Runner.RunnerAction'Duck) -}
-6ad1ac658ea6eb699f58c19e80009284
+50bdf7db18a52507f67211fd696e31e7
   stepRunnerAction6 ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
   {- HasNoCafRefs, Strictness: m1,
@@ -849,7 +849,7 @@ bcde86fadd587fbd99a0fd8eca7bc23b
                    @ StreetRun.Runner.RunnerAction
                    StreetRun.Runner.RunnerAction'Duck
                    StreetRun.Runner.RunnerAction'Move) -}
-625d778a054c21f5099de4dbab75bdf9
+2adcde902e04dd2cd9e67fcda3497b6c
   stepRunnerAction7 ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
   {- HasNoCafRefs, Strictness: m1,
@@ -857,7 +857,7 @@ bcde86fadd587fbd99a0fd8eca7bc23b
                    @ StreetRun.Runner.RunnerAction
                    StreetRun.Runner.RunnerAction'Move
                    StreetRun.Runner.RunnerAction'Jump) -}
-c29318947dbbfe322745e5b8d0d216e0
+de8cce8c34667125d70d3166d54d5a78
   stepRunnerAction8 ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
   {- HasNoCafRefs, Strictness: m1,
@@ -865,14 +865,14 @@ c29318947dbbfe322745e5b8d0d216e0
                    @ StreetRun.Runner.RunnerAction
                    StreetRun.Runner.RunnerAction'Move
                    StreetRun.Runner.RunnerAction'Duck) -}
-7f4dfb7b501813fd90ddc998c4930763
+175c23415a74237d473c0b06424b4af7
   stepRunnerAction9 ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (StreetRun.Step.Step'Sustain
                    @ StreetRun.Runner.RunnerAction
                    StreetRun.Runner.RunnerAction'Move) -}
-9595a45409ae1260deda2f73c8511e6d
+0cd78cf599b749a9b36710fbc9c5d9ca
   stepRunnerPosition ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
     -> StreetRun.Types.Animations StreetRun.Runner.RunnerKey
@@ -943,22 +943,22 @@ c29318947dbbfe322745e5b8d0d216e0
                         StreetRun.Runner_func_1.stepRunnerPosition1
                           `cast`
                         (Sym (StreetRun.Types.N:Seconds[0])) }) -}
-7f8dc5a425292b53f3adc7ad414ce416
+1161c4938018dce7543101bf5e7c7e75
   stepRunnerPosition1 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.F# 1.6667e-2#) -}
-4ba42b069a73911516f9a84b8cf304ce
+d993cb78e17c60bdf7fe1cbdd8ce9f53
   stepRunnerPosition2 :: Animate.Loop
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (Animate.Loop'Count
                    StreetRun.Runner_func_1.stepRunnerPosition3) -}
-458ccb7c52239f85a2138ea5dcbda42e
+f3796d6a19ed5f1246b59a6175af5e1e
   stepRunnerPosition3 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
-968b9b416c14680b74ae0dc52b8c286e
+b2324c74ef8b6ff047cff3e9c44804d1
   stepRunnerPosition4 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 0.0#) -}
-0698d251d8e940ae451f3e28c97d6ed2
+6c7b3d2368272533d67c45a9670266ac
   stepRunnerState ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
     -> StreetRun.Runner.RunnerState -> StreetRun.Runner.RunnerState
@@ -971,7 +971,7 @@ c29318947dbbfe322745e5b8d0d216e0
                         w
                         w1 of ww { (#,,,#) ww1 ww2 ww3 ww4 ->
                  StreetRun.Runner.RunnerState ww1 ww2 ww3 ww4 }) -}
-7c71fd3b1ddf41e476945edec96465b4
+f53ade5315f32db316066acf26ff6d27
   stepRunnerState1 :: GHC.Maybe.Maybe StreetRun.Types.Percent
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Maybe.Just
@@ -979,10 +979,10 @@ c29318947dbbfe322745e5b8d0d216e0
                    StreetRun.Runner_func_1.stepRunnerPosition4
                      `cast`
                    (Sym (StreetRun.Types.N:Percent[0]))) -}
-5b450339d20624675fafb5cf37ad8e95
+0d8ac8cc7b01aba36060713a527ba390
   stepRunnerState2 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 1.0#) -}
-1f3429439d1709690c43456e0f9a2e5b
+233a3703617a1cea97480394db34f5b2
   stepSpeed ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
     -> StreetRun.Types.Percent -> StreetRun.Types.Percent
@@ -998,7 +998,7 @@ c29318947dbbfe322745e5b8d0d216e0
                  (GHC.Types.F# ww2)
                    `cast`
                  (Sym (StreetRun.Types.N:Percent[0])) } }) -}
-ff181030d70bc772608b2c14bc69fcd7
+18111990cf65468bb7ab7f8297c02e2b
   stepZoom ::
     StreetRun.Step.Step StreetRun.Runner.RunnerAction
     -> StreetRun.Runner.RunnerState -> StreetRun.Runner.RunnerState

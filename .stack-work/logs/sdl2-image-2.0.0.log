@@ -1,0 +1,51 @@
+Configuring sdl2-image-2.0.0...
+Preprocessing library for sdl2-image-2.0.0..
+Building library for sdl2-image-2.0.0..
+[1 of 4] Compiling SDL.ExceptionHelper ( src/SDL/ExceptionHelper.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/SDL/ExceptionHelper.o )
+[2 of 4] Compiling SDL.Raw.Helper   ( src/SDL/Raw/Helper.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/SDL/Raw/Helper.o )
+[3 of 4] Compiling SDL.Raw.Image    ( .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/SDL/Raw/Image.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/SDL/Raw/Image.o )
+
+[;1msrc/SDL/Raw/Image.hsc:85:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wmissing-pattern-synonym-signatures[0m[0m[;1m][0m[0m[;1m
+    Pattern synonym with no type signature:
+      pattern IMG_INIT_JPG :: forall a. (Eq a, Num a) => a[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m85 |[0m[0m [;1m[35mpattern IMG_INIT_JPG  = #[0m[0m{const IMG_INIT_JPG}
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/SDL/Raw/Image.hsc:86:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wmissing-pattern-synonym-signatures[0m[0m[;1m][0m[0m[;1m
+    Pattern synonym with no type signature:
+      pattern IMG_INIT_PNG :: forall a. (Eq a, Num a) => a[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m86 |[0m[0m [;1m[35mpattern IMG_INIT_PNG  = #[0m[0m{const IMG_INIT_PNG}
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/SDL/Raw/Image.hsc:87:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wmissing-pattern-synonym-signatures[0m[0m[;1m][0m[0m[;1m
+    Pattern synonym with no type signature:
+      pattern IMG_INIT_TIF :: forall a. (Eq a, Num a) => a[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m87 |[0m[0m [;1m[35mpattern IMG_INIT_TIF  = #[0m[0m{const IMG_INIT_TIF}
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/SDL/Raw/Image.hsc:88:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wmissing-pattern-synonym-signatures[0m[0m[;1m][0m[0m[;1m
+    Pattern synonym with no type signature:
+      pattern IMG_INIT_WEBP :: forall a. (Eq a, Num a) => a[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m88 |[0m[0m [;1m[35mpattern IMG_INIT_WEBP = #[0m[0m{const IMG_INIT_WEBP}
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[4 of 4] Compiling SDL.Image        ( src/SDL/Image.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/SDL/Image.o )
+Preprocessing executable 'sdl2-image-example' for sdl2-image-2.0.0..
+Building executable 'sdl2-image-example' for sdl2-image-2.0.0..
+[1 of 1] Compiling Main             ( example/Example.hs, .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/sdl2-image-example/sdl2-image-example-tmp/Main.o )
+
+[;1mexample/Example.hs:25:7: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-do-bind[0m[0m[;1m][0m[0m[;1m
+    A do-notation statement discarded a result of type
+      ‘Maybe (SDL.Rectangle Foreign.C.Types.CInt)’
+    Suppress this warning by saying
+      ‘_ <- SDL.surfaceBlit image Nothing screen Nothing’[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m25 |[0m[0m       [;1m[35mSDL.surfaceBlit image Nothing screen Nothing[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0mLinking .stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/sdl2-image-example/sdl2-image-example ...
+Installing library in /home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/lib/x86_64-linux-ghc-8.6.4/sdl2-image-2.0.0-9XYFDwpWZ3OElyP0OTQzHy
+Installing executable sdl2-image-example in /home/aakash/workspace/codes/street_runner_git/.stack-work/install/x86_64-linux/lts-13.15/8.6.4/bin
+Registering library for sdl2-image-2.0.0..

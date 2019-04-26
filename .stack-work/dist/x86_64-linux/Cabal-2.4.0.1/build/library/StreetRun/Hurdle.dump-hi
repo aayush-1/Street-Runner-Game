@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:11:46.587243488 UTC
+2019-04-26 14:29:04.628709677 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Hurdle 8064
-  interface hash: cf29c97ace683ad2f2e659fde2bc057a
-  ABI hash: c4bf1734d0fc0cd048dae74996b10d52
-  export-list hash: 5d1d0f5747b642287dbb935bf038e6f0
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Hurdle 8064
+  interface hash: 9ba197fe85b1200ddfe26db5a4db1375
+  ABI hash: 38a26fa541ce5ced9eea0f70d3aa69b6
+  export-list hash: ccac325c207e939d1f0d01c3da87ee30
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -127,7 +127,7 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
                          vector-0.12.0.2:Data.Vector.Storable
                          vector-0.12.0.2:Data.Vector.Unboxed
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
-import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  animate-0.7.0:Animate cf529f033c38156be2990062be8eb570
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:GHC.Enum 87204abed08db8735fc0be5ab48689aa
 import  -/  base-4.12.0.0:GHC.Err ea5e313ef4146b40b5d8b27aa168e736
@@ -138,23 +138,23 @@ import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
 import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
-import  -/  linear-1.20.8:Linear c66c613217f57f0236b62caf498b629a
-import  -/  linear-1.20.8:Linear.V2 4a7e4c0c9247ec5477069840e3acbf22
+import  -/  linear-1.20.8:Linear 04ff2913b766e124dece4465ec5ad3d4
+import  -/  linear-1.20.8:Linear.V2 8a9154bf8e5f0fecb2cc8fb6a057e650
 import  -/  random-1.1:System.Random a2913fef910fa7846b8be540f8dcdaf5
-import  -/  StreetRun.Physics bcf598c857c36dd82527ead0c17a7064
-  exports: 12b72d4e6f732b1793039514751aff72
-  Aabb 463db1471cd9ff17316ec0f7e6fd78c5
-  Aabb 162276088b6d485fc167c1472cefa7da
-import  -/  StreetRun.Snag 435128ff0e3817e1b1768f09cf894e59
-  exports: 7f7b3656c97eba619795923512f79f2a
-  BirdKey a4b9334f1959d8eda311a05a86034c88
-  LavaKey ef15a7c1dcf7c6d0c02947b3c6d55574
-  RockKey a1efaaa0d94a0294a7825caa774f65b1
-import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
-  exports: 687926be2250d898b68652280e784933
-  Distance c2340071e208afde2c97a480402508ac
-  Seconds 3096dba0a5a57c02592e934b662fbeb3
-ba95154007acc7d07251b5e5be0f759f
+import  -/  StreetRun.Physics 913327b3ebcb9b45610bccf968b96819
+  exports: 9d3a92dda1fb515a473dcd811827989d
+  Aabb 13fed78ed9fcb7f2b338aa07327197bb
+  Aabb e343afcb44ddfcc03b022243d4611461
+import  -/  StreetRun.Snag 91cafec8e0a3bc8aded7f9bc89567610
+  exports: c07ed761210af14f8b0800e144209504
+  BirdKey f88ace211280dc1d7921a1773951ed44
+  LavaKey 3fc67e1f876892a8dbc5f4b90be00bda
+  RockKey 5221b707992783923c608096f51488e5
+import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
+  exports: 68eec0a854069d6ebcc9ba499b980fc6
+  Distance b4174e484e1fd82b32e71de2fbcef362
+  Seconds a9822968438ab4a0fccda00b12150109
+87a5d4ad614d614ae5f2b575cc03f725
   $fBoundedObstacleTag ::
     GHC.Enum.Bounded StreetRun.Hurdle.ObstacleTag
   DFunId
@@ -163,7 +163,7 @@ ba95154007acc7d07251b5e5be0f759f
                   @ StreetRun.Hurdle.ObstacleTag
                   StreetRun.Hurdle.ObstacleTag'Lava
                   StreetRun.Hurdle.ObstacleTag'Bird -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag :: GHC.Enum.Enum StreetRun.Hurdle.ObstacleTag
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -177,22 +177,22 @@ ba95154007acc7d07251b5e5be0f759f
                   StreetRun.Hurdle.$fEnumObstacleTag_$cenumFromThen
                   StreetRun.Hurdle.$fEnumObstacleTag_$cenumFromTo
                   StreetRun.Hurdle.$fEnumObstacleTag_$cenumFromThenTo -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag1 :: [StreetRun.Hurdle.ObstacleTag]
   {- Unfolding: (StreetRun.Hurdle.$fEnumObstacleTag_go3 2#) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag2 :: [StreetRun.Hurdle.ObstacleTag]
   {- Unfolding: (StreetRun.Hurdle.$fEnumObstacleTag_go3 1#) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag3 :: [StreetRun.Hurdle.ObstacleTag]
   {- Unfolding: (StreetRun.Hurdle.$fEnumObstacleTag_go3 0#) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag4 :: StreetRun.Hurdle.ObstacleTag
   {- Strictness: x -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag5 :: StreetRun.Hurdle.ObstacleTag
   {- Strictness: x -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag_$cenumFrom ::
     StreetRun.Hurdle.ObstacleTag -> [StreetRun.Hurdle.ObstacleTag]
   {- Arity: 1, Strictness: <S,1*U>,
@@ -204,19 +204,19 @@ ba95154007acc7d07251b5e5be0f759f
                    -> StreetRun.Hurdle.$fEnumObstacleTag2
                    StreetRun.Hurdle.ObstacleTag'Bird
                    -> StreetRun.Hurdle.$fEnumObstacleTag1 }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag_$cenumFromThen ::
     StreetRun.Hurdle.ObstacleTag
     -> StreetRun.Hurdle.ObstacleTag -> [StreetRun.Hurdle.ObstacleTag]
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U> -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag_$cenumFromThenTo ::
     StreetRun.Hurdle.ObstacleTag
     -> StreetRun.Hurdle.ObstacleTag
     -> StreetRun.Hurdle.ObstacleTag
     -> [StreetRun.Hurdle.ObstacleTag]
   {- Arity: 3, Strictness: <S,1*U><S,1*U><S,1*U> -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag_$cenumFromTo ::
     StreetRun.Hurdle.ObstacleTag
     -> StreetRun.Hurdle.ObstacleTag -> [StreetRun.Hurdle.ObstacleTag]
@@ -245,7 +245,7 @@ ba95154007acc7d07251b5e5be0f759f
                    StreetRun.Hurdle.ObstacleTag'Lava -> $j 0#
                    StreetRun.Hurdle.ObstacleTag'Rock -> $j 1#
                    StreetRun.Hurdle.ObstacleTag'Bird -> $j 2# }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag_$cfromEnum ::
     StreetRun.Hurdle.ObstacleTag -> GHC.Types.Int
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m,
@@ -255,7 +255,7 @@ ba95154007acc7d07251b5e5be0f759f
                    StreetRun.Hurdle.ObstacleTag'Lava -> GHC.Types.I# 0#
                    StreetRun.Hurdle.ObstacleTag'Rock -> GHC.Types.I# 1#
                    StreetRun.Hurdle.ObstacleTag'Bird -> GHC.Types.I# 2# }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag_$cpred ::
     StreetRun.Hurdle.ObstacleTag -> StreetRun.Hurdle.ObstacleTag
   {- Arity: 1, Strictness: <S,1*U>,
@@ -268,7 +268,7 @@ ba95154007acc7d07251b5e5be0f759f
                    -> StreetRun.Hurdle.ObstacleTag'Lava
                    StreetRun.Hurdle.ObstacleTag'Bird
                    -> StreetRun.Hurdle.ObstacleTag'Rock }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag_$csucc ::
     StreetRun.Hurdle.ObstacleTag -> StreetRun.Hurdle.ObstacleTag
   {- Arity: 1, Strictness: <S,1*U>,
@@ -281,7 +281,7 @@ ba95154007acc7d07251b5e5be0f759f
                    -> StreetRun.Hurdle.ObstacleTag'Bird
                    StreetRun.Hurdle.ObstacleTag'Bird
                    -> StreetRun.Hurdle.$fEnumObstacleTag5 }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag_$ctoEnum ::
     GHC.Types.Int -> StreetRun.Hurdle.ObstacleTag
   {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [2],
@@ -289,23 +289,23 @@ ba95154007acc7d07251b5e5be0f759f
                 (\ (w :: GHC.Types.Int) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  StreetRun.Hurdle.$w$ctoEnum ww1 }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag_go ::
     GHC.Prim.Int# -> [StreetRun.Hurdle.ObstacleTag]
   {- Arity: 1, Strictness: <L,U>m2 -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag_go1 ::
     GHC.Prim.Int# -> [StreetRun.Hurdle.ObstacleTag]
   {- Arity: 1, Strictness: <L,U>m2 -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag_go2 ::
     GHC.Prim.Int# -> [StreetRun.Hurdle.ObstacleTag]
   {- Arity: 1, Strictness: <L,U>m2 -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEnumObstacleTag_go3 ::
     GHC.Prim.Int# -> [StreetRun.Hurdle.ObstacleTag]
   {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
-2341c3e61b87b59ea6b336dbc2f89c9a
+806f72e2d074e60979bb87d0f4952401
   $fEqObstacleInfo :: GHC.Classes.Eq StreetRun.Hurdle.ObstacleInfo
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -313,7 +313,7 @@ ba95154007acc7d07251b5e5be0f759f
                   @ StreetRun.Hurdle.ObstacleInfo
                   StreetRun.Hurdle.$fEqObstacleInfo_$c==
                   StreetRun.Hurdle.$fEqObstacleInfo_$c/= -}
-2341c3e61b87b59ea6b336dbc2f89c9a
+806f72e2d074e60979bb87d0f4952401
   $fEqObstacleInfo_$c/= ::
     StreetRun.Hurdle.ObstacleInfo
     -> StreetRun.Hurdle.ObstacleInfo -> GHC.Types.Bool
@@ -325,7 +325,7 @@ ba95154007acc7d07251b5e5be0f759f
                  case StreetRun.Hurdle.$fEqObstacleInfo_$c== x y of wild {
                    GHC.Types.False -> GHC.Types.True
                    GHC.Types.True -> GHC.Types.False }) -}
-2341c3e61b87b59ea6b336dbc2f89c9a
+806f72e2d074e60979bb87d0f4952401
   $fEqObstacleInfo_$c== ::
     StreetRun.Hurdle.ObstacleInfo
     -> StreetRun.Hurdle.ObstacleInfo -> GHC.Types.Bool
@@ -399,7 +399,7 @@ ba95154007acc7d07251b5e5be0f759f
                                 case GHC.Prim.eqFloat# x1 y1 of lwild1 {
                                   DEFAULT -> GHC.Types.False
                                   1# -> Animate.$fEqLoop_$c== ww7 ww12 } } } } } } } } } } } }) -}
-956d5d1777524c8d52fcbf616061f555
+95c2800d9f00728984a40ce71c8f5ddb
   $fEqObstacleState :: GHC.Classes.Eq StreetRun.Hurdle.ObstacleState
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -407,7 +407,7 @@ ba95154007acc7d07251b5e5be0f759f
                   @ StreetRun.Hurdle.ObstacleState
                   StreetRun.Hurdle.$fEqObstacleState_$c==
                   StreetRun.Hurdle.$fEqObstacleState_$c/= -}
-956d5d1777524c8d52fcbf616061f555
+95c2800d9f00728984a40ce71c8f5ddb
   $fEqObstacleState_$c/= ::
     StreetRun.Hurdle.ObstacleState
     -> StreetRun.Hurdle.ObstacleState -> GHC.Types.Bool
@@ -427,7 +427,7 @@ ba95154007acc7d07251b5e5be0f759f
                              b2 `cast` (StreetRun.Types.N:Distance[0]) of wild3 {
                         GHC.Types.False -> GHC.Types.True
                         GHC.Types.True -> GHC.Types.False } } } }) -}
-956d5d1777524c8d52fcbf616061f555
+95c2800d9f00728984a40ce71c8f5ddb
   $fEqObstacleState_$c== ::
     StreetRun.Hurdle.ObstacleState
     -> StreetRun.Hurdle.ObstacleState -> GHC.Types.Bool
@@ -440,7 +440,7 @@ ba95154007acc7d07251b5e5be0f759f
                  case w of ww { StreetRun.Hurdle.ObstacleState ww1 ww2 ->
                  case w1 of ww3 { StreetRun.Hurdle.ObstacleState ww4 ww5 ->
                  StreetRun.Hurdle.$w$c== ww1 ww2 ww4 ww5 } }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEqObstacleTag :: GHC.Classes.Eq StreetRun.Hurdle.ObstacleTag
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -448,7 +448,7 @@ ba95154007acc7d07251b5e5be0f759f
                   @ StreetRun.Hurdle.ObstacleTag
                   StreetRun.Hurdle.$fEqObstacleTag_$c==
                   StreetRun.Hurdle.$fEqObstacleTag_$c/= -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEqObstacleTag_$c/= ::
     StreetRun.Hurdle.ObstacleTag
     -> StreetRun.Hurdle.ObstacleTag -> GHC.Types.Bool
@@ -470,7 +470,7 @@ ba95154007acc7d07251b5e5be0f759f
                    -> case y of wild1 {
                         DEFAULT -> GHC.Types.True
                         StreetRun.Hurdle.ObstacleTag'Bird -> GHC.Types.False } }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fEqObstacleTag_$c== ::
     StreetRun.Hurdle.ObstacleTag
     -> StreetRun.Hurdle.ObstacleTag -> GHC.Types.Bool
@@ -491,7 +491,7 @@ ba95154007acc7d07251b5e5be0f759f
                    -> case ds1 of wild1 {
                         DEFAULT -> GHC.Types.False
                         StreetRun.Hurdle.ObstacleTag'Bird -> GHC.Types.True } }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fOrdObstacleTag :: GHC.Classes.Ord StreetRun.Hurdle.ObstacleTag
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -505,7 +505,7 @@ ba95154007acc7d07251b5e5be0f759f
                   StreetRun.Hurdle.$fOrdObstacleTag_$c>=
                   StreetRun.Hurdle.$fOrdObstacleTag_$cmax
                   StreetRun.Hurdle.$fOrdObstacleTag_$cmin -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fOrdObstacleTag_$c< ::
     StreetRun.Hurdle.ObstacleTag
     -> StreetRun.Hurdle.ObstacleTag -> GHC.Types.Bool
@@ -525,7 +525,7 @@ ba95154007acc7d07251b5e5be0f759f
                         StreetRun.Hurdle.ObstacleTag'Bird -> GHC.Types.True }
                    StreetRun.Hurdle.ObstacleTag'Bird
                    -> case b of wild1 { DEFAULT -> GHC.Types.False } }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fOrdObstacleTag_$c<= ::
     StreetRun.Hurdle.ObstacleTag
     -> StreetRun.Hurdle.ObstacleTag -> GHC.Types.Bool
@@ -551,7 +551,7 @@ ba95154007acc7d07251b5e5be0f759f
                    StreetRun.Hurdle.ObstacleTag'Lava -> $j 0#
                    StreetRun.Hurdle.ObstacleTag'Rock -> $j 1#
                    StreetRun.Hurdle.ObstacleTag'Bird -> $j 2# }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fOrdObstacleTag_$c> ::
     StreetRun.Hurdle.ObstacleTag
     -> StreetRun.Hurdle.ObstacleTag -> GHC.Types.Bool
@@ -560,7 +560,7 @@ ba95154007acc7d07251b5e5be0f759f
                 (\ (a :: StreetRun.Hurdle.ObstacleTag)
                    (b :: StreetRun.Hurdle.ObstacleTag) ->
                  StreetRun.Hurdle.$fOrdObstacleTag_$c< b a) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fOrdObstacleTag_$c>= ::
     StreetRun.Hurdle.ObstacleTag
     -> StreetRun.Hurdle.ObstacleTag -> GHC.Types.Bool
@@ -586,7 +586,7 @@ ba95154007acc7d07251b5e5be0f759f
                    StreetRun.Hurdle.ObstacleTag'Lava -> $j 0#
                    StreetRun.Hurdle.ObstacleTag'Rock -> $j 1#
                    StreetRun.Hurdle.ObstacleTag'Bird -> $j 2# }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fOrdObstacleTag_$ccompare ::
     StreetRun.Hurdle.ObstacleTag
     -> StreetRun.Hurdle.ObstacleTag -> GHC.Types.Ordering
@@ -608,7 +608,7 @@ ba95154007acc7d07251b5e5be0f759f
                    -> case b of wild1 {
                         DEFAULT -> GHC.Types.GT
                         StreetRun.Hurdle.ObstacleTag'Bird -> GHC.Types.EQ } }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fOrdObstacleTag_$cmax ::
     StreetRun.Hurdle.ObstacleTag
     -> StreetRun.Hurdle.ObstacleTag -> StreetRun.Hurdle.ObstacleTag
@@ -618,7 +618,7 @@ ba95154007acc7d07251b5e5be0f759f
                    (y :: StreetRun.Hurdle.ObstacleTag) ->
                  case StreetRun.Hurdle.$fOrdObstacleTag_$c<= x y of wild {
                    GHC.Types.False -> x GHC.Types.True -> y }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fOrdObstacleTag_$cmin ::
     StreetRun.Hurdle.ObstacleTag
     -> StreetRun.Hurdle.ObstacleTag -> StreetRun.Hurdle.ObstacleTag
@@ -628,7 +628,7 @@ ba95154007acc7d07251b5e5be0f759f
                    (y :: StreetRun.Hurdle.ObstacleTag) ->
                  case StreetRun.Hurdle.$fOrdObstacleTag_$c<= x y of wild {
                    GHC.Types.False -> y GHC.Types.True -> x }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fRandomObstacleTag ::
     System.Random.Random StreetRun.Hurdle.ObstacleTag
   DFunId
@@ -646,7 +646,7 @@ ba95154007acc7d07251b5e5be0f759f
                   StreetRun.Hurdle.$fRandomObstacleTag1
                     `cast`
                   (Sym (GHC.Types.N:IO[0] <StreetRun.Hurdle.ObstacleTag>_R)) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fRandomObstacleTag1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -665,7 +665,7 @@ ba95154007acc7d07251b5e5be0f759f
                         StreetRun.Hurdle.$fRandomObstacleTag2
                         s of ds1 { (#,#) ipv ipv1 ->
                  case ipv1 of b1 { DEFAULT -> ds1 } } }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fRandomObstacleTag2 ::
     System.Random.StdGen
     -> (System.Random.StdGen, StreetRun.Hurdle.ObstacleTag)
@@ -687,18 +687,18 @@ ba95154007acc7d07251b5e5be0f759f
                     @ StreetRun.Hurdle.ObstacleTag
                     StreetRun.Hurdle.$fRandomObstacleTag3
                     ww1 } }) } }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fRandomObstacleTag3 :: [StreetRun.Hurdle.ObstacleTag]
   {- Unfolding: (case StreetRun.Hurdle.$wgo
                         0# of ww { (#,#) ww1 ww2 ->
                  GHC.Types.: @ StreetRun.Hurdle.ObstacleTag ww1 ww2 }) -}
-4153940c2146a8389a0431e07b50a3e9
+6fe2993574b881a8d653035ec09dea3d
   $fRandomObstacleTag4 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (2) -}
-1a7a0b5eb1ae8317ff88d4b0771e0224
+bbfc650df1a3e430cbacd7a5477fb412
   $fRandomObstacleTag5 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (0) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fRandomObstacleTag6 ::
     (StreetRun.Hurdle.ObstacleTag, StreetRun.Hurdle.ObstacleTag)
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -727,16 +727,16 @@ ba95154007acc7d07251b5e5be0f759f
                          (a'1, ww4) } } })
                         s of ds1 { (#,#) ipv ipv1 ->
                  case ipv1 of b1 { DEFAULT -> ds1 } } }) -}
-faac00b57f26032abfeb1878bd8ba500
+2cf832f53d9ec8d0120d646580415253
   $fRandomObstacleTag7 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (1) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fRandomObstacleTag8 ::
     (StreetRun.Hurdle.ObstacleTag, StreetRun.Hurdle.ObstacleTag)
   {- HasNoCafRefs, Strictness: m,
      Unfolding: ((StreetRun.Hurdle.ObstacleTag'Lava,
                   StreetRun.Hurdle.ObstacleTag'Bird)) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fRandomObstacleTag_$crandom ::
     System.Random.RandomGen g => g -> (StreetRun.Hurdle.ObstacleTag, g)
   {- Arity: 2,
@@ -748,7 +748,7 @@ ba95154007acc7d07251b5e5be0f759f
                    $dRandomGen
                    StreetRun.Hurdle.$fRandomObstacleTag8
                    g1) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fRandomObstacleTag_$crandomR ::
     System.Random.RandomGen g =>
     (StreetRun.Hurdle.ObstacleTag, StreetRun.Hurdle.ObstacleTag)
@@ -770,7 +770,7 @@ ba95154007acc7d07251b5e5be0f759f
                         ww2
                         w2 of ww3 { (#,#) ww4 ww5 ->
                  (ww4, ww5) } }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fRandomObstacleTag_$crandomRs ::
     System.Random.RandomGen g =>
     (StreetRun.Hurdle.ObstacleTag, StreetRun.Hurdle.ObstacleTag)
@@ -800,7 +800,7 @@ ba95154007acc7d07251b5e5be0f759f
                         case x of x1 { DEFAULT -> cons x1 (go g') } }
                     } in
                     go g1)) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fRandomObstacleTag_$crandoms ::
     System.Random.RandomGen g => g -> [StreetRun.Hurdle.ObstacleTag]
   {- Arity: 2,
@@ -824,7 +824,7 @@ ba95154007acc7d07251b5e5be0f759f
                         case x of x1 { DEFAULT -> cons x1 (go g') } }
                     } in
                     go g1)) -}
-2341c3e61b87b59ea6b336dbc2f89c9a
+806f72e2d074e60979bb87d0f4952401
   $fShowObstacleInfo :: GHC.Show.Show StreetRun.Hurdle.ObstacleInfo
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -833,37 +833,37 @@ ba95154007acc7d07251b5e5be0f759f
                   StreetRun.Hurdle.$fShowObstacleInfo_$cshowsPrec
                   StreetRun.Hurdle.$fShowObstacleInfo_$cshow
                   StreetRun.Hurdle.$fShowObstacleInfo_$cshowList -}
-2341c3e61b87b59ea6b336dbc2f89c9a
+806f72e2d074e60979bb87d0f4952401
   $fShowObstacleInfo1 ::
     StreetRun.Hurdle.ObstacleInfo -> GHC.Show.ShowS
   {- Arity: 1, Strictness: <S,1*U>,
      Unfolding: (\ (w :: StreetRun.Hurdle.ObstacleInfo) ->
                  StreetRun.Hurdle.$w$cshowsPrec 0# w) -}
-dc6b3e62d53ae93890f9aa8272e9b7af
+dd2a9c6266379ee992a4e5ad93a58c4d
   $fShowObstacleInfo2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Hurdle.$fShowObstacleInfo3) -}
-fe62582b9ab08641ab537e05df59628d
+d7b93f8cf54b09d5db81cdb3e3007dc3
   $fShowObstacleInfo3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ObstacleInfo'Bird "#) -}
-0e762a81a406af858a77cbeecab6f500
+4a5b86cbeda49db65373ad50795bda65
   $fShowObstacleInfo4 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Hurdle.$fShowObstacleInfo5) -}
-3495b44f7ddcc2cd4d47e699e784b467
+6a4733017e042e9d4bd8af7d212df104
   $fShowObstacleInfo5 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ObstacleInfo'Rock "#) -}
-a96b90e67c8ec68fb2bc5f6463c68338
+e75815c2f37a5db86431a304fa5bcdf6
   $fShowObstacleInfo6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Hurdle.$fShowObstacleInfo7) -}
-29113f3973eb275963630f449357016c
+7e14f8a7986254485e62b8ba2fae6c49
   $fShowObstacleInfo7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ObstacleInfo'Lava "#) -}
-20aae02bc5637f0b68d216643e819b81
+b214a0375b32beac089ee773c51f83f3
   $fShowObstacleInfo8 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
-2341c3e61b87b59ea6b336dbc2f89c9a
+806f72e2d074e60979bb87d0f4952401
   $fShowObstacleInfo_$cshow ::
     StreetRun.Hurdle.ObstacleInfo -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U>,
@@ -873,7 +873,7 @@ a96b90e67c8ec68fb2bc5f6463c68338
                    StreetRun.Hurdle.$fShowObstacleInfo8
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-2341c3e61b87b59ea6b336dbc2f89c9a
+806f72e2d074e60979bb87d0f4952401
   $fShowObstacleInfo_$cshowList ::
     [StreetRun.Hurdle.ObstacleInfo] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
@@ -885,7 +885,7 @@ a96b90e67c8ec68fb2bc5f6463c68338
                    StreetRun.Hurdle.$fShowObstacleInfo1
                    ls
                    s) -}
-2341c3e61b87b59ea6b336dbc2f89c9a
+806f72e2d074e60979bb87d0f4952401
   $fShowObstacleInfo_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Hurdle.ObstacleInfo -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S(S),1*U(U)><S,1*U>, Inline: [2],
@@ -893,7 +893,7 @@ a96b90e67c8ec68fb2bc5f6463c68338
                 (\ (w :: GHC.Types.Int) (w1 :: StreetRun.Hurdle.ObstacleInfo) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  StreetRun.Hurdle.$w$cshowsPrec ww1 w1 }) -}
-956d5d1777524c8d52fcbf616061f555
+95c2800d9f00728984a40ce71c8f5ddb
   $fShowObstacleState :: GHC.Show.Show StreetRun.Hurdle.ObstacleState
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -902,30 +902,30 @@ a96b90e67c8ec68fb2bc5f6463c68338
                   StreetRun.Hurdle.$fShowObstacleState_$cshowsPrec
                   StreetRun.Hurdle.$fShowObstacleState_$cshow
                   StreetRun.Hurdle.$fShowObstacleState_$cshowList -}
-956d5d1777524c8d52fcbf616061f555
+95c2800d9f00728984a40ce71c8f5ddb
   $fShowObstacleState1 ::
     StreetRun.Hurdle.ObstacleState -> GHC.Show.ShowS
   {- Arity: 1, Strictness: <S,1*U(1*U,1*U(U))>,
      Unfolding: (\ (w :: StreetRun.Hurdle.ObstacleState) ->
                  case w of ww { StreetRun.Hurdle.ObstacleState ww1 ww2 ->
                  StreetRun.Hurdle.$w$cshowsPrec1 0# ww1 ww2 }) -}
-0732d7cab2cc23efe894c47ef7762105
+f3676df9814c8943ce01b221e16899a2
   $fShowObstacleState2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("}"#) -}
-ccd874f4f6920720cb2153e6aba2d29c
+8382acee83da4e6c640fdd4b3a14d1d0
   $fShowObstacleState3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("osDistance = "#) -}
-479b58c43a97de2c10d6371ff9723bc7
+667f47d908d1ecf180ba79a34cb14ac0
   $fShowObstacleState4 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("osInfo = "#) -}
-88d0d078943788055e8614a3b5e472ab
+1347f31e8801c3418796f8aaf342611a
   $fShowObstacleState5 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ObstacleState {"#) -}
-ed6a9e059d561796ccb8b761f7303d5c
+41c5abd570f6b098f8d83cee0d95ac6e
   $fShowObstacleState6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Hurdle.$fShowObstacleState2) -}
-956d5d1777524c8d52fcbf616061f555
+95c2800d9f00728984a40ce71c8f5ddb
   $fShowObstacleState_$cshow ::
     StreetRun.Hurdle.ObstacleState -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U(1*U,1*U(U))>, Inline: [2],
@@ -933,7 +933,7 @@ ed6a9e059d561796ccb8b761f7303d5c
                 (\ (w :: StreetRun.Hurdle.ObstacleState) ->
                  case w of ww { StreetRun.Hurdle.ObstacleState ww1 ww2 ->
                  StreetRun.Hurdle.$w$cshow ww1 ww2 }) -}
-956d5d1777524c8d52fcbf616061f555
+95c2800d9f00728984a40ce71c8f5ddb
   $fShowObstacleState_$cshowList ::
     [StreetRun.Hurdle.ObstacleState] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
@@ -945,7 +945,7 @@ ed6a9e059d561796ccb8b761f7303d5c
                    StreetRun.Hurdle.$fShowObstacleState1
                    ls
                    s) -}
-956d5d1777524c8d52fcbf616061f555
+95c2800d9f00728984a40ce71c8f5ddb
   $fShowObstacleState_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Hurdle.ObstacleState -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U(U))>,
@@ -955,7 +955,7 @@ ed6a9e059d561796ccb8b761f7303d5c
                  case w of ww { GHC.Types.I# ww1 ->
                  case w1 of ww2 { StreetRun.Hurdle.ObstacleState ww3 ww4 ->
                  StreetRun.Hurdle.$w$cshowsPrec1 ww1 ww3 ww4 } }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fShowObstacleTag :: GHC.Show.Show StreetRun.Hurdle.ObstacleTag
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -964,28 +964,28 @@ ba95154007acc7d07251b5e5be0f759f
                   StreetRun.Hurdle.$fShowObstacleTag_$cshowsPrec
                   StreetRun.Hurdle.$fShowObstacleTag_$cshow
                   StreetRun.Hurdle.$fShowObstacleTag_$cshowList -}
-d8baa59c7532977e920a337bd223d29d
+77ecca554d11ef2774d216c847c73076
   $fShowObstacleTag1 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Hurdle.$fShowObstacleTag2) -}
-b03797a0fce9f80fc2fc05b153d62428
+9010aa84c6d5aa9945400d936e0ad09a
   $fShowObstacleTag2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ObstacleTag'Bird"#) -}
-969f82e3dc06e2217f90b3cf4ab97bf2
+0e1091cbf864597092e42f1efa6e2150
   $fShowObstacleTag3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Hurdle.$fShowObstacleTag4) -}
-ad68178692fca691ced401ccc9e2cb20
+e6f6f83790a659ad50da6b3de854c7bb
   $fShowObstacleTag4 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ObstacleTag'Rock"#) -}
-7090397be0eb0de635a4ca3d9e7b1164
+651620ea73c7f169d672d308a8dab71d
   $fShowObstacleTag5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Hurdle.$fShowObstacleTag6) -}
-8f21702906663fd305a0fb4d2d6cbfc4
+1beb790698b0e08e4811dd4e2e16e0ca
   $fShowObstacleTag6 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ObstacleTag'Lava"#) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fShowObstacleTag_$cshow ::
     StreetRun.Hurdle.ObstacleTag -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U>,
@@ -998,7 +998,7 @@ ba95154007acc7d07251b5e5be0f759f
                    -> StreetRun.Hurdle.$fShowObstacleTag3
                    StreetRun.Hurdle.ObstacleTag'Bird
                    -> StreetRun.Hurdle.$fShowObstacleTag1 }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fShowObstacleTag_$cshowList ::
     [StreetRun.Hurdle.ObstacleTag] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
@@ -1009,7 +1009,7 @@ ba95154007acc7d07251b5e5be0f759f
                    StreetRun.Hurdle.$w$cshowsPrec2
                    ls
                    s) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $fShowObstacleTag_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Hurdle.ObstacleTag -> GHC.Show.ShowS
   {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>, Inline: [2],
@@ -1018,7 +1018,7 @@ ba95154007acc7d07251b5e5be0f759f
                    (w1 :: StreetRun.Hurdle.ObstacleTag)
                    (w2 :: GHC.Base.String) ->
                  StreetRun.Hurdle.$w$cshowsPrec2 w1 w2) -}
-956d5d1777524c8d52fcbf616061f555
+95c2800d9f00728984a40ce71c8f5ddb
   $sel:osDistance:ObstacleState ::
     StreetRun.Hurdle.ObstacleState -> StreetRun.Types.Distance
   RecSel Left StreetRun.Hurdle.ObstacleState
@@ -1027,7 +1027,7 @@ ba95154007acc7d07251b5e5be0f759f
                 (\ (ds :: StreetRun.Hurdle.ObstacleState) ->
                  case ds of wild { StreetRun.Hurdle.ObstacleState ds1 ds2 ->
                  ds2 }) -}
-956d5d1777524c8d52fcbf616061f555
+95c2800d9f00728984a40ce71c8f5ddb
   $sel:osInfo:ObstacleState ::
     StreetRun.Hurdle.ObstacleState -> StreetRun.Hurdle.ObstacleInfo
   RecSel Left StreetRun.Hurdle.ObstacleState
@@ -1036,221 +1036,221 @@ ba95154007acc7d07251b5e5be0f759f
                 (\ (ds :: StreetRun.Hurdle.ObstacleState) ->
                  case ds of wild { StreetRun.Hurdle.ObstacleState ds1 ds2 ->
                  ds1 }) -}
-114848892a9f6c69db2dd76a6039bad6
+870c39e3c084fe366b7f98bd06a7cf98
   $tc'ObstacleInfo'Bird :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   10946020255628259355##
-                   8622042409006695792##
+                   12106176452934709908##
+                   16385545285234728001##
                    StreetRun.Hurdle.$trModule
                    StreetRun.Hurdle.$tc'ObstacleInfo'Bird2
                    0#
                    StreetRun.Hurdle.$tc'ObstacleInfo'Bird1) -}
-508cc2ec958f3ab93220a192c1ff6f2e
+7daf1692c573295c2ec199d495674559
   $tc'ObstacleInfo'Bird1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-f795a36592edce27bd06929e5821260d
+64f4ebe2f1fc0ce5bf4d9f42472442b7
   $tc'ObstacleInfo'Bird2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Hurdle.$tc'ObstacleInfo'Bird3) -}
-9187de6cac47575a5018126fcf8664cb
+4970a59eb1c10813e1a67292f7f841d8
   $tc'ObstacleInfo'Bird3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'ObstacleInfo'Bird"#) -}
-d96e35b26e36697092a125bad402decf
+c879f47ddc58cfb50c358921c37cad50
   $tc'ObstacleInfo'Lava :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   11911999673432442049##
-                   2967436678306509952##
+                   14420327733409937372##
+                   11516678805394995111##
                    StreetRun.Hurdle.$trModule
                    StreetRun.Hurdle.$tc'ObstacleInfo'Lava2
                    0#
                    StreetRun.Hurdle.$tc'ObstacleInfo'Lava1) -}
-928b207e84256c8dd9d6e8acba6b9d11
+285fab0bbc56863b8d04b19eaf744477
   $tc'ObstacleInfo'Lava1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-ae322bd8a3ce704f65e1cbb9ede270f5
+21a8ff5bc557cddde70c1ed7ff07753f
   $tc'ObstacleInfo'Lava2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Hurdle.$tc'ObstacleInfo'Lava3) -}
-6e51ed68572113b578b54a8cd2a7e6d3
+0320ce3ff0ad81387a22452530cc100b
   $tc'ObstacleInfo'Lava3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'ObstacleInfo'Lava"#) -}
-06bad8450f0cc977fd4b1fb8aafaab97
+9332b4103d60fbda6b1514c878b40ab7
   $tc'ObstacleInfo'Rock :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   12625475081453344811##
-                   12367923840298674444##
+                   14713718314811940018##
+                   16752157512101560373##
                    StreetRun.Hurdle.$trModule
                    StreetRun.Hurdle.$tc'ObstacleInfo'Rock2
                    0#
                    StreetRun.Hurdle.$tc'ObstacleInfo'Rock1) -}
-d4d98541a223a9aae755ea28e24fd1ba
+fbf07408aa6b690289c2d858ba848b45
   $tc'ObstacleInfo'Rock1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-6a52e0ec436a8174e17d985242d00465
+88967d0ce687a318361f7ec54423c013
   $tc'ObstacleInfo'Rock2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Hurdle.$tc'ObstacleInfo'Rock3) -}
-761e78299c68de51a8966d26fbb8200c
+cb47d57bbe63d18c30913d67f2521d7a
   $tc'ObstacleInfo'Rock3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'ObstacleInfo'Rock"#) -}
-7c56c7348dd251289724ad1418b7856c
+802418a48cf9bba186f442589d6bd7db
   $tc'ObstacleState :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   2155405571354738895##
-                   11802145340357358777##
+                   9190365014663438541##
+                   14082127725380608833##
                    StreetRun.Hurdle.$trModule
                    StreetRun.Hurdle.$tc'ObstacleState2
                    0#
                    StreetRun.Hurdle.$tc'ObstacleState1) -}
-9aff92a37bec32d9f99ee5405363768d
+5900b4bd79621916fac844d36c162a79
   $tc'ObstacleState1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-936791ec632045324f1a4300d259bf8d
+1f591095128807d60bde66ca072654ab
   $tc'ObstacleState2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Hurdle.$tc'ObstacleState3) -}
-9cf8c461d937ffc3e4eb12b6071c358c
+6a08e897972d24c95c4c99e6afec15c1
   $tc'ObstacleState3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'ObstacleState"#) -}
-2e2daf98f1986de4d873adf437ab2f97
+fb66bd8c6f9c604f280f227eb8605654
   $tc'ObstacleTag'Bird :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   11555545669452706490##
-                   774456260254078047##
+                   7626990496038804113##
+                   4265663517676870262##
                    StreetRun.Hurdle.$trModule
                    StreetRun.Hurdle.$tc'ObstacleTag'Bird2
                    0#
                    StreetRun.Hurdle.$tc'ObstacleTag'Bird1) -}
-e8a73011ffa23d27f7d5a86527c8ca78
+0747c3c1b4628cc46c581487f0791155
   $tc'ObstacleTag'Bird1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
-3f73f998a60b2c3982f3aa0f4ea57ef5
+dfbb3fced078968985d47f728fce7e85
   $tc'ObstacleTag'Bird2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Hurdle.$tc'ObstacleTag'Bird3) -}
-d7a1ce16217fa1e49c3e36bdfe690621
+023d88a3fd3ea1381e4691a70cf03d70
   $tc'ObstacleTag'Bird3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'ObstacleTag'Bird"#) -}
-871cfcbc1b9aaeac678a77dedb89a6b6
+3298e6943a263964b377f004ff1aeef5
   $tc'ObstacleTag'Lava :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   15851294469638456972##
-                   10480870149278859998##
+                   11682220570713106691##
+                   17922397134623038726##
                    StreetRun.Hurdle.$trModule
                    StreetRun.Hurdle.$tc'ObstacleTag'Lava1
                    0#
                    StreetRun.Hurdle.$tc'ObstacleTag'Bird1) -}
-84d1bc35baf9945018f65109751218e8
+efc191679485a9f66452031e81e2cdff
   $tc'ObstacleTag'Lava1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Hurdle.$tc'ObstacleTag'Lava2) -}
-1eb000bb07b133337fd560afc79fb1ce
+b3570590118931b36bfc0acfae5b4ae0
   $tc'ObstacleTag'Lava2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'ObstacleTag'Lava"#) -}
-7ad880125bdb714a9110a58ccc45ece4
+f69351526dd72191d6cecd159bd3c3aa
   $tc'ObstacleTag'Rock :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   2721209435196882418##
-                   12871820156097073024##
+                   13186584490463878814##
+                   4324572235045541664##
                    StreetRun.Hurdle.$trModule
                    StreetRun.Hurdle.$tc'ObstacleTag'Rock1
                    0#
                    StreetRun.Hurdle.$tc'ObstacleTag'Bird1) -}
-346bec9b2be6d1e3cbc8d9d5d2dd6964
+b24ccca99d8bdd9124ca4764d38ca864
   $tc'ObstacleTag'Rock1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Hurdle.$tc'ObstacleTag'Rock2) -}
-9b1a797ff239507111f1b4a697582baa
+8e77a48b560ae196140b15fec5c67593
   $tc'ObstacleTag'Rock2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'ObstacleTag'Rock"#) -}
-58613295d7711c85c6ddce93a8bdcd28
+862623a34561db6f53c4d9d408fb46b8
   $tcObstacleInfo :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   4561615598084915638##
-                   16726186613437757859##
+                   8880492300853059026##
+                   16553316068893103566##
                    StreetRun.Hurdle.$trModule
                    StreetRun.Hurdle.$tcObstacleInfo1
                    0#
                    GHC.Types.krep$*) -}
-21544f5c6a6a9332726ddcde78e0c093
+e385937cc7f68bdf9fd698420638c586
   $tcObstacleInfo1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Hurdle.$tcObstacleInfo2) -}
-419549623bf60e6e3b2a371d29e1c85f
+d04449942ae49e315b8ec27474518bfe
   $tcObstacleInfo2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ObstacleInfo"#) -}
-c5d4166b1b9468f8b57eb2f067c32b36
+84442fbf937446db5e54212d409d36eb
   $tcObstacleState :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   8678432398378452118##
-                   8774853066567717259##
+                   9182835717494623017##
+                   3567666759656820131##
                    StreetRun.Hurdle.$trModule
                    StreetRun.Hurdle.$tcObstacleState1
                    0#
                    GHC.Types.krep$*) -}
-2f5206415ebc24332c26988aa9fa8a99
+40db457d70feb89fd79c770b7e53b919
   $tcObstacleState1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Hurdle.$tcObstacleState2) -}
-f2ed6edb3d288a628b152e2d96e1e3f7
+f7e58bbc7054abaebe9d56375f43b7c1
   $tcObstacleState2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ObstacleState"#) -}
-0593b810ca074b5106206e187696bfc3
+a76570e1e687ff3a99bebaf780a79d22
   $tcObstacleTag :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   797938187893309820##
-                   5423417324059700376##
+                   3240402135145893328##
+                   16958248037451101978##
                    StreetRun.Hurdle.$trModule
                    StreetRun.Hurdle.$tcObstacleTag1
                    0#
                    GHC.Types.krep$*) -}
-c346c87a1bd9cec8c7907af869dd1974
+e59e5f46cb2b0954fdd7f92bb2c14998
   $tcObstacleTag1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Hurdle.$tcObstacleTag2) -}
-848666a71ddb4b259c39d1f9fc9b6280
+f659ad89b19d0eb647acff114730db71
   $tcObstacleTag2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("ObstacleTag"#) -}
-feca61c297eba9e3047a8390c04ec551
+4231102ce9e7a8d07c8fa0fc9c6f25f9
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Hurdle.$trModule3
                    StreetRun.Hurdle.$trModule1) -}
-24ed5ad8255df7031fe42bbc8c9d84c0
+e19402856d3c85669c00b284de1e5550
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Hurdle.$trModule2) -}
-d4dd3e17c6085bb8d32a70cbb09a9155
+11dfb16cc0fca747c3a4966854071889
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Hurdle"#) -}
-419fceff7a70312e9f85a784173ddbcb
+696bb5ee45d0d82fef388a61bc3c2b9a
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Hurdle.$trModule4) -}
-29c5ea028999e9dcb6a77a4ff5b7bf02
+39515b12332c7a12d68fea48224ede7e
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-b26f907420070e1daebf90147491f505
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+e83440ef8e8646d84d60297bf64c9ed7
   $w$c== ::
     StreetRun.Hurdle.ObstacleInfo
     -> StreetRun.Types.Distance
@@ -1269,7 +1269,7 @@ b26f907420070e1daebf90147491f505
                    -> GHC.Classes.eqFloat
                         ww1 `cast` (StreetRun.Types.N:Distance[0])
                         ww3 `cast` (StreetRun.Types.N:Distance[0]) }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $w$crandomR ::
     System.Random.RandomGen g =>
     StreetRun.Hurdle.ObstacleTag
@@ -1338,7 +1338,7 @@ ba95154007acc7d07251b5e5be0f759f
                       StreetRun.Hurdle.$fRandomObstacleTag3
                       ww2 } } },
                     case ds of wild { (,) index g' -> g' } #)) -}
-a77d5288abf4d19641c9798b5433f261
+2bd607293c3cacaa576f6bc40576f76e
   $w$cshow ::
     StreetRun.Hurdle.ObstacleInfo
     -> StreetRun.Types.Distance -> GHC.Base.String
@@ -1368,7 +1368,7 @@ a77d5288abf4d19641c9798b5433f261
                                      StreetRun.Types.$fShowDistance4
                                      ww3
                                      StreetRun.Hurdle.$fShowObstacleState6 }))))))) -}
-2341c3e61b87b59ea6b336dbc2f89c9a
+806f72e2d074e60979bb87d0f4952401
   $w$cshowsPrec ::
     GHC.Prim.Int# -> StreetRun.Hurdle.ObstacleInfo -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,U><S,1*U>, Inline: [2],
@@ -1468,7 +1468,7 @@ a77d5288abf4d19641c9798b5433f261
                                 @ GHC.Types.Char
                                 StreetRun.Hurdle.$fShowObstacleInfo2
                                 (g (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)2 x))) } }) -}
-1a392604e5097fa22652cfe13466a617
+6adfb0ca3794fb19cde7eb468d3baa6a
   $w$cshowsPrec1 ::
     GHC.Prim.Int#
     -> StreetRun.Hurdle.ObstacleInfo
@@ -1523,7 +1523,7 @@ a77d5288abf4d19641c9798b5433f261
                                                 @ GHC.Types.Char
                                                 GHC.Show.$fShow(,)2
                                                 x)))))))) }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $w$cshowsPrec2 ::
     StreetRun.Hurdle.ObstacleTag -> GHC.Base.String -> GHC.Base.String
   {- Arity: 2, Strictness: <S,1*U><L,1*U>, Inline: [2],
@@ -1545,7 +1545,7 @@ ba95154007acc7d07251b5e5be0f759f
                         @ GHC.Types.Char
                         StreetRun.Hurdle.$fShowObstacleTag1
                         w1 }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $w$ctoEnum :: GHC.Prim.Int# -> StreetRun.Hurdle.ObstacleTag
   {- Arity: 1, Strictness: <S,U>, Inline: [2],
      Unfolding: (\ (ww :: GHC.Prim.Int#) ->
@@ -1555,7 +1555,7 @@ ba95154007acc7d07251b5e5be0f759f
                    -> case GHC.Prim.<=# ww 2# of lwild1 {
                         DEFAULT -> StreetRun.Hurdle.$wlvl ww
                         1# -> GHC.Prim.tagToEnum# @ StreetRun.Hurdle.ObstacleTag ww } }) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $w$s$crandomR ::
     StreetRun.Hurdle.ObstacleTag
     -> StreetRun.Hurdle.ObstacleTag
@@ -1620,7 +1620,7 @@ ba95154007acc7d07251b5e5be0f759f
                       StreetRun.Hurdle.$fRandomObstacleTag3
                       ww2 } } },
                     case ds of wild { (,) index g' -> g' } #)) -}
-6bb6b9e33a675a4e07aabd4e905d3980
+a20f11b4f8dd9f0cf3514d7548b3b902
   $wbirdY :: (a -> a -> a) -> (GHC.Integer.Type.Integer -> a) -> a
   {- Arity: 2, HasNoCafRefs,
      Strictness: <C(C(S)),1*C1(C1(U))><L,C(U)>, Inline: [2],
@@ -1628,13 +1628,13 @@ ba95154007acc7d07251b5e5be0f759f
                    (ww :: a -> a -> a)
                    (ww1 :: GHC.Integer.Type.Integer -> a) ->
                  ww (ww1 StreetRun.Hurdle.birdY2) (ww1 StreetRun.Hurdle.birdY1)) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $wgo ::
     GHC.Prim.Int#
     -> (# StreetRun.Hurdle.ObstacleTag,
           [StreetRun.Hurdle.ObstacleTag] #)
   {- Arity: 1, Strictness: <L,U>, Inline: [2] -}
-686bfcf40ce89d222ea3e49eefe34814
+6baeaf43aa7052f400940d016da6b568
   $wlavaY :: (a -> a -> a) -> (GHC.Integer.Type.Integer -> a) -> a
   {- Arity: 2, HasNoCafRefs,
      Strictness: <C(C(S)),1*C1(C1(U))><L,C(U)>, Inline: [2],
@@ -1642,10 +1642,10 @@ ba95154007acc7d07251b5e5be0f759f
                    (ww :: a -> a -> a)
                    (ww1 :: GHC.Integer.Type.Integer -> a) ->
                  ww (ww1 StreetRun.Hurdle.birdY2) (ww1 StreetRun.Hurdle.lavaY1)) -}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   $wlvl :: GHC.Prim.Int# -> StreetRun.Hurdle.ObstacleTag
   {- Arity: 1, Strictness: <B,U>x, Inline: [2] -}
-6f786afcda01c37213da644ca68b66a4
+ccbb84febcd925c41b8c0f548f57e9eb
   $wobstacleAabb ::
     StreetRun.Hurdle.ObstacleInfo
     -> StreetRun.Types.Distance
@@ -1689,7 +1689,7 @@ ba95154007acc7d07251b5e5be0f759f
                            @ GHC.Types.Float
                            (GHC.Types.F# (GHC.Prim.plusFloat# 32.0# y))
                            StreetRun.Hurdle.obstacleAabb1 } #) }) -}
-38be7c79ee30d0a514271a7b7b3154a0
+b7e40230a429821d0a2bf865bf562435
   $wrandomRBoundedEnum ::
     (GHC.Enum.Bounded a, GHC.Enum.Enum a, System.Random.RandomGen g) =>
     a -> a -> g -> (# a, g #)
@@ -1740,7 +1740,7 @@ ba95154007acc7d07251b5e5be0f759f
                            0#
                       -1# -> case GHC.Real.divZeroError ret_ty a of {} } },
                     case ds of wild { (,) index g' -> g' } #)) -}
-dff516322303c28f3a1ab6ee4d61c5b3
+a78ecf28cccd93f205aacc38b8b33f4d
   $wrockY ::
     (a -> a -> a)
     -> (a -> a -> a) -> (GHC.Integer.Type.Integer -> a) -> a
@@ -1754,7 +1754,7 @@ dff516322303c28f3a1ab6ee4d61c5b3
                  ww
                    (ww1 (ww2 StreetRun.Hurdle.birdY2) (ww2 StreetRun.Hurdle.rockY1))
                    (ww2 StreetRun.Hurdle.$fRandomObstacleTag4)) -}
-2341c3e61b87b59ea6b336dbc2f89c9a
+806f72e2d074e60979bb87d0f4952401
   data ObstacleInfo
     = ObstacleInfo'Lava (Animate.Position
                            StreetRun.Snag.LavaKey StreetRun.Types.Seconds)
@@ -1762,14 +1762,14 @@ dff516322303c28f3a1ab6ee4d61c5b3
                            StreetRun.Snag.RockKey StreetRun.Types.Seconds)
     | ObstacleInfo'Bird (Animate.Position
                            StreetRun.Snag.BirdKey StreetRun.Types.Seconds)
-956d5d1777524c8d52fcbf616061f555
+95c2800d9f00728984a40ce71c8f5ddb
   data ObstacleState
     = ObstacleState {osInfo :: StreetRun.Hurdle.ObstacleInfo,
                      osDistance :: StreetRun.Types.Distance}
-ba95154007acc7d07251b5e5be0f759f
+87a5d4ad614d614ae5f2b575cc03f725
   data ObstacleTag
     = ObstacleTag'Lava | ObstacleTag'Rock | ObstacleTag'Bird
-006d0a80770787fcba420fe23122a767
+7193f7bf2a627e7b5bd560b5eb135a97
   birdY :: GHC.Num.Num a => a
   {- Arity: 1, HasNoCafRefs,
      Strictness: <S(LLC(C(S))LLLL),1*U(A,A,1*C1(C1(U)),A,A,A,C(U))>,
@@ -1778,16 +1778,16 @@ ba95154007acc7d07251b5e5be0f759f
                 (\ @ a (w :: GHC.Num.Num a) ->
                  case w of ww { GHC.Num.C:Num ww1 ww2 ww3 ww4 ww5 ww6 ww7 ->
                  StreetRun.Hurdle.$wbirdY @ a ww3 ww7 }) -}
-756761d7f717ff20963ea8bb85d6d462
+7d207085942c7bdc9bf4b2f34fb82a7a
   birdY1 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (22) -}
-83e127985fe9474c640801090cf9fedc
+283cde60be957a5d4426d4d61c554bc0
   birdY2 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (16) -}
-73135cc82693151aa5afaa5705e0866d
+20eed2a95257c7f3c085356cc5f282e4
   birdY_$sbirdY :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 352.0#) -}
-e9a2970f50dae5283007e5ec2785ed76
+58e67e5b07377f4d36fa776e595d4385
   lavaY :: GHC.Num.Num a => a
   {- Arity: 1, HasNoCafRefs,
      Strictness: <S(LLC(C(S))LLLL),1*U(A,A,1*C1(C1(U)),A,A,A,C(U))>,
@@ -1796,13 +1796,13 @@ e9a2970f50dae5283007e5ec2785ed76
                 (\ @ a (w :: GHC.Num.Num a) ->
                  case w of ww { GHC.Num.C:Num ww1 ww2 ww3 ww4 ww5 ww6 ww7 ->
                  StreetRun.Hurdle.$wlavaY @ a ww3 ww7 }) -}
-f7c1989a6326cd863f8c8aec4a51fbae
+7cc87908e87a8080e4b5610d676442a2
   lavaY1 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (28) -}
-484e28bff2880e4b3bec8375598cbc68
+ce3eb7e7668571be7039ac39bef49c98
   lavaY_$slavaY :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 448.0#) -}
-4927b8b5bf9fb9ed875cf605760ef221
+a5327c186bfc058418e706146ebd9908
   obstacleAabb ::
     StreetRun.Hurdle.ObstacleState -> StreetRun.Physics.Aabb
   {- Arity: 1, Strictness: <S(SL),1*U(1*U,1*U(U))>m, Inline: [2],
@@ -1813,19 +1813,19 @@ f7c1989a6326cd863f8c8aec4a51fbae
                         ww1
                         ww2 of ww3 { (#,#) ww4 ww5 ->
                  StreetRun.Physics.Aabb ww4 ww5 } }) -}
-96812b3392ce43c0a6c953b7c4b28d6e
+87f9bfafad6cfa964e17fe79f51a73b1
   obstacleAabb1 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 384.0#) -}
-83c935011dfe426cc76f986f7782680e
+5ebc58960e701c0ce7ac741e442b9949
   obstacleAabb2 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 450.0#) -}
-ac3edeebf7f3d46845c1fe9900b8aebe
+13bfd814a7853eb9917c86c6a807a1bd
   obstacleAabb3 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 480.0#) -}
-54a971ca5d69a3b448cd717e362f773a
+95ba62235ec18ebb7b6edb88a2941a91
   obstacleAabb_$srockY :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 418.0#) -}
-7b7b5bd4f0871c69bb81b4a38e3bbd64
+4cacfc8f0ae3075f4ba54a4551b6ccaa
   randomRBoundedEnum ::
     (GHC.Enum.Bounded a, GHC.Enum.Enum a, System.Random.RandomGen g) =>
     (a, a) -> g -> (a, g)
@@ -1851,7 +1851,7 @@ ac3edeebf7f3d46845c1fe9900b8aebe
                         ww2
                         w4 of ww3 { (#,#) ww4 ww5 ->
                  (ww4, ww5) } }) -}
-e484768d6a4b702ac2f8a23e6871ffba
+d7f9380ab0d3b3bdb40701f60199e545
   rockY :: GHC.Num.Num a => a
   {- Arity: 1, HasNoCafRefs,
      Strictness: <S(C(C(S))LLLLLL),1*U(1*C1(C1(U)),A,1*C1(C1(U)),A,A,A,C(U))>,
@@ -1860,10 +1860,10 @@ e484768d6a4b702ac2f8a23e6871ffba
                 (\ @ a (w :: GHC.Num.Num a) ->
                  case w of ww { GHC.Num.C:Num ww1 ww2 ww3 ww4 ww5 ww6 ww7 ->
                  StreetRun.Hurdle.$wrockY @ a ww1 ww3 ww7 }) -}
-d18b3c31511c14242a3af688f4c2cfa5
+3ac290767e9959fce69470bf99db5376
   rockY1 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (26) -}
-78ea6140f7b131a8e3f9cc243dc48c3f
+178c3a1a8aa9d61ae951021edab10adc
   stepObstacles ::
     StreetRun.Types.Distance
     -> [StreetRun.Hurdle.ObstacleState]
@@ -1898,7 +1898,7 @@ d18b3c31511c14242a3af688f4c2cfa5
                               `cast`
                             (Sym (StreetRun.Types.N:Distance[0])) } } }) })
                    eta) -}
-1da345358045153159835e6370c41b00
+bbf920dbc0893b9218b831594ddd8141
   streamOfObstacles ::
     System.Random.RandomGen g =>
     g -> [(GHC.Types.Int, StreetRun.Hurdle.ObstacleTag)]

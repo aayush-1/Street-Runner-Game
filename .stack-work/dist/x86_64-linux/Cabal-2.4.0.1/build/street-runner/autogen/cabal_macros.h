@@ -166,7 +166,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "street-runner-0.0.0-IRHS6dLHshlHGWQD6b0861-street-runner"
+#define CURRENT_COMPONENT_ID "street-runner-0.0.0-Jsj2Qw83YqR1vI22EXKMe-street-runner"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.0.0"

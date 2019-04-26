@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 07:48:32.265493021 UTC
+2019-04-26 14:29:06.502205445 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Assets 8064
-  interface hash: 369aa2583c16b9ad850fad45d3d802bd
-  ABI hash: 8f2913451ac82f2b7c6c2615bf793ef1
-  export-list hash: 0a88185806d79762834760ca6a267506
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Assets 8064
+  interface hash: 6349f73c73e74e8371dd9a64cbe419e2
+  ABI hash: 2819f37df7c59b80fb7f3a73042c7f01
+  export-list hash: 86be993b4877099fabbc9ec1b43ab731
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -19,11 +19,11 @@ exports:
   StreetRun.Assets.convertSurface
   StreetRun.Assets.loadSurface
   StreetRun.Assets.Resources{StreetRun.Assets.Resources rBackStreetSprites rBirdSfx rBirdSprites rBuildingSprites rControlsSprite rDeathSfx rDuckSfx rEscapeSprite rGameMusic rGameOverSprite rGrassSprites rHiscoreSprite rHurtSfx rJumpSfx rLavaSfx rLavaSprites rNumberSprites rPauseSprite rPointSfx rQuakeSfx rRecoverSfx rRockSfx rRockSprites rRunnerSprites rSpaceSprite rStockSfx rStreetSprites rTitleSprite}
-module dependencies: StreetRun.Camera StreetRun.Font
-                     StreetRun.Font_functions StreetRun.Frame StreetRun.Hurdle
-                     StreetRun.Hurdle_1 StreetRun.Input StreetRun.Physics
-                     StreetRun.Runner StreetRun.Runner_func_1 StreetRun.Runner_func_2
-                     StreetRun.Scenario StreetRun.Snag StreetRun.Step StreetRun.Types
+module dependencies: StreetRun.CFL StreetRun.Camera StreetRun.Font
+                     StreetRun.Font_functions StreetRun.Hurdle StreetRun.Hurdle_1
+                     StreetRun.Input StreetRun.Physics StreetRun.Runner
+                     StreetRun.Runner_func_1 StreetRun.Runner_func_2 StreetRun.Scenario
+                     StreetRun.Snag StreetRun.Step StreetRun.Types
 package dependencies: StateVar-1.1.1.1 adjunctions-4.4
                       aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
                       base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
@@ -141,47 +141,47 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
                          vector-0.12.0.2:Data.Vector.Unboxed
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
 import  -/  StateVar-1.1.1.1:Data.StateVar 3356bd62ad24ee9ca28de7ecf3cb79ab
-import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  animate-0.7.0:Animate cf529f033c38156be2990062be8eb570
 import  -/  base-4.12.0.0:Data.Functor 069b2025a03e32fd228e74a86a58a075
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:GHC.IO 898d4ddbf00eb4732e5f462760aa42ae
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
-import  -/  linear-1.20.8:Linear.V4 c239e31f533d2317ba3df898a135744f
-import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
-import  -/  sdl2-2.4.1.0:SDL.Internal.Numbered f3853aae17e1e1845b0a5ba2f25c1787
-import  -/  sdl2-2.4.1.0:SDL.Raw.Video 49d4be230da948d7687c7ac321a90c99
-import  -/  sdl2-2.4.1.0:SDL.Vect cd47fc30aef16e8f55c1351dafae292d
-import  -/  sdl2-2.4.1.0:SDL.Video.Renderer fde5d4735decffc12f192a8489c7afbb
-import  -/  sdl2-image-2.0.0:SDL.Image 67bf05f64bc35f747ec59baab27c7015
-import  -/  sdl2-mixer-1.1.0:SDL.Mixer ab60a8550598269def875bc1a7207b35
-import  -/  sdl2-ttf-2.0.2:SDL.Font c4a3fe90a2776dafa33b0d9792acf8d0
-import  -/  StreetRun.Font a32f3953bbb50ce9b469edb8463d6f24
-  exports: 7faf0604fc3be1edae721103fd7b3042
-  Number b7e100f9135b0814c955ea3d79c02ada
-import  -/  StreetRun.Font_functions 1a5a69e004e559ef0ed610c21b9037a3
-  exports: 8738957528d4728a198f0cc1309ae7d5
-import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
-  exports: 07dc0a302095db6221f41ecc2db9aec7
-  RunnerKey c9d847714c135c3fbba17148989067a8
-import  -/  StreetRun.Runner_func_1 1928ba54f43a20365598e5563c7061e0
-  exports: 3aace68dd54e293b9e7cb9629aa29f15
-import  -/  StreetRun.Runner_func_2 f8a14e2b7b30d725c8ce0939a4c26918
-  exports: fc83ba710a96fc8b5794a82f528d2b01
-import  -/  StreetRun.Scenario 3d565e4d4fcefb40de1d348ddc5508f1
-  exports: 425f740a4cf1b868d9284521ed68ce1e
-  BuildingKey b4c3f53a1de721da99d4f02d4409c2d9
-  GrassKey da61b53345a9ca19f2dea7fa2a8793b3
-import  -/  StreetRun.Snag 435128ff0e3817e1b1768f09cf894e59
-  exports: 7f7b3656c97eba619795923512f79f2a
-  BirdKey a4b9334f1959d8eda311a05a86034c88
-  LavaKey ef15a7c1dcf7c6d0c02947b3c6d55574
-  RockKey a1efaaa0d94a0294a7825caa774f65b1
-import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
-  exports: 687926be2250d898b68652280e784933
-  Seconds 3096dba0a5a57c02592e934b662fbeb3
-import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd13d7c5bf10
-506eb6c1c8a755fdf82b61cc10157e07
+import  -/  linear-1.20.8:Linear.V4 c70db2e424bdc7ab8d43e643d0753cb7
+import  -/  sdl2-2.4.1.0:SDL a509879ea64738370e9e96c8f0b5e49f
+import  -/  sdl2-2.4.1.0:SDL.Internal.Numbered 0b11fbe4c03927fdc1fd6ca7bf4277c7
+import  -/  sdl2-2.4.1.0:SDL.Raw.Video 339ce0d115a8b7b77c00b6b6a31f46f6
+import  -/  sdl2-2.4.1.0:SDL.Vect 87cebfb5451b5123ac5e23d9821e85c2
+import  -/  sdl2-2.4.1.0:SDL.Video.Renderer 93203afab1f85132f9da5863a7f04f06
+import  -/  sdl2-image-2.0.0:SDL.Image 77e927eadd80e879a871675cb789a7ca
+import  -/  sdl2-mixer-1.1.0:SDL.Mixer f3936c6b9c7c99434739f7b77f9abfbf
+import  -/  sdl2-ttf-2.0.2:SDL.Font d24b31830df063b1aa6c9977b6472ef3
+import  -/  StreetRun.Font 34a23e060586d079dd0657583ffec0bf
+  exports: 09e7f7e66762b635c22cb5644e292e72
+  Number 1ca7e4c8adfb9337ba114131324bb05d
+import  -/  StreetRun.Font_functions 233513d294ddb4c635ea5e843e8f2bc1
+  exports: c1863499f3ebc41d6a1caeb3c071141a
+import  -/  StreetRun.Runner a6abbd291e744158bf9018a60f48d314
+  exports: ae88bb9ed2797ab0ae7bfb3fb6716c40
+  RunnerKey 246fbc2203e765942b6e843f2c5465c5
+import  -/  StreetRun.Runner_func_1 bdddcc72b2b205ac6ed65be0261303a7
+  exports: 5dd8b90845ed790a7a36c82e6f4d7138
+import  -/  StreetRun.Runner_func_2 850b3567ef6c7c4675339eaa541ca68a
+  exports: 132f0584768b112cf2826c60192e01cb
+import  -/  StreetRun.Scenario 354a54748ba84a3c008f8f16b2acd94c
+  exports: 64c6733be65834216e60f326da61cf65
+  BuildingKey 8d4c5e6921f733591e707f21136e38ef
+  GrassKey ad2a2fb6c9f7041cf4bd51fd17675c8c
+import  -/  StreetRun.Snag 91cafec8e0a3bc8aded7f9bc89567610
+  exports: c07ed761210af14f8b0800e144209504
+  BirdKey f88ace211280dc1d7921a1773951ed44
+  LavaKey 3fc67e1f876892a8dbc5f4b90be00bda
+  RockKey 5221b707992783923c608096f51488e5
+import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
+  exports: 68eec0a854069d6ebcc9ba499b980fc6
+  Seconds a9822968438ab4a0fccda00b12150109
+import  -/  text-conversions-0.3.0:Data.Text.Conversions 3b269e79ba7224fcc6a43cbc3208b0b3
+022c06076a805b822172c29a76100922
   $sel:rBackStreetSprites:Resources ::
     StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
   RecSel Left StreetRun.Assets.Resources
@@ -191,7 +191,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds3 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rBirdSfx:Resources ::
     StreetRun.Assets.Resources -> SDL.Mixer.Chunk
   RecSel Left StreetRun.Assets.Resources
@@ -201,7 +201,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds13 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rBirdSprites:Resources ::
     StreetRun.Assets.Resources
     -> Animate.SpriteSheet
@@ -215,7 +215,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds6 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rBuildingSprites:Resources ::
     StreetRun.Assets.Resources
     -> Animate.SpriteSheet
@@ -229,7 +229,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds1 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rControlsSprite:Resources ::
     StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
   RecSel Left StreetRun.Assets.Resources
@@ -239,7 +239,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds28 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rDeathSfx:Resources ::
     StreetRun.Assets.Resources -> SDL.Mixer.Chunk
   RecSel Left StreetRun.Assets.Resources
@@ -249,7 +249,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds18 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rDuckSfx:Resources ::
     StreetRun.Assets.Resources -> SDL.Mixer.Chunk
   RecSel Left StreetRun.Assets.Resources
@@ -259,7 +259,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds11 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rEscapeSprite:Resources ::
     StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
   RecSel Left StreetRun.Assets.Resources
@@ -269,7 +269,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds23 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rGameMusic:Resources ::
     StreetRun.Assets.Resources -> SDL.Mixer.Music
   RecSel Left StreetRun.Assets.Resources
@@ -279,7 +279,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds9 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rGameOverSprite:Resources ::
     StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
   RecSel Left StreetRun.Assets.Resources
@@ -289,7 +289,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds24 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rGrassSprites:Resources ::
     StreetRun.Assets.Resources
     -> Animate.SpriteSheet
@@ -303,7 +303,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds2 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rHiscoreSprite:Resources ::
     StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
   RecSel Left StreetRun.Assets.Resources
@@ -313,7 +313,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds25 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rHurtSfx:Resources ::
     StreetRun.Assets.Resources -> SDL.Mixer.Chunk
   RecSel Left StreetRun.Assets.Resources
@@ -323,7 +323,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds14 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rJumpSfx:Resources ::
     StreetRun.Assets.Resources -> SDL.Mixer.Chunk
   RecSel Left StreetRun.Assets.Resources
@@ -333,7 +333,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds10 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rLavaSfx:Resources ::
     StreetRun.Assets.Resources -> SDL.Mixer.Chunk
   RecSel Left StreetRun.Assets.Resources
@@ -343,7 +343,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds15 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rLavaSprites:Resources ::
     StreetRun.Assets.Resources
     -> Animate.SpriteSheet
@@ -357,7 +357,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds7 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rNumberSprites:Resources ::
     StreetRun.Assets.Resources
     -> StreetRun.Font.Number -> SDL.Video.Renderer.Texture
@@ -368,7 +368,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds27 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rPauseSprite:Resources ::
     StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
   RecSel Left StreetRun.Assets.Resources
@@ -378,7 +378,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds21 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rPointSfx:Resources ::
     StreetRun.Assets.Resources -> SDL.Mixer.Chunk
   RecSel Left StreetRun.Assets.Resources
@@ -388,7 +388,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds12 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rQuakeSfx:Resources ::
     StreetRun.Assets.Resources -> SDL.Mixer.Chunk
   RecSel Left StreetRun.Assets.Resources
@@ -398,7 +398,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds16 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rRecoverSfx:Resources ::
     StreetRun.Assets.Resources -> SDL.Mixer.Chunk
   RecSel Left StreetRun.Assets.Resources
@@ -408,7 +408,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds19 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rRockSfx:Resources ::
     StreetRun.Assets.Resources -> SDL.Mixer.Chunk
   RecSel Left StreetRun.Assets.Resources
@@ -418,7 +418,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds17 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rRockSprites:Resources ::
     StreetRun.Assets.Resources
     -> Animate.SpriteSheet
@@ -432,7 +432,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds8 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rRunnerSprites:Resources ::
     StreetRun.Assets.Resources
     -> Animate.SpriteSheet
@@ -446,7 +446,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds5 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rSpaceSprite:Resources ::
     StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
   RecSel Left StreetRun.Assets.Resources
@@ -456,7 +456,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds22 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rStockSfx:Resources ::
     StreetRun.Assets.Resources -> SDL.Mixer.Chunk
   RecSel Left StreetRun.Assets.Resources
@@ -466,7 +466,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds20 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rStreetSprites:Resources ::
     StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
   RecSel Left StreetRun.Assets.Resources
@@ -476,7 +476,7 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds4 }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   $sel:rTitleSprite:Resources ::
     StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
   RecSel Left StreetRun.Assets.Resources
@@ -486,65 +486,65 @@ import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd1
                 (\ (ds :: StreetRun.Assets.Resources) ->
                  case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
                  ds26 }) -}
-76486ba8359bda04db4c72d35588aefe
+684225bcfbbfb3be1b4b85dd3d3f1a8d
   $tc'Resources :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   2774584090853810702##
-                   5229527982083654618##
+                   15539857062386746883##
+                   336911398003119468##
                    StreetRun.Assets.$trModule
                    StreetRun.Assets.$tc'Resources2
                    0#
                    StreetRun.Assets.$tc'Resources1) -}
-556b59f19b1851fcbd08dee7fc5b4278
+5691a000238d0a19081f8dd57366526b
   $tc'Resources1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-f171bcb12cb20ec870a7ebda6b17da1e
+7f0c72bc616b388c3e467fb0947f9a53
   $tc'Resources2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Assets.$tc'Resources3) -}
-0111da7a060d7e20b61770d94e995389
+bf076f8350465030d3ee938a302a8b70
   $tc'Resources3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Resources"#) -}
-5d83af9fd0dad393b321a97a96cfdb3a
+ae0cc1d3fb059c5f7be13282cc8408ef
   $tcResources :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   172777387501232605##
-                   7149043849505655381##
+                   3113998481561742607##
+                   14931785162674945098##
                    StreetRun.Assets.$trModule
                    StreetRun.Assets.$tcResources1
                    0#
                    GHC.Types.krep$*) -}
-6a1c3838d7a60086e2e78adbfa754eb7
+2755ad8a80e0e45cd4a3079ec863841c
   $tcResources1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Assets.$tcResources2) -}
-30ccaa9d60bb03a818f04f5d6c48be9b
+29307f138f5fc7df1f1cb01b7e51c69c
   $tcResources2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Resources"#) -}
-4e940ef1d28b3062b6e9bbae7c8feec9
+0d1e32c8ad1e76e4e8355d8d3d328f91
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Assets.$trModule3
                    StreetRun.Assets.$trModule1) -}
-1d6ffdf6c2570135b9f1a10dd2b7f424
+2cb1e11d45dbc7354a9a4b8e6f89cb56
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Assets.$trModule2) -}
-fa784ed013afe7332cc782a7f94a5270
+055e58edb02f7e2b661f43c826d79d3d
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Assets"#) -}
-0ae5e9bc99bd7e439af96fdaf64a06b2
+0a9520181bf6ced91d427b51de7f0a8f
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Assets.$trModule4) -}
-2b9f0c9a16ad990a53c0e540b22752c9
+ee6a56488d8fe5b8be592456280d732a
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-aa4815af0f577c87871c4ed1e667e253
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+99598fc0e0c03a5e3941ec6a110be2ca
   $wconvertSurface ::
     GHC.Ptr.Ptr SDL.Raw.Types.Surface
     -> SDL.Video.Renderer.PixelFormat
@@ -585,7 +585,7 @@ aa4815af0f577c87871c4ed1e667e253
                       (GHC.Maybe.Nothing
                          @ (Data.Vector.Storable.Mutable.IOVector
                               GHC.Word.Word8)) #) } } } } }) -}
-506eb6c1c8a755fdf82b61cc10157e07
+022c06076a805b822172c29a76100922
   data Resources
     = Resources {rBuildingSprites :: Animate.SpriteSheet
                                        StreetRun.Scenario.BuildingKey
@@ -634,19 +634,19 @@ aa4815af0f577c87871c4ed1e667e253
                  rNumberSprites :: StreetRun.Font.Number
                                    -> SDL.Video.Renderer.Texture,
                  rControlsSprite :: SDL.Video.Renderer.Texture}
-4376993b8abfe550ff97ac31d31fd99c
+ec1be3f1c5ea93b38342efcd4a1bf7ca
   alphaColorDef :: Animate.Color
   {- HasNoCafRefs, Strictness: m,
      Unfolding: ((StreetRun.Assets.alphaColorDef2,
                   StreetRun.Assets.alphaColorDef1,
                   StreetRun.Assets.alphaColorDef2)) -}
-af4d05acebeaaf058306558eddc1b248
+b72d1fa92d54e6b8925bf48a61f99d71
   alphaColorDef1 :: GHC.Word.Word8
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Word.W8# 0##) -}
-8cf59fd20c65411d19306175adbd8762
+2d77ea5d03316b8536dae74560698e2f
   alphaColorDef2 :: GHC.Word.Word8
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Word.W8# 255##) -}
-de47fa95e97a2fa9a0f25a39a701c3fe
+f445879bfdf87d5f45eef2bf0aa4c336
   convertSurface ::
     SDL.Video.Renderer.Surface
     -> SDL.Video.Renderer.PixelFormat
@@ -659,7 +659,7 @@ de47fa95e97a2fa9a0f25a39a701c3fe
                 (<SDL.Video.Renderer.Surface>_R
                  ->_R <SDL.Video.Renderer.PixelFormat>_R
                  ->_R Sym (GHC.Types.N:IO[0] <SDL.Video.Renderer.Surface>_R)) -}
-cd200efe1d871efe7797086ea9a037f8
+2382c28de931740a8b8dfdaab0e7c5de
   convertSurface1 ::
     SDL.Video.Renderer.Surface
     -> SDL.Video.Renderer.PixelFormat
@@ -674,7 +674,7 @@ cd200efe1d871efe7797086ea9a037f8
                    (w2 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  case w of ww { SDL.Video.Renderer.Surface ww1 ww2 ->
                  StreetRun.Assets.$wconvertSurface ww1 w1 w2 }) -}
-43540737d7d981701d2c424d53a8797c
+1450d6737be5a179db03233b9830fa0d
   loadSurface ::
     GHC.IO.FilePath
     -> GHC.Maybe.Maybe Animate.Color
@@ -686,7 +686,7 @@ cd200efe1d871efe7797086ea9a037f8
                 (<GHC.IO.FilePath>_R
                  ->_R <GHC.Maybe.Maybe Animate.Color>_R
                  ->_R Sym (GHC.Types.N:IO[0] <SDL.Video.Renderer.Surface>_R)) -}
-2757c26ca60bc77c04e00c377dce2466
+eb7ec977a849c3ddf577243be9fe1a72
   loadSurface1 ::
     GHC.IO.FilePath
     -> GHC.Maybe.Maybe Animate.Color

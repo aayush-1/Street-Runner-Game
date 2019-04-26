@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:11:45.831485759 UTC
+2019-04-26 14:29:03.046111287 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Out 8064
-  interface hash: 85f137518806022b148d191ae2d30f1c
-  ABI hash: c6f895be71f537324fe40402a153a0c3
-  export-list hash: 7da7bc3ed9644406cff4632113b7a06a
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Out 8064
+  interface hash: f403aa49099887898e8b7dc6b9f32f77
+  ABI hash: 821100932c472ef91d1cc00ebdbd32fc
+  export-list hash: f97bdbd80a695ead6b4ee17ec380e5cf
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: e9979ed0ba295133ef8188aa5e696ffc
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -115,11 +115,11 @@ import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
 import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
-import  -/  lens-4.17:Control.Lens 531af2b540e6d8d8ce856b6f46207d94
-import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
-  exports: 687926be2250d898b68652280e784933
-  Percent 9bc35ebe469aab1ad3d8edfd9fd30da6
-e451e3f2cb5d3f53bad8e5ab684f2543
+import  -/  lens-4.17:Control.Lens 02c38743366e4d3d260b71bddfddea13
+import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
+  exports: 68eec0a854069d6ebcc9ba499b980fc6
+  Percent ba7abb7eeed8b328d8b72349c7c4fef0
+2891ba2842a669b0d757efb60792393f
   $fEqGameOverVars :: GHC.Classes.Eq StreetRun.Out.GameOverVars
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -127,7 +127,7 @@ e451e3f2cb5d3f53bad8e5ab684f2543
                   @ StreetRun.Out.GameOverVars
                   StreetRun.Out.$fEqGameOverVars_$c==
                   StreetRun.Out.$fEqGameOverVars_$c/= -}
-e451e3f2cb5d3f53bad8e5ab684f2543
+2891ba2842a669b0d757efb60792393f
   $fEqGameOverVars_$c/= ::
     StreetRun.Out.GameOverVars
     -> StreetRun.Out.GameOverVars -> GHC.Types.Bool
@@ -149,7 +149,7 @@ e451e3f2cb5d3f53bad8e5ab684f2543
                              b2 `cast` (StreetRun.Types.N:Percent[0]) of wild3 {
                         GHC.Types.False -> GHC.Types.True
                         GHC.Types.True -> GHC.Types.False } } } }) -}
-e451e3f2cb5d3f53bad8e5ab684f2543
+2891ba2842a669b0d757efb60792393f
   $fEqGameOverVars_$c== ::
     StreetRun.Out.GameOverVars
     -> StreetRun.Out.GameOverVars -> GHC.Types.Bool
@@ -168,7 +168,7 @@ e451e3f2cb5d3f53bad8e5ab684f2543
                         `cast`
                       (StreetRun.Types.N:Percent[0]) of ww8 { GHC.Types.F# ww9 ->
                  StreetRun.Out.$w$c== ww4 ww2 ww9 ww7 } } } }) -}
-e451e3f2cb5d3f53bad8e5ab684f2543
+2891ba2842a669b0d757efb60792393f
   $fShowGameOverVars :: GHC.Show.Show StreetRun.Out.GameOverVars
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -177,29 +177,29 @@ e451e3f2cb5d3f53bad8e5ab684f2543
                   StreetRun.Out.$fShowGameOverVars_$cshowsPrec
                   StreetRun.Out.$fShowGameOverVars_$cshow
                   StreetRun.Out.$fShowGameOverVars_$cshowList -}
-e451e3f2cb5d3f53bad8e5ab684f2543
+2891ba2842a669b0d757efb60792393f
   $fShowGameOverVars1 :: StreetRun.Out.GameOverVars -> GHC.Show.ShowS
   {- Arity: 1, Strictness: <S,1*U(1*U(U),1*U(U))>,
      Unfolding: (\ (w :: StreetRun.Out.GameOverVars) ->
                  case w of ww { StreetRun.Out.GameOverVars ww1 ww2 ->
                  StreetRun.Out.$w$cshowsPrec 0# ww1 ww2 }) -}
-ffe9c5a3abe7084a0107bb8624639a0c
+f9512a1526e780ca1cbcc8389a950d36
   $fShowGameOverVars2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("}"#) -}
-0e5741adb5f41ee97aef5a7dcbefb3b2
+9120e2097b54646e14e3fca1f104fcaf
   $fShowGameOverVars3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("govSpaceFlashing = "#) -}
-7923ab3a35ed134785dc85ca9f4e9c10
+2f445535c8cf248224fa7c0b47d17ed1
   $fShowGameOverVars4 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("govFadeout = "#) -}
-a0435d8577860ed1972a99608065e273
+640f2a3e48b7df83ee35fdc64ce2bd47
   $fShowGameOverVars5 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("GameOverVars {"#) -}
-5c7fa9193d1c83243a57b172bb71cd3c
+f897640496724a1d2a8d0d0607a789b2
   $fShowGameOverVars6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Out.$fShowGameOverVars2) -}
-e451e3f2cb5d3f53bad8e5ab684f2543
+2891ba2842a669b0d757efb60792393f
   $fShowGameOverVars_$cshow ::
     StreetRun.Out.GameOverVars -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U(1*U(U),1*U(U))>, Inline: [2],
@@ -207,7 +207,7 @@ e451e3f2cb5d3f53bad8e5ab684f2543
                 (\ (w :: StreetRun.Out.GameOverVars) ->
                  case w of ww { StreetRun.Out.GameOverVars ww1 ww2 ->
                  StreetRun.Out.$w$cshow ww1 ww2 }) -}
-e451e3f2cb5d3f53bad8e5ab684f2543
+2891ba2842a669b0d757efb60792393f
   $fShowGameOverVars_$cshowList ::
     [StreetRun.Out.GameOverVars] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
@@ -218,7 +218,7 @@ e451e3f2cb5d3f53bad8e5ab684f2543
                    StreetRun.Out.$fShowGameOverVars1
                    ls
                    s) -}
-e451e3f2cb5d3f53bad8e5ab684f2543
+2891ba2842a669b0d757efb60792393f
   $fShowGameOverVars_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Out.GameOverVars -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S(S),1*U(U)><S,1*U(1*U(U),1*U(U))>,
@@ -228,7 +228,7 @@ e451e3f2cb5d3f53bad8e5ab684f2543
                  case w of ww { GHC.Types.I# ww1 ->
                  case w1 of ww2 { StreetRun.Out.GameOverVars ww3 ww4 ->
                  StreetRun.Out.$w$cshowsPrec ww1 ww3 ww4 } }) -}
-e451e3f2cb5d3f53bad8e5ab684f2543
+2891ba2842a669b0d757efb60792393f
   $sel:govFadeout:GameOverVars ::
     StreetRun.Out.GameOverVars -> StreetRun.Types.Percent
   RecSel Left StreetRun.Out.GameOverVars
@@ -236,7 +236,7 @@ e451e3f2cb5d3f53bad8e5ab684f2543
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: StreetRun.Out.GameOverVars) ->
                  case ds of wild { StreetRun.Out.GameOverVars ds1 ds2 -> ds1 }) -}
-e451e3f2cb5d3f53bad8e5ab684f2543
+2891ba2842a669b0d757efb60792393f
   $sel:govSpaceFlashing:GameOverVars ::
     StreetRun.Out.GameOverVars -> StreetRun.Types.Percent
   RecSel Left StreetRun.Out.GameOverVars
@@ -244,65 +244,65 @@ e451e3f2cb5d3f53bad8e5ab684f2543
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: StreetRun.Out.GameOverVars) ->
                  case ds of wild { StreetRun.Out.GameOverVars ds1 ds2 -> ds2 }) -}
-f96a844e9a9c2c8737b292fc2041d282
+4b303481e44321ccc9fe354763f3adda
   $tc'GameOverVars :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   16226905279875125448##
-                   9733060873749182715##
+                   9556320338728783383##
+                   3635001327573953847##
                    StreetRun.Out.$trModule
                    StreetRun.Out.$tc'GameOverVars2
                    0#
                    StreetRun.Out.$tc'GameOverVars1) -}
-37fcddd63fe30e9b2492953552f42427
+dfc2a3657600b843a6440c97a0d9939a
   $tc'GameOverVars1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-e920f7d67fcfb193bc15b04c48c8e9e0
+a969f8abcb4093cc686acb2b4d608640
   $tc'GameOverVars2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Out.$tc'GameOverVars3) -}
-b48ee9bf53ecdccad431f7fb413cf7a2
+4ac3235c5fa81687b5cd02dca109e642
   $tc'GameOverVars3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'GameOverVars"#) -}
-8ae23bb513f95291b3dab635d748bf42
+163359b7b8c68ea02e01fe0e09ee050b
   $tcGameOverVars :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   14024771796838425699##
-                   11171939921048572162##
+                   1980933138542459679##
+                   8298536155033390200##
                    StreetRun.Out.$trModule
                    StreetRun.Out.$tcGameOverVars1
                    0#
                    GHC.Types.krep$*) -}
-3e4be1e32652a847c27d3f537b3d8821
+41f809747978e9d65d7b11b5db9bcbf4
   $tcGameOverVars1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Out.$tcGameOverVars2) -}
-6011658b75eb480bd7490b4092c20f9b
+a9bd41a506ff8683d6f30815d346049e
   $tcGameOverVars2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("GameOverVars"#) -}
-1cdd8889d150b519b2d3a9400110e924
+01e371c02ef97b4d2a0915adea6d7142
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Out.$trModule3
                    StreetRun.Out.$trModule1) -}
-65c8f00d770ae73bb6291211166a4051
+c8b9baaa6e59cb127976b01993920282
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Out.$trModule2) -}
-3f91b80cc545fb0b39ccd1019569e4bb
+b05a96bf50b8da36db3af387038be1b1
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Out"#) -}
-6cf939f888a1b4ad8e12796be51354ac
+44abd6f0501f49381c8aecc172b176a7
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Out.$trModule4) -}
-c2ce1f4de2afb7e0e81de2cac908d580
+8c14cd496def89e1ad6fff3d71cdeeb3
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-6d0bb78daa82966496e8e3e3ecdd884f
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+0d652f32c0445f7f38c6f9594446b467
   $w$c== ::
     GHC.Prim.Float#
     -> StreetRun.Types.Percent
@@ -321,7 +321,7 @@ c2ce1f4de2afb7e0e81de2cac908d580
                    -> GHC.Classes.eqFloat
                         ww1 `cast` (StreetRun.Types.N:Percent[0])
                         ww3 `cast` (StreetRun.Types.N:Percent[0]) }) -}
-acc83d845f046300641e084137989f68
+c438dc420d96a769d3dc03b73d3447e3
   $w$cshow ::
     StreetRun.Types.Percent
     -> StreetRun.Types.Percent -> GHC.Base.String
@@ -358,7 +358,7 @@ acc83d845f046300641e084137989f68
                                         StreetRun.Types.$fShowDistance4
                                         ww5
                                         StreetRun.Out.$fShowGameOverVars6 })))) })))) -}
-33876aa5857e1bee327e866568d69ec2
+28ac80c5e9a519b15b1d2c2f9d9984e5
   $w$cshowsPrec ::
     GHC.Prim.Int#
     -> StreetRun.Types.Percent
@@ -413,7 +413,7 @@ acc83d845f046300641e084137989f68
                                                 @ GHC.Types.Char
                                                 GHC.Show.$fShow(,)2
                                                 x)))))))) }) -}
-e451e3f2cb5d3f53bad8e5ab684f2543
+2891ba2842a669b0d757efb60792393f
   data GameOverVars
     = GameOverVars {govFadeout :: StreetRun.Types.Percent,
                     govSpaceFlashing :: StreetRun.Types.Percent}

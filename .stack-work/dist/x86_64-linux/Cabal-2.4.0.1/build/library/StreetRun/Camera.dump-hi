@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:11:43.337680226 UTC
+2019-04-26 14:29:00.592001976 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Camera 8064
-  interface hash: 85fa9d0df75b1e0d6dfcaf9c0591694d
-  ABI hash: 63926371f9a3875764572c53b7b589e9
-  export-list hash: 0bdcb1ea14c3bd8392b27cba46d7b4fa
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Camera 8064
+  interface hash: 9643121c4fb4bdc26e19b3668c877168
+  ABI hash: 15520c15c72428459c71d35d468598c8
+  export-list hash: 445eb368813d35f6641c1446797753f7
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -16,7 +16,6 @@ interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Camera 8064
   where
 exports:
   StreetRun.Camera.initCamera
-  StreetRun.Camera.lerpCamera
   StreetRun.Camera.moveOrigin
   StreetRun.Camera.screenHeight
   StreetRun.Camera.screenV2
@@ -116,10 +115,9 @@ import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
 import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
-import  -/  linear-1.20.8:Linear c66c613217f57f0236b62caf498b629a
-import  -/  linear-1.20.8:Linear.V2 4a7e4c0c9247ec5477069840e3acbf22
-import  -/  linear-1.20.8:Linear.Vector ebc0287bf82b854e03a298077f8a5831
-2825edad27438647c3fbdedec7f77477
+import  -/  linear-1.20.8:Linear 04ff2913b766e124dece4465ec5ad3d4
+import  -/  linear-1.20.8:Linear.V2 8a9154bf8e5f0fecb2cc8fb6a057e650
+b5968deab63503d8481a66bb851490e6
   $fEqCamera :: GHC.Classes.Eq StreetRun.Camera.Camera
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -127,7 +125,7 @@ import  -/  linear-1.20.8:Linear.Vector ebc0287bf82b854e03a298077f8a5831
                   @ StreetRun.Camera.Camera
                   StreetRun.Camera.$fEqCamera_$c==
                   StreetRun.Camera.$fEqCamera_$c/= -}
-2825edad27438647c3fbdedec7f77477
+b5968deab63503d8481a66bb851490e6
   $fEqCamera_$c/= ::
     StreetRun.Camera.Camera
     -> StreetRun.Camera.Camera -> GHC.Types.Bool
@@ -139,7 +137,7 @@ import  -/  linear-1.20.8:Linear.Vector ebc0287bf82b854e03a298077f8a5831
                  case StreetRun.Camera.$fEqCamera_$c== x y of wild {
                    GHC.Types.False -> GHC.Types.True
                    GHC.Types.True -> GHC.Types.False }) -}
-2825edad27438647c3fbdedec7f77477
+b5968deab63503d8481a66bb851490e6
   $fEqCamera_$c== ::
     StreetRun.Camera.Camera
     -> StreetRun.Camera.Camera -> GHC.Types.Bool
@@ -164,7 +162,7 @@ import  -/  linear-1.20.8:Linear.Vector ebc0287bf82b854e03a298077f8a5831
                    ww17
                    ww19
                    ww12 } } } } } } } }) -}
-2825edad27438647c3fbdedec7f77477
+b5968deab63503d8481a66bb851490e6
   $fShowCamera :: GHC.Show.Show StreetRun.Camera.Camera
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -173,28 +171,28 @@ import  -/  linear-1.20.8:Linear.Vector ebc0287bf82b854e03a298077f8a5831
                   StreetRun.Camera.$fShowCamera_$cshowsPrec
                   StreetRun.Camera.$fShowCamera_$cshow
                   StreetRun.Camera.$fShowCamera_$cshowList -}
-2825edad27438647c3fbdedec7f77477
+b5968deab63503d8481a66bb851490e6
   $fShowCamera1 :: StreetRun.Camera.Camera -> GHC.Show.ShowS
   {- Arity: 1, Strictness: <S,1*U(1*U(U,U),1*U(U,U))>,
      Unfolding: (\ (w :: StreetRun.Camera.Camera) ->
                  case w of ww { StreetRun.Camera.Camera ww1 ww2 ->
                  StreetRun.Camera.$w$cshowsPrec 0# ww1 ww2 }) -}
-09970a08d6b3b75ebdd79b9169dd6fdd
+6ab1a4871258966f4e5d55fb11d31e1d
   $fShowCamera2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("}"#) -}
-4bca73453af1a70478ed0276a8653c2b
+7fcd4fa2f6901d55706cf77881e0cff3
   $fShowCamera3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("camZoom = "#) -}
-d8455795169e4c7f7df655e3c82caf60
+cd0a44316b202cab4a7323ab4567842f
   $fShowCamera4 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("camOrigin = "#) -}
-c3f807055a333845c51bc98175872a38
+c8589c45e745999860820e76a722fc20
   $fShowCamera5 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Camera {"#) -}
-f8027900b634ae951ee56290368da540
+2e4129eb447e4220eca8eeba6b84fbec
   $fShowCamera6 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
-2825edad27438647c3fbdedec7f77477
+b5968deab63503d8481a66bb851490e6
   $fShowCamera_$cshow :: StreetRun.Camera.Camera -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U(1*U(U,U),1*U(U,U))>,
      Unfolding: InlineRule (1, True, False)
@@ -203,7 +201,7 @@ f8027900b634ae951ee56290368da540
                    StreetRun.Camera.$fShowCamera6
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-2825edad27438647c3fbdedec7f77477
+b5968deab63503d8481a66bb851490e6
   $fShowCamera_$cshowList ::
     [StreetRun.Camera.Camera] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
@@ -214,7 +212,7 @@ f8027900b634ae951ee56290368da540
                    StreetRun.Camera.$fShowCamera1
                    ls
                    s) -}
-2825edad27438647c3fbdedec7f77477
+b5968deab63503d8481a66bb851490e6
   $fShowCamera_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Camera.Camera -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S(S),1*U(U)><S,1*U(1*U(U,U),1*U(U,U))>,
@@ -224,7 +222,7 @@ f8027900b634ae951ee56290368da540
                  case w of ww { GHC.Types.I# ww1 ->
                  case w1 of ww2 { StreetRun.Camera.Camera ww3 ww4 ->
                  StreetRun.Camera.$w$cshowsPrec ww1 ww3 ww4 } }) -}
-2825edad27438647c3fbdedec7f77477
+b5968deab63503d8481a66bb851490e6
   $sel:camOrigin:Camera ::
     StreetRun.Camera.Camera -> Linear.V2.V2 GHC.Types.Float
   RecSel Left StreetRun.Camera.Camera
@@ -232,7 +230,7 @@ f8027900b634ae951ee56290368da540
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: StreetRun.Camera.Camera) ->
                  case ds of wild { StreetRun.Camera.Camera ds1 ds2 -> ds1 }) -}
-2825edad27438647c3fbdedec7f77477
+b5968deab63503d8481a66bb851490e6
   $sel:camZoom:Camera ::
     StreetRun.Camera.Camera -> Linear.V2.V2 GHC.Types.Float
   RecSel Left StreetRun.Camera.Camera
@@ -240,65 +238,65 @@ f8027900b634ae951ee56290368da540
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: StreetRun.Camera.Camera) ->
                  case ds of wild { StreetRun.Camera.Camera ds1 ds2 -> ds2 }) -}
-08de559a6ce61f71e8ad7a486833e784
+9e89ad299923893d8ed063bec5051b17
   $tc'Camera :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   1966018098795392184##
-                   14876636375414634700##
+                   14349512137379752569##
+                   797810665056535003##
                    StreetRun.Camera.$trModule
                    StreetRun.Camera.$tc'Camera2
                    0#
                    StreetRun.Camera.$tc'Camera1) -}
-9ef65875e0ab530b49ae6a17d01c7bf9
+2461f8ad910b6687b8d6c8d01c8dbb9c
   $tc'Camera1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-6b09a3b524c104a0d9a1b7c3db881568
+31e55504f61f2c3fa4c708140e52d7b6
   $tc'Camera2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Camera.$tc'Camera3) -}
-b14f943fa8c420c23cf2202530c2afe4
+e3d07f0385c556561b50b23de6d56878
   $tc'Camera3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Camera"#) -}
-44035924d51fc49197290c944ce4433e
+1343440ba80c065fbe177511ab8703e6
   $tcCamera :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   17422780130554357040##
-                   2352440353931876182##
+                   3301480477716616667##
+                   14569898739681856457##
                    StreetRun.Camera.$trModule
                    StreetRun.Camera.$tcCamera1
                    0#
                    GHC.Types.krep$*) -}
-d5a45eb028beaed40e6586c99ab808b8
+8a4075547c8504d820406a8e6ac652b8
   $tcCamera1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Camera.$tcCamera2) -}
-68a2dfdabe82419a248429a1d8257df3
+8ea26ee7162091594929e2a035cd16d8
   $tcCamera2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Camera"#) -}
-6ffb113249b943b6c83f57f9aff5ff08
+8839ae19cf5b31af27a4f64d077840b7
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Camera.$trModule3
                    StreetRun.Camera.$trModule1) -}
-6f22f4b54bdb1f70cc6763863ab21229
+ad12e1b1106b486ed810dc403841cac1
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Camera.$trModule2) -}
-bfcb4b9408f4b93e41093ef397b49631
+2bea838daf9577df33f310e12eff3904
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Camera"#) -}
-5db25512267cf59248a5006c49404cc3
+edcd7233958b9100b69c95014feb0f3f
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Camera.$trModule4) -}
-3dba2c4421653d2cfbe8d183b2f8119e
+b0d54551a66c36a6d5d1e2adea1f98bd
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-8d2685c9b99eefb357532cb6ea32289d
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+698e64914af348813219d43ee38ba416
   $w$c== ::
     GHC.Prim.Float#
     -> GHC.Prim.Float#
@@ -334,7 +332,7 @@ bfcb4b9408f4b93e41093ef397b49631
                              -> GHC.Prim.tagToEnum#
                                   @ GHC.Types.Bool
                                   (GHC.Prim.eqFloat# x1 y1) } } } } } } } } }) -}
-602b18950a8295d2eff2931904269e0b
+c6c27bfca6d026effe3fda40f3fb8113
   $w$cshowsPrec ::
     GHC.Prim.Int#
     -> Linear.V2.V2 GHC.Types.Float
@@ -402,108 +400,37 @@ bfcb4b9408f4b93e41093ef397b49631
                                                 @ GHC.Types.Char
                                                 GHC.Show.$fShow(,)2
                                                 x)))))))) }) -}
-e63f2c0e3605eb590f74c4e2239e7573
-  $wlerpCamera ::
-    GHC.Types.Float
-    -> StreetRun.Camera.Camera
-    -> StreetRun.Camera.Camera
-    -> (# Linear.V2.V2 GHC.Types.Float, Linear.V2.V2 GHC.Types.Float #)
-  {- Arity: 3, HasNoCafRefs,
-     Strictness: <L,U(U)><L,U(1*U(U(U),U(U)),1*U(U(U),U(U)))><L,U(1*U(U(U),U(U)),1*U(U(U),U(U)))>,
-     Inline: [2],
-     Unfolding: (\ (w :: GHC.Types.Float)
-                   (w1 :: StreetRun.Camera.Camera)
-                   (w2 :: StreetRun.Camera.Camera) ->
-                 (# case w1 of wild { StreetRun.Camera.Camera ds ds1 ->
-                    case ds of wild1 { Linear.V2.V2 a1 b ->
-                    case a1 of wild2 { GHC.Types.F# y ->
-                    case b of wild3 { GHC.Types.F# y1 ->
-                    case w of wild4 { GHC.Types.F# x ->
-                    case w2 of wild5 { StreetRun.Camera.Camera ds2 ds3 ->
-                    case ds2 of wild6 { Linear.V2.V2 a4 b3 ->
-                    case a4 of wild7 { GHC.Types.F# y2 ->
-                    case b3 of wild8 { GHC.Types.F# y3 ->
-                    let {
-                      ds4 :: GHC.Prim.Float# = GHC.Prim.minusFloat# 1.0# x
-                    } in
-                    Linear.V2.V2
-                      @ GHC.Types.Float
-                      (GHC.Types.F#
-                         (GHC.Prim.plusFloat#
-                            (GHC.Prim.timesFloat# x y)
-                            (GHC.Prim.timesFloat# ds4 y2)))
-                      (GHC.Types.F#
-                         (GHC.Prim.plusFloat#
-                            (GHC.Prim.timesFloat# x y1)
-                            (GHC.Prim.timesFloat# ds4 y3))) } } } } } } } } },
-                    case w1 of wild { StreetRun.Camera.Camera ds ds1 ->
-                    case ds1 of wild1 { Linear.V2.V2 a1 b ->
-                    case a1 of wild2 { GHC.Types.F# y ->
-                    case b of wild3 { GHC.Types.F# y1 ->
-                    case w of wild4 { GHC.Types.F# x ->
-                    case w2 of wild5 { StreetRun.Camera.Camera ds2 ds3 ->
-                    case ds3 of wild6 { Linear.V2.V2 a4 b3 ->
-                    case a4 of wild7 { GHC.Types.F# y2 ->
-                    case b3 of wild8 { GHC.Types.F# y3 ->
-                    let {
-                      ds4 :: GHC.Prim.Float# = GHC.Prim.minusFloat# 1.0# x
-                    } in
-                    Linear.V2.V2
-                      @ GHC.Types.Float
-                      (GHC.Types.F#
-                         (GHC.Prim.plusFloat#
-                            (GHC.Prim.timesFloat# x y)
-                            (GHC.Prim.timesFloat# ds4 y2)))
-                      (GHC.Types.F#
-                         (GHC.Prim.plusFloat#
-                            (GHC.Prim.timesFloat# x y1)
-                            (GHC.Prim.timesFloat# ds4 y3))) } } } } } } } } } #)) -}
-2825edad27438647c3fbdedec7f77477
+b5968deab63503d8481a66bb851490e6
   data Camera
     = Camera {camOrigin :: Linear.V2.V2 GHC.Types.Float,
               camZoom :: Linear.V2.V2 GHC.Types.Float}
-375914fddf296f3e4e56a03285ce9522
+d5f1066db3772b85d485fcdd4aefe8c0
   initCamera :: StreetRun.Camera.Camera
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (StreetRun.Camera.Camera
                    StreetRun.Camera.initCamera3
                    StreetRun.Camera.initCamera1) -}
-12a38708d1b32bbef553dd920af8f3d0
+765a692c3b054739e271bbc23ee841c7
   initCamera1 :: Linear.V2.V2 GHC.Types.Float
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (Linear.V2.V2
                    @ GHC.Types.Float
                    StreetRun.Camera.initCamera2
                    StreetRun.Camera.initCamera2) -}
-0b70f28a7cebe3c3bf0b35ecc1331ef3
+5b82108d693a07825dad6d0a4a7d1f46
   initCamera2 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 1.0#) -}
-3ff652c13733e467cc61ba88d880e2ee
+255f7e8f4a0621cb3aafdd5d6ed4b229
   initCamera3 :: Linear.V2.V2 GHC.Types.Float
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (Linear.V2.V2
                    @ GHC.Types.Float
                    StreetRun.Camera.initCamera4
                    StreetRun.Camera.initCamera4) -}
-d31ccb93c9807b4f8d332d1c1f01e587
+e8384cd242e572d2f1971f782ab493a1
   initCamera4 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 640.0#) -}
-71a7d17bf6ea03383a228b9217071fda
-  lerpCamera ::
-    GHC.Types.Float
-    -> StreetRun.Camera.Camera
-    -> StreetRun.Camera.Camera
-    -> StreetRun.Camera.Camera
-  {- Arity: 3, HasNoCafRefs,
-     Strictness: <L,U(U)><L,U(U(U(U),U(U)),U(U(U),U(U)))><L,U(U(U(U),U(U)),U(U(U),U(U)))>m,
-     Inline: [2],
-     Unfolding: InlineRule (3, True, False)
-                (\ (w :: GHC.Types.Float)
-                   (w1 :: StreetRun.Camera.Camera)
-                   (w2 :: StreetRun.Camera.Camera) ->
-                 case StreetRun.Camera.$wlerpCamera w w1 w2 of ww { (#,#) ww1 ww2 ->
-                 StreetRun.Camera.Camera ww1 ww2 }) -}
-b15a8ffc08aeb0da07f783749d42a97a
+c1d3998015c783bdb0ee398ffa38a68b
   moveOrigin ::
     Linear.V2.V2 GHC.Types.Float -> Linear.V2.V2 GHC.Types.Float
   {- Arity: 1, HasNoCafRefs, Strictness: <S(SS),1*U(U(U),U(U))>m,
@@ -516,17 +443,17 @@ b15a8ffc08aeb0da07f783749d42a97a
                    @ GHC.Types.Float
                    (GHC.Types.F# (GHC.Prim.minusFloat# 640.0# y1))
                    (GHC.Types.F# (GHC.Prim.minusFloat# 640.0# y2)) } } }) -}
-d749dc9cfe9526b9f126b3b3fbc28746
+2f4c85ca139fa00c9f27f9a06943bd04
   screenHeight :: GHC.Types.Float
   {- Strictness: m, Unfolding: (StreetRun.Camera.screenWidth) -}
-2a10fb626633c8c65637ada046def9a1
+bfbff365d903fb8d57bf6a7a5b4b9ace
   screenV2 :: Linear.V2.V2 GHC.Types.Float
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (Linear.V2.V2
                    @ GHC.Types.Float
                    StreetRun.Camera.screenWidth
                    StreetRun.Camera.screenWidth) -}
-89b4095375b03e30a566a665788c5fbb
+22d3a0c58461b593a28841fae6538108
   screenWidth :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.F# 1280.0#) -}

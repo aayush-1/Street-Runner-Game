@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 07:49:00.127299441 UTC
+2019-04-26 14:29:07.483980357 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Audio 8064
-  interface hash: 1eab02d2e08bcd9349843bf922d6e74a
-  ABI hash: b53cafefd6fbfed602e3f905cf148dbc
-  export-list hash: ea2a64f8a738ac11df84a60ad5ddd8a8
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Audio 8064
+  interface hash: 5fc84a5e29d316699eab625ef724eced
+  ABI hash: 91f095936fecbb9f076d29d5950c869b
+  export-list hash: 778206d5370172e5e0ea84450aec5c45
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -33,8 +33,8 @@ exports:
   StreetRun.Audio.stopGameMusic'
   StreetRun.Audio.Audio{StreetRun.Audio.lowerGameMusic StreetRun.Audio.playBirdSfx StreetRun.Audio.playDeathSfx StreetRun.Audio.playDuckSfx StreetRun.Audio.playGameMusic StreetRun.Audio.playHurtSfx StreetRun.Audio.playJumpSfx StreetRun.Audio.playLavaSfx StreetRun.Audio.playPointSfx StreetRun.Audio.playQuakeSfx StreetRun.Audio.playRecoverSfx StreetRun.Audio.playRockSfx StreetRun.Audio.playStockSfx StreetRun.Audio.raiseGameMusic StreetRun.Audio.stopGameMusic}
 module dependencies: StreetRun.Assets StreetRun.Assets_1
-                     StreetRun.Assets_2 StreetRun.Camera StreetRun.Config StreetRun.Font
-                     StreetRun.Font_functions StreetRun.Frame StreetRun.Hurdle
+                     StreetRun.Assets_2 StreetRun.CFL StreetRun.Camera StreetRun.Config
+                     StreetRun.Font StreetRun.Font_functions StreetRun.Hurdle
                      StreetRun.Hurdle_1 StreetRun.Input StreetRun.Physics
                      StreetRun.Runner StreetRun.Runner_func_1 StreetRun.Runner_func_2
                      StreetRun.Scenario StreetRun.Snag StreetRun.Step StreetRun.Types
@@ -162,88 +162,88 @@ import  -/  exceptions-0.10.1:Control.Monad.Catch d963cd0a953cb33941cbb2c475dcba
 import  -/  mtl-2.2.2:Control.Monad.Reader d5c3a33f1c95bb71f4ae02f87a7048ff
 import  -/  mtl-2.2.2:Control.Monad.Reader.Class 56d676c7504f5007ee5b66906716abcc
 import  -/  safe-exceptions-0.1.7.0:Control.Exception.Safe 17ab706d389356fc1b759977e8d17a1a
-import  -/  sdl2-2.4.1.0:SDL.Exception 5c32227f82a1360d86c7d3790a8a205d
-import  -/  sdl2-mixer-1.1.0:SDL.Mixer ab60a8550598269def875bc1a7207b35
-import  -/  StreetRun.Assets 8f2913451ac82f2b7c6c2615bf793ef1
-  $sel:rBirdSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
-  $sel:rDeathSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
-  $sel:rDuckSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
-  $sel:rGameMusic:Resources 506eb6c1c8a755fdf82b61cc10157e07
-  $sel:rHurtSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
-  $sel:rJumpSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
-  $sel:rLavaSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
-  $sel:rPointSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
-  $sel:rQuakeSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
-  $sel:rRecoverSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
-  $sel:rRockSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
-  $sel:rStockSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
-  Resources 506eb6c1c8a755fdf82b61cc10157e07
-import  -/  StreetRun.Config d537956b220fa6e917381a250f3474d9
-  exports: 67f65ea021d4fb0cf4ae01501b50bd2f
-  $sel:cResources:Config 9c151486d5b66b82caae303edc04126a
-  Config 9c151486d5b66b82caae303edc04126a
-705d46388a966a978f35825c0a5d42ea
+import  -/  sdl2-2.4.1.0:SDL.Exception 0cafb15a09a5b6eb2db161bf512b3433
+import  -/  sdl2-mixer-1.1.0:SDL.Mixer f3936c6b9c7c99434739f7b77f9abfbf
+import  -/  StreetRun.Assets 2819f37df7c59b80fb7f3a73042c7f01
+  $sel:rBirdSfx:Resources 022c06076a805b822172c29a76100922
+  $sel:rDeathSfx:Resources 022c06076a805b822172c29a76100922
+  $sel:rDuckSfx:Resources 022c06076a805b822172c29a76100922
+  $sel:rGameMusic:Resources 022c06076a805b822172c29a76100922
+  $sel:rHurtSfx:Resources 022c06076a805b822172c29a76100922
+  $sel:rJumpSfx:Resources 022c06076a805b822172c29a76100922
+  $sel:rLavaSfx:Resources 022c06076a805b822172c29a76100922
+  $sel:rPointSfx:Resources 022c06076a805b822172c29a76100922
+  $sel:rQuakeSfx:Resources 022c06076a805b822172c29a76100922
+  $sel:rRecoverSfx:Resources 022c06076a805b822172c29a76100922
+  $sel:rRockSfx:Resources 022c06076a805b822172c29a76100922
+  $sel:rStockSfx:Resources 022c06076a805b822172c29a76100922
+  Resources 022c06076a805b822172c29a76100922
+import  -/  StreetRun.Config b599dd5c3a0bd39090f183027c337ded
+  exports: a84af2eb49502a4ece92fede76199115
+  $sel:cResources:Config 74b4b3d61d611d8fd0371c0c604c9c1b
+  Config 74b4b3d61d611d8fd0371c0c604c9c1b
+c4a4f7c4687b0a692affab9f4c543a03
   $tc'C:Audio :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   6168690251885816687##
-                   14436187386635990797##
+                   15053561534424250479##
+                   14612202309072332711##
                    StreetRun.Audio.$trModule
                    StreetRun.Audio.$tc'C:Audio2
                    1#
                    StreetRun.Audio.$tc'C:Audio1) -}
-227c2f3809f0b8740e0ec8ef5c21a901
+76ba120792c1048d073c83a084cb3bd3
   $tc'C:Audio1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-eb187a417e42faf14e7418bee685ad23
+5889207b8b4ef1b21390a37886c11678
   $tc'C:Audio2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Audio.$tc'C:Audio3) -}
-9103893d1a1419a1508e1b3ca59f963f
+cea69b24560b3e79b3d38c4641a454d4
   $tc'C:Audio3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'C:Audio"#) -}
-f394b237cbaa54de9438b1dd39a948f8
+0070b937d23c89ff710bcbd45709da86
   $tcAudio :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   6423192816237418022##
-                   14299872405363381075##
+                   2893821966584569723##
+                   4487972928356582879##
                    StreetRun.Audio.$trModule
                    StreetRun.Audio.$tcAudio2
                    0#
                    StreetRun.Audio.$tcAudio1) -}
-0976341afc830421dcaf2e8a9c9e226a
+ed62769f57e51142b737244a5a07f0ad
   $tcAudio1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-3f61f3436d98d562232856fb002bbf89
+7093b4f7d991fbf42eae356e03d48ce5
   $tcAudio2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Audio.$tcAudio3) -}
-149ff7d6e7a00bdc6c44a44a9261bd2c
+84b3f58756fa144172f4c424f93f8f2a
   $tcAudio3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Audio"#) -}
-6349fc26238cbee91297c346714010a5
+988c4dbae6eaa647b1f3e3b0a338e2d7
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Audio.$trModule3
                    StreetRun.Audio.$trModule1) -}
-95581c37e8b91f90252ea2e824f55435
+eda8d75690939ee676ca84bd60d5255b
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Audio.$trModule2) -}
-2ed4dadedc9f4b72b374145a71b2fa13
+aa6bce53729f2a1ed919941d8e9efd3b
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Audio"#) -}
-8a1b0faa15d221a38161831476e77931
+c498ee49cbbe93bbea26f04ad9d373c2
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Audio.$trModule4) -}
-ad7babf4a8e02bc30fd81de74d1742bd
+eb1db1a2de2ee80b0b54ca7117e3e02f
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-4eb7fdf153b36be89d513fb81d33cf90
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+82ed298477003915b93cb285cab2ff42
   $wplayChunk ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m,
@@ -315,7 +315,7 @@ ad7babf4a8e02bc30fd81de74d1742bd
                            @ ()
                            SDL.Exception.$fExceptionSDLException
                            e1 } } })) -}
-76252585ccf0c97723a91369309d6b31
+8568abc9d059f2c8cebcd1e4ee4a0ac9
   $wplayGameMusic' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a. (StreetRun.Config.Config -> a) -> m a)
@@ -344,7 +344,7 @@ ad7babf4a8e02bc30fd81de74d1742bd
                         `cast`
                       (Sym (Foreign.C.Types.N:CInt[0]) ; Sym (SDL.Mixer.N:Times[0]))
                       w2 } })) -}
-c236b79048ac247852d9a2f1fb556e72
+4ba14999075ad68ce5a755a8d89bcb9d
   class GHC.Base.Monad m => Audio (m :: * -> *) where
     playGameMusic :: m ()
     stopGameMusic :: m ()
@@ -365,7 +365,7 @@ c236b79048ac247852d9a2f1fb556e72
                 playPointSfx, playBirdSfx, playHurtSfx, playLavaSfx, playRockSfx,
                 playQuakeSfx, playDeathSfx, playRecoverSfx, playStockSfx,
                 lowerGameMusic, raiseGameMusic #-}
-d9a5b148fe0a6daf5c147a475f3919fc
+daba87d5a2dc971bab05c59e42936cc3
   lowerGameMusic' :: Control.Monad.IO.Class.MonadIO m => m ()
   {- Arity: 1, HasNoCafRefs,
      Strictness: <S(S(S(S(LC(C(S)))LLLLL)LLLL)L),1*U(1*U(1*U(1*U(A,1*C1(C1(U))),A,A,A,A,A),A,A,A,A),1*C1(U))>,
@@ -380,10 +380,10 @@ d9a5b148fe0a6daf5c147a475f3919fc
                    ww18
                    ww2
                    StreetRun.Audio.lowerGameMusic'1 } } } }) -}
-850c4a2100f00f9ddc424f6ee2047f52
+d18810f856df865ddca08705c44022a5
   lowerGameMusic'1 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 16#) -}
-168a1f877ce9f6612a571d494acd8098
+7e069ed01a38bdb4281d54e1f9df9bca
   playBirdSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -405,7 +405,7 @@ d9a5b148fe0a6daf5c147a475f3919fc
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
                    StreetRun.Assets.$sel:rBirdSfx:Resources) -}
-2eba77590077fb1bf56987a254967c37
+157f44da59f62494e95a5616734dd8f6
   playChunk ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -424,7 +424,7 @@ d9a5b148fe0a6daf5c147a475f3919fc
                    (w4 :: StreetRun.Assets.Resources -> SDL.Mixer.Chunk) ->
                  case w3 of ww { Control.Monad.Catch.C:MonadCatch ww1 ww2 ->
                  StreetRun.Audio.$wplayChunk @ m w w1 ww1 ww2 w4 }) -}
-bb179bed625a4126574c88775dba4f53
+4c4f619531fb7e08e0dbbf77b0ff93b2
   playDeathSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -446,7 +446,7 @@ bb179bed625a4126574c88775dba4f53
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
                    StreetRun.Assets.$sel:rDeathSfx:Resources) -}
-e33f01c7494dbf636f163fe1a37cd968
+4e039969062d9046a0c8c19bc28c9c4e
   playDuckSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -468,7 +468,7 @@ e33f01c7494dbf636f163fe1a37cd968
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
                    StreetRun.Assets.$sel:rDuckSfx:Resources) -}
-62518f2a0d3fefe797a8ae7006c3d354
+62a1537bc4c208e8b0cff45165d7de31
   playGameMusic' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m) =>
@@ -484,7 +484,7 @@ e33f01c7494dbf636f163fe1a37cd968
                  case w of ww { Control.Monad.Reader.Class.C:MonadReader ww1 ww2 ww3 ww4 ->
                  case ww1 of ww5 { GHC.Base.C:Monad ww6 ww7 ww8 ww9 ww10 ->
                  StreetRun.Audio.$wplayGameMusic' @ m ww7 ww4 w1 } }) -}
-822300eb38348bbcbb9543b26e6dd246
+2bbd22afa1b913543a88dfb375bdfb1c
   playGameMusic'1 :: StreetRun.Config.Config -> SDL.Mixer.Music
   {- Arity: 1, HasNoCafRefs,
      Strictness: <S(LLS(LLLLLLLLSLLLLLLLLLLLLLLLLLLL)),1*U(A,A,1*U(A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A))>m,
@@ -493,7 +493,7 @@ e33f01c7494dbf636f163fe1a37cd968
                  case x of wild { StreetRun.Config.Config ds1 ds2 ds3 ->
                  case ds3 of wild1 { StreetRun.Assets.Resources ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ds29 ds30 ds31 ->
                  ds12 } }) -}
-ebcfe234cd77ae2d3db6aaed71a43634
+973528611917508ea0126fe02e17fbda
   playHurtSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -515,7 +515,7 @@ ebcfe234cd77ae2d3db6aaed71a43634
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
                    StreetRun.Assets.$sel:rHurtSfx:Resources) -}
-c7ce5dbc2eaabe123d5686e6863f328f
+f6a5f5971c2824dee65a60bd7a76a48b
   playJumpSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -537,7 +537,7 @@ c7ce5dbc2eaabe123d5686e6863f328f
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
                    StreetRun.Assets.$sel:rJumpSfx:Resources) -}
-c791e66a1412e5be3c7ccd4c28838822
+100c5525d27f840af23e99bc30d6af92
   playLavaSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -559,7 +559,7 @@ c791e66a1412e5be3c7ccd4c28838822
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
                    StreetRun.Assets.$sel:rLavaSfx:Resources) -}
-f0ee72adac57448714c1c0730d49c7d2
+8737a356c2a322d133e511d18aff6685
   playPointSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -581,7 +581,7 @@ f0ee72adac57448714c1c0730d49c7d2
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
                    StreetRun.Assets.$sel:rPointSfx:Resources) -}
-3e4b51a88d3d6b9d55b3396a0620698a
+3e8eb650c1d864a910e5d365a25ecf43
   playQuakeSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -603,7 +603,7 @@ f0ee72adac57448714c1c0730d49c7d2
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
                    StreetRun.Assets.$sel:rQuakeSfx:Resources) -}
-b0f206cb62e25b5f51f661e01896554f
+18458e012f454cbe594fe1596645f6b4
   playRecoverSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -625,7 +625,7 @@ b0f206cb62e25b5f51f661e01896554f
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
                    StreetRun.Assets.$sel:rRecoverSfx:Resources) -}
-c0aedcf876696735448b7bcadd79b2be
+4a36ecfabdd92dce821bdf2e4df661bb
   playRockSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -647,7 +647,7 @@ c0aedcf876696735448b7bcadd79b2be
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
                    StreetRun.Assets.$sel:rRockSfx:Resources) -}
-75e83b9834e3b62d64e4beb71ee35cb0
+6f72212f1faa5cf346f32b74e7392284
   playStockSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -669,7 +669,7 @@ c0aedcf876696735448b7bcadd79b2be
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
                    StreetRun.Assets.$sel:rStockSfx:Resources) -}
-ec1ed41672fd5490732fbe9b4a984927
+6b339bb238f60f3e7d8b8fcacf583277
   raiseGameMusic' :: Control.Monad.IO.Class.MonadIO m => m ()
   {- Arity: 1, HasNoCafRefs,
      Strictness: <S(S(S(S(LC(C(S)))LLLLL)LLLL)L),1*U(1*U(1*U(1*U(A,1*C1(C1(U))),A,A,A,A,A),A,A,A,A),1*C1(U))>,
@@ -684,10 +684,10 @@ ec1ed41672fd5490732fbe9b4a984927
                    ww18
                    ww2
                    StreetRun.Audio.raiseGameMusic'1 } } } }) -}
-ffecb2d9e49bd70a3fdf6b01fba73c17
+692c7ac776869b992980888a456bb621
   raiseGameMusic'1 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 128#) -}
-d1372267d32d6a322df900cb1131e999
+c32bbc998a0df0dd01f3f0fc076cb97f
   stopGameMusic' :: Control.Monad.IO.Class.MonadIO m => m ()
   {- Arity: 1, HasNoCafRefs,
      Strictness: <S(S(S(S(LC(C(S)))LLLLL)LLLL)L),1*U(1*U(1*U(1*U(A,1*C1(C1(U))),A,A,A,A,A),A,A,A,A),1*C1(U))>,

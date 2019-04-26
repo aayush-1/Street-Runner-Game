@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:11:47.012263806 UTC
+2019-04-26 14:29:04.99995715 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Hurdle_1 8064
-  interface hash: 4dbe56f5654b0809aa78dbcd68317509
-  ABI hash: 1a485025fa7e082b8373c58e155e3bf6
-  export-list hash: d905238960a6001c32ab0ea30381a713
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Hurdle_1 8064
+  interface hash: 05de59411f307692266d7fddf3e206f5
+  ABI hash: c9e76027407717b022743d66c2f85407
+  export-list hash: be3dc5eb0f18c89559dce1b425bb13f5
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -122,7 +122,7 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
                          vector-0.12.0.2:Data.Vector.Storable
                          vector-0.12.0.2:Data.Vector.Unboxed
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
-import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  animate-0.7.0:Animate cf529f033c38156be2990062be8eb570
 import  -/  base-4.12.0.0:Data.Foldable 5f70351366640f007be66681d2212df8
 import  -/  base-4.12.0.0:Data.Tuple c719fc29608fe81c10bee9a1bf1e05ff
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
@@ -131,67 +131,67 @@ import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
 import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
-import  -/  linear-1.20.8:Linear c66c613217f57f0236b62caf498b629a
+import  -/  linear-1.20.8:Linear 04ff2913b766e124dece4465ec5ad3d4
 import  -/  random-1.1:System.Random a2913fef910fa7846b8be540f8dcdaf5
-import  -/  StreetRun.Hurdle c4bf1734d0fc0cd048dae74996b10d52
-  exports: 5d1d0f5747b642287dbb935bf038e6f0
-  $sel:osDistance:ObstacleState 956d5d1777524c8d52fcbf616061f555
-  $sel:osInfo:ObstacleState 956d5d1777524c8d52fcbf616061f555
-  ObstacleInfo'Bird 043b773440feaba5415d460b95ac718f
-  ObstacleInfo'Lava 3e11dfdbab0e1a1a16fc21fcb1c3b270
-  ObstacleInfo'Rock 74fbb42bda3ea3c6d685ef9e572d6ad8
-  ObstacleState 9916ca027838ef6d0d915aa8db168da6
-  ObstacleState 956d5d1777524c8d52fcbf616061f555
-  ObstacleTag ba95154007acc7d07251b5e5be0f759f
-  ObstacleTag'Bird 5644ed8de2eed92d4d781250780e5e78
-  ObstacleTag'Lava a314904c85959652dd79c56cae29d29f
-  ObstacleTag'Rock a0d83126da356216e4d1c1da517004df
-  stepObstacles 78ea6140f7b131a8e3f9cc243dc48c3f
-import  -/  StreetRun.Physics bcf598c857c36dd82527ead0c17a7064
-  exports: 12b72d4e6f732b1793039514751aff72
-  arenaWidth 6c518472c98ac834846ce41285c17220
-import  -/  StreetRun.Snag 435128ff0e3817e1b1768f09cf894e59
-  exports: 7f7b3656c97eba619795923512f79f2a
-  BirdKey'Idle f6a2490f7d0b93bb0443979bfb806589
-  LavaKey'Idle d3401e7846efc3fd77a7ea56aa6f5b61
-  RockKey'Idle e7670ead23e05c401616d60646c1f4af
-import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
-  exports: 687926be2250d898b68652280e784933
-  Distance c2340071e208afde2c97a480402508ac
-  Percent 9bc35ebe469aab1ad3d8edfd9fd30da6
-b8411a8a4b2b3697bf67c6950ccc4cd4
+import  -/  StreetRun.Hurdle 38a26fa541ce5ced9eea0f70d3aa69b6
+  exports: ccac325c207e939d1f0d01c3da87ee30
+  $sel:osDistance:ObstacleState 95c2800d9f00728984a40ce71c8f5ddb
+  $sel:osInfo:ObstacleState 95c2800d9f00728984a40ce71c8f5ddb
+  ObstacleInfo'Bird ccccae1530dc8bd901d7158bbcf74e40
+  ObstacleInfo'Lava 4e5c5aba543882a230926828de4a48aa
+  ObstacleInfo'Rock d2f0dba6425cf0a273123b80bb6c9499
+  ObstacleState f35d4f34b2a1f4b6dadbc707870d147a
+  ObstacleState 95c2800d9f00728984a40ce71c8f5ddb
+  ObstacleTag 87a5d4ad614d614ae5f2b575cc03f725
+  ObstacleTag'Bird 70a1f6d4c3b86d544572eecd826a4a64
+  ObstacleTag'Lava ed433d5b396f1137814a4380606c538e
+  ObstacleTag'Rock 770d2ca50a94dd8dea509e443e13376e
+  stepObstacles 178c3a1a8aa9d61ae951021edab10adc
+import  -/  StreetRun.Physics 913327b3ebcb9b45610bccf968b96819
+  exports: 9d3a92dda1fb515a473dcd811827989d
+  arenaWidth 720fa9caa92593fe12c8c368a7042a57
+import  -/  StreetRun.Snag 91cafec8e0a3bc8aded7f9bc89567610
+  exports: c07ed761210af14f8b0800e144209504
+  BirdKey'Idle 2abdde2c198427c8bb5c35ac31f3e153
+  LavaKey'Idle 23a176317b26b645346237a49cfeb5de
+  RockKey'Idle 54dfdba2abbd029caf142c814365a8e4
+import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
+  exports: 68eec0a854069d6ebcc9ba499b980fc6
+  Distance b4174e484e1fd82b32e71de2fbcef362
+  Percent ba7abb7eeed8b328d8b72349c7c4fef0
+d7a5565d7e3ebd0c4542dcd3f7b56d8c
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Hurdle_1.$trModule3
                    StreetRun.Hurdle_1.$trModule1) -}
-e41d754338a99389799a9cc65ac92a73
+c4493eebd91a34a6eac2b058ae14307f
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Hurdle_1.$trModule2) -}
-c7f65526ee7933bf49d6600b47eb2f53
+b1438fa9a239ee8a677bd26932738d65
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Hurdle_1"#) -}
-1214d308afca301a719700c84bfd2c87
+90e942701c0e44b313f9680cbc473865
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Hurdle_1.$trModule4) -}
-80f37a49d367bac10051a5b977484d62
+ceb40d807faa5b4e02aa0c135d5891c4
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-7352e6d1e4ab6ffbb0f6152ac898d5b8
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+7bac4e064467f07ac287a10fecedf014
   $wgo ::
     [StreetRun.Hurdle.ObstacleState]
     -> (# [StreetRun.Hurdle.ObstacleState],
           [StreetRun.Hurdle.ObstacleState] #)
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>, Inline: [2] -}
-ad7a57d1e61dbf17e72f88b8574b0bcf
+3d346994c89ffa95b2e2aea6039fc2fe
   $wgo1 ::
     [StreetRun.Hurdle.ObstacleState]
     -> GHC.Prim.Float# -> GHC.Prim.Float#
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,U>, Inline: [2] -}
-ce721caf465ef2ee2d480348795a7e68
+a3a3f62b8a6f3b6f8080d5cd244da66f
   $witerateObstacles ::
     [(GHC.Types.Int, StreetRun.Hurdle.ObstacleTag)]
     -> StreetRun.Types.Percent
@@ -314,7 +314,7 @@ ce721caf465ef2ee2d480348795a7e68
                               @ StreetRun.Hurdle.ObstacleTag
                               @ StreetRun.Hurdle.ObstacleState
                               a1) } #)) -}
-4869ef99241b4b214e1e56630dbb3caf
+a1d1442a50876f0f0ad01b6c80a9f312
   canAddObstacle :: StreetRun.Types.Distance -> GHC.Types.Bool
   {- Arity: 1, Strictness: <S(S),1*U(U)>,
      Unfolding: InlineRule (1, True, False)
@@ -328,14 +328,14 @@ ce721caf465ef2ee2d480348795a7e68
                  GHC.Prim.tagToEnum#
                    @ GHC.Types.Bool
                    (GHC.Prim.ltFloat# x y) } }) -}
-e0d3a759bff284283694d1f0a11f38b3
+affdc9689f9860b546d88bc37b919af0
   canAddObstacle1 :: StreetRun.Types.Distance
   {- Unfolding: (case GHC.Float.$w$ctoRational1
                         1280.0# of ww2 { (#,#) ww3 ww4 ->
                  (GHC.Float.rationalToFloat ww3 ww4)
                    `cast`
                  (Sym (StreetRun.Types.N:Distance[0])) }) -}
-9935d851433a1593f78339f11b402b5f
+4fafebfc116744e6f440ad43e6ec3d18
   iterateObstacles ::
     [(GHC.Types.Int, StreetRun.Hurdle.ObstacleTag)]
     -> StreetRun.Types.Percent
@@ -353,13 +353,13 @@ e0d3a759bff284283694d1f0a11f38b3
                         w1
                         w2 of ww { (#,,,#) ww1 ww2 ww3 ww4 ->
                  (ww1, ww2, ww3, ww4) }) -}
-83781dde02faeb258fa5a7e0c0aeda84
+7ffaac1c6724b39827b97c0cd3779edf
   iterateObstacles1 :: GHC.Types.Float
   {- Unfolding: (case GHC.Float.$w$ctoRational1
                         1280.0# of ww2 { (#,#) ww3 ww4 ->
                  case GHC.Float.rationalToFloat ww3 ww4 of wild { GHC.Types.F# x ->
                  GHC.Types.F# (GHC.Prim.minusFloat# x 1.0#) } }) -}
-f62b1195d3262613fe1fe0771694b48d
+428982a00df600543f7d432d7faecc7e
   lastObstacleDistance ::
     [StreetRun.Hurdle.ObstacleState] -> StreetRun.Types.Distance
   {- Arity: 1, Strictness: <S,1*U>m, Inline: [2],
@@ -370,7 +370,7 @@ f62b1195d3262613fe1fe0771694b48d
                  (GHC.Types.F# ww2)
                    `cast`
                  (Sym (StreetRun.Types.N:Distance[0])) } }) -}
-f74abf69afdc197e201323a0ddb9f95b
+4b294d07cdc18238bfd134e93b1d2608
   placeObstacle ::
     (GHC.Types.Int, StreetRun.Hurdle.ObstacleTag)
     -> StreetRun.Hurdle.ObstacleState
@@ -398,12 +398,12 @@ f74abf69afdc197e201323a0ddb9f95b
                     (GHC.Types.F# (GHC.Prim.plusFloat# x1 y))
                       `cast`
                     (Sym (StreetRun.Types.N:Distance[0])) } } } }) }) -}
-a69a9dee1b36fab57364665bd56d7c19
+befdb611b9deb39369e1cf21a678391e
   placeObstacle1 :: StreetRun.Hurdle.ObstacleInfo
   {- HasNoCafRefs, Strictness: m3,
      Unfolding: (StreetRun.Hurdle.ObstacleInfo'Bird
                    StreetRun.Hurdle_1.placeObstacle2) -}
-576af88224ed3ce6c35f5a1cf175d6ec
+1f3c8a4fb3662bbc10ac38214bd975c1
   placeObstacle2 ::
     Animate.Position StreetRun.Snag.BirdKey StreetRun.Types.Seconds
   {- HasNoCafRefs, Strictness: m,
@@ -416,15 +416,15 @@ a69a9dee1b36fab57364665bd56d7c19
                      `cast`
                    (Sym (StreetRun.Types.N:Seconds[0]))
                    Animate.Loop'Always) -}
-f1d121d047a4df1efcc742ca70e5cf3a
+c5f438bfdf8a5931338764b1f338177b
   placeObstacle3 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 0.0#) -}
-530f443e118e1f851a6a3872426d2d70
+7bc24b3aa00562f441b0cc9fa84124fc
   placeObstacle4 :: StreetRun.Hurdle.ObstacleInfo
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (StreetRun.Hurdle.ObstacleInfo'Rock
                    StreetRun.Hurdle_1.placeObstacle5) -}
-3f3820c6810451f410c2197147c9ccf7
+8611a4a6a4d980857f2a62d098fc8437
   placeObstacle5 ::
     Animate.Position StreetRun.Snag.RockKey StreetRun.Types.Seconds
   {- HasNoCafRefs, Strictness: m,
@@ -437,12 +437,12 @@ f1d121d047a4df1efcc742ca70e5cf3a
                      `cast`
                    (Sym (StreetRun.Types.N:Seconds[0]))
                    Animate.Loop'Always) -}
-319d48ce28c4d4616df87036c64779eb
+3524bc9cd734092ae7704d81ed2c98d4
   placeObstacle6 :: StreetRun.Hurdle.ObstacleInfo
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (StreetRun.Hurdle.ObstacleInfo'Lava
                    StreetRun.Hurdle_1.placeObstacle7) -}
-956fc3672e8337b203a58a8ac6abf839
+ffd8234883814362288e8cdab06976a3
   placeObstacle7 ::
     Animate.Position StreetRun.Snag.LavaKey StreetRun.Types.Seconds
   {- HasNoCafRefs, Strictness: m,
@@ -455,7 +455,7 @@ f1d121d047a4df1efcc742ca70e5cf3a
                      `cast`
                    (Sym (StreetRun.Types.N:Seconds[0]))
                    Animate.Loop'Always) -}
-c3346dc1bec184430a773242cc8802bd
+c99757663dd84d07b8ce3ab86968df7e
   removeOutOfBoundObstacles ::
     [StreetRun.Hurdle.ObstacleState]
     -> ([StreetRun.Hurdle.ObstacleState],

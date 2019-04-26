@@ -1,12 +1,12 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 06:49:53.914359134 UTC
+2019-04-26 14:29:09.080993447 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Play 8064
-  interface hash: 6d78ad6c19896d32e0405de3fb3ce4c7
-  ABI hash: fde39e25142d663f83ffdc7c478d68a3
-  export-list hash: fddfe503c07894a36563a64c1e4547d3
-  orphan hash: 5000f606aa9a4a5a22b719549a998318
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Play 8064
+  interface hash: a66152727be32fb96d61ce89ac452522
+  ABI hash: 5e1759185369f3a2fb6cea30997a29a1
+  export-list hash: a72549fdc40fd458e99f01bb54a263bc
+  orphan hash: 59e671b01933d5ec97053a9c6b768dc0
   flag hash: e9979ed0ba295133ef8188aa5e696ffc
   opt_hash: 6faf2de08de32d19db9870899d88e59a
   hpc_hash: 93b885adfe0da089cdf634904fd59f71
@@ -22,7 +22,6 @@ exports:
   StreetRun.Play.modifyPlayVars
   StreetRun.Play.playStep'
   StreetRun.Play.tryCollision
-  StreetRun.Play.updateCamera
   StreetRun.Play.updateHiscore
   StreetRun.Play.updateObstacles
   StreetRun.Play.updatePlay
@@ -32,21 +31,20 @@ exports:
   StreetRun.Play.updateSpeed
   StreetRun.Play.updateStocks
   StreetRun.Play.Play{StreetRun.Play.playStep}
-module dependencies: StreetRun.Audio StreetRun.Building
-                     StreetRun.Camera StreetRun.Clock StreetRun.Common StreetRun.Config
-                     StreetRun.Font StreetRun.Font_functions StreetRun.Frame
-                     StreetRun.Grass StreetRun.HUD StreetRun.Hurdle StreetRun.Hurdle_1
-                     StreetRun.Input StreetRun.Load StreetRun.Logger StreetRun.Out
+module dependencies: StreetRun.Assets StreetRun.Assets_1
+                     StreetRun.Assets_2 StreetRun.Audio StreetRun.CFL StreetRun.Camera
+                     StreetRun.Common StreetRun.Config StreetRun.Font
+                     StreetRun.Font_functions StreetRun.HUD StreetRun.Hurdle
+                     StreetRun.Hurdle_1 StreetRun.Input StreetRun.Load StreetRun.Out
                      StreetRun.Out_func StreetRun.Physics StreetRun.Picture
                      StreetRun.Quake StreetRun.Quake_BackStreet StreetRun.Quake_Building
                      StreetRun.Quake_Grass StreetRun.Quake_Street StreetRun.Renderer
                      StreetRun.Renderer_func_1 StreetRun.Renderer_func_2
-                     StreetRun.Resource StreetRun.Runner StreetRun.Runner_func_1
-                     StreetRun.Runner_func_2 StreetRun.SDLInput StreetRun.SDLRenderer
-                     StreetRun.Scenario StreetRun.Scene StreetRun.Sfx StreetRun.Snag
-                     StreetRun.Sound_effects StreetRun.State StreetRun.Step
-                     StreetRun.Tag StreetRun.Tag_func StreetRun.Types StreetRun.Work
-                     StreetRun.Work_func
+                     StreetRun.Runner StreetRun.Runner_func_1 StreetRun.Runner_func_2
+                     StreetRun.SDLLayer StreetRun.Scenario StreetRun.Scene StreetRun.Sfx
+                     StreetRun.Snag StreetRun.Sound_effects StreetRun.State
+                     StreetRun.Step StreetRun.Tag StreetRun.Tag_func StreetRun.Types
+                     StreetRun.Work StreetRun.Work_func
 package dependencies: StateVar-1.1.1.1 adjunctions-4.4
                       aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
                       base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
@@ -164,275 +162,266 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
                          vector-0.12.0.2:Data.Vector.Storable
                          vector-0.12.0.2:Data.Vector.Unboxed
                          vector-0.12.0.2:Data.Vector.Unboxed.Base
-import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  animate-0.7.0:Animate cf529f033c38156be2990062be8eb570
 import  -/  base-4.12.0.0:Control.Monad 728c9526f38369d3ad3bf7824b06e87e
 import  -/  base-4.12.0.0:Data.Foldable 5f70351366640f007be66681d2212df8
 import  -/  base-4.12.0.0:Data.Functor 069b2025a03e32fd228e74a86a58a075
 import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
-import  -/  base-4.12.0.0:GHC.Float ccb68fbeaab348f60d11c8132d51af5d
 import  -/  base-4.12.0.0:GHC.Num c2039f03637c68f47b0bbff4c18ec616
 import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
 import  -/  key-state-0.2.0:KeyState f505d200ccd373546afa68666240df7e
-import  -/  lens-4.17:Control.Lens 531af2b540e6d8d8ce856b6f46207d94
-import  -/  lens-4.17:Control.Lens.Getter 79a8b254c85ab59ff7c11b644140539d
-import  -/  lens-4.17:Control.Lens.Setter 54f8dcf2fae78610733fc46eb59386aa
+import  -/  lens-4.17:Control.Lens 02c38743366e4d3d260b71bddfddea13
+import  -/  lens-4.17:Control.Lens.Getter 18b0523ecb5ed8cc7fa826ffd942da08
+import  -/  lens-4.17:Control.Lens.Setter 7961fe073f63bb6246bee7094d4bca17
 import  -/  mtl-2.2.2:Control.Monad.State 753def63fe8e937dc636f11e5230745a
 import  -/  mtl-2.2.2:Control.Monad.State.Class 94cc1438f3f9a3259fb0a2c56d3d0303
-import  -/  StreetRun.Audio b9aa4bed0b608434003177c2612cb676
-  exports: ea2a64f8a738ac11df84a60ad5ddd8a8
-  Audio c236b79048ac247852d9a2f1fb556e72
-import  -/  StreetRun.Camera 63926371f9a3875764572c53b7b589e9
-  exports: 0bdcb1ea14c3bd8392b27cba46d7b4fa
-  initCamera 375914fddf296f3e4e56a03285ce9522
-  lerpCamera 71a7d17bf6ea03383a228b9217071fda
-import  -/  StreetRun.Clock 89a62033dff72bebbbf4e2a01026fec0
-  exports: b739ca3407504ac5807a7a1833deaf5a
-  Clock 2b40ecab298d4d0a35bbceaf277a7019
-import  -/  StreetRun.Common ae88f6983cc973a550c263b8148feda8
-  exports: 61e4030ffa8e91db9a54c7154cc3d232
-  $sel:cvHiscore:CommonVars 0f93d8dfb992b8c8431fd0dc1f0c54d0
-  $sel:cvQuake:CommonVars 0f93d8dfb992b8c8431fd0dc1f0c54d0
-  HasCommonVars 919b4731c41ba51a047a083b8a4cc9c7
-  commonVars 0c52cc297fe39f10299147a803dcafdf
-import  -/  StreetRun.Frame bcb622c9bc5c55d3184ab58affcc1b5b
-  exports: 061806fa76aa4b4d9f3c174ee83d7084
-  frameDeltaSeconds f3a7e06e5c0381d3a81fcee62fef3367
-import  -/  StreetRun.HUD 67c25875c022a2408906d37d63f0510d
-  exports: e799087feb519c2fa6ec11e1bcb9834b
-  HUD dd3aec2a82456c62e19ed6e64162878f
-  drawControls e034e7f8f1abb198115d4db4b0173355
-  drawHiscore d9f8935f842a5900f6b8471631f6be0c
-  drawScore 1c8e99dad23457c7e3ed64a3e273983c
-import  -/  StreetRun.Hurdle c4bf1734d0fc0cd048dae74996b10d52
-  exports: 5d1d0f5747b642287dbb935bf038e6f0
-  $sel:osDistance:ObstacleState 956d5d1777524c8d52fcbf616061f555
-  $sel:osInfo:ObstacleState 956d5d1777524c8d52fcbf616061f555
-  ObstacleInfo'Bird 043b773440feaba5415d460b95ac718f
-  ObstacleInfo'Lava 3e11dfdbab0e1a1a16fc21fcb1c3b270
-  ObstacleInfo'Rock 74fbb42bda3ea3c6d685ef9e572d6ad8
-  ObstacleState 9916ca027838ef6d0d915aa8db168da6
-  ObstacleState 956d5d1777524c8d52fcbf616061f555
-  ObstacleTag'Bird 5644ed8de2eed92d4d781250780e5e78
-  ObstacleTag'Lava a314904c85959652dd79c56cae29d29f
-  ObstacleTag'Rock a0d83126da356216e4d1c1da517004df
-  birdY 006d0a80770787fcba420fe23122a767
-  lavaY e9a2970f50dae5283007e5ec2785ed76
-  obstacleAabb 4927b8b5bf9fb9ed875cf605760ef221
-  rockY e484768d6a4b702ac2f8a23e6871ffba
-import  -/  StreetRun.Hurdle_1 1a485025fa7e082b8373c58e155e3bf6
-  exports: d905238960a6001c32ab0ea30381a713
-  iterateObstacles 9935d851433a1593f78339f11b402b5f
-import  -/  StreetRun.Input dc1e62404449c4ef4f763046555938b3
-  exports: d5c6fc579c43e57e8ccb72f493e3d8f8
-  $sel:iSpace:Input debdce52acaa37df87e66131243c6c87
-import  -/  StreetRun.Load 16e217d4e0c253fb423fa049ddaea289
-  exports: bb94dee51103db3de49f80223cdee067
-  HasInput a827a1b40b93ca24fd0678aff14a3874
-  getInput 13a07f24b1df74c123ca0a0ea07ffed3
-import  -/  StreetRun.Logger c1184bbc74eb79639ce17c0146cd0cef
-  exports: 81e5ce7f09b7fc1815ee1a743df57e50
-  Logger 4552d82a9988ace40de231328b43d46d
-import  -/  StreetRun.Physics bcf598c857c36dd82527ead0c17a7064
-  exports: 12b72d4e6f732b1793039514751aff72
-  collisionIntersect 6ca72cfc149e4e3d55232b7b95bcbed9
-import  -/  StreetRun.Picture 75395a4c252b8548400a323f40a76527
-  exports: babc26a2152d66639b7a47ea4c5947f4
-  CameraControl 886c953787575a6ab7b91f5818c72b74
-  adjustCamera 0405bbdaa28eb7e85ffe7a2bb472b212
-import  -/  StreetRun.Quake 534ecc20f0d0082a1dfa1bcf26bf997d
-  exports: ad876ccc0312a03ee7f2e4b3c80c4160
-  Quake bf6b24e5831a4dd5418423ad7b277e13
-import  -/  StreetRun.Quake_BackStreet b655aa3f0985b36698a52eb293422bae
-  exports: 74d66d7bc295214aa67aef6b0028b730
-  applyQuakeToBackStreet c1bd6e993ae8b479f687cdc1860f9d05
-import  -/  StreetRun.Quake_Building 62453cda89c32691aab5de3709136976
-  exports: f6a986805fd741a89c48d6a16b4d0f3b
-  applyQuakeToBuilding b444f870717611acd2b11fc64ed0ffd0
-import  -/  StreetRun.Quake_Grass 8acdd0976725ecdc0aae8148de0e5478
-  exports: 5d42752bf51786e0aa2b859a9d6873ad
-  applyQuakeToGrass 20c5b9efd35513ec7473642db58c6c5a
-import  -/  StreetRun.Quake_Street bab4016d1b3ebad7a2b7c1ed285f4529
-  exports: 18446ae1546a0ea859bc4b20f064313b
-  applyQuakeToStreet 4d4353f102c2f0df8996bf65d95a5a94
-import  -/  StreetRun.Renderer eba9a9e4c8700e42ea509a1bf564c30b
-  exports: bdc569cebfaf1503ce959a9192a1814c
-  Renderer 879b383bd7b1ca67a12fca41ecb57c3d
-  backStreetY ccf52ea587c1ecc8ec1796df4caa3d7d
-  buildingY ab86752338eaff4cb8c6e6f15dcd589f
-  drawBackStreet afd2058a76d92d9c9a6477b805d361df
-  drawBird 536bba4d0125de755fef7fb2905c74cb
-  drawBuilding 98862114cd4393daacb62c3c62b741d9
-  drawGrass 300bcb4e7e7a8aebd18c38326db371ef
-  drawLava 08b0ada03caa829715984d9a6e047eea
-  drawRock acf6940e9f14bcac6d79a12941ed3cda
-  drawRunner 8afdaa74ae5b8a9e593b1d176c2c226f
-  drawStreet 9dd4cb0f5ffe5a88ffc9b02a84128af0
-  getBirdAnimations 90711d2506a9e0db0d95df53bbea2c57
-  getBuildingAnimations 86205e2c40d8921f697df5dfcb48e5bd
-  getGrassAnimations 8d341d7c0cf61d24e7dfea5fbd232e91
-  getLavaAnimations 8715f36866a2b04bc79cc1b4c1f9a0af
-  getRockAnimations 65f0ac80dc94cef654eb7683ffdfa5c9
-  getRunnerAnimations 359e34639657617fa9e732d909871035
-  grassY a198ec76154c94d6ad1a9049304ad402
-  streetY db5e1961b93d8c66656c254e30009db8
-import  -/  StreetRun.Renderer_func_1 b2f8a68dbebb4a5575e9c9404df81f49
-  exports: cd995c9f02033435bf3d7151e24e6a3d
-import  -/  StreetRun.Renderer_func_2 4d5a7c4dba8ccd5d139bd424e7e60331
-  exports: acb7c593e3b7f4916cf72f231a22b161
-  stepHorizontalDistance 5ec38836ec7dc1d4c1a5b40ecb35d93b
-import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
-  exports: 07dc0a302095db6221f41ecc2db9aec7
-  $sel:dsHeight:RunnerState ba3a4953300a8a7970962fa07fd443a5
-  $sel:dsRecover:RunnerState ba3a4953300a8a7970962fa07fd443a5
-  RunnerAction b40b32426d0e9605bd1b5196a5b093c8
-  RunnerAction'Duck 71aa68e34d9d20fa5719cc8e63885d5e
-  RunnerAction'Hurt 52b6e367c3afaaddeec6cf55bb8a1b8e
-  RunnerAction'Jump de799746cc760820e4640404bbfde537
-  RunnerAction'Move f2f0659a96d320885e09e32bf7484607
-  RunnerKey'Kick 385cf197088539d3629639fe93b2987b
-  RunnerState ba3a4953300a8a7970962fa07fd443a5
-import  -/  StreetRun.Runner_func_1 1928ba54f43a20365598e5563c7061e0
-  exports: 3aace68dd54e293b9e7cb9629aa29f15
-  addStocks 3f9ac0ed95d9b2861c7650e4513cf3a9
-  applyHurt a37daaa495b04b968f4724b9bda5f603
-  nextStocks dc4835650def30cb7dbaa51cb5846bad
-  showRunner 52ce10815f8f9008ccc819d9e3ae54e9
-  stepRunnerAction 7dd95d5c7590f4d75a112f34596e5722
-  stepRunnerPosition 9595a45409ae1260deda2f73c8511e6d
-  stepRunnerState 0698d251d8e940ae451f3e28c97d6ed2
-  stepSpeed 1f3429439d1709690c43456e0f9a2e5b
-import  -/  StreetRun.Runner_func_2 f8a14e2b7b30d725c8ce0939a4c26918
-  exports: fc83ba710a96fc8b5794a82f528d2b01
-  duckCamera 832bf2d84ee0c0351c9c60d5b4c93244
-  runnerAabb bccfd0f37e9b9c7da7530a3c87dc4ef8
-  runnerHeight 3d5a54c8ab94ff17435502bda111821b
-  runnerX 5aaf8282d23efce0690fc2ffbc20a4dd
-import  -/  StreetRun.Scenario 3d565e4d4fcefb40de1d348ddc5508f1
-  Scene'Death aea209b229860e93386470ee40f0e938
-  Scene'Pause f023b58fd2c2e200229745d239e94c38
-import  -/  StreetRun.Scene af7d6d54736d3642cc86bcfab3e76781
-  exports: 07dad99016b354b41a3f7ae55850c26a
-  SceneManager 63d1267c6f32ccbcb6cd361a33bac81a
-  toScene 1edb960cc18f68f27f8817e7a98f03a1
-import  -/  StreetRun.Sfx 84ca787432fe5aa9b2474b5f085cc5ee
-  exports: 40f6907587702e890ebc457991a6c86d
-  Sfx'Bird 56d9c3d909f8332ecd4ffcb7b1c107ad
-  Sfx'Duck a8bf5cd4cb1c561920411ad7f641eb18
-  Sfx'Hurt 600482c8a33e1e4ff0fb24a33a0daee0
-  Sfx'Jump 41f52c8f3a08fa40afd6ace588b66b8e
-  Sfx'Lava 4e2938551422e71645a3776a15050d95
-  Sfx'Point 5a55a9de15e8149ca681efa151ccb1c0
-  Sfx'Recover 19331d92cd30ddd345477ff1cd08c62d
-  Sfx'Rock 967e0f28e833d4a8f3f7bc1299eabdf6
-  Sfx'Stock 7a369fd19f98f35a1ea662a9a7aaa888
-import  -/  StreetRun.Sound_effects a85edcbc0529355d0d823628a5187457
-  exports: 4f505e3c45a92fc5611bc81b03b0dc47
-  AudioSfx 59c875a47b0b4851b33ea127ea6242ec
-  addSfxs ee402906cebf9450d6b91af8555bb717
-import  -/  StreetRun.Step da8e238f737bd9817c61db5c1982dc0f
-  exports: 4def855fa00facc907450d29f9f75fae
-  Step df088ef4f637b8a0cda346c30c5ea086
-  Step'Change e827a7efadc8349d47d90b3f4757231a
-  Step'Sustain 19776ad9b68ce99fbd90ff77dc74711c
-import  -/  StreetRun.Work 3611973cdf8488c3a5964c00b99590c8
-  exports: ffd7a4165016a00bc61ed7371fce244a
-  $sel:pvBackStreetScroll:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvBuildingPos:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvBuildingScroll:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvGrassPos:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvGrassScroll:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvObstacles:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvRunnerPos:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvRunnerState:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvScore:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvSeconds:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvShowRunner:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvSpeed:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvStocks:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvStreetScroll:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  $sel:pvUpcomingObstacles:PlayVars 05b27afb2a000fc455265545d1f3ef8b
-  PlayVars 69a17d57fb8d0e6bbca3e49f21ed606f
-  PlayVars 05b27afb2a000fc455265545d1f3ef8b
-import  -/  StreetRun.Work_func 0e86a93f8906c4018fd2b1e24c18ab52
-  exports: 0632c1ae56fdb446c1bb6a552db25704
-  HasPlayVars 7c21393bf018dbd7864889724c1b555b
-  playVars 189c6f7e94884827f037d5be1ee00734
-5d0db3d35d3738ddb7965f4787cf48e1
+import  -/  StreetRun.Audio 91f095936fecbb9f076d29d5950c869b
+  exports: 778206d5370172e5e0ea84450aec5c45
+  Audio 4ba14999075ad68ce5a755a8d89bcb9d
+import  -/  StreetRun.CFL 22aaa7e917fe6023bc75b650c540e607
+  exports: f389828e267831208731f8c3eb015474
+  Clock 7a224d3c24f27ab5449750b94a90522b
+  Logger 1754f757febcf328080928cadc0ce029
+  frameDeltaSeconds 9605a9c4d4e8e9e818a55364604b43d7
+import  -/  StreetRun.Camera 15520c15c72428459c71d35d468598c8
+  exports: 445eb368813d35f6641c1446797753f7
+import  -/  StreetRun.Common ec7a24ddc13a89793e354234ea8b6a8f
+  exports: 5bf7e8807e04e9b7e18cf5c3f75b1f5b
+  $sel:cvHiscore:CommonVars 1a70b4b7adfef4baee78b76f08e9c288
+  $sel:cvQuake:CommonVars 1a70b4b7adfef4baee78b76f08e9c288
+  HasCommonVars 78e2982dec7ad30766f890d3421b5154
+  commonVars 2394ba70a1376f821bc3afbedd466646
+import  -/  StreetRun.HUD 33ed45f0ee969474895a8614650a2f1b
+  exports: 7832e9cac015a5203f08d8c52ac8b9ae
+  HUD 910cd3343cd00cd8902c09529859c02a
+  drawControls d5d5e5bac4f9f314625845630c86d5cb
+  drawHiscore 1844561d5282f8253fb45bae9bfafaf4
+  drawScore 9e18e54c86359c908d3735ba2181bbb5
+import  -/  StreetRun.Hurdle 38a26fa541ce5ced9eea0f70d3aa69b6
+  exports: ccac325c207e939d1f0d01c3da87ee30
+  $sel:osDistance:ObstacleState 95c2800d9f00728984a40ce71c8f5ddb
+  $sel:osInfo:ObstacleState 95c2800d9f00728984a40ce71c8f5ddb
+  ObstacleInfo'Bird ccccae1530dc8bd901d7158bbcf74e40
+  ObstacleInfo'Lava 4e5c5aba543882a230926828de4a48aa
+  ObstacleInfo'Rock d2f0dba6425cf0a273123b80bb6c9499
+  ObstacleState f35d4f34b2a1f4b6dadbc707870d147a
+  ObstacleState 95c2800d9f00728984a40ce71c8f5ddb
+  ObstacleTag'Bird 70a1f6d4c3b86d544572eecd826a4a64
+  ObstacleTag'Lava ed433d5b396f1137814a4380606c538e
+  ObstacleTag'Rock 770d2ca50a94dd8dea509e443e13376e
+  birdY 7193f7bf2a627e7b5bd560b5eb135a97
+  lavaY 58e67e5b07377f4d36fa776e595d4385
+  obstacleAabb a5327c186bfc058418e706146ebd9908
+  rockY d7f9380ab0d3b3bdb40701f60199e545
+import  -/  StreetRun.Hurdle_1 c9e76027407717b022743d66c2f85407
+  exports: be3dc5eb0f18c89559dce1b425bb13f5
+  iterateObstacles 4fafebfc116744e6f440ad43e6ec3d18
+import  -/  StreetRun.Input 2b2882bb9ccf0deac02d72ccd2af9474
+  exports: 794b8afcff1485016b9c41551ca5bab1
+  $sel:iSpace:Input f50c2ab9e2082623275c9cc57e0e92df
+import  -/  StreetRun.Load b854b61e5394a1e0d9cd4b9313a268b0
+  exports: 4cddd7fe752b7b923c34c3b71e404029
+  HasInput ba70c797691329d224bd192290501ef6
+  getInput 191f425c4d27320b241e01dc8844e1d0
+import  -/  StreetRun.Physics 913327b3ebcb9b45610bccf968b96819
+  exports: 9d3a92dda1fb515a473dcd811827989d
+  collisionIntersect cb8debe291605a263e6f28e6cb560d2f
+import  -/  StreetRun.Picture b3a434655916c9bd40f5e83b30c22973
+  exports: 3a912206f39fec45a542e7a9b7b90546
+  CameraControl 4fbff540ba209f3d818863d970cdf797
+import  -/  StreetRun.Quake b6a124c4030dd8107fa49ff2cc71f4ef
+  exports: 1b20d2e9b9ea83d46fe981dd6ab66f9e
+  Quake 1a9c7230fc5b6045929623cb4b581a74
+import  -/  StreetRun.Quake_BackStreet ebd66aa7fea9a4375db34319ddddfe2a
+  exports: 578e5b9ec1aaacc51172575d1af9f5be
+  applyQuakeToBackStreet ae610989547ea9f445521321c10d41c9
+import  -/  StreetRun.Quake_Building 7b28d20ae17511fa922d20e9819b3dc0
+  exports: 6525757d6f3314b41ce008ffadedcbcd
+  applyQuakeToBuilding 75f95d76f94aadf9fbde79f512e1287d
+import  -/  StreetRun.Quake_Grass 5769fbd4058b117d8edf4d5fb329570b
+  exports: 7f02c80c1b0edff6e6cef90cfed2f356
+  applyQuakeToGrass 746ef2a7bfdacb0ce16c6331ddfdf993
+import  -/  StreetRun.Quake_Street 0639936fb2089261a1b9959dd9fae6ce
+  exports: 945f767c32e91e3edb88f6795d3a025e
+  applyQuakeToStreet cbc3186ba29eec598941c9d02b611e73
+import  -/  StreetRun.Renderer 0519d22b921b8437012069e63a6f4fa6
+  exports: 3ce23641af82250faf4b4afd515774b7
+  Renderer 718a3d63cec016694ff0c781c86acdfc
+  backStreetY d6d18a9a691e8c838d2cdefb408516e2
+  buildingY fd12705178fd95b18142e8b8b595fc90
+  drawBackStreet a256bda3269dd49460279d1a5af46e6c
+  drawBird efe3b76a2a645c00e74c37ec9760135a
+  drawBuilding 9162a3ec484098740d63d08b41ba8b08
+  drawGrass 1c222f81d1ad0ae6611d3a64f4ce5df9
+  drawLava a045cd1431b2c5da04d3c7f6f98698d1
+  drawRock ace760f317a242fd3618c402bdea298d
+  drawRunner 135ef7a866989d944f40576be2e3f3b4
+  drawStreet 56481eb6410660724e0c6477d55a660e
+  getBirdAnimations b76b8aeed279815ee92c45c9f61ba7ad
+  getBuildingAnimations 0aae0f4093ec2823e58e7ba08120c3a5
+  getGrassAnimations 7490e1214f10ead45cd2c92a5b22c5be
+  getLavaAnimations 12511df4726afaed0bd4f4974d309500
+  getRockAnimations b9bba666b47210162aa627dd8934d470
+  getRunnerAnimations 2fcaf83fcbda5f1bc7a60f13b946af8e
+  grassY 3f786eac2f607352fc5a43167b9f58be
+  streetY fe01709c343458dc4f3317788fb8ff29
+import  -/  StreetRun.Renderer_func_1 a9aeb84e666161fb4390884165deb075
+  exports: 6a0ad2bf2ffcb5fd6ca93a687f153110
+import  -/  StreetRun.Renderer_func_2 8e1829777a16c2ecd350a0a2077893e3
+  exports: e72c1bc9f19fb36af370b60f395645dd
+  stepHorizontalDistance 997ba6800346daa12b9fffb369625004
+import  -/  StreetRun.Runner a6abbd291e744158bf9018a60f48d314
+  exports: ae88bb9ed2797ab0ae7bfb3fb6716c40
+  $sel:dsHeight:RunnerState 47dad745455c1bb3aa6466e0dcf4a02c
+  $sel:dsRecover:RunnerState 47dad745455c1bb3aa6466e0dcf4a02c
+  RunnerAction 96b981a2adf5042b7be2258f10bd37f0
+  RunnerAction'Duck aa99514d3c4d70fb8300e8d80209d403
+  RunnerAction'Hurt 0b414f4d4215180b5f3dd3d581dcc132
+  RunnerAction'Jump a4fd8fd2893a082d05e81ff1c9516470
+  RunnerAction'Move 909c36157f46dd71ce486c75b2b34ef1
+  RunnerKey'Kick 3cd65175a6bf6c6362b9251f8d73343d
+  RunnerState 47dad745455c1bb3aa6466e0dcf4a02c
+import  -/  StreetRun.Runner_func_1 bdddcc72b2b205ac6ed65be0261303a7
+  exports: 5dd8b90845ed790a7a36c82e6f4d7138
+  addStocks 8244adc782f840dc6aa2cb2ed93cdde2
+  applyHurt 7cfed591a1d0e562745bbbc1acbdc0fe
+  nextStocks 95091e4c4c96f00db43792d0f2d244e2
+  showRunner 6b858db2d1e4cba16b18d0910487a076
+  stepRunnerAction b4371f6a54e7937123a4fde4dd7d6c20
+  stepRunnerPosition 0cd78cf599b749a9b36710fbc9c5d9ca
+  stepRunnerState 6c7b3d2368272533d67c45a9670266ac
+  stepSpeed 233a3703617a1cea97480394db34f5b2
+import  -/  StreetRun.Runner_func_2 850b3567ef6c7c4675339eaa541ca68a
+  exports: 132f0584768b112cf2826c60192e01cb
+  runnerAabb 54de8432ba781659c545a143a4670baf
+  runnerHeight 44cf67928099d4364d2fec25627443a3
+  runnerX fd3805a2c9f39bc5c408a2b656b47006
+import  -/  StreetRun.Scenario 354a54748ba84a3c008f8f16b2acd94c
+  Scene'Death 9194253026f1630590baed668e875f0f
+  Scene'Pause 1296e9eeda51de3aaff7f8a38cbd5ca4
+import  -/  StreetRun.Scene 77553ca4972702fc9ed9a930428c3b84
+  exports: e5cf8e79f9eac931695eddae8a179fc0
+  SceneManager 8a74b8a4c9e990537b0f35c67b38d826
+  toScene d29769eae987e04902c8094df1bb527e
+import  -/  StreetRun.Sfx 188ad4f30736accf16515482a6965264
+  exports: 029fd02878001f540ae45828c6e7c393
+  Sfx'Bird 1f1ba1728d237b5d51b72b3daf99d1d1
+  Sfx'Duck eb77abe0c091145f00bdaff90b40ea21
+  Sfx'Hurt 3c96acc933522ccaabee8a638f05522e
+  Sfx'Jump d3f376393e045f258d4e4e5ddfe7404d
+  Sfx'Lava 9d2afb631f8fa581f2d96fc1060f962a
+  Sfx'Point 10fa82efc274b76820ab3985e983a1e0
+  Sfx'Recover de8bbbbbcb8df0922fccd5201cf41108
+  Sfx'Rock 09d3a0d7bd4375c4ec54e20275c0f938
+  Sfx'Stock d1d978543e45439a3cea625161ca468a
+import  -/  StreetRun.Sound_effects d6b1e92985bd34983de20a110cbdad5e
+  exports: eb4fe4175b79b0dda794b44c2a2faa67
+  AudioSfx 61b40e20c8ad121c087626bea3914def
+  addSfxs e9af88e331891550fe436b3269b71c3e
+import  -/  StreetRun.Step 290ae331db595dd4cf6d5e1e70227106
+  exports: 719fef8fe6a2dea83d42318f70df48fb
+  Step daa3ab940f53a2ea3c69c832d1d2d582
+  Step'Change cd810651f7950f648570405c0497b830
+  Step'Sustain 3fd1f4686ef7e95fd855f3c5806c6dc9
+import  -/  StreetRun.Work 84c49625e5300d184b6b74d71a119d1f
+  exports: be18f47a77094179ee18b27ca088c03e
+  $sel:pvBackStreetScroll:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvBuildingPos:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvBuildingScroll:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvGrassPos:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvGrassScroll:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvObstacles:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvRunnerPos:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvRunnerState:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvScore:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvSeconds:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvShowRunner:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvSpeed:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvStocks:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvStreetScroll:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  $sel:pvUpcomingObstacles:PlayVars 454bac6bacb8c3a13959acb3712742b4
+  PlayVars 12c1c425261e618b7431ebe375200883
+  PlayVars 454bac6bacb8c3a13959acb3712742b4
+import  -/  StreetRun.Work_func e74f2daf9d4710767ad8c2ada174399d
+  exports: c79cba614ebcff5946e13d50725530aa
+  HasPlayVars 9cbc89508257ef44e1f754bf3878ef7f
+  playVars a16e4bec16bd99ad3c380a2d9a9d4a2c
+919a88bb5e09979c382dbf47157cd340
   $sbirdY :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Inline: [2],
      Unfolding: InlineRule (0, True, False) (GHC.Types.I# 352#) -}
-bd3191dab5b30afabf063520d285c947
+2b6ddcef764cdb39c92187db31f320cf
   $slavaY :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Inline: [2],
      Unfolding: InlineRule (0, True, False) (GHC.Types.I# 448#) -}
-2d2fa5d37331ecc100fdcc316a4aacd0
+48e78e5160aaa05f4732eb11ed04aae6
   $srockY :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Inline: [2],
      Unfolding: InlineRule (0, True, False) (GHC.Types.I# 418#) -}
-b1aaae19450505860af9aa2335898f13
+5e4c0a316917747b45262661f0f187ea
   $tc'C:Play :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   6125688431303725783##
-                   13410234429231546601##
+                   17508976505737179464##
+                   16739932661646519659##
                    StreetRun.Play.$trModule
                    StreetRun.Play.$tc'C:Play2
                    1#
                    StreetRun.Play.$tc'C:Play1) -}
-77873e290e7a6ebe45cceb92feea5eed
+849612f3700e06825835f271399bc1f8
   $tc'C:Play1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-be252ec32c26d9793655c3ff678d9b44
+cde36e48c29943c2a8b29399e9dffb22
   $tc'C:Play2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Play.$tc'C:Play3) -}
-45712808901cc527ac5b3522256a0cfe
+24204e9935dae5cc5339f924a916d5c9
   $tc'C:Play3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'C:Play"#) -}
-a6f95011b2261df3731e853bd82b23ae
+5426fe43d305b9e2d69ab66f83e440a6
   $tcPlay :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   4806902603748741838##
-                   4793418063889486832##
+                   4479254180270356094##
+                   13132134128911118149##
                    StreetRun.Play.$trModule
                    StreetRun.Play.$tcPlay2
                    0#
                    StreetRun.Play.$tcPlay1) -}
-f64ab31a46827e73f4e099fb07dac7b4
+57e60d0a0a76dd6ce9be94838881928e
   $tcPlay1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-8bd3535461393da5d3792cb6163ab383
+6068954347f4d112e571ab56e6a8fd8a
   $tcPlay2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Play.$tcPlay3) -}
-d6f738fba6a4d805c16e7f5f06d6063f
+f641074f06773626bd946fb1fe8a071e
   $tcPlay3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Play"#) -}
-dc2891577b88a02ebfdba2c907823e46
+d2f72a3f03c321528d8bb7d91f8fad95
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Play.$trModule3
                    StreetRun.Play.$trModule1) -}
-54bf445844f4bde0539ada675d0e37a0
+91bddd5beb6828a4ba1dcbb164994292
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Play.$trModule2) -}
-dddd96bfe2214a8070367bfc4f245909
+4ee0dba2148bc4a5295f69b2598c2322
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Play"#) -}
-c57f7e76ff1ca1438817d7c630d8cc2b
+1e17ff2eaa09f9b156086cfc9b100a48
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Play.$trModule4) -}
-829122fa1f6f67e674dde9cdd760b791
+41e54df5c1e466c17e20255929da132b
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-b39926862e4fbc3ea3bce2690ead78a0
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+49c2f24781d2f58ccd1242e3e7d87d10
   $wdrawPlay ::
     (StreetRun.Work_func.HasPlayVars s,
      StreetRun.Common.HasCommonVars s, GHC.Base.Applicative m) =>
@@ -444,7 +433,7 @@ b39926862e4fbc3ea3bce2690ead78a0
   {- Arity: 9,
      Strictness: <L,1*C1(C1(C(U)))><L,1*C1(C1(C(U)))><L,1*U(A,1*C1(U),A,A,A,A)><C(C(S)),C(C1(U))><L,C(C1(U))><L,C(U)><L,U><L,U(U(A,C(C1(U)),C(C1(U)),C(U),A),A,A,1*U,U,U,U,1*U,1*U,C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(U),C(U),A,A,A,A,A,A,A,A,A)><L,U(A,1*U,1*U,1*U)>,
      Inline: [2] -}
-4de399cf2ec202b6fc4e81c2078b611b
+3ddabb04e79ee5a5fa1238c92ae85f47
   $wgetDead ::
     (forall a b. (a -> b) -> m a -> m b)
     -> (forall a b. m a -> (a -> m b) -> m b)
@@ -492,7 +481,7 @@ b39926862e4fbc3ea3bce2690ead78a0
                                     <StreetRun.Work.PlayVars>_R
                                     <s>_P) of wild { StreetRun.Work.PlayVars ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ->
                           ds2 })))) -}
-004410e85f81998e641bbeb95d6a1208
+65676035001b67c60ed7823d6c649c03
   $wmodifyPlayVars ::
     (forall a. (s -> (a, s)) -> m a)
     -> StreetRun.Work_func.HasPlayVars s =>
@@ -520,7 +509,7 @@ b39926862e4fbc3ea3bce2690ead78a0
                    (\ (s1 :: s) ->
                     (GHC.Tuple.(),
                      (f s1) `cast` (Data.Functor.Identity.N:Identity[0] <s>_R)))) -}
-671f546087f9b1418de6c64ec761f625
+5a7b08e8f7fd291b62f616e7410f3543
   $wtryCollision ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a. a -> m a)
@@ -607,7 +596,7 @@ b39926862e4fbc3ea3bce2690ead78a0
                                              StreetRun.Runner.RunnerAction'Hurt
                                         StreetRun.Runner.RunnerAction'Hurt -> wild4 } }
                               GHC.Maybe.Just a1 -> w1 } } } }))) -}
-64dcc010d1ba4f911f211998057b5f7f
+4d0c7e370c8557b5a2b120ef5806e4c6
   $wupdateHiscore ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a. a -> m a)
@@ -683,7 +672,7 @@ b39926862e4fbc3ea3bce2690ead78a0
                       (\ (s1 :: s) ->
                        (GHC.Tuple.(),
                         (f s1) `cast` (Data.Functor.Identity.N:Identity[0] <s>_R))))) -}
-7d23f597149c0d87664fdcb006ceb7d1
+da2b9f30cc07b2dd586b97502fc963c2
   $wupdateObstacles ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a b. m a -> m b -> m b)
@@ -697,7 +686,7 @@ b39926862e4fbc3ea3bce2690ead78a0
   {- Arity: 8,
      Strictness: <C(C(S)),C(C1(U))><L,C(C1(U))><L,C(U)><L,U><L,C(U)><L,C(C1(C(U)))><L,U(A,A,A,A,1*U,1*U,1*U,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)><L,U(A,A,C(U),A)>,
      Inline: [2] -}
-25e902432ec895bd218aa02860409e71
+56ea54a3727a81e2dd0254ff89f6da9d
   $wupdateRunner ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a b. m a -> m b -> m b)
@@ -719,7 +708,7 @@ b39926862e4fbc3ea3bce2690ead78a0
                    (w2 :: StreetRun.Sound_effects.AudioSfx m)
                    (w3 :: StreetRun.Step.Step StreetRun.Runner.RunnerAction) ->
                  let {
-                   lvl7 :: m ()
+                   lvl6 :: m ()
                    = StreetRun.Sound_effects.addSfxs
                        @ m
                        w2
@@ -747,7 +736,7 @@ b39926862e4fbc3ea3bce2690ead78a0
                     ww1
                       @ ()
                       @ ()
-                      lvl7
+                      lvl6
                       (let {
                          f :: s -> Data.Functor.Identity.Identity s
                          = w `cast` (StreetRun.Work_func.N:HasPlayVars[0] <s>_N)
@@ -792,7 +781,7 @@ b39926862e4fbc3ea3bce2690ead78a0
                          (\ (s1 :: s) ->
                           (GHC.Tuple.(),
                            (f s1) `cast` (Data.Functor.Identity.N:Identity[0] <s>_R)))))) -}
-d3892b0c28a61712dfc7ecbe0f1fd11b
+afa07c3920d058b60371d26769ace481
   $wupdateScrolling ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> m (StreetRun.Types.Animations StreetRun.Scenario.BuildingKey)
@@ -803,7 +792,7 @@ d3892b0c28a61712dfc7ecbe0f1fd11b
   {- Arity: 5,
      Strictness: <C(C(S)),C(C1(U))><L,U><L,U><L,C(C1(C(U)))><L,U(A,A,A,C(U))>,
      Inline: [2] -}
-dfcc2a481e64ab889af34aed2ab3edc0
+1093724cef0431f1f45d9a60f19ec69a
   $wupdateStocks ::
     (forall a. (s -> (a, s)) -> m a)
     -> StreetRun.Work_func.HasPlayVars s => GHC.Types.Bool -> m ()
@@ -856,11 +845,11 @@ dfcc2a481e64ab889af34aed2ab3edc0
                    (\ (s1 :: s) ->
                     (GHC.Tuple.(),
                      (f s1) `cast` (Data.Functor.Identity.N:Identity[0] <s>_R)))) -}
-34ccbec8700b76610dd4c882634b2a13
+1344a38a4da89055a099f436a0851b57
   class GHC.Base.Monad m => Play (m :: * -> *) where
     playStep :: m ()
     {-# MINIMAL playStep #-}
-d3fe911d214f242812471eae946a1963
+cf71ba334a1891fda9f55c7a3d84b964
   detectCollision ::
     [StreetRun.Hurdle.ObstacleState]
     -> StreetRun.Runner.RunnerState -> GHC.Types.Bool
@@ -871,7 +860,7 @@ d3fe911d214f242812471eae946a1963
                 (<[StreetRun.Hurdle.ObstacleState]>_R
                  ->_R <StreetRun.Runner.RunnerState>_R
                  ->_R Data.Semigroup.Internal.N:Any[0]) -}
-d8c0e47b23b3c0bc42145f416e1fbade
+3401ef8b3304159bc04e921fcb8f4fa3
   detectCollision1 ::
     [StreetRun.Hurdle.ObstacleState]
     -> StreetRun.Runner.RunnerState -> Data.Semigroup.Internal.Any
@@ -895,7 +884,7 @@ d8c0e47b23b3c0bc42145f416e1fbade
                                408.0#) } } }
                  } in
                  let {
-                   lvl7 :: Linear.V2.V2 GHC.Types.Float
+                   lvl6 :: Linear.V2.V2 GHC.Types.Float
                    = case y of wild { GHC.Types.F# x ->
                      Linear.V2.V2
                        @ GHC.Types.Float
@@ -912,7 +901,7 @@ d8c0e47b23b3c0bc42145f416e1fbade
                        -> GHC.Types.False `cast` (Sym (Data.Semigroup.Internal.N:Any[0]))
                        : y1 ys
                        -> case y of dt { GHC.Types.F# ipv ->
-                          case lvl7 of ww10 { Linear.V2.V2 ww11 ww12 ->
+                          case lvl6 of ww10 { Linear.V2.V2 ww11 ww12 ->
                           case ww11 of ww13 { GHC.Types.F# ww14 ->
                           case ww12 of ww15 { GHC.Types.F# ww16 ->
                           case y1 of ww { StreetRun.Hurdle.ObstacleState ww1 ww2 ->
@@ -942,13 +931,13 @@ d8c0e47b23b3c0bc42145f416e1fbade
                                               (Sym (Data.Semigroup.Internal.N:Any[0])) } } } } } } } } } } } } } } } } }
                  } in
                  go obstacles) -}
-c5d709ff40fa95e1182ab0b3ca5dd415
+cd1d3b3677de0ad844f851a580023c7f
   drawObstacles ::
     StreetRun.Renderer.Renderer m =>
     StreetRun.Quake.Quake -> [StreetRun.Hurdle.ObstacleState] -> m ()
   {- Arity: 3,
      Strictness: <S(S(LC(C(S))LLL)LLLLLLLLLLLLLLLLLLLLLLLLL),U(1*U(A,C(C1(U)),C(C1(U)),1*C1(U),A),A,A,A,1*U,1*U,1*U,A,A,A,C(C1(U)),C(C1(U)),C(C1(U)),A,A,A,A,A,A,A,A,A,A,A,A,A)><L,U><L,U> -}
-c6ebab1eb6b97a8395051df7a792e079
+2d161bb4ba69e327c7b99d0e8e3033b6
   drawPlay ::
     (StreetRun.Work_func.HasPlayVars s,
      StreetRun.Common.HasCommonVars s,
@@ -982,7 +971,7 @@ c6ebab1eb6b97a8395051df7a792e079
                    ww2
                    w3
                    w5 } }) -}
-c6a53944aae59311daeac907b0fb0307
+7a6f6e10f5d976e96cc321e48291099b
   getDead ::
     (Control.Monad.State.Class.MonadState s m,
      StreetRun.Work_func.HasPlayVars s) =>
@@ -1000,13 +989,13 @@ c6a53944aae59311daeac907b0fb0307
                  case ww6 of ww11 { GHC.Base.C:Applicative ww12 ww13 ww14 ww15 ww16 ww17 ->
                  case ww12 of ww18 { GHC.Base.C:Functor ww19 ww20 ->
                  StreetRun.Play.$wgetDead @ s @ m ww19 ww7 ww9 ww2 w1 } } } }) -}
-17ca4ea243f4b3f028cde3a817ee6d7e
+2174dce25dfc370c3088acd66d0c59b4
   getDead1 :: StreetRun.Work.PlayVars -> StreetRun.Work.PlayVars
   {- Arity: 1, HasNoCafRefs,
      Strictness: <S,1*U(U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U)>m,
      Unfolding: InlineRule (1, True, True)
                 (\ (v :: StreetRun.Work.PlayVars) -> v) -}
-162999437f88c003698746b9bdffa5d2
+38d55866ac2ba6a7b5bd9a4d609fb3db
   getDead2 :: StreetRun.Types.Stocks -> GHC.Types.Bool
   {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(U)>,
      Unfolding: InlineRule (1, True, False)
@@ -1015,7 +1004,7 @@ c6a53944aae59311daeac907b0fb0307
                         `cast`
                       (StreetRun.Types.N:Stocks[0]) of wild { GHC.Types.I# x ->
                  GHC.Prim.tagToEnum# @ GHC.Types.Bool (GHC.Prim.<=# x 0#) }) -}
-987b668df3cefbd20f7940434ad8e7aa
+7212d1f75fb00121324a8daebf64fa50
   modifyPlayVars ::
     (Control.Monad.State.Class.MonadState s m,
      StreetRun.Work_func.HasPlayVars s) =>
@@ -1031,27 +1020,26 @@ c6a53944aae59311daeac907b0fb0307
                    (w2 :: StreetRun.Work.PlayVars -> StreetRun.Work.PlayVars) ->
                  case w of ww { Control.Monad.State.Class.C:MonadState ww1 ww2 ww3 ww4 ->
                  StreetRun.Play.$wmodifyPlayVars @ s @ m ww4 w1 w2 }) -}
-33dbbbcf8794418576c3962bae5fa1b6
+bfe2a4e8ce1ff3585caa7209fbb5a9c4
   playStep' ::
     (StreetRun.Work_func.HasPlayVars s,
      StreetRun.Common.HasCommonVars s,
-     Control.Monad.State.Class.MonadState s m,
-     StreetRun.Logger.Logger m, StreetRun.Picture.CameraControl m,
-     StreetRun.Clock.Clock m, StreetRun.Renderer.Renderer m,
-     StreetRun.Audio.Audio m, StreetRun.Sound_effects.AudioSfx m,
-     StreetRun.Load.HasInput m, StreetRun.Scene.SceneManager m,
-     StreetRun.HUD.HUD m) =>
+     Control.Monad.State.Class.MonadState s m, StreetRun.CFL.Logger m,
+     StreetRun.Picture.CameraControl m, StreetRun.CFL.Clock m,
+     StreetRun.Renderer.Renderer m, StreetRun.Audio.Audio m,
+     StreetRun.Sound_effects.AudioSfx m, StreetRun.Load.HasInput m,
+     StreetRun.Scene.SceneManager m, StreetRun.HUD.HUD m) =>
     m ()
   {- Arity: 12,
-     Strictness: <L,C(C1(C(U)))><L,C(C1(C(U)))><S(S(LC(C(S))LLL)LLL),U(U(U(U(C(C1(U)),A),C(U),A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),U,A,C(U))><L,A><L,1*U(A,1*C1(U))><L,A><L,U(U(A,C(C1(U)),C(C1(U)),C(U),A),A,A,U,U,U,U,U,U,C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(U),C(U),A,A,A,A,A,A,A,A,A)><L,A><L,U(A,A,C(U),A)><L,U(A,A,A,U)><L,U(A,C(U))><L,U(A,U,U,U)>,
+     Strictness: <L,C(C1(C(U)))><L,C(C1(C(U)))><S(S(LC(C(S))LLL)LLL),U(U(U(U(C(C1(U)),A),C(U),A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),U,A,C(U))><L,A><L,A><L,A><L,U(U(A,C(C1(U)),C(C1(U)),C(U),A),A,A,U,U,U,U,U,U,C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(C1(U)),C(U),C(U),A,A,A,A,A,A,A,A,A)><L,A><L,U(A,A,C(U),A)><L,U(A,A,A,U)><L,U(A,C(U))><L,U(A,U,U,U)>,
      Unfolding: (\ @ s
                    @ m :: * -> *
                    ($dHasPlayVars :: StreetRun.Work_func.HasPlayVars s)
                    ($dHasCommonVars :: StreetRun.Common.HasCommonVars s)
                    ($dMonadState :: Control.Monad.State.Class.MonadState s m)
-                   ($dLogger :: StreetRun.Logger.Logger m)
+                   ($dLogger :: StreetRun.CFL.Logger m)
                    ($dCameraControl :: StreetRun.Picture.CameraControl m)
-                   ($dClock :: StreetRun.Clock.Clock m)
+                   ($dClock :: StreetRun.CFL.Clock m)
                    ($dRenderer :: StreetRun.Renderer.Renderer m)
                    ($dAudio :: StreetRun.Audio.Audio m)
                    ($dAudioSfx :: StreetRun.Sound_effects.AudioSfx m)
@@ -1063,14 +1051,14 @@ c6a53944aae59311daeac907b0fb0307
                         @ m
                         $dMonadState of ww { GHC.Base.C:Monad ww1 ww2 ww3 ww4 ww5 ->
                  let {
-                   lvl7 :: m ()
+                   lvl6 :: m ()
                    = StreetRun.Scene.toScene
                        @ m
                        $dSceneManager
                        StreetRun.Scenario.Scene'Pause
                  } in
                  let {
-                   lvl8 :: m ()
+                   lvl7 :: m ()
                    = ww3
                        @ ()
                        @ ()
@@ -1103,7 +1091,7 @@ c6a53944aae59311daeac907b0fb0307
                           $dHUD } })
                  } in
                  let {
-                   lvl9 :: m () = GHC.Base.pure @ m ww1 @ () GHC.Tuple.()
+                   lvl8 :: m () = GHC.Base.pure @ m ww1 @ () GHC.Tuple.()
                  } in
                  ww2
                    @ StreetRun.Input.Input
@@ -1116,9 +1104,9 @@ c6a53944aae59311daeac907b0fb0307
                       (case input of wild { StreetRun.Input.Input ds1 ds2 ds3 ds4 ds5 ->
                        case ds1 of wild1 { KeyState.KeyState ds7 ds8 ->
                        case ds7 of wild2 {
-                         DEFAULT -> lvl9 KeyState.KeyStatus'Pressed -> lvl7 } } })
-                      lvl8) }) -}
-9b2be0bc7673c15a5eee64a9b81cee14
+                         DEFAULT -> lvl8 KeyState.KeyStatus'Pressed -> lvl6 } } })
+                      lvl7) }) -}
+e2ff9d30ed403e9f1e755e4cde92db00
   tryCollision ::
     (Control.Monad.State.Class.MonadState s m,
      StreetRun.Work_func.HasPlayVars s) =>
@@ -1137,52 +1125,7 @@ c6a53944aae59311daeac907b0fb0307
                  case w of ww { Control.Monad.State.Class.C:MonadState ww1 ww2 ww3 ww4 ->
                  case ww1 of ww5 { GHC.Base.C:Monad ww6 ww7 ww8 ww9 ww10 ->
                  StreetRun.Play.$wtryCollision @ s @ m ww7 ww9 ww2 w1 w2 } }) -}
-88e7c86e5d31e49fcddad47516828ddf
-  updateCamera ::
-    (Control.Monad.State.Class.MonadState s m,
-     StreetRun.Work_func.HasPlayVars s,
-     StreetRun.Picture.CameraControl m) =>
-    m ()
-  {- Arity: 3, Strictness: <L,A><L,A><S(LC(S)),1*U(A,1*C1(U))>,
-     Unfolding: InlineRule (3, True, True)
-                (\ @ s
-                   @ m :: * -> *
-                   ($dMonadState :: Control.Monad.State.Class.MonadState s m)
-                   ($dHasPlayVars :: StreetRun.Work_func.HasPlayVars s)
-                   ($dCameraControl :: StreetRun.Picture.CameraControl m) ->
-                 StreetRun.Picture.adjustCamera
-                   @ m
-                   $dCameraControl
-                   StreetRun.Play.updateCamera1) -}
-d425434dcb78e646cdc0a8b077403e6f
-  updateCamera1 :: StreetRun.Camera.Camera
-  {- Strictness: m,
-     Unfolding: (let {
-                   w :: GHC.Prim.Float# = GHC.Prim.powerFloat# 0.0# 1.8#
-                 } in
-                 StreetRun.Camera.Camera
-                   (let {
-                      ds4 :: GHC.Prim.Float# = GHC.Prim.minusFloat# 1.0# w
-                    } in
-                    Linear.V2.V2
-                      @ GHC.Types.Float
-                      (GHC.Types.F#
-                         (GHC.Prim.plusFloat#
-                            (GHC.Prim.timesFloat# w 740.0#)
-                            (GHC.Prim.timesFloat# ds4 640.0#)))
-                      (GHC.Types.F#
-                         (GHC.Prim.plusFloat#
-                            (GHC.Prim.timesFloat# w 844.0#)
-                            (GHC.Prim.timesFloat# ds4 640.0#))))
-                   (let {
-                      ds4 :: GHC.Prim.Float# = GHC.Prim.minusFloat# 1.0# w
-                    } in
-                    Linear.V2.V2
-                      @ GHC.Types.Float
-                      (GHC.Types.F# (GHC.Prim.plusFloat# (GHC.Prim.plusFloat# w w) ds4))
-                      (GHC.Types.F#
-                         (GHC.Prim.plusFloat# (GHC.Prim.plusFloat# w w) ds4)))) -}
-fa6915111a30c292543e9cc4037af619
+61c56554769089189a1a2f5ba9187994
   updateHiscore ::
     (Control.Monad.State.Class.MonadState s m,
      StreetRun.Common.HasCommonVars s,
@@ -1208,7 +1151,7 @@ fa6915111a30c292543e9cc4037af619
                    ww4
                    w1
                    w2 } }) -}
-f5eff167d7588763c4478235f6e97192
+1ed21df83c071ac8e7fcca0e17ea0a96
   updateObstacles ::
     (Control.Monad.State.Class.MonadState s m,
      StreetRun.Work_func.HasPlayVars s, StreetRun.Renderer.Renderer m,
@@ -1237,19 +1180,19 @@ f5eff167d7588763c4478235f6e97192
                    w1
                    w2
                    w3 } }) -}
-e18b846376fb10e9b9c599b8940c7503
+677de2f732010c1409968ecd557cc89c
   updatePlay ::
     (StreetRun.Work_func.HasPlayVars s,
      StreetRun.Common.HasCommonVars s,
-     Control.Monad.State.Class.MonadState s m,
-     StreetRun.Logger.Logger m, StreetRun.Clock.Clock m,
-     StreetRun.Picture.CameraControl m, StreetRun.Renderer.Renderer m,
-     StreetRun.Load.HasInput m, StreetRun.Sound_effects.AudioSfx m,
+     Control.Monad.State.Class.MonadState s m, StreetRun.CFL.Logger m,
+     StreetRun.CFL.Clock m, StreetRun.Picture.CameraControl m,
+     StreetRun.Renderer.Renderer m, StreetRun.Load.HasInput m,
+     StreetRun.Sound_effects.AudioSfx m,
      StreetRun.Scene.SceneManager m) =>
     m ()
   {- Arity: 10,
-     Strictness: <L,C(C1(C(U)))><L,C(C1(C(U)))><S(S(LC(C(S))LLL)LLL),U(U(U(U(C(C1(U)),A),1*C1(U),A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),U,A,C(U))><L,A><L,A><L,1*U(A,1*C1(U))><L,U(1*U(A,C(C1(U)),A,A,A),A,A,U,U,U,U,U,U,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)><L,1*U(A,A,A,1*U)><L,U(A,A,C(U),A)><L,1*U(A,1*C1(U))> -}
-8ca814a7a05db7da4447653351851386
+     Strictness: <L,C(C1(C(U)))><L,C(C1(C(U)))><S(S(LC(C(S))LLL)LLL),U(U(U(U(C(C1(U)),A),1*C1(U),A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),U,A,C(U))><L,A><L,A><L,A><L,U(1*U(A,C(C1(U)),A,A,A),A,A,U,U,U,U,U,U,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)><L,1*U(A,A,A,1*U)><L,U(A,A,C(U),A)><L,1*U(A,1*C1(U))> -}
+0e67f578ca33ce26d617bbeb801f4d7e
   updateRunner ::
     (Control.Monad.State.Class.MonadState s m,
      StreetRun.Work_func.HasPlayVars s, StreetRun.Renderer.Renderer m,
@@ -1278,35 +1221,35 @@ e18b846376fb10e9b9c599b8940c7503
                    w2
                    w3
                    w4 } }) -}
-e317beea7de832881c260273aebdf4c3
+1f87d90d40e23160c4f6b77ac9cd8e6a
   updateRunner1 :: [StreetRun.Sfx.Sfx]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ StreetRun.Sfx.Sfx
                    StreetRun.Sfx.Sfx'Hurt
                    (GHC.Types.[] @ StreetRun.Sfx.Sfx)) -}
-128f2a6800a6dc162ce9a5466eb121e4
+f721858de40b8c69a562f75cea81a661
   updateRunner2 :: [StreetRun.Sfx.Sfx]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ StreetRun.Sfx.Sfx
                    StreetRun.Sfx.Sfx'Jump
                    (GHC.Types.[] @ StreetRun.Sfx.Sfx)) -}
-84c451d9c7e8b511aabeff39af808db9
+4af415028fb0898cf10e9e6291e86840
   updateRunner3 :: [StreetRun.Sfx.Sfx]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ StreetRun.Sfx.Sfx
                    StreetRun.Sfx.Sfx'Duck
                    (GHC.Types.[] @ StreetRun.Sfx.Sfx)) -}
-7ce2dd4e2e8ce14782d9b008b37be054
+8f33636e3c01ba03c0af6c1e09f8170c
   updateRunner4 :: [StreetRun.Sfx.Sfx]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ StreetRun.Sfx.Sfx
                    StreetRun.Sfx.Sfx'Recover
                    (GHC.Types.[] @ StreetRun.Sfx.Sfx)) -}
-212082e6169df86dbf5d42069370c846
+33558ffbe3055c1e7cdbe3a5d9013cce
   updateScrolling ::
     (StreetRun.Renderer.Renderer m, StreetRun.Work_func.HasPlayVars s,
      Control.Monad.State.Class.MonadState s m) =>
@@ -1323,7 +1266,7 @@ e317beea7de832881c260273aebdf4c3
                  case w of ww { StreetRun.Renderer.C:Renderer ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ww13 ww14 ww15 ww16 ww17 ww18 ww19 ww20 ww21 ww22 ww23 ww24 ww25 ww26 ->
                  case ww1 of ww27 { GHC.Base.C:Monad ww28 ww29 ww30 ww31 ww32 ->
                  StreetRun.Play.$wupdateScrolling @ m @ s ww29 ww8 ww9 w1 w2 } }) -}
-7161ea2679fc0d32cee72994392a146d
+901392d1485515e287b01778fa3af992
   updateSeconds ::
     (Control.Monad.State.Class.MonadState s m,
      StreetRun.Work_func.HasPlayVars s) =>
@@ -1341,7 +1284,7 @@ e317beea7de832881c260273aebdf4c3
                    $dMonadState
                    $dHasPlayVars
                    StreetRun.Play.updateSeconds1) -}
-eed8b95511ac6cab4d0e9d47a42f9618
+64e7407eb1daee401b0d0aa25ab32136
   updateSeconds1 ::
     StreetRun.Work.PlayVars -> StreetRun.Work.PlayVars
   {- Arity: 1, HasNoCafRefs,
@@ -1371,7 +1314,7 @@ eed8b95511ac6cab4d0e9d47a42f9618
                    ds13
                    ds14
                    ds15 }) -}
-28536e01b6c010f464e806e086e34524
+2dab6437b7d4abd83fc8b59987fdf03a
   updateSpeed ::
     (Control.Monad.State.Class.MonadState s m,
      StreetRun.Work_func.HasPlayVars s) =>
@@ -1408,7 +1351,7 @@ eed8b95511ac6cab4d0e9d47a42f9618
                       ds13
                       ds14
                       ds15 })) -}
-f693339ece330b97bde5461f9eaf327f
+2a03c070df0514ab54a2d16855f6ae90
   updateStocks ::
     (Control.Monad.State.Class.MonadState s m,
      StreetRun.Work_func.HasPlayVars s) =>

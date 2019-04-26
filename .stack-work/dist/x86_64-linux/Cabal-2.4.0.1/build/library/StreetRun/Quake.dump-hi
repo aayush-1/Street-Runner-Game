@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:11:45.310616274 UTC
+2019-04-26 14:29:02.675208867 UTC
 
-interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Quake 8064
-  interface hash: 5eccf7ac06510df33eb8e4afb601991f
-  ABI hash: 534ecc20f0d0082a1dfa1bcf26bf997d
-  export-list hash: ad876ccc0312a03ee7f2e4b3c80c4160
+interface street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg:StreetRun.Quake 8064
+  interface hash: 46e0f44435d8c4dc33e6670ed72a44ac
+  ABI hash: b6a124c4030dd8107fa49ff2cc71f4ef
+  export-list hash: 1b20d2e9b9ea83d46fe981dd6ab66f9e
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -20,7 +20,7 @@ exports:
   StreetRun.Quake.startQuake
   StreetRun.Quake.stepQuake
   StreetRun.Quake.Quake{StreetRun.Quake.Quake'Dormant StreetRun.Quake.Quake'Progress}
-module dependencies: StreetRun.Frame StreetRun.Step StreetRun.Types
+module dependencies: StreetRun.CFL StreetRun.Step StreetRun.Types
 package dependencies: aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0
                       attoparsec-0.13.2.2 base-4.12.0.0 base-compat-0.10.5 binary-0.8.6.0
                       bytestring-0.10.8.2 conduit-1.3.1.1 containers-0.6.0.1
@@ -41,12 +41,12 @@ orphans: stm-2.5.0.0:Control.Monad.STM
          time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
          time-1.8.0.2:Data.Time.Calendar.Gregorian
          hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
-         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
-         bytestring-0.10.8.2:Data.ByteString.Builder
-         text-1.2.3.1:Data.Text.Show
          vector-0.12.0.2:Data.Vector.Fusion.Bundle
          transformers-0.5.6.2:Control.Monad.Trans.Error
-         base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
 family instance modules: aeson-1.4.2.0:Data.Aeson.Types.Internal
                          animate-0.7.0:Animate
                          attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
@@ -92,19 +92,19 @@ import  -/  base-4.12.0.0:GHC.Real af2b985dd29515c375fb78b2c9298d42
 import  -/  base-4.12.0.0:GHC.Show 838a5d039379d82d9626aae53dfce276
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
-import  -/  StreetRun.Frame bcb622c9bc5c55d3184ab58affcc1b5b
-  exports: 061806fa76aa4b4d9f3c174ee83d7084
-  frameDeltaSeconds f3a7e06e5c0381d3a81fcee62fef3367
-import  -/  StreetRun.Step da8e238f737bd9817c61db5c1982dc0f
-  exports: 4def855fa00facc907450d29f9f75fae
-  Step df088ef4f637b8a0cda346c30c5ea086
-  Step'Change e827a7efadc8349d47d90b3f4757231a
-  Step'Sustain 19776ad9b68ce99fbd90ff77dc74711c
-import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
-  exports: 687926be2250d898b68652280e784933
-  Percent 9bc35ebe469aab1ad3d8edfd9fd30da6
-  Seconds 3096dba0a5a57c02592e934b662fbeb3
-bf6b24e5831a4dd5418423ad7b277e13
+import  -/  StreetRun.CFL 22aaa7e917fe6023bc75b650c540e607
+  exports: f389828e267831208731f8c3eb015474
+  frameDeltaSeconds 9605a9c4d4e8e9e818a55364604b43d7
+import  -/  StreetRun.Step 290ae331db595dd4cf6d5e1e70227106
+  exports: 719fef8fe6a2dea83d42318f70df48fb
+  Step daa3ab940f53a2ea3c69c832d1d2d582
+  Step'Change cd810651f7950f648570405c0497b830
+  Step'Sustain 3fd1f4686ef7e95fd855f3c5806c6dc9
+import  -/  StreetRun.Types fe57a12901e3ac69e610bc5ec1ffe588
+  exports: 68eec0a854069d6ebcc9ba499b980fc6
+  Percent ba7abb7eeed8b328d8b72349c7c4fef0
+  Seconds a9822968438ab4a0fccda00b12150109
+1a9c7230fc5b6045929623cb4b581a74
   $fEqQuake :: GHC.Classes.Eq StreetRun.Quake.Quake
   DFunId
   {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
@@ -112,7 +112,7 @@ bf6b24e5831a4dd5418423ad7b277e13
                   @ StreetRun.Quake.Quake
                   StreetRun.Quake.$fEqQuake_$c==
                   StreetRun.Quake.$fEqQuake_$c/= -}
-bf6b24e5831a4dd5418423ad7b277e13
+1a9c7230fc5b6045929623cb4b581a74
   $fEqQuake_$c/= ::
     StreetRun.Quake.Quake -> StreetRun.Quake.Quake -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
@@ -138,7 +138,7 @@ bf6b24e5831a4dd5418423ad7b277e13
                                   b1 `cast` (StreetRun.Types.N:Seconds[0]) of wild2 {
                              GHC.Types.False -> GHC.Types.True
                              GHC.Types.True -> GHC.Types.False } } }) -}
-bf6b24e5831a4dd5418423ad7b277e13
+1a9c7230fc5b6045929623cb4b581a74
   $fEqQuake_$c== ::
     StreetRun.Quake.Quake -> StreetRun.Quake.Quake -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
@@ -159,7 +159,7 @@ bf6b24e5831a4dd5418423ad7b277e13
                         -> GHC.Classes.eqFloat
                              a1 `cast` (StreetRun.Types.N:Seconds[0])
                              b1 `cast` (StreetRun.Types.N:Seconds[0]) } }) -}
-bf6b24e5831a4dd5418423ad7b277e13
+1a9c7230fc5b6045929623cb4b581a74
   $fShowQuake :: GHC.Show.Show StreetRun.Quake.Quake
   DFunId
   {- Strictness: m, Inline: CONLIKE,
@@ -168,33 +168,33 @@ bf6b24e5831a4dd5418423ad7b277e13
                   StreetRun.Quake.$fShowQuake_$cshowsPrec
                   StreetRun.Quake.$fShowQuake_$cshow
                   StreetRun.Quake.$fShowQuake_$cshowList -}
-bf6b24e5831a4dd5418423ad7b277e13
+1a9c7230fc5b6045929623cb4b581a74
   $fShowQuake1 :: StreetRun.Quake.Quake -> GHC.Show.ShowS
   {- Arity: 1, Strictness: <S,1*U>,
      Unfolding: (\ (w :: StreetRun.Quake.Quake) ->
                  StreetRun.Quake.$w$cshowsPrec 0# w) -}
-04ac9797940aaa8833d1c7605e7bbed9
+d05eda1c33e93356e6d89bcb505083ca
   $fShowQuake2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Quake.$fShowQuake3) -}
-d27b75d214a157ab5e737aca0e0028cf
+91d632e0f1854976c349b47cb41d09c8
   $fShowQuake3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Quake'Dormant "#) -}
-5f6a39e13795888f047588034110c482
+2dd4efdb4f43fa75e2e4f04f7a299ac1
   $fShowQuake4 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    StreetRun.Quake.$fShowQuake5) -}
-b387361e7a84735090468a054da5ca61
+d01dc1b9662842ed8ebff7bc84312fec
   $fShowQuake5 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Quake'Progress "#) -}
-304e104816199a90433b65d9938caac8
+414260cbe3770d3ce45597fec07d9119
   $fShowQuake6 :: [GHC.Types.Char]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Types.Char
                    GHC.Show.$fShow(,)2
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-bf6b24e5831a4dd5418423ad7b277e13
+1a9c7230fc5b6045929623cb4b581a74
   $fShowQuake_$cshow :: StreetRun.Quake.Quake -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U>,
      Unfolding: (\ (x :: StreetRun.Quake.Quake) ->
@@ -235,7 +235,7 @@ bf6b24e5831a4dd5418423ad7b277e13
                                  StreetRun.Types.$fShowDistance4
                                  ww2
                                  StreetRun.Quake.$fShowQuake6 }))) }) -}
-bf6b24e5831a4dd5418423ad7b277e13
+1a9c7230fc5b6045929623cb4b581a74
   $fShowQuake_$cshowList :: [StreetRun.Quake.Quake] -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U><L,U>,
      Unfolding: InlineRule (2, True, False)
@@ -245,7 +245,7 @@ bf6b24e5831a4dd5418423ad7b277e13
                    StreetRun.Quake.$fShowQuake1
                    ls
                    s) -}
-bf6b24e5831a4dd5418423ad7b277e13
+1a9c7230fc5b6045929623cb4b581a74
   $fShowQuake_$cshowsPrec ::
     GHC.Types.Int -> StreetRun.Quake.Quake -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S(S),1*U(U)><S,1*U>, Inline: [2],
@@ -253,87 +253,87 @@ bf6b24e5831a4dd5418423ad7b277e13
                 (\ (w :: GHC.Types.Int) (w1 :: StreetRun.Quake.Quake) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  StreetRun.Quake.$w$cshowsPrec ww1 w1 }) -}
-04e7de960f142ba8e3b88d04993ec3ea
+f6f2fd418e5c527fae03b7407a8600a9
   $tc'Quake'Dormant :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   7101908067437444238##
-                   5967305506645937274##
+                   13979586251627315356##
+                   5470180459871649479##
                    StreetRun.Quake.$trModule
                    StreetRun.Quake.$tc'Quake'Dormant2
                    0#
                    StreetRun.Quake.$tc'Quake'Dormant1) -}
-da14be936be540cd85f6e1d2fb43de2e
+48f0abc782897ae8a59ac3840f4b1336
   $tc'Quake'Dormant1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-5413b84361cf9058fd0883c741731548
+d78cebd2b563f77a0406e216b684a7cc
   $tc'Quake'Dormant2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Quake.$tc'Quake'Dormant3) -}
-1dd57e32614fdad6494c2537a5ef875a
+90dc2e49d9181826a641cf9642ce0afe
   $tc'Quake'Dormant3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Quake'Dormant"#) -}
-e8e26015e51f8013daa6656c2f831ec4
+4742423e902504650cbc9d8c4cb64314
   $tc'Quake'Progress :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   4837552753247452757##
-                   867754279373570137##
+                   5506660301336421872##
+                   10366597590685379604##
                    StreetRun.Quake.$trModule
                    StreetRun.Quake.$tc'Quake'Progress2
                    0#
                    StreetRun.Quake.$tc'Quake'Progress1) -}
-d9113be22c8e569815fa4de734896b09
+0762c33dfae34a7b2d9a3ab4c5f09366
   $tc'Quake'Progress1 :: GHC.Types.KindRep
   {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
-34ddd2d4aa21485de84797dd6ce3a034
+a9fbc3acfea452b3023368b67284185e
   $tc'Quake'Progress2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    StreetRun.Quake.$tc'Quake'Progress3) -}
-0f2b99ffdbe9a837d8d65709042c070a
+29a019ff60f009372cbd4afccfb058b0
   $tc'Quake'Progress3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("'Quake'Progress"#) -}
-c02bd804ea0ee6788e397e0409fc2449
+eca0d55e94dff96c4ee6889300819f15
   $tcQuake :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   2105696140553575875##
-                   11880139981111637352##
+                   15536885310880748013##
+                   11924106605846539131##
                    StreetRun.Quake.$trModule
                    StreetRun.Quake.$tcQuake1
                    0#
                    GHC.Types.krep$*) -}
-d45eacf2ee4cc2b868733613d7473bc0
+a3d9fda787379107d67edbec4219a804
   $tcQuake1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Quake.$tcQuake2) -}
-bc44d3cc94d0d44513fdb63b6c709052
+3c1b9f11a4e9c9e4f377823bcc4e84c7
   $tcQuake2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Quake"#) -}
-b5eb14e95cb7380a26dcab63f78d1873
+79bf5d61f7faa12dff863f779356a9f4
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    StreetRun.Quake.$trModule3
                    StreetRun.Quake.$trModule1) -}
-923d99c882b4ed1a5cf56cde5ee25b65
+fd3946e3577b9f51db679b35092516f7
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Quake.$trModule2) -}
-6c1a899c5f5f436b3453ebf0d17249d6
+919855cee8656c2166fc12bb862ab977
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("StreetRun.Quake"#) -}
-03abf7abbd316160efa36a65f0be4719
+ad1421fb1392de5e2dc8065a740e4a38
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS StreetRun.Quake.$trModule4) -}
-526273a53f45fb559b0bd03512b81abb
+f8f9b6d8e315667556ea09856d707414
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-bf6b24e5831a4dd5418423ad7b277e13
+     Unfolding: ("street-runner-0.0.0-8ZEy2IVHyWYJYWzE7qtJkg"#) -}
+1a9c7230fc5b6045929623cb4b581a74
   $w$cshowsPrec ::
     GHC.Prim.Int# -> StreetRun.Quake.Quake -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,U><S,1*U>, Inline: [2],
@@ -375,11 +375,11 @@ bf6b24e5831a4dd5418423ad7b277e13
                                 @ GHC.Types.Char
                                 StreetRun.Quake.$fShowQuake2
                                 (g (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)2 x))) } }) -}
-bf6b24e5831a4dd5418423ad7b277e13
+1a9c7230fc5b6045929623cb4b581a74
   data Quake
     = Quake'Progress StreetRun.Types.Percent
     | Quake'Dormant StreetRun.Types.Seconds
-48d18b04961a0ad20e0228225b0c4a6d
+783eb91b6f759b985e1ba0f7ec57d9d6
   applyQuake ::
     GHC.Types.Int
     -> GHC.Types.Int
@@ -444,10 +444,10 @@ bf6b24e5831a4dd5418423ad7b277e13
                   case ds of wild1 { (,) x' y' ->
                   case y' of wild2 { GHC.Types.I# y ->
                   GHC.Types.I# (GHC.Prim.+# x y) } } }) }) -}
-6149886c000da7373c05ba18387401da
+cfc6f1542e605fd5f9e1ee084cc03b5c
   applyQuake1 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
-2eb8b80870c6bb10e576397aecaf1b84
+befce6a55c0187df888e8eb2f49f30a5
   quakeAdjust ::
     GHC.Types.Int
     -> GHC.Types.Int
@@ -494,7 +494,7 @@ bf6b24e5831a4dd5418423ad7b277e13
                        ww3 } } } })
                    StreetRun.Quake.Quake'Dormant ipv
                    -> (StreetRun.Quake.applyQuake1, StreetRun.Quake.applyQuake1) }) -}
-1fefde292dc4702789b0b1ea301990b3
+1fe8d332d3cf59b7b7ab747fccd17c2a
   startQuake ::
     StreetRun.Step.Step StreetRun.Quake.Quake -> GHC.Types.Bool
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
@@ -506,7 +506,7 @@ bf6b24e5831a4dd5418423ad7b277e13
                         StreetRun.Quake.Quake'Progress ds3 -> GHC.Types.True
                         StreetRun.Quake.Quake'Dormant ipv -> GHC.Types.False }
                    StreetRun.Step.Step'Sustain ipv -> GHC.Types.False }) -}
-bba9b631bfbac6c17b33e69edb0e8c76
+a525ba97ef20b55e0890e2086574afb9
   stepQuake ::
     StreetRun.Quake.Quake -> StreetRun.Step.Step StreetRun.Quake.Quake
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
@@ -546,24 +546,24 @@ bba9b631bfbac6c17b33e69edb0e8c76
                              @ StreetRun.Quake.Quake
                              wild
                              StreetRun.Quake.stepQuake1 } } }) -}
-ad02ffa56ab8a88ea3346e784444e4a8
+5bf034c9599bd7cbb00cd6c2b43622cf
   stepQuake1 :: StreetRun.Quake.Quake
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (StreetRun.Quake.Quake'Progress
                    StreetRun.Quake.stepQuake2
                      `cast`
                    (Sym (StreetRun.Types.N:Percent[0]))) -}
-3bbacb38acb1333b2f969ebfdf0f46b7
+a4e9d1e0f3677b507f954eaa2e6dca71
   stepQuake2 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 0.0#) -}
-a1dd40746c560e609e6a768861c60954
+9adc5821e0963f7c1cc789433ac28598
   stepQuake3 :: StreetRun.Quake.Quake
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (StreetRun.Quake.Quake'Dormant
                    StreetRun.Quake.stepQuake4
                      `cast`
                    (Sym (StreetRun.Types.N:Seconds[0]))) -}
-b4b0a630750574ddba7500f021d51897
+62a756bdf23bd00cf8df754075946f8b
   stepQuake4 :: GHC.Types.Float
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.F# 30.0#) -}
 instance GHC.Classes.Eq [StreetRun.Quake.Quake]
