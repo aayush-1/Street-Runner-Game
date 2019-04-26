@@ -14,7 +14,7 @@ import StreetRun.Snag
 import StreetRun.Font
 import StreetRun.Font_functions
 import StreetRun.Scenario
-import StreetRun.SDLRenderer
+import StreetRun.SDLLayer
 
 drawHorizontalScrollSprite :: (MonadReader Config m, SDLRenderer m) => (Config ->  Animate.SpriteSheet key SDL.Texture Seconds) -> Int -> Animate.SpriteClip key -> (Int, Int) -> m ()
 drawHorizontalScrollSprite ss scale clip (x,y) = do

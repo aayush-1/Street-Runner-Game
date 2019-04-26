@@ -14,7 +14,7 @@ import StreetRun.Snag
 import StreetRun.Font
 import StreetRun.Font_functions
 import StreetRun.Scenario
-import StreetRun.SDLRenderer
+import StreetRun.SDLLayer
 
 drawTextureSprite :: (SDLRenderer m, MonadReader Config m) => (Config -> SDL.Texture) -> (Int, Int) -> m ()
 drawTextureSprite getTex (x,y) = do

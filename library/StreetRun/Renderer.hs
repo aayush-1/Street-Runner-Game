@@ -14,7 +14,7 @@ import StreetRun.Snag
 import StreetRun.Font
 import StreetRun.Font_functions
 import StreetRun.Scenario
-import StreetRun.SDLRenderer
+import StreetRun.SDLLayer
 
 class Monad m => Renderer m where
   clearScreen :: m ()
