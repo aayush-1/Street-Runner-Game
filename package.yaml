@@ -56,4 +56,4 @@ executables:
     - -threaded
     - -with-rtsopts=-N
     main: Main.hs
-    source-dirs: executable
+    source-dirs: src

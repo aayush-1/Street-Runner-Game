@@ -118,7 +118,7 @@ executable street-runner
   other-modules:
       Paths_street_runner
   hs-source-dirs:
-      executable
+      src
   default-extensions: DuplicateRecordFields FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving LambdaCase NamedFieldPuns ScopedTypeVariables OverloadedStrings
   ghc-options: -Wall -rtsopts -threaded -with-rtsopts=-N
   build-depends:
