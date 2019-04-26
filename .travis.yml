@@ -5,6 +5,8 @@ cache:
   directories:
   - $HOME/.stack
 
+language: haskell
+
 before_install:
 # Download and unpack the stack executable
   - mkdir -p ~/.local/bin
