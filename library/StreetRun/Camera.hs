@@ -21,6 +21,3 @@ initCamera = Camera (V2 (screenWidth / 2) (screenHeight / 2)) (V2 1 1)
 
 moveOrigin :: V2 Float -> V2 Float
 moveOrigin (V2 x y) = V2 (screenWidth / 2 - x) (screenHeight / 2 - y)
-
-lerpCamera :: Float -> Camera -> Camera -> Camera
-lerpCamera p a b = Camera (lerp p (camOrigin a) (camOrigin b)) (lerp p (camZoom a) (camZoom b))

@@ -58,7 +58,6 @@ updatePlay = do
   (collision, da') <- tryCollision da
   -- updateZoom da'
   updateRunner da'
-  updateCamera
   updateScrolling
   updateStocks collision
   updateHiscore
@@ -137,14 +136,7 @@ updateRunner sda = do
       , pvRunnerPos = stepRunnerPosition sda runnerAnimations (pvRunnerPos pv)
       }
 
--- updateZoom :: (MonadState s m, HasPlayVars s) => Step RunnerAction -> m ()
--- updateZoom da = modifyPlayVars $ \pv -> pv { pvZoom = stepZoom (pvZoom pv) (smash da) }
 
-updateCamera :: (MonadState s m, HasPlayVars s, CameraControl m) => m ()
-updateCamera = do
-  -- zoom <- gets (pvZoom . view playVars)
-  let cam = lerpCamera ((0) ** (1.8 :: Float)) duckCamera initCamera
-  adjustCamera cam
 
 updateObstacles :: (MonadState s m, HasPlayVars s, Renderer m, AudioSfx m) => m ()
 updateObstacles = do
