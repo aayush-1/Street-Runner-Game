@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:26:37.656813524 UTC
+2019-04-26 07:48:59.319181926 UTC
 
 interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Renderer 8064
-  interface hash: 9be6549940337960e894f261d91c35db
-  ABI hash: eba9a9e4c8700e42ea509a1bf564c30b
+  interface hash: 72f5cb54fc30b69f6dfa999fa42809ac
+  ABI hash: a69ba77fd8f4ba75b3394f8a84f6545b
   export-list hash: bdc569cebfaf1503ce959a9192a1814c
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
@@ -22,13 +22,13 @@ exports:
   StreetRun.Renderer.grassY
   StreetRun.Renderer.streetY
   StreetRun.Renderer.Renderer{StreetRun.Renderer.clearScreen StreetRun.Renderer.drawBackStreet StreetRun.Renderer.drawBird StreetRun.Renderer.drawBlackOverlay StreetRun.Renderer.drawBuilding StreetRun.Renderer.drawControlsText StreetRun.Renderer.drawGameOverText StreetRun.Renderer.drawGrass StreetRun.Renderer.drawHiscoreText StreetRun.Renderer.drawLava StreetRun.Renderer.drawNumber StreetRun.Renderer.drawPauseText StreetRun.Renderer.drawPressEscapeText StreetRun.Renderer.drawPressSpaceText StreetRun.Renderer.drawRock StreetRun.Renderer.drawRunner StreetRun.Renderer.drawScreen StreetRun.Renderer.drawStreet StreetRun.Renderer.drawTitleText StreetRun.Renderer.getBirdAnimations StreetRun.Renderer.getBuildingAnimations StreetRun.Renderer.getGrassAnimations StreetRun.Renderer.getLavaAnimations StreetRun.Renderer.getRockAnimations StreetRun.Renderer.getRunnerAnimations}
-module dependencies: StreetRun.Camera StreetRun.Config
-                     StreetRun.Font StreetRun.Font_functions StreetRun.Frame
-                     StreetRun.Hurdle StreetRun.Hurdle_1 StreetRun.Input
-                     StreetRun.Physics StreetRun.Resource StreetRun.Runner
-                     StreetRun.Runner_func_1 StreetRun.Runner_func_2
-                     StreetRun.SDLRenderer StreetRun.Scenario StreetRun.Snag
-                     StreetRun.Step StreetRun.Types
+module dependencies: StreetRun.Assets StreetRun.Assets_1
+                     StreetRun.Assets_2 StreetRun.Camera StreetRun.Config StreetRun.Font
+                     StreetRun.Font_functions StreetRun.Frame StreetRun.Hurdle
+                     StreetRun.Hurdle_1 StreetRun.Input StreetRun.Physics
+                     StreetRun.Runner StreetRun.Runner_func_1 StreetRun.Runner_func_2
+                     StreetRun.SDLLayer StreetRun.Scenario StreetRun.Snag StreetRun.Step
+                     StreetRun.Types
 package dependencies: StateVar-1.1.1.1 adjunctions-4.4
                       aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
                       base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
@@ -155,10 +155,10 @@ import  -/  mtl-2.2.2:Control.Monad.Reader d5c3a33f1c95bb71f4ae02f87a7048ff
 import  -/  mtl-2.2.2:Control.Monad.Reader.Class 56d676c7504f5007ee5b66906716abcc
 import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
 import  -/  sdl2-2.4.1.0:SDL.Vect cd47fc30aef16e8f55c1351dafae292d
-import  -/  StreetRun.Config cf93ae4b11ed31ae458ca135cf881ef9
-  exports: 718448995096e5a0315e80eb460349b2
-  $sel:cRenderer:Config 8fee3f2631cead17e5b67aab65a149ae
-  Config 8fee3f2631cead17e5b67aab65a149ae
+import  -/  StreetRun.Config d537956b220fa6e917381a250f3474d9
+  exports: 67f65ea021d4fb0cf4ae01501b50bd2f
+  $sel:cRenderer:Config 9c151486d5b66b82caae303edc04126a
+  Config 9c151486d5b66b82caae303edc04126a
 import  -/  StreetRun.Font a32f3953bbb50ce9b469edb8463d6f24
   exports: 7faf0604fc3be1edae721103fd7b3042
   Number b7e100f9135b0814c955ea3d79c02ada
@@ -167,11 +167,11 @@ import  -/  StreetRun.Font_functions 1a5a69e004e559ef0ed610c21b9037a3
 import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
   exports: 07dc0a302095db6221f41ecc2db9aec7
   RunnerKey c9d847714c135c3fbba17148989067a8
-import  -/  StreetRun.SDLRenderer 3cb58a3e7c151a4e55076a15375a1145
-  exports: b035665cd19a2962c5a1cabd4abb8a1f
-  SDLRenderer a56dc3e11af00cde5b5730118be5d15e
-  clearRenderer d6e469c66242f7358aea74693233b027
-  presentRenderer 006665aeab11c7fdedf4c62051a17626
+import  -/  StreetRun.SDLLayer 472f0f146c646fd670be8cc0b6cbfdac
+  exports: b9d495c503a62642ca4638e990961b8e
+  SDLRenderer 4f6ee56ef94bbb8367ac0e96051915aa
+  clearRenderer 2c61001c8769a52e5ab64fba7e437b48
+  presentRenderer 2ea8ef135c0a5a42eea4c94f38f65b5e
 import  -/  StreetRun.Scenario 3d565e4d4fcefb40de1d348ddc5508f1
   exports: 425f740a4cf1b868d9284521ed68ce1e
   BuildingKey b4c3f53a1de721da99d4f02d4409c2d9
@@ -248,7 +248,7 @@ caedb621ea7ef52a6e505679c297b6b3
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-bda697b6a69aaed3882f497cced359de
+104e4dd10352a56ce884cd6be4b621c9
   $wclearScreen' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (SDL.Internal.Types.Renderer -> m ())
@@ -323,9 +323,9 @@ ccf52ea587c1ecc8ec1796df4caa3d7d
 ab86752338eaff4cb8c6e6f15dcd589f
   buildingY :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# -16#) -}
-1350ffd59d3419c0f668afcdafc5ad44
+b654236dfeea956a77d7651122192aa0
   clearScreen' ::
-    (StreetRun.SDLRenderer.SDLRenderer m,
+    (StreetRun.SDLLayer.SDLRenderer m,
      Control.Monad.Reader.Class.MonadReader
        StreetRun.Config.Config m) =>
     m ()
@@ -334,15 +334,15 @@ ab86752338eaff4cb8c6e6f15dcd589f
      Inline: [2],
      Unfolding: InlineRule (2, True, False)
                 (\ @ m :: * -> *
-                   (w :: StreetRun.SDLRenderer.SDLRenderer m)
+                   (w :: StreetRun.SDLLayer.SDLRenderer m)
                    (w1 :: Control.Monad.Reader.Class.MonadReader
                             StreetRun.Config.Config m) ->
-                 case w of ww { StreetRun.SDLRenderer.C:SDLRenderer ww1 ww2 ww3 ww4 ww5 ->
+                 case w of ww { StreetRun.SDLLayer.C:SDLRenderer ww1 ww2 ww3 ww4 ww5 ->
                  case ww1 of ww6 { GHC.Base.C:Monad ww7 ww8 ww9 ww10 ww11 ->
                  StreetRun.Renderer.$wclearScreen' @ m ww8 ww3 w1 } }) -}
-003fa5805c240f0f03d27f5af90ca290
+af034b3304e1b941ef9b4ecaf0673006
   drawScreen' ::
-    (StreetRun.SDLRenderer.SDLRenderer m,
+    (StreetRun.SDLLayer.SDLRenderer m,
      Control.Monad.Reader.Class.MonadReader
        StreetRun.Config.Config m) =>
     m ()
@@ -351,10 +351,10 @@ ab86752338eaff4cb8c6e6f15dcd589f
      Inline: [2],
      Unfolding: InlineRule (2, True, False)
                 (\ @ m :: * -> *
-                   (w :: StreetRun.SDLRenderer.SDLRenderer m)
+                   (w :: StreetRun.SDLLayer.SDLRenderer m)
                    (w1 :: Control.Monad.Reader.Class.MonadReader
                             StreetRun.Config.Config m) ->
-                 case w of ww { StreetRun.SDLRenderer.C:SDLRenderer ww1 ww2 ww3 ww4 ww5 ->
+                 case w of ww { StreetRun.SDLLayer.C:SDLRenderer ww1 ww2 ww3 ww4 ww5 ->
                  case ww1 of ww6 { GHC.Base.C:Monad ww7 ww8 ww9 ww10 ww11 ->
                  StreetRun.Renderer.$wclearScreen' @ m ww8 ww2 w1 } }) -}
 a198ec76154c94d6ad1a9049304ad402

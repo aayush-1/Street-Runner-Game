@@ -29,7 +29,9 @@ import StreetRun.Hurdle_1
 import StreetRun.SDLLayer
 import StreetRun.Load
 import StreetRun.Scene
-import StreetRun.Resource
+import StreetRun.Assets
+import StreetRun.Assets_1
+import StreetRun.Assets_2
 import StreetRun.Bolt
 import StreetRun.Bolt_1
 import StreetRun.Title

@@ -1,5 +1,6 @@
-module StreetRun.Resource where
+module StreetRun.Assets_1 where
 
+import StreetRun.Assets
 import qualified SDL
 import qualified SDL.Mixer as Mixer
 import qualified SDL.Font as Font
@@ -19,61 +20,6 @@ import StreetRun.Font
 import StreetRun.Font_functions
 import StreetRun.Snag
 import StreetRun.Scenario
-
-
-data Resources = Resources
-  { rBuildingSprites :: Animate.SpriteSheet BuildingKey SDL.Texture Seconds
-  , rGrassSprites :: Animate.SpriteSheet GrassKey SDL.Texture Seconds
-  , rBackStreetSprites :: SDL.Texture
-  , rStreetSprites :: SDL.Texture
-  , rRunnerSprites :: Animate.SpriteSheet RunnerKey SDL.Texture Seconds
-  , rBirdSprites :: Animate.SpriteSheet BirdKey SDL.Texture Seconds
-  , rLavaSprites :: Animate.SpriteSheet LavaKey SDL.Texture Seconds
-  , rRockSprites :: Animate.SpriteSheet RockKey SDL.Texture Seconds
-  , rGameMusic :: Mixer.Music
-  , rJumpSfx :: Mixer.Chunk
-  , rDuckSfx :: Mixer.Chunk
-  , rPointSfx :: Mixer.Chunk
-  , rBirdSfx :: Mixer.Chunk
-  , rHurtSfx :: Mixer.Chunk
-  , rLavaSfx :: Mixer.Chunk
-  , rQuakeSfx :: Mixer.Chunk
-  , rRockSfx :: Mixer.Chunk
-  , rDeathSfx :: Mixer.Chunk
-  , rRecoverSfx :: Mixer.Chunk
-  , rStockSfx :: Mixer.Chunk
-  , rPauseSprite :: SDL.Texture
-  , rSpaceSprite :: SDL.Texture
-  , rEscapeSprite :: SDL.Texture
-  , rGameOverSprite :: SDL.Texture
-  , rHiscoreSprite :: SDL.Texture
-  , rTitleSprite :: SDL.Texture
-  , rNumberSprites :: Number -> SDL.Texture
-  , rControlsSprite :: SDL.Texture
-  }
-
--- | Produce a new 'SDL.Surface' based on an existing one, but
--- optimized for blitting to the specified 'SDL.PixelFormat'.
--- SDL_surface contains collection of pixel used 
--- SDL_PixelFormat -- format in which pixel info is stored 
-convertSurface :: SDL.Surface -> SDL.PixelFormat -> IO SDL.Surface  
-convertSurface (SDL.Surface s _) pixFmt = do
-  fmt <- Raw.allocFormat (Numbered.toNumber pixFmt) --tonumber converts string to numbers , returns pointer to pxfmt
-  surface <- SDL.Surface <$> Raw.convertSurface s fmt 0 <*> pure Nothing-- returns new surface 
-  surface <$ Raw.freeFormat fmt 
-
-loadSurface :: FilePath -> Maybe Animate.Color -> IO SDL.Surface
-loadSurface path alpha = do
-  surface0 <- Image.load path
-  surface <- convertSurface surface0 SDL.RGBA8888
-  SDL.freeSurface surface0
-  case alpha of
-    Just (r,g,b) -> SDL.surfaceColorKey surface $= (Just $ V4 r g b 0x00)
-    Nothing -> return ()
-  return surface
-
-alphaColorDef :: Animate.Color -- backStreet color defination for transparency
-alphaColorDef = (0xff,0x00,0xff)
 
 loadResources :: SDL.Renderer -> IO Resources
 loadResources renderer = do
@@ -169,34 +115,3 @@ loadResources renderer = do
   where
     toTexture surface = SDL.createTextureFromSurface renderer surface
     loadTexture path c = SDL.createTextureFromSurface renderer =<< loadSurface path c
-
-freeResources :: Resources -> IO ()
-freeResources r = do
-  SDL.destroyTexture $ Animate.ssImage (rBuildingSprites r)
-  SDL.destroyTexture (rBackStreetSprites r)
-  SDL.destroyTexture (rStreetSprites r)
-  SDL.destroyTexture $ Animate.ssImage (rGrassSprites r)
-  SDL.destroyTexture $ Animate.ssImage (rRunnerSprites r)
-  SDL.destroyTexture $ Animate.ssImage (rBirdSprites r)
-  SDL.destroyTexture $ Animate.ssImage (rLavaSprites r)
-  SDL.destroyTexture $ Animate.ssImage (rRockSprites r)
-  SDL.destroyTexture (rPauseSprite r)
-  SDL.destroyTexture (rEscapeSprite r)
-  SDL.destroyTexture (rSpaceSprite r)
-  SDL.destroyTexture (rGameOverSprite r)
-  SDL.destroyTexture (rHiscoreSprite r)
-  SDL.destroyTexture (rTitleSprite r)
-  SDL.destroyTexture (rControlsSprite r)
-
-  Mixer.free (rGameMusic r)
-  Mixer.free (rJumpSfx r)
-  Mixer.free (rDuckSfx r)
-  Mixer.free (rPointSfx r)
-  Mixer.free (rBirdSfx r)
-  Mixer.free (rHurtSfx r)
-  Mixer.free (rLavaSfx r)
-  Mixer.free (rQuakeSfx r)
-  Mixer.free (rRockSfx r)
-  Mixer.free (rRecoverSfx r)
-  Mixer.free (rStockSfx r)
-  Mixer.free (rDeathSfx r)

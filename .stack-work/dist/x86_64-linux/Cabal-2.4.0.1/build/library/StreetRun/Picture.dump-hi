@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-26 06:49:53.385018273 UTC
+2019-04-26 07:49:00.258580449 UTC
 
 interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Picture 8064
-  interface hash: c29572e6ca7baacbaf873a5afd2c76a7
-  ABI hash: 75395a4c252b8548400a323f40a76527
+  interface hash: b5337ae5b986ee077bd176a3bbf26469
+  ABI hash: 2415def10652325ab2b0934136a862a9
   export-list hash: babc26a2152d66639b7a47ea4c5947f4
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
@@ -18,16 +18,17 @@ exports:
   StreetRun.Picture.adjustCamera'
   StreetRun.Picture.moveCamera
   StreetRun.Picture.CameraControl{StreetRun.Picture.adjustCamera}
-module dependencies: StreetRun.Camera StreetRun.Common
+module dependencies: StreetRun.Assets StreetRun.Assets_1
+                     StreetRun.Assets_2 StreetRun.Camera StreetRun.Common
                      StreetRun.Config StreetRun.Font StreetRun.Font_functions
                      StreetRun.Frame StreetRun.Hurdle StreetRun.Hurdle_1 StreetRun.Input
                      StreetRun.Out StreetRun.Out_func StreetRun.Physics StreetRun.Quake
                      StreetRun.Quake_BackStreet StreetRun.Quake_Building
-                     StreetRun.Quake_Grass StreetRun.Quake_Street StreetRun.Resource
-                     StreetRun.Runner StreetRun.Runner_func_1 StreetRun.Runner_func_2
-                     StreetRun.Scenario StreetRun.Sfx StreetRun.Snag StreetRun.State
-                     StreetRun.Step StreetRun.Tag StreetRun.Tag_func StreetRun.Types
-                     StreetRun.Work StreetRun.Work_func
+                     StreetRun.Quake_Grass StreetRun.Quake_Street StreetRun.Runner
+                     StreetRun.Runner_func_1 StreetRun.Runner_func_2 StreetRun.Scenario
+                     StreetRun.Sfx StreetRun.Snag StreetRun.State StreetRun.Step
+                     StreetRun.Tag StreetRun.Tag_func StreetRun.Types StreetRun.Work
+                     StreetRun.Work_func
 package dependencies: StateVar-1.1.1.1 adjunctions-4.4
                       aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
                       base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
@@ -167,10 +168,10 @@ import  -/  StreetRun.Camera 63926371f9a3875764572c53b7b589e9
   Camera 2825edad27438647c3fbdedec7f77477
   moveOrigin b15a8ffc08aeb0da07f783749d42a97a
   screenV2 2a10fb626633c8c65637ada046def9a1
-import  -/  StreetRun.Config cf93ae4b11ed31ae458ca135cf881ef9
-  exports: 718448995096e5a0315e80eb460349b2
-  $sel:cRenderer:Config 8fee3f2631cead17e5b67aab65a149ae
-  Config 8fee3f2631cead17e5b67aab65a149ae
+import  -/  StreetRun.Config d537956b220fa6e917381a250f3474d9
+  exports: 67f65ea021d4fb0cf4ae01501b50bd2f
+  $sel:cRenderer:Config 9c151486d5b66b82caae303edc04126a
+  Config 9c151486d5b66b82caae303edc04126a
 import  -/  StreetRun.State 2b4a5b23cba95fdf8a8075ad75dbe6ec
   exports: 9215ef2a775e8ad7562f6edbfe13ac1f
   $sel:vCamera:Vars 06c844f355a6a421607a99fdffa4b901
@@ -238,7 +239,7 @@ d7bc4eb66a0260d6e7872e44f49ab061
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-c2dd3f47aa9f2819bd766201e74cac0b
+f57d028cdf86b15d6b2c8de452fc2cf6
   $wadjustCamera' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a b. m a -> m b -> m b)
@@ -358,7 +359,7 @@ c2dd3f47aa9f2819bd766201e74cac0b
   class GHC.Base.Monad m => CameraControl (m :: * -> *) where
     adjustCamera :: StreetRun.Camera.Camera -> m ()
     {-# MINIMAL adjustCamera #-}
-e0a614f67400a50e568310b8cd0251a3
+85295771b64e18fb6e41800af72908cd
   adjustCamera' ::
     (Control.Monad.IO.Class.MonadIO m,
      Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,

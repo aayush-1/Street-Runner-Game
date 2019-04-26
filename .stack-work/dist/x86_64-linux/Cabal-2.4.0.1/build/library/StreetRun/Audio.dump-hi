@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:26:37.55509284 UTC
+2019-04-26 07:49:00.127299441 UTC
 
 interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Audio 8064
-  interface hash: 1b8d30a36af5bfa598d9a7c9937b5c8b
-  ABI hash: b9aa4bed0b608434003177c2612cb676
+  interface hash: 1eab02d2e08bcd9349843bf922d6e74a
+  ABI hash: b53cafefd6fbfed602e3f905cf148dbc
   export-list hash: ea2a64f8a738ac11df84a60ad5ddd8a8
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
@@ -32,12 +32,12 @@ exports:
   StreetRun.Audio.raiseGameMusic'
   StreetRun.Audio.stopGameMusic'
   StreetRun.Audio.Audio{StreetRun.Audio.lowerGameMusic StreetRun.Audio.playBirdSfx StreetRun.Audio.playDeathSfx StreetRun.Audio.playDuckSfx StreetRun.Audio.playGameMusic StreetRun.Audio.playHurtSfx StreetRun.Audio.playJumpSfx StreetRun.Audio.playLavaSfx StreetRun.Audio.playPointSfx StreetRun.Audio.playQuakeSfx StreetRun.Audio.playRecoverSfx StreetRun.Audio.playRockSfx StreetRun.Audio.playStockSfx StreetRun.Audio.raiseGameMusic StreetRun.Audio.stopGameMusic}
-module dependencies: StreetRun.Camera StreetRun.Config
-                     StreetRun.Font StreetRun.Font_functions StreetRun.Frame
-                     StreetRun.Hurdle StreetRun.Hurdle_1 StreetRun.Input
-                     StreetRun.Physics StreetRun.Resource StreetRun.Runner
-                     StreetRun.Runner_func_1 StreetRun.Runner_func_2 StreetRun.Scenario
-                     StreetRun.Snag StreetRun.Step StreetRun.Types
+module dependencies: StreetRun.Assets StreetRun.Assets_1
+                     StreetRun.Assets_2 StreetRun.Camera StreetRun.Config StreetRun.Font
+                     StreetRun.Font_functions StreetRun.Frame StreetRun.Hurdle
+                     StreetRun.Hurdle_1 StreetRun.Input StreetRun.Physics
+                     StreetRun.Runner StreetRun.Runner_func_1 StreetRun.Runner_func_2
+                     StreetRun.Scenario StreetRun.Snag StreetRun.Step StreetRun.Types
 package dependencies: StateVar-1.1.1.1 adjunctions-4.4
                       aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
                       base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
@@ -164,24 +164,24 @@ import  -/  mtl-2.2.2:Control.Monad.Reader.Class 56d676c7504f5007ee5b66906716abc
 import  -/  safe-exceptions-0.1.7.0:Control.Exception.Safe 17ab706d389356fc1b759977e8d17a1a
 import  -/  sdl2-2.4.1.0:SDL.Exception 5c32227f82a1360d86c7d3790a8a205d
 import  -/  sdl2-mixer-1.1.0:SDL.Mixer ab60a8550598269def875bc1a7207b35
-import  -/  StreetRun.Config cf93ae4b11ed31ae458ca135cf881ef9
-  exports: 718448995096e5a0315e80eb460349b2
-  $sel:cResources:Config 8fee3f2631cead17e5b67aab65a149ae
-  Config 8fee3f2631cead17e5b67aab65a149ae
-import  -/  StreetRun.Resource 357bae5ce68d97c8f50dc83bb134c5b4
-  $sel:rBirdSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rDeathSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rDuckSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rGameMusic:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rHurtSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rJumpSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rLavaSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rPointSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rQuakeSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rRecoverSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rRockSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rStockSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  Resources b1a0a1bc6772470c3243809e5e2e3dc0
+import  -/  StreetRun.Assets 8f2913451ac82f2b7c6c2615bf793ef1
+  $sel:rBirdSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rDeathSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rDuckSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rGameMusic:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rHurtSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rJumpSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rLavaSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rPointSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rQuakeSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRecoverSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRockSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rStockSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  Resources 506eb6c1c8a755fdf82b61cc10157e07
+import  -/  StreetRun.Config d537956b220fa6e917381a250f3474d9
+  exports: 67f65ea021d4fb0cf4ae01501b50bd2f
+  $sel:cResources:Config 9c151486d5b66b82caae303edc04126a
+  Config 9c151486d5b66b82caae303edc04126a
 705d46388a966a978f35825c0a5d42ea
   $tc'C:Audio :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
@@ -243,7 +243,7 @@ ad7babf4a8e02bc30fd81de74d1742bd
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-ebcc8e44a732583dea84b00c0960b178
+4eb7fdf153b36be89d513fb81d33cf90
   $wplayChunk ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m,
@@ -251,7 +251,7 @@ ebcc8e44a732583dea84b00c0960b178
     (forall e a.
      GHC.Exception.Type.Exception e =>
      m a -> (e -> m a) -> m a)
-    -> (StreetRun.Resource.Resources -> SDL.Mixer.Chunk) -> m ()
+    -> (StreetRun.Assets.Resources -> SDL.Mixer.Chunk) -> m ()
   {- Arity: 5,
      Strictness: <L,U(1*U(A,1*C1(C1(U)),A,1*C1(U),A),A,A,1*C1(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,U(A,C(C1(U)))><C(C(C(S))),1*C1(C1(C1(U)))><L,C(U)>,
      Inline: [2],
@@ -263,7 +263,7 @@ ebcc8e44a732583dea84b00c0960b178
                    (ww1 :: forall e a.
                            GHC.Exception.Type.Exception e =>
                            m a -> (e -> m a) -> m a)
-                   (w2 :: StreetRun.Resource.Resources -> SDL.Mixer.Chunk) ->
+                   (w2 :: StreetRun.Assets.Resources -> SDL.Mixer.Chunk) ->
                  let {
                    $dMonad :: GHC.Base.Monad m
                    = Control.Monad.Reader.Class.$p1MonadReader
@@ -315,7 +315,7 @@ ebcc8e44a732583dea84b00c0960b178
                            @ ()
                            SDL.Exception.$fExceptionSDLException
                            e1 } } })) -}
-c70c934414c1bfcb2ce06675ba75ab76
+76252585ccf0c97723a91369309d6b31
   $wplayGameMusic' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (forall a. (StreetRun.Config.Config -> a) -> m a)
@@ -383,7 +383,7 @@ d9a5b148fe0a6daf5c147a475f3919fc
 850c4a2100f00f9ddc424f6ee2047f52
   lowerGameMusic'1 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 16#) -}
-a1a81f5258f70a5c5bf5889850807f36
+168a1f877ce9f6612a571d494acd8098
   playBirdSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -404,13 +404,13 @@ a1a81f5258f70a5c5bf5889850807f36
                    $dMonadIO
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
-                   StreetRun.Resource.$sel:rBirdSfx:Resources) -}
-e31b03fcc88a801d6821eb56939c629f
+                   StreetRun.Assets.$sel:rBirdSfx:Resources) -}
+2eba77590077fb1bf56987a254967c37
   playChunk ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
      Control.Monad.Catch.MonadCatch m) =>
-    (StreetRun.Resource.Resources -> SDL.Mixer.Chunk) -> m ()
+    (StreetRun.Assets.Resources -> SDL.Mixer.Chunk) -> m ()
   {- Arity: 5,
      Strictness: <L,U(U(A,C(C1(U)),A,C(U),A),A,A,C(U))><L,U(U(U(U(C(C1(U)),C(C1(U))),A,A,A,A,A),C(C1(U)),C(C1(U)),C(U),A),C(U))><L,A><S(LC(C(C(S)))),1*U(U(A,C(C1(U))),1*C1(C1(C1(U))))><L,C(U)>,
      Inline: [2],
@@ -421,10 +421,10 @@ e31b03fcc88a801d6821eb56939c629f
                    (w1 :: Control.Monad.IO.Class.MonadIO m)
                    (w2 :: Control.Monad.Catch.MonadThrow m)
                    (w3 :: Control.Monad.Catch.MonadCatch m)
-                   (w4 :: StreetRun.Resource.Resources -> SDL.Mixer.Chunk) ->
+                   (w4 :: StreetRun.Assets.Resources -> SDL.Mixer.Chunk) ->
                  case w3 of ww { Control.Monad.Catch.C:MonadCatch ww1 ww2 ->
                  StreetRun.Audio.$wplayChunk @ m w w1 ww1 ww2 w4 }) -}
-f6d4b819d95e1cc021177c59ad7eaf39
+bb179bed625a4126574c88775dba4f53
   playDeathSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -445,8 +445,8 @@ f6d4b819d95e1cc021177c59ad7eaf39
                    $dMonadIO
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
-                   StreetRun.Resource.$sel:rDeathSfx:Resources) -}
-5bc02a9e6674748f9298180823f77ba0
+                   StreetRun.Assets.$sel:rDeathSfx:Resources) -}
+e33f01c7494dbf636f163fe1a37cd968
   playDuckSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -467,8 +467,8 @@ f6d4b819d95e1cc021177c59ad7eaf39
                    $dMonadIO
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
-                   StreetRun.Resource.$sel:rDuckSfx:Resources) -}
-e79ce42ec5153991d7acedebb4cce2fb
+                   StreetRun.Assets.$sel:rDuckSfx:Resources) -}
+62518f2a0d3fefe797a8ae7006c3d354
   playGameMusic' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m) =>
@@ -484,16 +484,16 @@ e79ce42ec5153991d7acedebb4cce2fb
                  case w of ww { Control.Monad.Reader.Class.C:MonadReader ww1 ww2 ww3 ww4 ->
                  case ww1 of ww5 { GHC.Base.C:Monad ww6 ww7 ww8 ww9 ww10 ->
                  StreetRun.Audio.$wplayGameMusic' @ m ww7 ww4 w1 } }) -}
-c29617d4ea5a63a4df2085708befc1ba
+822300eb38348bbcbb9543b26e6dd246
   playGameMusic'1 :: StreetRun.Config.Config -> SDL.Mixer.Music
   {- Arity: 1, HasNoCafRefs,
      Strictness: <S(LLS(LLLLLLLLSLLLLLLLLLLLLLLLLLLL)),1*U(A,A,1*U(A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A))>m,
      Unfolding: InlineRule (1, True, False)
                 (\ (x :: StreetRun.Config.Config) ->
                  case x of wild { StreetRun.Config.Config ds1 ds2 ds3 ->
-                 case ds3 of wild1 { StreetRun.Resource.Resources ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ds29 ds30 ds31 ->
+                 case ds3 of wild1 { StreetRun.Assets.Resources ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ds29 ds30 ds31 ->
                  ds12 } }) -}
-954d4a75cafd11bcacc4750427c0f53b
+ebcfe234cd77ae2d3db6aaed71a43634
   playHurtSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -514,8 +514,8 @@ c29617d4ea5a63a4df2085708befc1ba
                    $dMonadIO
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
-                   StreetRun.Resource.$sel:rHurtSfx:Resources) -}
-4ca0aa97343398d99d184330f47a94d3
+                   StreetRun.Assets.$sel:rHurtSfx:Resources) -}
+c7ce5dbc2eaabe123d5686e6863f328f
   playJumpSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -536,8 +536,8 @@ c29617d4ea5a63a4df2085708befc1ba
                    $dMonadIO
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
-                   StreetRun.Resource.$sel:rJumpSfx:Resources) -}
-a871f91a424ffb06f309c794e4b2f53f
+                   StreetRun.Assets.$sel:rJumpSfx:Resources) -}
+c791e66a1412e5be3c7ccd4c28838822
   playLavaSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -558,8 +558,8 @@ a871f91a424ffb06f309c794e4b2f53f
                    $dMonadIO
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
-                   StreetRun.Resource.$sel:rLavaSfx:Resources) -}
-02a7078d26aa04f79947b299a12f8a3f
+                   StreetRun.Assets.$sel:rLavaSfx:Resources) -}
+f0ee72adac57448714c1c0730d49c7d2
   playPointSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -580,8 +580,8 @@ a871f91a424ffb06f309c794e4b2f53f
                    $dMonadIO
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
-                   StreetRun.Resource.$sel:rPointSfx:Resources) -}
-609fe89c4fc6bc656f0286470b661fa7
+                   StreetRun.Assets.$sel:rPointSfx:Resources) -}
+3e4b51a88d3d6b9d55b3396a0620698a
   playQuakeSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -602,8 +602,8 @@ a871f91a424ffb06f309c794e4b2f53f
                    $dMonadIO
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
-                   StreetRun.Resource.$sel:rQuakeSfx:Resources) -}
-1675c543ef7fa60216b3a7d60fa0f03e
+                   StreetRun.Assets.$sel:rQuakeSfx:Resources) -}
+b0f206cb62e25b5f51f661e01896554f
   playRecoverSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -624,8 +624,8 @@ a871f91a424ffb06f309c794e4b2f53f
                    $dMonadIO
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
-                   StreetRun.Resource.$sel:rRecoverSfx:Resources) -}
-aa5ef7eeddb2c282077c622ac8ca7d8c
+                   StreetRun.Assets.$sel:rRecoverSfx:Resources) -}
+c0aedcf876696735448b7bcadd79b2be
   playRockSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -646,8 +646,8 @@ aa5ef7eeddb2c282077c622ac8ca7d8c
                    $dMonadIO
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
-                   StreetRun.Resource.$sel:rRockSfx:Resources) -}
-2b406e3fbd7f6b6387d1851f8b7602ef
+                   StreetRun.Assets.$sel:rRockSfx:Resources) -}
+75e83b9834e3b62d64e4beb71ee35cb0
   playStockSfx' ::
     (Control.Monad.Reader.Class.MonadReader StreetRun.Config.Config m,
      Control.Monad.IO.Class.MonadIO m, Control.Monad.Catch.MonadThrow m,
@@ -668,7 +668,7 @@ aa5ef7eeddb2c282077c622ac8ca7d8c
                    $dMonadIO
                    (Control.Monad.Catch.$p1MonadCatch @ m $dMonadCatch)
                    $dMonadCatch
-                   StreetRun.Resource.$sel:rStockSfx:Resources) -}
+                   StreetRun.Assets.$sel:rStockSfx:Resources) -}
 ec1ed41672fd5490732fbe9b4a984927
   raiseGameMusic' :: Control.Monad.IO.Class.MonadIO m => m ()
   {- Arity: 1, HasNoCafRefs,

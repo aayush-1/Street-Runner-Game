@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:26:37.424432748 UTC
+2019-04-26 07:48:59.236859728 UTC
 
 interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Config 8064
-  interface hash: a78adc1673bf77389795ecd4df37f905
-  ABI hash: cf93ae4b11ed31ae458ca135cf881ef9
-  export-list hash: 718448995096e5a0315e80eb460349b2
+  interface hash: 7edb1a9eac96d8555c8541635c4e2e79
+  ABI hash: d537956b220fa6e917381a250f3474d9
+  export-list hash: 67f65ea021d4fb0cf4ae01501b50bd2f
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
   opt_hash: 6faf2de08de32d19db9870899d88e59a
@@ -15,14 +15,14 @@ interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Config 8064
   used TH splices: False
   where
 exports:
+  StreetRun.Assets.Resources{StreetRun.Assets.Resources rBackStreetSprites rBirdSfx rBirdSprites rBuildingSprites rControlsSprite rDeathSfx rDuckSfx rEscapeSprite rGameMusic rGameOverSprite rGrassSprites rHiscoreSprite rHurtSfx rJumpSfx rLavaSfx rLavaSprites rNumberSprites rPauseSprite rPointSfx rQuakeSfx rRecoverSfx rRockSfx rRockSprites rRunnerSprites rSpaceSprite rStockSfx rStreetSprites rTitleSprite}
   StreetRun.Config.Config{StreetRun.Config.Config cRenderer cResources cWindow}
-  StreetRun.Resource.Resources{StreetRun.Resource.Resources rBackStreetSprites rBirdSfx rBirdSprites rBuildingSprites rControlsSprite rDeathSfx rDuckSfx rEscapeSprite rGameMusic rGameOverSprite rGrassSprites rHiscoreSprite rHurtSfx rJumpSfx rLavaSfx rLavaSprites rNumberSprites rPauseSprite rPointSfx rQuakeSfx rRecoverSfx rRockSfx rRockSprites rRunnerSprites rSpaceSprite rStockSfx rStreetSprites rTitleSprite}
-module dependencies: StreetRun.Camera StreetRun.Font
+module dependencies: StreetRun.Assets StreetRun.Assets_1
+                     StreetRun.Assets_2 StreetRun.Camera StreetRun.Font
                      StreetRun.Font_functions StreetRun.Frame StreetRun.Hurdle
                      StreetRun.Hurdle_1 StreetRun.Input StreetRun.Physics
-                     StreetRun.Resource StreetRun.Runner StreetRun.Runner_func_1
-                     StreetRun.Runner_func_2 StreetRun.Scenario StreetRun.Snag
-                     StreetRun.Step StreetRun.Types
+                     StreetRun.Runner StreetRun.Runner_func_1 StreetRun.Runner_func_2
+                     StreetRun.Scenario StreetRun.Snag StreetRun.Step StreetRun.Types
 package dependencies: StateVar-1.1.1.1 adjunctions-4.4
                       aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
                       base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
@@ -142,39 +142,43 @@ family instance modules: adjunctions-4.4:Data.Functor.Rep
 import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
 import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
 import  -/  sdl2-2.4.1.0:SDL.Internal.Types e9c1ec4176424e757d8731678bde7206
-import  -/  StreetRun.Resource 357bae5ce68d97c8f50dc83bb134c5b4
-  exports: 0ee985979bdcee8e3441b0d8e82a6966
-  $sel:rBackStreetSprites:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rBirdSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rBirdSprites:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rBuildingSprites:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rControlsSprite:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rDeathSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rDuckSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rEscapeSprite:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rGameMusic:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rGameOverSprite:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rGrassSprites:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rHiscoreSprite:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rHurtSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rJumpSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rLavaSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rLavaSprites:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rNumberSprites:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rPauseSprite:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rPointSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rQuakeSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rRecoverSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rRockSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rRockSprites:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rRunnerSprites:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rSpaceSprite:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rStockSfx:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rStreetSprites:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  $sel:rTitleSprite:Resources b1a0a1bc6772470c3243809e5e2e3dc0
-  Resources 6f8f2263508cd13cec2802d88110ac18
-  Resources b1a0a1bc6772470c3243809e5e2e3dc0
-8fee3f2631cead17e5b67aab65a149ae
+import  -/  StreetRun.Assets 8f2913451ac82f2b7c6c2615bf793ef1
+  exports: 0a88185806d79762834760ca6a267506
+  $sel:rBackStreetSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rBirdSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rBirdSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rBuildingSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rControlsSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rDeathSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rDuckSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rEscapeSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rGameMusic:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rGameOverSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rGrassSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rHiscoreSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rHurtSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rJumpSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rLavaSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rLavaSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rNumberSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rPauseSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rPointSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rQuakeSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRecoverSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRockSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRockSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRunnerSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rSpaceSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rStockSfx:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rStreetSprites:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rTitleSprite:Resources 506eb6c1c8a755fdf82b61cc10157e07
+  Resources f71a17aa4c9f09e87bb3cd6d3ac1eeb6
+  Resources 506eb6c1c8a755fdf82b61cc10157e07
+import  -/  StreetRun.Assets_1 f2041023758fb4fb3de0d429a531996b
+  exports: 23645df15c706621917a7fcb8bbb0549
+import  -/  StreetRun.Assets_2 ed7b4bbc3c266f562c97d1eacc2a8b6f
+  exports: 0c2eda332977a867677d45b3ebd3a710
+9c151486d5b66b82caae303edc04126a
   $sel:cRenderer:Config ::
     StreetRun.Config.Config -> SDL.Internal.Types.Renderer
   RecSel Left StreetRun.Config.Config
@@ -182,16 +186,16 @@ import  -/  StreetRun.Resource 357bae5ce68d97c8f50dc83bb134c5b4
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: StreetRun.Config.Config) ->
                  case ds of wild { StreetRun.Config.Config ds1 ds2 ds3 -> ds2 }) -}
-8fee3f2631cead17e5b67aab65a149ae
+9c151486d5b66b82caae303edc04126a
   $sel:cResources:Config ::
-    StreetRun.Config.Config -> StreetRun.Resource.Resources
+    StreetRun.Config.Config -> StreetRun.Assets.Resources
   RecSel Left StreetRun.Config.Config
   {- Arity: 1, HasNoCafRefs,
      Strictness: <S(LLS),1*U(A,A,1*U(U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U,U))>m,
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: StreetRun.Config.Config) ->
                  case ds of wild { StreetRun.Config.Config ds1 ds2 ds3 -> ds3 }) -}
-8fee3f2631cead17e5b67aab65a149ae
+9c151486d5b66b82caae303edc04126a
   $sel:cWindow:Config ::
     StreetRun.Config.Config -> SDL.Internal.Types.Window
   RecSel Left StreetRun.Config.Config
@@ -257,11 +261,11 @@ c7a4966f27e13d969d914ae1d60b6065
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
-8fee3f2631cead17e5b67aab65a149ae
+9c151486d5b66b82caae303edc04126a
   data Config
     = Config {cWindow :: SDL.Internal.Types.Window,
               cRenderer :: SDL.Internal.Types.Renderer,
-              cResources :: StreetRun.Resource.Resources}
+              cResources :: StreetRun.Assets.Resources}
 trusted: none
 require own pkg trusted: False
 module header:

@@ -1,0 +1,796 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-26 07:48:32.265493021 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Assets 8064
+  interface hash: 369aa2583c16b9ad850fad45d3d802bd
+  ABI hash: 8f2913451ac82f2b7c6c2615bf793ef1
+  export-list hash: 0a88185806d79762834760ca6a267506
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: cd6997935d09daa6a687cb8eb0447281
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.Assets.alphaColorDef
+  StreetRun.Assets.convertSurface
+  StreetRun.Assets.loadSurface
+  StreetRun.Assets.Resources{StreetRun.Assets.Resources rBackStreetSprites rBirdSfx rBirdSprites rBuildingSprites rControlsSprite rDeathSfx rDuckSfx rEscapeSprite rGameMusic rGameOverSprite rGrassSprites rHiscoreSprite rHurtSfx rJumpSfx rLavaSfx rLavaSprites rNumberSprites rPauseSprite rPointSfx rQuakeSfx rRecoverSfx rRockSfx rRockSprites rRunnerSprites rSpaceSprite rStockSfx rStreetSprites rTitleSprite}
+module dependencies: StreetRun.Camera StreetRun.Font
+                     StreetRun.Font_functions StreetRun.Frame StreetRun.Hurdle
+                     StreetRun.Hurdle_1 StreetRun.Input StreetRun.Physics
+                     StreetRun.Runner StreetRun.Runner_func_1 StreetRun.Runner_func_2
+                     StreetRun.Scenario StreetRun.Snag StreetRun.Step StreetRun.Types
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      aeson-1.4.2.0 animate-0.7.0 array-0.5.3.0 attoparsec-0.13.2.2
+                      base-4.12.0.0 base-compat-0.10.5 base-orphans-0.8.1
+                      base16-bytestring-0.1.1.6 base64-bytestring-1.0.0.2
+                      bifunctors-5.5.3 binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2
+                      call-stack-0.1.0 cereal-0.5.8.0 comonad-5.0.4 conduit-1.3.1.1
+                      containers-0.6.0.1 contravariant-1.5 data-default-class-0.1.2.0
+                      deepseq-1.4.4.0 distributive-0.6 dlist-0.8.0.6 errors-2.3.0
+                      exceptions-0.10.1 free-5.1 ghc-boot-th-8.6.4 ghc-prim-0.5.3
+                      hashable-1.2.7.0 integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2
+                      kan-extensions-5.2 key-state-0.2.0 lens-4.17 libyaml-0.1.1.0
+                      lifted-base-0.2.3.12 linear-1.20.8 monad-control-1.0.2.3 mtl-2.2.2
+                      pretty-1.1.3.6 primitive-0.6.4.0 profunctors-5.3 random-1.1
+                      reflection-2.1.4 resourcet-1.2.2 safe-0.3.17 scientific-0.3.6.2
+                      sdl2-2.4.1.0 sdl2-image-2.0.0 sdl2-mixer-1.1.0 sdl2-ttf-2.0.2
+                      semigroupoids-5.3.2 stm-2.5.0.0 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 text-conversions-0.3.0
+                      th-abstraction-0.2.11.0 time-1.8.0.2 time-locale-compat-0.1.1.5
+                      transformers-0.5.6.2 transformers-base-0.4.5.2
+                      transformers-compat-0.6.2 unliftio-core-0.1.2.0
+                      unordered-containers-0.2.9.0 uuid-types-1.0.3 vector-0.12.0.2
+                      yaml-0.11.0.0
+orphans: time-1.8.0.2:Data.Time.Clock.TAI
+         reflection-2.1.4:Data.Reflection linear-1.20.8:Linear.Instances
+         stm-2.5.0.0:Control.Monad.STM
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.2:Data.Vector.Unboxed
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.4.2.0:Data.Aeson.Types.Internal animate-0.7.0:Animate
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         conduit-1.3.1.1:Data.Conduit.Internal.Conduit
+                         conduit-1.3.1.1:Data.Conduit.Internal.Pipe
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         dlist-0.8.0.6:Data.DList free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.Affine linear-1.20.8:Linear.Plucker
+                         linear-1.20.8:Linear.Quaternion linear-1.20.8:Linear.V
+                         linear-1.20.8:Linear.V0 linear-1.20.8:Linear.V1
+                         linear-1.20.8:Linear.V2 linear-1.20.8:Linear.V3
+                         linear-1.20.8:Linear.V4
+                         monad-control-1.0.2.3:Control.Monad.Trans.Control
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep
+                         resourcet-1.2.2:Control.Monad.Trans.Resource.Internal
+                         sdl2-2.4.1.0:SDL.Audio sdl2-2.4.1.0:SDL.Event
+                         sdl2-2.4.1.0:SDL.Exception sdl2-2.4.1.0:SDL.Hint
+                         sdl2-2.4.1.0:SDL.Init sdl2-2.4.1.0:SDL.Input.GameController
+                         sdl2-2.4.1.0:SDL.Input.Joystick sdl2-2.4.1.0:SDL.Input.Keyboard
+                         sdl2-2.4.1.0:SDL.Input.Keyboard.Codes sdl2-2.4.1.0:SDL.Input.Mouse
+                         sdl2-2.4.1.0:SDL.Internal.Types sdl2-2.4.1.0:SDL.Power
+                         sdl2-2.4.1.0:SDL.Time sdl2-2.4.1.0:SDL.Video
+                         sdl2-2.4.1.0:SDL.Video.OpenGL sdl2-2.4.1.0:SDL.Video.Renderer
+                         sdl2-image-2.0.0:SDL.Image sdl2-ttf-2.0.2:SDL.Font
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  StateVar-1.1.1.1:Data.StateVar 3356bd62ad24ee9ca28de7ecf3cb79ab
+import  -/  animate-0.7.0:Animate 7c6496232245300f888f7e0dafeb231c
+import  -/  base-4.12.0.0:Data.Functor 069b2025a03e32fd228e74a86a58a075
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:GHC.IO 898d4ddbf00eb4732e5f462760aa42ae
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Types 57064c9f957b09bc2e360061ad5cae0b
+import  -/  linear-1.20.8:Linear.V4 c239e31f533d2317ba3df898a135744f
+import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
+import  -/  sdl2-2.4.1.0:SDL.Internal.Numbered f3853aae17e1e1845b0a5ba2f25c1787
+import  -/  sdl2-2.4.1.0:SDL.Raw.Video 49d4be230da948d7687c7ac321a90c99
+import  -/  sdl2-2.4.1.0:SDL.Vect cd47fc30aef16e8f55c1351dafae292d
+import  -/  sdl2-2.4.1.0:SDL.Video.Renderer fde5d4735decffc12f192a8489c7afbb
+import  -/  sdl2-image-2.0.0:SDL.Image 67bf05f64bc35f747ec59baab27c7015
+import  -/  sdl2-mixer-1.1.0:SDL.Mixer ab60a8550598269def875bc1a7207b35
+import  -/  sdl2-ttf-2.0.2:SDL.Font c4a3fe90a2776dafa33b0d9792acf8d0
+import  -/  StreetRun.Font a32f3953bbb50ce9b469edb8463d6f24
+  exports: 7faf0604fc3be1edae721103fd7b3042
+  Number b7e100f9135b0814c955ea3d79c02ada
+import  -/  StreetRun.Font_functions 1a5a69e004e559ef0ed610c21b9037a3
+  exports: 8738957528d4728a198f0cc1309ae7d5
+import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
+  exports: 07dc0a302095db6221f41ecc2db9aec7
+  RunnerKey c9d847714c135c3fbba17148989067a8
+import  -/  StreetRun.Runner_func_1 1928ba54f43a20365598e5563c7061e0
+  exports: 3aace68dd54e293b9e7cb9629aa29f15
+import  -/  StreetRun.Runner_func_2 f8a14e2b7b30d725c8ce0939a4c26918
+  exports: fc83ba710a96fc8b5794a82f528d2b01
+import  -/  StreetRun.Scenario 3d565e4d4fcefb40de1d348ddc5508f1
+  exports: 425f740a4cf1b868d9284521ed68ce1e
+  BuildingKey b4c3f53a1de721da99d4f02d4409c2d9
+  GrassKey da61b53345a9ca19f2dea7fa2a8793b3
+import  -/  StreetRun.Snag 435128ff0e3817e1b1768f09cf894e59
+  exports: 7f7b3656c97eba619795923512f79f2a
+  BirdKey a4b9334f1959d8eda311a05a86034c88
+  LavaKey ef15a7c1dcf7c6d0c02947b3c6d55574
+  RockKey a1efaaa0d94a0294a7825caa774f65b1
+import  -/  StreetRun.Types 12e0a8d06a192b8682dfbe1a40ce2131
+  exports: 687926be2250d898b68652280e784933
+  Seconds 3096dba0a5a57c02592e934b662fbeb3
+import  -/  text-conversions-0.3.0:Data.Text.Conversions bdb85579444dc4dc48bebd13d7c5bf10
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rBackStreetSprites:Resources ::
+    StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLSLLLLLLLLLLLLLLLLLLLLLLLLL),1*U(A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds3 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rBirdSfx:Resources ::
+    StreetRun.Assets.Resources -> SDL.Mixer.Chunk
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLSLLLLLLLLLLLLLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds13 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rBirdSprites:Resources ::
+    StreetRun.Assets.Resources
+    -> Animate.SpriteSheet
+         StreetRun.Snag.BirdKey
+         SDL.Video.Renderer.Texture
+         StreetRun.Types.Seconds
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLSLLLLLLLLLLLLLLLLLLLLLL),1*U(A,A,A,A,A,1*U(U,U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds6 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rBuildingSprites:Resources ::
+    StreetRun.Assets.Resources
+    -> Animate.SpriteSheet
+         StreetRun.Scenario.BuildingKey
+         SDL.Video.Renderer.Texture
+         StreetRun.Types.Seconds
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SLLLLLLLLLLLLLLLLLLLLLLLLLLL),1*U(1*U(U,U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds1 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rControlsSprite:Resources ::
+    StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLLLLLLLLLLLLLLS),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds28 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rDeathSfx:Resources ::
+    StreetRun.Assets.Resources -> SDL.Mixer.Chunk
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLLLLSLLLLLLLLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds18 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rDuckSfx:Resources ::
+    StreetRun.Assets.Resources -> SDL.Mixer.Chunk
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLSLLLLLLLLLLLLLLLLL),1*U(A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds11 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rEscapeSprite:Resources ::
+    StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLLLLLLLLLSLLLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds23 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rGameMusic:Resources ::
+    StreetRun.Assets.Resources -> SDL.Mixer.Music
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLSLLLLLLLLLLLLLLLLLLL),1*U(A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds9 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rGameOverSprite:Resources ::
+    StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLLLLLLLLLLSLLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds24 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rGrassSprites:Resources ::
+    StreetRun.Assets.Resources
+    -> Animate.SpriteSheet
+         StreetRun.Scenario.GrassKey
+         SDL.Video.Renderer.Texture
+         StreetRun.Types.Seconds
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LSLLLLLLLLLLLLLLLLLLLLLLLLLL),1*U(A,1*U(U,U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds2 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rHiscoreSprite:Resources ::
+    StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLLLLLLLLLLLSLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds25 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rHurtSfx:Resources ::
+    StreetRun.Assets.Resources -> SDL.Mixer.Chunk
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLSLLLLLLLLLLLLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds14 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rJumpSfx:Resources ::
+    StreetRun.Assets.Resources -> SDL.Mixer.Chunk
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLSLLLLLLLLLLLLLLLLLL),1*U(A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds10 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rLavaSfx:Resources ::
+    StreetRun.Assets.Resources -> SDL.Mixer.Chunk
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLSLLLLLLLLLLLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds15 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rLavaSprites:Resources ::
+    StreetRun.Assets.Resources
+    -> Animate.SpriteSheet
+         StreetRun.Snag.LavaKey
+         SDL.Video.Renderer.Texture
+         StreetRun.Types.Seconds
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLSLLLLLLLLLLLLLLLLLLLLL),1*U(A,A,A,A,A,A,1*U(U,U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds7 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rNumberSprites:Resources ::
+    StreetRun.Assets.Resources
+    -> StreetRun.Font.Number -> SDL.Video.Renderer.Texture
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLLLLLLLLLLLLLSL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds27 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rPauseSprite:Resources ::
+    StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLLLLLLLSLLLLLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds21 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rPointSfx:Resources ::
+    StreetRun.Assets.Resources -> SDL.Mixer.Chunk
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLSLLLLLLLLLLLLLLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds12 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rQuakeSfx:Resources ::
+    StreetRun.Assets.Resources -> SDL.Mixer.Chunk
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLLSLLLLLLLLLLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds16 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRecoverSfx:Resources ::
+    StreetRun.Assets.Resources -> SDL.Mixer.Chunk
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLLLLLSLLLLLLLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds19 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRockSfx:Resources ::
+    StreetRun.Assets.Resources -> SDL.Mixer.Chunk
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLLLSLLLLLLLLLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds17 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRockSprites:Resources ::
+    StreetRun.Assets.Resources
+    -> Animate.SpriteSheet
+         StreetRun.Snag.RockKey
+         SDL.Video.Renderer.Texture
+         StreetRun.Types.Seconds
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLSLLLLLLLLLLLLLLLLLLLL),1*U(A,A,A,A,A,A,A,1*U(U,U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds8 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rRunnerSprites:Resources ::
+    StreetRun.Assets.Resources
+    -> Animate.SpriteSheet
+         StreetRun.Runner.RunnerKey
+         SDL.Video.Renderer.Texture
+         StreetRun.Types.Seconds
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLSLLLLLLLLLLLLLLLLLLLLLLL),1*U(A,A,A,A,1*U(U,U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds5 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rSpaceSprite:Resources ::
+    StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLLLLLLLLSLLLLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds22 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rStockSfx:Resources ::
+    StreetRun.Assets.Resources -> SDL.Mixer.Chunk
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLLLLLLSLLLLLLLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds20 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rStreetSprites:Resources ::
+    StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLSLLLLLLLLLLLLLLLLLLLLLLLL),1*U(A,A,A,1*U(U),A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds4 }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  $sel:rTitleSprite:Resources ::
+    StreetRun.Assets.Resources -> SDL.Video.Renderer.Texture
+  RecSel Left StreetRun.Assets.Resources
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLLLLLLLLLLLLLLLLLLSLL),1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*U(U),A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: StreetRun.Assets.Resources) ->
+                 case ds of wild { StreetRun.Assets.Resources ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ds13 ds14 ds15 ds16 ds17 ds18 ds19 ds20 ds21 ds22 ds23 ds24 ds25 ds26 ds27 ds28 ->
+                 ds26 }) -}
+76486ba8359bda04db4c72d35588aefe
+  $tc'Resources :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   2774584090853810702##
+                   5229527982083654618##
+                   StreetRun.Assets.$trModule
+                   StreetRun.Assets.$tc'Resources2
+                   0#
+                   StreetRun.Assets.$tc'Resources1) -}
+556b59f19b1851fcbd08dee7fc5b4278
+  $tc'Resources1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+f171bcb12cb20ec870a7ebda6b17da1e
+  $tc'Resources2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Assets.$tc'Resources3) -}
+0111da7a060d7e20b61770d94e995389
+  $tc'Resources3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Resources"#) -}
+5d83af9fd0dad393b321a97a96cfdb3a
+  $tcResources :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   172777387501232605##
+                   7149043849505655381##
+                   StreetRun.Assets.$trModule
+                   StreetRun.Assets.$tcResources1
+                   0#
+                   GHC.Types.krep$*) -}
+6a1c3838d7a60086e2e78adbfa754eb7
+  $tcResources1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Assets.$tcResources2) -}
+30ccaa9d60bb03a818f04f5d6c48be9b
+  $tcResources2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Resources"#) -}
+4e940ef1d28b3062b6e9bbae7c8feec9
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.Assets.$trModule3
+                   StreetRun.Assets.$trModule1) -}
+1d6ffdf6c2570135b9f1a10dd2b7f424
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Assets.$trModule2) -}
+fa784ed013afe7332cc782a7f94a5270
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.Assets"#) -}
+0ae5e9bc99bd7e439af96fdaf64a06b2
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.Assets.$trModule4) -}
+2b9f0c9a16ad990a53c0e540b22752c9
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+aa4815af0f577c87871c4ed1e667e253
+  $wconvertSurface ::
+    GHC.Ptr.Ptr SDL.Raw.Types.Surface
+    -> SDL.Video.Renderer.PixelFormat
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          SDL.Video.Renderer.Surface #)
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,1*U(U)><S,1*U><S,U>,
+     Inline: [2],
+     Unfolding: (\ (ww :: GHC.Ptr.Ptr SDL.Raw.Types.Surface)
+                   (w :: SDL.Video.Renderer.PixelFormat)
+                   (w1 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case SDL.Video.Renderer.$w$ctoNumber w of ww1 { DEFAULT ->
+                 case {__pkg_ccall_GC sdl2-2.4.1.0 GHC.Prim.Word#
+                                                   -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                   -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                                         GHC.Prim.Addr# #)}
+                        ww1
+                        w1 of wild { (#,#) ds3 ds4 ->
+                 case ww of ds { GHC.Ptr.Ptr ds1 ->
+                 case {__pkg_ccall_GC sdl2-2.4.1.0 GHC.Prim.Addr#
+                                                   -> GHC.Prim.Addr#
+                                                   -> GHC.Prim.Word#
+                                                   -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                   -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                                         GHC.Prim.Addr# #)}
+                        ds1
+                        ds4
+                        0##
+                        ds3 of wild1 { (#,#) ds7 ds8 ->
+                 case {__pkg_ccall_GC sdl2-2.4.1.0 GHC.Prim.Addr#
+                                                   -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                   -> (# GHC.Prim.State# GHC.Prim.RealWorld #)}
+                        ds4
+                        ds7 of wild2 { Unit# ds2 ->
+                 (# ds2,
+                    SDL.Video.Renderer.Surface
+                      (GHC.Ptr.Ptr @ SDL.Raw.Types.Surface ds8)
+                      (GHC.Maybe.Nothing
+                         @ (Data.Vector.Storable.Mutable.IOVector
+                              GHC.Word.Word8)) #) } } } } }) -}
+506eb6c1c8a755fdf82b61cc10157e07
+  data Resources
+    = Resources {rBuildingSprites :: Animate.SpriteSheet
+                                       StreetRun.Scenario.BuildingKey
+                                       SDL.Video.Renderer.Texture
+                                       StreetRun.Types.Seconds,
+                 rGrassSprites :: Animate.SpriteSheet
+                                    StreetRun.Scenario.GrassKey
+                                    SDL.Video.Renderer.Texture
+                                    StreetRun.Types.Seconds,
+                 rBackStreetSprites :: SDL.Video.Renderer.Texture,
+                 rStreetSprites :: SDL.Video.Renderer.Texture,
+                 rRunnerSprites :: Animate.SpriteSheet
+                                     StreetRun.Runner.RunnerKey
+                                     SDL.Video.Renderer.Texture
+                                     StreetRun.Types.Seconds,
+                 rBirdSprites :: Animate.SpriteSheet
+                                   StreetRun.Snag.BirdKey
+                                   SDL.Video.Renderer.Texture
+                                   StreetRun.Types.Seconds,
+                 rLavaSprites :: Animate.SpriteSheet
+                                   StreetRun.Snag.LavaKey
+                                   SDL.Video.Renderer.Texture
+                                   StreetRun.Types.Seconds,
+                 rRockSprites :: Animate.SpriteSheet
+                                   StreetRun.Snag.RockKey
+                                   SDL.Video.Renderer.Texture
+                                   StreetRun.Types.Seconds,
+                 rGameMusic :: SDL.Mixer.Music,
+                 rJumpSfx :: SDL.Mixer.Chunk,
+                 rDuckSfx :: SDL.Mixer.Chunk,
+                 rPointSfx :: SDL.Mixer.Chunk,
+                 rBirdSfx :: SDL.Mixer.Chunk,
+                 rHurtSfx :: SDL.Mixer.Chunk,
+                 rLavaSfx :: SDL.Mixer.Chunk,
+                 rQuakeSfx :: SDL.Mixer.Chunk,
+                 rRockSfx :: SDL.Mixer.Chunk,
+                 rDeathSfx :: SDL.Mixer.Chunk,
+                 rRecoverSfx :: SDL.Mixer.Chunk,
+                 rStockSfx :: SDL.Mixer.Chunk,
+                 rPauseSprite :: SDL.Video.Renderer.Texture,
+                 rSpaceSprite :: SDL.Video.Renderer.Texture,
+                 rEscapeSprite :: SDL.Video.Renderer.Texture,
+                 rGameOverSprite :: SDL.Video.Renderer.Texture,
+                 rHiscoreSprite :: SDL.Video.Renderer.Texture,
+                 rTitleSprite :: SDL.Video.Renderer.Texture,
+                 rNumberSprites :: StreetRun.Font.Number
+                                   -> SDL.Video.Renderer.Texture,
+                 rControlsSprite :: SDL.Video.Renderer.Texture}
+4376993b8abfe550ff97ac31d31fd99c
+  alphaColorDef :: Animate.Color
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: ((StreetRun.Assets.alphaColorDef2,
+                  StreetRun.Assets.alphaColorDef1,
+                  StreetRun.Assets.alphaColorDef2)) -}
+af4d05acebeaaf058306558eddc1b248
+  alphaColorDef1 :: GHC.Word.Word8
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Word.W8# 0##) -}
+8cf59fd20c65411d19306175adbd8762
+  alphaColorDef2 :: GHC.Word.Word8
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Word.W8# 255##) -}
+de47fa95e97a2fa9a0f25a39a701c3fe
+  convertSurface ::
+    SDL.Video.Renderer.Surface
+    -> SDL.Video.Renderer.PixelFormat
+    -> GHC.Types.IO SDL.Video.Renderer.Surface
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S,1*U(1*U(U),A)><S,1*U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                StreetRun.Assets.convertSurface1
+                  `cast`
+                (<SDL.Video.Renderer.Surface>_R
+                 ->_R <SDL.Video.Renderer.PixelFormat>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <SDL.Video.Renderer.Surface>_R)) -}
+cd200efe1d871efe7797086ea9a037f8
+  convertSurface1 ::
+    SDL.Video.Renderer.Surface
+    -> SDL.Video.Renderer.PixelFormat
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          SDL.Video.Renderer.Surface #)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S,1*U(1*U(U),A)><S,1*U><S,U>, Inline: [2],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: SDL.Video.Renderer.Surface)
+                   (w1 :: SDL.Video.Renderer.PixelFormat)
+                   (w2 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case w of ww { SDL.Video.Renderer.Surface ww1 ww2 ->
+                 StreetRun.Assets.$wconvertSurface ww1 w1 w2 }) -}
+43540737d7d981701d2c424d53a8797c
+  loadSurface ::
+    GHC.IO.FilePath
+    -> GHC.Maybe.Maybe Animate.Color
+    -> GHC.Types.IO SDL.Video.Renderer.Surface
+  {- Arity: 3, Strictness: <L,U><L,1*U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                StreetRun.Assets.loadSurface1
+                  `cast`
+                (<GHC.IO.FilePath>_R
+                 ->_R <GHC.Maybe.Maybe Animate.Color>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <SDL.Video.Renderer.Surface>_R)) -}
+2757c26ca60bc77c04e00c377dce2466
+  loadSurface1 ::
+    GHC.IO.FilePath
+    -> GHC.Maybe.Maybe Animate.Color
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          SDL.Video.Renderer.Surface #)
+  {- Arity: 3, Strictness: <L,U><L,1*U><S,U>,
+     Unfolding: (\ (path :: GHC.IO.FilePath)
+                   (alpha :: GHC.Maybe.Maybe Animate.Color)
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (GHC.Magic.noinline
+                         @ (GHC.Types.IO GHC.IO.Encoding.Types.TextEncoding)
+                         GHC.IO.Encoding.getForeignEncoding)
+                        `cast`
+                      (GHC.Types.N:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        eta of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ (GHC.Ptr.Ptr SDL.Raw.Types.Surface)
+                        ipv1
+                        path
+                        SDL.Image.$sload
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of wild { GHC.Ptr.Ptr a1 ->
+                 let {
+                   $w$j :: GHC.Prim.State# GHC.Prim.RealWorld
+                           -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                 SDL.Video.Renderer.Surface #)
+                     <join 1> {- Arity: 1, Strictness: <S,U>, Inline: [2] -}
+                   = \ (w :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                     case {__pkg_ccall_GC sdl2-2.4.1.0 GHC.Prim.Word#
+                                                       -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                       -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                                             GHC.Prim.Addr# #)}
+                            373694468##
+                            w of wild1 { (#,#) ds3 ds4 ->
+                     case {__pkg_ccall_GC sdl2-2.4.1.0 GHC.Prim.Addr#
+                                                       -> GHC.Prim.Addr#
+                                                       -> GHC.Prim.Word#
+                                                       -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                       -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                                             GHC.Prim.Addr# #)}
+                            a1
+                            ds4
+                            0##
+                            ds3 of wild2 { (#,#) ds7 ds8 ->
+                     case {__pkg_ccall_GC sdl2-2.4.1.0 GHC.Prim.Addr#
+                                                       -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                       -> (# GHC.Prim.State# GHC.Prim.RealWorld #)}
+                            ds4
+                            ds7 of wild3 { Unit# ds6 ->
+                     case {__pkg_ccall_GC sdl2-2.4.1.0 GHC.Prim.Addr#
+                                                       -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                       -> (# GHC.Prim.State# GHC.Prim.RealWorld #)}
+                            a1
+                            ds6 of wild4 { Unit# ds10 ->
+                     let {
+                       ipv4 :: GHC.Ptr.Ptr SDL.Raw.Types.Surface
+                       = GHC.Ptr.Ptr @ SDL.Raw.Types.Surface ds8
+                     } in
+                     case alpha of wild5 {
+                       GHC.Maybe.Nothing
+                       -> (# ds10,
+                             SDL.Video.Renderer.Surface
+                               ipv4
+                               (GHC.Maybe.Nothing
+                                  @ (Data.Vector.Storable.Mutable.IOVector GHC.Word.Word8)) #)
+                       GHC.Maybe.Just ds
+                       -> case ds of wild6 { (,,) r g b ->
+                          case SDL.Video.Renderer.$wsurfaceColorKey
+                                 ipv4 of ww3 { (#,#) ww4 ww5 ->
+                          case (ww5
+                                  (GHC.Maybe.Just
+                                     @ (Linear.V4.V4 GHC.Word.Word8)
+                                     (case r of dt { GHC.Word.W8# ipv5 ->
+                                      case g of dt1 { GHC.Word.W8# ipv6 ->
+                                      case b of dt2 { GHC.Word.W8# ipv7 ->
+                                      Linear.V4.V4
+                                        @ GHC.Word.Word8
+                                        dt
+                                        dt1
+                                        dt2
+                                        StreetRun.Assets.alphaColorDef1 } } })))
+                                 `cast`
+                               (GHC.Types.N:IO[0] <()>_R)
+                                 ds10 of ds11 { (#,#) ipv5 ipv6 ->
+                          (# ipv5,
+                             SDL.Video.Renderer.Surface
+                               ipv4
+                               (GHC.Maybe.Nothing
+                                  @ (Data.Vector.Storable.Mutable.IOVector
+                                       GHC.Word.Word8)) #) } } } } } } } }
+                 } in
+                 case GHC.Prim.eqAddr# a1 __NULL of lwild {
+                   DEFAULT -> $w$j ipv2
+                   1#
+                   -> case SDL.ExceptionHelper.throwIf1
+                             SDL.Image.load4
+                             SDL.Image.load2
+                             ipv2 of ds3 { (#,#) ipv4 ipv5 ->
+                      $w$j ipv4 } } } } }) -}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

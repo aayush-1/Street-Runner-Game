@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 23:07:13.16562442 UTC
+2019-04-26 07:42:34.685803101 UTC
 
 interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Load 8064
-  interface hash: c6c5017e80d0a6ea96f66d11de4a7825
-  ABI hash: 16e217d4e0c253fb423fa049ddaea289
+  interface hash: 440220ce498ad514dd8259b4324ce925
+  ABI hash: 0b2c99b1460fc0284ebe0ed44ab70962
   export-list hash: bb94dee51103db3de49f80223cdee067
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: cd6997935d09daa6a687cb8eb0447281
@@ -25,7 +25,7 @@ module dependencies: StreetRun.Camera StreetRun.Common
                      StreetRun.Out StreetRun.Out_func StreetRun.Physics StreetRun.Quake
                      StreetRun.Quake_BackStreet StreetRun.Quake_Building
                      StreetRun.Quake_Grass StreetRun.Quake_Street StreetRun.Runner
-                     StreetRun.Runner_func_1 StreetRun.Runner_func_2 StreetRun.SDLInput
+                     StreetRun.Runner_func_1 StreetRun.Runner_func_2 StreetRun.SDLLayer
                      StreetRun.Scenario StreetRun.Sfx StreetRun.Snag StreetRun.State
                      StreetRun.Step StreetRun.Tag StreetRun.Tag_func StreetRun.Types
                      StreetRun.Work StreetRun.Work_func
@@ -157,12 +157,12 @@ import  -/  StreetRun.Input dc1e62404449c4ef4f763046555938b3
   $sel:iUp:Input debdce52acaa37df87e66131243c6c87
   Input e98b533a546cc5e8f0f0d2754a3f06d0
   Input debdce52acaa37df87e66131243c6c87
-import  -/  StreetRun.SDLInput 7f2490d25daddc69d56177a64a0d9e82
-  exports: 531251f807022c0b301a8eab3b96e7f9
-  SDLInput c707ee7fc58c67970eedff7fdde886ac
-  keycodePressed cc16adb67ee5159fa97a55e6ea5a1911
-  keycodeReleased cba7751ea4a56515fff9cc9951fed5b1
-  pollEventPayloads a91c93657bcf4151e0803d26d969d260
+import  -/  StreetRun.SDLLayer 472f0f146c646fd670be8cc0b6cbfdac
+  exports: b9d495c503a62642ca4638e990961b8e
+  SDLInput c9593cb492a6f461bc1a5d0539631820
+  keycodePressed 261a2e8677f0b792f87668f9cd6fbc5d
+  keycodeReleased 19f4e3a0a899bfce40f07cf8e7923f4f
+  pollEventPayloads 158d3677561c17149f60d5b149c51995
 import  -/  StreetRun.State 2b4a5b23cba95fdf8a8075ad75dbe6ec
   exports: 9215ef2a775e8ad7562f6edbfe13ac1f
   $sel:vInput:Vars 06c844f355a6a421607a99fdffa4b901
@@ -261,12 +261,12 @@ c379cd246e2b8db38cabe2754eb9cecf
   {- Arity: 5, HasNoCafRefs,
      Strictness: <L,U><L,U(U,U)><L,U(U,U)><L,U(U,U)><L,U(U,U)>,
      Inline: [2] -}
-90d6371ba81038c6949ff25c26f5cda2
+a9fb9de2e48b600e1a801037951bb89c
   $wupdateInput' ::
     (forall a b. m a -> (a -> m b) -> m b)
     -> (StreetRun.Input.Input -> m ())
     -> m StreetRun.Input.Input
-    -> StreetRun.SDLInput.SDLInput m => m ()
+    -> StreetRun.SDLLayer.SDLInput m => m ()
   {- Arity: 4, HasNoCafRefs,
      Strictness: <C(C(S)),C(C1(U))><L,C(U)><L,U><L,1*U(A,1*U)>,
      Inline: [2],
@@ -274,10 +274,10 @@ c379cd246e2b8db38cabe2754eb9cecf
                    (ww :: forall a b. m a -> (a -> m b) -> m b)
                    (ww1 :: StreetRun.Input.Input -> m ())
                    (ww2 :: m StreetRun.Input.Input)
-                   (w :: StreetRun.SDLInput.SDLInput m) ->
+                   (w :: StreetRun.SDLLayer.SDLInput m) ->
                  let {
                    lvl9 :: m [SDL.Event.EventPayload]
-                   = StreetRun.SDLInput.pollEventPayloads @ m w
+                   = StreetRun.SDLLayer.pollEventPayloads @ m w
                  } in
                  ww
                    @ StreetRun.Input.Input
@@ -347,16 +347,16 @@ a827a1b40b93ca24fd0678aff14a3874
                         ww3
                         ww4 of ww6 { (#,,,,#) ww7 ww8 ww9 ww10 ww11 ->
                  StreetRun.Input.Input ww7 ww8 ww9 ww10 ww11 } }) -}
-f510f8119c3c4e774a33c2459719a17b
+be92fbc3936b56903b5ba045a296fa9c
   updateInput' ::
-    (StreetRun.Load.HasInput m, StreetRun.SDLInput.SDLInput m) => m ()
+    (StreetRun.Load.HasInput m, StreetRun.SDLLayer.SDLInput m) => m ()
   {- Arity: 2, HasNoCafRefs,
      Strictness: <S(S(LC(C(S))LLL)LLL),1*U(1*U(A,C(C1(U)),A,A,A),A,C(U),U)><L,1*U(A,1*U)>,
      Inline: [2],
      Unfolding: InlineRule (2, True, False)
                 (\ @ m :: * -> *
                    (w :: StreetRun.Load.HasInput m)
-                   (w1 :: StreetRun.SDLInput.SDLInput m) ->
+                   (w1 :: StreetRun.SDLLayer.SDLInput m) ->
                  case w of ww { StreetRun.Load.C:HasInput ww1 ww2 ww3 ww4 ->
                  case ww1 of ww5 { GHC.Base.C:Monad ww6 ww7 ww8 ww9 ww10 ->
                  StreetRun.Load.$wupdateInput' @ m ww7 ww3 ww4 w1 } }) -}

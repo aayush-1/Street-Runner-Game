@@ -1,0 +1,554 @@
+
+==================== FINAL INTERFACE ====================
+2019-04-26 07:42:33.809066563 UTC
+
+interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.SDLLayer 8064
+  interface hash: 24e2ea8563a79a331154d9578cfb00fd
+  ABI hash: 472f0f146c646fd670be8cc0b6cbfdac
+  export-list hash: b9d495c503a62642ca4638e990961b8e
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: cd6997935d09daa6a687cb8eb0447281
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  StreetRun.SDLLayer.clearRenderer'
+  StreetRun.SDLLayer.clearSurface'
+  StreetRun.SDLLayer.drawTexture'
+  StreetRun.SDLLayer.keycodePressed
+  StreetRun.SDLLayer.keycodeReleased
+  StreetRun.SDLLayer.pollEventPayloads'
+  StreetRun.SDLLayer.presentRenderer'
+  StreetRun.SDLLayer.queryTexture'
+  StreetRun.SDLLayer.updateWindowSurface'
+  StreetRun.SDLLayer.SDLInput{StreetRun.SDLLayer.pollEventPayloads}
+  StreetRun.SDLLayer.SDLRenderer{StreetRun.SDLLayer.clearRenderer StreetRun.SDLLayer.drawTexture StreetRun.SDLLayer.presentRenderer StreetRun.SDLLayer.queryTexture}
+module dependencies:
+package dependencies: StateVar-1.1.1.1 adjunctions-4.4
+                      array-0.5.3.0 base-4.12.0.0 base-orphans-0.8.1 bifunctors-5.5.3
+                      binary-0.8.6.0 bytes-0.15.5 bytestring-0.10.8.2 call-stack-0.1.0
+                      cereal-0.5.8.0 comonad-5.0.4 containers-0.6.0.1 contravariant-1.5
+                      deepseq-1.4.4.0 distributive-0.6 exceptions-0.10.1 free-5.1
+                      ghc-boot-th-8.6.4 ghc-prim-0.5.3 hashable-1.2.7.0
+                      integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2 kan-extensions-5.2
+                      lens-4.17 linear-1.20.8 mtl-2.2.2 pretty-1.1.3.6 primitive-0.6.4.0
+                      profunctors-5.3 reflection-2.1.4 scientific-0.3.6.2 sdl2-2.4.1.0
+                      semigroupoids-5.3.2 stm-2.5.0.0 tagged-0.8.6
+                      template-haskell-2.14.0.0 text-1.2.3.1 th-abstraction-0.2.11.0
+                      time-1.8.0.2 transformers-0.5.6.2 transformers-base-0.4.5.2
+                      transformers-compat-0.6.2 unordered-containers-0.2.9.0
+                      vector-0.12.0.2
+orphans: time-1.8.0.2:Data.Time.Clock.TAI
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         reflection-2.1.4:Data.Reflection
+         vector-0.12.0.2:Data.Vector.Unboxed stm-2.5.0.0:Control.Monad.STM
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         text-1.2.3.1:Data.Text binary-0.8.6.0:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         transformers-0.5.6.2:Control.Monad.Trans.Error
+         linear-1.20.8:Linear.Instances base-4.12.0.0:GHC.Float
+         base-4.12.0.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         base-4.12.0.0:Control.Applicative base-4.12.0.0:Data.Complex
+                         base-4.12.0.0:Data.Functor.Compose base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity
+                         base-4.12.0.0:Data.Functor.Product base-4.12.0.0:Data.Functor.Sum
+                         base-4.12.0.0:Data.Monoid base-4.12.0.0:Data.Semigroup
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:Data.Version
+                         base-4.12.0.0:Data.Void base-4.12.0.0:GHC.Exts
+                         base-4.12.0.0:GHC.Generics base-4.12.0.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped bytes-0.15.5:Data.Bytes.Get
+                         bytes-0.15.5:Data.Bytes.Signed bytes-0.15.5:Data.Bytes.VarInt
+                         containers-0.6.0.1:Data.IntMap.Internal
+                         containers-0.6.0.1:Data.IntSet.Internal
+                         containers-0.6.0.1:Data.Map.Internal
+                         containers-0.6.0.1:Data.Sequence.Internal
+                         containers-0.6.0.1:Data.Set.Internal containers-0.6.0.1:Data.Tree
+                         free-5.1:Control.Comonad.Cofree
+                         free-5.1:Control.Comonad.Trans.Cofree free-5.1:Control.Monad.Free
+                         free-5.1:Control.Monad.Trans.Free
+                         ghc-boot-th-8.6.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.6.4:GHC.LanguageExtensions.Type
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.17:Control.Lens.At
+                         lens-4.17:Control.Lens.Internal.Indexed
+                         lens-4.17:Control.Lens.Reified lens-4.17:Control.Lens.Tuple
+                         lens-4.17:Control.Lens.Wrapped lens-4.17:Control.Lens.Zoom
+                         linear-1.20.8:Linear.Affine linear-1.20.8:Linear.Plucker
+                         linear-1.20.8:Linear.Quaternion linear-1.20.8:Linear.V
+                         linear-1.20.8:Linear.V0 linear-1.20.8:Linear.V1
+                         linear-1.20.8:Linear.V2 linear-1.20.8:Linear.V3
+                         linear-1.20.8:Linear.V4
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.4.0:Control.Monad.Primitive
+                         primitive-0.6.4.0:Data.Primitive.Array
+                         primitive-0.6.4.0:Data.Primitive.ByteArray
+                         primitive-0.6.4.0:Data.Primitive.PrimArray
+                         primitive-0.6.4.0:Data.Primitive.SmallArray
+                         primitive-0.6.4.0:Data.Primitive.UnliftedArray
+                         profunctors-5.3:Data.Profunctor.Composition
+                         profunctors-5.3:Data.Profunctor.Rep sdl2-2.4.1.0:SDL.Audio
+                         sdl2-2.4.1.0:SDL.Event sdl2-2.4.1.0:SDL.Exception
+                         sdl2-2.4.1.0:SDL.Hint sdl2-2.4.1.0:SDL.Init
+                         sdl2-2.4.1.0:SDL.Input.GameController
+                         sdl2-2.4.1.0:SDL.Input.Joystick sdl2-2.4.1.0:SDL.Input.Keyboard
+                         sdl2-2.4.1.0:SDL.Input.Keyboard.Codes sdl2-2.4.1.0:SDL.Input.Mouse
+                         sdl2-2.4.1.0:SDL.Internal.Types sdl2-2.4.1.0:SDL.Power
+                         sdl2-2.4.1.0:SDL.Time sdl2-2.4.1.0:SDL.Video
+                         sdl2-2.4.1.0:SDL.Video.OpenGL sdl2-2.4.1.0:SDL.Video.Renderer
+                         tagged-0.8.6:Data.Tagged
+                         template-haskell-2.14.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.11.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  base-4.12.0.0:Control.Monad.IO.Class e96805f9d79f75be66a0d44eb83064c1
+import  -/  base-4.12.0.0:Data.Functor 069b2025a03e32fd228e74a86a58a075
+import  -/  base-4.12.0.0:Foreign.C.Types 35a1d321965626990bdd0f18683810e2
+import  -/  base-4.12.0.0:GHC.Base c00b75f0b052d05c55ba6a4dd1c63b26
+import  -/  base-4.12.0.0:Prelude 3c779dfd6448bdd8e234c336802c2acb
+import  -/  ghc-prim-0.5.3:GHC.Classes 0f6fd7d7db53fc48f6e1f01803cc6c9d
+import  -/  linear-1.20.8:Linear.V4 c239e31f533d2317ba3df898a135744f
+import  -/  sdl2-2.4.1.0:SDL a2c38c0f08b3d06bbb0ff9d8498c68c0
+import  -/  sdl2-2.4.1.0:SDL.Event bdfb9ed9abd68e5e54327e8929789d20
+import  -/  sdl2-2.4.1.0:SDL.Input.Keyboard 591251d71dc0f73c073e92456df69137
+import  -/  sdl2-2.4.1.0:SDL.Input.Keyboard.Codes 958ec6e4cb0fa119a48dab2683056293
+import  -/  sdl2-2.4.1.0:SDL.Internal.Types e9c1ec4176424e757d8731678bde7206
+import  -/  sdl2-2.4.1.0:SDL.Vect cd47fc30aef16e8f55c1351dafae292d
+import  -/  sdl2-2.4.1.0:SDL.Video.Renderer fde5d4735decffc12f192a8489c7afbb
+ba6565c5e112a3c74cfe8572da4849a3
+  $tc'C:SDLInput :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   14739638820805530124##
+                   2225000403527893137##
+                   StreetRun.SDLLayer.$trModule
+                   StreetRun.SDLLayer.$tc'C:SDLInput2
+                   1#
+                   StreetRun.SDLLayer.$tc'C:SDLInput1) -}
+13aa2c848ac760f5dac38ac497a69191
+  $tc'C:SDLInput1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+a8e17eb3e2d02e94e6d1352a66d25bac
+  $tc'C:SDLInput2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.SDLLayer.$tc'C:SDLInput3) -}
+8299dced2df6e7f91cb0d6d30f99e241
+  $tc'C:SDLInput3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'C:SDLInput"#) -}
+7201493e3739c7ac663238d236ab59ad
+  $tc'C:SDLRenderer :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7840658688261501587##
+                   3137523900939203466##
+                   StreetRun.SDLLayer.$trModule
+                   StreetRun.SDLLayer.$tc'C:SDLRenderer2
+                   1#
+                   StreetRun.SDLLayer.$tc'C:SDLRenderer1) -}
+206bd65fa7f4ad84149c092114ffdf25
+  $tc'C:SDLRenderer1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+242ef9f893b614acfafe566f76763a91
+  $tc'C:SDLRenderer2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.SDLLayer.$tc'C:SDLRenderer3) -}
+cc7957248d774aa61edd083f7a2e2606
+  $tc'C:SDLRenderer3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'C:SDLRenderer"#) -}
+ce207b44d7c76d865990d5a2b183fdce
+  $tcSDLInput :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   8372632753048390177##
+                   6707138668337522205##
+                   StreetRun.SDLLayer.$trModule
+                   StreetRun.SDLLayer.$tcSDLInput2
+                   0#
+                   StreetRun.SDLLayer.$tcSDLInput1) -}
+123a36d71cc45bf0ae88294d90bd41d8
+  $tcSDLInput1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+72865458d45a9960c3e3a7f48c683640
+  $tcSDLInput2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.SDLLayer.$tcSDLInput3) -}
+8057016f6f4c92a578a04b6e17acb0ad
+  $tcSDLInput3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("SDLInput"#) -}
+03a897511de9971e8cf292a710b69345
+  $tcSDLRenderer :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   8958353954204854553##
+                   3482290427557987897##
+                   StreetRun.SDLLayer.$trModule
+                   StreetRun.SDLLayer.$tcSDLRenderer1
+                   0#
+                   StreetRun.SDLLayer.$tcSDLInput1) -}
+af969d70e0124787ea316519aa6db409
+  $tcSDLRenderer1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   StreetRun.SDLLayer.$tcSDLRenderer2) -}
+6230a3ccab97ae39d8a52982957e5cb1
+  $tcSDLRenderer2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("SDLRenderer"#) -}
+65c7b33b194e43a2c99a65825ebb6ac3
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   StreetRun.SDLLayer.$trModule3
+                   StreetRun.SDLLayer.$trModule1) -}
+96bac6fec096868777c9ae780d93041d
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.SDLLayer.$trModule2) -}
+aafa087aec8a2fb87c86dba2aea658d2
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("StreetRun.SDLLayer"#) -}
+8245c7df877f1db94c8ea657590bdf6a
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS StreetRun.SDLLayer.$trModule4) -}
+9559f6e9eb3d94f95192b4bf522e0ba3
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE"#) -}
+595528486811a583e6f2390c134625a6
+  $wclearRenderer' ::
+    (forall a b. m a -> (a -> m b) -> m b)
+    -> (forall a b. m a -> m b -> m b)
+    -> (forall a. a -> m a)
+    -> (forall a. GHC.Types.IO a -> m a)
+    -> SDL.Internal.Types.Renderer
+    -> m ()
+  {- Arity: 5,
+     Strictness: <L,1*C1(C1(U))><C(C(S)),C(C1(U))><L,C(U)><L,C(U)><L,1*U(U)>,
+     Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   (ww :: forall a b. m a -> (a -> m b) -> m b)
+                   (ww1 :: forall a b. m a -> m b -> m b)
+                   (ww2 :: forall a. a -> m a)
+                   (ww3 :: forall a. GHC.Types.IO a -> m a)
+                   (w :: SDL.Internal.Types.Renderer) ->
+                 ww1
+                   @ Foreign.C.Types.CInt
+                   @ ()
+                   (ww
+                      @ Foreign.C.Types.CInt
+                      @ Foreign.C.Types.CInt
+                      (ww3
+                         @ Foreign.C.Types.CInt
+                         (case w `cast`
+                               (SDL.Internal.Types.N:Renderer[0]) of ds9 { GHC.Ptr.Ptr ds10 ->
+                          (\ (ds11 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                           case {__pkg_ccall_GC sdl2-2.4.1.0 GHC.Prim.Addr#
+                                                             -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                             -> (# GHC.Prim.State#
+                                                                     GHC.Prim.RealWorld,
+                                                                   GHC.Prim.Int# #)}
+                                  ds10
+                                  ds11 of wild { (#,#) ds12 ds13 ->
+                           (# ds12, GHC.Int.I32# (GHC.Prim.narrow32Int# ds13) #) })
+                            `cast`
+                          (Sym (GHC.Types.N:IO[0] (Foreign.C.Types.N:CInt[0]))) }))
+                      (\ (a1 :: Foreign.C.Types.CInt) ->
+                       ww1
+                         @ ()
+                         @ Foreign.C.Types.CInt
+                         (ww3
+                            @ ()
+                            (case a1
+                                    `cast`
+                                  (Foreign.C.Types.N:CInt[0]) of wild { GHC.Int.I32# x ->
+                             case GHC.Prim.<# x 0# of lwild {
+                               DEFAULT
+                               -> StreetRun.SDLLayer.clearRenderer'2
+                                    `cast`
+                                  (Sym (GHC.Types.N:IO[0] <()>_R))
+                               1#
+                               -> StreetRun.SDLLayer.clearRenderer'1
+                                    `cast`
+                                  (Sym (GHC.Types.N:IO[0] <()>_R)) } }))
+                         (ww2 @ Foreign.C.Types.CInt a1)))
+                   (ww2 @ () GHC.Tuple.())) -}
+d60608d1c25c4f772a307472f6730e24
+  $wclearSurface' ::
+    (forall a. GHC.Types.IO a -> m a)
+    -> SDL.Video.Renderer.Surface -> m ()
+  {- Arity: 2, Strictness: <C(S),1*C1(U)><L,1*U(U(U),A)>,
+     Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   (ww :: forall a. GHC.Types.IO a -> m a)
+                   (w :: SDL.Video.Renderer.Surface) ->
+                 ww
+                   @ ()
+                   (case w of ww3 { SDL.Video.Renderer.Surface ww4 ww5 ->
+                    SDL.Video.Renderer.$wsurfaceFillRect
+                      @ GHC.Types.IO
+                      (\ @ a -> GHC.Base.id @ (GHC.Types.IO a))
+                      ww4
+                      (GHC.Maybe.Nothing
+                         @ (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt))
+                      0##
+                      0##
+                      0##
+                      0## })) -}
+eedda50b9ef8fbbb4bbe5ead81c28fc9
+  $wupdateWindowSurface' ::
+    (forall a. GHC.Types.IO a -> m a)
+    -> SDL.Internal.Types.Window -> m ()
+  {- Arity: 2, Strictness: <C(S),1*C1(U)><L,U(U)>, Inline: [2],
+     Unfolding: (\ @ m :: * -> *
+                   (ww :: forall a. GHC.Types.IO a -> m a)
+                   (w :: SDL.Internal.Types.Window) ->
+                 ww
+                   @ ()
+                   (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                    case w `cast`
+                         (SDL.Internal.Types.N:Window[0]) of ds7 { GHC.Ptr.Ptr ds8 ->
+                    case {__pkg_ccall_GC sdl2-2.4.1.0 GHC.Prim.Addr#
+                                                      -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                      -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                                            GHC.Prim.Int# #)}
+                           ds8
+                           s of wild { (#,#) ds10 ds11 ->
+                    case GHC.Prim.<# (GHC.Prim.narrow32Int# ds11) 0# of lwild {
+                      DEFAULT -> (# ds10, GHC.Tuple.() #)
+                      1#
+                      -> case SDL.Video.Renderer.updateWindowSurface1
+                                ds10 of ds1 { (#,#) ipv ipv1 ->
+                         (# ipv, GHC.Tuple.() #) } } } })
+                     `cast`
+                   (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+c9593cb492a6f461bc1a5d0539631820
+  class GHC.Base.Monad m => SDLInput (m :: * -> *) where
+    pollEventPayloads :: m [SDL.Event.EventPayload]
+    {-# MINIMAL pollEventPayloads #-}
+4f6ee56ef94bbb8367ac0e96051915aa
+  class GHC.Base.Monad m => SDLRenderer (m :: * -> *) where
+    presentRenderer :: SDL.Internal.Types.Renderer -> m ()
+    clearRenderer :: SDL.Internal.Types.Renderer -> m ()
+    queryTexture :: SDL.Video.Renderer.Texture
+                    -> m SDL.Video.Renderer.TextureInfo
+    drawTexture :: SDL.Internal.Types.Renderer
+                   -> SDL.Video.Renderer.Texture
+                   -> GHC.Maybe.Maybe
+                        (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+                   -> GHC.Maybe.Maybe
+                        (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+                   -> m ()
+    {-# MINIMAL presentRenderer, clearRenderer, queryTexture,
+                drawTexture #-}
+c6d8e89a305ddeb25ecd0fb40daa61c7
+  clearRenderer' ::
+    Control.Monad.IO.Class.MonadIO m =>
+    SDL.Internal.Types.Renderer -> m ()
+  {- Arity: 2,
+     Strictness: <S(S(LLC(C(S))LL)L),1*U(1*U(A,1*C1(C1(U)),C(C1(U)),C(U),A),C(U))><L,1*U(U)>,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ @ m :: * -> *
+                   (w :: Control.Monad.IO.Class.MonadIO m)
+                   (w1 :: SDL.Internal.Types.Renderer) ->
+                 case w of ww { Control.Monad.IO.Class.C:MonadIO ww1 ww2 ->
+                 case ww1 of ww3 { GHC.Base.C:Monad ww4 ww5 ww6 ww7 ww8 ->
+                 StreetRun.SDLLayer.$wclearRenderer' @ m ww5 ww6 ww7 ww2 w1 } }) -}
+24692c022a471108c3e6033460143ab3
+  clearRenderer'1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U> -}
+30a4c6e95d69b2ad5f58e17e6248ae41
+  clearRenderer'2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 (# s, GHC.Tuple.() #)) -}
+cebde0317dead53b0579f0c79ff50e15
+  clearSurface' ::
+    Control.Monad.IO.Class.MonadIO m =>
+    SDL.Video.Renderer.Surface -> m ()
+  {- Arity: 2, Strictness: <S(LC(S)),1*U(A,1*C1(U))><L,1*U(U(U),A)>,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ @ m :: * -> *
+                   (w :: Control.Monad.IO.Class.MonadIO m)
+                   (w1 :: SDL.Video.Renderer.Surface) ->
+                 case w of ww { Control.Monad.IO.Class.C:MonadIO ww1 ww2 ->
+                 StreetRun.SDLLayer.$wclearSurface' @ m ww2 w1 }) -}
+96eaab32a9bc991d561283d1a7247c03
+  drawTexture' ::
+    Control.Monad.IO.Class.MonadIO m =>
+    SDL.Internal.Types.Renderer
+    -> SDL.Video.Renderer.Texture
+    -> GHC.Maybe.Maybe
+         (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+    -> GHC.Maybe.Maybe
+         (SDL.Video.Renderer.Rectangle Foreign.C.Types.CInt)
+    -> m ()
+  {- Arity: 5,
+     Strictness: <S(LC(S)),1*U(A,1*C1(U))><L,U(U)><L,U(U)><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True) SDL.Video.Renderer.copy -}
+261a2e8677f0b792f87668f9cd6fbc5d
+  keycodePressed ::
+    SDL.Input.Keyboard.Codes.Keycode
+    -> SDL.Event.EventPayload -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><S,1*U>,
+     Unfolding: (\ (keycode :: SDL.Input.Keyboard.Codes.Keycode)
+                   (event :: SDL.Event.EventPayload) ->
+                 case event of wild {
+                   DEFAULT -> GHC.Types.False
+                   SDL.Event.KeyboardEvent ds
+                   -> case ds of wild1 { SDL.Event.KeyboardEventData ds1 ds2 ds3 ds4 ->
+                      case ds4 of wild2 { SDL.Input.Keyboard.Keysym ds5 ds6 ds7 ->
+                      case ds6
+                             `cast`
+                           (SDL.Input.Keyboard.Codes.N:Keycode[0]) of wild3 { GHC.Int.I32# x ->
+                      case keycode
+                             `cast`
+                           (SDL.Input.Keyboard.Codes.N:Keycode[0]) of wild4 { GHC.Int.I32# y ->
+                      case GHC.Prim.==# x y of lwild {
+                        DEFAULT -> GHC.Types.False
+                        1#
+                        -> case ds2 of wild5 {
+                             SDL.Event.Released -> GHC.Types.False
+                             SDL.Event.Pressed
+                             -> case ds3 of wild6 {
+                                  GHC.Types.False -> GHC.Types.True
+                                  GHC.Types.True -> GHC.Types.False } } } } } } } }) -}
+19f4e3a0a899bfce40f07cf8e7923f4f
+  keycodeReleased ::
+    SDL.Input.Keyboard.Codes.Keycode
+    -> SDL.Event.EventPayload -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U(U)><S,1*U>,
+     Unfolding: (\ (keycode :: SDL.Input.Keyboard.Codes.Keycode)
+                   (event :: SDL.Event.EventPayload) ->
+                 case event of wild {
+                   DEFAULT -> GHC.Types.False
+                   SDL.Event.KeyboardEvent ds
+                   -> case ds of wild1 { SDL.Event.KeyboardEventData ds1 ds2 ds3 ds4 ->
+                      case ds4 of wild2 { SDL.Input.Keyboard.Keysym ds5 ds6 ds7 ->
+                      case ds6
+                             `cast`
+                           (SDL.Input.Keyboard.Codes.N:Keycode[0]) of wild3 { GHC.Int.I32# x ->
+                      case keycode
+                             `cast`
+                           (SDL.Input.Keyboard.Codes.N:Keycode[0]) of wild4 { GHC.Int.I32# y ->
+                      case GHC.Prim.==# x y of lwild {
+                        DEFAULT -> GHC.Types.False
+                        1#
+                        -> case ds2 of wild5 {
+                             SDL.Event.Released
+                             -> case ds3 of wild6 {
+                                  GHC.Types.False -> GHC.Types.True
+                                  GHC.Types.True -> GHC.Types.False }
+                             SDL.Event.Pressed -> GHC.Types.False } } } } } } }) -}
+ac1850686ff1517ff5d687a4cd43c661
+  pollEventPayloads' ::
+    Control.Monad.IO.Class.MonadIO m => m [SDL.Event.EventPayload]
+  {- Arity: 1, Strictness: <S(LC(S)),1*U(A,1*C1(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ m :: * -> * ($dMonadIO :: Control.Monad.IO.Class.MonadIO m) ->
+                 Control.Monad.IO.Class.liftIO
+                   @ m
+                   $dMonadIO
+                   @ [SDL.Event.EventPayload]
+                   StreetRun.SDLLayer.pollEventPayloads'1
+                     `cast`
+                   (Sym (GHC.Types.N:IO[0] <[SDL.Event.EventPayload]>_R))) -}
+ca8bbcdd9a4aac9ce13155c61fb296b7
+  pollEventPayloads'1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          [SDL.Event.EventPayload] #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (SDL.Event.$wpollEvents
+                         @ GHC.Types.IO
+                         GHC.Base.$fApplicativeIO
+                         GHC.Base.$fMonadIO1
+                           `cast`
+                         (forall (a :: <*>_N) (b :: <*>_N).
+                          <GHC.Types.IO a>_R
+                          ->_R <a -> GHC.Types.IO b>_R
+                          ->_R Sym (GHC.Types.N:IO[0] <b>_R))
+                         GHC.Base.$fApplicativeIO4
+                           `cast`
+                         (forall (a :: <*>_N). <a>_R ->_R Sym (GHC.Types.N:IO[0] <a>_R))
+                         (\ @ a -> GHC.Base.id @ (GHC.Types.IO a)))
+                        `cast`
+                      (GHC.Types.N:IO[0] <[SDL.Event.Event]>_R)
+                        s of ds { (#,#) ipv ipv1 ->
+                 (# ipv,
+                    GHC.Base.map
+                      @ SDL.Event.Event
+                      @ SDL.Event.EventPayload
+                      SDL.Event.eventPayload
+                      ipv1 #) }) -}
+917238cc465f1c8236f8c3fba2964a1f
+  presentRenderer' ::
+    Control.Monad.IO.Class.MonadIO m =>
+    SDL.Internal.Types.Renderer -> m ()
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(LC(S)),1*U(A,1*C1(U))><L,1*U(U)>,
+     Unfolding: InlineRule (0, True, True)
+                SDL.Raw.Video.renderPresent
+                  `cast`
+                (forall (m :: <* -> *>_N).
+                 <Control.Monad.IO.Class.MonadIO m>_R
+                 ->_R Sym (SDL.Internal.Types.N:Renderer[0])
+                 ->_R <m ()>_R) -}
+1eaf2283f585b6deb9863fc90bf3efe1
+  queryTexture' ::
+    Control.Monad.IO.Class.MonadIO m =>
+    SDL.Video.Renderer.Texture -> m SDL.Video.Renderer.TextureInfo
+  {- Arity: 2, Strictness: <S(LC(S)),1*U(A,1*C1(U))><L,U(U)>,
+     Unfolding: InlineRule (0, True, True)
+                SDL.Video.Renderer.queryTexture -}
+5d4620f05f5a23b46c632703ee181b2d
+  updateWindowSurface' ::
+    Control.Monad.IO.Class.MonadIO m =>
+    SDL.Internal.Types.Window -> m ()
+  {- Arity: 2, Strictness: <S(LC(S)),1*U(A,1*C1(U))><L,U(U)>,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ @ m :: * -> *
+                   (w :: Control.Monad.IO.Class.MonadIO m)
+                   (w1 :: SDL.Internal.Types.Window) ->
+                 case w of ww { Control.Monad.IO.Class.C:MonadIO ww1 ww2 ->
+                 StreetRun.SDLLayer.$wupdateWindowSurface' @ m ww2 w1 }) -}
+trusted: none
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

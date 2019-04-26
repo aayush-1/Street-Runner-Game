@@ -5,7 +5,10 @@ module StreetRun.Config
 
 import qualified SDL
 
-import StreetRun.Resource
+import StreetRun.Assets
+import StreetRun.Assets_1
+import StreetRun.Assets_2
+
 
 data Config = Config
   { cWindow :: SDL.Window

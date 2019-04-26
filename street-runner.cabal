@@ -74,7 +74,9 @@ library
       StreetRun.Types
       StreetRun.Load
       StreetRun.Scene
-      StreetRun.Resource
+      StreetRun.Assets
+      StreetRun.Assets_1
+      StreetRun.Assets_2
       StreetRun.Bolt
       StreetRun.Bolt_1
       StreetRun.Death

@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2019-04-25 22:26:38.920221223 UTC
+2019-04-26 07:49:00.403318567 UTC
 
 interface street-runner-0.0.0-GEoHgSQZcIaHrT8BK7yHRE:StreetRun.Title 8064
-  interface hash: 16e18546dfa3744cf2a96d00f722cb73
-  ABI hash: 7fc5acc47d603fae759ec80e05bc9953
+  interface hash: d226f7f735f79ed5e50feab812ce0485
+  ABI hash: f5fb31d8f149afbdd3fe29ce098e380e
   export-list hash: b086a246cc8dd93e3bfebff4e6d99f5d
   orphan hash: 3f0e510ef550bf06074776c1868b96d0
   flag hash: e9979ed0ba295133ef8188aa5e696ffc
@@ -19,7 +19,8 @@ exports:
   StreetRun.Title.titleStep'
   StreetRun.Title.updateTitle
   StreetRun.Title.Title{StreetRun.Title.titleStep}
-module dependencies: StreetRun.Audio StreetRun.Building
+module dependencies: StreetRun.Assets StreetRun.Assets_1
+                     StreetRun.Assets_2 StreetRun.Audio StreetRun.Building
                      StreetRun.Camera StreetRun.Common StreetRun.Config StreetRun.Font
                      StreetRun.Font_functions StreetRun.Frame StreetRun.Grass
                      StreetRun.HUD StreetRun.Hurdle StreetRun.Hurdle_1 StreetRun.Input
@@ -28,7 +29,7 @@ module dependencies: StreetRun.Audio StreetRun.Building
                      StreetRun.Quake_Grass StreetRun.Quake_Street StreetRun.Renderer
                      StreetRun.Renderer_func_1 StreetRun.Renderer_func_2
                      StreetRun.Resource StreetRun.Runner StreetRun.Runner_func_1
-                     StreetRun.Runner_func_2 StreetRun.SDLInput StreetRun.SDLRenderer
+                     StreetRun.Runner_func_2 StreetRun.SDLLayer StreetRun.SDLRenderer
                      StreetRun.Scenario StreetRun.Scene StreetRun.Sfx StreetRun.Snag
                      StreetRun.Sound_effects StreetRun.State StreetRun.Step
                      StreetRun.Tag StreetRun.Tag_func StreetRun.Types StreetRun.Work
@@ -170,20 +171,20 @@ import  -/  StreetRun.Common ae88f6983cc973a550c263b8148feda8
   $sel:cvQuake:CommonVars 0f93d8dfb992b8c8431fd0dc1f0c54d0
   HasCommonVars 919b4731c41ba51a047a083b8a4cc9c7
   commonVars 0c52cc297fe39f10299147a803dcafdf
-import  -/  StreetRun.Config cf93ae4b11ed31ae458ca135cf881ef9
-  exports: 718448995096e5a0315e80eb460349b2
-  Config 8fee3f2631cead17e5b67aab65a149ae
+import  -/  StreetRun.Config d537956b220fa6e917381a250f3474d9
+  exports: 67f65ea021d4fb0cf4ae01501b50bd2f
+  Config 9c151486d5b66b82caae303edc04126a
 import  -/  StreetRun.Frame bcb622c9bc5c55d3184ab58affcc1b5b
   exports: 061806fa76aa4b4d9f3c174ee83d7084
   frameDeltaSeconds f3a7e06e5c0381d3a81fcee62fef3367
-import  -/  StreetRun.HUD 1b45c563f90a817d6df4d9a2659a5183
+import  -/  StreetRun.HUD 67c25875c022a2408906d37d63f0510d
   exports: e799087feb519c2fa6ec11e1bcb9834b
   HUD dd3aec2a82456c62e19ed6e64162878f
   drawHiscore d9f8935f842a5900f6b8471631f6be0c
 import  -/  StreetRun.Input dc1e62404449c4ef4f763046555938b3
   exports: d5c6fc579c43e57e8ccb72f493e3d8f8
   $sel:iSpace:Input debdce52acaa37df87e66131243c6c87
-import  -/  StreetRun.Load 3dc63bb9369eb1de600fb017ab043f16
+import  -/  StreetRun.Load 0b2c99b1460fc0284ebe0ed44ab70962
   exports: bb94dee51103db3de49f80223cdee067
   HasInput a827a1b40b93ca24fd0678aff14a3874
   getInput 13a07f24b1df74c123ca0a0ea07ffed3
@@ -201,7 +202,7 @@ import  -/  StreetRun.Quake_Grass 8acdd0976725ecdc0aae8148de0e5478
 import  -/  StreetRun.Quake_Street bab4016d1b3ebad7a2b7c1ed285f4529
   exports: 18446ae1546a0ea859bc4b20f064313b
   applyQuakeToStreet 4d4353f102c2f0df8996bf65d95a5a94
-import  -/  StreetRun.Renderer eba9a9e4c8700e42ea509a1bf564c30b
+import  -/  StreetRun.Renderer a69ba77fd8f4ba75b3394f8a84f6545b
   exports: bdc569cebfaf1503ce959a9192a1814c
   Renderer 879b383bd7b1ca67a12fca41ecb57c3d
   backStreetY ccf52ea587c1ecc8ec1796df4caa3d7d
@@ -219,13 +220,13 @@ import  -/  StreetRun.Renderer eba9a9e4c8700e42ea509a1bf564c30b
   getRunnerAnimations 359e34639657617fa9e732d909871035
   grassY a198ec76154c94d6ad1a9049304ad402
   streetY db5e1961b93d8c66656c254e30009db8
-import  -/  StreetRun.Renderer_func_1 b2f8a68dbebb4a5575e9c9404df81f49
+import  -/  StreetRun.Renderer_func_1 87b11dfcfe20c3a1685ab67cfe255c84
   exports: cd995c9f02033435bf3d7151e24e6a3d
-import  -/  StreetRun.Renderer_func_2 4d5a7c4dba8ccd5d139bd424e7e60331
+import  -/  StreetRun.Renderer_func_2 87fc080bf0dac60d05d8fd44dced694f
   exports: acb7c593e3b7f4916cf72f231a22b161
 import  -/  StreetRun.Runner d3359c007392b06d1628d1e8bb37f9ba
   exports: 07dc0a302095db6221f41ecc2db9aec7
-import  -/  StreetRun.Runner_func_1 ecc488ef1c2226e946880fe6b01c6046
+import  -/  StreetRun.Runner_func_1 1928ba54f43a20365598e5563c7061e0
   exports: 3aace68dd54e293b9e7cb9629aa29f15
 import  -/  StreetRun.Runner_func_2 f8a14e2b7b30d725c8ce0939a4c26918
   exports: fc83ba710a96fc8b5794a82f528d2b01
@@ -396,7 +397,7 @@ fd9ee9f44b91ce89af456ee8e77d61f3
   class GHC.Base.Monad m => Title (m :: * -> *) where
     titleStep :: m ()
     {-# MINIMAL titleStep #-}
-76cfb19170ad056de1805594b8fb9ba2
+de17c80c3f10e98a85a6b41fce49398a
   drawTitle ::
     (StreetRun.Tag_func.HasTitleVars s,
      StreetRun.Common.HasCommonVars s,
@@ -433,7 +434,7 @@ fd9ee9f44b91ce89af456ee8e77d61f3
                    w3
                    w4
                    w7 } }) -}
-f2450eba4e99297e84a356a33bed844c
+af0da93f42069e383d4c68aaec067ea0
   titleStep' ::
     (StreetRun.Tag_func.HasTitleVars s,
      StreetRun.Common.HasCommonVars s,
@@ -474,7 +475,7 @@ f2450eba4e99297e84a356a33bed844c
                    w5
                    w6
                    w7 } }) -}
-1739c2442a7d70efbb1942d1bbe83c46
+73b3ba392f2d50f69f335431ea2ac537
   updateTitle ::
     (StreetRun.Tag_func.HasTitleVars s,
      StreetRun.Common.HasCommonVars s,
